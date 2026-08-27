@@ -1,0 +1,2732 @@
+Date: Thu, 27 Aug 2026 09:25:34 -0400 (EDT)
+Message-ID: <552470230.57855.1787837134943@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_57854_967360149.1787837134943"
+
+------=_Part_57854_967360149.1787837134943
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>PRD User Notifications - Email</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>PRD User Notifications - Email</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"PRDUserNotificationsEmail-TableofContents">Table of Conte=
+nts</h1>
+<p>
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1787837134916 {padding: 0px;}
+div.rbtoc1787837134916 ul {margin-left: 0px;}
+div.rbtoc1787837134916 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1787837134916">
+ <ul class=3D"toc-indentation">
+  <li><a href=3D"#PRDUserNotificationsEmail-TableofContents">Table of Conte=
+nts</a></li>
+  <li><a href=3D"#PRDUserNotificationsEmail-FeaturePositioning">Feature Pos=
+itioning</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUserNotificationsEmail-FeatureOverview">Feature Over=
+view</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-ProblemStatement">Problem Sta=
+tement</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#PRDUserNotificationsEmail-CurrentLandscape-EmailNotif=
+ications">Current Landscape - Email Notifications</a></li>
+      <li><a href=3D"#PRDUserNotificationsEmail-Operational&amp;Consumption=
+Metrics">Operational &amp; Consumption Metrics</a></li>
+      <li><a href=3D"#PRDUserNotificationsEmail-KeyChallengestoSolve">Key C=
+hallenges to Solve</a></li>
+      <li><a href=3D"#PRDUserNotificationsEmail-Vulnerabilities&amp;Frictio=
+nsinCurrentCXProcesses">Vulnerabilities &amp; Frictions in Current CX Proce=
+sses</a></li>
+     </ul></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-BenefitsHypothesis">Benefits =
+Hypothesis</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-FeatureObjectives&amp;Metrics=
+">Feature Objectives &amp; Metrics</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-TargetAudience">Target Audien=
+ce</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUserNotificationsEmail-FeatureScope">Feature Scope</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUserNotificationsEmail-InScope">In Scope</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-OutofScope">Out of Scope</a><=
+/li>
+    <li><a href=3D"#PRDUserNotificationsEmail-KeyAssumptions">Key Assumptio=
+ns</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-KeyDependencies">Key Dependen=
+cies</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUserNotificationsEmail-FeatureRequirements">Feature Re=
+quirements</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUserNotificationsEmail-1-EmailOrchestration">1 - Ema=
+il Orchestration</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-2-EmailSubscriptionExperience=
+">2 - Email Subscription Experience</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-3-EmailService&amp;TemplateMa=
+nagement">3 - Email Service &amp; Template Management</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-4-TargetListCommunication(TBD=
+)-FuturePhase">4 - Target List Communication (TBD) - Future Phase</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUserNotificationsEmail-OperationalImpact&amp;Considera=
+tions">Operational Impact &amp; Considerations</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUserNotificationsEmail-FeaturePriority&amp;Dependenc=
+ies">Feature Priority &amp; Dependencies</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUserNotificationsEmail-FeatureDistributions">Feature D=
+istributions</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUserNotificationsEmail-FeatureAssignment">Feature As=
+signment</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#PRDUserNotificationsEmail-CapabilityMapping">Capabili=
+ty Mapping</a></li>
+      <li><a href=3D"#PRDUserNotificationsEmail-FeaturePackaging&amp;Assign=
+ment">Feature Packaging &amp; Assignment</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDUserNotificationsEmail-Firm-levelAssignment">Fir=
+m-level Assignment</a></li>
+        <li><a href=3D"#PRDUserNotificationsEmail-User-levelAssignment">Use=
+r-level Assignment</a></li>
+       </ul></li>
+     </ul></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-FeatureRoll-OutPlan">Feature =
+Roll-Out Plan</a></li>
+    <li><a href=3D"#PRDUserNotificationsEmail-FeatureDecommissionPlan">Feat=
+ure Decommission Plan</a></li>
+   </ul></li>
+ </ul>
+</div>
+<p></p>
+<h1 id=3D"PRDUserNotificationsEmail-FeaturePositioning">Feature Positioning=
+</h1>
+<h2 id=3D"PRDUserNotificationsEmail-FeatureOverview">Feature Overview</h2>
+<p>User Notifications feature goal is to <span>enable effective &amp; consi=
+stent email communication from NBIN to Compass Users &amp; Firms users by r=
+eplacing the existing legacy R2 tools and enabling common services that can=
+ be leveraged across NBIN streams for Transactional, Operational, Regulator=
+y &amp; Marketing&nbsp; types of communication.</span></p>
+<p>This is a first step to move towards our vision of having contextual, pe=
+rsonalized and effortless communication with Compass Users and Client Firms=
+.</p>
+<ol>
+ <li data-uuid=3D"59f6301f-33a6-42bf-a184-bfb7c78c01d1">Streamlining of cli=
+ent communications based on user needs &amp; preferences (i.e. help make co=
+mms digestible, manageable, as-needed),&nbsp;</li>
+ <li data-uuid=3D"4d5e532d-e57c-41e5-a7c3-e49cbf3b0c1d">Make available a ra=
+nge of channels and targeting capabilities for NBIN teams to reach their in=
+tended audience effectively. - SMS, In-app notifications</li>
+ <li data-uuid=3D"49ff52c7-727d-4686-b5e7-11e2d31c14ee"><span style=3D"colo=
+r:#000000;"><span>Automate communication tasks to reduce manual effort requ=
+ired by NBIN teams.</span></span></li>
+ <li data-uuid=3D"a1408f94-aed2-4478-bdec-0b5a270956fe"><span style=3D"colo=
+r:#000000;"><span>Enabling common services to support firm- centered commun=
+ication.</span></span></li>
+ <li data-uuid=3D"cf6dcee0-d4b7-4c39-825d-be90ebc1028b"><span style=3D"colo=
+r:#000000;"><span>Enabling common services to support communication for eng=
+agement channels</span></span></li>
+</ol>
+<h2 id=3D"PRDUserNotificationsEmail-ProblemStatement">Problem Statement</h2=
+>
+<p>The way we manage client communications today is complex, labor-intensiv=
+e, and at times ineffective for clients to consume.&nbsp; As we continue to=
+ transition more to our platform where new capabilities like real-time, in-=
+app notifications are supported, there is a significant opportunity for imp=
+roving relevancy, timeliness, and effectiveness of&nbsp; user communication=
+.&nbsp;</p>
+<p>Key reasons for working on this now (2026):</p>
+<ol>
+ <li data-uuid=3D"63848c36-74b6-40c5-ac58-4025683ddf53">Support the organiz=
+ational goal of converging into a single platform navigation by end of 2026=
+:=20
+  <ol>
+   <li data-uuid=3D"c60c6fb1-e889-4f59-b0ff-8af8894b68ff">Requires critical=
+ legacy platform functions to be migrated, including the replacement of ema=
+il notifications utility for users and existing in-app channels</li>
+   <li data-uuid=3D"fca0fa6f-2716-4515-9867-335e7ef47929">Requires specific=
+ally the system health status + related notifications to be fully supported=
+ by end of Q2, when most Tools &amp; Apps will be migrated to new Compass</=
+li>
+  </ol></li>
+ <li data-uuid=3D"d764da84-073e-450b-9416-7ff791b971be">Two platform naviga=
+tion leading to user overload and impacting client satisfaction and user ex=
+perience<br>
+  <ol>
+   <li data-uuid=3D"0882d02b-f720-4143-9de7-6f2da17b3091">Multiple clicks r=
+equired for the user to subscribe/unsubscribe to email notifications and ac=
+cess announcements through bulletins.</li>
+   <li data-uuid=3D"a341a6da-4d76-4830-8c3c-386958ace162">Inconsistent user=
+ experience between CX and R2 with regards to system health communication w=
+ithin the application</li>
+  </ol></li>
+ <li data-uuid=3D"c0f23804-63e8-407b-9dce-d8d0370f1570">Growing inefficienc=
+ies for NBIN teams specifically around product-related release / outage com=
+munications across two platforms, which is unsustainable</li>
+</ol>
+<h3 id=3D"PRDUserNotificationsEmail-CurrentLandscape-EmailNotifications">Cu=
+rrent Landscape - Email Notifications</h3>
+<ul>
+ <li data-uuid=3D"16ce7a0a-bef7-4eb1-b459-a59f9a3cc5a1">Email is the primar=
+y channel used by NBIN teams for communication with Compass users and Clien=
+t Firms</li>
+ <li data-uuid=3D"15f92e71-7bbe-440b-802d-fa1c2b785a81">Limited in-app noti=
+fications channels and primarily managed through application status and cli=
+ent bulletins</li>
+ <li data-uuid=3D"f5c50485-bec7-4995-8f87-c48fe151e40c">We have system driv=
+en email notifications primarily from Legacy as well as manual communicatio=
+n triggered by NBIN teams</li>
+ <li data-uuid=3D"4c461022-ed44-4641-9383-4b649f56f042">Notification prefer=
+ences are managed in Compass Legacy. (for Legacy apps only)</li>
+ <li data-uuid=3D"791fcea7-bbb1-4c30-b125-6fb3432aaa23">High-level types em=
+ail communications at NBIN</li>
+</ul>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 81=
+.7524%;">
+  <colgroup>
+   <col style=3D"width: 14.5639%;">
+   <col style=3D"width: 13.2847%;">
+   <col style=3D"width: 35.3274%;">
+   <col style=3D"width: 17.5169%;">
+   <col style=3D"width: 19.2874%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">
+     <p>Channel</p></th>
+    <th class=3D"confluenceTh">
+     <p>Type</p></th>
+    <th class=3D"confluenceTh">
+     <p>Category &amp; Notifications</p></th>
+    <th class=3D"confluenceTh">
+     <p>Criteria</p></th>
+    <th class=3D"confluenceTh">
+     <p>Source</p></th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Email - R2 Targeted Services</p>
+     <p><em><strong>(In Scope)</strong></em></p></td>
+    <td class=3D"confluenceTd">Transactional&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <p><strong>FYA or Time Sensitive</strong></p>
+     <ul>
+      <li data-uuid=3D"fb0c828b-078e-44f3-a5ce-1100b58072d9">Options Commis=
+sion</li>
+      <li data-uuid=3D"e17a72a2-e320-4126-b4d8-ebba2b6b3eb0">GDI Rejection<=
+/li>
+      <li data-uuid=3D"7e20cc7c-5b1d-4377-ac38-dceb7f2564b8">GDI Validation=
+ error</li>
+      <li data-uuid=3D"20a06907-57f9-457e-a7a6-1c1f2220bbfe">File Upload Re=
+jection&nbsp;</li>
+     </ul>
+     <p><strong>Active or Need to know</strong></p>
+     <ul>
+      <li data-uuid=3D"3ae6ef38-bfda-491f-8271-fca7f8f5ead7">Options Expiry=
+</li>
+      <li data-uuid=3D"f182db4a-c1ec-4431-b150-2e74f08fbac6">Payment Alert<=
+/li>
+      <li data-uuid=3D"0112bec4-b88f-4a6c-bae0-72f241a75b33">Re-org</li>
+      <li data-uuid=3D"2d9c0502-c662-447e-9d5f-e79c2eefdef9">New GIC order =
+book</li>
+      <li data-uuid=3D"2c73d1af-aba0-4252-bf6a-3bed631a3fa9">Account Transf=
+ers</li>
+      <li data-uuid=3D"762333ed-101f-466b-bccf-ca768596b858">DRIP</li>
+      <li data-uuid=3D"50cadd43-ed53-470c-8c80-99af439aed1c">Tax Correction=
+ Update</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>User access &amp; user opt-in &amp; user permissions (rr range/role=
+)</p></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"text-align: left;">
+      <li class=3D"paragraph-child" data-uuid=3D"a27fc5fe-dec5-486f-95c4-c3=
+0dcbb7f78a"><span>AS400 (maturing instrument, DRIP, Option position, Accoun=
+t transfer) or R1 (re-org notifications, tax correction)&nbsp;</span></li>
+      <li class=3D"paragraph-child" data-uuid=3D"eac71d18-3a15-4695-83bb-9d=
+2fc15bc9cc"><span>MQ messages generated by iMost (GDI notifications)</span>=
+</li>
+      <li class=3D"paragraph-child" data-uuid=3D"124aaec6-d3c4-4cdb-99bc-4c=
+ed9478e757"><span>request status (file upload)</span></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Email - R2 Publication Services</p>
+     <p><em><strong>(In scope)</strong></em></p></td>
+    <td class=3D"confluenceTd">
+     <p>Transactional</p>
+     <p>Operational</p></td>
+    <td class=3D"confluenceTd">
+     <p><strong>Passive or FYI:</strong></p>
+     <ul>
+      <li>Research &amp; Analysis</li>
+      <li data-uuid=3D"515d3c61-6742-4963-b6e0-b8f7dc65c553">Client Bulleti=
+ns</li>
+     </ul>
+     <p><strong>Critical or Alerts</strong></p>
+     <ul>
+      <li>Application Status</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>User access &amp; user opt in.</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"2eadffe1-30a0-4363-9385-ee5db6083e7d">CMS generated/=
+Oneclick</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Email - NBIN Communication (manual emails)</p>
+     <p><em><strong>(TBD)</strong></em></p></td>
+    <td class=3D"confluenceTd">Marketing, Operational &amp; Regulatory</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e5c9a971-a88e-4605-ae5a-e2c79eafab4c">SFTP/MFT notif=
+ications</li>
+      <li data-uuid=3D"4907410d-2844-414a-89c1-a17938f52145">Policy and pro=
+cess updates (new forms, reg. changes, etc.)</li>
+      <li data-uuid=3D"99a6fdf0-d857-43d5-91bd-8c46cd1819cc">Operational no=
+tices (interest rates, tax reporting dates, security awareness, holiday hou=
+rs, etc.)</li>
+      <li data-uuid=3D"0a77c8f8-432b-4efd-be38-45e25d738b39">Operational ca=
+ll to actions (statements inserts, user attestations, etc.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">As per target communication list</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"67d0bcdb-40db-4b87-8317-45f73f9d8bc2">Offline/Manual=
+</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-Operational=
+&amp;ConsumptionMetrics">Operational &amp; Consumption Metrics</h3>
+<p style=3D"text-align: left;"><span>Email notification subscribers &amp; v=
+olumes</span></p>
+<p style=3D"text-align: left;"><span><span class=3D"confluence-embedded-fil=
+e-wrapper confluence-embedded-manual-size"><img class=3D"confluence-embedde=
+d-image confluence-external-resource" draggable=3D"false" height=3D"150" sr=
+c=3D"https://nbin.aha.io/attachments/7483967076163137103/token/7c8456b0482a=
+be55de42efb87f85c0c1e10c8098b1f47e2c4d7e7e5827dbac22.download?size=3Dorigin=
+al" data-image-src=3D"https://nbin.aha.io/attachments/7483967076163137103/t=
+oken/7c8456b0482abe55de42efb87f85c0c1e10c8098b1f47e2c4d7e7e5827dbac22.downl=
+oad?size=3Doriginal"></span></span></p>
+<p style=3D"text-align: left;"><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+09.0px;">
+  <colgroup>
+   <col style=3D"width: 265.0px;">
+   <col style=3D"width: 185.0px;">
+   <col style=3D"width: 194.0px;">
+   <col style=3D"width: 181.0px;">
+   <col style=3D"width: 183.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notification</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Monthly Emails to external users (Avg Jan-Mar'25)</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">External Monthly Users (Avg Jan-Mar'25)</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Emails per users (Avg Jan-Mar'25)</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NBIN Monthly Users (Avg Jan-Mar'25)</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>Critical</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Application Status Update</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">18048</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1053</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">17</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">59</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>FYA</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Options Commission Notification</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2268</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">568</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">4</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">294</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">GDI Rejection Message</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1826</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1111</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">408</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">GDI Validation Error</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1277</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">780</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">209</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>FYI - Bulletins</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NBIN Admin Bulletins</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2871</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1412</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">64</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Department Bulletin</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">662</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">677</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">36</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>FYI - Others</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Positions of options expiring&nbsp;</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">711</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">413</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">210</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Account Payment Alert</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1908</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">42</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">45</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>FYI- Publication</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Economic News</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">4004</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">312</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">13</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">257</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Mutual Fund Flash</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">3857</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">287</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">13</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">15</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Economic Monitor</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">485</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">254</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">204</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">PWM - Research Reports</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">389</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">192</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">231</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Fixed Income Monitor</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">162</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">167</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">179</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Equity Monitor</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">162</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">250</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">214</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Capital Economics</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">141</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">5</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">28</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">166</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Vision Monthly</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">134</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">205</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">224</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Preferred Shares</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">120</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">183</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">295</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Convertible Debentures</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">110</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">112</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">141</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Asset Allocation Strategy</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">94</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">262</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">0</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">241</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Forex</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">2</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">4</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">168</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><strong>Others</strong></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">REORG</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">100846</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">5225</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">19</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1371</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NEW GICs Order Book</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">39</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">1</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd">39</td>
+    <td style=3D"text-align: center;vertical-align: top;" class=3D"confluen=
+ceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"PRDUserNotificationsEmail-KeyChallengestoSolve">Key Challenges to=
+ Solve</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 87=
+.1383%;">
+  <colgroup>
+   <col style=3D"width: 6.64684%;">
+   <col style=3D"width: 33.4209%;">
+   <col style=3D"width: 59.9138%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Impact</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Challenges</span></strong><span>=E2=80=8B</span></p><=
+/td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Details</span></strong><span>=E2=80=8B</span></p></td=
+>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span>High</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><span>Fragmented system navigation across two&nbsp;</span><span>pla=
+tforms causes missed messages&nbsp;</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"f5a168fb-a345-4325-ad8c-dffe28120119"><span>Poor use=
+r experience as users need to navigate to legacy to access bulletins, email=
+&nbsp;</span><span>subscription, application status</span><span>=E2=80=8B</=
+span></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span>High</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><span>Missing tools&nbsp;to effectively communicate&nbsp;</span><sp=
+an>incidents and downtimes to users for R2</span><span>=E2=80=8B</span></p>=
+</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"03ecde8a-8f30-45c9-97a8-944aa93dc743"><span>Email no=
+tifications required to complete CX application status workflow</span><span=
+>.</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"79d281c6-912e-44fa-9eeb-0cf6c6c293fd"><span>Inconsis=
+tent communication&nbsp;as system health features is available in R2 and no=
+t in&nbsp;</span><span>CX.</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"c63c6c5a-de34-4f39-ae5f-d34f6e61175f"><span>Tools &a=
+mp; Apps migration to CX would further compound the&nbsp;</span><span>probl=
+em</span><span>=E2=80=8B</span></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span>High</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><span>Users complain of both email overload and&nbsp;</span><span>t=
+oo few emails</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3328ae53-0ee2-4255-83a3-f58e8f0a8177"><span>Inconsis=
+tent templates, multiple email ids and lack of&nbsp;</span><span>personaliz=
+ation</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"a63914f7-82d3-4439-b507-a9a2b462080e"><span>Limited =
+differentiators for critical and time sensitive emails</span><span>=E2=80=
+=8B</span></li>
+      <li data-uuid=3D"5319e216-7dd5-4a69-9a57-4fecc1432e04"><span>Poor awa=
+reness of the email opt in feature and functioning</span><span>=E2=80=8B</s=
+pan></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span>High</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><span>Legacy email service has reached end of life</span><span>=E2=
+=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"772bbbbe-2955-4034-aab5-373e1f259fe3"><span>Highly c=
+omplex to introduce new notifications or make modifications to existing one=
+s</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"0ca33de3-29c0-4673-9fcd-5ac444990ce4"><span>Limited =
+targeting, personalization and&nbsp;analytics capabilities</span><span>=E2=
+=80=8B</span></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span>Medium</span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><span>No consolidated notification history/analytics</span><span>=
+=E2=80=8B</span></p>
+     <p><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c147c632-3228-46f8-81de-d8302bd159df"><span>Users ne=
+ed significant effort to locate communications from NBIN leading to poor&nb=
+sp;</span><span>engagement and increased service calls.</span><span>=E2=80=
+=8B</span></li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-Vulnerabili=
+ties&amp;FrictionsinCurrentCXProcesses">Vulnerabilities &amp; Frictions in =
+Current CX Processes</h3>
+<p>Reference to full user journey and pain point analysis -&nbsp;<a href=3D=
+"/spaces/COMPASS/pages/2285907955/2.+Journey+Map+-+Notifications#id-2.Journ=
+eyMapNotifications-2.JourneyMapNotifications-JourneyMap-NotificationCommuni=
+cation"> Journey Map - Notifications#2.JourneyMapNotifications-JourneyMap-N=
+otificationCommunication</a></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 82=
+.717%;">
+  <colgroup>
+   <col style=3D"width: 11.5748%;">
+   <col style=3D"width: 19.9398%;">
+   <col style=3D"width: 27.2348%;">
+   <col style=3D"width: 19.9398%;">
+   <col style=3D"width: 21.2913%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Email Subscription</th>
+    <th scope=3D"col" class=3D"confluenceTh">Content &amp; Template Managem=
+ent=E2=86=92</th>
+    <th scope=3D"col" class=3D"confluenceTh">Email Orchestration=E2=86=92</=
+th>
+    <th scope=3D"col" class=3D"confluenceTh">Email Service</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Current CX Activities&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"bc710587-1e09-4d88-9846-ec88a42ff704">CX users need =
+to opt-in for emails notifications through R2</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"4c45252a-6e12-4272-aed0-df888db7a25b">NPAT tool used=
+ for template management and targeting rules</li>
+      <li data-uuid=3D"ca282908-86eb-46dc-ab1a-497e66b08cc7">Emails from NB=
+IN communications follow organization guidelines&nbsp;</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3a8d81c1-ce92-4caa-abc5-1a5306a1d110">Orchestration =
+is managed through the one click database</li>
+      <li data-uuid=3D"9386ab8e-7e39-4924-a246-c1ae17941eab">The jobs are s=
+plit between two services - published notifications, targeted notifications=
+.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e0e4772d-6693-4108-8daa-abdb41bb3f53">Windows server=
+ based server used for emails</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Friction &amp; Pain Points</td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"text-align: left;">
+      <li data-uuid=3D"b5dbac94-e5d9-4706-bdd7-0c335764a5cd">Lack of awaren=
+ess for email subscription feature among users.</li>
+      <li data-uuid=3D"2abb6c6a-6600-4f70-9210-bbeccb0a743f">Client distrib=
+ution list being maintained offline and hence not consumed by legacy email =
+service.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"306a7124-ec17-4d48-bded-348f54007930">Unable to use =
+legacy services for onboarding CX notifications (App status)</li>
+      <li data-uuid=3D"8312fc45-12bf-457d-8520-567472119578"><span style=3D=
+"color:#333333;">Bulletins<span>&nbsp;</span></span><span style=3D"color:#3=
+33333;">don=E2=80=99t</span><span style=3D"color:#333333;"><span>&nbsp;</sp=
+an>support<span>&nbsp;</span></span><span style=3D"color:#333333;">targeted=
+ comms and<span>&nbsp;</span></span><span style=3D"color:#333333;">hence ma=
+nual email channels<span>&nbsp;</span></span><span style=3D"color:#333333;"=
+>need to be used</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e2061f7c-033e-482e-8849-a77af94a33c9">We are unable =
+to onboard CX notifications through this service</li>
+      <li data-uuid=3D"fd86fbb3-e61a-4aa2-8cce-cc2c5b95e63d">Service reache=
+d end of life and needs to be decommissioned to address security vulnerabil=
+ity</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"f8add7d4-f63f-4be8-9752-e998322deee9">Limited analyt=
+ics capabilities</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Lessons learned from legacy services</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"58b62ada-1823-4077-9b7d-4270d1851549"><span>For new =
+users all R2 </span><span>notifications are opted out by&nbsp;</span><span>=
+default instead of default opt-in</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"56ba3a41-4278-4d91-879f-770387b39bbe">Limited in-app=
+ communication capabilities and presents an opportunity for building new ca=
+pabilities.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"0793e2f7-01d0-4ab2-ba48-e4a91f7d9d21">Services needs=
+ to consume events from multiple sources</li>
+      <li data-uuid=3D"5c071f67-c14e-468a-9de8-6e42e878cae7">Rule based tar=
+geting must have for successful orchestration service</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"452ad8d2-a4d8-4628-85f1-f065cabce587">Service needs =
+to be more modern as expanded to multiple channels</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"PRDUserNotificationsEmail-BenefitsHypothesis">Benefits Hypothesis=
+</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 87=
+.5402%;">
+  <colgroup>
+   <col style=3D"width: 10.2009%;">
+   <col style=3D"width: 7.35197%;">
+   <col style=3D"width: 7.90337%;">
+   <col style=3D"width: 74.5254%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Dimension</th>
+    <th scope=3D"col" class=3D"confluenceTh">Reach</th>
+    <th scope=3D"col" class=3D"confluenceTh">Impact</th>
+    <th scope=3D"col" class=3D"confluenceTh">Rationale</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Score (1-7)</td>
+    <td class=3D"confluenceTd">6</td>
+    <td class=3D"confluenceTd">3</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Client</td>
+    <td class=3D"confluenceTd">7</td>
+    <td class=3D"confluenceTd">3</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"d7b31339-0286-46ff-846a-5023a465dd72">Affects all cl=
+ients</li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"2cb42868-5145-4c2a-ae86-563944dc3687">
+       <p><span style=3D"color:#000000;"><span>Reduce Email Overload - In-a=
+pp communication capabilities open up a new channel for communication and a=
+llows users to access all communication within a centralized location in CX=
+.&nbsp; This also allows us to eliminate the need for email distribution wh=
+ere it is suboptimal / not the correct channel (e.g. what's changing, plann=
+ed maintenances)</span></span></p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"3dd49a87-82d2-44d2-a88c-c2e4eb3ed9dc">
+       <p><span style=3D"color:#000000;"><span>User Efficiency: personalize=
+d communication and classification of communication allows user to easily l=
+ocate details without missing any critical communication thereby increasing=
+ user efficiency. </span></span></p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"e10138f7-da8d-412e-8646-4957390479a8">
+       <p><span style=3D"color:#000000;"><span>Task prioritization - Allows=
+ users to easily prioritize tasks due to the ability to differentiate and i=
+dentify time sensitive tasks</span></span></p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"76d081b2-3b2a-41ed-b98a-30446160a883">
+       <p><span style=3D"color:#000000;"><span>Awareness - Allows users to =
+be aware of all latest information and updates due to consistency and impro=
+vements in communications from NBIN</span></span></p></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Financial</td>
+    <td class=3D"confluenceTd">-</td>
+    <td class=3D"confluenceTd">2</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"04dc762a-ba81-40a1-973f-914fc700221e">
+       <p><span style=3D"color:#000000;"><span>User Engagement: Enables us =
+to increase user engagement thereby increasing CX adoption.</span></span></=
+p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"35472218-e0dd-462d-acef-3f523564d202">
+       <p><span style=3D"color:#000000;"><span>CSAT: This feature would res=
+ult in increased customer satisfaction and communication has been a pain po=
+int for our clients for long.</span></span></p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"35035564-6636-4b27-bccd-62bce091da67">
+       <p><span style=3D"color:#000000;"><span>Cost Savings: Decom legacy t=
+ools and bring consistency across all NBIN communications. Eliminate dual-m=
+aintenance on system-related comms.</span></span></p></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"a4cb3aa1-b8dd-4a7b-90cb-5c97745b3bb6">
+       <p><span style=3D"color:#000000;"><span>Automation - Reduce manual e=
+fforts across NBIN teams</span></span></p></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">-</td>
+    <td class=3D"confluenceTd">2</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"1129ad16-e69b-4ab7-a17a-d6410d3d0faf">Security vulne=
+rabilities - Must have feature to decommission R2 services and address secu=
+rity vulnerabilities associated with legacy platforms</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Employee</td>
+    <td class=3D"confluenceTd">2</td>
+    <td class=3D"confluenceTd">6</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"513df523-9e18-4049-99d5-87237e0997a7">
+       <p><span style=3D"color:#000000;"><span>Enhanced capabilities: Abili=
+ty to support new use cases which are current capabilities don't support (i=
+n-app communication, targeted, personalized communication)</span></span></p=
+></li>
+      <li class=3D"fontSize-child textColor-child paragraph-child" data-uui=
+d=3D"98383256-3b4d-4b11-a391-088b8f3515cb"><span style=3D"color:#000000;"><=
+span>Automation- Reduce manual efforts across NBIN teams</span></span></li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><span style=3D"color:#000000;"><span>&nbsp;</span></span></p>
+<h2 id=3D"PRDUserNotificationsEmail-FeatureObjectives&amp;Metrics">Feature =
+Objectives &amp; Metrics</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 87=
+.8617%;">
+  <colgroup>
+   <col style=3D"width: 4.48627%;">
+   <col style=3D"width: 38.0875%;">
+   <col style=3D"width: 57.4079%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Feature Goal</th>
+    <th scope=3D"col" class=3D"confluenceTh">KPI</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>1</p></td>
+    <td class=3D"confluenceTd">
+     <p><span>Replace the legacy email notification services and migrate ex=
+isting notifications to the new service</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"aca53feb-1705-4dfe-b72f-c4f1d2721f86">All email noti=
+fications to be driven basis CX user profile</li>
+      <li data-uuid=3D"fa775daf-e66b-4c18-a944-f6709e8a275a">Decommission l=
+egacy windows email server, NPAT tool for email templating &amp; orchestrat=
+ion services for event generation</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2</td>
+    <td class=3D"confluenceTd">Enable NBIN teams to onboard new email notif=
+ications seamlessly</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"23ffcffe-8e00-492f-8519-34491754c514">Enable new not=
+ifications from CX - Application Status</li>
+      <li data-uuid=3D"b6e882bf-f793-44e9-9cfe-f29a531017ac">Operationalize=
+ new notification onboarding and maintenance of notifications.</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3</td>
+    <td class=3D"confluenceTd">Support long-term NBIN strategy of having om=
+nichannel communication</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"1fa7a89c-10c9-4dde-a4b7-343feab9482e">Reusable capab=
+ilities which support future enhancements</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h2 id=3D"PRDUserNotificationsEmail-TargetAudience">Target Audience</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 87=
+.8617%;">
+  <colgroup>
+   <col style=3D"width: 19.5948%;">
+   <col style=3D"width: 35.0691%;">
+   <col style=3D"width: 45.3178%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Impacted Users &amp; Firms</th=
+>
+    <th scope=3D"col" class=3D"confluenceTh">Goals</th>
+    <th scope=3D"col" class=3D"confluenceTh">Key Needs &amp; Behavior</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Clients - Advisor &amp; specialist roles</p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e2b81477-477c-40e5-8c96-967f2b3c5005">Want to quickl=
+y execute their tasks but are active on Compass for only a few hours in a d=
+ay</li>
+      <li data-uuid=3D"48db47d0-96b3-45fd-85ba-36bc5cfc5821">In some cases =
+Compass users don't login everyday but want to know if there is any update =
+or change in status</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"7db1d8c8-9ae3-47ad-9209-ae904c8c4a66">CX users shoul=
+d seamlessly be able to opt-in or opt-out out of email notifications basis =
+their individual needs</li>
+      <li data-uuid=3D"bce7ca36-9baa-489b-8a2d-2dc5325f14d5">CX users shoul=
+d to receive timely notifications which improve their work efficiency</li>
+      <li data-uuid=3D"ecbc39a8-3de9-4b34-bc26-cb96e311ac91">CX users shoul=
+d easily be able to identify the criticality, time sensitivity and expected=
+ action of each communication</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Clients - Firm Admins</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3ded36c3-4fa7-46dc-9e8b-005138bc9133">For larger IB =
+firms the firm admins want to be gatekeeper for all communication sent to a=
+dvisors</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"b21042a4-fcb8-4b43-aec6-0c9b6dbf036e">Admins want ad=
+vance intimation of new launches</li>
+      <li data-uuid=3D"f1dcbf3d-2071-48a0-b861-f0824ee06cab">Admins want to=
+ know about regulatory and compliance changes first</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>NBIN Teams -Product,&nbsp; Support &amp; Communications</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9a346da7-d8bf-4e96-8cee-d976d652c013">Increase user =
+engagement and Compass adoption</li>
+      <li data-uuid=3D"8ec5cadc-ee3a-4dba-9b28-7dd3dd8a9491">Reduce manual =
+overload associated with email management</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"17edd8dc-8822-4c5c-93e8-2b78b0a45213">Capabilities t=
+hat allow NBIN teams to modify existing and introduce new notifications</li=
+>
+      <li data-uuid=3D"add75452-f72b-4ab4-b838-9b278e95c139">Self-serve cap=
+ability that enable setting up templates and rules for communication</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>NBIN Teams - Service</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"37fa9d63-f856-4012-b79c-9287fcc3daa6">Want clients t=
+o have self-serve capabilities&nbsp;</li>
+      <li data-uuid=3D"7f5aedd5-217c-4417-b6e5-2b68fd0f82af">Want lower que=
+ries received from clients by providing upfront and accessible communicatio=
+n</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"af326534-2c0f-49e0-a3a5-6f6188ae0e18">Service teams =
+spend considerable amount of time updating clients on latest developments d=
+ue to lack of centralized communication in Compass.</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h1 id=3D"PRDUserNotificationsEmail-FeatureScope">Feature Scope</h1>
+<h2 id=3D"PRDUserNotificationsEmail-InScope">In Scope</h2>
+<ul>
+ <li class=3D"paragraph-child" data-uuid=3D"7a4c6405-7dd8-4f8d-9576-7be28be=
+c2d9e">
+  <p><span>List of email notifications that are available today in R2 -&nbs=
+p;<a data-linked-resource-container-id=3D"2230202561" data-linked-resource-=
+container-version=3D"29" data-linked-resource-content-type=3D"application/v=
+nd.openxmlformats-officedocument.spreadsheetml.sheet" data-linked-resource-=
+default-alias=3D"Email Prferences- R2.xlsx" data-linked-resource-id=3D"2230=
+202649" data-linked-resource-type=3D"attachment" data-linked-resource-versi=
+on=3D"1" data-nice-type=3D"Excel Spreadsheet" href=3D"https://wiki.bnc.ca/d=
+ownload/attachments/2230202561/Email%20Prferences-%20R2.xlsx?version=3D1&am=
+p;modificationDate=3D1744810586946&amp;api=3Dv2" rel=3D"nofollow">Email Pre=
+ferences- R2.xlsx</a></span></p></li>
+ <li class=3D"paragraph-child" data-uuid=3D"3ad4cfbe-85a6-47e3-9ff5-e07c356=
+29c61">
+  <p><span>Users have an option to select the services for which they would=
+ like to receive email notifications, change the email id on which notifica=
+tions are received and ability to stop notifications during vacation.</span=
+></p></li>
+ <li class=3D"paragraph-child" data-uuid=3D"29aae0ab-e397-414f-9d42-4a97ec3=
+c6650"><span>Following notifications are not mentioned in the above list bu=
+t are currently available and opted-in by default- Option Commission, Optio=
+ns Positions, Account Transfers &amp; re-org notifications</span></li>
+ <li class=3D"paragraph-child" data-uuid=3D"60cb8f86-9a5a-40e0-a6e2-c277d07=
+5bb6b"><span>R2 classifies notifications into Services - any publication, b=
+ulletins etc or Targeted - notifications where RR code ranges are checked p=
+rior to triggering notifications</span></li>
+ <li class=3D"paragraph-child" data-uuid=3D"248e4477-9ff6-4f7c-8a25-4b883c2=
+5af00"><span>For targeted notifications there are three recipients - Compas=
+s users' basis their respective RR range, Firm specialist users with firm R=
+R range, Firm admin roles -&nbsp;<a data-linked-resource-container-id=3D"22=
+30202561" data-linked-resource-container-version=3D"29" data-linked-resourc=
+e-content-type=3D"application/pdf" data-linked-resource-default-alias=3D"NB=
+CN Portal - Specialist Roles.pdf" data-linked-resource-id=3D"2285896977" da=
+ta-linked-resource-type=3D"attachment" data-linked-resource-version=3D"1" d=
+ata-nice-type=3D"PDF Document" href=3D"https://wiki.bnc.ca/download/attachm=
+ents/2230202561/NBCN%20Portal%20-%20Specialist%20Roles.pdf?version=3D1&amp;=
+modificationDate=3D1748896493534&amp;api=3Dv2" rel=3D"nofollow">NBCN Portal=
+ - Specialist Roles.pdf</a>.</span></li>
+ <li class=3D"paragraph-child" data-uuid=3D"a88b64ad-8c9c-4a05-b177-51ea20c=
+292d3"><span>Targeted notifications access data from AS400 (maturing instru=
+ment, DRIP, Option position, Account transfer) or R1 (re-org notifications,=
+ tax correction) or MQ messages generated by iMost (GDI notifications) or r=
+equest status (file upload)</span></li>
+ <li class=3D"paragraph-child" data-uuid=3D"6c86f515-5078-472a-94ce-2c9b83a=
+5a297">Replacement of NPAT NBIN Portal (One-click) used to maintain message=
+ templates and rules for the email notifications. -&nbsp;<a href=3D"https:/=
+/wiki.bnc.ca/spaces/COMPASS/pages/2285907911/5.+Use+Cases+-+Notifications" =
+rel=3D"nofollow">5. Use Cases - Notifications - NBIN Product Team - Conflue=
+nce</a></li>
+ <li class=3D"paragraph-child" data-uuid=3D"730f5f0b-31cf-4aa2-8845-991c0af=
+db91f">Existing capabilities - Context Passing, Option to unsubscribe, Link=
+s etc.</li>
+ <li class=3D"paragraph-child" data-uuid=3D"53f8f059-3a75-4e70-bf54-cfda17c=
+8eccf">Capability map to support notification communication</li>
+ <li class=3D"paragraph-child" data-uuid=3D"ff51ddfa-5aaf-4f42-86fd-07106ed=
+9533e"><span class=3D"confluence-embedded-file-wrapper confluence-embedded-=
+manual-size"><img class=3D"confluence-embedded-image confluence-external-re=
+source" draggable=3D"false" height=3D"250" src=3D"https://wiki.bnc.ca/downl=
+oad/attachments/2528690799/image-2026-6-11_11-1-37.png?version=3D1&amp;modi=
+ficationDate=3D1781190097899&amp;api=3Dv2" data-image-src=3D"https://wiki.b=
+nc.ca/download/attachments/2528690799/image-2026-6-11_11-1-37.png?version=
+=3D1&amp;modificationDate=3D1781190097899&amp;api=3Dv2"></span></li>
+</ul>
+<p><br></p>
+<ul>
+ <li data-uuid=3D"1705e3e2-2ec7-4cec-b3d0-553693384f4d">Architecture - <a h=
+ref=3D"https://wiki.bnc.ca/spaces/NA/pages/2769069803/CX+Orchestration+for+=
+Notifications" rel=3D"nofollow">CX Orchestration for Notifications - NBIN A=
+rchitecture - Confluence</a></li>
+ <li data-uuid=3D"f9364c6c-0a3d-40a1-b928-15f122a35f2c">Design -&nbsp;<span=
+> <a class=3D"external-link" href=3D"https://www.figma.com/design/9qWagiUVC=
+uXD74OL3iuwg0/Feature-Notifications?node-id=3D90-6733&amp;t=3DQTVgONIboZmQA=
+PCF-1" rel=3D"nofollow">https://www.figma.com/design/9qWagiUVCuXD74OL3iuwg0=
+/Feature-Notifications?node-id=3D90-6733&amp;t=3DQTVgONI=E2=80=A6</a></span=
+><span> PW: FeatNotification</span></li>
+</ul>
+<h2 id=3D"PRDUserNotificationsEmail-OutofScope">Out of Scope</h2>
+<ul>
+ <li data-uuid=3D"212e619d-d0f4-4adc-8a72-d97e09b9f46e">Content management =
+system decommission</li>
+ <li data-uuid=3D"aecfff49-bf60-4080-b5cc-418f5b963124">Notifications to NB=
+F users is out of scope for this feature</li>
+</ul>
+<h2 id=3D"PRDUserNotificationsEmail-KeyAssumptions">Key Assumptions</h2>
+<ul>
+ <li data-uuid=3D"998bc842-1401-44dd-8f7b-4ea88916929c">Multi-firm feature =
+would be implemented in CX to ensure RR range consistencies between CX and =
+R2 profiles. This is required for successful migration of notifications to =
+CX profile</li>
+ <li data-uuid=3D"f290756d-32a6-4710-8273-fd2b56ba5a06">Email-id is consist=
+ent between R2 and CX user profiles and hence users will continue to receiv=
+e emails on the same email id as they do today</li>
+ <li data-uuid=3D"c0307c8f-3cea-4cad-9a19-e51471dae783">Users with speciali=
+st roles in R2 can be identified in CX&nbsp;</li>
+ <li data-uuid=3D"8d37489a-1cbb-4199-b327-15fb1507ed68">This feature will p=
+rovide common capabilities and services which will support future roadmap o=
+f additional channels and additional notifications</li>
+</ul>
+<h2 id=3D"PRDUserNotificationsEmail-KeyDependencies">Key Dependencies</h2>
+<ul>
+ <li data-uuid=3D"7cfc9f56-63fe-4ff6-88a1-9f6b143089ba">Email service/API f=
+or CX will be approved in Q4</li>
+ <li data-uuid=3D"a28d9a4e-5b34-4e39-8168-d71e8c12999e">Email orchestration=
+ will have capabilities to pass events to any Email service that the organi=
+zation decides to go further with.</li>
+</ul>
+<h1 id=3D"PRDUserNotificationsEmail-FeatureRequirements">Feature Requiremen=
+ts</h1>
+<p><br></p>
+<ul>
+ <li data-uuid=3D"15b2aa7b-bf17-433d-bafe-bc009d40a743">Address gaps observ=
+ed in the user journey - <a href=3D"https://wiki.bnc.ca/spaces/COMPASS/page=
+s/2230202561/1.+Communication+Touchpoints" rel=3D"nofollow">1. Communicatio=
+n Touchpoints - NBIN Product Team - Confluence</a>&nbsp;</li>
+</ul>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+88.0px;">
+  <colgroup>
+   <col style=3D"width: 191.0px;">
+   <col style=3D"width: 896.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th colspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTh">
+     <h2 id=3D"PRDUserNotificationsEmail-1-EmailOrchestration">1 - Email Or=
+chestration</h2></th>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Problems to Solve</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Enable common services that allow orchestration&nbsp; transactional=
+, operational, marketing notifications to NBIN clients and CX users through=
+ email channels and at the same time support future strategy of omnichannel=
+ notification communication.</p></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Target Users</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>Clients- CX users</p>
+     <p>NBIN Product &amp; Support Teams</p></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Requirements</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ol>
+      <li data-uuid=3D"8d13ed5c-1af3-439f-9ee6-a1f85699eeee">Email orchestr=
+ation to allow targeting for events basis the following parameters=20
+       <ol>
+        <li data-uuid=3D"8f654c7d-c4c7-4e26-b880-d01bdce2180d">User access =
+&amp; permissions - RR range, SZ zone ids, firm, firm type, CX role, featur=
+e access</li>
+        <li data-uuid=3D"a4979938-090e-4eca-8007-ce8c0b3968b1">User activit=
+y - requestor, approvers</li>
+        <li data-uuid=3D"5e19d049-f8b9-4610-8178-cbcf38354961">User prefere=
+nces - subscription to email notifications, vacation back-ups.</li>
+       </ol></li>
+      <li data-uuid=3D"5f22fbdb-21c8-4b46-b27a-272a8436d224">Email orchestr=
+ation acts as a rule engine and allows setup of configurable rules</li>
+      <li data-uuid=3D"09478754-d088-49f7-88a6-c97c8cf8a4aa">Should be able=
+ to consume events from multiple sources (ex - MQ or external teams, CX fea=
+tures like Applications status, other sources within the bank like AS400)</=
+li>
+      <li data-uuid=3D"52106636-e363-4780-a2bd-a7c6efca3fb1">Enable classif=
+ication of events into categories based on rules defined by NBIN teams. (ex=
+ - based on the notification type- active, passive, critical, time sensitiv=
+e or basis the CX capability - asset servicing, account or client servicing=
+ etc.</li>
+      <li data-uuid=3D"42ed5625-8ba3-4a90-9d81-81989e587176">Enable aggrega=
+tion &amp; merging of multiple events in the same category or across catego=
+ries for the purpose of email notifications&nbsp;</li>
+      <li data-uuid=3D"598e088c-c8e7-4ca6-9c6b-77e16a592ea4">Enable an even=
+t store which can record and maintain history of events for future roadmap =
+features (in-app notifications)</li>
+      <li data-uuid=3D"e6552e46-24ab-40b9-9ee1-e2badfea7829">Enable enrichm=
+ent of events with additional information and attributes (ex- account id or=
+ client name or status etc)</li>
+      <li data-uuid=3D"e1730fe0-0846-4d4d-83bd-b7fcfffc02ec">Enable this fe=
+ature to feed into various communication services like email api or in-app =
+notifications and support=20
+       <ol>
+        <li data-uuid=3D"c7e09085-8b33-4e92-af18-9f549390fae2">Frequency - =
+single event, aggregation, batch</li>
+        <li data-uuid=3D"dfa21579-b5ce-4ed3-8b67-fc2138c243fe">Timing - rea=
+l time, scheduled time basis rules set by NBIN.</li>
+       </ol></li>
+      <li data-uuid=3D"5220e534-fdb1-47cc-8ce8-3eb1e42c0acd">Enable persona=
+lization=20
+       <ol>
+        <li data-uuid=3D"86112be6-9480-48b5-b29f-6e96e97b1ecd">Templates - =
+trigger templates basis role/firm/firm type&nbsp;</li>
+        <li data-uuid=3D"58347a02-a92d-477d-b707-97bd84b23600">Preference -=
+ language( EN or FR)</li>
+       </ol></li>
+      <li data-uuid=3D"a2ebf784-37b7-414c-93b3-eeffe7b81aed">Ability to man=
+ge User lifecycle scenarios on T+0/T+1 (synchronization)=20
+       <ol>
+        <li data-uuid=3D"4a8d5fa3-6ff7-4a59-83e7-5269dd4136fc">New user opt=
+s-in to notifications</li>
+        <li data-uuid=3D"c65333c5-ed23-4bc5-85bd-0cf6a12620c1">Deactivation=
+ of existing users who are subscribed to notifications</li>
+        <li data-uuid=3D"ac54d7ad-0ccf-4a32-9a9f-a875440e2e05">Change in em=
+ail address of existing users subscribed to notifications</li>
+        <li data-uuid=3D"e8825806-9ec4-4c89-8086-1ad9d5aa6e3d">Change in ro=
+le / rr range / secured zone id of existing user subscribed to notification=
+s</li>
+       </ol></li>
+      <li data-uuid=3D"66aab4ae-0ad1-40b5-a5fa-5644979e1b42">Ability to man=
+age Notification lifecycle scenarios on T+0/T+1 (synchronization)=20
+       <ol>
+        <li data-uuid=3D"af05b6cc-4996-49c9-bdc0-fe5989893f16">User opting =
+in for a notification</li>
+        <li data-uuid=3D"4ed5cdd3-5fb1-483e-9800-211af09e10aa">User opting =
+out for a notification</li>
+       </ol></li>
+      <li data-uuid=3D"1234dbad-3dc7-4c9c-84e1-48b89b8387f0">Ability to man=
+age the account/client scenarios on T+0 or T+1 (synchronization)=20
+       <ol>
+        <li data-uuid=3D"e5335f76-2cbc-436f-9eeb-293b55630d10">Events gener=
+ated for account ids/client ids opened today</li>
+        <li data-uuid=3D"22941426-c19b-4306-9bf5-735ddb14ea22">Events gener=
+ated for account ids/client ids closed/restricted today</li>
+       </ol></li>
+      <li data-uuid=3D"bd558993-2cf8-4c2c-9a19-138b67fe4e7e">Ability to hav=
+e data extracts of events managed under the orchestration services</li>
+     </ol></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Non-Functionals</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"04fbaeed-2440-456a-a526-a8613693a45d">Orchestration =
+services should support 5-6 times of current volumes which is around 120k e=
+mails per month.</li>
+      <li data-uuid=3D"6ce9ad0b-ecc2-4580-b893-68fdebe7d3b2">Support 8-10 t=
+imes of existing notification types which is ~25 (count) as per current sta=
+te</li>
+      <li data-uuid=3D"35c130f6-cca9-44c5-96bb-661d98d28dc9">Mechanism to i=
+dentify duplicate events</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Out of Scope</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"9c78687f-97dd-4c7d-bee9-a8611ebf38ef">Content manage=
+ment decommission or client bulletins</li>
+      <li data-uuid=3D"fd14263f-2acc-4733-a07e-4b88cc529358">Future roadmap=
+ items- email attachments, actual implementation of SMS and In-app channels=
+, secured messaging</li>
+      <li data-uuid=3D"3459147d-67dd-4cdf-8002-d860294a7722">Notifications =
+for NBF users is out of scope for this feature</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Acceptance Criteria</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"b699299f-4653-4b20-94c5-a9ed5226ceb4">Existing R2 no=
+tifications (<span>&nbsp;<a data-linked-resource-container-id=3D"2230202561=
+" data-linked-resource-container-version=3D"29" data-linked-resource-conten=
+t-type=3D"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=
+" data-linked-resource-default-alias=3D"Email Prferences- R2.xlsx" data-lin=
+ked-resource-id=3D"2230202649" data-linked-resource-type=3D"attachment" dat=
+a-linked-resource-version=3D"1" data-nice-type=3D"Excel Spreadsheet" href=
+=3D"https://wiki.bnc.ca/download/attachments/2230202561/Email%20Prferences-=
+%20R2.xlsx?version=3D1&amp;modificationDate=3D1744810586946&amp;api=3Dv2" r=
+el=3D"nofollow">Email Preferences- R2.xlsx</a>)</span> orchestration is suc=
+cessfully migrated and based on CX user profile and decommission the existi=
+ng services -&nbsp;</li>
+      <li data-uuid=3D"8bdb9f0f-79ed-4d19-a522-000a3a74d12d">Ability to enh=
+ance the R2 notifications with additional rules and data attributes</li>
+      <li data-uuid=3D"1ba1cc97-8f4b-4ccf-a30d-896d5a4fb23b">Ability to set=
+up orchestration for new notifications - CX Application Status</li>
+      <li data-uuid=3D"608de16c-1c49-407a-a33b-989f6ddb6cba">Operationalize=
+ new notifications onboarding with clear defined steps and responsibilities=
+</li>
+      <li data-uuid=3D"a47b5c86-7943-4fe0-9953-88262c245348">Operationalize=
+ modifications or decommission of onboarded notifications for orchestration=
+ with clear defined steps and responsibilities</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Roadmap Dependencies</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"16aaa582-6d7f-44f5-80f1-1555bcbca900">Dependency on =
+Email subscription experience and Email Service integration to go live.</li=
+>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Risks &amp; Constraints</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"b7cdb5f3-10c0-4808-8577-cd5cf01439ab">Orchestration =
+services will need to work with the email service that will be finalized in=
+ the future from the following options/&nbsp;=20
+       <ul>
+        <li data-uuid=3D"2f069acb-1a95-437c-9afe-028687513497"><span>Use Na=
+tional Bank Marketing team solution =E2=80=93 central&nbsp;</span><span>ins=
+tance of Amazon SES</span><span>=E2=80=8B</span></li>
+        <li data-uuid=3D"a9447b3f-301a-40b6-ac26-895b47ae116f"><span>Dedica=
+ted instance for NBIN - Amazon SES/ </span><span>Sendgrid</span><span>, </s=
+pan><span>SMTP server</span></li>
+       </ul></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Key Assumptions</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"870274ef-326c-442b-b86d-a437a8ed9c24">Multi-firm fea=
+ture would be implemented in CX to ensure RR range consistencies between CX=
+ and R2 profiles. This is required for successful migration of notification=
+s to CX profile</li>
+      <li data-uuid=3D"75b9abb8-9b99-43b3-bfff-f2bb5f7f7808">Email-id is co=
+nsistent between R2 and CX user profiles and hence users will continue to r=
+eceive emails on the same email id as they do today</li>
+      <li data-uuid=3D"7eed92ae-82ac-4386-8c5b-8f10a07d6bb5">Users with spe=
+cialist roles in R2 can be identified in CX&nbsp;</li>
+      <li data-uuid=3D"5d849abd-08ef-4a16-b97c-ee38e3afaafc">This feature w=
+ill provide common capabilities and services which will support future road=
+map of additional channels and additional notifications</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+86.0px;">
+  <colgroup>
+   <col style=3D"width: 195.0px;">
+   <col style=3D"width: 891.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th colspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTh">
+     <h2 id=3D"PRDUserNotificationsEmail-2-EmailSubscriptionExperience">2 -=
+ Email Subscription Experience</h2></th>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Problems to Solve</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Enable users to define and modify their preferences for notifications i=
+n CX</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Target Users</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">All CX users</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Requirements</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ol>
+      <li data-uuid=3D"f196def7-9f78-4675-af58-02b21ea9c4e1">Enable CX user=
+s to opt-in or opt-out of one or more email notifications</li>
+      <li data-uuid=3D"4ed461ab-7840-48fc-8dc0-0a4f3c50d4f3">Enable NBIN te=
+ams to define the default scenario at a user/role/firm level=20
+       <ol>
+        <li data-uuid=3D"34d8ff78-c7e3-4e52-80af-a4a422c9c1ac">For new user=
+s whether email notifications are opt-in or opt-out by default. Users will =
+have an option to modify this later.</li>
+        <li data-uuid=3D"f17859d0-c7e8-45c1-8d49-0d33fbdfd4e0">During migra=
+tion of existing R2 notifications. Users will have option to modify this la=
+ter.</li>
+       </ol></li>
+      <li data-uuid=3D"062d5e48-eb3c-4e49-9edf-ee304eb47e85">Enable the sub=
+scription experience to support the following scenarios=20
+       <ol>
+        <li data-uuid=3D"dd558358-e321-4cf5-a514-06b0e96f14cb">Opt-in or op=
+t-out of specific emails</li>
+        <li data-uuid=3D"0af403ef-de25-4927-aa61-35ddcca360d9">Opt-in or op=
+t-out of a group/category of emails</li>
+        <li data-uuid=3D"02f50614-e5eb-41f7-a885-b903f8d51791">Updating pre=
+ference multiple times in a day</li>
+       </ol></li>
+      <li data-uuid=3D"1695ee24-9641-4bcc-982a-e4bd32449787">Allow user to =
+additional recipients for specific emails or category of emails (ex: user i=
+s on vacation)&nbsp;</li>
+      <li data-uuid=3D"041d7b32-d0dc-4800-a1e0-3be2db8bbf41">Orchestration =
+services should be able access user preferences to determine if email notif=
+ications are required</li>
+      <li data-uuid=3D"dcaecb70-d926-48bb-939f-2516eb28e53d">Enable NBIN ad=
+mins to modify the access on behalf of users</li>
+      <li data-uuid=3D"d4ea32b1-6480-47f8-95e9-cfea27225297">Ability to ext=
+ract report for statistics around user opt-in for email notifications</li>
+      <li data-uuid=3D"42b16a3a-b12d-4e3d-ba6c-950e3ff5c518">Ability to man=
+ge User lifecycle scenarios on T+0/T+1=20
+       <ol>
+        <li>New user opts-in to notifications</li>
+        <li>Deactivation of existing users who are subscribed to notificati=
+ons</li>
+        <li>Change in email address of existing users subscribed to notific=
+ations</li>
+        <li>Change in role / rr range / secured zone id of existing user su=
+bscribed to notifications</li>
+       </ol></li>
+      <li data-uuid=3D"3ed0bb36-4844-4243-9a21-2fd6cfefc040">Ability to man=
+age Notification lifecycle scenarios on T+0/T+1 (synchronization)=20
+       <ol>
+        <li>User opting in for a notification</li>
+        <li>User opting out for a notification</li>
+       </ol></li>
+      <li data-uuid=3D"2a0dce39-b899-4534-b775-e94bbf0180a0">Ability to man=
+age firm lifecycle scenarios=20
+       <ol>
+        <li data-uuid=3D"8d18776b-d7a9-490a-8314-dccc3351fd26">New firm bei=
+ng onboarded</li>
+        <li data-uuid=3D"d5e3f5cb-eac6-4908-9947-a998f7719c25">Existing fir=
+m is deactivated</li>
+       </ol></li>
+     </ol></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Non-Functionals</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"224c9e01-f9e2-4fd9-8cc3-8a6f85ef3f76">Feature should=
+ support &gt;10 times the existing user base</li>
+      <li data-uuid=3D"f3743eb4-daa5-4eba-8ca6-cf37a0ec7d63">Intuitive user=
+ experience to update user preferences</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Out of Scope</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"f2742d00-7f7e-4a5a-a7e4-156155b38aa9">Content manage=
+ment decommission or client bulletins</li>
+      <li data-uuid=3D"3a93704f-f83f-469f-bf13-a5defa2e9ec1">Future roadmap=
+ items- email attachments, actual implementation of SMS and In-app channels=
+, secured messaging</li>
+      <li data-uuid=3D"2d2d622c-9129-4bbe-8e26-f442b134af73">Notifications =
+for NBF users is out of scope for this feature</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Acceptance Criteria</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"06f29e29-4526-4670-9d78-21764deb920d">Users are able=
+ to seamlessly change their email notification preferences in CX and decomm=
+ission of the R2 services</li>
+      <li data-uuid=3D"019191f7-6299-466a-a694-fb6c46f1d0c3">Users receive =
+emails notifications as per their preferences and information feeds into or=
+chestration services</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Roadmap Dependencies</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"8bb7155d-5c14-4a0c-b6a2-507148fadc03">Dependency on =
+Email orchestration and Email Service integration to go live.</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Risks &amp; Constraints</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"09235fa0-cb3a-4310-a8a9-f8e6a683d147">Email service =
+is yet to be finalized</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Key Assumptions</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"0a404d08-9095-4384-971c-29a788d117be">Multi-firm fea=
+ture would be implemented in CX to ensure RR range consistencies between CX=
+ and R2 profiles. This is required for successful migration of notification=
+s to CX profile</li>
+      <li data-uuid=3D"e574d699-eaca-4c49-afda-58fe37664b3c">Email-id is co=
+nsistent between R2 and CX user profiles and hence users will continue to r=
+eceive emails on the same email id as they do today</li>
+      <li data-uuid=3D"089865b9-c387-48be-a564-fb21aceb4b79">Users with spe=
+cialist roles in R2 can be identified in CX&nbsp;</li>
+      <li data-uuid=3D"f8e1f11a-ecad-4165-b135-28e5b24baacb">This feature w=
+ill provide common capabilities and services which will support future road=
+map of additional channels and additional notifications</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+89.0px;">
+  <colgroup>
+   <col style=3D"width: 197.0px;">
+   <col style=3D"width: 891.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th colspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTh">
+     <h2 id=3D"PRDUserNotificationsEmail-3-EmailService&amp;TemplateManagem=
+ent">3 - Email Service &amp; Template Management</h2></th>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Problems to Solve</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Integrate email service for successful delivery of transactions, market=
+ing and regulatory notifications to CX user and client firms</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Target Users</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>CX Users</p>
+     <p>NBIN Teams</p></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Requirements</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"363177ed-da95-4b27-ada2-43266d341a97">Compliance to =
+regulatory requirements CASL - <em><strong>(TBD) - <a class=3D"external-lin=
+k" href=3D"https://cbncnbccs.sharepoint.com/sites/securite/SitePages/en/Con=
+sentements-%C3%A0-la-sollicitation-et-%C3%A0-la-R%C3%A9ception-de-Messages-=
+%C3%89lectroniques-Commerciaux-(LCAP).aspx" rel=3D"nofollow">Procedure: Con=
+sent to the Solicitation and Receipt of Commercial Electronic Messages (CAS=
+L)</a></strong></em></li>
+      <li data-uuid=3D"1dbd2aea-8634-4881-9c03-13e183ebfb05">Service to sup=
+port the domains and emails required for notifications -<em> <strong>(TBD)<=
+/strong></em></li>
+      <li data-uuid=3D"0f94c736-dc8f-4ad2-bf14-22f6b3affde0">Ability to set=
+up bilingual templates - EN/FR</li>
+      <li data-uuid=3D"699a9466-2e67-47d2-b43c-741b44882947">Ability to set=
+up and modify email templates including<br>
+       <ul>
+        <li data-uuid=3D"9c88b57b-27f9-49c7-80c1-2f759fc40fb5">Email header=
+ or logos</li>
+        <li data-uuid=3D"1a353dbd-fa7a-421c-9695-835950986cb0">Email text</=
+li>
+        <li data-uuid=3D"6b069c38-7a13-43e5-a607-a10a18ade2a2">Footers or d=
+isclaimers including links etc,</li>
+        <li data-uuid=3D"d4d5a28d-5213-435c-9f9e-4ad1647ac495">CX links (wi=
+thout SSO) which allow users easy navigation and support CTA</li>
+        <li data-uuid=3D"421a408a-867f-4577-abbe-d14c9d472fa4">Send dynamic=
+ content or personalized content</li>
+        <li data-uuid=3D"f48ffcc2-e71e-4beb-87c1-ddb942ae9c0b">Send client/=
+account level information</li>
+       </ul></li>
+      <li data-uuid=3D"eada3fe2-14b8-4362-ae11-6db1f904956d">Support analyt=
+ics capabilities required - send rate, open rates, bounce rates, ability to=
+ extract logs if needed</li>
+      <li data-uuid=3D"df4e43fa-4eb0-42e7-8327-1a300f5764e8">Self-serve cap=
+ability to manage the template Lifecyle on T+0/T+1 (synchronization)=20
+       <ul>
+        <li data-uuid=3D"cf384002-f29a-4baa-ba56-b2b1623ebf9e">Self-serve c=
+apability for NBIN Product &amp; support teams to define new templates</li>
+        <li data-uuid=3D"0e459421-7005-4dd6-9982-31c973fba65c">Self-serve c=
+apability for NBIN teams to edit or modify an existing template</li>
+        <li data-uuid=3D"44b5cd97-377d-4de7-9eb2-898b3b1461f5">Self-serve c=
+apability for NBIN teams to delete an existing template.</li>
+       </ul></li>
+      <li data-uuid=3D"ed74d246-cdab-4452-bdf4-95647207c7ef">Ability to sen=
+d bulk emails (same email content to multiple users ex: regulatory communic=
+ation)</li>
+      <li data-uuid=3D"4cdcdde1-59ef-4612-8f6a-841c053411cf">Role based acc=
+ess to templating tools and audit trails</li>
+      <li data-uuid=3D"00ffddf1-b3eb-41d4-a10c-dcca23bda722">Self serve bul=
+k email capabilities which allow users sending ad-hoc bulk emails=20
+       <ul>
+        <li data-uuid=3D"e9a90742-f997-4e35-9046-ee73800e7aa7">Define targe=
+t groups for ad-hoc email</li>
+        <li data-uuid=3D"a18308a6-07c3-4af7-9472-32fe534b70e3">Allow templa=
+te selection and addition of dynamic content</li>
+        <li data-uuid=3D"e3de1905-5afd-4783-8f74-7038cdb207a8">Allow select=
+ion of real time delivery or scheduled delivery</li>
+       </ul></li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Non-Functionals</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"29cb706e-0339-4e7c-8239-9615c7a54fb6">Best practices=
+ based on architecture guidelines to ensure low spam rates - SPF, DKIM, DMA=
+RC, rDNSm, Multipart MMIE format - <a class=3D"external-link" href=3D"https=
+://www.twilio.com/en-us/blog/insights/10-tips-to-keep-email-out-of-the-spam=
+-folder" rel=3D"nofollow">link</a> <a class=3D"external-link" href=3D"https=
+://helpdesk.member365.com/hc/en-us/articles/360060886751-Guidelines-on-Bypa=
+ssing-Email-Spam-Filters" rel=3D"nofollow">link2</a></li>
+      <li data-uuid=3D"29cb706e-0339-4e7c-8239-9615c7a54fb6">Templated to s=
+upport capabilities &amp; best practices to meet accessibility standards - =
+<a class=3D"external-link" href=3D"https://www.mailgun.com/blog/email/email=
+s-not-dead-season-six-ep-2-why-accessibility-matters/" rel=3D"nofollow">lin=
+k</a></li>
+      <li data-uuid=3D"05a5be40-5b67-4f51-bc4d-fc4c6c53b95e">Email services=
+ should support 5-6 times of current volumes which is around 120k emails pe=
+r month.</li>
+      <li data-uuid=3D"167f94f9-25a1-4cc2-b194-c682f404072c">Email service =
+should support 5X bilingual templates. (currently 25-20 templates exist)</l=
+i>
+      <li data-uuid=3D"ea8ee947-0f59-4f04-8898-04c40f062fdb">Email formats =
+consistency across devices - desktop, tablet, mobile</li>
+      <li data-uuid=3D"a5716f10-e911-4118-bd02-ae68e6099145">Email format c=
+onsistency across browsers - chrome, edge, safari</li>
+      <li data-uuid=3D"154708e3-ef7b-4a90-859a-8e0996770e34">Bank standards=
+ - archival, data loss prevention etc,</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Out of Scope</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"7f2a4d23-7fa8-4eae-bcd9-60aae7fa0fe5">Content manage=
+ment decommission or client bulletins</li>
+      <li data-uuid=3D"991b78a9-417c-4e7c-a8dd-69d6ebed5abc">Future roadmap=
+ items- email attachments, actual implementation of SMS and In-app channels=
+, secured messaging</li>
+      <li data-uuid=3D"8879e034-c8b0-4f2b-9dd6-68f5de66d6fc">Notifications =
+for NBF users is out of scope for this feature</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Acceptance Criteria</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"fb66b961-dc21-4929-9e6e-2d631368e0e8">Successful int=
+egration with email orchestration services</li>
+      <li data-uuid=3D"e0ee7ffd-7dcf-45ea-b581-61ddfaba79a3">Successful mig=
+ration of all R2 templates and decommission of NPAT tool for email services=
+</li>
+      <li data-uuid=3D"9027ac3d-0772-458c-8e12-3da0eecdb6ce">~100% send rat=
+e; &lt;1% bounce rates for notifications triggered through the email servic=
+e</li>
+      <li data-uuid=3D"0e977b82-9fb7-4964-a988-5a0b6b50cafc">Operationalize=
+ new notifications onboarding with clear defined steps and responsibilities=
+</li>
+      <li data-uuid=3D"ff8cb2ef-247a-4ae7-b32a-2cbd19805981">Operationalize=
+ modifications or decommission of onboarded notifications for orchestration=
+ with clear defined steps and responsibilities</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Roadmap Dependencies</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"33438def-b5a7-42fa-9afa-cae80ed734d7">Dependency on =
+Email subscription experience and Email Service integration to go live.</li=
+>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Risks &amp; Constraints</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"e0dc3d5c-0766-4b91-8782-0a59f7e7d269">Email service =
+is yet to be finalized</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Key Assumptions</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"b8a39163-f998-40ad-853d-b103f8667901">Multi-firm fea=
+ture would be implemented in CX to ensure RR range consistencies between CX=
+ and R2 profiles. This is required for successful migration of notification=
+s to CX profile</li>
+      <li data-uuid=3D"44c46445-0993-492e-9614-fbc6c1dc9863">Email-id is co=
+nsistent between R2 and CX user profiles and hence users will continue to r=
+eceive emails on the same email id as they do today</li>
+      <li data-uuid=3D"6aad9a90-00b9-4c07-a6dc-072194bf94b0">Users with spe=
+cialist roles in R2 can be identified in CX&nbsp;</li>
+      <li data-uuid=3D"a469b977-98f1-4f50-b6fb-23404b01ff13">This feature w=
+ill provide common capabilities and services which will support future road=
+map of additional channels and additional notifications</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+85.0px;">
+  <colgroup>
+   <col style=3D"width: 198.0px;">
+   <col style=3D"width: 886.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th colspan=3D"2" style=3D"text-align: left;vertical-align: top;" class=
+=3D"confluenceTh">
+     <h2 id=3D"PRDUserNotificationsEmail-4-TargetListCommunication(TBD)-Fut=
+urePhase">4 - Target List Communication (TBD) - Future Phase</h2></th>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Problems to Solve</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Provide self-serve capabilities to modify and maintain the Target Commu=
+nication List</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Target Users</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Client firm admins</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Requirements</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li data-uuid=3D"52c7fde9-b556-41a9-b9ac-591006c94de0">Enable self-se=
+rve capabilities for firm admins to maintain the Target Communication List =
+in CX</li>
+      <li data-uuid=3D"a04f8b66-b5b0-450a-98a6-e7141fe6c914">Enable real ti=
+me synchronization of Target Communication List with orchestration services=
+</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Non-Functionals</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Out of Scope</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Acceptance Criteria</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Roadmap Dependencies</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Risks &amp; Constraints</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">Key Assumptions</th>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">TBD</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"PRDUserNotificationsEmail-OperationalImpact&amp;Considerations">O=
+perational Impact &amp; Considerations</h1>
+<ul>
+ <li data-uuid=3D"f152ac47-6eb9-4190-90f9-67123d8a83fc">Unified navigation =
+is also in initial discovery stages - <a href=3D"https://wiki.bnc.ca/spaces=
+/COMPASS/pages/2748832515/PRD+Unified+Navigation+deep+linking+R2+features+i=
+n+CX" rel=3D"nofollow">PRD Unified Navigation (deep linking R2 features in =
+CX) - NBIN Product Team - Confluence</a></li>
+ <li data-uuid=3D"1ac43bef-a55b-4fc0-a30f-78dc00b3d41b">All discovery and d=
+evelopment work should support the future Phase 2 requirements - Sms, in-ap=
+p, target list self serve</li>
+ <li data-uuid=3D"7aaf3964-2a8b-463e-a1c0-688d05cfb1fe">Multi-firm feature =
+is under implementation</li>
+ <li data-uuid=3D"866f392c-0987-4d89-a120-a43d599082ae">Third party emails =
+are out of scope - user and account onboarding.</li>
+</ul>
+<h4 id=3D"PRDUserNotificationsEmail-FeaturePriority&amp;Dependencies">Featu=
+re Priority &amp; Dependencies</h4>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 85=
+.7778%;">
+  <colgroup>
+   <col style=3D"width: 5.40747%;">
+   <col style=3D"width: 11.6298%;">
+   <col style=3D"width: 26.2966%;">
+   <col style=3D"width: 21.1854%;">
+   <col style=3D"width: 7.40749%;">
+   <col style=3D"width: 14.2965%;">
+   <col style=3D"width: 13.7768%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Priority</span></strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Feature / Component</span></strong><span>=E2=80=8B</s=
+pan></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>How it works today</span></strong><span>=E2=80=8B</sp=
+an></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Next Steps</span></strong><span>=E2=80=8B</span></p><=
+/td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Effort Assumption</span></strong><span>=E2=80=8B</spa=
+n></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Dependencies</span></strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong>Next steps</strong></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong><span>1</span></strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Email orchestration </span></strong><strong><span>ser=
+vices</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"eb33b78a-9d4d-44aa-aeeb-b9970e62110b"><span>Email se=
+rvice (event creation) managed through one </span><span>click database and =
+these services receive data files </span><span>from various sources</span><=
+span>=E2=80=8B</span></li>
+      <li data-uuid=3D"47b380be-abca-4089-8e59-7ded1dd585ea"><em><span>Limi=
+tations:</span></em><span> Reached end of life&nbsp;and cannot be used </sp=
+an><span>when migrating to new email service</span><span>=E2=80=8B</span></=
+li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e4cc12bf-5731-4c5e-bee5-5efc61535d46"><span>Orchestr=
+ation service to be created/migrated and feed </span><span>into new email s=
+ervice.</span><span>=E2=80=8B</span></li>
+     </ul>
+     <p><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>High</span></strong></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"929d81c9-2f93-42d0-bc77-e1f1cb1c0f64">Analysis - leg=
+acy emails</li>
+      <li data-uuid=3D"a442da2e-c121-49e3-b1bb-8246770921b7">Data Model</li=
+>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"cd032690-e591-4632-9961-e8dd9fda58c1">Analysis - leg=
+acy emails</li>
+      <li data-uuid=3D"0150db55-fd35-466e-8daf-17260899e685">Data Model</li=
+>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong><span>2</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Bulk service &amp; template management (email)</span>=
+</strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a9f06f29-6c35-48f3-9d71-12caa21b4e73"><span>Legacy w=
+indows server used to send bulk emails.</span></li>
+      <li data-uuid=3D"e0ba3137-d879-4928-9216-661ab7be6398"><span>Email te=
+mplates managed in NPAT tool. =E2=80=8B</span></li>
+      <li data-uuid=3D"7770584f-58d0-4e41-b9ad-056d38c5e872"><em><span>Limi=
+tations:</span></em><span> The service has reached end of life, and we </sp=
+an><span>are unable to configure new email notifications</span><span>=E2=80=
+=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><span>Options for new email service</span><span>=E2=80=8B</span></p=
+>
+     <ul>
+      <li data-uuid=3D"77916c93-eb2d-4bc3-bf35-bb85fcf6d0be"><span>Use Nati=
+onal Bank Marketing team solution =E2=80=93 central </span><span>instance o=
+f Amazon SES</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"bbed4ae2-32cf-4485-b3c2-390cae5dfdcf"><span>Dedicate=
+d instance for NBIN - Amazon SES/</span><span>Sendgrid</span><span>, </span=
+><span>SMTP server</span><span>=E2=80=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Medium</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c3813add-0353-4f4e-971d-c2795068d74b">Alignment with=
+ other verticals of National Bank</li>
+      <li data-uuid=3D"a1c28c09-4d4e-4a0c-a6a2-904a079b0478">Approval on fi=
+nal solution.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">TBD</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>2</strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Email subscription experience </span></strong><strong=
+><span>(user opt-in)</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"df1c15ae-3ba0-4d28-b78d-06132fc31413"><span>Availabl=
+e in R2 as email preferences.</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"be4b264d-827c-4ae0-97ad-45da4fc3f2dd"><span>User pre=
+ferences&nbsp;linked to R2 user profile</span><span>=E2=80=8B</span></li>
+      <li data-uuid=3D"153e8b6f-9cea-4b9b-a637-baadd39a317c"><em><span>Limi=
+tations: </span></em><span>Poor user experience basis feedback from </span>=
+<span>clients and internal teams</span><span>=E2=80=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"00b3f7fa-6471-45c1-a144-a57bcef2dbda"><span>Feature =
+needs to be built in CX (</span><span>Q4?)</span><span>=E2=80=8B</span></li=
+>
+      <li data-uuid=3D"e3297534-67f2-4368-9d04-f7ddfdf20e03"><span>User pre=
+ferences need to be linked to CX profile</span><span>=E2=80=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><strong><span>Low</span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>Discovery completion</li>
+      <li data-uuid=3D"e94be083-caa9-4467-aefd-f536f13fc15c">Multi-firm and=
+ unified navigation feature implementation</li>
+     </ul></td>
+    <td class=3D"confluenceTd">TBD</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h1 id=3D"PRDUserNotificationsEmail-FeatureDistributions"><span>Feature Dis=
+tribution</span>s</h1>
+<h2 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-FeatureAssi=
+gnment">Feature Assignment</h2>
+<h3 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-CapabilityM=
+apping">Capability Mapping</h3>
+<p style=3D"text-align: left;">The following new features will be introduce=
+d into CX:</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 66=
+2.401px;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 80.0px;">
+   <col class=3D"" style=3D"width: 119.0px;">
+   <col class=3D"" style=3D"width: 115.0px;">
+   <col class=3D"" style=3D"width: 58.0px;">
+   <col class=3D"" style=3D"width: 82.0px;">
+   <col class=3D"" style=3D"width: 78.0px;">
+   <col class=3D"" style=3D"width: 79.0px;">
+   <col style=3D"width: 111.0px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Product Group</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Product</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">View</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Manage</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Control</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Process</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Onboarding Target</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notifications&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Settings - Notifications Topics</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Q42026</td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notification&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">User Preferences- Notifications</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Q42026</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h3 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-FeaturePack=
+aging&amp;Assignment">Feature Packaging &amp; Assignment</h3>
+<h4 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-Firm-levelA=
+ssignment">Firm-level Assignment</h4>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 63=
+3.375px;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 82.0px;">
+   <col class=3D"" style=3D"width: 103.0px;">
+   <col class=3D"" style=3D"width: 172.0px;">
+   <col class=3D"" style=3D"width: 275.0px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Capability</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Product</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Assignment Controls</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notifications&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Settings - Notifications Topics</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NBIN only</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notification&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">User Preferences- Notifications</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">All firm types (NBIN, COR, IB, PM,. IFM, OTH)</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h4 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-User-levelA=
+ssignment">User-level Assignment</h4>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 10=
+17.53px;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 118.0px;">
+   <col class=3D"" style=3D"width: 149.0px;">
+   <col class=3D"" style=3D"width: 190.0px;">
+   <col class=3D"" style=3D"width: 271.0px;">
+   <col style=3D"width: 67.0px;">
+   <col style=3D"width: 77.0px;">
+   <col style=3D"width: 70.0px;">
+   <col style=3D"width: 76.0px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Capability</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Product</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Assignment Controls</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">View</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Manage</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Control</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Process</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notifications&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Settings - Notifications Topics</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>NBIN Users with assignment of this feature will&nbsp; have both vie=
+w and manage access and there is no requirement for users to have only view=
+ access.</p>
+     <p>Users with assignment for this feature will be responsible for</p>
+     <ul>
+      <li data-uuid=3D"09f32399-ea98-4c8b-a234-2c231ffa236a">Registration o=
+f Notification Topic which will enable launch</li>
+      <li data-uuid=3D"e9abec8f-e3b3-4153-94ff-acfed3a966a1">Selection of d=
+efault user preferences for each notification</li>
+      <li data-uuid=3D"32142192-5bbe-48e6-aa80-ed477beba897">Edit and modif=
+y the details if and when needed</li>
+     </ul></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">CAP</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Notification&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">User Preferences- Notifications</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">ALL users need both view and manage access to this feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-FeatureRoll=
+-OutPlan">Feature Roll-Out Plan</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 64=
+2.013px;">
+  <colgroup>
+   <col style=3D"width: 145.0px;">
+   <col style=3D"width: 60.0px;">
+   <col style=3D"width: 48.0px;">
+   <col style=3D"width: 48.0px;">
+   <col style=3D"width: 40.0px;">
+   <col style=3D"width: 300.0px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Alpha&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Beta</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Pilot</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">GA</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Activation/Deactivation Notes</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Settings - Notifications Topics</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>For all roles and firms</p>
+     <p><br></p></td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">User Preferences- Notifications</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>For all roles and firms</p>
+     <p><br></p>
+     <p>Note - packages need to be updated in Prod only once feature is com=
+pleted (front end +backend) else users will view the notification tab on th=
+e UI even though partial work is completed.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h2 style=3D"text-align: left;" id=3D"PRDUserNotificationsEmail-FeatureDeco=
+mmissionPlan">Feature Decommission Plan</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 64=
+2.013px;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 156.0px;">
+   <col class=3D"" style=3D"width: 38.0px;">
+   <col class=3D"" style=3D"width: 38.0px;">
+   <col class=3D"" style=3D"width: 38.0px;">
+   <col class=3D"" style=3D"width: 38.0px;">
+   <col class=3D"" style=3D"width: 334.0px;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Feature</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Alpha&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Beta</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Pilot</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">GA</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Activation/Deactivation Notes</td>
+   </tr>
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">R2 Notifications</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:cross:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">:tick:&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>The decommission is to be done at a notification level for CX users=
+ by unsubscribing them from the notification. But the email notification fe=
+ature itself is not to be decommissioned as it is used by NBF users as well=
+ and needs to continue for them.</p>
+     <p><br></p>
+     <p>Applicable for all roles and firms</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_57854_967360149.1787837134943--

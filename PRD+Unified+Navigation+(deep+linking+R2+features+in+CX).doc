@@ -1,0 +1,652 @@
+Date: Thu, 27 Aug 2026 09:25:23 -0400 (EDT)
+Message-ID: <1122969604.57852.1787837123776@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_57851_192524280.1787837123774"
+
+------=_Part_57851_192524280.1787837123774
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>PRD Unified Navigation (deep linking R2 features in CX)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>PRD Unified Navigation (deep linking R2 features in CX)</h1>
+    <div class=3D"Section1">
+        <p>
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1787837123766 {padding: 0px;}
+div.rbtoc1787837123766 ul {margin-left: 0px;}
+div.rbtoc1787837123766 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1787837123766">
+ <ul class=3D"toc-indentation">
+  <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeaturePo=
+sitioning">Feature Positioning</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Feature=
+Overview">Feature Overview</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Problem=
+Statement">Problem Statement</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Benefit=
+sHypothesis">Benefits Hypothesis</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-TargetA=
+udience">Target Audience</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Feature=
+Objectives&amp;Metrics">Feature Objectives &amp; Metrics</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureSc=
+ope">Feature Scope</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-InScope=
+">In Scope</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-OutofSc=
+ope">Out of Scope</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-KeyAssu=
+mptions">Key Assumptions</a></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-KeyDepe=
+ndencies">Key Dependencies</a></li>
+   </ul></li>
+  <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureRe=
+quirements">Feature Requirements</a></li>
+  <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Operation=
+alImpact&amp;Considerations">Operational Impact &amp; Considerations</a></l=
+i>
+  <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureDi=
+stribution">Feature Distribution</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Feature=
+Assignment">Feature Assignment</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Capab=
+ilityMapping">Capability Mapping</a></li>
+      <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Featu=
+rePackaging&amp;Assignment">Feature Packaging &amp; Assignment</a></li>
+     </ul></li>
+    <li><a href=3D"#PRDUnifiedNavigation(deeplinkingR2featuresinCX)-Feature=
+Roll-OutPlan">Feature Roll-Out Plan</a></li>
+   </ul></li>
+ </ul>
+</div>
+<p></p>
+<p><br></p>
+<h1 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeaturePositionin=
+g">Feature Positioning</h1>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureOverview">=
+Feature Overview</h2>
+<p>The primary objective of our initiative is to decommission legacy platfo=
+rms and move all features to CX. However, the rebuild of all these features=
+ is expected to continue till next year and in the mean time we want to add=
+ress the user challenges of navigation between multiple platforms by provid=
+ing a unified navigation experience in CX which will also support all futur=
+e feature rebuilds (for deep linked features)</p>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-ProblemStatement"=
+>Problem Statement</h2>
+<ul>
+ <li data-uuid=3D"6a49dc71-8640-47c6-81fb-08ec4a47704e">Clients are unable =
+to identify whether Compass feature is available on CX or R2</li>
+ <li data-uuid=3D"6ccde9b0-4c0c-49b1-a0b9-53dc7dacb39b">Clients find it tim=
+e consuming and inefficient to navigate between multiple platforms to compl=
+ete their tasks</li>
+ <li data-uuid=3D"fba7690d-1e1d-4920-8edd-45df16a46a73">Clients are burdene=
+d with multiple navigation workflows that exist today and move to legacy fo=
+r completing their tasks</li>
+ <li data-uuid=3D"85cdd6fc-3240-488a-b806-61860e950de7">Clients want access=
+ to full feature functionality in one platform in order to complete their t=
+asks</li>
+ <li data-uuid=3D"fbad3e61-3a8d-4ba7-9e32-357f863ca9af">Client communicatio=
+n, client training, feature onboarding and setting up access to new feature=
+s is high effort activity as new feature launches are scattered across quar=
+ters</li>
+</ul>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-BenefitsHypothesi=
+s">Benefits Hypothesis</h2>
+<ul>
+ <li data-uuid=3D"11ac4c01-f663-4f6f-8c2d-7c3b4c61c44a">User Experience - R=
+educe the number of clicks and burden on users to navigate to correct platf=
+orm for accessing a particular feature</li>
+ <li data-uuid=3D"266e053f-88a4-4052-aa83-6a87a941509c">CX Adoption - Elimi=
+nate the need for users to navigate to legacy platforms&nbsp;</li>
+ <li data-uuid=3D"ea0c5f8e-01cf-43dc-85b7-6f2215141b3e">Operational Efficie=
+ncy :&nbsp;One time effort for feature onboarding and client communication<=
+/li>
+ <li data-uuid=3D"3daa22b8-e223-49bf-98da-cdb68c4a7caf">Security Vulnerabil=
+ities : Enabling unified navigation would allow us to address the security =
+vulnerabilities related to direct R2 access by users</li>
+</ul>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-TargetAudience">T=
+arget Audience</h2>
+<ul>
+ <li data-uuid=3D"c4fc9a18-ca21-425f-91d2-11bdcae72702">All CX users</li>
+ <li data-uuid=3D"0e51b9ad-772b-4e63-b48e-8f3ae5ca0a59">NBIN teams - F&amp;=
+UM, Product Activations &amp; Product Support</li>
+</ul>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureObjectives=
+&amp;Metrics">Feature Objectives &amp; Metrics</h2>
+<ul>
+ <li data-uuid=3D"daf56678-6a71-4932-a4b7-9de7b142beda">
+  <p>Enable unified navigation in CX for features available in - R1/R2</p><=
+/li>
+ <li data-uuid=3D"f3b7c1a1-2613-4c28-995a-4c1a83e18eec">Enable unified navi=
+gation which adapts to feature access and permissions while also supports t=
+he long term vision of rebuilding of these features.&nbsp;</li>
+ <li data-uuid=3D"754e58a5-649a-4cda-9314-f1ebcfea6990">
+  <p>Enable unified navigation for all user types - single firm user, multi=
+ firm user</p>
+  <ul>
+   <li data-uuid=3D"448b6356-7a5a-43c7-b455-f7ddefb3d7e0">
+    <p><em><strong>TBD - When will multi firm user be available in CX? ; Sh=
+ould deep linking be prioritized before multi-firm user feature is availabl=
+e in CX and what should our feature objectives with regards to this point?<=
+/strong></em></p></li>
+   <li data-uuid=3D"068c4bb5-d08e-40f9-9065-e8da769489e9"><em><strong>TBD -=
+ When will unified CX/R2 Access or User Profile be available in CX ? Should=
+ deep linking be prioritized before unified access and what should be our f=
+eature objectives with regards to this point ?</strong></em></li>
+  </ul></li>
+ <li data-uuid=3D"fe47535a-a8b1-4096-ae46-69a1d77bc10b">
+  <p>Enable unified navigation for all feature types - standalone or permis=
+sion driven or context preservation</p></li>
+ <li data-uuid=3D"7cdf2a4c-3a60-45d9-9ef1-5223f39b9649">
+  <p>Unified navigation should achieve disabling the Compass Legacy navigat=
+ion link in CX and disabling navigation within R2 itself for firm users</p>
+  <ul>
+   <li style=3D"font-weight: bold;font-style: italic;" data-uuid=3D"0f8c49e=
+d-c7ce-4fdd-a4a9-30651bda6d61">
+    <p><em><strong>TBD - Are there any other scenarios which need to be con=
+sidered?&nbsp;</strong></em>&nbsp;</p></li>
+  </ul></li>
+</ul>
+<h1 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-FeatureScope">Fea=
+ture Scope</h1>
+<h2 id=3D"PRDUnifiedNavigation(deeplinkingR2featuresinCX)-InScope">In Scope=
+</h2>
+<p>Following features in scope for deeplinking:&nbsp;<a class=3D"external-l=
+ink" href=3D"https://nbin.aha.io/bookmarks/custom_pivots/763456833961792880=
+8" rel=3D"nofollow">https://nbin.aha.io/bookmarks/custom_pivots/76345683396=
+17928808</a></p>
+<ul>
+ <li data-uuid=3D"32452198-c537-4c74-b294-68d70c7d1da1">Identified feature =
+types:&nbsp;=20
+  <ul>
+   <li>ResoureLibrary - <span>User engages, inputs parameters to view and d=
+ownload content from Compass ie. PDF files&nbsp;</span></li>
+   <li>PlatformUtility - common platform services</li>
+   <li>ClientLifecycleManagement - <span>non transaction request ie. accoun=
+t updates</span></li>
+   <li>Integration - external applications</li>
+   <li>Feature - front-end client facing functionality</li>
+   <li>Service - APIs and back-end service, etc.</li>
+   <li>Other - activity type items and/or F&amp;UM and/or need further revi=
+ew</li>
+  </ul></li>
+ <li data-uuid=3D"1d3feeb1-29a6-4e1b-9a82-dc4a8ab93543">Identified deeplink=
+ patterns:=20
+  <ul>
+   <li>Not required - will not be migrated over</li>
+   <li>Cannot deep link - too complex or need to be rebuilt or cannot be de=
+ep linked</li>
+   <li>Permission driven - based on rr range or role</li>
+   <li>Context - combination of rr/role, account and client id</li>
+   <li>Standalone - no context, all users have access to the same functiona=
+lity</li>
+  </ul></li>
+ <li data-uuid=3D"6e856ecc-35bb-4840-be64-e2bb9c60345f">Prioritized based o=
+n deeplink pattern as follows:&nbsp;=20
+  <ul>
+   <li>Permission Passing - prioritizing as likely, requested features</li>
+   <li>Context Passing&nbsp;</li>
+   <li>Standalone - easiest but anticipated low usage and therefore low pri=
+ority</li>
+  </ul></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-OutofScope">Out of Scope</h2>
+<ul>
+ <li data-uuid=3D"6ba592c5-d175-430b-9ae3-44017afcfe1b">Rebuilding UI for d=
+eep linked feature</li>
+ <li data-uuid=3D"31b8a035-ec2f-4860-b84a-ffdc374cf0f3">Rebuilding backend =
+services for deep linked feature</li>
+ <li data-uuid=3D"9f9e528e-0e6e-4f36-a705-afc5b2852c8d">Disable R2 login pa=
+ge <em><strong>(TBD - should this be a Unified Navigation objective?)</stro=
+ng></em></li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-KeyAssumptions">Key Assumptions</h2>
+<ul>
+ <li data-uuid=3D"057bfc63-8c9a-4235-be68-09510418e540">Context passing dur=
+ing deep linking is feasible.&nbsp;</li>
+ <li data-uuid=3D"32404f89-e066-4698-a366-5cbdb29ce0df">Existing setup, pro=
+cesses and request queues will work for deep linked features.</li>
+ <li data-uuid=3D"ee16091c-cdd7-4519-9792-1d40136bd089">Deep linking can be=
+ implemented fairly quickly and is low effort for discovery and implementat=
+ion both.</li>
+</ul>
+<h2 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-KeyDependencies">Key Dependencies</h2>
+<ul>
+ <li data-uuid=3D"fa246a6b-317f-49d8-bfd8-85b3645dc04e">R2 features will be=
+ managed on legacy platform by the legacy delivery &amp; support teams.</li=
+>
+</ul>
+<h1 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-FeatureRequirements">Feature Requirements</h1>
+<ul>
+ <li data-uuid=3D"528e0d23-6af4-4cd5-a87a-c066e2a68ae9">Unified navigation =
+experience should have none to limited changes when the features are rebuil=
+t in the future.</li>
+ <li data-uuid=3D"66625aa4-865f-4a5a-a31b-5004fb5c0618">Unified navigation =
+should adapt to&nbsp; feature access &amp; permissions, have logical groupi=
+ngs &amp; naming conventions.</li>
+ <li data-uuid=3D"723980d4-f2cf-4bf7-9545-16a0ce98d735">Deep links to have =
+branding and URL structure consistent with CX</li>
+ <li data-uuid=3D"10121726-d8b4-408b-8ad6-fcc196b6b2c9">Identify gaps in wo=
+rkflow for Feature access/modification requests by clients for deep linked =
+features. Determine whether these gaps can be addressed or require addition=
+al features.</li>
+ <li data-uuid=3D"c0e0f654-a9c3-4e0e-9476-baed5f889868">Identify gaps in wo=
+rkflow for Feature access/modification request processing by NBIN teams for=
+ deep linked features . Determine whether these gaps can be addressed or re=
+quire additional features.</li>
+ <li data-uuid=3D"d184dcce-fa42-414e-bccf-37879a410345">User experience, br=
+anding etc for deep linked features should be consistent with CX user exper=
+ience.</li>
+ <li data-uuid=3D"185fbcb0-b43c-40c9-9f40-9e761d0cf3f2">For maintenance pur=
+poses allow NBIN teams to access full legacy navigation.</li>
+ <li data-uuid=3D"f8a98963-883b-4ed6-b43d-78394da498d8">Maintain session co=
+ntinuity between CX and deep linked feature.</li>
+ <li data-uuid=3D"b64b03ba-3dba-4d88-be6a-ea5f6cb1e8ae">State preservation =
+(filters/search/ walk-me etc.)</li>
+ <li data-uuid=3D"71a15080-99f1-491b-b5af-97e3d7d9a540">Additional scenario=
+s - white labeled firms. saved R2 bookmarks, external password preferences,=
+ R2 links in email notifications, email id inconsistencies between CX &amp;=
+ R2,&nbsp;</li>
+ <li data-uuid=3D"d90efa1f-2704-4906-93a5-e03bcd634e73">Additional impacts =
+- operationalization with SAA teams, L&amp;D teams - walk-me walkthroughs i=
+mpacts, other integrations besides R1</li>
+</ul>
+<h1 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-OperationalImpact&amp;Considerations">Operational Impact &amp; C=
+onsiderations</h1>
+<p><br>
+  &nbsp;Considerations for further discussions:</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 78=
+.1007%;">
+  <colgroup>
+   <col style=3D"width: 2.60529%;">
+   <col style=3D"width: 25.2444%;">
+   <col style=3D"width: 40.7863%;">
+   <col style=3D"width: 31.3563%;">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong>Issue</strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong>Details</strong></p></td>
+    <td class=3D"confluenceTd">
+     <p><strong>Impacts/Examples</strong></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>1</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access will have to be maintained in both CX and R2 without profile=
+ unification <strong><em>(Operational challenge)</em></strong></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9e309db9-3146-48b1-bbd2-3e9ba5ee688f">Deep linking e=
+pic was envisioned as a one-time activity for feature onboarding &amp; comm=
+unication.</li>
+      <li data-uuid=3D"4549e1c2-6780-4c63-a161-fed6a3bf77d0">However, as F&=
+amp;UM profile unification feature has been deprioritized the feature acces=
+s will have to be maintained in two systems.</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"d7aebfb7-4b25-40bc-a2d1-4d308309a259">Ex: Access set=
+tings for File Upload will have to be maintained separately in CX and R2 bo=
+th</li>
+      <li data-uuid=3D"c22e19d8-17df-47bd-9d57-d7ee3b5d86ec">Would user hav=
+e to raise 2 requests to edit access to a deep linked feature ?</li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>2</p></td>
+    <td class=3D"confluenceTd">
+     <p>Deep linking feature having different permissions as compared to CX=
+ profile &nbsp;<strong><em>(Operational challenge)</em></strong></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3ab6440c-8060-4bdd-b045-e1cae0bdfc86">Without F&amp;=
+UM multi-firms feature in CX, deep linking will depend on the R2 permission=
+s</li>
+      <li data-uuid=3D"95b2ef17-1755-4f5a-bc57-b7895a761c7d">For subadvisor=
+ &amp; parent-child firm users the permissions for deep linked feature will=
+ be different from the remaining CX features</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"775d3ba3-6b28-4bc8-80f9-f00296a43109">Ex: User has d=
+ifferent RR code assignment for deep linked File Upload feature v/s the Acc=
+ounts module in CX</li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>3</p></td>
+    <td class=3D"confluenceTd">
+     <p>Hiding R2 navigation?</p>
+     <p><strong><em>(User Experience)</em></strong></p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9509e84e-562c-488b-be5e-cda33adc23a2">One of our pri=
+mary objectives for deep linking is to have a unified navigation</li>
+      <li data-uuid=3D"1eb4ecb4-1053-4bd9-90f5-c06229ab5b25">However, multi=
+ firm users would need access to R2 navigation enabled to have full feature=
+ capability</li>
+     </ul>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"fc5ea1f1-15fa-474f-814b-f7a10ab325c9">Ex: User needs=
+ to access sub advisor clients under Accounts module</li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>4</p></td>
+    <td class=3D"confluenceTd">
+     <p>Users accessing R2 from restricted geographical locations</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a7131985-93e8-41fe-9a3a-32e18352d6eb">This will not =
+be addressed through deep linking and hence R2 access cannot be switched of=
+f completely</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p style=3D"text-align: left;"><br></p>
+<p style=3D"text-align: left;"><span>Impact: Q4 Prioritization</span></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 46=
+.6114%;">
+  <colgroup>
+   <col style=3D"width: 60.9585%;">
+   <col style=3D"width: 39.0282%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Activity</th>
+    <th scope=3D"col" class=3D"confluenceTh">Who</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Requirements</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Feature Onboarding</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Feature Access Requirements for CX</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Feature Registration</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Dev effort post discovery&nbsp;</td>
+    <td class=3D"confluenceTd">CAP, Tech Titans, F&amp;UM?</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h1 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-FeatureDistribution"><span>Feature Distribution</span></h1>
+<h2 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-FeatureAssignment">Feature Assignment</h2>
+<h3 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-CapabilityMapping">Capability Mapping</h3>
+<p>TBD</p>
+<h3 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-FeaturePackaging&amp;Assignment">Feature Packaging &amp; Assignm=
+ent</h3>
+<p>TBD</p>
+<h2 style=3D"text-align: left;" id=3D"PRDUnifiedNavigation(deeplinkingR2fea=
+turesinCX)-FeatureRoll-OutPlan">Feature Roll-Out Plan</h2>
+<p style=3D"text-align: left;">TBD&nbsp;</p>
+<p><br><br></p>
+    </div>
+</body>
+</html>
+------=_Part_57851_192524280.1787837123774--

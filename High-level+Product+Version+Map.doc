@@ -1,0 +1,464 @@
+Date: Thu, 27 Aug 2026 09:27:22 -0400 (EDT)
+Message-ID: <1748760713.57860.1787837242208@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_57859_826623605.1787837242208"
+
+------=_Part_57859_826623605.1787837242208
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>High-level Product Version Map</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>High-level Product Version Map</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-sch=
+eme-color=3D"@FFFFFF,0," data-usefontface=3D"false" data-contrast=3D"none">=
+<span>Theme</span></span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-sch=
+eme-color=3D"@FFFFFF,0," data-usefontface=3D"false" data-contrast=3D"none">=
+<span>Digital Communication</span></span></strong><span>=E2=80=8B</span></p=
+></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-sch=
+eme-color=3D"@FFFFFF,0," data-usefontface=3D"false" data-contrast=3D"none">=
+<span>Transactional Communication</span></span></strong><span>=E2=80=8B</sp=
+an></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-sch=
+eme-color=3D"@FFFFFF,0," data-usefontface=3D"false" data-contrast=3D"none">=
+<span>Services Communication</span></span></strong><span>=E2=80=8B</span></=
+p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-sch=
+eme-color=3D"@FFFFFF,0," data-usefontface=3D"false" data-contrast=3D"none">=
+<span>Full Capabilities</span></span></strong><span>=E2=80=8B</span></p></t=
+d>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-use=
+fontface=3D"false" data-contrast=3D"none"><span>Target</span></span></stron=
+g><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Timeline =E2=80=93 Q2</span></span>=
+<span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Segment =E2=80=93 Compass User</spa=
+n></span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Timeline =E2=80=93 Q3</span></span>=
+<span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Segment =E2=80=93 Compass User</spa=
+n></span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Timeline =E2=80=93Q4</span></span><=
+span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Segment =E2=80=93 Firms</span></spa=
+n><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>2027</span></span><span>=E2=80=8B</=
+span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Segment =E2=80=93 Firms and Users</=
+span></span><span>=E2=80=8B</span></p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-use=
+fontface=3D"false" data-contrast=3D"none"><span>Use Cases</span></span></st=
+rong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"1" data-aria-level=3D"=
+1" data-uuid=3D"70144bde-bbe3-4d2b-8979-bf48dfc9277a"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>Application Status</span></span><s=
+pan>=E2=80=8B</span></li>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"2" data-aria-level=3D"=
+1" data-uuid=3D"33d81058-750d-4bd0-be73-6193ea649b98"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>Deep linking POC - Client </span><=
+/span><span data-usefontface=3D"false" data-contrast=3D"none"><span>Bulleti=
+ns</span></span><span>=E2=80=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"1" data-aria-level=3D"=
+1" data-uuid=3D"f5f60c8f-d955-47d0-ace1-bad469a9709b"><span data-scheme-col=
+or=3D"@000000,," data-usefontface=3D"false" data-contrast=3D"none"><span>Em=
+ails: R2 Notifications =E2=80=93 </span></span><span data-scheme-color=3D"@=
+000000,," data-usefontface=3D"false" data-contrast=3D"none"><span>Publicati=
+ons &amp; Targeted</span></span><span>=E2=80=8B</span></li>
+     </ul>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0,&quot;335559685&quot;:0,=
+&quot;335559731&quot;:0}"><span>=E2=80=8B</span></p>
+     <ul>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"2" data-aria-level=3D"=
+1" data-uuid=3D"43108394-9ba9-427c-a0b4-201781c57b70"><span data-scheme-col=
+or=3D"@000000,," data-usefontface=3D"false" data-contrast=3D"none"><span>To=
+ols :NPAT publishing tool </span></span><span data-scheme-color=3D"@000000,=
+," data-usefontface=3D"false" data-contrast=3D"none"><span>&amp; user email=
+ preferences. </span></span><span>=E2=80=8B</span></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"false" data-contrast=3D"none"><span>Sup=
+port/Service (R2 decom)</span></span><span>=E2=80=8B</span></p>
+     <ul>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"1" data-aria-level=3D"=
+1" data-uuid=3D"0b88a88e-4f1a-4495-93c4-e2f77a2a7688"><span data-scheme-col=
+or=3D"@000000,," data-usefontface=3D"false" data-contrast=3D"none"><span>Se=
+cured Messaging</span></span><span>=E2=80=8B</span></li>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"2" data-aria-level=3D"=
+1" data-uuid=3D"222430e3-2002-4e76-bd3a-a9a18a36b912"><span>=E2=80=8B</span=
+></li>
+     </ul>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0,&quot;335559685&quot;:0,=
+&quot;335559731&quot;:0}"><span data-scheme-color=3D"@000000,," data-usefon=
+tface=3D"false" data-contrast=3D"none"><span>Firm/Target Communication</spa=
+n></span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"1" data-aria-level=3D"=
+1" data-uuid=3D"6a3ccc67-db9f-4194-bc8e-c764178279f7"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>New Launch/Feature</span></span><s=
+pan>=E2=80=8B</span></li>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"2" data-aria-level=3D"=
+1" data-uuid=3D"04012f5e-91e6-440d-aa67-51419ddcfca9"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>Release Notes</span></span><span>=
+=E2=80=8B</span></li>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"3" data-aria-level=3D"=
+1" data-uuid=3D"074147f5-fd55-47f0-9c7a-947231d3adc4"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>Surveys &amp; Feedback</span></spa=
+n><span>=E2=80=8B</span></li>
+      <li data-charcodes=3D"45" data-font=3D"Calibri,Sans-Serif" data-buaut=
+onum=3D"8" data-margin=3D"450" data-aria-posinset=3D"4" data-aria-level=3D"=
+1" data-uuid=3D"7df7bbf8-ea75-41fe-b819-19205418ae31"><span data-usefontfac=
+e=3D"false" data-contrast=3D"none"><span>Incident and feedback </span></spa=
+n><span data-usefontface=3D"false" data-contrast=3D"none"><span>reporting</=
+span></span><span>=E2=80=8B</span></li>
+     </ul></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-use=
+fontface=3D"false" data-contrast=3D"none"><span>Goal</span></span></strong>=
+<span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>R2 d=
+ecom for </span></span><span data-scheme-color=3D"@000000,," data-usefontfa=
+ce=3D"true" data-contrast=3D"none"><span>digital&nbsp; communication use </=
+span></span><span data-scheme-color=3D"@000000,," data-usefontface=3D"true"=
+ data-contrast=3D"none"><span>cases</span></span><span data-usefontface=3D"=
+false" data-contrast=3D"none"><span>&nbsp;</span></span><span>=E2=80=8B</sp=
+an></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>R2 d=
+ecom for transactional </span></span><span data-scheme-color=3D"@000000,," =
+data-usefontface=3D"true" data-contrast=3D"none"><span>communication use ca=
+ses</span></span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>R2 d=
+ecom for services </span></span><span data-scheme-color=3D"@000000,," data-=
+usefontface=3D"true" data-contrast=3D"none"><span>communication use cases</=
+span></span><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>R2 d=
+ecom for engagement </span></span><span data-scheme-color=3D"@000000,," dat=
+a-usefontface=3D"true" data-contrast=3D"none"><span>communication use cases=
+</span></span><span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span>=E2=80=8B</span>=
+</p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>Enha=
+ncements to user </span></span><span data-scheme-color=3D"@000000,," data-u=
+sefontface=3D"true" data-contrast=3D"none"><span>centered use cases</span><=
+/span><span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span>=E2=80=8B</span>=
+</p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-scheme-colo=
+r=3D"@000000,," data-usefontface=3D"true" data-contrast=3D"none"><span>Firm=
+-centered use cases</span></span><span>=E2=80=8B</span></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><strong><span data-use=
+fontface=3D"false" data-contrast=3D"none"><span>Key Capabilities </span></s=
+pan></strong><strong><span data-usefontface=3D"false" data-contrast=3D"none=
+"><span>required</span></span></strong><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>CX System Health feature</span></sp=
+an><span>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Email Service</span></span><span>=
+=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Orchestration tools &amp; rule </sp=
+an></span><span data-usefontface=3D"false" data-contrast=3D"none"><span>eng=
+ines</span></span><span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span>=E2=80=8B</span>=
+</p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Publication Service</span></span><s=
+pan>=E2=80=8B</span></p></td>
+    <td class=3D"confluenceTd">
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span data-usefontface=
+=3D"false" data-contrast=3D"none"><span>Refer capability map</span></span><=
+span>=E2=80=8B</span></p>
+     <p data-ccp-props=3D"{&quot;335559683&quot;:0}"><span>=E2=80=8B</span>=
+</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_57859_826623605.1787837242208--

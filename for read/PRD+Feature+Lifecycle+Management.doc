@@ -1,0 +1,984 @@
+Date: Mon, 31 Aug 2026 10:16:35 -0400 (EDT)
+Message-ID: <786484796.86393.1788185795603@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86392_1679969322.1788185795601"
+
+------=_Part_86392_1679969322.1788185795601
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>PRD Feature Lifecycle Management</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>PRD Feature Lifecycle Management</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-sid=
+ebar">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"PRDFeatureLifecycleManagement-FeaturePositioning">Feature Pos=
+itioning</h1>
+    <h2 id=3D"PRDFeatureLifecycleManagement-FeatureOverview">Feature Overvi=
+ew</h2>
+    <p><span style=3D"letter-spacing: 0.0px;">Feature lifecycle management =
+is a cumbersome process that often leads to confusion, is extremely manual,=
+ and difficult to support downstream processes (e.g. feature assignment, fe=
+ature usage reporting, feature launches, etc.).</span></p>
+    <h2 id=3D"PRDFeatureLifecycleManagement-ProblemStatement">Problem State=
+ment</h2>
+    <p>...</p><span style=3D"letter-spacing: 0.0px;">&nbsp;</span>
+   </div>
+  </div>
+  <div class=3D"cell aside" data-type=3D"aside">
+   <div class=3D"innerCell">
+    <p>Table of Contents</p>
+    <p>
+     <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788185795578 {padding: 0px;}
+div.rbtoc1788185795578 ul {margin-left: 0px;}
+div.rbtoc1788185795578 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+    <div class=3D"toc-macro rbtoc1788185795578">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#PRDFeatureLifecycleManagement-FeaturePositioning">Fea=
+ture Positioning</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureOverview">Feat=
+ure Overview</a></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-ProblemStatement">Pro=
+blem Statement</a></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-TargetAudience">Targe=
+t Audience</a>
+         <ul class=3D"toc-indentation">
+          <li><a href=3D"#PRDFeatureLifecycleManagement-UserPersonas">User =
+Personas</a></li>
+          <li><a href=3D"#PRDFeatureLifecycleManagement-BuyerPersonas">Buye=
+r Personas</a></li>
+         </ul></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureObjectives&amp=
+;Metrics">Feature Objectives &amp; Metrics</a></li>
+       </ul></li>
+      <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureScope">Feature S=
+cope</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDFeatureLifecycleManagement-InScope">In Scope</a>=
+</li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-OutofScope">Out of Sc=
+ope</a></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-KeyAssumptions">Key A=
+ssumptions</a></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureDependencies">=
+Feature Dependencies</a></li>
+       </ul></li>
+      <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureRequirements">Fe=
+ature Requirements</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDFeatureLifecycleManagement-1-FeatureLifecycleMan=
+agement">1 - Feature Lifecycle Management</a>
+         <ul class=3D"toc-indentation">
+          <li><a href=3D"#PRDFeatureLifecycleManagement-CurrentFeatureRegis=
+trationFlow">Current Feature Registration Flow</a></li>
+         </ul></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-OperationalImpact&amp=
+;Considerations">Operational Impact &amp; Considerations</a></li>
+       </ul></li>
+      <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureDistribution">Fe=
+ature Distribution</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureAssignment">Fe=
+ature Assignment</a>
+         <ul class=3D"toc-indentation">
+          <li><a href=3D"#PRDFeatureLifecycleManagement-CapabilityMapping">=
+Capability Mapping</a></li>
+          <li><a href=3D"#PRDFeatureLifecycleManagement-FeaturePackaging&am=
+p;Assignment">Feature Packaging &amp; Assignment</a></li>
+         </ul></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-FeatureRoll-OutPlan">=
+Feature Roll-Out Plan</a></li>
+        <li><a href=3D"#PRDFeatureLifecycleManagement-RelatedRequirements">=
+Related Requirements</a></li>
+       </ul></li>
+     </ul>
+    </div>
+    <p></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+    <p><span style=3D"font-size: 20.0px;letter-spacing: -0.008em;">Benefits=
+ Hypothesis</span></p>
+    <p><br></p>
+    <h2 id=3D"PRDFeatureLifecycleManagement-TargetAudience">Target Audience=
+</h2>
+    <h3 id=3D"PRDFeatureLifecycleManagement-UserPersonas">User Personas</h3=
+>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 69.854%;">
+      <colgroup>
+       <col style=3D"width: 20.1331%;">
+       <col style=3D"width: 41.5095%;">
+       <col style=3D"width: 38.3575%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Persona</th>
+        <th scope=3D"col" class=3D"confluenceTh">Goals</th>
+        <th scope=3D"col" class=3D"confluenceTh">Needs</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">ID Administrator</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"d128e23f-c525-4703-b1cd-f90dc06a4ff3">Support NB=
+IN in processing client requests</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"d840bb2d-07f6-4b33-9e2d-33446399f851">Ease &amp;=
+ accuracy of user access processing</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 id=3D"PRDFeatureLifecycleManagement-BuyerPersonas">Buyer Personas</=
+h3>
+    <ul>
+     <li data-uuid=3D"2226e381-26c7-43c5-82d1-408937ea12ce">Deployment Team=
+</li>
+    </ul>
+    <h2 id=3D"PRDFeatureLifecycleManagement-FeatureObjectives&amp;Metrics">=
+Feature Objectives &amp; Metrics</h2>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 64.9399%;">
+      <colgroup>
+       <col style=3D"width: 7.07136%;">
+       <col style=3D"width: 49.337%;">
+       <col style=3D"width: 43.5917%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Rank</th>
+        <th scope=3D"col" class=3D"confluenceTh">Feature Goal</th>
+        <th scope=3D"col" class=3D"confluenceTh">KPI</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">Operational simplification</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h1 id=3D"PRDFeatureLifecycleManagement-FeatureScope">Feature Scope</h1=
+>
+    <h2 id=3D"PRDFeatureLifecycleManagement-InScope">In Scope</h2>
+    <ul>
+     <li data-uuid=3D"8bb28376-f92c-4e4a-a075-c50732d8b376">Centralized acc=
+ess request management workflow</li>
+     <li data-uuid=3D"ff683226-3e21-435e-9484-c024800381d7">New feature ass=
+ignment</li>
+     <li data-uuid=3D"1fc49ea1-cd36-4c39-9dc6-e1b6a3940765">Basic self-serv=
+ice user management functions</li>
+    </ul>
+    <h2 id=3D"PRDFeatureLifecycleManagement-OutofScope">Out of Scope</h2>
+    <ul>
+     <li data-uuid=3D"da178964-0b50-4010-9703-cdea547938a3">Auto-provisioni=
+ng</li>
+     <li data-uuid=3D"f48aef1c-7e94-4859-a4f8-12f0fe65bf12">Self-service fe=
+ature assignments</li>
+    </ul>
+    <h2 id=3D"PRDFeatureLifecycleManagement-KeyAssumptions">Key Assumptions=
+</h2>
+    <ul>
+     <li data-uuid=3D"78f23e0f-ffb4-469b-8f5d-d05eb25812d8">TBC</li>
+    </ul>
+    <h2 id=3D"PRDFeatureLifecycleManagement-FeatureDependencies">Feature De=
+pendencies</h2>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 60.7182%;">
+      <colgroup>
+       <col style=3D"width: 35.4132%;">
+       <col style=3D"width: 64.5868%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Dependency Type</th>
+        <th scope=3D"col" class=3D"confluenceTh">Features</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Pre-requisites</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"008c6fea-f807-4013-814b-71f79b26925a">Target UX =
+architecture</li>
+          <li data-uuid=3D"e2e2e4a8-ede0-4b7f-855c-1884830f0a98">System hea=
+lth status</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Enabling Capabilities</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"fef240fc-4cc1-45c1-b6a4-5c5fe594d041">SecuredZon=
+e SSO</li>
+          <li data-uuid=3D"aba3b95b-5859-4f71-b0bd-0c987a346271">Firm acces=
+s attestations</li>
+          <li data-uuid=3D"59aa99b4-d240-43a4-b6d9-0b726326d37b">Multi-firm=
+</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h1 id=3D"PRDFeatureLifecycleManagement-FeatureRequirements">Feature Re=
+quirements</h1>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 1431.0px;">
+      <colgroup>
+       <col style=3D"width: 171.0px;">
+       <col style=3D"width: 1259.0px;">
+      </colgroup>
+      <tbody class=3D"">
+       <tr class=3D"">
+        <th colspan=3D"2" style=3D"text-align: left;vertical-align: top;" c=
+lass=3D"confluenceTh">
+         <h2 id=3D"PRDFeatureLifecycleManagement-1-FeatureLifecycleManageme=
+nt">1 - Feature Lifecycle Management&nbsp;</h2></th>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Problems to Solve</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"0b806d38-ca28-47a8-a5b3-5535275058cf">Ease of fe=
+ature introduction&nbsp;</li>
+          <li data-uuid=3D"e13cbcb7-011d-4125-bef9-ae5b197a051a">Alignment =
+of access provisioning with feature hierarchy</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Target Users</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"a255c6a5-8981-4cf0-a17e-c28b540ac886">Product Ac=
+tivation</li>
+          <li data-uuid=3D"ac6e870f-60d6-48ef-9174-3276907e27c9">Feature In=
+tegration Team</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Requirements</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <div class=3D"content-wrapper">
+          <p>Formalize Feature Management capability on the platform to sup=
+port post feature registration activities:</p>
+          <ul>
+           <li data-uuid=3D"bbdc2972-fa68-4fbc-a282-d454e086e5b0">Provide v=
+isibility into available Features on the platform once it is available on t=
+he platform</li>
+           <li data-uuid=3D"07b5b3b5-e5cc-4d6b-afb3-5f8a10eecb7b">Provide a=
+ means for platform apps to consume Features</li>
+           <li data-uuid=3D"c0c8d6a7-b437-4ea5-a88d-017f8080cfe5">Allow for=
+ Feature status, feature type (core vs. add-on) to be defined for onward us=
+e</li>
+          </ul>
+         </div></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Non-Functionals</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"c4f2c34b-2441-4e47-a8a2-6e008f080dc5">TBC</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Out of Scope</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"c7fb97c1-f108-4fbc-84b4-50ade60b9f90">TBC</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Acceptance Criteria</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"ef3d7e4b-a9ea-48d5-9124-f719a5e85246">New featur=
+es are available on the feature list, feature&nbsp;</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Roadmap Dependencies</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"8742ffae-c6f9-494d-8504-f8382125af2e">Clarificat=
+ion required on degree of centralization of feature / subscription manageme=
+nt (currently semi-distributed depending on the platform); when to decentra=
+lize (e.g. IIS tools versus Partnership features)</li>
+          <li data-uuid=3D"d462eb3d-6c31-4b21-9298-f4bf43a5ebf7">Feature li=
+st and feature lifecycle management alignment with Firm360</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Risks &amp; Constraints</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"d57ec59b-6ef8-4001-9f8f-3061748cbbff">TBC</li>
+         </ul></td>
+       </tr>
+       <tr class=3D"">
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Key Assumptions</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"1815b7c1-10aa-4670-a248-fb07cbec686d">Two possib=
+le entry points for features - on-platform comes from CX, off-platform come=
+s from Firm360</li>
+          <li data-uuid=3D"ba6d83d5-7685-40dc-bfed-61ddd9e1f6f6">After MVP,=
+ BAU feature onboarding continues in CX and will not be interrupted without=
+ this feature</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Open Questions</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <div class=3D"content-wrapper">
+          <p><br></p>
+          <ul>
+           <li data-uuid=3D"c17009f3-a394-41b9-b70f-a5e341a38586">Current s=
+tate documentation for feature onboarding &amp; registration&nbsp;<a class=
+=3D"confluence-userlink user-mention" data-username=3D"soc007" href=3D"/dis=
+play/~soc007" data-linked-resource-id=3D"9568271" data-linked-resource-vers=
+ion=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://w=
+iki.bnc.ca">Candi So</a>&nbsp;</li>
+          </ul>
+          <p><br></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h3 id=3D"PRDFeatureLifecycleManagement-CurrentFeatureRegistrationFlow"=
+>Current Feature Registration Flow</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 98.075%;">
+      <colgroup>
+       <col style=3D"width: 7.15047%;">
+       <col style=3D"width: 17.8869%;">
+       <col style=3D"width: 17.4959%;">
+       <col style=3D"width: 18.2707%;">
+       <col style=3D"width: 18.368%;">
+       <col style=3D"width: 20.828%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Create Feature in Resource=
+s Inventory =E2=86=92</th>
+        <th class=3D"confluenceTh">Feature List Update =E2=86=92</th>
+        <th scope=3D"col" class=3D"confluenceTh">Feature Packaging &nbsp;=
+=E2=86=92</th>
+        <th scope=3D"col" class=3D"confluenceTh">Feature Permissioning =E2=
+=86=92</th>
+        <th scope=3D"col" class=3D"confluenceTh">Platform UI Updates</th>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Goal</th>
+        <td class=3D"confluenceTd">Features must be registered as resources=
+ so that those resources are available for consumption on the platform</td>
+        <td class=3D"confluenceTd">Make feature inventory visible for furth=
+er configuration of its behavior on the platform</td>
+        <td class=3D"confluenceTd">Enable firm and user assignment of new r=
+esources</td>
+        <td class=3D"confluenceTd">Ensure feature permissions can be enforc=
+ed when assigned to firm &amp; user.</td>
+        <td class=3D"confluenceTd">Ensure new features appear properly and =
+consistently across all consuming tools</td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Steps</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"e448cd9c-938d-4ac9-b882-ccec5a85584c">Register M=
+enu resources to define a new Module (i.e. left nav.) and allow for this mo=
+dule to show up in Firm and User Settings</li>
+          <li data-uuid=3D"afa7690b-5e71-4c74-b84c-f170535e710f">Register P=
+ermission resources for use in ...&nbsp;</li>
+         </ul></td>
+        <td class=3D"confluenceTd">N/A - manually populated in the new Feat=
+ure List tool and does not connect to feature inventory</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"dfb93777-8706-45ee-b7da-bb81c72b888f"><span>Defi=
+ne what scopes are needed to access the APIs in the feature, and then updat=
+e the user groups in okta</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"letter-spacing: 0.0px;">Firm Settings</span></p>
+         <p>User Settings</p>
+         <p>Navigation</p>
+         <p>System Health Status Management</p>
+         <p>Unified Access Request</p></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">
+         <p>Details</p></th>
+        <td class=3D"confluenceTd">
+         <p>Basic resources for any application</p>
+         <ul>
+          <li data-uuid=3D"be33b2a2-18ed-42ce-a678-436961dc26a8">Menu resou=
+rces=20
+           <ul>
+            <li>Menu resource ( Mandatory )</li>
+            <li>Restriction resource</li>
+           </ul></li>
+          <li data-uuid=3D"4d26baf8-597b-4313-9666-c088cf8dd628">Permission=
+ Resources=20
+           <ul>
+            <li>View resource=20
+             <ul>
+              <li>mainly displayed in -&gt; Firm Settings</li>
+             </ul></li>
+            <li>Manage, Control, Process etc.&nbsp;=20
+             <ul>
+              <li>Displayed in firm settlings and distributed across the va=
+rious user packages as needed ( made optional if it's a user package where =
+the feature can be assigned as an add-on</li>
+             </ul></li>
+           </ul></li>
+         </ul>
+         <p>Resource definition includes</p>
+         <ul>
+          <li data-uuid=3D"65759226-bfd7-4a0f-8d95-742a1373e66f">Type</li>
+          <li data-uuid=3D"41f55b2c-f4b7-4f9d-b526-948e651f403d">Restrictio=
+n</li>
+          <li data-uuid=3D"a7a3dd18-6f32-4332-b0e3-16585f6977c6">Group</li>
+          <li data-uuid=3D"5093f260-c8d1-4cb9-8e9b-131c8552e542">Level</li>
+          <li data-uuid=3D"a02b9ebc-90b2-4fe3-b7a6-8f9ea923e49b">Assignment=
+ Mode (mandatory or optional)</li>
+          <li data-uuid=3D"3fb87ce0-d265-452b-bd4e-681dce3453c1">Override (=
+default to on/off on restricted resources)</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm Package Registration</p>
+         <ul>
+          <li data-uuid=3D"27d2012d-ecef-460b-918e-8cbca741c808">Menu Resou=
+rce Assignment=20
+           <ul>
+            <li>Menu ( Always registered Selected and Mandatory )</li>
+            <li>Restriction ( Always registered Not Selected and Optional )=
+=20
+             <ul>
+              <li>Tag with moduleOverride: True -&gt; makes the hide button=
+ show up</li>
+             </ul></li>
+           </ul></li>
+          <li data-uuid=3D"63735847-dacc-48b6-9144-e46a06d3785b">Permission=
+ Resource Assignment=20
+           <ul>
+            <li>View ( Selected and Mandatory )</li>
+            <li>Manage, Control, Process ( Always Selected and Mandatory at=
+ the firm level )</li>
+           </ul></li>
+         </ul>
+         <p><span style=3D"letter-spacing: 0.0px;">User Package Registratio=
+n</span></p>
+         <ul>
+          <li data-uuid=3D"481edacc-3e79-4550-ad0f-8c3e1aff7523">Menu Regis=
+tration=20
+           <ul>
+            <li>Menu ( Selected and Mandatory )</li>
+            <li>Restricted ( Not selected and Optional )=20
+             <ul>
+              <li>Tag with moduleOverride: True - make the restriction unch=
+ecked by default</li>
+             </ul></li>
+           </ul></li>
+          <li data-uuid=3D"8abe3ffd-160f-427e-ba7a-f9b4d99131cc">Permission=
+ Registration=20
+           <ul>
+            <li>View ( Selected and Mandatory always)</li>
+            <li>Manage, Control, Process ( Selected and Mandatory in the ap=
+propriate user packages, optional when the user needs to select such as tra=
+ding products or drop approval )</li>
+           </ul></li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>What are the content API</p>
+         <ul>
+          <li data-uuid=3D"f5fe1328-347c-4286-b89d-00aed7555fab">Group Labe=
+l</li>
+          <li data-uuid=3D"50b2310a-78eb-497d-8594-40e2c1ac3d5d">Resource L=
+abel</li>
+          <li data-uuid=3D"4fea8e0b-a53f-465b-8f27-9bd2bcdc8ab0">View Resou=
+rce Label</li>
+          <li data-uuid=3D"3f0ebd13-9fb8-467c-98ed-79c7a1008ad1">View Resou=
+rce Description</li>
+          <li data-uuid=3D"4d61ec14-cfd3-47dd-b154-e47b9550616e">Nav Link L=
+abel</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Notes / limitations</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"5305b301-692a-42ca-b8cb-f85f6045a864">No concept=
+ of "Features" - Resource Group used as a facsimile</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"e81346c8-95c1-4034-85e1-79cb9a1e0d5b">Disconnect=
+ed from upstream step</li>
+          <li data-uuid=3D"8c73771b-d0ed-406b-a758-7bca3543d338">Currently =
+adds a step to enable Sys Health Status and possibly UAR</li>
+          <li data-uuid=3D"689b25e6-80d3-4253-8bbf-74ee00df5048">Feature at=
+tributes are not being used?</li>
+         </ul></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <h2 id=3D"PRDFeatureLifecycleManagement-OperationalImpact&amp;Considera=
+tions">Operational Impact &amp; Considerations</h2>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <ul>
+       <li data-uuid=3D"f7ae38f1-6b01-44ea-a299-41d0f0af54ad">Describe how =
+this feature may impact our teams</li>
+       <li data-uuid=3D"061db033-d9f5-43ce-8c3c-d2683cef8f70">Describe depe=
+ndencies across other products/initiatives/features/launches</li>
+       <li data-uuid=3D"4efe7aa4-a4f9-4dc2-a4ee-5ef8a91e3b1e">Be specific a=
+bout current vs. new workflows, procedures,</li>
+      </ul>
+     </div>
+    </div>
+    <p><br></p>
+    <h1 id=3D"PRDFeatureLifecycleManagement-FeatureDistribution"><span>Feat=
+ure Distribution</span></h1>
+    <div role=3D"region" aria-label=3D"Note" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-note">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-warning confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p><span>Draft as inputs into feature onboarding &amp; feature activa=
+tion planning, lock down once onboarding / activation planning is kicked of=
+f in order to finalize any last requirements such as integration / activati=
+on controls that feed into delivery refinement.<br></span></p>
+     </div>
+    </div>
+    <h2 id=3D"PRDFeatureLifecycleManagement-FeatureAssignment">Feature Assi=
+gnment</h2>
+    <h3 id=3D"PRDFeatureLifecycleManagement-CapabilityMapping">Capability M=
+apping</h3>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <ul>
+       <li data-uuid=3D"f5d0b9b7-cc9f-49c7-8567-47d79d36da46">Where does it=
+ fit into our <a href=3D"https://wiki.bnc.ca/display/COMPASS/NBIN+Digital+C=
+apabilities" rel=3D"nofollow">NBIN Digital Capabilities Map</a>?</li>
+       <li data-uuid=3D"e6faa7e5-b93e-4aed-82be-db983dcb5c49">What are the =
+available functions: View / Manage / Control / Processing with possible int=
+ervention?</li>
+       <li data-uuid=3D"444951df-8938-4ae6-ac8e-f1c376dba862">Is this a cor=
+e capability or non-core?</li>
+      </ul>
+     </div>
+    </div>
+    <p><br></p>
+    <h3 id=3D"PRDFeatureLifecycleManagement-FeaturePackaging&amp;Assignment=
+">Feature Packaging &amp; Assignment</h3>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Describe who this app is intended for, e.g.:</p>
+      <ul>
+       <li data-uuid=3D"62def81e-596a-4b13-b50c-a26ef34dbf01">Is it for all=
+ firms as part of our core offering, or a separate add-on?</li>
+       <li data-uuid=3D"d76e6209-2794-4104-92f2-38c81e211616">Is it only av=
+ailable for certain types of firms?</li>
+       <li data-uuid=3D"e01c5f27-1364-48ae-91b0-29564ad26507">Is this featu=
+re automatically packaged together within an app or separately assignable?&=
+nbsp; What is the rationale?&nbsp;&nbsp;</li>
+      </ul>
+     </div>
+    </div>
+    <p><br></p>
+    <p><strong>Firm-level Assignment</strong></p>
+    <p><br></p>
+    <p><strong>User-level Assignment</strong></p>
+    <p><br></p>
+    <h2 id=3D"PRDFeatureLifecycleManagement-FeatureRoll-OutPlan">Feature Ro=
+ll-Out Plan</h2>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>PM is responsible for defining what validation steps are required =
+to fully launch the product(s), target product readiness and validation per=
+iods required.&nbsp; This is based on PM risk assessment on the path to ado=
+ption.</p>
+      <p>&nbsp;This section drives GTM planning and product activation.</p>
+      <p>&nbsp;Roll-out planning:</p>
+      <ul>
+       <li data-uuid=3D"f7084060-777b-4102-80d3-cd6aeffe30b3">Does this fea=
+ture require incremental validation (e.g. alpha / beta / pilot / GA) and wh=
+y?</li>
+       <li data-uuid=3D"abf13977-26c9-4159-8288-c82145d6baba">Is there a de=
+commissioning component after a certain time or as of GA?</li>
+      </ul>
+      <p>Change management &amp; activation planning:</p>
+      <ul>
+       <li data-uuid=3D"fd90d10f-0504-40e5-baf6-bbe76272a04c">For new versi=
+on (replacement of an existing version, or legacy version), describe the tr=
+ansition experience for the user:</li>
+       <li data-uuid=3D"ba2a37a9-a983-4fbc-bca9-10e4509b007f">Where do they=
+ go today for the feature?</li>
+       <li data-uuid=3D"7763d980-6c71-46b3-a0f1-9de4b115d4a0">How will they=
+ get to the new version of the feature?</li>
+       <li data-uuid=3D"6630a2ec-ba73-43ef-a4a8-883a7c57994f">Will both ver=
+sions of the feature be accessible to the user?&nbsp; If so, why and what i=
+s the time period?</li>
+       <li data-uuid=3D"ed75d9ac-318d-4130-971c-89639a448f39">Is there a ch=
+ange in the functionality of the new version, that expands what a user can =
+do (i.e. have an impact on access controls?)</li>
+      </ul>
+      <p>For net new features:</p>
+      <ul>
+       <li data-uuid=3D"6a3814fb-0d18-483f-95da-e62d5d049828">Will the roll=
+-out be done in stages, or launched to all firms &amp; users at once?</li>
+      </ul>
+     </div>
+    </div>
+    <p><br></p>
+    <p>e.g.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 91.9363%;">
+      <colgroup class=3D"">
+       <col class=3D"" style=3D"width: 11.4465%;">
+       <col class=3D"" style=3D"width: 9.61994%;">
+       <col class=3D"" style=3D"width: 9.74171%;">
+       <col class=3D"" style=3D"width: 10.5941%;">
+       <col class=3D"" style=3D"width: 12.2989%;">
+       <col class=3D"" style=3D"width: 46.2681%;">
+      </colgroup>
+      <tbody class=3D"">
+       <tr class=3D"">
+        <th class=3D"confluenceTh">Product</th>
+        <th class=3D"confluenceTh">Alpha</th>
+        <th class=3D"confluenceTh">Beta</th>
+        <th class=3D"confluenceTh">Pilot</th>
+        <th class=3D"confluenceTh">GA</th>
+        <th class=3D"confluenceTh">Activation / Deactivation&nbsp;Notes</th=
+>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">GIC</td>
+        <td class=3D"confluenceTd">:tick:&nbsp; Nov-Jan</td>
+        <td class=3D"confluenceTd">:cross:&nbsp;</td>
+        <td class=3D"confluenceTd">:tick: TBC</td>
+        <td class=3D"confluenceTd">:tick: phasing TBC</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"edc55c5e-1ef8-47f8-b8ae-27a9161b8542">Replaces t=
+he current iMOST GIC instruction</li>
+          <li data-uuid=3D"392ec54d-0424-4521-8e25-72102fdd63ba">Requires s=
+hut down of the old instruction as firms are transitioned to avoid dual ope=
+rational processing</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h2 id=3D"PRDFeatureLifecycleManagement-RelatedRequirements">Related Re=
+quirements</h2>
+    <p>Add a link to the feature onboarding plan managed by Platform Team.<=
+/p>
+    <p>&nbsp;Add a link to GTM plan managed by the Launch team.</p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86392_1679969322.1788185795601--

@@ -1,0 +1,1046 @@
+Date: Mon, 31 Aug 2026 10:16:45 -0400 (EDT)
+Message-ID: <723956171.86399.1788185805931@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86398_1422977967.1788185805930"
+
+------=_Part_86398_1422977967.1788185805930
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>PRD IIS Integrations</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>PRD IIS Integrations</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-right-sidebar" data-layout=3D"two-right-sid=
+ebar">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"PRDIISIntegrations-FeaturePositioning">Feature Positioning</h=
+1>
+    <h2 id=3D"PRDIISIntegrations-FeatureOverview">Feature Overview</h2>
+    <p>The goal of re-visiting the IIS integrations into CX is to ensure th=
+at there is a single place to see and manage user configurations for any CX=
+ module.</p>
+    <h2 id=3D"PRDIISIntegrations-ProblemStatement"><span>Problem Statement<=
+/span></h2>
+    <p>...</p>
+    <p><strong style=3D"letter-spacing: 0.0px;">Key Frictions &amp; Opportu=
+nities</strong></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 94.1696%;">
+      <colgroup>
+       <col style=3D"width: 7.76315%;">
+       <col style=3D"width: 26.6066%;">
+       <col style=3D"width: 31.8652%;">
+       <col style=3D"width: 33.7651%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh"><br></th>
+        <th class=3D"confluenceTh">Feature Registration =E2=86=92</th>
+        <th class=3D"confluenceTh">Firm &amp; User Assignment =E2=86=92</th=
+>
+        <th class=3D"confluenceTh">User Access, Navigation &amp; Sessions</=
+th>
+       </tr>
+       <tr>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7">Task</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"a5363617-c3bb-4d46-882e-60dd997e486f">Register n=
+ew features on platform to make the feature available for platform services=
+ to consume</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"4f745cd9-e67d-4cac-89b8-08f45f280685">Assign new=
+ features to all or specific firms</li>
+          <li data-uuid=3D"03f8e798-5004-4231-b32b-1ee3d990ed4c">Assign new=
+ features to all or specific user groups</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"91a57828-a586-49a9-80ae-40c0699e421a">User acces=
+ses IIS features for their operational activities</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th class=3D"highlight-#f4f5f7 confluenceTh" data-highlight-colour=
+=3D"#f4f5f7">Current Interactions</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"89abb6b2-c1e9-41c1-b7f2-19b900fd19a1">N/A.&nbsp;=
+ Features are not represented as its own concept on the platform today</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p>Two paths:</p>
+         <ol>
+          <li data-uuid=3D"775be299-806e-4c2f-8bee-ee654535d841">New module=
+ resource(s) are provided to the CX platform team to add to firm and user p=
+ackages for onward firm&nbsp;/ user configuration (Data Export, Paper Uploa=
+d)</li>
+          <li data-uuid=3D"ce01c2fd-7781-4aa2-8876-e0acaa8a38b0">New module=
+s are added under an existing "Tools" menu and firm / user are assigned "To=
+ols"</li>
+         </ol></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"5042a561-3a82-459f-9954-cc2af05cb224">User is gr=
+anted a CX profile containing access to specific IIS modules&nbsp;</li>
+          <li data-uuid=3D"de5d0870-f482-4641-b7b7-4e38e04bfef7">User logs =
+in, is authenticated &amp; authorized by CX, then proceeds into IIS module =
+directly</li>
+          <li data-uuid=3D"675eca82-07b9-4dcc-9c76-08863d8d36dd">IIS retain=
+s a record of which user accesses which tool to enable re-entry (technicall=
+y a centralized Tier 1 SSO implementation)</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th class=3D"highlight-#ffebe6 confluenceTh" data-highlight-colour=
+=3D"#ffebe6">Frictions</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"2f275ed9-06dd-4b5a-84e1-3a46b5e3e452">No visibil=
+ity into feature inventory</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"89190b54-88f6-4d8d-a116-39db8656dcf4">Inconsiste=
+nt implementation causes feature onboarding confusion and churn with each f=
+eature</li>
+          <li data-uuid=3D"97f1de80-b985-4aec-9925-77077ebda7ec">Second pat=
+h prevents modules within Tools (e.g. Estates, Transfers) to be assignable =
+to firm and users specifically, requiring off-platform tracking / reporting=
+</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"19f027ca-1ae1-4227-98b0-da19eae8575d">In the cas=
+e of "Tools", lacks granularity of access control that might be required fo=
+r core functions (e.g. Estates, Transfers)</li>
+          <li data-uuid=3D"49aba268-b067-47ce-a69e-7616ae57148d">In the cas=
+e of "Tools", lacks the unique entry points required to harmonize the CX na=
+vigation and creates a secondary navigation that requires separate orientat=
+ion</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th class=3D"highlight-#e3fcef confluenceTh" data-highlight-colour=
+=3D"#e3fcef">Opportunities</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"81c68c2b-ae37-4e22-b0a0-256d4347af3f">With the i=
+ntroduction of a Feature configuration module in CX, features can now be on=
+boarded and used by downstream services like firm &amp; user configuration,=
+ system health events, feature notifications, user attestations, user assig=
+nment audit trail</li>
+          <li data-uuid=3D"b972c2c2-fdf6-4704-8f7f-0a1b85f5e937">IIS featur=
+es can now be represented in the platform to benefit from the above</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"93edf33f-baa5-4b9d-bf0b-d7994f3c3ed2">Formally o=
+nboard all IIS module resources under path 1 as part of our Tier 1 integrat=
+ion standard</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"1d5394ac-427c-485b-8b72-d05dc22ae399">Register I=
+IS modules are independent module resources for use in CX-side packaging</l=
+i>
+          <li data-uuid=3D"b9b5d159-5ad9-413f-9a03-ba921cb80999">Update IIS=
+ module entry point for all modules to be single page / no nav.</li>
+          <li data-uuid=3D"8f9b6258-c655-4818-ae7a-940733459684">Introduce =
+session time-outs</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div><span style=3D"letter-spacing: 0.0px;">&nbsp;</span>
+   </div>
+  </div>
+  <div class=3D"cell aside" data-type=3D"aside">
+   <div class=3D"innerCell">
+    <p>Table of Contents</p>
+    <p>
+     <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788185805893 {padding: 0px;}
+div.rbtoc1788185805893 ul {margin-left: 0px;}
+div.rbtoc1788185805893 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+    <div class=3D"toc-macro rbtoc1788185805893">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#PRDIISIntegrations-FeaturePositioning">Feature Positi=
+oning</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDIISIntegrations-FeatureOverview">Feature Overvie=
+w</a></li>
+        <li><a href=3D"#PRDIISIntegrations-ProblemStatement">Problem Statem=
+ent</a></li>
+        <li><a href=3D"#PRDIISIntegrations-TargetAudience">Target Audience<=
+/a>
+         <ul class=3D"toc-indentation">
+          <li><a href=3D"#PRDIISIntegrations-UserPersonas">User Personas</a=
+></li>
+          <li><a href=3D"#PRDIISIntegrations-FeatureObjectives&amp;Metrics"=
+>Feature Objectives &amp; Metrics</a></li>
+         </ul></li>
+       </ul></li>
+      <li><a href=3D"#PRDIISIntegrations-FeatureScope">Feature Scope</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDIISIntegrations-KeyAssumptions">Key Assumptions<=
+/a></li>
+       </ul></li>
+      <li><a href=3D"#PRDIISIntegrations-FeatureRequirements">Feature Requi=
+rements</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDIISIntegrations-OperationalImpact&amp;Considerat=
+ions">Operational Impact &amp; Considerations</a></li>
+       </ul></li>
+      <li><a href=3D"#PRDIISIntegrations-FeatureDistribution">Feature Distr=
+ibution</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#PRDIISIntegrations-CapabilityMapping">Capability Ma=
+pping</a></li>
+        <li><a href=3D"#PRDIISIntegrations-FeaturePackaging&amp;Assignment"=
+>Feature Packaging &amp; Assignment</a>
+         <ul class=3D"toc-indentation">
+          <li><a href=3D"#PRDIISIntegrations-Firm-levelAssignment">Firm-lev=
+el Assignment</a></li>
+          <li><a href=3D"#PRDIISIntegrations-User-levelAssignment">User-lev=
+el Assignment</a></li>
+         </ul></li>
+        <li><a href=3D"#PRDIISIntegrations-FeatureRoll-OutPlan">Feature Rol=
+l-Out Plan</a></li>
+       </ul></li>
+     </ul>
+    </div>
+    <p></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+    <p><span style=3D"font-size: 20.0px;letter-spacing: -0.008em;">Benefits=
+ Hypothesis</span></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 47.3911%;">
+      <colgroup>
+       <col style=3D"width: 9.60419%;">
+       <col style=3D"width: 38.8373%;">
+       <col style=3D"width: 51.5585%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh">Dimension</th>
+        <th class=3D"confluenceTh">Reach</th>
+        <th class=3D"confluenceTh">Impact</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd"><strong>Score</strong></td>
+        <td class=3D"confluenceTd">7</td>
+        <td class=3D"confluenceTd">4</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Client</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"4d286e8f-6dcd-4a94-9f70-69d09ad534b1">High, appl=
+icable to all firms</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"9856e625-39c3-4585-8ee9-c05877d2630b">Med - navi=
+gation frictions do not prevent users in performing their jobs</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Financial</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"f5e554c1-8137-44e8-a48d-7fe31dc85ad0">N/A</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p>N/A</p></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Employee</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"abf75562-4522-468d-871c-45f969aeb5e3">Low - main=
+ly impacts feature integration, activation &amp; support teams</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"57962745-1579-44d3-a183-b2fcd4bb1d32">Med - feat=
+ure onboarding implementation and operationalization will remain inefficien=
+t&nbsp;</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Risk</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"2f2e45f5-5e41-492a-b33d-4ecd75816214">Low</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"60aca8fb-77b0-4a34-8b8d-4db8a8ab86fe">Med - poss=
+ible conflicts between CX profile and IIS bundling if done using different =
+grouping logic&nbsp;&nbsp;</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h2 id=3D"PRDIISIntegrations-TargetAudience">Target Audience</h2>
+    <h3 id=3D"PRDIISIntegrations-UserPersonas">User Personas</h3>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 52.7748%;">
+      <colgroup>
+       <col style=3D"width: 12.6145%;">
+       <col style=3D"width: 38.7541%;">
+       <col style=3D"width: 48.6314%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Persona</th>
+        <th scope=3D"col" class=3D"confluenceTh">Goals</th>
+        <th scope=3D"col" class=3D"confluenceTh">Needs</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Platform Integrator</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"974ff3ec-1350-4769-8c1e-13322d6d32d6">Represent =
+new features on platform with accuracy and agility</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"13e54700-a23d-4849-8c48-ff3febaed4dc">Clear, sim=
+ple execution patterns and sufficient tooling to register new features</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Feature Activations</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"f34f1da9-eddd-410a-86b3-3daa285491f2">Ability to=
+ get new features into the hands of the right firms and users</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"82485410-9bd5-4810-8157-50bcda4dd394">Sufficient=
+ firm and user configuration controls to assign feature with precision</li>
+          <li data-uuid=3D"bc710658-15c2-4ebe-b312-9eb641f78a85">Easy to fo=
+llow procedures to avoid mistakes in over-provisioning&nbsp;</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Digital Support</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"d128e23f-c525-4703-b1cd-f90dc06a4ff3">Ability to=
+ troubleshoot feature access issues across platform(s)</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"d840bb2d-07f6-4b33-9e2d-33446399f851">Visibility=
+ into user configuration and assignment history for all platform features&n=
+bsp;</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Compass User</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"c106f49f-fa13-44a6-8016-d8b2cf16d2fb">Get access=
+ to features for their job functions&nbsp;</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"9e7b7f26-bbeb-42c3-95c9-585f84714a9e">Low barrie=
+r to entry &amp; ease of orientation to the features they need to be operat=
+ionally efficient&nbsp;</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 id=3D"PRDIISIntegrations-FeatureObjectives&amp;Metrics"><span style=
+=3D"font-size: 20.0px;font-weight: normal;letter-spacing: -0.008em;">Featur=
+e Objectives &amp; Metrics</span></h3>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 47.3525%;">
+      <colgroup>
+       <col style=3D"width: 5.73899%;">
+       <col style=3D"width: 45.0399%;">
+       <col style=3D"width: 49.2211%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Rank</th>
+        <th scope=3D"col" class=3D"confluenceTh">Feature Goal</th>
+        <th scope=3D"col" class=3D"confluenceTh">KPI</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">1</td>
+        <td class=3D"confluenceTd">Bridge operational gaps caused by discon=
+nected feature management&nbsp;</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"42585bf0-5601-44a2-b7fa-d4073fdba641">Single pla=
+ce to manage features and feature assignments</li>
+          <li data-uuid=3D"3987c1e5-3505-4442-a882-a619f95358f2">Task effic=
+iency for platform integrator, product activations &amp; digital support</l=
+i>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">2</td>
+        <td class=3D"confluenceTd">Improve feature discoverability and alig=
+nment with core packaging principles</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"888154e1-b371-4a49-95b7-3b4dfea6d42b">Task effic=
+iency for users to get to what they need</li>
+         </ul>
+         <p><br></p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h1 id=3D"PRDIISIntegrations-FeatureScope">Feature Scope</h1>
+    <p><strong>Must Have: </strong><span style=3D"font-size: 14.0px;letter-=
+spacing: 0.0px;">Feature i</span><span style=3D"letter-spacing: 0.0px;">nte=
+gration updates of all existing core IIS modules requiring profile alignmen=
+t and high discoverability risks</span></p>
+    <p><strong>Nice to Have</strong>: Feature integration updates of IIS mo=
+dules with low discoverability risks</p>
+    <h2 id=3D"PRDIISIntegrations-KeyAssumptions">Key Assumptions</h2>
+    <ul>
+     <li data-uuid=3D"78f23e0f-ffb4-469b-8f5d-d05eb25812d8">Proposed change=
+s will not incur significant development efforts for IIS</li>
+     <li data-uuid=3D"f0d5b5a5-74f5-442b-84da-40d100a39a2b">Tools will at s=
+ome point need to be converted into something else e.g. User Resources with=
+ no access restrictions - to bridge the change, retain Tools as-is, ADD spe=
+cific URL's within the desired nav locations for re-direct&nbsp;</li>
+    </ul>
+    <h1 id=3D"PRDIISIntegrations-FeatureRequirements">Feature Requirements<=
+span style=3D"font-size: 14.0px;letter-spacing: 0.0px;">&nbsp;</span></h1>
+    <p>Changes for active, in-flight and upcoming planned features covering=
+ Q4 2026 to Q1 2027</p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 97.5731%;">
+      <colgroup>
+       <col style=3D"width: 7.13775%;">
+       <col style=3D"width: 8.10506%;">
+       <col style=3D"width: 7.94114%;">
+       <col style=3D"width: 5.63004%;">
+       <col style=3D"width: 7.13775%;">
+       <col style=3D"width: 7.24673%;">
+       <col style=3D"width: 9.05796%;">
+       <col style=3D"width: 18.4712%;">
+       <col style=3D"width: 7.13415%;">
+       <col style=3D"width: 22.1383%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th colspan=3D"3" scope=3D"colgroup" class=3D"confluenceTh">Product=
+ Hierarchy</th>
+        <th colspan=3D"5" scope=3D"colgroup" class=3D"confluenceTh">CX Feat=
+ure Onboarding Implementation</th>
+        <th colspan=3D"2" scope=3D"colgroup" class=3D"confluenceTh">Access =
+Control Grouping</th>
+       </tr>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Product Group</th>
+        <th scope=3D"col" class=3D"confluenceTh">Product</th>
+        <th scope=3D"col" class=3D"confluenceTh">&nbsp;Feature</th>
+        <th scope=3D"col" class=3D"confluenceTh">Status</th>
+        <th scope=3D"col" class=3D"confluenceTh">Module Group</th>
+        <th class=3D"highlight-#fff0b3 confluenceTh" data-highlight-colour=
+=3D"#fff0b3" scope=3D"col">Module</th>
+        <th class=3D"highlight-#fff0b3 confluenceTh" data-highlight-colour=
+=3D"#fff0b3" scope=3D"col">Module Resources</th>
+        <th class=3D"highlight-#fff0b3 confluenceTh" data-highlight-colour=
+=3D"#fff0b3" scope=3D"col">Change Details</th>
+        <th scope=3D"col" class=3D"confluenceTh">Package Grouping</th>
+        <th class=3D"highlight-#fff0b3 confluenceTh" data-highlight-colour=
+=3D"#fff0b3" scope=3D"col">Auth Changes</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Lifecycle Management</td>
+        <td class=3D"confluenceTd">Paper Upload</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Account Opening</td>
+        <td class=3D"confluenceTd">Paper Upload</td>
+        <td class=3D"confluenceTd">Paper Upload</td>
+        <td class=3D"confluenceTd">No change</td>
+        <td class=3D"confluenceTd">Core: Accounts</td>
+        <td class=3D"confluenceTd">No change</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Lifecycle Management</td>
+        <td class=3D"confluenceTd">Estate Settlement</td>
+        <td class=3D"confluenceTd">Planned - Q4</td>
+        <td class=3D"confluenceTd">Estate Management</td>
+        <td class=3D"confluenceTd">Estate Submissions</td>
+        <td class=3D"confluenceTd">Estate Settlement Submissions</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav in IIS)</sp=
+an></td>
+        <td class=3D"confluenceTd">Core: Accounts</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Restrict =
+access based on a defined set of CX profiles (same set as Paper Upload)</sp=
+an></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Lifecycle Management</td>
+        <td class=3D"confluenceTd">Estate Settlement Resources</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Estate Management</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">No change - Estates Resource will also a=
+ppear in Estates Settlement</td>
+        <td class=3D"confluenceTd">N/A</td>
+        <td class=3D"confluenceTd">No change - anyone with Tools (i.e. all =
+users) will have access to this module</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Lifecycle Management</td>
+        <td class=3D"confluenceTd">Account Opening Resources</td>
+        <td class=3D"confluenceTd">Planned - Q4/Q1</td>
+        <td class=3D"confluenceTd">Account Opening</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">Tools + Account Opening Resource</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that can be added to both Tools and Account Opening menu</span><=
+/td>
+        <td class=3D"confluenceTd">N/A</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Anyone wi=
+th Tools in CX (i.e. all users) will have access to this module</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Servicing</td>
+        <td class=3D"confluenceTd">Transfers Management</td>
+        <td class=3D"confluenceTd">Planned - Q1</td>
+        <td class=3D"confluenceTd">Transfer Management</td>
+        <td class=3D"confluenceTd">Transfers Management</td>
+        <td class=3D"confluenceTd">Access Transfers Management</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav in IIS)</sp=
+an></td>
+        <td class=3D"confluenceTd">Core: Servicing</td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">Restrict access based on a defin=
+ed set of CX profiles, differentiate View versus Manage</span></p></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Servicing</td>
+        <td class=3D"confluenceTd">DRIP</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Servicing</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">Tools <span style=3D"color:#c9372c;">+ D=
+RIP</span></td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that can be added to Servicing menu and routes to Tools</span></=
+td>
+        <td class=3D"confluenceTd">Core: Servicing</td>
+        <td class=3D"confluenceTd">No change - anyone with Tools in CX (i.e=
+. all users) will have access to this module</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Management</td>
+        <td class=3D"confluenceTd">Client Servicing</td>
+        <td class=3D"confluenceTd">Maturing Positions</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Trade Operations</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;"><s title=
+=3D"">Tools </s>Maturing Positions</span></td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;"><s title=
+=3D"">Tools </s>Access Maturing Positions</span></td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav)</span></td=
+>
+        <td class=3D"confluenceTd">
+         <p>Core: Servicing</p></td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Restrict =
+access based on a defined set of CX profiles</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Trade Management</td>
+        <td class=3D"confluenceTd">Order Management</td>
+        <td class=3D"confluenceTd">Equity Borrowing</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Orders</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">Tools <span style=3D"color:#c9372c;">+ E=
+quity Borrowing</span></td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that can be added to Servicing menu and routes to Tools</span></=
+td>
+        <td class=3D"confluenceTd">
+         <p>N/A</p></td>
+        <td class=3D"confluenceTd">No change - anyone with Tools in CX (i.e=
+. all users) will have access to this module</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Trade Management</td>
+        <td class=3D"confluenceTd">Trade Operations</td>
+        <td class=3D"confluenceTd">Options Positions</td>
+        <td class=3D"confluenceTd">Planned - Q1</td>
+        <td class=3D"confluenceTd">Trade Operations</td>
+        <td class=3D"confluenceTd">Options Management</td>
+        <td class=3D"confluenceTd">Access Options Management</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav in IIS)</sp=
+an></td>
+        <td class=3D"confluenceTd">Core: Trades</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Restrict =
+access based on a defined set of CX profiles, differentiate View versus Man=
+age</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Trade Management</td>
+        <td class=3D"confluenceTd">Trade Operations</td>
+        <td class=3D"confluenceTd">View Re-Org Events</td>
+        <td class=3D"confluenceTd">Planned - Q1</td>
+        <td class=3D"confluenceTd">Trade Operations</td>
+        <td class=3D"confluenceTd">Re-org Management</td>
+        <td class=3D"confluenceTd">Access Re-Org Events</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav in IIS)</sp=
+an></td>
+        <td class=3D"confluenceTd">Core: Trades</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Restrict =
+access based on a defined set of CX profiles</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Brokerage Operations</td>
+        <td class=3D"confluenceTd">Data and Reporting</td>
+        <td class=3D"confluenceTd">Data Exports</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Data &amp; Reporting</td>
+        <td class=3D"confluenceTd">Data Export</td>
+        <td class=3D"confluenceTd">Access Data Export</td>
+        <td class=3D"confluenceTd">No change</td>
+        <td class=3D"confluenceTd">Non-Core: Data</td>
+        <td class=3D"confluenceTd">No change</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Business Operations</td>
+        <td class=3D"confluenceTd">Fee Management</td>
+        <td class=3D"confluenceTd">Custody Fee Management</td>
+        <td class=3D"confluenceTd">Planned - ?</td>
+        <td class=3D"confluenceTd">Firm Operations</td>
+        <td class=3D"confluenceTd">Fees</td>
+        <td class=3D"confluenceTd">Access Fee Management</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">New modul=
+e resource that routes directly to standalone tool (no left nav in IIS)</sp=
+an></td>
+        <td class=3D"confluenceTd">Non-Core: Firm Ops</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">Anyone wi=
+th Fees in CX will have access to this module&nbsp;</span></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Financial Data</td>
+        <td class=3D"confluenceTd">Reference Data</td>
+        <td class=3D"confluenceTd">Historical FX Rates</td>
+        <td class=3D"confluenceTd">Active</td>
+        <td class=3D"confluenceTd">Platform Utilities</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">Tools</td>
+        <td class=3D"confluenceTd">No change</td>
+        <td class=3D"confluenceTd">N/A</td>
+        <td class=3D"confluenceTd">No change</td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><strong>Module Mapping to User Packages for Changes</strong></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 30.2734%;">
+      <colgroup>
+       <col style=3D"width: 24.7216%;">
+       <col style=3D"width: 28.369%;">
+       <col style=3D"width: 46.9095%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Module</th>
+        <th scope=3D"col" class=3D"confluenceTh">Resource URL (from IIS)</t=
+h>
+        <th scope=3D"col" class=3D"confluenceTh">User Package List (from NB=
+IN)</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Estates Submissions</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Transfers Management</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">DRIP</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">All (Tools)</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Maturing Positions</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Equity Borrowing</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">All (Tools)</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Options Management</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Re-org Events</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Fees</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h2 id=3D"PRDIISIntegrations-OperationalImpact&amp;Considerations">Oper=
+ational Impact &amp; Considerations</h2>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 37.8595%;">
+      <colgroup>
+       <col style=3D"width: 21.0251%;">
+       <col style=3D"width: 13.6725%;">
+       <col style=3D"width: 65.3024%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Impacted Group</th>
+        <th scope=3D"col" class=3D"confluenceTh">Impact Rating</th>
+        <th scope=3D"col" class=3D"confluenceTh">Impact Details</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Platform Integration Team</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">L=
+OW</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"6feaf234-24e6-4be8-9fb2-387d87727f98">One-time u=
+pdate as per changes outlined above in Feature Onboarding Implementation</l=
+i>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">SAA Team</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">MED=
+IUM</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"4e0890c8-1cd5-4760-86a7-f58f60fe5301">Assignment=
+ procedures will now include IIS module config. within CX</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Product Activation</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">MED=
+IUM</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"fa93126f-553d-429f-86a8-c516c4d6b415">Launch pro=
+cedures will shift over to CX</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h1 id=3D"PRDIISIntegrations-FeatureDistribution"><span>Feature Distrib=
+ution</span></h1>
+    <h2 id=3D"PRDIISIntegrations-CapabilityMapping">Capability Mapping</h2>
+    <p><br></p>
+    <h2 id=3D"PRDIISIntegrations-FeaturePackaging&amp;Assignment">Feature P=
+ackaging &amp; Assignment</h2>
+    <h3 id=3D"PRDIISIntegrations-Firm-levelAssignment"><strong>Firm-level A=
+ssignment</strong></h3>
+    <h3 id=3D"PRDIISIntegrations-User-levelAssignment"><strong>User-level A=
+ssignment</strong></h3>
+    <p><br></p>
+    <p><br></p>
+    <h2 id=3D"PRDIISIntegrations-FeatureRoll-OutPlan">Feature Roll-Out Plan=
+</h2>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86398_1422977967.1788185805930--

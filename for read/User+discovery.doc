@@ -1,0 +1,365 @@
+Date: Mon, 31 Aug 2026 10:14:38 -0400 (EDT)
+Message-ID: <1614044920.86351.1788185678803@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86350_463637298.1788185678802"
+
+------=_Part_86350_463637298.1788185678802
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>User discovery</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>User discovery</h1>
+    <div class=3D"Section1">
+        <p>Parent Firms</p>
+<ul>
+ <li data-uuid=3D"9ca3e91a-b2f0-46e2-8a25-5419cbf615df">Wellington-Altus</l=
+i>
+ <li data-uuid=3D"dfb2fed0-d765-482e-a899-85ee63232483">Harbourfront</li>
+</ul>
+<p>Sub-Advisory</p>
+<ul>
+ <li data-uuid=3D"ac81539b-8f29-4caa-89ec-c2f178bd2118">RN Croft</li>
+</ul>
+<p>Combo:</p>
+<ul>
+ <li data-uuid=3D"a0796353-aae0-4d26-8806-350a1b9f967e">Guardian</li>
+ <li data-uuid=3D"aab2be79-189d-4a9e-84f4-a95e4de828c1">Fiera Capital</li>
+ <li data-uuid=3D"4587d684-579e-49fc-92c5-643ac582c4dd">:question: Highview=
+</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p>The following questions are framed for an interview with Client (individ=
+uals or a group) from a firm which falls under one of the parent firm patte=
+rns, and the person(s) have responsibilities on client accounts across mult=
+iple firm segments or business arms.&nbsp;</p>
+<p>In addition, we also want to have an interview with a user administrator=
+ in the firm, if there is one.</p>
+<h2 id=3D"Userdiscovery-Contextofthissession">Context of this session</h2>
+<p>In the context of parent firm access model, we would like to chat with i=
+ndividuals from client firms set up in any one of the parent firm patterns.=
+ There are two typical personas fit in our user discovery:&nbsp;</p>
+<ul>
+ <li data-uuid=3D"95c599c1-a225-4d77-bc47-44e784536684">A back office staff=
+ who support or supervise the activities across different arms of business.=
+</li>
+ <li data-uuid=3D"4a3d0bf4-d098-47e7-8d62-d5f78d6fe71c">A user administrato=
+r (aka firm security steward) who manages user access, profile lifecycle an=
+d performs user attestation.</li>
+</ul>
+<h2 id=3D"Userdiscovery-Profiling">Profiling</h2>
+<ol>
+ <li data-uuid=3D"c8c46709-b085-4beb-9435-faabe16f1b90">Can you briefly des=
+cribe your role at your firm and your responsibilities?</li>
+ <li data-uuid=3D"c28e068f-955e-4688-bc2d-0f8bccde1c6b">What is the size of=
+ your team? How about your firm as a whole?&nbsp;</li>
+ <li data-uuid=3D"722ce982-8f18-4850-9405-0bb72458d223">Do your team member=
+s have the similar responsibilities as you?</li>
+ <li data-uuid=3D"18c5c91d-b347-4cfb-8602-6ea1d4e42dbf">How do you interact=
+ with the different arms of business? For what purposes?=20
+  <ol>
+   <li data-uuid=3D"f6490392-a8da-49b1-97d8-0ab3250f6424">If you are a user=
+ administrator for your firm in Compass, do you oversee all profiles across=
+ sub-firms and arms?</li>
+  </ol></li>
+ <li>Are there different types of customers you serve?</li>
+</ol>
+<h2 id=3D"Userdiscovery-Persona/Userjourney">Persona / User journey</h2>
+<ol>
+ <li data-uuid=3D"0c49869b-0ef3-490b-b751-72d46f61ce18">What are the typica=
+l activities you do day-to-day?=20
+  <ol>
+   <li data-uuid=3D"f97b1660-3cf5-4e48-9fde-7c6312c9f1fe">Start of the day<=
+/li>
+   <li data-uuid=3D"e5a93767-b28c-4ece-b445-189c2286e2bb">End of the day</l=
+i>
+  </ol></li>
+ <li data-uuid=3D"c3a98aed-a9c5-4195-9e6d-576c9641672d">What are your criti=
+cal tasks throughout the day?=20
+  <ol>
+   <li data-uuid=3D"ac86e288-19a1-4065-801f-d9d6dcd54781">Which ones are hi=
+ghly valuable, e.g. add value to customers, boost company revenue, mitigate=
+ risks?</li>
+   <li data-uuid=3D"3a4f39e4-d082-4910-85ae-0c87e24a35a1">Which ones are ti=
+me-consuming, operational ineffective?</li>
+   <li data-uuid=3D"205910ea-9660-4ea3-91b2-6dc0935977d8">How much time do =
+you spend on those tasks?&nbsp;</li>
+  </ol></li>
+ <li data-uuid=3D"85416d77-1bea-4cc2-a97f-1d2f93a69c43">Are there any time-=
+sensitive tasks which must be done fast or by a certain time of the day?</l=
+i>
+ <li>Are there any other tasks you would do periodically, e.g. weekly, quar=
+terly or annually?<br>
+  <ol>
+   <li data-uuid=3D"e95f0d32-e080-4bc6-98ce-fb828db5897c">How long does it =
+take to finish the task?</li>
+  </ol></li>
+</ol>
+<h2 id=3D"Userdiscovery-Problem&amp;Painpoints">Problem &amp; Pain points</=
+h2>
+<ol>
+ <li data-uuid=3D"6c60b7e0-81b2-4398-8560-8ecd839f2faa">What does a good da=
+y look like?</li>
+ <li data-uuid=3D"699d8aba-a830-47f6-a1cf-5c65b9e7eeef">What does a bad day=
+ look like?&nbsp;</li>
+ <li>What are some significant challenges in your job?=20
+  <ol>
+   <li data-uuid=3D"c638313a-115b-4881-92e4-dde6aeba762c">Why do they matte=
+r?</li>
+   <li data-uuid=3D"e849a39f-5996-401e-9d02-b268d32965b7">How do you solve =
+it or work around it?</li>
+   <li data-uuid=3D"637dfe25-5a5a-44f2-943c-1fcd976f0a24">What do you think=
+ how it should work?</li>
+  </ol></li>
+</ol>
+<h2 id=3D"Userdiscovery-Platforms&amp;Tools">Platforms &amp; Tools</h2>
+<ol>
+ <li data-uuid=3D"22ec6fab-acf4-4b3f-b8b8-173592a24363">Can you name the pl=
+atforms and tools you use the most for work?=20
+  <ol>
+   <li data-uuid=3D"2c6d51a9-d89d-4660-8294-d2cf32a15dd7">How much time you=
+ spend on each one of them?</li>
+   <li data-uuid=3D"24910740-56bd-4ecf-8825-262cf83bac06">What functions do=
+ you use them for?&nbsp;</li>
+  </ol></li>
+ <li>Which of the platforms or tools are the most valuable to you? Why?</li=
+>
+ <li data-uuid=3D"e97cda1f-3dc7-4447-a083-8549f8232117">Usually, can you co=
+mplete the functions you use them for?&nbsp;=20
+  <ol>
+   <li data-uuid=3D"612ab1a2-cc9e-4377-8296-dc32ce6f451a">Are there any cha=
+llenges (usability, stability...)? Which ones bother you the most?</li>
+  </ol></li>
+ <li data-uuid=3D"dc40e77a-ad92-4f7d-acaf-3a44de203a21">Can you share with =
+us why you are not using Compass for certain available capabilities?</li>
+</ol>
+<p><br></p>
+<p>Global access =E2=86=92 IB vs. PM features</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86350_463637298.1788185678802--

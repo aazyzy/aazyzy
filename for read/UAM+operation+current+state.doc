@@ -1,0 +1,433 @@
+Date: Mon, 31 Aug 2026 10:12:43 -0400 (EDT)
+Message-ID: <1007513245.86335.1788185563356@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86334_1742076583.1788185563355"
+
+------=_Part_86334_1742076583.1788185563355
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>UAM operation current state</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>UAM operation current state</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DRAFT</sp=
+an></p>
+    <p>This page outlines the current operational workflows from ID Admin p=
+erspective.</p>
+    <p><br></p>
+   </div>
+  </div>
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>
+     <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788185563349 {padding: 0px;}
+div.rbtoc1788185563349 ul {margin-left: 0px;}
+div.rbtoc1788185563349 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+    <div class=3D"toc-macro rbtoc1788185563349">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#UAMoperationcurrentstate-SamplesandStats">Samples and=
+ Stats</a></li>
+      <li><a href=3D"#UAMoperationcurrentstate-Operationflow">Operation flo=
+w</a></li>
+     </ul>
+    </div>
+    <p></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UAMoperationcurrentstate-SamplesandStats">Samples and Stats</=
+h1>
+    <p>MyRequest extract as of <time datetime=3D"2026-07-17" class=3D"date-=
+past">17 Jul 2026</time>&nbsp;</p>
+    <p><a class=3D"external-link" href=3D"https://cbncnbccs.sharepoint.com/=
+:x:/r/sites/Compass-X/Shared%20Documents/Product%20Management/Unified%20Acc=
+ess%20Management%20(UAF%20+%20MyReq%20and%20more)/MyReq%20user%20access%20(=
+July%2017).xlsx?d=3Dwe6c186281c0c45b3b33f7fd79f23f17b&amp;csf=3D1&amp;web=
+=3D1&amp;e=3DdswvQa" rel=3D"nofollow">MyReq user access (July 17).xlsx</a><=
+/p>
+    <p><br></p>
+    <p>Resource folder: <a class=3D"external-link" href=3D"https://cbncnbcc=
+s.sharepoint.com/:f:/r/sites/Compass-X/Shared%20Documents/Product%20Managem=
+ent/Unified%20Access%20Management%20(UAF%20+%20MyReq%20and%20more)?csf=3D1&=
+amp;web=3D1&amp;e=3D0gcMju" rel=3D"nofollow">Unified Access Management (UAF=
+ + MyReq and more)</a></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UAMoperationcurrentstate-Operationflow">Operation flow</h1>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 88.4469%;">
+      <colgroup>
+       <col style=3D"width: 7.71114%;">
+       <col style=3D"width: 10.0773%;">
+       <col style=3D"width: 17.7863%;">
+       <col style=3D"width: 9.38666%;">
+       <col style=3D"width: 9.28784%;">
+       <col style=3D"width: 9.38666%;">
+       <col style=3D"width: 12.1525%;">
+       <col style=3D"width: 9.87963%;">
+       <col style=3D"width: 14.3321%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Request intake =E2=86=92</=
+th>
+        <th scope=3D"col" class=3D"confluenceTh">R2 Id =E2=86=92&nbsp;</th>
+        <th scope=3D"col" class=3D"confluenceTh">SZ Id =E2=86=92&nbsp;</th>
+        <th scope=3D"col" class=3D"confluenceTh">CX Id =E2=86=92&nbsp;</th>
+        <th scope=3D"col" class=3D"confluenceTh">NetRep Id =E2=86=92</th>
+        <th scope=3D"col" class=3D"confluenceTh">OSS Id =E2=86=92</th>
+        <th scope=3D"col" class=3D"confluenceTh">Request completion</th>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Current Process</th>
+        <th scope=3D"row" class=3D"confluenceTh">PM Firms</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"ddf69fd9-f7f3-4961-b789-4be3b08729eb">SAA team l=
+og in R2, go to MyRequest Dashboard and download an extract of tickets</li>
+          <li data-uuid=3D"39ca983b-acfc-4727-b475-db4006ddff54">Filter Use=
+r Access tickets (by request type) in New status, and sort by Age (number o=
+f days)&nbsp;</li>
+         </ul>
+         <p><br></p></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"row" class=3D"confluenceTh">IB Firms</th>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"row" class=3D"confluenceTh">Ad-hoc requests</th>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"0d47ab4a-3825-4c8e-b0cd-f6ac0e512b4d">Account ma=
+nagers email a screenshot of&nbsp;</li>
+         </ul></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Key Frictions</th>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Opportunities</th>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86334_1742076583.1788185563355--

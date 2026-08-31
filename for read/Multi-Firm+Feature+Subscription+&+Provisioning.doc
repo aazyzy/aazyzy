@@ -1,0 +1,753 @@
+Date: Mon, 31 Aug 2026 10:13:19 -0400 (EDT)
+Message-ID: <233210085.86339.1788185599224@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86338_1090413853.1788185599222"
+
+------=_Part_86338_1090413853.1788185599222
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Multi-Firm Feature Subscription &amp; Provisioning</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Multi-Firm Feature Subscription &amp; Provisioning</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"MultiFirmFeatureSubscription&amp;Provisioning-ParentFirm"=
+>Parent Firm</h1>
+<p>:warning: Pending individual app feasibility assessment - potential limi=
+ters can include apps that 1) require firm type as context 2) require firm-=
+specific business rules 3)&nbsp;&nbsp;</p>
+<p><br></p>
+<ul>
+ <li data-uuid=3D"58eac10d-b406-4d36-b226-9a74867436cf">Parent firm require=
+s a modified core package with only features that work in aggregate</li>
+ <li data-uuid=3D"1f9aa4b5-2812-4343-baa3-abe33cbb0ecc">Add-on features can=
+ mostly all be made available to parent &amp; vice versa unless limited to =
+the child firm</li>
+</ul>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 97=
+.1195%;">
+  <colgroup>
+   <col style=3D"width: 7.81806%;">
+   <col style=3D"width: 9.43336%;">
+   <col style=3D"width: 12.8578%;">
+   <col style=3D"width: 7.88267%;">
+   <col style=3D"width: 7.55961%;">
+   <col style=3D"width: 7.495%;">
+   <col style=3D"width: 33.3398%;">
+   <col style=3D"width: 13.5039%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Bundling</th>
+    <th scope=3D"col" class=3D"confluenceTh">Feature Group</th>
+    <th scope=3D"col" class=3D"confluenceTh">Feature</th>
+    <th scope=3D"col" class=3D"confluenceTh">Parent-eligible?</th>
+    <th class=3D"confluenceTh">Child-eligible?</th>
+    <th class=3D"confluenceTh">Firm Election</th>
+    <th class=3D"confluenceTh">Rationale</th>
+    <th class=3D"confluenceTh">Billing</th>
+   </tr>
+   <tr>
+    <td rowspan=3D"16" class=3D"confluenceTd">
+     <p>Core</p>
+     <p><br></p>
+     <p><br></p>
+     <p><br></p></td>
+    <td rowspan=3D"2" class=3D"confluenceTd">Platform</td>
+    <td class=3D"confluenceTd">F&amp;UM</td>
+    <td class=3D"confluenceTd">
+     <p>:tick::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX</p></td>
+    <td class=3D"confluenceTd">
+     <p>Firm &amp; user settings, user preferences applicable at any level<=
+/p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">White-labelling</td>
+    <td class=3D"confluenceTd">
+     <p>:cross:</p></td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">CX</td>
+    <td class=3D"confluenceTd">
+     <p>No parent use case (feature cascading not in scope yet)</p>
+     <p>:question: Ask Owen - What is the default settings for parent firm =
+users? Would they be landed in a child firm context and apply the same styl=
+e sheet; if so, which child firm? Can parent firm users pick a default chil=
+d firm context at login?</p></td>
+    <td class=3D"confluenceTd">
+     <p>IB: included; PM: fee</p></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"5" class=3D"confluenceTd">Servicing</td>
+    <td class=3D"confluenceTd">Core SOMA/GDI</td>
+    <td class=3D"confluenceTd">
+     <p>:tick::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>SZ =E2=86=92 CX</p></td>
+    <td class=3D"confluenceTd">
+     <p>Support group-level operations, client support, compliance approval=
+s</p>
+     <p>:question: Note for launch: Clean up the multiple SZ ids for parent=
+ firm users&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>--</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Transfers</td>
+    <td class=3D"confluenceTd">
+     <p>:cross:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>R2 =E2=86=92 CX</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Sys plans</td>
+    <td class=3D"confluenceTd">
+     <p>:cross:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>R2 =E2=86=92 CX</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Re-orgs</td>
+    <td class=3D"confluenceTd">
+     <p>:cross:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>R2</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Options commissions</td>
+    <td class=3D"confluenceTd">
+     <p>:cross:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>R2</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"5" class=3D"confluenceTd">Trading</td>
+    <td class=3D"confluenceTd">Core Trading (CX)</td>
+    <td class=3D"confluenceTd">
+     <p>:question::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX</p></td>
+    <td class=3D"confluenceTd">
+     <p>Parent-level user authorization &amp; operations to trade cross-fir=
+m</p>
+     <ul>
+      <li data-uuid=3D"7fe2997e-9429-4ea9-98f3-8bc729f038f3">Guardian has s=
+cenario where GPI trader trades into BNY account (separate PM firm environm=
+ents, but same PM registration)</li>
+     </ul>
+     <p><strong>:question: TBD - Behalf code, which is different per IB fir=
+m and is associated to user's OSS Id (not account specific) is required to =
+place an eq/mf order. What happens when a parent firm has more than one IB =
+firms? -Pending for Zheng to confirm&nbsp;</strong></p></td>
+    <td class=3D"confluenceTd">
+     <p>IB: platform fee;&nbsp;PM: free</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">GIC's</td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX =E2=86=92 SZ</p></td>
+    <td class=3D"confluenceTd">
+     <p>Requires firm type context which is resolved on account-level.</p><=
+/td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">MF upload</td>
+    <td class=3D"confluenceTd">
+     <p>:question::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX</p></td>
+    <td class=3D"confluenceTd">
+     <p>:question: Require discussion with Joe</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">TA</td>
+    <td class=3D"confluenceTd">
+     <p>:question::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>SZ&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:question: Client version is work in progress. There is a file vali=
+dation by firm type at step-1, file uploading. -pending for decision if TA =
+should not be offered to parent firm users or any change to the solution</p=
+></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">MaxLite</td>
+    <td class=3D"confluenceTd">
+     <p>:question:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>:question:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:question: Require discussion with Stan</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"4" class=3D"confluenceTd">Reporting &amp; Ops</td>
+    <td class=3D"confluenceTd">Data Export</td>
+    <td class=3D"confluenceTd">
+     <p>:tick::warning:&nbsp;</p>
+     <p>:question:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX =E2=86=92 IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p>Cross-firm compliance /&nbsp;governance (approvals, reporting)&nbsp=
+;</p>
+     <p>:question: Require discussion with IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p>--</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Data Tools -&nbsp; general info</p>
+     <ul>
+      <li data-uuid=3D"815b9782-0184-4271-a808-83720eb1d964">Equity Borrowi=
+ng</li>
+      <li data-uuid=3D"a0b3e4ce-f2be-4f5c-a7ff-1421e1d91972">Historical Exc=
+hange Rates</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX =E2=86=92 IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p>App has no reference to firm scope or rr code assignment&nbsp;</p><=
+/td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Data Tools - restricted access&nbsp;</p>
+     <ul>
+      <li data-uuid=3D"c7d4024b-0d95-4c67-bb85-ceed2457d106">DRIP</li>
+      <li data-uuid=3D"8e4c86e0-6978-4d5b-885d-e00bbf914106">Maturing Posit=
+ions</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>:question:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX =E2=86=92 IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p>:question: Require discussion with IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Admin File Uploads</p>
+     <ul>
+      <li data-uuid=3D"d022a263-0227-46aa-b508-fd7d747a8471">Book Value (BV=
+)</li>
+      <li data-uuid=3D"b67b038c-3da5-43d5-add5-e5fff42dede6">Journal Proces=
+sing =E2=80=93 Cash (BK)</li>
+      <li data-uuid=3D"a043e12b-fc7d-482a-bc69-6e098bf0106a">Management Fee=
+s (MF)</li>
+      <li data-uuid=3D"8f3c0453-cec2-44e1-9cb6-00430e0dfc9f">Reorg - Offers=
+ and Subscriptions</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>:tick::warning:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>CX =E2=86=92 IIS</p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>Are there firm-specific business rules? -yes. Data file will be val=
+idated against user's permitted rr code ranges.</p>
+     <p>Will be built by IIS</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"11" class=3D"confluenceTd">
+     <p>Add-On's</p>
+     <p><br></p><br>
+     <p><br></p>
+     <p><br></p>
+     <p><br></p>
+     <p><br></p>
+     <p><br></p></td>
+    <td rowspan=3D"2" class=3D"confluenceTd">End client</td>
+    <td class=3D"confluenceTd">MyPortfolio+ IA / User Mgmt.</td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>F360</p></td>
+    <td class=3D"confluenceTd">
+     <p>1 unique&nbsp;parent firm user =3D 1 license</p></td>
+    <td class=3D"confluenceTd">
+     <p>--&nbsp;Fee is based on investor users</p>
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">MyPortfolio+ Bulk reports upload</td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd">Can be supported with invoicing logic e.g. o=
+nly IB side where parent firm user has access to both IB + PM</td>
+    <td class=3D"confluenceTd">Flat fee per firm</td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">Reporting &amp; Ops</td>
+    <td class=3D"confluenceTd">Web Panagon</td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>F360</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>Free for PM's, fee for IB's</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Tax package</td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>:tick:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>F360</p></td>
+    <td class=3D"confluenceTd">
+     <p>Not on platform.&nbsp; Data offering</p></td>
+    <td class=3D"confluenceTd">
+     <p>Fee for firms</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Custody fees</td>
+    <td class=3D"confluenceTd">
+     <p>:tick:</p></td>
+    <td class=3D"confluenceTd">
+     <p>:cross:&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <p>F360</p></td>
+    <td class=3D"confluenceTd">
+     <p>Not on platform yet - example of non-cascading</p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">PM System</td>
+    <td class=3D"confluenceTd">D1g1t</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd">If only one arm pays then parent user will o=
+nly see accounts from that one arm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Harmony</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">AUA</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Croesus</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">AUA</td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">Trading</td>
+    <td class=3D"confluenceTd">FundFacts</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd">New application to be built</td>
+    <td class=3D"confluenceTd">User license, monthly fee</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">NBF Research</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd">Firm accounts agnostic - user can exist in a=
+ny firm including parent firm</td>
+    <td class=3D"confluenceTd">User license</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Evercore Research</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">F360</td>
+    <td class=3D"confluenceTd">Firm accounts agnostic - user can exist in a=
+ny firm including parent firm</td>
+    <td class=3D"confluenceTd">User license</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Opt-out options</td>
+    <td class=3D"confluenceTd">
+     <p>Account opening</p>
+     <p>:question: how about Paper Upload, is it opted out?</p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">:tick:&nbsp;</td>
+    <td class=3D"confluenceTd">CX</td>
+    <td class=3D"confluenceTd">Firms can bring their own and may have multi=
+ple including ours</td>
+    <td class=3D"confluenceTd">Packages, per firm</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"MultiFirmFeatureSubscription&amp;Provisioning-FeatureRelationship=
+"><span>Feature Relationship</span></h3>
+<ul>
+ <li data-uuid=3D"1b912190-ecc5-4664-a432-0d69e184074f"><span>Contracts are=
+ established at the registered firm-level for billing; t</span><span>here a=
+re different ways for features to be billed</span></li>
+ <li data-uuid=3D"7859ea07-2bef-43aa-95e2-dd30bb2688b8"><span>Once a firm f=
+orms / joins&nbsp;a parent group, feature availability across firms should =
+be harmonized (<strong>not assigned</strong>, just made available) in the e=
+vent the parent group decides to cascade features across firms</span></li>
+</ul>
+<p><span></span></p>
+<div class=3D"aui-message error shadowed conf-macro output-inline">
+ <p class=3D"title"><img style=3D"width : 12px" src=3D"30bbcc83b756015561b9=
+2235414ff3a8367ab34491adfa1934fe9ffa8bdac928" width=3D"150" height=3D"150">=
+ draw.io</p> Diagram attachment access error: cannot display diagram
+</div>
+<p></p>
+<p>*&nbsp;</p>
+<p><br></p>
+<h1 id=3D"MultiFirmFeatureSubscription&amp;Provisioning-Delegation">Delegat=
+ion</h1>
+<p>View-only</p>
+<p>Trade-only</p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86338_1090413853.1788185599222
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/30bbcc83b756015561b92235414ff3a8367ab34491adfa1934fe9ffa8bdac928
+
+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
+------=_Part_86338_1090413853.1788185599222--

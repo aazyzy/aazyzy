@@ -1,0 +1,370 @@
+Date: Mon, 31 Aug 2026 10:13:57 -0400 (EDT)
+Message-ID: <1574289438.86343.1788185637045@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86342_1351541972.1788185637044"
+
+------=_Part_86342_1351541972.1788185637044
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sub-advisory in Canadian WM</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sub-advisory in Canadian WM</h1>
+    <div class=3D"Section1">
+        <p>In a Canadian wealth management context, the Sub-Advisory Agreem=
+ent (SAA) is the foundational document that defines the boundaries of the B=
+2B relationship.&nbsp; While the Primary Adviser (the "Client" of the sub-a=
+dvisor) remains the registrant of record with the regulators, the SAA shift=
+s specific operational and legal risks to the sub-advisor.</p>
+<p>Quick Comparison of Obligations</p>
+<div class=3D"table-wrap">
+ <table class=3D"confluenceTable">
+  <colgroup class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th class=3D"confluenceTh">Clause Type</th>
+    <th class=3D"confluenceTh">Primary Adviser Obligation</th>
+    <th class=3D"confluenceTh">Sub-Advisor Obligation</th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">KYC/Suitability</td>
+    <td class=3D"confluenceTd">Full responsibility for the end-client</td>
+    <td class=3D"confluenceTd">None (only responsible for the mandate)</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Reporting</td>
+    <td class=3D"confluenceTd">Sends statements to the investor</td>
+    <td class=3D"confluenceTd">Sends performance data to the Primary Advise=
+r</td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">Audit</td>
+    <td class=3D"confluenceTd">Must perform "Ongoing Due Diligence."</td>
+    <td class=3D"confluenceTd">Must provide "SOC 1" reports or compliance c=
+ertificates</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p>Standard clauses and obligations typically found in these agreements:</p=
+>
+<h4 id=3D"SubadvisoryinCanadianWM-1.ScopeofAuthority&amp;InvestmentMandate"=
+>1. Scope of Authority &amp; Investment Mandate</h4>
+<p>This is the "what" and "how" of the relationship.</p>
+<ul>
+ <li data-uuid=3D"1c8fadab-0dc0-457a-98dc-5efe92e7e02c">Discretionary Autho=
+rity: Explicitly grants the sub-advisor the power to buy and sell securitie=
+s without seeking prior approval for every trade (within the bounds of the =
+IPS)</li>
+ <li data-uuid=3D"8c4cae43-4eff-4c53-9ad2-64db42df6c9f">Investment Guidelin=
+es (IPS): A detailed schedule outlining permitted asset classes, concentrat=
+ion limits (e.g., "no more than 5% in one issuer"), and prohibited investme=
+nts (e.g., no "sin stocks" or restricted derivatives).</li>
+ <li data-uuid=3D"2d3f429f-3d4b-47a9-85e7-c11a6a131c53">Proxy Voting: Defin=
+es whether the sub-advisor or the Primary Adviser is responsible for voting=
+ client proxies. In Canada, this is a significant fiduciary obligation.</li=
+>
+</ul>
+<h4 id=3D"SubadvisoryinCanadianWM-2.StandardofCare&amp;RegulatoryCompliance=
+">2. Standard of Care &amp; Regulatory Compliance</h4>
+<ul>
+ <li data-uuid=3D"49e47611-f05f-4a99-8cba-53cb5e42a436">The "Prudent Person=
+" Rule: The sub-advisor must agree to exercise the degree of care, diligenc=
+e, and skill that a "reasonably prudent person" would exercise in similar c=
+ircumstances.</li>
+ <li data-uuid=3D"b156cb42-b59b-4c2d-b736-4da46e39d8ed">NI 31-103 Complianc=
+e: The sub-advisor must warrant that they are properly registered (or exemp=
+t, such as via the International Adviser Exemption) and will notify the Pri=
+mary Adviser immediately of any regulatory investigations or "material chan=
+ges" to their firm.</li>
+ <li data-uuid=3D"854b7672-6b3d-4df2-9ae8-30fa994377df">Best Execution: A m=
+andatory clause requiring the sub-advisor to seek the best possible result =
+for the client when executing trades, considering price, speed, and likelih=
+ood of execution.</li>
+</ul>
+<h4 id=3D"SubadvisoryinCanadianWM-3.Representations&amp;Warranties">3. Repr=
+esentations &amp; Warranties</h4>
+<p>Both parties make "promises" that form the basis of the contract:</p>
+<ul>
+ <li data-uuid=3D"ddedd5b5-f4e3-43d3-8c0d-377493f78df5">The Sub-Advisor war=
+rants they have the necessary "bench strength" (portfolio managers) and inf=
+rastructure to manage the assets.</li>
+ <li data-uuid=3D"db13ea29-7956-4278-88bc-1668d19c803f">The Primary Adviser=
+ warrants they have the legal authority from the end-client to delegate the=
+se services and that the end-client has been properly disclosed to.</li>
+</ul>
+<h4 id=3D"SubadvisoryinCanadianWM-4.FeesandExpenses">4. Fees and Expenses</=
+h4>
+<ul>
+ <li data-uuid=3D"8cb3f908-e1ca-43cc-8910-79f0a43091c4">The "Sub-Advisory F=
+ee": Usually a percentage of Assets Under Management (AUM), often tiered (e=
+.g., 0.50% on the first $100M, 0.40% thereafter).</li>
+ <li data-uuid=3D"1d8d22fe-732c-4abc-9ab2-5a962a15cde6">Expense Allocation:=
+ Clearly states who pays for "extra" costs like custodial fees, audit fees,=
+ or specialized research data. In Canada, "Soft Dollar" arrangements (using=
+ trading commissions to pay for research) must be strictly disclosed.</li>
+</ul>
+<h4 id=3D"SubadvisoryinCanadianWM-5.IndemnificationandLiability">5. Indemni=
+fication and Liability</h4>
+<p>This is often the most heavily negotiated section.</p>
+<ul>
+ <li data-uuid=3D"03c11b5a-44dd-49ad-9d8e-95f255198b42">Primary Adviser=E2=
+=80=99s Protection: The sub-advisor typically indemnifies the Primary Advis=
+er against losses resulting from the sub-advisor's gross negligence, willfu=
+l misconduct, or breach of the investment mandate.</li>
+ <li data-uuid=3D"963e4581-efae-4d29-bd68-22335b6887d4">Liability Caps: Sub=
+-advisors often try to limit their total liability to a multiple of the fee=
+s paid (e.g., "12 months of fees"), though Primary Advisers push back on th=
+is for mandate breaches.</li>
+ <li data-uuid=3D"51f1ad8d-e7cd-49e2-a553-ca83797c043a">Trade Errors: Expli=
+citly defines the "Trade Error Policy"=E2=80=94if the sub-advisor accidenta=
+lly buys the wrong stock, they are usually responsible for making the clien=
+t account whole.</li>
+</ul>
+<h4 id=3D"SubadvisoryinCanadianWM-6.TerminationandTransition">6. Terminatio=
+n and Transition</h4>
+<ul>
+ <li data-uuid=3D"67afd963-4c2b-49a0-ba08-c53ed30a3087">Because the Primary=
+ Adviser has a duty to the end-client, they need a "quick exit" if things g=
+o wrong.</li>
+ <li data-uuid=3D"918b46a0-533c-42e2-9c5c-5b1259418c36">Termination for Cau=
+se: Immediate termination for regulatory breaches, bankruptcy, or "key pers=
+on" departures.</li>
+ <li data-uuid=3D"37be9fea-9818-40e1-8a69-b4ae8df9d6a6">Termination without=
+ Cause: Typically requires 60=E2=80=9390 days' notice.</li>
+ <li data-uuid=3D"b8d14abe-1f1f-4cc3-b552-9eabd29eba73">De-conversion/Trans=
+ition: A clause requiring the sub-advisor to cooperate in moving the data a=
+nd assets to a new manager to ensure there is no "gap" in management for th=
+e end-client.</li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86342_1351541972.1788185637044--

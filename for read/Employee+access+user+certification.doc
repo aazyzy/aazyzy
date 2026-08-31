@@ -1,0 +1,634 @@
+Date: Mon, 31 Aug 2026 10:11:15 -0400 (EDT)
+Message-ID: <1170983188.86313.1788185475999@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86312_475803628.1788185475999"
+
+------=_Part_86312_475803628.1788185475999
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access user certification</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access user certification</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>&nbsp;<br>
+      &nbsp;<span style=3D"font-size: 24.0px;letter-spacing: -0.01em;">Cust=
+odian Forum Q3 2026&nbsp;</span></p>
+    <hr>
+    <h1 id=3D"Employeeaccessusercertification-=F0=9F=A7=BEOverviewoftheMeet=
+ing">=F0=9F=A7=BE Overview of the Meeting</h1>
+    <p><strong>Total meeting results:</strong><span>&nbsp;</span>1 meeting =
+found</p>
+    <p>This forum focused on:</p>
+    <ul>
+     <li data-uuid=3D"8c9b02bf-7014-4d84-a501-86f4f6ed6ee1">Launch of<span>=
+&nbsp;</span><strong>application access certifications (Q3)</strong></li>
+     <li data-uuid=3D"217244cf-b14c-4538-bbb6-d9c7237e3ad0">Review of<span>=
+&nbsp;</span><strong>access matrices</strong></li>
+     <li data-uuid=3D"0b7080d7-737b-454b-a658-1c201ef88b00">Certification p=
+rocess (IdentityIQ &amp; Jira)</li>
+     <li data-uuid=3D"9a9b866f-5945-4333-9729-d1500cb38b97">Reporting and c=
+ompliance expectations</li>
+     <li data-uuid=3D"6f4c5f38-723b-4877-8ac3-c85d63648d9a">Custodian roles=
+ and responsibilities</li>
+    </ul>
+    <p><br></p>
+    <h1 id=3D"Employeeaccessusercertification-=F0=9F=8E=AFKeyTopics&amp;Tra=
+nslation">=F0=9F=8E=AF Key Topics &amp; Translation</h1>
+    <h2 id=3D"Employeeaccessusercertification-1.PurposeoftheForum">1. Purpo=
+se of the Forum</h2>
+    <ul>
+     <li data-uuid=3D"7b740105-e5b0-40cd-bdac-cce956a3e2c1">Introduce<span>=
+&nbsp;</span><strong>new custodians</strong><span>&nbsp;</span>and welcome =
+returning ones</li>
+     <li data-uuid=3D"08db8b05-3a04-4092-bb49-d3455caa5837">Cover multiple =
+governance topics:=20
+      <ul>
+       <li>Access matrix</li>
+       <li>Access certification</li>
+       <li>Application reports</li>
+       <li>Custodian group management</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-2.AccessMatrix(CoreConcept)">=
+2. Access Matrix (Core Concept)</h2>
+    <h3 id=3D"Employeeaccessusercertification-Whatitis">What it is</h3>
+    <ul>
+     <li data-uuid=3D"df974f87-2a23-466e-8e9c-242924f8222c">The<span>&nbsp;=
+</span><strong>access matrix is the foundation</strong><span>&nbsp;</span>f=
+or certification</li>
+     <li data-uuid=3D"5db67f19-d3d3-41e8-b7ed-5a0347ecd993">Acts like a<spa=
+n>&nbsp;</span><strong>=E2=80=9Crulebook=E2=80=9D</strong><span>&nbsp;</spa=
+n>defining:=20
+      <ul>
+       <li>Who should have access</li>
+       <li>What level of access they should have</li>
+      </ul></li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Keypoints">Key points</h3>
+    <ul>
+     <li data-uuid=3D"7d9e81c1-536c-4d5a-9751-591dac486145">Ensures:=20
+      <ul>
+       <li>Only authorised users have access</li>
+       <li>Access aligns with role/transit/job function</li>
+      </ul></li>
+     <li data-uuid=3D"1af4ee33-ac48-4d77-bfd4-6219db311681">Must be:=20
+      <ul>
+       <li><strong>Maintained and updated regularly</strong></li>
+       <li>Approved before use</li>
+      </ul></li>
+     <li data-uuid=3D"1714c97f-e783-4655-a6f8-0d2ea5785ae1">Stored in<span>=
+&nbsp;</span><strong>Power BI after approval</strong></li>
+     <li data-uuid=3D"c0920992-3241-471d-b94a-bca958b0bb1f">Naming must mat=
+ch exactly between:=20
+      <ul>
+       <li>Matrix</li>
+       <li>Access systems (e.g., IQ, ServiceNow)</li>
+      </ul></li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Responsibility">Responsibilit=
+y</h3>
+    <ul>
+     <li data-uuid=3D"90e06472-0547-4a63-911b-8c9ddc26c693"><strong>Main cu=
+stodian + business owner</strong>
+      <ul>
+       <li>Ultimately accountable</li>
+      </ul></li>
+     <li data-uuid=3D"2c6aa88b-26ec-4b9e-bcd6-eca10f924a8b"><strong>Delegat=
+ed custodians</strong>
+      <ul>
+       <li>Provide support</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-3.HowtoBuildtheAccessMatrix">=
+3. How to Build the Access Matrix</h2>
+    <p>The template (available on SharePoint) requires:</p>
+    <h3 id=3D"Employeeaccessusercertification-Sectionstocomplete:">Sections=
+ to complete:</h3>
+    <ol>
+     <li data-uuid=3D"617f50f4-a228-475b-bc60-db727a1051a4">
+      <p><strong>General Information</strong></p>
+      <ul>
+       <li>Application name, CI, description</li>
+      </ul></li>
+     <li data-uuid=3D"747ba42f-7ce1-41cb-aed3-7e88d432f6ff">
+      <p><strong>Profiles</strong></p>
+      <ul>
+       <li>Each access profile described line by line</li>
+       <li>Indicate:=20
+        <ul>
+         <li>Privileged access (Yes/No)</li>
+         <li>Personal data access:=20
+          <ul>
+           <li>Level 1 (e.g., SIN, account numbers)</li>
+           <li>Level 2 (e.g., customer name, address)</li>
+          </ul></li>
+        </ul></li>
+       <li>Specify:=20
+        <ul>
+         <li>Read / Write / Delete permissions</li>
+         <li>Justification for access</li>
+        </ul></li>
+      </ul></li>
+     <li data-uuid=3D"0630a789-33fb-4fa8-a639-37f5f0207e40">
+      <p><strong>Segregation of Duties (SOD)</strong></p>
+      <ul>
+       <li>Answer 3 questions (Yes/No)</li>
+       <li>Provide justification when required</li>
+      </ul></li>
+     <li data-uuid=3D"237043de-acd2-49c8-868c-c75e84f3d3fe">
+      <p><strong>Authorised Sectors / Roles</strong></p>
+      <ul>
+       <li>Map:=20
+        <ul>
+         <li>Profiles =E2=86=92 Job roles =E2=86=92 Transits =E2=86=92 Mana=
+gers</li>
+        </ul></li>
+       <li>Used by approvers to validate requests</li>
+      </ul></li>
+     <li data-uuid=3D"af45b7cb-3c05-4d34-9a11-fe5c33a51509">
+      <p><strong>Optional Section</strong></p>
+      <ul>
+       <li>Additional notes or privileges</li>
+      </ul></li>
+    </ol>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-4.AccessCertification(MainTop=
+ic)">4. Access Certification (Main Topic)</h2>
+    <h3 id=3D"Employeeaccessusercertification-Whatitis.1">What it is</h3>
+    <ul>
+     <li data-uuid=3D"5e93ef8c-01b1-48be-8682-c1b310c2868d">A<span>&nbsp;</=
+span><strong>review of all users in an application</strong></li>
+     <li data-uuid=3D"8d3b9330-c779-49ec-98c7-d37298eebb7d">Goal: confirm t=
+hat each user:=20
+      <ul>
+       <li>Still needs access</li>
+       <li>Has the correct access</li>
+      </ul></li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Frequency">Frequency</h3>
+    <ul>
+     <li data-uuid=3D"1a48dc05-f7aa-4fa8-ade3-e07191f9c6f0">Annual / biannu=
+al / quarterly depending on application</li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-5.CertificationProcess(Identi=
+tyIQExample)">5. Certification Process (IdentityIQ Example)</h2>
+    <h3 id=3D"Employeeaccessusercertification-Keyworkflow">Key workflow</h3=
+>
+    <ol>
+     <li data-uuid=3D"3a2322f7-7719-4ba8-826c-1ff2461b0b05">Receive<span>&n=
+bsp;</span><strong>email notification</strong></li>
+     <li data-uuid=3D"9e5d69a2-6368-4959-b995-7f55f02eee7d">Open<span>&nbsp=
+;</span><strong>access review in IQ</strong></li>
+     <li data-uuid=3D"16190e27-b881-4bfd-8299-f443a29e869e">Review all user=
+s (e.g., ~1400 users possible)</li>
+    </ol>
+    <h3 id=3D"Employeeaccessusercertification-Recommendedapproach">Recommen=
+ded approach</h3>
+    <ul>
+     <li data-uuid=3D"b3c29c44-8927-460d-a156-08b60b0e6d21">Filter by:=20
+      <ul>
+       <li>Role</li>
+       <li>Transit</li>
+      </ul></li>
+     <li data-uuid=3D"3b772627-48b9-4ef2-a2ed-9e15b24b3daa">Compare against=
+ access matrix</li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Efficiencytechnique">Efficien=
+cy technique</h3>
+    <ul>
+     <li data-uuid=3D"0f78f1e1-e8f2-4af1-b2fc-217f167c38f8">Approve<span>&n=
+bsp;</span><strong>valid users in bulk</strong></li>
+     <li data-uuid=3D"848f87db-260e-42d2-bbc5-52aa0cf774e0">Investigate onl=
+y exceptions</li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Finalstep">Final step</h3>
+    <ul>
+     <li data-uuid=3D"fa7106ab-30fa-419b-89f9-182b36297e16">Complete when:=
+=20
+      <ul>
+       <li>All users reviewed</li>
+       <li>Remaining count =3D 0</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-6.CertificationviaJira(Non=E2=
+=80=91IQorreport-based)">6. Certification via Jira (Non=E2=80=91IQ or repor=
+t-based)</h2>
+    <h3 id=3D"Employeeaccessusercertification-Requirements">Requirements</h=
+3>
+    <ul>
+     <li data-uuid=3D"bd257e02-a891-4166-a927-e6e31c0a9c62">Open Jira ticke=
+t</li>
+     <li data-uuid=3D"0dcb9fa0-d945-453e-93d7-441bcb230eb4">Attach:=20
+      <ul>
+       <li>Certification report</li>
+       <li>Matrix approval link</li>
+       <li>Supporting documentation</li>
+      </ul></li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Importanttemplaterule">Import=
+ant template rule</h3>
+    <p>You must add <strong>4 columns</strong> to the report:</p>
+    <ul>
+     <li data-uuid=3D"0a1078bf-08ce-4a9f-b0e7-86d43ffd5b6d">Certification d=
+ecision</li>
+     <li data-uuid=3D"b80fb764-25f9-491e-a7c7-daa5d86cc6d8">Certified by</l=
+i>
+     <li data-uuid=3D"d283d100-14c8-43a7-a917-a37356263d2c">Revocation requ=
+est ID (if applicable)</li>
+     <li data-uuid=3D"7b05961c-91a2-44bd-9a22-e1296e2c615a">Comments</li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Why?">Why?</h3>
+    <ul>
+     <li data-uuid=3D"0381289f-d2b4-4d47-9813-fb15ecba818f">Ensures <strong=
+>audit consistency and completeness</strong></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-7.KeyRulesforCertification">7=
+. Key Rules for Certification</h2>
+    <h3 id=3D"Employeeaccessusercertification-=F0=9F=94=9228-DayDeadline">=
+=F0=9F=94=92 28-Day Deadline</h3>
+    <ul>
+     <li data-uuid=3D"02e28549-a444-4751-a41b-a26f4442b89f">Certification m=
+ust be completed within <strong>28 days</strong></li>
+     <li data-uuid=3D"4c9dc1d2-3a8f-4350-950b-1cca52633cea">Because it repr=
+esents a <strong>snapshot in time</strong></li>
+     <li data-uuid=3D"8661730d-71de-4c99-a409-90571c3537ae">Older data beco=
+mes invalid&nbsp;</li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-=F0=9F=94=8DAuditexpectation"=
+>=F0=9F=94=8D Audit expectation</h3>
+    <ul>
+     <li data-uuid=3D"734129db-fabf-4114-b546-459b934689ff">Must prove:=20
+      <ul>
+       <li>Every account was reviewed</li>
+       <li>No missing decisions</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-8.Reports(CriticalInput)">8. =
+Reports (Critical Input)</h2>
+    <ul>
+     <li data-uuid=3D"eec5ff01-499b-4cba-b31a-f34053677547">Reports show:=
+=20
+      <ul>
+       <li>Users</li>
+       <li>Profiles</li>
+       <li>Access levels</li>
+       <li>Transits and managers</li>
+      </ul></li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-Ifreportismissingorwrong:">If=
+ report is missing or wrong:</h3>
+    <ul>
+     <li data-uuid=3D"5c1ca518-382b-4f02-8e22-8133d576de3a">Open incident (=
+assigned to GIA team)</li>
+    </ul>
+    <h3 id=3D"Employeeaccessusercertification-IfappnotintegratedwithIQ:">If=
+ app not integrated with IQ:</h3>
+    <ul>
+     <li data-uuid=3D"b05083bd-fb85-4f2a-8b54-143f12532f50">Get extract fro=
+m:=20
+      <ul>
+       <li>Application manager</li>
+       <li>IT support team</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-9.IntegrationTypes(Importantf=
+oryourproductcontext)">9. Integration Types (Important for your product con=
+text)</h2>
+    <p>3 types of integration with IdentityIQ:</p>
+    <ol>
+     <li data-uuid=3D"c5495ee9-99ae-45d5-b10f-0099d07a751f"><strong>Connect=
+or (direct integration)</strong></li>
+     <li data-uuid=3D"192bc719-7a15-481d-8d43-03877949e14d"><strong>Flat fi=
+les / reports</strong></li>
+     <li data-uuid=3D"83d892de-7efb-4575-ad1f-178d8d73840f"><strong>No inte=
+gration =E2=86=92 manual extraction needed</strong>&nbsp;</li>
+    </ol>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-10.Compliance&amp;AuditInsigh=
+ts">10. Compliance &amp; Audit Insights</h2>
+    <ul>
+     <li data-uuid=3D"3ea5e66a-ce3d-4e8c-8d91-f6823c9c2b5d">Certification i=
+s a <strong>key audit control</strong></li>
+     <li data-uuid=3D"2664bed3-9d86-476b-a054-e077b2351619">Auditors requir=
+e:=20
+      <ul>
+       <li>Evidence of complete review</li>
+       <li>Alignment with matrix</li>
+      </ul></li>
+     <li data-uuid=3D"8eb7ef86-2ad4-4d6b-acb3-f7711559d9b1">Common issues:=
+=20
+      <ul>
+       <li>Missing transits in matrix</li>
+       <li>Incorrect approvals</li>
+       <li>Outdated custodian groups</li>
+      </ul></li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-11.Timeline(Q3Certification)"=
+>11. Timeline (Q3 Certification)</h2>
+    <ul>
+     <li data-uuid=3D"97934fa9-9592-4f35-b1ae-32579abadab1">Certification p=
+eriod: <strong>May =E2=80=93 August</strong></li>
+     <li data-uuid=3D"1d096046-1484-4f2e-99ce-d4ee4add6aed">Example:=20
+      <ul>
+       <li>Start anytime</li>
+       <li>Must finish <strong>within 28 days + before end of August</stron=
+g></li>
+      </ul></li>
+     <li data-uuid=3D"69911ef4-c669-4f23-b657-7ffa4c6d0590">Audit review: <=
+strong>September=E2=80=93October</strong>&nbsp;</li>
+    </ul>
+    <hr>
+    <h2 id=3D"Employeeaccessusercertification-12.UpcomingImprovements">12. =
+Upcoming Improvements</h2>
+    <ul>
+     <li data-uuid=3D"0eb513b2-bf6c-46da-91bb-97e4f7e25fed">Plan to release=
+:=20
+      <ul>
+       <li>Short training videos (5=E2=80=9310 min)</li>
+      </ul></li>
+     <li data-uuid=3D"157b5582-23f5-4b73-9a6f-70e79af10c9e">Topics:=20
+      <ul>
+       <li>Certification</li>
+       <li>Matrix management</li>
+       <li>Access processes</li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+    <p><br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<span class=3D"fai-EditorInput__placeholderValue rrmx5oh ___61k=
+src0 fxc4j92 fod5ikn f8xlz6g fs5ojnc" style=3D"color:#8590a2;"><span>Messag=
+e Copilot</span></span><br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;</p>
+    <p>&nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      AI-generated content may be incorrect<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;</p>
+    <p><br>
+      &nbsp;<br>
+      &nbsp;<br>
+      &nbsp;</p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86312_475803628.1788185475999--

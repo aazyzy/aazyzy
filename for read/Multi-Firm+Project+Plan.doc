@@ -1,0 +1,764 @@
+Date: Mon, 31 Aug 2026 10:16:23 -0400 (EDT)
+Message-ID: <945659565.86388.1788185783392@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86387_243221483.1788185783392"
+
+------=_Part_86387_243221483.1788185783392
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Multi-Firm Project Plan</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Multi-Firm Project Plan</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"MultiFirmProjectPlan-ActivityPlan">Activity Plan</h1>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 98=
+.4427%;">
+  <colgroup>
+   <col style=3D"width: 7.29157%;">
+   <col style=3D"width: 11.1056%;">
+   <col style=3D"width: 14.9755%;">
+   <col style=3D"width: 30.7929%;">
+   <col style=3D"width: 8.24508%;">
+   <col style=3D"width: 7.40375%;">
+   <col style=3D"width: 20.192%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Phase</th>
+    <th scope=3D"col" class=3D"confluenceTh">Activity Group</th>
+    <th scope=3D"col" class=3D"confluenceTh">Activity</th>
+    <th scope=3D"col" class=3D"confluenceTh">Activity Details</th>
+    <th scope=3D"col" class=3D"confluenceTh">Target</th>
+    <th scope=3D"col" class=3D"confluenceTh">Status</th>
+    <th scope=3D"col" class=3D"confluenceTh">Notes</th>
+   </tr>
+   <tr>
+    <td rowspan=3D"15" class=3D"confluenceTd">Product Discovery</td>
+    <td rowspan=3D"7" class=3D"confluenceTd">Capability discovery</td>
+    <td class=3D"confluenceTd">Current state relationships</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"aaa0f532-5a30-4604-8f40-3e8c9e9d24c3">Understand dif=
+ferent types of delegation arrangements</li>
+      <li data-uuid=3D"4e29bec6-3cf6-40b1-8ee6-839ae79cbfa6">Understand dif=
+ferent types of parent setups</li>
+      <li data-uuid=3D"5bed368d-e8bb-4b15-a2f6-020bee65d6ff">Understand cur=
+rent state of those relationships with NBIN</li>
+     </ul></td>
+    <td class=3D"confluenceTd">May</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Current state usage&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c16f3ec8-df71-4840-b187-7baee8f0c1c6">Establish reac=
+h &amp; impact of multi-firm access&nbsp;<br>
+       <ul>
+        <li>Number of firms in each multi-firm scenario</li>
+        <li>Number of relationships a firm might have in each scenario</li>
+       </ul></li>
+     </ul></td>
+    <td class=3D"confluenceTd">May</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">Current state use cases &amp; =
+capability mapping</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"54045128-2df2-4699-af36-ff7f21ee4573">Current state =
+provisioning and oversight capabilities &amp; limitations</li>
+     </ul></td>
+    <td class=3D"confluenceTd">May</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"af78fd13-b998-487b-b187-40424b58797f">Document Firm =
+Implementations setup procedures</li>
+      <li>Implementation differences for PM vs. IB, and across platforms</l=
+i>
+     </ul></td>
+    <td class=3D"confluenceTd">May</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3df86f19-bddf-47bc-a1bf-54997c845b2f">Current state =
+platform access capabilities &amp; limitations</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 19</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">Usage &amp; data validation</t=
+d>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"7f2d40dd-6a56-4f79-a016-c25016b4843f">Meet with RVP =
+Team to validate firm relationships identified in the data</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 12</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"4f8f70bd-a04b-4c67-a816-deb61582fc47">Summarize anti=
+-patterns (for impact validation only)=20
+       <ul>
+        <li>Firm setups in NetRep / SZ on PM arm with access to IB arm ($)<=
+/li>
+        <li>Identified data breaches due to administration gaps</li>
+        <li>Firms making use of sub-advisor RR in R2 for parent access</li>
+       </ul></li>
+     </ul></td>
+    <td class=3D"confluenceTd">Ongoing</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"6" class=3D"confluenceTd">Stakeholder discovery</td>
+    <td class=3D"confluenceTd">Firm identification</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"581f55c0-12aa-4bf3-8f32-3c3684594f09">Review suitabl=
+e partner firms to consult on feedback and use cases</li>
+     </ul></td>
+    <td class=3D"confluenceTd">May</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Client consultation: Parent</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"cc82ea11-fe91-4f99-ba17-06a656fbea10">Harbourfront, =
+Guardian, Fiera</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Client consultation: Delegate</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"0910a2ff-730a-41ce-9a39-13dda763bcc2">RN Croft, Fier=
+a</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">Internal consultation - initia=
+l requirements</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"cc0b8701-92d4-465b-bffe-9da2b173c2dd">Accounting, Da=
+ta, Firm Implementations</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9a80199a-d7e5-4175-b9fd-2fa4bd35a2a3">Risk</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 09</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">DONE<=
+/span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"33232a30-6188-4813-874d-0bc9f3792a3e">Product Activa=
+tions, Product Support</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">PRD definition</td>
+    <td class=3D"confluenceTd">Complete initial PRD</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"4e02c0ab-be1e-4a81-ae5f-9afb3f40589b">Complete PRD t=
+emplate</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 19</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Complete current state inputs</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"e19fadaa-0dfb-4095-ad92-158d21a34354">Aggregation of=
+ product discovery results</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 19</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"10" class=3D"confluenceTd">Feature Discovery</td>
+    <td class=3D"confluenceTd">Stakeholder kick-off</td>
+    <td class=3D"confluenceTd">Initiative introduction</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a1844d4a-68e7-4d22-93e0-3b2014765896">Engage require=
+d participants for overview of initiative, timelines, concept, engagement e=
+xpectations</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">Solution discovery kick-off: p=
+arent firm</td>
+    <td class=3D"confluenceTd">Feature discovery initiation</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3288b1a1-a032-419d-b35e-ab58416e858b">High-level wal=
+kthrough of capability concepts</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 5</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Requirements review workshops</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"0a99eacb-2ea7-41c7-8232-d05ca6751f61">PRD deep dive =
+for clarifications and initial feasibility review</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Jun 5 - Jun 17</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">Solution design: parent firm</=
+td>
+    <td class=3D"confluenceTd">Concept development (iterations)</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Mid-July</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Client review</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Mid-July</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Solution discovery kick-off: delegation</td>
+    <td class=3D"confluenceTd">Requirements review workshops</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Jun 29 - Jul 3</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td rowspan=3D"3" class=3D"confluenceTd">Solution design: delegate firm=
+</td>
+    <td class=3D"confluenceTd">Concept development (iterations)</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Jul 6 - Jul 26</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Client review</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">End July</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Stakeholder review</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">End July</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">FOP definition</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Mid-July</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Development&nbsp;</td>
+    <td class=3D"confluenceTd">Delivery handover</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Target end-July completion</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+<h1 id=3D"MultiFirmProjectPlan-Engagement">Engagement</h1>
+<h2 id=3D"MultiFirmProjectPlan-Stakeholders">Stakeholders</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 64=
+.5936%;">
+  <colgroup>
+   <col style=3D"width: 37.7695%;">
+   <col style=3D"width: 43.8416%;">
+   <col style=3D"width: 18.4755%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Group</th>
+    <th scope=3D"col" class=3D"confluenceTh">Engagement</th>
+    <th scope=3D"col" class=3D"confluenceTh">Rep</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>Firm Management</p>
+     <p>(Setup, subscription, billing)</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"5b17d1a5-b122-4e8b-a31d-5fef7137e24f">Firm360 intera=
+ctions</li>
+      <li data-uuid=3D"cd9eadc6-0a9d-4230-9d71-3e240e7b8286">Firm setup pro=
+cedure design</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Ray&nbsp;</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Product Support</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c17bd31d-11fa-4756-912d-22ff0a31c735">Support fricti=
+ons and impact</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Sarina</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"90759c4e-2d9b-4d0d-94d8-83556c074b53">NBIN obligatio=
+ns and supervision</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Ed&nbsp;</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Product Activations</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"5c3bf6ba-0b2e-43d1-8cf6-8987fbe8126d">User assignmen=
+t strategy</li>
+      <li data-uuid=3D"76a3a82b-6729-4703-9737-2dde396e43c6">User insights&=
+nbsp;</li>
+      <li data-uuid=3D"65e97d2c-2956-4d85-8c64-0c8daec49b6e">User clean-up<=
+/li>
+     </ul></td>
+    <td class=3D"confluenceTd">Radhika</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Firm Implementation</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">Aman</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Finance</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"6d9a681d-4b98-4dd7-b751-f3a29790dc81">Verify contrac=
+t &amp; invoicing implementation</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Bill</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"MultiFirmProjectPlan-ClientWorkingGroup">Client Working Group</h2=
+>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 39=
+.0635%;">
+  <colgroup>
+   <col style=3D"width: 28.5947%;">
+   <col style=3D"width: 28.9107%;">
+   <col style=3D"width: 42.4971%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Firm</th>
+    <th scope=3D"col" class=3D"confluenceTh">Contact</th>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">Parent Firm</td>
+    <td class=3D"confluenceTd">Wellingtion-Altus TBC</td>
+    <td class=3D"confluenceTd">Patricia</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Harbourfront (confirmed)</td>
+    <td class=3D"confluenceTd">Brent</td>
+   </tr>
+   <tr>
+    <td rowspan=3D"2" class=3D"confluenceTd">Parent + Delegation</td>
+    <td class=3D"confluenceTd">Guardian (confirmed)</td>
+    <td class=3D"confluenceTd">Sergio</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Fiera</td>
+    <td class=3D"confluenceTd">Nadra</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Delegation only</td>
+    <td class=3D"confluenceTd">RN Croft</td>
+    <td class=3D"confluenceTd">TBC</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86387_243221483.1788185783392--

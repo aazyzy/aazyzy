@@ -1,0 +1,532 @@
+Date: Mon, 31 Aug 2026 10:09:36 -0400 (EDT)
+Message-ID: <80997682.86294.1788185376950@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86293_2041260243.1788185376950"
+
+------=_Part_86293_2041260243.1788185376950
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee Access Internal Standards</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee Access Internal Standards</h1>
+    <div class=3D"Section1">
+        <p>This page contains our interpretation of standards that are requ=
+ired to be applied to CX.</p>
+<h2 id=3D"EmployeeAccessInternalStandards-1.AccessRequestManagement">1. Acc=
+ess Request Management</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Identifier</p></th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Security requirement</p></th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-04</p></td>
+    <td class=3D"confluenceTd">
+     <p>All access issuance or removal must be carried out via the Bank=E2=
+=80=99s access catalogue service.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-05</p></td>
+    <td class=3D"confluenceTd">
+     <p>All access requests must be approved, documented, and retained for =
+audit purposes.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-10</p></td>
+    <td class=3D"confluenceTd">
+     <p>Reactivation of a deactivated application account must be processed=
+ as a new access request.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-PAM-05</p></td>
+    <td class=3D"confluenceTd">
+     <p>Use of privileged access must be justified and documented for audit=
+ purposes.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"EmployeeAccessInternalStandards-2.AccessProvisioning/Configuratio=
+n">2. Access Provisioning / Configuration</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Identifier</p></th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Security requirement</p></th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-IDE-04</p></td>
+    <td class=3D"confluenceTd">
+     <p>Every account must be associated with a unique digital identity.</p=
+></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-01</p></td>
+    <td class=3D"confluenceTd">
+     <p>Users must have an account named in the corporate directory.</p></t=
+d>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-02</p></td>
+    <td class=3D"confluenceTd">
+     <p>Accounts must be attributed to an owner and managed by identity lif=
+ecycle.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-03</p></td>
+    <td class=3D"confluenceTd">
+     <p>Account owner must be identifiable using a correlation key.</p></td=
+>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-04</p></td>
+    <td class=3D"confluenceTd">
+     <p>Naming convention must distinguish account types.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-05</p></td>
+    <td class=3D"confluenceTd">
+     <p>Generic or shared accounts are prohibited in production.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-06</p></td>
+    <td class=3D"confluenceTd">
+     <p>Accounts must not be cloned.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-02</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access rules must be documented in an access matrix.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-03</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access rights must be grouped into profiles and reviewed when modif=
+ied.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-PAM-01</p></td>
+    <td class=3D"confluenceTd">
+     <p>Privileged access must only be used when necessary.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-PAM-02</p></td>
+    <td class=3D"confluenceTd">
+     <p>Privileged accounts must be restricted to intended systems.</p></td=
+>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-PAM-04</p></td>
+    <td class=3D"confluenceTd">
+     <p>Privileged accounts must not be used for non-privileged activities.=
+</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"EmployeeAccessInternalStandards-3.EmployeeLogin/AccessEnforcement=
+">3. Employee Login / Access Enforcement</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Identifier</p></th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Security requirement</p></th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-01</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access must be granted based on the principle of least privilege.</=
+p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-01</p></td>
+    <td class=3D"confluenceTd">
+     <p>Authentication strength must match the level of risk.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-04</p></td>
+    <td class=3D"confluenceTd">
+     <p>Authentication must be federated where supported.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-05</p></td>
+    <td class=3D"confluenceTd">
+     <p>Login must not expose system or validation details.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-07</p></td>
+    <td class=3D"confluenceTd">
+     <p>Reauthentication is required after 15 minutes of inactivity.</p></t=
+d>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-08</p></td>
+    <td class=3D"confluenceTd">
+     <p>Initial and reset passwords must be changed after first use.</p></t=
+d>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-11</p></td>
+    <td class=3D"confluenceTd">
+     <p>Default credentials must be changed before production use.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-14</p></td>
+    <td class=3D"confluenceTd">
+     <p>Multifactor authentication must combine at least two factors.</p></=
+td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHN-16</p></td>
+    <td class=3D"confluenceTd">
+     <p>Admin or emergency access must require level-3 assurance.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"EmployeeAccessInternalStandards-4.OngoingMonitoring&amp;Certifica=
+tion">4. Ongoing Monitoring &amp; Certification</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Identifier</p></th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Security requirement</p></th>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-09</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access must be certified at least once every 12 months.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-AUTHZ-10</p></td>
+    <td class=3D"confluenceTd">
+     <p>Access must be recertified following role changes.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-12</p></td>
+    <td class=3D"confluenceTd">
+     <p>Orphaned accounts must be correlated or deactivated.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-PAM-07</p></td>
+    <td class=3D"confluenceTd">
+     <p>Privileged actions must be logged.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"EmployeeAccessInternalStandards-5.EmployeeOffboarding&amp;Deactiv=
+ation">5. Employee Offboarding &amp; Deactivation</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Identifier</p></th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p>Security requirement</p></th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#44546f;">EIAM-CPT-07</span></p></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><span>All user accounts in the corporate directory must be deactiva=
+ted within 24 hours of the date of departure.</span></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#44546f;">EIAM-CPT-08</span></p></td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p>If a user is immediately terminated or suspended, their accounts mu=
+st be deactivated according to the immediate termination process.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-11</p></td>
+    <td class=3D"confluenceTd">
+     <p>Dormant accounts must be deactivated after 90 days.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-02</p></td>
+    <td class=3D"confluenceTd">
+     <p>Account lifecycle must follow the identity lifecycle.</p></td>
+   </tr>
+   <tr class=3D"">
+    <td class=3D"confluenceTd">
+     <p>EIAM-CPT-12</p></td>
+    <td class=3D"confluenceTd">
+     <p>Orphaned accounts must be deactivated if not correlated.</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86293_2041260243.1788185376950--

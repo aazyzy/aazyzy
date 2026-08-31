@@ -1,0 +1,719 @@
+Date: Mon, 31 Aug 2026 09:49:06 -0400 (EDT)
+Message-ID: <1760881874.86094.1788184146254@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86093_1273993109.1788184146254"
+
+------=_Part_86093_1273993109.1788184146254
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access current state request fulfillment</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access current state request fulfillment</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"Employeeaccesscurrentstaterequestfulfillment-Currentstate=
+"><span>Current state</span></h3>
+<p>There are four use cases to be discussed in this feature.</p>
+<ol>
+ <li data-uuid=3D"fb07257e-b5f4-43b4-a6f6-77a6d3b4818b">
+  <p>New employee onboarding&nbsp;</p></li>
+ <li data-uuid=3D"563c871c-7ba7-486a-92eb-b483e9a8e0de">
+  <p>Modify access</p></li>
+ <li data-uuid=3D"f9f02c63-e139-4a07-9f55-a0c5c10d38f0">
+  <p>Employee offboarding</p></li>
+ <li data-uuid=3D"09789b61-0d93-48b1-bb00-6f232d0f0202">
+  <p>Employee access attestation</p></li>
+</ol>
+<p>Here is the process of the New employee onboarding use case. The steps f=
+or Modify access use case and Employee offboarding use case are similar, ho=
+wever, the request type (Add verse Modify verse Delete) and the correspondi=
+ng actions would be different.&nbsp;</p>
+<p>The current process of Employee access attestation per application is ap=
+pended to the bottom of the table.</p>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+   <col class=3D"">
+  </colgroup>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p>Step-1. New employee's manager assesses the User need and follow th=
+e Procedure to submit the requests</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>User need</p></th>
+    <th class=3D"confluenceTh">
+     <p>Access to Legacy Compass functionalities?</p></th>
+    <th colspan=3D"2" class=3D"confluenceTh">
+     <p>Access to Servicing on New Compass?</p></th>
+    <th colspan=3D"2" class=3D"confluenceTh">
+     <p>Access to Trading?</p></th>
+    <th class=3D"confluenceTh">
+     <p>Access to New Compass core features?</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Procedure</p></th>
+    <th class=3D"confluenceTh">
+     <p>ServiceNow - Request access to Legacy Compass (R2)</p></th>
+    <th class=3D"confluenceTh">
+     <p>ServiceNow - Request access to GDI</p></th>
+    <th class=3D"confluenceTh">
+     <p>ServiceNow - Request access to SOMA</p></th>
+    <th class=3D"confluenceTh">
+     <p>ServiceNow - Request access to GDO</p></th>
+    <th class=3D"confluenceTh">
+     <p>ServiceNow - Request access to PCIS</p></th>
+    <th class=3D"confluenceTh">
+     <p>NCS - Request access to New Compass</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh"><br></th>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"e5ed8a05-e88a-48b7-8c37-2a778eb56e45">
+       <p>Go to <a class=3D"external-link" href=3D"https://bnc.service-now.=
+com/esc?id=3Dbnc_home" rel=3D"nofollow">Service Now</a> homepage</p></li>
+      <li data-uuid=3D"e0d97386-ecf5-418d-aa77-35fddddaca71">
+       <p>Submit a request to&nbsp;<a class=3D"external-link" href=3D"https=
+://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys=
+_id=3D7951f2b71b89de102c0a21fcbc4bcbed&amp;searchTerm=3D5213" rel=3D"nofoll=
+ow">Add access to application 5213 - Compass (NBIN)</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Select a Role (R2 profile) from the drop-down</p></li>
+       </ol></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"ee6af3c5-8672-4286-af3d-f13ed89781d6">
+       <p>Go to <a class=3D"external-link" href=3D"https://bnc.service-now.=
+com/esc?id=3Dbnc_home" rel=3D"nofollow">Service Now</a> homepage</p></li>
+      <li data-uuid=3D"96133442-38bc-4621-b498-38158579ae60">
+       <p>Submit a request to&nbsp;<a class=3D"external-link" href=3D"https=
+://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys=
+_id=3D99af227b1b49de102c0a21fcbc4bcb02&amp;searchTerm=3D0647" rel=3D"nofoll=
+ow">Add access to application 0647 - GDI</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Select a Role from the drop-down</p></li>
+       </ol></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>Prerequisites: User has a SZ Id that has access to GDI</p>
+     <ol>
+      <li data-uuid=3D"56fa91cd-c0a3-455c-9e83-62afb0a64e9f">
+       <p>Go to&nbsp;<a class=3D"external-link" href=3D"https://bnc.service=
+-now.com/esc?id=3Dbnc_home" rel=3D"nofollow">Service Now</a> homepage</p></=
+li>
+      <li data-uuid=3D"95fe9220-900d-4854-a8eb-e871d44318c5">
+       <p>Submit a request to&nbsp;<a class=3D"external-link" href=3D"https=
+://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys=
+_id=3D44a13e3b1b89de102c0a21fcbc4bcb15&amp;searchTerm=3D5861" rel=3D"nofoll=
+ow">Add access to application 5861 - SOMA-Public APIs</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Select a Role from the drop-down</p></li>
+        <li>
+         <p>Provide a SZ Id with GDI access to ensure all allowed features =
+in SOMA are accessible</p></li>
+       </ol></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"71827db4-0701-401d-a16c-ec8ce03c7e7e">
+       <p>Go to <a class=3D"external-link" href=3D"https://bnc.service-now.=
+com/esc?id=3Dbnc_home" rel=3D"nofollow">Service Now</a> homepage</p></li>
+      <li data-uuid=3D"eee0eef3-25e1-4bc6-8044-42e766ee7918">
+       <p>Submit a request to&nbsp;<a class=3D"external-link" href=3D"https=
+://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys=
+_id=3Db9af227b1b49de102c0a21fcbc4bcbd8&amp;searchTerm=3D0657" rel=3D"nofoll=
+ow">Add access to application 0657 - GDO</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Select a Role from the drop-down</p></li>
+       </ol></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"be2c66f3-934e-44b6-ab28-70732b9199a5">
+       <p>Go to <a class=3D"external-link" href=3D"https://bnc.service-now.=
+com/esc?id=3Dbnc_home" rel=3D"nofollow">Service Now</a> homepage</p></li>
+      <li data-uuid=3D"46245530-0472-4bf4-9761-56c1a1ae1d75">
+       <p>Submit a request to&nbsp;<a class=3D"external-link" href=3D"https=
+://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;table=3Dsc_cat_item&amp;sys=
+_id=3D1000b6fb1b49de102c0a21fcbc4bcb0c&amp;searchTerm=3D1129" rel=3D"nofoll=
+ow">Add access to application 1129 - PCIS</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Select a Role from the drop-down</p></li>
+       </ol></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"de0ad795-cb8a-45f3-b005-fbd1446ed13d">
+       <p>Go to <a class=3D"external-link" href=3D"https://jira.bnc.ca/serv=
+icedesk/customer/portal/506/group/2247" rel=3D"nofollow">NBIN Product Suppo=
+rt - NCE</a> homepage</p></li>
+      <li data-uuid=3D"eb88e03d-7520-4c27-81ea-5a9d4d3ac9bc">
+       <p>Submit a new access request to&nbsp;<a class=3D"external-link" hr=
+ef=3D"https://jira.bnc.ca/servicedesk/customer/portal/506/create/8796" rel=
+=3D"nofollow">NCE Access Requests</a>&nbsp;</p>
+       <ol>
+        <li>
+         <p>Enter the R2 Id and SZ Id on the form, if applicable&nbsp;</p><=
+/li>
+       </ol></li>
+     </ol></td>
+   </tr>
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p>Step-2. ID Custodians of the requested applications approve the req=
+uests</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Procedure</p></th>
+    <td colspan=3D"5" class=3D"confluenceTd">
+     <p>Service Now:</p>
+     <ol>
+      <li data-uuid=3D"0ef02ac2-f6bf-4c75-b16c-3b91da293309">
+       <p>Approve request is sent to ID custodian groups of the requested a=
+pplication automatically</p></li>
+      <li data-uuid=3D"5155ffbb-2510-4a8f-a70c-a77986046e93">
+       <p>ID custodians approve the add access request (NOTE: for R2, ID cu=
+stodian is NBIN Product Support group)</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>NCS Service Desk:</p>
+     <ol>
+      <li data-uuid=3D"ae65359d-5bc8-4965-90ba-be0c10899873">
+       <p>NBIN Product Support group screen the new access request for comp=
+leteness</p>
+       <ol>
+        <li>
+         <p>If there's any missing info, ask the requestor to fill in</p></=
+li>
+       </ol></li>
+      <li data-uuid=3D"370f9caf-3df7-46f0-ae39-e3e0cfa6afa1">
+       <p>NBIN Product Support group check for manager's approval</p>
+       <ol>
+        <li>
+         <p>If it is not provided, ask the manager for approval</p></li>
+       </ol></li>
+      <li data-uuid=3D"8b0c7c09-e8a5-4772-a2ea-0a5c798c5c13">
+       <p>NBIN Product Support group ask for NCE ID custodian (PS manager) =
+to approve</p></li>
+     </ol></td>
+   </tr>
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p>Step-3. ID Admins of the requested applications act on the requests=
+</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Procedure</p></th>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"51d5758a-9b51-4a02-bb17-69bc336b77c3">
+       <p>Create a new R2 user account</p></li>
+      <li data-uuid=3D"d10459ca-51d7-445d-acea-375c51bf605d">
+       <p>Configure R2 access according to the access matrix, as per the re=
+quested Role&nbsp;</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"79fd156f-0e49-42d2-9580-5a3888a697c9">
+       <p>Create a new SZ user account</p></li>
+      <li data-uuid=3D"106671f2-bcfe-41c7-b039-7bb609dbef3b">
+       <p>Configure GDI access according to the access matrix, as per the r=
+equested Role&nbsp;</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"fa6d987b-81bf-4769-b3a8-251887411a2d">
+       <p>Modify the provided SZ Id&nbsp;</p></li>
+      <li data-uuid=3D"12fddd08-fee6-41f7-9cbf-34a95188740f">
+       <p>Config SOMA access according to the access matrix, as per the req=
+uested Role&nbsp;</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"3d9429cd-8991-4615-884b-74049c33b9ff">
+       <p>Create a new GDO user account</p></li>
+      <li data-uuid=3D"d8d829f8-62f2-4e4b-a08d-efe9d2b13c19">
+       <p>Config access according to the access matrix, as per the requeste=
+d Role&nbsp;</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"7d6d82b7-6e21-4d78-8b5a-28e09db3685b">
+       <p>Create a new PCIS user account</p></li>
+      <li data-uuid=3D"5a883e5a-66d5-49f7-80c7-0d049a55e26a">
+       <p>Config access according to the access matrix, as per the requeste=
+d Role&nbsp;</p></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <p>NBIN Product Support team:</p>
+     <ol>
+      <li data-uuid=3D"de2b38b7-d33c-4035-9c50-9bc5ac841390">
+       <p>Create a new NCE user account&nbsp;</p></li>
+      <li data-uuid=3D"ba61516d-cd0d-4870-9e93-9aedc697797a">
+       <p>Configure user role and settings according to the access matrix, =
+by the user's business group&nbsp;</p></li>
+     </ol></td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Access matrix per application</p></th>
+    <td class=3D"confluenceTd">
+     <p><a class=3D"external-link" href=3D"https://cbncnbccs-my.sharepoint.=
+com/:x:/g/personal/katrina_astrologo_nbc_ca/IQDrLKfYPFNWQ7uQIwlBvc5NAV2AQof=
+fzx0tsl3NggLJrvU?e=3DR8f0yc" rel=3D"nofollow">5213 - NBIN Compass -20251211=
+ - v4.6 1.xlsx</a></p></td>
+    <td class=3D"confluenceTd">
+     <p><a href=3D"https://wiki.bnc.ca/spaces/SAU/pages/1490880626/IDAdmin+=
+-+0657+-+GDO_VF" rel=3D"nofollow">IDAdmin - 0657 - GDO_VF - KB du SAU - Con=
+fluence</a></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><a class=3D"external-link" href=3D"https://cbncnbccs-my.sharepoint.=
+com/:x:/r/personal/jason_mepsted_nbc_ca/Documents/Microsoft%20Teams%20Chat%=
+20Files/CompassX%20Employee%20Access.xlsx?d=3Dw776caf3d4c514cd1ae61ea2bbb2d=
+027f&amp;csf=3D1&amp;web=3D1&amp;e=3DIN1bxf" rel=3D"nofollow">CompassX Empl=
+oyee Access.xlsx</a></p></td>
+   </tr>
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p>Step-4. ID Admins close the request tickets</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Procedure</p></th>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"8150ce1d-c34f-447c-8903-9183b9346362">
+       <p>Share the new R2 Id in the ticket</p></li>
+      <li data-uuid=3D"7fa76080-0a34-4113-8b21-b07e1a7e7cdd">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p><span style=3D"color:#ae2e24;">TBC</span></p></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"e756f49f-d3e6-4ceb-9395-a9c8e66e356f">
+       <p>Share the new SZ Id and password in the ticket</p></li>
+      <li data-uuid=3D"8ba2d3da-bde5-404c-84a6-1e502315a3e4">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p><span style=3D"color:#ae2e24;">TBC</span></p></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"4600f333-984a-4f7a-aaad-e80ebcf5094c">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p><span style=3D"color:#ae2e24;">TBC</span></p></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"49aaa42a-8e12-4a35-bbad-669a4b6732d3">
+       <p>Share the new GDO Id and password in the ticket</p></li>
+      <li data-uuid=3D"bacc4b78-764d-48bd-ba7d-b33abb208568">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p>TBC</p></td>
+    <td class=3D"confluenceTd">
+     <p>SAA team:</p>
+     <ol>
+      <li data-uuid=3D"2dc71f77-e4c7-42f7-ae05-fc0e2399781d">
+       <p>Share the new PCIS Id and password in the ticket</p></li>
+      <li data-uuid=3D"6228996c-2a5a-4a4d-877a-2dd0473fb173">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p>TBC</p></td>
+    <td class=3D"confluenceTd">
+     <p>NBIN Product Support team:</p>
+     <ol>
+      <li data-uuid=3D"4e96bd12-170c-441d-b564-dc7ed14d614f">
+       <p>Share the new NCE Id and password in the ticket</p></li>
+      <li data-uuid=3D"2a7ace20-0bc7-466a-a5e4-6e24145e68f8">
+       <p>Close the ticket</p></li>
+     </ol>
+     <p>TBC</p></td>
+   </tr>
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p><br></p></th>
+   </tr>
+   <tr class=3D"">
+    <th colspan=3D"7" class=3D"confluenceTh">
+     <p>Employee access attestation</p></th>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>System / Application</p></th>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">
+     <p><strong>Legacy Compass (R2)</strong></p></td>
+    <td colspan=3D"2" style=3D"text-align: center;" class=3D"confluenceTd">
+     <p><strong>Secured Zone</strong></p></td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">
+     <p>??</p></td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">
+     <p>??</p></td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">
+     <p><strong>New Compass (CX, NCE)</strong></p></td>
+   </tr>
+   <tr class=3D"">
+    <th class=3D"confluenceTh">
+     <p>Procedure</p></th>
+    <td class=3D"confluenceTd">
+     <p>NBIN Product Support team conducts</p>
+     <ul>
+      <li data-uuid=3D"c6863e77-63a2-418f-9723-613aff912f31">Weekly review =
+of IIQ reports to cover departed employees, test ids</li>
+      <li data-uuid=3D"b882f6d6-ffa1-4097-a135-b321d2574b8f">Quarterly acce=
+ss attestation manually, which takes approximately 2 days per quarter to fi=
+nish, to deep review access provision&nbsp;</li>
+      <li data-uuid=3D"797e3e2b-c72e-496c-8751-958877c23a69">Yearly process=
+ is similar to the quarterly one - submit report to Access Mgmt team. Proce=
+ss takes approx. 2 months, back and forth with the teams</li>
+     </ul></td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <p>IIQ triggers access attestation alerts automatically when employee =
+access deviates from their access provision according to the access matrix<=
+/p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>??</p></td>
+    <td class=3D"confluenceTd">
+     <p>??</p></td>
+    <td class=3D"confluenceTd">
+     <p>There is no employee access attestation in place for New Compass&nb=
+sp;</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h3 id=3D"Employeeaccesscurrentstaterequestfulfillment-NetRepapplication">N=
+etRep application</h3>
+<ul>
+ <li data-uuid=3D"20183d30-b0e6-409e-b687-13eb2b6a4380">In addition, when r=
+equesting an access to <span>NetRep (App id: 2213), the requestor&nbsp;</sp=
+an>
+  <ul>
+   <li><span>Can select trade access, by trading products (e.g. equity, opt=
+ions, fixed income)</span></li>
+   <li><span>Can select view-only access</span></li>
+  </ul></li>
+</ul>
+<ul>
+ <li data-uuid=3D"4ea13775-c278-46a3-8810-c29d7a4db566">There are three dif=
+ferent versions of NetRep:&nbsp;=20
+  <ul>
+   <li>
+    <p>HSW - IAVM only</p></li>
+   <li>
+    <p><span>NBC - NetRep2</span></p></li>
+   <li>
+    <p>NPM - NetRep PM</p></li>
+  </ul></li>
+ <li data-uuid=3D"da7a278e-b9da-44fd-ab83-10ffd10c839a"><span>Creating a ne=
+w NetRep id implies creating a new OSS id, but the OSS id will not be share=
+d to the requestor.</span>
+  <ul>
+   <li><span>OSS id will not be shared among users even though they work fo=
+r the same firm</span></li>
+  </ul></li>
+ <li data-uuid=3D"fa63c092-a9ff-4d06-83ec-b6a6d84cc997">The max. number of =
+RR codes can be assigned to an id is 102. Alternatively, use branch code (t=
+he first 2-letter of RR code)</li>
+ <li data-uuid=3D"4b14ee8b-5c6a-4968-9a24-c9011f3737c3"><span>These are the=
+ 3 popular &nbsp;datagroup in Secured zone:</span>
+  <ul>
+   <li><span>NBDB =3D FICEBN<br></span></li>
+   <li><span>NBF =3D FIFBNNBF<br></span></li>
+   <li><span>NBCN =3D FICORNET</span></li>
+  </ul></li>
+</ul>
+<p><br></p>
+<h3 id=3D"Employeeaccesscurrentstaterequestfulfillment-DWHapplications"><sp=
+an>DWH applications</span></h3>
+<p><span>Current process flow: <a href=3D"https://wiki.bnc.ca/spaces/NDSKW/=
+pages/1846584538/Data+Solutions+WebApps-Access+Request" rel=3D"nofollow">Da=
+ta Solutions WebApps-Access Request - NBIN Data Services team - Confluence<=
+/a></span></p>
+<ul>
+ <li><span>Managers will go to IIQ (<a class=3D"external-link" href=3D"http=
+s://iiq.bnc.ca/identityiq/home.jsf" rel=3D"nofollow">https://iiq.bnc.ca/ide=
+ntityiq/home.jsf</a>) and request DWH app access (1 to 12 apps)&nbsp;</span=
+><span>&nbsp;</span></li>
+ <li data-uuid=3D"5d1dad2f-01cb-490d-8225-b279fcebfd68"><span>The process w=
+ould create a new Okta user account (in NBC tenant) with the required DWH u=
+ser groups, however, the user configuration will have to be entered to Comp=
+ass manually</span></li>
+ <li><span>Current pain points:</span>
+  <ul>
+   <li data-uuid=3D"f281c3d7-d39f-4ed8-a6fc-5e6af58553be"><span>Managers wi=
+ll have to submit the app access request one per app, though most of the ti=
+me only 1 or 2 are eligible</span></li>
+   <li data-uuid=3D"03534e6a-1167-4395-8f71-5ec924d5f67e"><span>The DWH use=
+r admin needs to request a list of new users from Okta admin group on an ad=
+-hoc basis, which sometimes take up to weeks</span></li>
+   <li data-uuid=3D"6b411f57-14ce-4b2b-bc6b-9d0fefff7af0">The DWH user admi=
+n will have to log in Compass, enter the user configuration including the O=
+kta id manually, which is time-consuming and error-prone&nbsp;</li>
+   <li data-uuid=3D"0e26fa03-a26e-4afc-9c8e-1734bde3b9ab">There is no DWH u=
+ser deactivation capability provided to DWH user admin; no departed employe=
+es have ever been offboarded, causing data integrity issue and security con=
+cern</li>
+   <li data-uuid=3D"8297ba12-cdb4-4f10-bc9b-68dd50c24267">The DWH user grou=
+ps and resources are persisted in Compass db, increasing the maintenance ef=
+forts and overlooking by FUM change impacts&nbsp;</li>
+  </ul></li>
+</ul>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86093_1273993109.1788184146254--

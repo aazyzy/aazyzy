@@ -1,0 +1,590 @@
+Date: Mon, 31 Aug 2026 09:49:34 -0400 (EDT)
+Message-ID: <993235391.86100.1788184174184@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86099_573175926.1788184174179"
+
+------=_Part_86099_573175926.1788184174179
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Legacy Compass (R2) Internal User attestation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Legacy Compass (R2) Internal User attestation</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>There are three time-based internal user attestation happening in Le=
+gacy Compass (R2) currently.</p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"LegacyCompass(R2)InternalUserattestation-Weekly">Weekly</h3>
+    <ul>
+     <li><span><span>Deactivate inactivity (90-day), orphaned</span></span>=
+</li>
+    </ul>
+    <p><span><span><img height=3D"250" style=3D"margin: 2px; border: 1px so=
+lid #ddd; box-sizing: border-box; vertical-align: text-bottom;" src=3D"d90f=
+eace9997c24df48cb36131ebc79d7a384ced1a05a781bcea7321678ac8cc" width=3D"333"=
+></span></span></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"LegacyCompass(R2)InternalUserattestation-Quarterly">Quarterly=
+</h3>
+    <ul>
+     <li data-uuid=3D"f370afd3-6582-4292-8160-467b224e21c2"><span>Audit req=
+uirements (since last Dec)</span>
+      <ul>
+       <li data-uuid=3D"f012d3c8-13ea-40f1-b06e-1a2d5555c5dd"><span>Documen=
+t the quarterly process to govern the high privileged accounts</span></li>
+      </ul></li>
+     <li data-uuid=3D"1bac300b-402d-459a-938b-77b29db7b5fd"><span>Getting m=
+anager's signoff on</span><span> high privileged accounts </span>
+      <ul>
+       <li data-uuid=3D"4be8a708-71c7-4d19-8b38-b2156924f8af"><span>Input: =
+from R2 db (extracts either generated by IT or Katrina)</span>
+        <ul>
+         <li data-uuid=3D"5e48543e-859b-42da-a84e-2b82391a8a4c"><span>Crite=
+ria: SSO role, Super Security Steward role</span></li>
+         <li data-uuid=3D"f262b99e-e759-4462-ab2b-23b7f5960caa"><span>Firms=
+: NBF, NBT, NBIN, NBIN Operations</span></li>
+        </ul></li>
+       <li data-uuid=3D"4e39787b-c143-487c-a6e3-8373c0b45434"><span> </span=
+><span>Merge the list to IIQ report (Compass id, short id, transit #, manag=
+er</span><span>, and more</span><span>)</span>
+        <ul>
+         <li data-uuid=3D"710e1b4b-95a2-4474-9a18-1b67e290af6a"><span>Deliv=
+ered by email every Sun</span></li>
+        </ul></li>
+      </ul></li>
+    </ul>
+    <p><span><img height=3D"250" style=3D"margin: 2px; border: 1px solid #d=
+dd; box-sizing: border-box; vertical-align: text-bottom;" src=3D"ebc7853453=
+11e593a4cb352fd2b56b421f3c2f0a29b4d4000f209fa782707a10" width=3D"333"></spa=
+n></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"LegacyCompass(R2)InternalUserattestation-Annually">Annually</=
+h3>
+    <ul>
+     <li data-uuid=3D"88aac6dc-05fd-44e3-91c3-f4fff9ebc44d"><span>Deactivat=
+e</span><span> 90-day inactivity, orphaned</span></li>
+     <li data-uuid=3D"c9dca102-e8dd-45d5-8255-992b0673d6ed"><span>Compare t=
+o Internal Access matrix</span><span> by their transit</span>
+      <ul>
+       <li data-uuid=3D"b717ad74-42de-49da-b3d1-3e6aa0928f56"><span>right l=
+evel - OK</span></li>
+       <li data-uuid=3D"672fcb05-24d0-46fc-a01e-845583c4cd4d"><span>under p=
+rovisioned - OK</span></li>
+       <li data-uuid=3D"45587ca7-f43d-4918-ad04-0ba495b94db4"><span>over pr=
+ovisioned - check with manager</span>
+        <ul>
+         <li data-uuid=3D"97ba0b8f-a3bf-4a83-8517-b097ca97e4cf"><span>Appro=
+ved </span>
+          <ul>
+           <li data-uuid=3D"70c520fd-7a2e-495f-adc1-c353228f6083"><span>App=
+rove the Individual: </span><span>re-align to expected access for the perso=
+n, </span><span>put it in Exception table</span></li>
+           <li data-uuid=3D"1848dd40-d060-45a3-9eda-a30ccec6788a"><span>App=
+rove the whole group:</span><span> update internal access matrix (owned by =
+Product Support)</span><span> and inform SAA the new version</span></li>
+          </ul></li>
+         <li data-uuid=3D"82c41901-41f5-476b-b7dc-fdbe059cd31a"><span>Not A=
+pproved </span><span>- change it according to the matrix</span></li>
+        </ul></li>
+      </ul></li>
+     <li data-uuid=3D"dace0e16-e0be-43ed-852d-320ac82d6138"><span>Proof of =
+certification</span>
+      <ul>
+       <li data-uuid=3D"28fdc2a3-c396-4f66-8eb2-41d43de61d47"><span>Yearly =
+meeting with ID </span><span>custodians</span></li>
+       <li data-uuid=3D"6bc3ac4d-0b23-4a51-93f5-40d87852293f"><span>Each ap=
+p will create their jira tickets</span>
+        <ul>
+         <li data-uuid=3D"8a68e04f-5389-466e-be6b-e4753932af04"><span>At th=
+e end, attach the spreadsheet generated for the certification</span></li>
+        </ul></li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"LegacyCompass(R2)InternalUserattestation-PainPoints">Pain Poi=
+nts</h3>
+    <ul>
+     <li data-uuid=3D"a7420348-d05f-4077-9cc3-46d1380e4869">Disconnected sy=
+stems=20
+      <ul>
+       <li data-uuid=3D"5c3e9b40-7319-483e-94c1-19bc9239c815">Background: T=
+he annual user attestation requires that user permission be examined; Actua=
+l permissions vs. matrix defined permission. The data needed for this exerc=
+ise are taken from 3 separate sources.=20
+        <ul>
+         <li data-uuid=3D"199e66c5-6215-48ab-851a-88ddef38f52a">Compass Leg=
+acy database =E2=80=93 the source for actual user permissions.</li>
+         <li data-uuid=3D"a634c485-722f-4922-b06d-281418992f4a">User Access=
+ Matrix =E2=80=93 the source for the profiles, its defined permissions, and=
+ transits permitted to access Compass Legacy.</li>
+         <li data-uuid=3D"75180563-30a3-4e3f-a943-b92dc7e8b3ab">Compass Leg=
+acy IIQ Report =E2=80=93 the source users and their corresponding transit n=
+umbers and manager information.</li>
+        </ul></li>
+       <li data-uuid=3D"b5e8ba3a-fd24-48a2-b373-17184bad4739">Feedback: Com=
+paring these sets of data is time consuming with the number of users we hav=
+e on Compass Legacy. There are 1498 active internal user IDs in Compass Leg=
+acy. I complete this exercise on excel using formulas to compare sets of da=
+ta.</li>
+      </ul></li>
+     <li data-uuid=3D"7c02ea69-83d5-4c58-9db0-4c397113b4bc">Data Maintenanc=
+e=20
+      <ul>
+       <li data-uuid=3D"9112d1aa-3442-4a27-86d8-ff6b6cb60fd2">Background: T=
+he User Access Matrix contains a list of transit number, the profile each t=
+ransit is permitted to have, and that transit=E2=80=99s access guardians. G=
+uardians must approve of access requests on My IT.</li>
+       <li data-uuid=3D"8cdda528-7f5e-43d3-9dcb-71b856c63118">Feedback:=20
+        <ul>
+         <li data-uuid=3D"2b0ece36-2f54-4fe6-98bb-38a8b7fb47c3">New transit=
+s can be created without notice and these transits do not have a defined pr=
+ofile.</li>
+         <li data-uuid=3D"2b689768-04f2-4a8f-b860-dcdd1795fb99">Existing gu=
+ardians can leave or change roles and leave a team or transit without a My =
+IT approver.</li>
+         <li data-uuid=3D"5b7e8c92-c05f-4071-a463-d02d4f0ab048">Users can l=
+eave a team, and their access is not realigned to their role unless their m=
+anager submits a request, or until the annual user attestation exercise ide=
+ntifies and corrects the issue.</li>
+        </ul></li>
+      </ul></li>
+     <li data-uuid=3D"9965cb47-ee67-48d9-bb6d-7e8d60713908">Manager attesta=
+tions=20
+      <ul>
+       <li data-uuid=3D"5b1792ef-3566-4cdc-a6e8-a80798de4c98">Feedback: Alt=
+hough the Compass team generates the file, and ultimately provides user att=
+estation for Compass Legacy =E2=80=93 individual attestations are requested=
+ from the managers of the users:=20
+        <ul>
+         <li data-uuid=3D"f06ca170-cd4d-41ed-b273-b2d99de6b432">Whose actua=
+l access divert from the defined permissions;</li>
+         <li data-uuid=3D"f7ac36cb-36a6-4811-a8b5-1c4454a5e693">Whose trans=
+it numbers do not exist within the access matrix;</li>
+         <li data-uuid=3D"bc1a96c2-a08a-4798-a6d2-a8c7aa7eceed">Whose acces=
+s is an exception case</li>
+        </ul></li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86099_573175926.1788184174179
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/d90feace9997c24df48cb36131ebc79d7a384ced1a05a781bcea7321678ac8cc
+
+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
+AAAAAElFTkSuQmCC
+------=_Part_86099_573175926.1788184174179
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ebc785345311e593a4cb352fd2b56b421f3c2f0a29b4d4000f209fa782707a10
+
+iVBORw0KGgoAAAANSUhEUgAAAU0AAAD6CAYAAAAlSBW9AAAPh0lEQVR4Xu3deZsV1Z0H8LwnF3Df
+RdC4b4CKu8F9wR1ccAFFVFREFCFRE1FjMklmxmRm3lvN/RVPYfW5t/vUr/rS093z+ePzxK71nFN1
+vnVO1dX85sTP/9MAMMxvygUALE5oAiQITYAEoQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgASh
+CZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2ABKEJkCA0ARKEJkCC0ARIEJoACUITIEFoAiQITYAE
+oQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2A
+BKEJkCA0ARKEJkCC0ARIEJoACUITIEFoAiQITYAEoQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhN
+gAShCZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2ABKEJkCA0ARKEJkCC0ARIEJoACUITIEFoAiQI
+TYAEoQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAgNFm2PQdONNsf3dts3rqrufLWp1al
+KFuUMcpalh8yhCajHT35SxtEZUCtdlHmKHtZHxhCaDLaWgzMTpS9rA8MITQZJaa5ZRCtNabqjCE0
+GWX7Y2t3lNkx2mQMockoW1bxR5+htmzbNVUvqBGajFIG0FpV1gtqhCajlOGzVpX1ghqhyShl+KxV
+Zb2gRmgyShk+Qz3+6qFm94ETVTfueHnBfjcUf89LWS+oEZqMUobPEB8e+3nqOIs5+v0vU/ve9tCe
+qWMuV3leqBGajFKGT819T++bOkZNf//Pvvl7G6TzDs7ynFAjNBmlDJ+aZ984PHWMmv7+EZqxbN7B
+WZ4TaoQmo5ThUzOv0AzzDM7ynFAjNBmlDJ+aeYZmmFdwlueEGqHJKGX41Mw7NMM8grM8JtQITUYp
+w6fmTIRmWG5wlseDGqHJKGX41Jyp0AzLCc7yWFAjNBmlDJ+a5Ybm3kPfNfuP/LCoWD/mvxxfnhNq
+hCajlOFTs9zQPFPKc0KN0GSUMnxqhCbrhdBklDJ8asaEZvz75kON/e97lueEGqHJKGX41IwJzYz4
+UDTmY1B5HKgRmoxShk/NmQ7NEOcoz1tTHgNqhCajlOFTIzRZL4Qmo5ThUyM0WS+EJqOU4VMjNFkv
+hCajlOFTIzRZL4Qmo5ThUyM0WS+EJqOU4VMjNFkvhCajlOFTIzRZL4Qmo5ThUyM0WS+EJqOU4VMj
+NFkvhCajlOFTIzRZL4Qmo5ThUyM0WS+EJqOU4VMjNFkvhCajlOFTIzRZL4Qmo5ThUyM0WS+EJqOU
+4VOz/dG9U8eYt/ue3jd13pryGFAjNBmlDJ8h4v8ArTzOvBw89pep8w1RHgdqhCajlOEz1MPPf9Ds
+PnBirh5/9dDUeYYq6wU1QpNRyvBZq8p6QY3QZJQyfNaqsl5QIzQZpQyftaqsF9QITUYZ+3+Zu5ps
+2bZrql5QIzQZZftje6dCaK1ZiZ9Bsf4ITUbZ88GJqRBaa6IOZb2gRmgy2loebRplMpbQZLSj3/+y
+JoMzAvPLk79M1QeGEJosW0xzIzxX88ehKFuEpSk5yyU0ARKEJkCC0ARIEJoACUITIEFoAiQITYAE
+oQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2A
+BKEJkLAqQnPTlt82z76yd2o5rHY33HJH89Kb708t//9oLfbjWWW+/3dPNhdceFFz/gUXNm9/9OXU
+PouG5rYdDzZnnXVW69wNG5qrNm1pnn7pzant5mFWwZfjlbcONo888fzU8r6DR//Y3HTb1mbjeee3
+rrpmS/PMy/Mrw0oYUs+hDn39Y3PX/b9rLrn08vZ6X3rZFc19jzzRfP7t36a2XQ/GtN2sfY7/9F9T
+283bSvbF5Zh3P14JZZnfeP9ws3Hjec17n/2++eirk81XP/wytc+SoXnn3Q80X/zxH22Heu7Vt5tz
+zjm3eXnvB1PbLldZ8OXatuOhqZu77+uf/tVcctnlzd2TkDh0/KfW7nc+al7b/8nUtqtZrZ5DRf0v
+uOjiyfW+v3n/82/aoIyb5vZtO5rLrriqvQfKfda6MW03Zp95WMm+uBzz7scroSzzky+81mz57U1T
+2/UtGZrb7314wbKt9zzQ3HHXfe0/x8neOvhFc/cDO5sNGzc2jz7zcrv82I//au7f+VRz0cWXNBs2
+bGyuv+m25v3Dfzh9jCPf/b25c3KM2OfCyTbPvvLWpJA3Lih4jHbKKc91N9zcPL5r9+m/j/3wz+ah
+x55tLr70subcczc0V2++tvns939pb+zuqRxu3Xr3guOET078uV0Xo81yXaYM0Qa73/24ufXOu9u6
+XnHVpubFN95bsM+QbWptNquth9RzqAjLzdfd0Bz/838vWB5/X7Vp82S68tTpZUPaJQL3plu3tkEc
+U5zbt9/bHP3Tv59eP6s+ZZmGiIffg5N74MLJeWK2EPdV3F/d+ud2v9NcfuWmdnR28aTccb/E8sXa
+bqlyL7ZP2emGXMsYsd6+fUdb97h/dz7z0lTd+s5UX1ysD8W6WtvOqx8vVvba+UtD+lmtzDEtj3bo
+rnG0e3mekArNWBYXO/45ChkFe+zZV5rP/vDX5uj3/9Euf2Dn082VV1/TvHvo6/apGE/muAG7ixE3
+X0wv4uLF8Df+jkpmG/ueB3dOzn/qPBGC0WCx/MtJOW685Y62wePJ/OXJ/1xwnBBTqugYMf0sgyJT
+hmiDuCFfefvDSf1+bp7f825z9tlnT4b4n6W2qbXZrLYeUs8hov4xHXn+tX1T68JTL77etkX395B2
+OXj0T+02UZf45+iMjzz56whtVn3K8w4R1+/a629qPjjyXfPxsZPNjbfe2dx8+7Z23Ydffj/pAOc2
+eycd8vA3f23fTXUzicXabqlyL7ZPGZpDrmW8L4vzfDq5H3a/83F7P0RwlPXrnKm+uFgfCku17anz
+z6cfL1b22vlLQ/pZrcxxjXc+/VJ73rjGX52cnpqHQaEZT6yYvsYJ4n+7Qt629Z4F+8T8P27U19/7
+taDttpuva5+mUaioSH99LIt0zzT2qX0m59n/6YJtOvGusjaNips0Gjmmn09Mjls+xWplCNEG8R6w
+v020SUxrh25Ta7PuGGVbhyH1rIkbNZ6qs154h9f2fdKuP/bjP9u/h7RLKYKnPxJerD4ZEVoxgtz/
+6fHTy2KkGPfXkW//1naMs885pznw+bdT+4YhbVeWe9Y+/dAcei3LALzuxluaJ57fs2BZ35nqi4v1
+oVrbzqsft+WZUfba+fvb9o+zVD8bWuYoW5SxPH7fkqEZ703OmwyNo9PEh4EYznbro5AxCunvE9Pd
+2Dae7P3ld933SDvVOfjFqfXRUfvr40mTaezoCLOO05l1c88ST5KYwm3acl1z3vkXNG8e+Pz0uloZ
+QrTBk8XNHtOLWD50m1qbdcco2zrU6hnvvqJeoT9a7Ivzxvnf+eirqXVhz75D7c0WnTX+HtIu+z45
+3obN5Vde3Y5s4saMsnbrF6tPRncPxP3Z1bG7Vw8cORWUMXqJqViMyGI01d9/VtvVyj1rn35oDr2W
+ZUDecsf2qeP2nYm+uFQfqrXtvPpxmFX22vn72/aPs2Q/G1jmZYdmpPQnx3+a+SGgf7N0FrsQcaHi
+HUwMtWP959/824L18eW61tjXTM7XNXZ8rJh1Q3Rm3dxLiSnqvQ8/3r736pbVyhDaDlCMsOK8Mbwf
+uk2tzbpjlG0davWMqU5My0JMv8r14fT0fDKdKdeFuBFr0/N+u8TUL95B3fPgo+3oID4yxTvRMjRn
+1Sejuwci6Lo6drqAD9Gu0UZRpu6dZijbbki5y31Cvy5jr+WQ0Jx3X1yqD9Xadl79OMwqe+38/W37
+x1mqnw0t87JDs5xG9M2qbAyrY9pQfoWOgsVTvxsi7/3gyOl18TI6btb+seI9TP9JGlPDeNJ0jR03
+Tky9+u8r+uLdx8OPPze1fCkxbI+yd+84a2UI0QbxXqR/nHgR3V9W26bWZt0xyrYOY+o5y1IfgqId
+4t1Yt6zWLjGdjxFa/1hR13mHZjwQYnrZTVFr3vrwaHvvdT8hKdtuSLnLfUK/LmOv5ZDQnHdfXKoP
+1dp2Xv04zCp77fyzVPvZwDKveGiG6GAx5O1ePj/8xK52eN29i4inXDxtDkyeJrF+x0OPtVOo/rGi
+ovHuJaYY8cI2fhoU7zj6jX3qpe7m9mkUo4S4+N1TOI55zbXXt0/m7qV3Xxz3hdf3t0P2w5MnT4ws
+rr3+5jY8MmWINoibIH76ES/1X3htX3th+lPBIdvU2myxtq7Vc6hff3L0QDtCifO2PzmaTGsvu/zK
+Bb/VrLVLN8KJEIoyxQg2PnwMCc34uht1H/p3fCyIn4698f7hdsQU5961+9SIubvGUcYYbcUL/v6I
+uWy7IeUu95lVlzHX8kyEZqiVZak+tFTbhnn148XKXjt/eS8M6WdDyvx/EprxZTpugIsvubRtoAij
+/gvd+AlHNGa8M4rP/vGD8uis/WPF1694qsdTID7W7HzqxbYs/caOJ2lMqeMnCXGe+NLZ3QzRIDEs
+j+X9jzKd+DIajR6dIp5o8THowUefaZ9GmTJEG8T7qZtv396OUmJ6v2v3OwvONWSbWpst1ta1embE
+sWLqFsESN1sESDxEyundkHaJkUyEcGwT91EE0ZDQjNFuf1Rb+zt+lhIfa6JN451f/HSmWx+dNNqm
++5cX4mPL/k9PnN53VtvVyj1rn7IuY67lmQrNWlmW6kNLtW2YVz9erOy185f3wpB+NqTMywpN6uJC
+1f4toiHbrDZxw8aNE52s+2oOq9lK9jOhuQyLPSWz26xGMV2Lp3FM0ct3nbDarGQ/E5rLMORCDdlm
+tYrpbExZl/o3p2A1WMl+JjSXYciFGrINsDwr2c+EJkCC0ARIEJoACUITIEFoAiQITYAEoQmQIDQB
+EoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2ABKEJkCA0
+ARKEJkCC0ARIEJoACUITIEFoAiQITYAEoQmQIDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAg
+NAEShCZAgtAESBCaAAlCEyBBaAIkCE2ABKEJkCA0ARKEJkCC0ARIEJoACUITIEFoAiQITYAEoQmQ
+IDQBEoQmQILQBEgQmgAJQhMgQWgCJAhNgAShCZAgNAEShCZAgtAESBCaAAlCEyBBaAIkCE2ABKEJ
+kCA0ARKEJkCC0ARIEJoACUITIOF/AYvxyq6bKzAkAAAAAElFTkSuQmCC
+------=_Part_86099_573175926.1788184174179--

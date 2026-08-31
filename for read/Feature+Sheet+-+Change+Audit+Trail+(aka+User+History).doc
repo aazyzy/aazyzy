@@ -1,0 +1,1657 @@
+Date: Mon, 31 Aug 2026 09:43:13 -0400 (EDT)
+Message-ID: <1855902796.86026.1788183793867@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86025_1316178771.1788183793866"
+
+------=_Part_86025_1316178771.1788183793866
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Feature Sheet - Change Audit Trail (aka User History)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Feature Sheet - Change Audit Trail (aka User History)</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><strong>Purpose:</strong> Provide the necessary info of the said fea=
+ture to prepare for Operations / Support Knowledge Transfer and client-faci=
+ng resource documentation.</p>
+    <p><strong>Document Owner: </strong>Product team</p>
+    <p><strong>Target Audience: </strong>NBIN internal teams who want to un=
+derstand the said feature to prepare client-facing resources or internal KT=
+ wiki pages, or support clients. For example, L&amp;D, Product Support, Pro=
+duct Activation, IT Production Support.&nbsp;</p>
+   </div>
+  </div>
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><strong>Table of Content</strong></p>
+    <p>
+     <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788183793819 {padding: 0px;}
+div.rbtoc1788183793819 ul {margin-left: 0px;}
+div.rbtoc1788183793819 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+    <div class=3D"toc-macro rbtoc1788183793819">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-KeyBenef=
+its">Key Benefits</a></li>
+      <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-FeatureS=
+cope">Feature Scope</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-InScop=
+e">In Scope</a></li>
+        <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-OutofS=
+cope">Out of Scope</a></li>
+       </ul></li>
+      <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-Solution=
+Overview">Solution Overview</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-Proces=
+sView">Process View</a></li>
+        <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-Featur=
+eUseCases">Feature Use Cases</a></li>
+       </ul></li>
+      <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-OpenRisk=
+s&amp;KnownGaps">Open Risks &amp; Known Gaps</a></li>
+      <li><a href=3D"#FeatureSheetChangeAuditTrail(akaUserHistory)-Referenc=
+eLinks&amp;Artifacts">Reference Links &amp; Artifacts</a></li>
+     </ul>
+    </div>
+    <p></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>&nbsp;<span style=3D"font-size: 24.0px;letter-spacing: -0.01em;">Fea=
+ture Summary</span></p>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>A concise description of the feature, focusing on&nbsp;<em>what ca=
+pability exists</em> and <em>what business function it enables</em>. Avoid =
+value propositions; be factual.</p>
+      <p>Example: =E2=80=9CEmployee Access enables authenticated employees =
+to view and interact with internal features based on assigned roles and per=
+missions.=E2=80=9D</p>
+     </div>
+    </div>
+    <p><span style=3D"letter-spacing: 0.0px;">The&nbsp;</span><strong style=
+=3D"letter-spacing: 0.0px;">Change Audit Trail</strong><span style=3D"lette=
+r-spacing: 0.0px;"> (also referred to as </span><em style=3D"letter-spacing=
+: 0.0px;">User History</em><span style=3D"letter-spacing: 0.0px;">) provide=
+s a centralized, immutable record of all changes made to a user profile wit=
+hin the Compass platform. It captures </span><em style=3D"letter-spacing: 0=
+.0px;">who</em><span style=3D"letter-spacing: 0.0px;"> made a change, </spa=
+n><em style=3D"letter-spacing: 0.0px;">what</em><span style=3D"letter-spaci=
+ng: 0.0px;"> was changed, </span><em style=3D"letter-spacing: 0.0px;">when<=
+/em><span style=3D"letter-spacing: 0.0px;"> it occurred, and </span><em sty=
+le=3D"letter-spacing: 0.0px;">how</em><span style=3D"letter-spacing: 0.0px;=
+"> it was initiated (user action or system=E2=80=91driven), enabling intern=
+al teams to quickly investigate access issues, validate provisioning decisi=
+ons, and support governance and audit requirements. The feature is accessed=
+ through the Users module and presents a chronological, human=E2=80=91reada=
+ble view of profile updates, supporting troubleshooting, security reviews, =
+and periodic access attestations.</span></p>
+    <h1 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-KeyBenefits">Key=
+ Benefits</h1>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Describe why we have prioritized this feature and who does it bene=
+fit / what problem does it solve?</p>
+     </div>
+    </div>
+    <p><strong>1. Improved accountability &amp; traceability</strong></p>
+    <ul>
+     <li data-uuid=3D"06f9f0fd-f018-44b5-a142-1717be3c75c4">Provides a comp=
+lete, immutable history of changes made to user profiles, answering&nbsp;<e=
+m>who changed what, when, and how</em>.</li>
+    </ul>
+    <p><strong>2. Faster issue investigation &amp; support resolution</stro=
+ng></p>
+    <ul>
+     <li data-uuid=3D"f9625191-5e82-4813-ac2b-2ac4592cda8e">Enables Product=
+ Support, Activation, and Security teams to quickly diagnose access or conf=
+iguration issues without manual log digging.</li>
+    </ul>
+    <p><strong>3. Governance &amp; compliance readiness</strong></p>
+    <ul>
+     <li data-uuid=3D"5e3ff466-ac88-4ac1-8a44-38b379e1c72a">Supports intern=
+al audits, access reviews, and certifications by retaining a standardized, =
+reviewable change history.</li>
+    </ul>
+    <p><strong>4. Reduced operational risk</strong></p>
+    <ul>
+     <li data-uuid=3D"cbdc5e3b-7187-4fff-bead-d8c0664eda29">Helps detect un=
+intended or system=E2=80=91driven changes and differentiate them from user=
+=E2=80=91initiated actions.</li>
+    </ul>
+    <p><br></p>
+    <h1 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-FeatureScope">Fe=
+ature Scope</h1>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Clearly define what the solution <strong>covers</strong> and <stro=
+ng>does not cover</strong> to prevent incorrect assumptions by Ops and Supp=
+ort teams.</p>
+      <ul>
+       <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uui=
+d=3D"7d69519a-99c8-4dc7-ab30-3f5ad6b5e2d1">In scope: supported systems, acc=
+ess types, user populations</li>
+       <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uui=
+d=3D"7d9a4477-1e32-4ef9-89f1-a39ddc037d2f">Out of scope: unsupported roles,=
+ environments, or edge scenarios</li>
+      </ul>
+     </div>
+    </div>
+    <p>The Change Audit Trail captures and presents a chronological history=
+ of changes applied to a user profile within the platform. It surfaces both=
+ high=E2=80=91level summaries and detailed =E2=80=9Cbefore vs. after=E2=80=
+=9D values for each change event, aligned to governance and troubleshooting=
+ needs.</p>
+    <h2 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-InScope">In Scop=
+e</h2>
+    <p>1. Tracking of <strong>user profile changes</strong> made via:</p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"6aa5cae6-882f-45ad-bdbb-acce90afca9c">User admin tool (UI)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"3cc2708c-5890-43f7-b9d4-ea57b10b6cdd">Bulk user updates</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"28ab3a1c-6245-4b9e-813e-6f000a148c64">System=E2=80=91initiated updates =
+(e.g., firm or package=E2=80=91driven changes)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"62532ea5-e69e-4db5-9c1c-f9a30eeee11a">End=E2=80=91user preference chang=
+es (e.g., preferred language toggles)</li>
+    </ul>
+    <p>2. Captured attributes per event:</p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"35d6ea20-2ae0-4956-b4ed-d1222f212c12">Changed field(s)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"199cef74-76a8-4ba1-8204-e58eeaf5d736">Previous value =E2=86=92 new valu=
+e</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"bfc41d2b-e5d9-4ce8-978c-c7538745f2b6">Actor (user or system)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"fc8a862e-92fc-41e2-b50f-3db5b9b05b61">Date &amp; timestamp</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"7cb18cc6-7a4e-42ce-b55d-efd4e5055eac">Change source (UI, bulk action, s=
+ystem)</li>
+    </ul>
+    <p>3. Immutable audit log (events cannot be edited or deleted)</p>
+    <p>4. UI access via&nbsp;<strong>Users module =E2=86=92 User Details =
+=E2=86=92 History</strong></p>
+    <p>5. Retention of audit history for governance and certification needs=
+, up to 18 months</p>
+    <p>6. Filtering and readable presentation of complex or coded fields</p=
+>
+    <p><br></p>
+    <h2 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-OutofScope">Out =
+of Scope</h2>
+    <ul>
+     <li data-uuid=3D"c4c95cc8-a2fd-4be1-8867-da2b1e3a7cfd">Editing, deleti=
+ng, or correcting historical audit records</li>
+     <li data-uuid=3D"89d1c4d2-6e7c-40cc-9856-15e0695a8a57">External client=
+ access to the audit trail (internal users only)</li>
+     <li data-uuid=3D"b3362c32-8ec0-47b8-9a0b-abb252075869">Audit trail for=
+ non=E2=80=91user objects (e.g., firm settings, trades) unless explicitly d=
+efined under a separate feature</li>
+     <li data-uuid=3D"f5a8ae4a-0b58-451c-977c-2b1ce662539d">Advanced analyt=
+ics or reporting on audit data (export, dashboards)</li>
+    </ul>
+    <p><br></p>
+    <h1 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-SolutionOverview=
+">Solution Overview</h1>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>This section describes the solution end=E2=80=91to=E2=80=91end, co=
+vering all feature use cases and the mechanisms by which they are implement=
+ed, operated, and supported.</p>
+     </div>
+    </div>
+    <p>The Change Audit Trail leverages existing system event logs generate=
+d during user profile updates. Each change event is persisted as an immutab=
+le record and associated with the relevant user.<br>
+      The UI presents:</p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"430b2340-aae1-4711-9354-1c93a46ac49b">A <strong>chronological event lis=
+t</strong> (most recent first)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"fcd328af-aaea-415b-a529-9f0d41ff8fc1">Expandable event rows showing det=
+ailed field=E2=80=91level changes</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"2c12b62f-dbe1-4661-bc89-5f8ee0630a64">Clear attribution of changes to <=
+strong>user vs. system</strong></li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"d3d2fc9d-3af8-407c-88e7-46bef9db3eaf">Human=E2=80=91readable labels, wi=
+th underlying values preserved for accuracy</li>
+    </ul>
+    <p><br>
+      This approach establishes a reusable audit pattern that can be extend=
+ed to other entities in the future.</p>
+    <h2 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-ProcessView">Pro=
+cess View</h2>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Describe the end-to-end process workflow or user journey maps to p=
+rovide the context for the following feature use cases. Add a simple lifecy=
+cle diagram narrative, if applicable.</p>
+     </div>
+    </div>
+    <p><br></p>
+    <p><img class=3D"drawio-diagram-image" width=3D"468" style=3D"width:980=
+px;max-width: 100%;" src=3D"494957e3d6b7cc410afa383c792d44b0b1e5f3ce96b4674=
+84dd01f008c2623c4" height=3D"57"></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 71.842%;">
+      <colgroup>
+       <col style=3D"width: 19.8925%;">
+       <col style=3D"width: 19.4865%;">
+       <col style=3D"width: 19.0806%;">
+       <col style=3D"width: 19.2835%;">
+       <col style=3D"width: 22.2268%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Change Initiated</th>
+        <th scope=3D"col" class=3D"confluenceTh">Event Logged</th>
+        <th scope=3D"col" class=3D"confluenceTh">Data Persisted</th>
+        <th scope=3D"col" class=3D"confluenceTh">History Accessed</th>
+        <th scope=3D"col" class=3D"confluenceTh">Review &amp; Investigation=
+</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <p>User or system triggers a profile update (e.g., role assignment=
+, access change)</p></td>
+        <td class=3D"confluenceTd">
+         <p>System records:</p>
+         <ul>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"019cd8f1-f635-45a4-aafc-fc96e1c7205e">Changed attributes</li>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"351492d5-e964-411c-9ceb-91db75e62050">Old and new values</li>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"c3f13bcf-8e43-4624-8e42-f64f867aa736">Actor (user/system)</li>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"00ef2c3b-217f-49b0-93bd-169c3a6e009c">Timestamp</li>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"7a43772c-3679-4552-a173-d4a07f61b6d9">Source</li>
+         </ul>
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>Audit record stored immutably</p></td>
+        <td class=3D"confluenceTd">
+         <p>Internal user navigates to:</p>
+         <ul>
+          <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-=
+uuid=3D"e73d9654-12d1-4639-8053-ec5faeb3d2ff">Manage Firm =E2=86=92 Users =
+=E2=86=92 Select User =E2=86=92 History</li>
+         </ul>
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"e64db5b7-e767-4f28-b1c8-2f545c816ef2">Reviewer i=
+nspects timeline and details</li>
+          <li data-uuid=3D"b10f886e-9eca-4289-a228-7d486122763e">Informatio=
+n used for troubleshooting, support response, or audit revie</li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h2 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-FeatureUseCases"=
+>Feature Use Cases&nbsp;</h2>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Describe expected behaviors and scenarios from multiple perspectiv=
+es (client, business &amp; product, security &amp; compliance, lifecycle ma=
+nagement, operational &amp; support).</p>
+      <p>The use cases below describe <strong>who uses the feature and for =
+what purpose</strong>, independent of how the feature is operated or suppor=
+ted.</p>
+     </div>
+    </div>
+    <p><br></p>
+    <p><strong>1. Support investigation</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"acc3e666-9c98-4dbf-a75f-08b86fa7343a">Actors: Account manager, Product =
+Support</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"13fd2551-5512-4ad1-9436-32bf3bb82481">Purpose: Determine why a user no =
+longer has access to a tool or feature</li>
+    </ul>
+    <p><strong>2. Access provisioning review</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"741efdc8-a6be-47ba-91ae-2563fa9c21f5">Actors: Product Activation, Produ=
+ct Support, ID User Admin (SAA)</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"ea4ad3bc-55f1-46c3-a109-1aaf5f8579aa">Purpose: Validate that user acces=
+s aligns with role and firm policies</li>
+    </ul>
+    <p><strong>3. Incident analysis</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"b9820404-95a7-45fc-8efe-b038d2192bc7">Actors: Product Support</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"b8626115-31ec-4de0-be6d-0f7b4ac18854">Purpose: Trace changes during a s=
+uspected security or access incident</li>
+    </ul>
+    <p><strong>4. Managerial oversight</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"9500d781-a5ab-4d1e-89dd-6eacc469383f">Actors: Account manager, Complian=
+ce &amp; Risk&nbsp;</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"875bdb2e-54f9-4bde-a643-3c2069c12381">Purpose: Periodic review of chang=
+es affecting team members</li>
+    </ul>
+    <p><strong>5. Pre=E2=80=91certification checks</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"8eaa0e60-76d8-4aac-98b2-023229463ee3">Actors: IAM Custodian (Product Su=
+pport), Compliance &amp; Risk</li>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"6c2c6439-d352-4579-8ada-739bc90f60a8">Purpose: Ensure sufficient histor=
+y is available for annual access attestations</li>
+    </ul>
+    <p><br></p>
+    <p><br></p>
+    <p><span style=3D"font-size: 16.0px;font-weight: bold;letter-spacing: -=
+0.006em;">Events</span></p>
+    <p><span style=3D"font-size: 16.0px;font-weight: bold;letter-spacing: -=
+0.006em;">&nbsp;</span></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" data-snooker-c=
+ol-series=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 81.859=
+4%;">
+      <colgroup>
+       <col style=3D"width: 10.3931%;">
+       <col style=3D"width: 15.5437%;">
+       <col style=3D"width: 18.303%;">
+       <col style=3D"width: 22.0739%;">
+       <col style=3D"width: 14.811%;">
+       <col style=3D"width: 18.8548%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false=
+" data-mce-resize=3D"false" scope=3D"col"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Event Type</th>
+        <th scope=3D"col" class=3D"confluenceTh">Description</th>
+        <th scope=3D"col" class=3D"confluenceTh">Changed attributes</th>
+        <th scope=3D"col" class=3D"confluenceTh">Actor (User / System)</th>
+        <th scope=3D"col" class=3D"confluenceTh">Sample User History record=
+</th>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">1</td>
+        <td class=3D"confluenceTd">Single User Creation</td>
+        <td class=3D"confluenceTd">
+         <p>ID User Admin creates a user account via Compass user admin too=
+l (UI)</p></td>
+        <td class=3D"confluenceTd">
+         <p>All mandatory attributes and any optional attributes under the =
+following sections.</p>
+         <p>Identity:</p>
+         <ul>
+          <li data-uuid=3D"06aea186-812d-4ad5-86af-601ebc28de9f">First name=
+</li>
+          <li data-uuid=3D"1ec23432-278b-4475-a5a5-4383ef55c258">Last name<=
+/li>
+          <li data-uuid=3D"8378fc06-7118-4ec0-b504-4371a411a74d">Email addr=
+ess</li>
+         </ul>
+         <p>Access:</p>
+         <ul>
+          <li data-uuid=3D"e3821bfb-68e1-4024-826f-9616b7937ca2">Role</li>
+          <li data-uuid=3D"9a02e624-c50a-46fc-ace4-b2467a4f0f6a">Features</=
+li>
+          <li data-uuid=3D"4f09485f-d10e-4636-8fe9-3440cee8dacd">RR Codes</=
+li>
+         </ul>
+         <p>Preferences:</p>
+         <ul>
+          <li data-uuid=3D"21db03ca-a780-4c13-b809-7abef65709f9">Preferred =
+language</li>
+          <li data-uuid=3D"6c6cb9f6-6794-46df-b2dc-6ce0c8f4dd00">Remember s=
+kip 2fa</li>
+          <li data-uuid=3D"184e4233-3f39-4c5e-a550-e608642b87d0"><s>Default=
+ module&nbsp;</s></li>
+         </ul>
+         <p>Linked Systems:</p>
+         <ul>
+          <li data-uuid=3D"b58e5fba-5526-471c-a19d-1c38afdb9f25">R2</li>
+          <li data-uuid=3D"cf3f33d8-d0b8-4170-bb96-7d21bce64040">OSS</li>
+          <li data-uuid=3D"0cdc28cc-b048-47fb-b508-70530d8e02d3">SZ</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p>User</p></td>
+        <td class=3D"confluenceTd">
+         <p>&lt;defect&gt;</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">2</td>
+        <td class=3D"confluenceTd">Bulk SSO user creation (for iA only)</td=
+>
+        <td class=3D"confluenceTd">
+         <p>Product Activation drops a iA new user list to MFT for bulk SSO=
+ user creation</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>System: Bulk migration</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">3</td>
+        <td class=3D"confluenceTd">First-time user registration</td>
+        <td class=3D"confluenceTd">New user logs in Compass for the first-t=
+ime and go through user registration</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">End-user</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">4</td>
+        <td class=3D"confluenceTd">User preferences</td>
+        <td class=3D"confluenceTd">User logs in Compass and updates their p=
+references (e.g. preferred language toggling)</td>
+        <td class=3D"confluenceTd">Preferences</td>
+        <td class=3D"confluenceTd">End-user</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">5</td>
+        <td class=3D"confluenceTd">Singe profile update</td>
+        <td class=3D"confluenceTd">IAM Admin user updates a user account vi=
+a Compass user admin tool (UI)</td>
+        <td class=3D"confluenceTd">
+         <p>Any attributes&nbsp;</p></td>
+        <td class=3D"confluenceTd">User</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">6</td>
+        <td class=3D"confluenceTd">Bulk user update</td>
+        <td class=3D"confluenceTd">
+         <p>Product Activation uploads a user list of existing users for bu=
+lk profile update</p></td>
+        <td class=3D"confluenceTd">
+         <p>Same as above</p></td>
+        <td class=3D"confluenceTd">
+         <p>User</p></td>
+        <td class=3D"confluenceTd">
+         <p>&lt;defect: NWPI-14607&gt;</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">7</td>
+        <td class=3D"confluenceTd">Password reset</td>
+        <td class=3D"confluenceTd">Password Reset Service resets the passwo=
+rd of a user account via Compass user admin tool (UI)</td>
+        <td class=3D"confluenceTd">User State: In/Active =E2=86=92 Password=
+ Reset</td>
+        <td class=3D"confluenceTd"><em>&nbsp;</em></td>
+        <td class=3D"confluenceTd">&lt;defect:&gt;</td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">8</td>
+        <td class=3D"confluenceTd">User deactivation</td>
+        <td class=3D"confluenceTd">IAM Admin user deactivates an active use=
+r account via Compass user admin tool (UI)</td>
+        <td class=3D"confluenceTd">User State: Active =E2=86=92 Inactive</t=
+d>
+        <td class=3D"confluenceTd">User</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">9</td>
+        <td class=3D"confluenceTd">User re-activation</td>
+        <td class=3D"confluenceTd">IAM Admin user re-activates an inactive =
+user account via Compass user admin tool (UI)</td>
+        <td class=3D"confluenceTd">User State: Inactive =E2=86=92 Active</t=
+d>
+        <td class=3D"confluenceTd">User</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">10</td>
+        <td class=3D"confluenceTd">User Package update</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">Access</td>
+        <td class=3D"confluenceTd">System</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">11</td>
+        <td class=3D"confluenceTd">Firm data update</td>
+        <td class=3D"confluenceTd">e.g. additional firm RR code ranges assi=
+gned to users with firm-level access</td>
+        <td class=3D"confluenceTd">Access</td>
+        <td class=3D"confluenceTd">System: Firm360</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">12</td>
+        <td class=3D"confluenceTd">Firm settings update</td>
+        <td class=3D"confluenceTd"><br></td>
+        <td class=3D"confluenceTd">Access</td>
+        <td class=3D"confluenceTd">System</td>
+        <td class=3D"confluenceTd"><br></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><strong>Event Details</strong></p>
+    <p><strong style=3D"letter-spacing: 0.0px;">&lt;upcoming&gt;</strong></=
+p>
+    <p><br></p>
+    <p><br></p>
+    <h1 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-OpenRisks&amp;Kn=
+ownGaps">Open Risks &amp; Known Gaps</h1>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Describe any PLANNED product gaps, constraints, operational workar=
+ounds, user frictions that will not be solved but are known to cause issues=
+ once launched.</p>
+     </div>
+    </div>
+    <p><strong>Noise vs. signal</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"599f3a22-4190-495a-88f7-03188d391a89">Without careful filtering, low=E2=
+=80=91value system or preference changes may clutter the history view</li>
+    </ul>
+    <p><strong>Label drift</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"2c376901-57c0-4c45-ab1d-27b154bfa066">Human=E2=80=91readable labels may=
+ change over time; underlying coded values must remain available for histor=
+ical accuracy</li>
+    </ul>
+    <p><strong>Retention limitations</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"b235978e-49ef-4ab9-a8b7-8248875dbd7d">Long=E2=80=91term regulatory need=
+s beyond current retention may require future enhancement</li>
+    </ul>
+    <p><strong>Cross=E2=80=91entity visibility</strong></p>
+    <ul>
+     <li class=3D"___ccc16d0 fje8fi8 f1ng9h0j f1bwykku f18jd3zf" data-uuid=
+=3D"5e2885e1-6349-466f-b3bd-9eadee74f6f2">Firm=E2=80=91level changes that c=
+ascade to users may not yet be fully correlated in the UI</li>
+    </ul>
+    <p><br></p>
+    <h1 id=3D"FeatureSheetChangeAuditTrail(akaUserHistory)-ReferenceLinks&a=
+mp;Artifacts">Reference Links &amp; Artifacts</h1>
+    <div role=3D"region" aria-label=3D"Info" class=3D"confluence-informatio=
+n-macro  confluence-information-macro-information">
+     <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconf=
+ont-info-filled confluence-information-macro-icon"></span>
+     <div class=3D"confluence-information-macro-body">
+      <p>Links to supporting materials. To be updated by respective artifac=
+t owners.</p>
+     </div>
+    </div>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 95.1439%;">
+      <colgroup>
+       <col style=3D"width: 39.3602%;">
+       <col style=3D"width: 22.0669%;">
+       <col style=3D"width: 38.5521%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" class=3D"confluenceTh">Artifact (checked, if appl=
+icable)</th>
+        <th scope=3D"col" class=3D"confluenceTh">Artifact Owner</th>
+        <th scope=3D"col" class=3D"confluenceTh">Link</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"27" data-uuid=3D"ca3e7d79-8189-42f3-ab=
+65-d30a3406533d"><span class=3D"placeholder-inline-tasks">Product Definitio=
+n (PRD)</span></li>
+          <li class=3D"checked" data-inline-task-id=3D"28" data-uuid=3D"cac=
+1cfc2-2f83-4d95-ae13-cec624d45b55"><span class=3D"placeholder-inline-tasks"=
+>Epic Description</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Team</td>
+        <td class=3D"confluenceTd">
+         <p><a class=3D"external-link" href=3D"https://nbin.aha.io/features=
+/FUM-425" rel=3D"nofollow">FUM-425 Change audit trail | Aha!</a></p></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <p>Requirement Refinement</p>
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li class=3D"checked" data-inline-task-id=3D"21" data-uuid=3D"1d4=
+3d932-7a3d-4d81-8cd1-a8002235aa3f">User Profile Change History - Discovery<=
+/li>
+          <li class=3D"checked" data-inline-task-id=3D"22" data-uuid=3D"794=
+63d93-459a-453a-b955-7379c3322995">User Profile Change History - Design</li=
+>
+          <li class=3D"checked" data-inline-task-id=3D"24" data-uuid=3D"65f=
+1a316-4c26-46a5-b4ad-e3a66227e680">Design Walkthrough</li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Team</td>
+        <td class=3D"confluenceTd">
+         <p>User Profile Change History - Discovery Board</p>
+         <p><a class=3D"external-link" href=3D"https://www.figma.com/board/=
+dGOOry3CnXrudLcP6mA2dO/User-Profile---Audit-History---Discovery?node-id=3D2=
+0-1412&amp;t=3DuLJY3zj2nGlt0FqQ-1" rel=3D"nofollow">https://www.figma.com/b=
+oard/dGOOry3CnXrudLcP6mA2dO/User-Profile---Audit-History---Discovery?node-i=
+d=E2=80=A6</a></p>
+         <p>PW: UAH</p>
+         <p>User Profile Change History - Design</p>
+         <p><a class=3D"external-link" href=3D"https://www.figma.com/design=
+/497FXX4U9JvnMMuWBts1FO/User-Management?node-id=3D656-1166&amp;t=3DYe7tne9V=
+ExbsYtNZ-1" rel=3D"nofollow">https://www.figma.com/design/497FXX4U9JvnMMuWB=
+ts1FO/User-Management?node-id=3D656-1166&amp;t=3DYe7tne9VExbs=E2=80=A6</a><=
+/p>
+         <p>PW: users</p>
+         <p>&nbsp;Design Handover</p>
+         <p><a class=3D"external-link" href=3D"https://teams.microsoft.com/=
+l/meetingrecap?driveId=3Db%21Jn_8OQsLrUO2TkCRaivKtT_GpuwrABJBvThW4nduKjdcrH=
+n7NNjwTbhvHTiIm-62&amp;driveItemId=3D01NYTNRYWISS6N4Z6FEFGKGUWFFR4FWFKK&amp=
+;sitePath=3Dhttps%3A%2F%2Fcbncnbccs-my.sharepoint.com%2F%3Av%3A%2Fg%2Fperso=
+nal%2Fobaloluwa_oyemade_nbc_ca%2FIQDIlLzeZ8UhTKNSxSx4WxVKAWhcaycQwPus4XNIEm=
+JJCXY&amp;fileUrl=3Dhttps%3A%2F%2Fcbncnbccs-my.sharepoint.com%2Fpersonal%2F=
+obaloluwa_oyemade_nbc_ca%2FDocuments%2FRecordings%2FDESIGN+HANDOVER+Change+=
+Audit+Trail+Epic-20260323_140501-Meeting+Recording.mp4%3Fweb%3D1&amp;iCalUi=
+d=3D040000008200E00074C5B7101A82E00800000000509214F0B1BADC01000000000000000=
+010000000C7168E1FA8E26247B31AD782301F4393&amp;threadId=3D19%3Ameeting_ZjAyZ=
+DdhYjEtNjc2Yy00OTY5LWI5NDktMjk4NTJlY2UwZDdl%40thread.v2&amp;organizerId=3D0=
+f00f902-1235-43de-8776-d4491a934b55&amp;tenantId=3Dc21157ca-bce3-41a8-8aa7-=
+a23c4639610a&amp;callId=3D28d4f1bc-65e6-46e2-ad49-12e703eedd48&amp;threadTy=
+pe=3DMeeting&amp;meetingType=3DScheduled&amp;subType=3DRecapSharingLink_Rec=
+apCore" rel=3D"nofollow">Recap: DESIGN HANDOVER: Change Audit Trail Epic Ma=
+rch 23 | Meeting | Microsoft Teams</a></p></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"10" data-uuid=3D"fc8444fd-4389-4e28-a4=
+2a-199fc5266e4b"><span class=3D"placeholder-inline-tasks">Feature Onboardin=
+g Plan (FOP)</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Team</td>
+        <td class=3D"confluenceTd">N/A</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"11" data-uuid=3D"67c0dece-d083-430f-ba=
+05-44cbc1066c06">File Format Template (e.g. upload user CSV)</li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Team</td>
+        <td class=3D"confluenceTd">N/A</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"12" data-uuid=3D"7da7e2e3-8bca-4d2a-a6=
+de-5bfbba115617"><span class=3D"placeholder-inline-tasks">Operation guide (=
+SAA operation procedure, SAA matrix)</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Team / Product Activation</td>
+        <td class=3D"confluenceTd">N/A</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"13" data-uuid=3D"66b37ba2-b195-46fd-b7=
+9e-2dcb1797a62c"><span class=3D"placeholder-inline-tasks">Runbooks</span></=
+li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Delivery</td>
+        <td class=3D"confluenceTd">?</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"14" data-uuid=3D"cf6de35e-4981-4ffd-98=
+15-dae89270f8cf">Product Knowledge Transfer Wiki</li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Support&nbsp;</td>
+        <td class=3D"confluenceTd">?</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"15" data-uuid=3D"c601f138-8bd4-4d96-92=
+23-771276ea46a7"><span class=3D"placeholder-inline-tasks">Client Communicat=
+ion (bulletin, release note,...)</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">Product Activation</td>
+        <td class=3D"confluenceTd">N/A</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">
+         <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"274=
+2984999">
+          <li data-inline-task-id=3D"16" data-uuid=3D"7699c890-a4ae-4b50-a6=
+82-e33bec8149cf"><span class=3D"placeholder-inline-tasks">Client-facing mat=
+erials (user guide, WalkMe,...)</span></li>
+         </ul></td>
+        <td class=3D"confluenceTd">Learning &amp; Development</td>
+        <td class=3D"confluenceTd">N/A</td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86025_1316178771.1788183793866
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/494957e3d6b7cc410afa383c792d44b0b1e5f3ce96b467484dd01f008c2623c4
+
+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
+sP/++4fXve51HdfjMdGHH354akg+9dRTOy7T70R6XMcY+1090OOZ37mmR3P7wHTmF9k4jxc/+uij
+wwte8IKOq+G7xx57hJVXXnnW35POG+Ax3vSizp879Ra///3vH5Zaaqm8SOA3sKc+tIx08+JGgtyw
+zo0DPOab45Yf7x1jDJtttlm6iaBlc442TsAMKaCAAgoooIACCiiggAKDC9hAPbihW1BgtAJuXQEF
+FFBAAQUUUECBCgncfvvtXRs3b7nllkCjJclddtllA72BGWfgMdEnnXRSuOaaawK9oR/3uMcxebGB
+RlPm/d///d9i0/nwqU99auox4O0NxXzOv8XMsq0Dvafz48Vbp5c5zu9OX3DBBeE3v/lN4DHeuWdy
+a5r4/egPfOADU56t89rH6S3dmsdOva9pwKZXel6XdfJ463s3Lx5LTi/vvCyP+b788ssDDdVMW3vt
+tX28NxAOCgwi4LoKKKCAAgoooIACCkyIgA3UE3KgzaYCCnQWcKoCCiiggAIKKKDA7ALLLbdcoOcv
+S1577bXhBz/4AaPThosvvjg1IjPjQQ96UOjUCLriiiuGAw88MNALl0bY008/PTz3uc9llTTQgH3d
+ddcFGkQf9ahHpWm8fO973+vaMM78ug0xxsCj02l4/+tf/5o8jjvuuNRzOuflsssuC7feemv+2PWd
+xunWR2vTeExjf+sKV111VbjwwgunJrWaT02cZeT5z39+4DHkLMZjvj//+c9PpW/TTTcN3JTAPAcF
+FFCgigKmSQEFFFBAAQUUUKA6AjZQV+dYmBIFFFCgaQLmRwEFFFBAAQUaIvCEJzwhPX6b7NBbefvt
+tw9f+MIXQn7UNz1zP/GJT4R58+axSBqe9axnhUc+8pFp/Oyzzw5LLLFEevwzvYf/+Mc/punMf9Wr
+XhV45HV+VDYN04zzSOqNN944LcfLKaecEg444IDAvv7973+HM888MzWIxhjTtr/97W+HOvw75phj
+kkOMMayzzjrhtttuS5/pUb7ddtuFj370o1PZoOG5UyM/C9x8880Bh7///e+pMX/LLbdkchqw2m23
+3QLLcLx++ctfhq222irccMMNaT6NzC972cvSeJEXGsHnzJmTVuEGgyOPPDKNL7PMMuG1r31tGvdF
+AQUUUGAiBcy0AgoooIACCihQSGCJQku7sAIKKKCAAgpURMBkKKCAAgooMD4BHtW9ww47TO3wzjvv
+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
+2Z133nnhrLPOYpKDAgoo0CrgeEkC+S6s73znO+EHP/hB4VQY3wuTuYICCihQioDxvhR2d6qAAgqM
+XcB4P3Zyd1hcwDUUUGAIAsb7ISC6CQUUUKAGAoPG+yJZbGQD9TrrrBP4vVIg+umlx3oOCiiggAL9
+CnRf74UvfGHYZJNN0gL9xGfje6LzRQEFFKi8gPG+8ofIBCqggAJDETDeD4XRjShQYwGTPikCxvtJ
+OdLmUwEFJl1g0HhfxK+RDdQA5Fb+n/70p+HrX/86kxwUUEABBSogkOPz+eefH84888zCKcrrT2x8
+LyzmCgoooEA5AjleG+/L8XevCiigwLgEjPfjknY/CigwcQIVy7DxvmIHxOQooIACIxIYNN73mqzG
+NlCvscYaYeutt04O/fTSSyv6kgTuueee8I1vfCO84hWvCA984ANDjDENK6ywQthxxx3D5ZdfnpZr
+fznssMPSctttt137LD+3CGQnfpv39ttvb5lTfPSGG24IK620UhoYb93Cb3/727D77ruH1n2wTLfl
+W9ftdfy6664L7373u8P//d//9bpK38tlN79ffROWtuJaa60VXvva16b977333um9yIvxvYjWcJe9
++OKLw1JLLZVie4yLzgUxzvzO+WO4qRjd1oiT7XFypr1lD+Io8XSmZSd9HrE6xhiI3ZNuMUn5N97X
+42hTNqQcGmP3eP6IRzwibLPNNuHHP/5xuO+++4aasXGVHzkfxdg9jzHGQD55Etco8jkMtJwHYuog
+2/vHP/4RPvjBD4azzz57kM30tK7nyp6Yar+Q8X78h5CyJ2VQyub8nc2UgtY4TxzJy+ZtsB3G8/Si
+7//+97/DiSeeGI499tiiq1Zmec5tu+yyS7rOedCDHhR+9KMfVSZtTU8I57QYvU6oy3FuWrwv6p6/
+rzHOXKZ8ylOeEj7wgQ+Em266qeguhrI8MZ3YzsD4UDY6ho387W9/S/XKuf1h2WWXDXvuuWe44447
++to7eccgxpjaNvraSA1W6nY9Rf1LjOXG1071bPm4cGwYrwHxRCZx0HjfK9oSvS5Yx+Xyb5X+5je/
+CSeccEIds1B6ms8777yw2mqrhc033zzwm7GcIFZcccWw/PLLhz/96U/hmGOOCauuumrYY489Ag3Z
+pSfYBHQUuPTSS8M666wTZrtw7bhyjxNplN5ggw3C1772tXDvvff2uJaLTapAvgvrkksuCaecckph
+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
+------=_Part_86025_1316178771.1788183793866--

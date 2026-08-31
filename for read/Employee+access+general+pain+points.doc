@@ -1,0 +1,333 @@
+Date: Mon, 31 Aug 2026 09:49:15 -0400 (EDT)
+Message-ID: <58063884.86096.1788184155818@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86095_403166344.1788184155817"
+
+------=_Part_86095_403166344.1788184155817
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access general pain points</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access general pain points</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"Employeeaccessgeneralpainpoints-PainPoints">Pain Points</=
+h3>
+<p>1. Process inefficiency:&nbsp;</p>
+<ul>
+ <li data-uuid=3D"2f6ce76b-4b6c-4bdb-bd8c-1aa9ee403947">ID Custodians and I=
+D Admins will have to repeat the process to approve requests, set up user a=
+ccounts and reply to requestors as many times as how many applications are =
+applicable to the employee</li>
+ <li data-uuid=3D"bd7bbcd5-144f-4195-87ae-30631cfed6e6">New Compass (CX, NC=
+E) user access requests are not available on Service Now, increasing the ch=
+ance of being missed and efforts to track down the progress</li>
+ <li data-uuid=3D"baeb4962-be8c-4e31-ae6c-7baa2bf3a5b4">As a result, it adv=
+ersely impacts the productivity, extends the employee onboarding/offboardin=
+g and access request cycle, and lower employee satisfaction.</li>
+</ul>
+<p>2. Access matrix inconsistency:&nbsp;</p>
+<ul>
+ <li data-uuid=3D"6beac4a8-62f3-49e1-9ee8-859c0773317a">Maintenance challen=
+ge - There is not a clear cadency of access matrix maintenance or governanc=
+e.&nbsp;&nbsp;=20
+  <ul>
+   <li>For instance, when internal groups are updated (e.g. new groups adde=
+d, several groups combined), all access matrices are supposed to be updated=
+ to align to the new internal group list. As there is no strict governance,=
+ the access matrices may not be updated within a reasonable time frame or n=
+ot updated at all, causing misalignment in access provisioning easily.</li>
+  </ul></li>
+ <li data-uuid=3D"ab7cba67-0830-47b4-8e0f-c7090c93322b">Repository challeng=
+e - There is no central location of access matrices&nbsp;=20
+  <ul>
+   <li>Access matrices are often shared by the ID custodians (owners) to th=
+e ID admins (users) via email or other means, rather than sharing through a=
+ central location, causing versioning issue easily&nbsp;</li>
+  </ul></li>
+ <li data-uuid=3D"a036ea67-6393-4949-9cb3-fb1716b8f999">Cross platform acce=
+ss provisioning challenge - There is no way to cross-reference access provi=
+sions for integrated systems&nbsp;=20
+  <ul>
+   <li><span>For instance, as SOMA is integrated to the New Compass platfor=
+m as a core service, the access provision of SOMA on Compass must conform t=
+o that on SZ to ensure an cohesive access. However, as the access matrices =
+are driven separately, </span>there is no 360 degree overview across integr=
+ated platforms to ensure consistency.</li>
+   <li>As a result, if the access provisions are misaligned, there will be =
+a user experience interruption.&nbsp;&nbsp;</li>
+  </ul></li>
+</ul>
+<p><br></p>
+<p>For New Compass employee access only =E2=80=93&nbsp;<br>
+  3. Security risk:</p>
+<ul>
+ <li data-uuid=3D"3b53f944-47d6-4f45-a11b-8c4737cb7fed">The Access matrix g=
+overning NCE employee access is not yet conformed to the access matrix temp=
+late published by Enterprise IAM</li>
+ <li data-uuid=3D"638973a9-9323-4f7a-8f7f-6e5e953c7f3c">As the NCE offboard=
+ing request is not integrated to the Service Now workflow (via IIQ), it is =
+sometimes missed, creating an opportunity of access breaching by departed e=
+mployees</li>
+ <li data-uuid=3D"ee1f89a0-7a5f-482d-a030-3d3e1d8657ba">New Compass is espe=
+cially vulnerable because, unlikely other applications at the Bank, it auth=
+enticates employee user accounts via the Okta external (NBIN) tenant rather=
+ than the Azure token obtained through the Bank's network</li>
+ <li data-uuid=3D"8dc8d0b4-1d9f-43ae-abe3-111ea9c21171">NCE is not equipped=
+ with employee access attestation while the existing R2 manual operation an=
+d IIQ automated process are not applicable to NCE</li>
+</ul>
+<p>4. User password challenge:&nbsp;</p>
+<ul>
+ <li data-uuid=3D"66a668ea-2e26-4448-b1a7-ae1f2a3a9964">Unlike accessing ot=
+her apps on the Bank's network, employee accessing NCE cannot single sign i=
+n but will be required to provide their user credential and an one-time cod=
+e to log in, introducing login churns and challenges due to forgotten passw=
+ords</li>
+</ul>
+<p>5. Missing capabilities:</p>
+<ul>
+ <li data-uuid=3D"b7ee1e82-1515-41ae-9bed-7e35bb806cad">Ways for NBIN Suppo=
+rt team to use a user credential to log in as external clients, via Interne=
+t - to be addressed in requirement-6</li>
+ <li data-uuid=3D"c39daea2-1de0-418e-95eb-063e9b5151a4">For firm security s=
+tewards, being able to get the audit trail of access changes, login history=
+ for their users - to be addressed in self-serve user admin feature</li>
+</ul>
+<p>6. Violation:</p>
+<ul>
+ <li data-uuid=3D"8c61a3e7-4a05-4765-93b9-39ac37649049">Someone still uses =
+NPAD to manage legacy Compass user accounts. Problems: no field validation,=
+ causing security breach easily; not connected to integrated systems as it =
+is supposed to be.</li>
+</ul>
+<p>7. MyIT/Service Now submission issues:</p>
+<ul>
+ <li data-uuid=3D"3e100cb2-f75b-4b7e-8768-f20ac21eaa34">Users sometimes sub=
+mit request for 1019-R1 access as 5213-R2 access accidentally</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_86095_403166344.1788184155817--

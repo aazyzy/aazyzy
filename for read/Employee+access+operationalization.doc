@@ -1,0 +1,396 @@
+Date: Mon, 31 Aug 2026 09:53:10 -0400 (EDT)
+Message-ID: <1485724204.86105.1788184390210@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86104_1547477129.1788184390208"
+
+------=_Part_86104_1547477129.1788184390208
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access operationalization</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access operationalization</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DRAFT</sp=
+an></p>
+    <p>Here are all the use cases in the employee access operation space, c=
+ategorized&nbsp;<strong>by entity.</strong></p>
+    <p><br></p>
+    <p>Primary account (via IIQ):</p>
+    <ul>
+     <li data-uuid=3D"c3ab01ed-d41c-421d-af03-d726016cca0a"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests" rel=
+=3D"nofollow">Employee Onboarding, access modification and job role change =
+requests</a></li>
+     <li data-uuid=3D"44798035-c5bc-4bed-b0c5-f13ca6e87975">Employee Offboa=
+rding</li>
+     <li data-uuid=3D"de9b1a12-58a1-4730-b87a-d8d1d79c48e5">User certificat=
+ion</li>
+    </ul>
+    <p>Secondary account&nbsp;</p>
+    <ul>
+     <li data-uuid=3D"15d61378-4af2-4b10-9cea-e70fe96c043f">New request, ch=
+ange request&nbsp;</li>
+     <li data-uuid=3D"76f09761-2f34-473f-9fa0-1df1d24fea2c">Employee offboa=
+rding (tied to primary account offboarding)</li>
+     <li data-uuid=3D"73195ae3-bcfb-45a7-a0f7-f9a356a2d5b9">User certificat=
+ion (flagged on primary account certification)</li>
+    </ul>
+    <p>Data Solutions WebApps access</p>
+    <ul>
+     <li data-uuid=3D"7fffdd8d-01b5-4f3a-9c2b-311a8e6c3694"><a href=3D"http=
+s://wiki.bnc.ca/spaces/NDSKW/pages/1846584538/Data+Solutions+WebApps-Access=
++Request" rel=3D"nofollow">New request, change request</a></li>
+    </ul>
+    <p>Internal access matrix</p>
+    <ul>
+     <li data-uuid=3D"0e9ec85e-e09c-41d6-8db5-e26814240c1d">Change requests=
+, e.g. department reorg</li>
+     <li data-uuid=3D"046d8d49-0868-40f4-8e24-64e6f9398cf2">New feature lau=
+nch&nbsp;</li>
+    </ul>
+    <p><s>SAA access matrix&nbsp;</s></p>
+    <ul>
+     <li data-uuid=3D"8830df88-841f-4304-b8d1-dcf927a34b4b"><s>New feature =
+launch&nbsp;</s></li>
+    </ul>
+    <p>Compass features and packages</p>
+    <ul>
+     <li data-uuid=3D"a0406659-97fc-4283-8875-0913cab0d004">New feature lau=
+nch</li>
+     <li data-uuid=3D"f06c21ad-cb22-4161-8ae3-34f485b5f64d">New user packag=
+e</li>
+    </ul>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+   </div>
+  </div>
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>Here are all use cases <strong>by events.</strong></p>
+    <p><br></p>
+    <p>New hire</p>
+    <ul>
+     <li data-uuid=3D"80077f1d-aee7-4741-8452-0bc402fba532"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-NewCompass(CX)" rel=3D"nofollow">Request new access to CX (id: 6900)<=
+/a></li>
+     <li data-uuid=3D"1978e795-591e-433c-9996-22f9e65a19b9"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-LegacyCompass(R2)" rel=3D"nofollow">Request new access to R2 (id: 521=
+3)</a></li>
+     <li data-uuid=3D"efff9eb6-779b-491c-8b49-33a8f3a6679f"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-Datasolutionswebapps" rel=3D"nofollow">Request new access to Data Sol=
+utions WebApps (1 to 12 apps)</a></li>
+     <li data-uuid=3D"e9881ea3-77a1-45b6-b62c-02364a7c86e8">Request new acc=
+ess to SZ apps and NetRep&nbsp;=20
+      <ul>
+       <li data-uuid=3D"287432a2-dc39-4100-b6b9-18f5523f7c6c">Follow BAU pr=
+ocess</li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+    <p>Access modification or Job role change</p>
+    <ul>
+     <li data-uuid=3D"c4b1520e-56bd-46e4-99d7-d95e71a5d6d2"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-NewCompass(CX)" rel=3D"nofollow">Modify access to CX (id: 6900)</a></=
+li>
+     <li data-uuid=3D"97ca7716-b5ad-4d64-aa24-ce82a14ad53a"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-LegacyCompass(R2)" rel=3D"nofollow">Modify access to R2 (id: 5213)</a=
+></li>
+     <li data-uuid=3D"36530b4c-0671-466f-8f87-c8dc9eeef280"><a href=3D"http=
+s://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request+wor=
+kflow+for+onboarding+access+modification+and+job+role+change+requests#Emplo=
+yeeaccessrequestworkflowforonboarding,accessmodificationandjobrolechangereq=
+uests-Datasolutionswebapps" rel=3D"nofollow">Modify access to Data Solution=
+s WebApps (1 to 12 apps)</a></li>
+     <li data-uuid=3D"88ce17a2-a396-462b-82b9-f406fc84658e">Modify access t=
+o SZ apps and NetRep&nbsp;=20
+      <ul>
+       <li>Follow BAU process</li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+    <p>Departure</p>
+    <ul>
+     <li data-uuid=3D"c28913dc-a929-4b7f-9889-8c4e4e7e034f">Remove access t=
+o CX (id: 6900) and any secondary accounts</li>
+     <li data-uuid=3D"8ff25b98-2864-472f-9261-7cf63fddc857">Remove access t=
+o R2 (id: 5213)</li>
+     <li data-uuid=3D"69339230-d859-4892-9ef7-2a2979eb823b">Remove access t=
+o DWH&nbsp;</li>
+    </ul>
+    <p><br></p>
+    <p>Additional id&nbsp;</p>
+    <p><br></p>
+    <p>Feature launch &amp; update</p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+   </div>
+  </div>
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86104_1547477129.1788184390208--

@@ -1,0 +1,2219 @@
+Date: Mon, 31 Aug 2026 10:10:48 -0400 (EDT)
+Message-ID: <556352685.86300.1788185448060@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86299_1177789569.1788185448059"
+
+------=_Part_86299_1177789569.1788185448059
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee Access Project Plan</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee Access Project Plan</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" data-snooker-col-s=
+eries=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 100.242%;f=
+ont-size: 14.0px;letter-spacing: 0.0px;">
+  <colgroup>
+   <col style=3D"width: 4.85024%;">
+   <col style=3D"width: 14.6289%;">
+   <col style=3D"width: 23.3124%;">
+   <col style=3D"width: 16.8976%;">
+   <col style=3D"width: 10.2481%;">
+   <col style=3D"width: 29.962%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" da=
+ta-mce-resize=3D"false" scope=3D"col"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Area</th>
+    <th scope=3D"col" class=3D"confluenceTh">Activity</th>
+    <th scope=3D"col" class=3D"confluenceTh">Owner</th>
+    <th scope=3D"col" class=3D"confluenceTh">Status</th>
+    <th scope=3D"col" class=3D"confluenceTh">Notes</th>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">1</td>
+    <td rowspan=3D"3" class=3D"confluenceTd">
+     <p>CX access matrix definition</p></td>
+    <td class=3D"confluenceTd">
+     <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606127=
+347">
+      <li class=3D"checked" data-inline-task-id=3D"29" data-uuid=3D"ea9e91b=
+8-a47a-4915-9a62-6d0b4e372067"><s>Access matrix creation</s></li>
+     </ul></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"shar005" href=3D"/display/~shar005" data-linked-resource=
+-id=3D"43941889" data-linked-resource-version=3D"2" data-linked-resource-ty=
+pe=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Radhika Sharma</a>&nb=
+sp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">2</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"30" data-uuid=3D"fc5c99=
+ac-4eb1-4ac6-bbbe-a8f8b77a0cbd"><s>Access matrix internal review (Risk, Sup=
+port) </s><br><time datetime=3D"2026-05-22" class=3D"date-past">22 May 2026=
+</time><time datetime=3D"2026-05-29" class=3D"date-past">29 May 2026</time>=
+<s>&nbsp;</s><br><time datetime=3D"2026-06-16" class=3D"date-past">16 Jun 2=
+026</time><time datetime=3D"2026-06-26" class=3D"date-past">26 Jun 2026</ti=
+me><s> &nbsp;</s><time datetime=3D"2026-07-14" class=3D"date-past">14 Jul 2=
+026</time><s>&nbsp;</s></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"sha=
+r005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-=
+linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://wiki.bnc.ca">Radhika Sharma</a>&nbsp;</p>
+      <ul>
+       <li style=3D"list-style-type: none;">
+        <ul style=3D"list-style-type: square;">
+         <li data-uuid=3D"8d4d9afa-66d1-43df-8ff6-d33e57c75966">Sarina, Jon=
+athan</li>
+        </ul></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"196" data-uuid=3D"be1c6=
+129-bfae-4e18-a857-8438a6c7afa2">
+        <p><strong>RRCode Column in the Access Matrix:</strong><br>
+          Should it remain in the format AAAA=E2=80=939999?<br>
+          Or <br>
+          Should it be removed, given that the field cannot be left blank?<=
+/p></li>
+       <li class=3D"checked" data-inline-task-id=3D"174" data-uuid=3D"c2e4c=
+25c-c37a-41b4-9b24-df1caec9a477"><s>Assessment to determine whether compone=
+nts in the IIQ / F&amp;UM contract will impact the Access Matrix</s> <time =
+datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2026</time></li>
+      </ul>
+      <ul>
+       <li data-uuid=3D"2225351f-ecc9-4f8a-b25e-6cd0c5254612">DWH needs to =
+have a separate Access Matrix.</li>
+       <li data-uuid=3D"8b2c0d88-a01d-4d14-a985-278f3e4aba92">A.M. has been=
+ reviewed with Risk and Support SMEs<br>
+        <ul>
+         <li data-uuid=3D"c43e90a7-3ed3-47d3-8a52-5e9bb7459a2a" data-inline=
+-task-id=3D"">Feedback updates are ongoing</li>
+        </ul></li>
+       <li data-uuid=3D"d4709fd8-ea90-4d44-b96f-405302036ad9">Aligned Acces=
+s Matrix to be shared with IIQ team</li>
+       <li data-uuid=3D"3c0289fc-dcdc-41a1-a129-ac3df94698d6">Have a final =
+review of the A.M. <time datetime=3D"2026-05-29" class=3D"date-past">29 May=
+ 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">3</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"31" data-uuid=3D"933e61=
+97-e262-4b5d-b064-495792fb4a5e">Access matrix IAM Team review &amp; approva=
+l <br><time datetime=3D"2026-06-19" class=3D"date-past">19 Jun 2026</time> =
+<time datetime=3D"2026-06-26" class=3D"date-past">26 Jun 2026</time> <time =
+datetime=3D"2026-07-13" class=3D"date-past">13 Jul 2026</time>&nbsp;</li>
+       <li data-inline-task-id=3D"246" data-uuid=3D"7cb04203-2a1c-4546-bf00=
+-a1abd81df596">IAM Request:<br>
+         To separate the A.M. into the 4 apps, and update the existing subm=
+ission for approval</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <p><a class=3D"confluence-userlink user-mention" data-username=3D"shar=
+005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-l=
+inked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-ba=
+se-url=3D"https://wiki.bnc.ca">Radhika Sharma</a> <a class=3D"confluence-us=
+erlink user-mention" data-username=3D"chas099" href=3D"/display/~chas099" d=
+ata-linked-resource-id=3D"51540176" data-linked-resource-version=3D"1" data=
+-linked-resource-type=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Sa=
+rina Chawla</a>&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"175" data-uuid=3D"bac04=
+780-66c0-4959-8572-a3a10e6d0a8b"><s>Assessment to determine whether compone=
+nts in the IIQ / F&amp;UM contract will impact the Access Matrix</s> <time =
+datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2026</time></li>
+      </ul>
+      <ul>
+       <li data-uuid=3D"c7d7aee6-947a-4e6c-9766-3a9bb6f751df">Require Jira =
+request to trigger approval; due July 1st</li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">4</td>
+    <td rowspan=3D"12" class=3D"confluenceTd">IIQ integration / solution de=
+velopment</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"32" data-uuid=3D"cbb278=
+f5-ec1e-499f-bbb3-137ea837cc1a"><s>Review employee access lifecycle require=
+ments <br><time datetime=3D"2026-03-03" class=3D"date-past">03 Mar 2026</ti=
+me></s></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Candi</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">5</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"33" data-uuid=3D"53ce06=
+7f-e23a-4ad7-b25f-810ce9757264"><s>Finalize integration solution design <br=
+><time datetime=3D"2026-04-29" class=3D"date-past">29 Apr 2026</time></s></=
+li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"bedaf5e0-03ec-4b7a-9821-bf1d5bec853d">Received verba=
+l confirmation from all stakeholders during today's Stakeholder Review (Apr=
+-30).</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">6</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"34" data-uuid=3D"07e53d=
+17-c11a-4982-af8d-3e06094cab71"><s>Integration development handover <br><ti=
+me datetime=3D"2026-05-04" class=3D"date-past">04 May 2026</time></s></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">7</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"128" data-uuid=3D"8f9cf=
+1e6-4af9-49f3-94a0-6abdfe154d41"><s>Access Matrix Alignment &amp; Handover =
+to IIQ&nbsp; ||&nbsp; &nbsp;F&amp;UM</s><br><time datetime=3D"2026-05-19" c=
+lass=3D"date-past">19 May 2026</time> <time datetime=3D"2026-05-25" class=
+=3D"date-past">25 May 2026</time><time datetime=3D"2026-05-29" class=3D"dat=
+e-past">29 May 2026</time><br><time datetime=3D"2026-06-04" class=3D"date-p=
+ast">04 Jun 2026</time> &nbsp; <time datetime=3D"2026-06-09" class=3D"date-=
+past">09 Jun 2026</time> <time datetime=3D"2026-06-12" class=3D"date-past">=
+12 Jun 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"sha=
+r005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-=
+linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://wiki.bnc.ca">Radhika Sharma</a>&nbsp;</p>
+      <ul>
+       <li style=3D"list-style-type: none;">
+        <ul>
+         <li>Jeremy, Harsha, Atesh, Esther</li>
+        </ul></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"188" data-uuid=3D"d4371=
+29c-f444-4bff-9827-b878c48f577a"><s>Assessment to determine whether compone=
+nts in the IIQ / F&amp;UM contract will impact the Access Matrix</s> <time =
+datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2026</time>&nbsp;</li>
+      </ul>
+      <ul>
+       <li data-uuid=3D"a4d3b561-c0c7-4b9c-bc55-5299eb9b716d"><span style=
+=3D"color:#cf9f02;"><strong>Use Case</strong></span>: <strong>(RESOLVED) <t=
+ime datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2026</time>&nbsp;</s=
+trong><br><s>Apps <em>(e.g. Orders)</em> that employees have access to that=
+ have not been GA'd</s>
+        <ul>
+         <li data-uuid=3D"9d8bf8c6-38ab-4b75-b40c-921a61a542cf">
+          <p>IIQ does not have remove capability, it can only add...</p></l=
+i>
+         <li data-uuid=3D"ff0b8111-ecf8-4ff4-9a69-88e13ae148a8" data-inline=
+-task-id=3D"">
+          <p>Accesses that should not be assigned will be <em>(technically)=
+ </em>removed&nbsp;by F&amp;UM, with no associated operational task</p></li=
+>
+        </ul></li>
+       <li data-uuid=3D"7036347a-45c4-4398-948a-11bb25350842"><s>Ready to s=
+hare with the IIQ and F&amp;UM teams</s></li>
+       <li data-uuid=3D"bd847bda-9474-46b2-a3f3-228b87216e36"><s>Initial wa=
+lkthrough done.</s></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">8</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"132" data-uuid=3D"a9177=
+c63-dac8-44ac-8a5b-03b9a10ada56"><s>API changes&nbsp;</s><br><a class=3D"ex=
+ternal-link" href=3D"https://can01.safelinks.protection.outlook.com/?url=3D=
+https%3A%2F%2Fwiki.bnc.ca%2Fspaces%2FNA%2Fpages%2F2708284286%2FManage%2BEmp=
+loyee%2BAccess&amp;data=3D05%7C02%7Cobaloluwa.oyemade%40nbc.ca%7C2ffd98ed33=
+a4434d5bee08dec0e05f46%7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C6391602=
+67061112401%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDA=
+wMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdat=
+a=3DGqbNnH5JvO6A%2BY5WM8Oczdeomt2nhSV%2FlbzLdB0SIsI%3D&amp;reserved=3D0" re=
+l=3D"nofollow">https://wiki.bnc.ca/spaces/NA/pages/2708284286/Manage+Employ=
+ee+Access</a><br><time datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2=
+026</time>&nbsp;<br><time datetime=3D"2026-06-16" class=3D"date-past">16 Ju=
+n 2026</time> <br><time datetime=3D"2026-06-30" class=3D"date-past">30 Jun =
+2026</time></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"raz=
+a002" href=3D"/display/~raza002" data-linked-resource-id=3D"9568289" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-ba=
+se-url=3D"https://wiki.bnc.ca">Alexandre Razmakhnine</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"58752e45-7640-4d63-b55b-01719fd6ac4a"><span class=
+=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDENCY</span>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"181" data-uuid=3D"2c4=
+9514b-993c-42a7-9b72-c439f1c32ea0"><s>Workshop to baseline IIQ / F&amp;UM C=
+ontract</s> <br><time datetime=3D"2026-06-03" class=3D"date-past">03 Jun 20=
+26</time>&nbsp;<br><time datetime=3D"2026-06-04" class=3D"date-past">04 Jun=
+ 2026</time></li>
+         <li class=3D"checked" data-inline-task-id=3D"192" data-uuid=3D"f28=
+833c0-ed19-47c1-b7fc-8e398db2356d">Workshop on&nbsp; Lifecycle Events &amp;=
+ One-time Employee Account Creation/Update<br><time datetime=3D"2026-06-11"=
+ class=3D"date-past">11 Jun 2026</time>&nbsp;<br><time datetime=3D"2026-06-=
+15" class=3D"date-past">15 Jun 2026</time>&nbsp;<br><time datetime=3D"2026-=
+06-19" class=3D"date-past">19 Jun 2026</time>&nbsp;<br><time datetime=3D"20=
+26-06-23" class=3D"date-past">23 Jun 2026</time>&nbsp;</li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">9</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"140" data-uuid=3D"42ef3=
+f97-d129-4e75-a31e-2c4b9eb2237e"><s><span class=3D"placeholder-inline-tasks=
+">Set-up Environments - Dev, QA, UAT or PreProd - <em>(including URLs and S=
+SO</em>)<br><time datetime=3D"2026-05-27" class=3D"date-past">27 May 2026</=
+time> <time datetime=3D"2026-06-05" class=3D"date-past">05 Jun 2026</time> =
+<time datetime=3D"2026-06-26" class=3D"date-past">26 Jun 2026</time> <time =
+datetime=3D"2026-07-03" class=3D"date-past">03 Jul 2026</time>&nbsp;<br></s=
+pan></s></li>
+       <li class=3D"checked" data-inline-task-id=3D"142" data-uuid=3D"5e7f6=
+4ae-26c8-47d7-baee-5d30713a6060"><s>Demo to be conducted in PreProd - <em>d=
+ue to IIS PreProd lower environment limitations</em></s></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"5f43b957-956b-4286-8c36-83880b019e84">IIQ</li>
+       <li data-uuid=3D"5e78ef01-e344-4de3-b61e-7a6095b83529">Okta</li>
+       <li data-uuid=3D"4ce380e4-be93-4ee2-9e42-6e8447e50baa">IIS</li>
+       <li data-uuid=3D"a4aa1880-427b-4009-aa77-1eb0830b03ba">DevOps</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"e9301dfa-8a46-4d25-9d80-acd9ccf21785"><span class=
+=3D"status-macro aui-lozenge aui-lozenge-moved">RISK #6</span><br>
+         Devops environment set-up delayed for UAT and PreProd due AWS inco=
+rrect config</li>
+       <li data-uuid=3D"7c3021eb-518d-423d-b554-dc161ff829f6">Ensure IIS co=
+ntinues to function properly after the environment changes.</li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">10</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"35" data-uuid=3D"9899560a-3de3-4707-a55e-=
+3c9b6575d0c5">Complete integration development - Primary ID (4.5 Sprints)=
+=20
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"94" data-uuid=3D"3e0f=
+84eb-988b-478f-b63c-86764900ab26"><s>Primary Account Provisioning&nbsp;<a c=
+lass=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-427" rel=3D=
+"nofollow">FUM-427</a></s><br><em><strong style=3D"color:#f5cd47;"><s>Demo =
+Read - UAT (Connection &amp; Integration&nbsp; ||&nbsp; One-time Upload???)=
+;</s><br><time datetime=3D"2026-07-17" class=3D"date-past">17 Jul 2026</tim=
+e><s> &nbsp;</s><time datetime=3D"2026-07-22" class=3D"date-past">22 Jul 20=
+26</time>&nbsp;<br></strong></em></li>
+         <li data-inline-task-id=3D"248" data-uuid=3D"3a3bc8ad-7c84-4fb6-ab=
+ca-207b5ccec80a">Primary Account Provisioning&nbsp;<a class=3D"external-lin=
+k" href=3D"https://nbin.aha.io/features/FUM-427" rel=3D"nofollow">FUM-427</=
+a><em><strong style=3D"color:#f5cd47;"><br>
+             Demo Write (Provisioning - Create, Remove&nbsp; ||&nbsp; Certi=
+fication Setup???, Attestation???)</strong></em><br><time datetime=3D"2026-=
+06-16" class=3D"date-past">16 Jun 2026</time> <time datetime=3D"2026-07-07"=
+ class=3D"date-past">07 Jul 2026</time> <time datetime=3D"2026-09-07" class=
+=3D"date-upcoming">07 Sep 2026</time>&nbsp;</li>
+         <li class=3D"checked" data-inline-task-id=3D"129" data-uuid=3D"abb=
+1806a-f643-45f7-8704-68925c3260f7"><s>SSO Access to Platform&nbsp;<a class=
+=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-429" rel=3D"nof=
+ollow">FUM-429</a></s><br><time datetime=3D"2026-06-16" class=3D"date-past"=
+>16 Jun 2026</time><s> </s><time datetime=3D"2026-07-07" class=3D"date-past=
+">07 Jul 2026</time><s>&nbsp;</s></li>
+         <li data-inline-task-id=3D"95" data-uuid=3D"6f395524-659f-49a6-bce=
+1-1e393c0c0d56">Primary Account Deprovisioning <a class=3D"external-link" h=
+ref=3D"https://nbin.aha.io/features/FUM-428" rel=3D"nofollow">FUM-428</a><b=
+r><time datetime=3D"2026-06-16" class=3D"date-past">16 Jun 2026</time> <tim=
+e datetime=3D"2026-07-07" class=3D"date-past">07 Jul 2026</time>&nbsp;</li>
+         <li data-inline-task-id=3D"130" data-uuid=3D"a2633002-78bf-48f9-af=
+4b-7ff22d6a0c72">User Certification <a class=3D"external-link" href=3D"http=
+s://nbin.aha.io/features/FUM-426" rel=3D"nofollow">FUM-426</a><br><time dat=
+etime=3D"2026-06-16" class=3D"date-past">16 Jun 2026</time> <time datetime=
+=3D"2026-07-07" class=3D"date-past">07 Jul 2026</time>&nbsp;</li>
+        </ul></li>
+       <li data-inline-task-id=3D"234" data-uuid=3D"47bdfdad-d02e-44b8-8dac=
+-ec562d588b5a">Complete E2E IIQ configuration for primary account flow in U=
+AT<br><time datetime=3D"2026-09-09" class=3D"date-future">09 Sep 2026</time=
+>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"newp002" href=3D"/display/~newp002" data-linked-resource=
+-id=3D"992295893" data-linked-resource-version=3D"1" data-linked-resource-t=
+ype=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Persis Esther Newton=
+</a>&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">IN PR=
+OGRESS</span><span class=3D"status-macro aui-lozenge aui-lozenge-moved">RIS=
+K #3</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul>
+       <li data-uuid=3D"7a701013-57f1-4d00-b9e1-237c20f663da"><span class=
+=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDENCY FOR DEMO</span>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"207" data-uuid=3D"07e=
+745a4-d794-49ee-abfc-5cb4ba2a5276">IIQ: Java Connectors custom-code <time d=
+atetime=3D"2026-07-10" class=3D"date-past">10 Jul 2026</time>&nbsp;</li>
+         <li class=3D"checked" data-inline-task-id=3D"208" data-uuid=3D"63e=
+d34cf-0a27-4a6b-b92b-0b33f7217c82">Okta/EntraID: Handshake (Jeremy and Maxi=
+me) <time datetime=3D"2026-07-03" class=3D"date-past">03 Jul 2026</time>&nb=
+sp;</li>
+         <li class=3D"checked" data-inline-task-id=3D"209" data-uuid=3D"9fa=
+ab1da-2ac3-4869-834d-874356378ee8">FU&amp;M API changes&nbsp;<time datetime=
+=3D"2026-07-02" class=3D"date-past">02 Jul 2026</time>&nbsp;</li>
+         <li class=3D"checked" data-inline-task-id=3D"210" data-uuid=3D"2aa=
+a7ae4-a822-4ed8-87ac-d6c3439c6da9">Environments set-up: UAT and PreProd (Ri=
+sk #6) <time datetime=3D"2026-07-03" class=3D"date-past">03 Jul 2026</time>=
+&nbsp;</li>
+        </ul></li>
+       <li data-uuid=3D"4970d92d-483f-438b-b811-9d58cdf0ff38"><span class=
+=3D"status-macro aui-lozenge aui-lozenge-moved">RISK</span> <a class=3D"ext=
+ernal-link" href=3D"https://jira.bnc.ca/browse/NWPI-14549" rel=3D"nofollow"=
+>NWPI-14549</a>
+        <ul>
+         <li data-uuid=3D"41d1ee93-0af5-495d-a111-f75b2b54d935"><span>All Q=
+A validation for Employee SSO is blocked till IIQ write is completed</span>=
+</li>
+         <li data-uuid=3D"d6942211-0749-4244-8904-4c99ddda8b23"><span>Emplo=
+yee - Self-serve user profile mgmt features are hidden</span></li>
+        </ul></li>
+       <li data-uuid=3D"57d3f863-dc60-4302-8b8a-7161dff0bfba">Setting up th=
+e MVP workflow</li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">11</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"62" data-uuid=3D"3b0bedbd-6d2b-47e7-a252-=
+a49815c00030"><span class=3D"placeholder-inline-tasks">Complete integration=
+ development - Secondary ID&nbsp;</span>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li data-inline-task-id=3D"102" data-uuid=3D"4b19ad10-7433-433f-80=
+3a-cb591931d879"><span class=3D"placeholder-inline-tasks">F&amp;UM tool upd=
+ate <a class=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-447=
+" rel=3D"nofollow">FUM-447</a><br><time datetime=3D"2026-08-14" class=3D"da=
+te-past">14 Aug 2026</time>&nbsp;<br></span></li>
+         <li data-inline-task-id=3D"103" data-uuid=3D"05ef7853-7658-4e75-b3=
+3d-3126f133b585"><span class=3D"placeholder-inline-tasks">Secondary Account=
+ provisioning, de-provisioning and certification <a class=3D"external-link"=
+ href=3D"https://nbin.aha.io/features/FUM-431" rel=3D"nofollow">FUM-431</a>=
+<br><time datetime=3D"2026-08-14" class=3D"date-past">14 Aug 2026</time>&nb=
+sp;<br></span></li>
+         <li data-inline-task-id=3D"104" data-uuid=3D"7a086160-8af5-46ea-91=
+02-cd99c0c71d62"><span class=3D"placeholder-inline-tasks">Bulk user process=
+ing <a class=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-441=
+" rel=3D"nofollow">FUM-441</a><br><time datetime=3D"2026-08-14" class=3D"da=
+te-past">14 Aug 2026</time>&nbsp;<br></span></li>
+        </ul></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"new=
+p002" href=3D"/display/~newp002" data-linked-resource-id=3D"992295893" data=
+-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-=
+base-url=3D"https://wiki.bnc.ca">Persis Esther Newton</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><strong>Reference:</strong><br><a href=3D"https://wiki.bnc.ca/spac=
+es/COMPASS/pages/2709674937/Employee+access+product+version" rel=3D"nofollo=
+w">Employee access product version - NBIN Product Team - Confluence</a></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"199" data-uuid=3D"6b370cab-e486-425a-a369=
+-11834481b47a"><strong>Q3 Focus: <br></strong>Primary ID is the main priori=
+ty, with the key critical path activity being the <span style=3D"color:#a54=
+800;"><em><strong>demo</strong></em></span>.</li>
+       <li data-inline-task-id=3D"200" data-uuid=3D"42e37c81-2539-4444-a46b=
+-8961d7599196"><strong>Secondary ID:</strong> <br>
+         (Penny to align with Ray on the Support engagement for Secondary I=
+D <time datetime=3D"2026-06-25" class=3D"date-past">25 Jun 2026</time>&nbsp=
+;)<br>
+         Can be considered to be worked on in Q3 if the delivery team has s=
+ufficient capacity.=20
+        <ul>
+         <li data-uuid=3D"cea0e75e-479c-4888-8998-4700aec53ad5" data-inline=
+-task-id=3D""><strong>Deactivation of Secondary ID:</strong> <br>
+           Out of scope for IIQ. <br><em>We may need to align with Support =
+and Risk to determine whether this can be handled operationally.</em></li>
+         <li data-uuid=3D"7edb1b12-cc8a-4f53-b761-1e46e3df1868" data-inline=
+-task-id=3D""><strong>Creation and Updates for Secondary ID: <br></strong>T=
+he current process will continue to apply (<em>as stated by Radhika</em>).<=
+/li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">12</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"36" data-uuid=3D"0dc1d9=
+b3-bf9f-4bf1-8779-3f2cc2d3b159"><s>Stakeholder review on solution design <b=
+r><time datetime=3D"2026-04-30" class=3D"date-past">30 Apr 2026</time></s><=
+/li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span><br>
+        Finalize operational procedures for provisioning for primary ID flo=
+w - #15</p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">13</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"38" data-uuid=3D"4410d8=
+67-1c18-4c69-af94-734fe9a31eb1"><s>Complete &amp; handover employee-related=
+ user packages (backfill gaps) - <a class=3D"external-link" href=3D"https:/=
+/nbin.aha.io/features/FUM-437" rel=3D"nofollow">FUM-437</a> </s><br><time d=
+atetime=3D"2026-06-04" class=3D"date-past">04 Jun 2026</time><s>&nbsp;</s><=
+/li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"h601eru" href=3D"/display/~h601eru" data-linked-resource=
+-id=3D"2407639809" data-linked-resource-version=3D"1" data-linked-resource-=
+type=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Harsha Adusumilli</=
+a>&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul>
+       <li data-uuid=3D"2823caed-ede2-48da-b399-d5ef5846fe92">New employee =
+access roles/packages have been defined</li>
+       <li data-uuid=3D"1cbbdd86-7db1-42e0-8efa-5aab63d42a4c"><s>Stories cr=
+eated + Dev handover completed for the following epics:</s>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"182" data-uuid=3D"c34=
+87a89-c557-45e0-9cad-4ce70aa34b6c"><s>Admin Orders and Trades - <a class=3D=
+"external-link" href=3D"https://jira.bnc.ca/browse/NWPI-14581" rel=3D"nofol=
+low" style=3D"letter-spacing: 0.0px;" title=3D"https://jira.bnc.ca/browse/n=
+wpi-14581">NWPI-14581</a></s></li>
+         <li class=3D"checked" data-inline-task-id=3D"183" data-uuid=3D"654=
+0d2f0-c2d0-4d3c-a5a4-0f21a274d20d"><s>Full Admin Trades -&nbsp;<a class=3D"=
+external-link" href=3D"https://jira.bnc.ca/browse/NWPI-14582" rel=3D"nofoll=
+ow" title=3D"https://jira.bnc.ca/browse/nwpi-14582">NWPI-14582</a></s></li>
+         <li class=3D"checked" data-inline-task-id=3D"184" data-uuid=3D"995=
+f4872-48b6-4313-abbd-648429f9d3eb"><s>Trade Allocations corrections -&nbsp;=
+<a class=3D"external-link" href=3D"https://jira.bnc.ca/browse/NWPI-14589" r=
+el=3D"nofollow" title=3D"https://jira.bnc.ca/browse/nwpi-14589">NWPI-14589<=
+/a></s></li>
+        </ul></li>
+       <li data-uuid=3D"2823caed-ede2-48da-b399-d5ef5846fe92">Refinement se=
+ssions with the delivery team are ongoing to finalize the required modules =
+and resources</li>
+       <li data-uuid=3D"713fd612-c494-4642-9a1e-a57ce74e4bab"><s>Radhika an=
+d Harsha to align</s></li>
+       <li data-uuid=3D"968efe56-431d-4bc7-af18-e166be0c2c92"><s>Few packag=
+es are missing, and it goes to the backlog for July</s></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">14</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"39" data-uuid=3D"072aeeee-0a04-4e35-9fb5-=
+0c6abf7e2bc5">Managing the impact for DWH app access (pre-decoupling)<br><a=
+ class=3D"external-link" href=3D"https://jira.bnc.ca/browse/NWPI-14680" rel=
+=3D"nofollow">[NWPI-14680] Employee access one-time initial load (FUM-452) =
+- Jira</a><span><br></span>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"235" data-uuid=3D"3b0=
+bbc5b-d1e5-4c8f-9b1f-e7c9a9e6de4e"><span>I<s>nitial Load changes</s><br><ti=
+me datetime=3D"2026-09-01" class=3D"date-upcoming">01 Sep 2026</time><s>&nb=
+sp;</s><br></span></li>
+         <li data-inline-task-id=3D"236" data-uuid=3D"778d7aab-c976-4f5d-9f=
+3b-7d1573946893"><span>DWH endpoint &amp; UI changes (resource assignments)=
+:&nbsp;<br><time datetime=3D"2026-09-15" class=3D"date-future">15 Sep 2026<=
+/time>&nbsp;</span></li>
+         <li data-inline-task-id=3D"250" data-uuid=3D"1c5bb67f-f880-46ce-87=
+01-a0b0ddab0684"><span>NPR (Global Admin) User Setup<br><time datetime=3D"2=
+026-09-15" class=3D"date-future">15 Sep 2026</time>&nbsp;<br></span></li>
+         <li data-inline-task-id=3D"237" data-uuid=3D"3b63b464-5d33-4e78-ab=
+df-b902bd3bbe13"><span>Target Release for Initial load and DWH endpoints<br=
+><time datetime=3D"2026-10-02" class=3D"date-future">02 Oct 2026</time>&nbs=
+p;</span></li>
+         <li data-inline-task-id=3D"118" data-uuid=3D"f620634d-6287-4a6a-b0=
+af-797961bea692">The DS team will filter the resource endpoint call to ensu=
+re DWH applications are accessed when employees invoke any application (pri=
+or to the July migration).<br><time datetime=3D"2026-06-30" class=3D"date-p=
+ast">30 Jun 2026</time>&nbsp;</li>
+         <li class=3D"checked" data-inline-task-id=3D"119" data-uuid=3D"ee1=
+8237b-311f-4172-8091-bdeac7503f1d"><s>Technical alignment on refactoring th=
+e Manage_DWH_Users page and User Onboarding process</s><br><time datetime=
+=3D"2026-05-20" class=3D"date-past">20 May 2026</time></li>
+        </ul></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"fa214aee-a89c-4772-8b36-b5379cf29e15">Olu</li>
+       <li data-uuid=3D"64419aec-b22c-49e7-8a0c-646a353520fd"><a class=3D"c=
+onfluence-userlink user-mention" data-username=3D"newp002" href=3D"/display=
+/~newp002" data-linked-resource-id=3D"992295893" data-linked-resource-versi=
+on=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://wi=
+ki.bnc.ca">Persis Esther Newton</a>&nbsp;</li>
+      </ul>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">IN PR=
+OGRESS</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"13276551-7099-4c54-b0d7-9f93d75d3480"><a class=3D"c=
+onfluence-userlink user-mention" data-username=3D"newp002" href=3D"/display=
+/~newp002" data-linked-resource-id=3D"992295893" data-linked-resource-versi=
+on=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://wi=
+ki.bnc.ca">Persis Esther Newton</a> or <a class=3D"confluence-userlink user=
+-mention" data-username=3D"raza002" href=3D"/display/~raza002" data-linked-=
+resource-id=3D"9568289" data-linked-resource-version=3D"1" data-linked-reso=
+urce-type=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Alexandre Razm=
+akhnine</a> to continue supporting the <em><strong>Manage_DWH_Users</strong=
+></em> page until migration is complete=20
+        <ul style=3D"list-style-type: square;">
+         <li data-uuid=3D"060a1a19-3428-4486-99df-8287a9b3cfb8">
+          <p>Story ticket is <a class=3D"external-link" href=3D"https://jir=
+a.bnc.ca/browse/NWPI-14671" rel=3D"nofollow" title=3D"https://jira.bnc.ca/b=
+rowse/nwpi-14671">NWPI-14671</a></p></li>
+         <li data-uuid=3D"060a1a19-3428-4486-99df-8287a9b3cfb8">Add filter =
+is done and ready for integration test&nbsp;</li>
+        </ul></li>
+       <li data-uuid=3D"fcc29283-72de-40b1-aaf1-7c6759859a47"><a class=3D"c=
+onfluence-userlink user-mention" data-username=3D"soc007" href=3D"/display/=
+~soc007" data-linked-resource-id=3D"9568271" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://wiki=
+.bnc.ca">Candi So</a> to=20
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"146" data-uuid=3D"037=
+85e1c-c120-4a06-a62a-f0ceaead70aa">align with&nbsp;<strong>Darwin </strong>=
+on the user onboarding process</li>
+         <li class=3D"checked" data-inline-task-id=3D"147" data-uuid=3D"92f=
+47c80-3056-48b7-a4f2-befb018bbdb2">document it, and</li>
+         <li data-inline-task-id=3D"148" data-uuid=3D"7b71b045-4660-4d8e-a4=
+7d-dcc9a33856ea">share it with managers</li>
+        </ul></li>
+      </ul>
+      <p><br></p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">15</td>
+    <td class=3D"confluenceTd">
+     <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606127=
+347">
+      <li class=3D"checked" data-inline-task-id=3D"69" data-uuid=3D"a760e28=
+5-8049-45fb-ac15-a866bae7e98f"><s>Finalize minimum expectations for July de=
+adline</s></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"lam=
+p005" href=3D"/display/~lamp005" data-linked-resource-id=3D"743999304" data=
+-linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-=
+base-url=3D"https://wiki.bnc.ca">Penny Lam</a> Jonathan</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"04ae27bf-1fb1-4222-8bf7-d029815ab924">Jonathan confi=
+rmed the requirement being the submission as against completion.</li>
+      <li data-uuid=3D"40f1f0c8-cd8b-4c87-a12d-ad0160794cf8">To keep the gr=
+oup updated of any changes to expectations.</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">16</td>
+    <td rowspan=3D"6" class=3D"confluenceTd">
+     <p>E2E operationalization</p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"70" data-uuid=3D"83720789-c490-4f5f-8a5d-=
+bf0668337e1f">Finalize operational procedures for provisioning for primary =
+ID flow <br><time datetime=3D"2026-05-30" class=3D"date-past">30 May 2026</=
+time> <time datetime=3D"2026-07-10" class=3D"date-past">10 Jul 2026</time> =
+<time datetime=3D"2026-09-18" class=3D"date-future">18 Sep 2026</time>&nbsp=
+;</li>
+       <li data-inline-task-id=3D"80" data-uuid=3D"04e55606-ee72-45fb-9c2e-=
+86a23efe3a5c">Finalize ticket flow for R2 ID and OSS ID requests <br><time =
+datetime=3D"2026-05-30" class=3D"date-past">30 May 2026</time> <time dateti=
+me=3D"2026-07-10" class=3D"date-past">10 Jul 2026</time> <time datetime=3D"=
+2026-09-18" class=3D"date-future">18 Sep 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"soc007" href=3D"/display/~soc007" data-linked-resource-i=
+d=3D"9568271" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Candi So</a> <a class=
+=3D"confluence-userlink user-mention" data-username=3D"shar005" href=3D"/di=
+splay/~shar005" data-linked-resource-id=3D"43941889" data-linked-resource-v=
+ersion=3D"2" data-linked-resource-type=3D"userinfo" data-base-url=3D"https:=
+//wiki.bnc.ca">Radhika Sharma</a> <a class=3D"confluence-userlink user-ment=
+ion" data-username=3D"chas099" href=3D"/display/~chas099" data-linked-resou=
+rce-id=3D"51540176" data-linked-resource-version=3D"1" data-linked-resource=
+-type=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Sarina Chawla</a>&=
+nbsp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">IN REVI=
+EW</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span><br>
+        #10: Complete Integration Development - Primary ID: Primary Account=
+ Provisioning&nbsp;</p>
+      <p><strong>Reference #1:</strong><br><a href=3D"https://wiki.bnc.ca/s=
+paces/COMPASS/pages/2606124477/Employee+access+operationalization" rel=3D"n=
+ofollow">Employee access operationalization - NBIN Product Team - Confluenc=
+e</a></p>
+      <p><strong>Reference #2:</strong><br><a href=3D"https://wiki.bnc.ca/s=
+paces/COMPASS/pages/2709674937/Employee+access+product+version" rel=3D"nofo=
+llow">Employee access product version - NBIN Product Team - Confluence</a><=
+/p>
+      <ul>
+       <li data-uuid=3D"0ec43c2d-4427-4bac-9398-7d0757a0500a">Focus on Q3 i=
+s Primary ID (Key Critical Path is activity is the <em><strong>demo)</stron=
+g></em>
+        <ul>
+         <li data-uuid=3D"14f221bb-5754-494a-893f-5b9ca85d550c"><a href=3D"=
+https://wiki.bnc.ca/spaces/COMPASS/pages/2726046072/Employee+access+request=
++workflow+for+onboarding+access+modification+and+job+role+change+requests" =
+rel=3D"nofollow">Procedure for primary ID provisioning</a> and R2/OSS Id re=
+quest workflow is ready for review</li>
+         <li data-uuid=3D"49051cf4-58ce-4ed9-a2c7-55518309859d">Review will=
+ be scheduled with the E2E demo&nbsp;</li>
+        </ul></li>
+       <li data-uuid=3D"813584fe-d74a-4094-b4d5-7fcbbb245625">If the delive=
+ry team has bandwidth, Secondary ID=20
+        <ul>
+         <li data-uuid=3D"c7e99e97-b804-44ba-9445-921e78ef6f14">Deactivatio=
+n of Secondary ID is out of scope for IIQ; <br><em>Will we need to align wi=
+th Support and Risk on the possibility of handling this operationally?</em>=
+</li>
+         <li data-uuid=3D"c7e99e97-b804-44ba-9445-921e78ef6f14">Creating an=
+d Updating a Secondary ID:<br>
+           Radhika: Current process applies; Correct?</li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">17</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"71" data-uuid=3D"d5115afa-a3e3-4323-99ad-=
+60be88626969">Round of refinement based on review and feedback for primary =
+ID flow <br><time datetime=3D"2026-09-18" class=3D"date-future">18 Sep 2026=
+</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"soc007" href=3D"/display/~soc007" data-linked-resource-i=
+d=3D"9568271" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span><br>
+        #16:&nbsp; Finalize operational procedures for provisioning for pri=
+mary ID flow</p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">18</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>Finalize operational procedures for certification for primary ID f=
+low</p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"72" data-uuid=3D"de960edc-23ed-42db-b4ea-=
+a0acb2b7e588">Finalize ongoing reporting requirements (User Attestation)<br=
+><time datetime=3D"2026-09-18" class=3D"date-future">18 Sep 2026</time>&nbs=
+p;</li>
+       <li data-inline-task-id=3D"73" data-uuid=3D"a0c7021f-cfcd-4dcc-a2d9-=
+3781c8028870">Finalize access matrix + IIQ update flow <br><time datetime=
+=3D"2026-09-18" class=3D"date-future">18 Sep 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p class=3D"scriptor-paragraph"><strong><span>Requirements / Constrai=
+ns for Certification in IIQ (Gagne, Mathieu):</span></strong></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"238" data-uuid=3D"4fd17=
+277-5d2e-4b0e-b5e4-f6837e457056"><s>Access Matrix set up in IIQ - Radhika</=
+s><span><s>/Jeremy</s><br><time datetime=3D"2026-07-14" class=3D"date-past"=
+>14 Jul 2026</time><s>&nbsp;</s><br></span></li>
+       <li class=3D"checked" data-inline-task-id=3D"239" data-uuid=3D"f5e4f=
+b74-717a-4f31-b264-55151084a72c"><s>Appoint a Custodian for each app - Radh=
+ika</s>
+        <ul>
+         <li data-inline-task-id=3D""><s>IAM standard: <a class=3D"external=
+-link" href=3D"https://cbncnbccs.sharepoint.com/sites/securite/SitePages/en=
+/Norme-Gestion-des-acc%25C3%25A8s.aspx#4.3-gestion-des-acc%25C3%25A8s" rel=
+=3D"nofollow">Norme-Gestion-des-acc=C3=A8s.aspx shared via SharePoint</a></=
+s></li>
+         <li data-inline-task-id=3D""><s>Monitoring is done by the custodia=
+n who are provisioned in an Owner Group in IIQ</s></li>
+         <li data-inline-task-id=3D""><s><strong><span style=3D"color:#c937=
+2c;">Automation does not exist in the current IIQ system??</span></strong><=
+/s></li>
+        </ul></li>
+       <li data-inline-task-id=3D"240" data-uuid=3D"4c75eabd-39dc-48fe-a709=
+-73a7d2ec8fa9"><span>Extraction from the database for user accesses:</span>
+        <ul>
+         <li data-inline-task-id=3D""><span>Who has access to an applicatio=
+n, and what do they have?</span></li>
+        </ul></li>
+       <li data-inline-task-id=3D"241" data-uuid=3D"75030449-de62-424b-a6b2=
+-a57cd215b169"><span>Generate a sample report</span></li>
+       <li data-inline-task-id=3D"242" data-uuid=3D"47b1d67e-37e1-4d67-afa2=
+-ddad50c74127"><span>No customization for the report. It is standard -&nbsp=
+;</span><span>one-size-fits-all</span></li>
+       <li data-inline-task-id=3D"243" data-uuid=3D"a6aefdd2-860b-4313-96b9=
+-40e59e1970c3"><span>Certification w</span><span>ill be completed after the=
+ API integration is completed in Prod (Non-Prod is not supported)</span>
+        <ul>
+         <li><span style=3D"color:#172b4d;"><strong>Sample report is part o=
+f the API integration flow</strong></span></li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">19</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>Finalize operational procedures for second ID flow</p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"114" data-uuid=3D"0db53679-8d29-4954-b819=
+-3f3400c1b481">Finalize additional ID provisioning flow <br><time datetime=
+=3D"2026-08-31" class=3D"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">20</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>Product Support process flow &amp; certification KT (feature sheet=
+, procedures, training)</p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"43" data-uuid=3D"c6c02eb5-bbe2-441e-aa0b-=
+bec1271498f2">Provisioning flows <br><time datetime=3D"2026-08-31" class=3D=
+"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+       <li data-inline-task-id=3D"44" data-uuid=3D"45f0dba0-3672-4e8a-a5d8-=
+8ecaa2715d5a">Access management in CX <br><time datetime=3D"2026-08-31" cla=
+ss=3D"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+       <li data-inline-task-id=3D"45" data-uuid=3D"6cdfa409-bb8e-4e1e-96b2-=
+e3b4caafcf15">Profile definitions <br><time datetime=3D"2026-08-31" class=
+=3D"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"46ed3f87-614f-4a64-ad2d-7541eb4cf872">Need input on =
+duration &amp; milestones required&nbsp;</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">21</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"74" data-uuid=3D"1ad8e6eb-4de1-4d1f-84d7-=
+f70679cf536d">SAA Team engagement &amp; transfer of provisioning workflow</=
+li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Sarina</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c4880229-7422-4b8c-9e28-cc6f8ea90c9f"><strong>To do:=
+</strong><br>
+        Need input on duration &amp; lead time</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">22</td>
+    <td rowspan=3D"6" class=3D"confluenceTd">
+     <p>CX employee setup</p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>Define the user transition strategy <em>(including DWH)</em></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"58" data-uuid=3D"ac510e=
+21-967c-4b7c-9b9d-091f8d27adb4"><span class=3D"placeholder-inline-tasks"><s=
+pan class=3D"status-macro aui-lozenge aui-lozenge-moved">RISK #4</span><br>=
+<s>Complete the impact analysis of outgoing employee user id (external user=
+ id) </s><br><time datetime=3D"2026-05-20" class=3D"date-past">20 May 2026<=
+/time></span></li>
+      </ul>
+     </div></td>
+    <td rowspan=3D"3" class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"fdde4bf2-0826-463c-9262-9c7bb2f420ac">Penny, Radhik=
+a</li>
+      </ul>
+      <p><br></p>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><strong>Reference:<br></strong><a href=3D"https://wiki.bnc.ca/spac=
+es/COMPASS/pages/2715081356/Employee+access+user+transition+strategy" rel=
+=3D"nofollow">Employee access user transition strategy - NBIN Product Team =
+- Confluence</a></p>
+      <ul>
+       <li data-uuid=3D"7690eef8-7432-422f-a6a8-024968a2e1b3">Do we purge t=
+hem? Link them to short id?&nbsp;<br>
+         Why? <br>
+         Would fail the name resolution need of other modules?</li>
+       <li data-uuid=3D"d2235096-a414-4e1b-bafc-f2042ffe2cae">Will the inte=
+gration still work for employees since this is different to rest of SZ??</l=
+i>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">23</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"137" data-uuid=3D"16871=
+d27-e081-4b9a-96dc-9a35c44310a3"><s>Verify SOMA direct-link access for empl=
+oyees</s><br><time datetime=3D"2026-05-20" class=3D"date-past">20 May 2026<=
+/time><s>&nbsp;</s></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><span class=3D"status-macro aui-lozenge aui-=
+lozenge-success">COMPLETED</span>
+     <div class=3D"content-wrapper">
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"91b91fd6-2b81-4ddb-a12c-8209cefc403a"><strong>Proof=
+ from Kevin:<br><a class=3D"external-link" href=3D"https://cbncnbccs-my.sha=
+repoint.com/:v:/g/personal/kevin_karatsu_nbc_ca/IQDlc6L30llpTrTbp_RVzxb0Aa0=
+RaXa6cNsHoBq47bM0v_Y?e=3D8j4U7f" rel=3D"nofollow">2026-05-20_11-42-15.mp4</=
+a><br><a class=3D"external-link" href=3D"https://cbncnbccs-my.sharepoint.co=
+m/:v:/g/personal/kevin_karatsu_nbc_ca/IQBOCISgvWoNSo3XMgB8WM2WAbr16u51C48vb=
+ZxYv5pD-Bw?e=3DMfcFbu" rel=3D"nofollow">2026-05-20_11-43-43.mp4</a></strong=
+></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">24</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li class=3D"checked" data-inline-task-id=3D"138" data-uuid=3D"b03d3=
+1fc-3271-4e7e-b1a2-b281514b85ff"><span class=3D"status-macro aui-lozenge au=
+i-lozenge-moved">RISK #5</span><br><s>Set-up GIC-M direct-link access for e=
+mployees</s><br><time datetime=3D"2026-05-22" class=3D"date-past">22 May 20=
+26</time> <time datetime=3D"2026-05-29" class=3D"date-past">29 May 2026</ti=
+me>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">COMPL=
+ETED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"466507c7-7afa-432e-938f-58cd5934e887">Out-of-Scope =
+for the current GIC-M implementation</li>
+       <li data-uuid=3D"b9f9d7f7-7e48-4937-97ed-a5a070881b7e"><strong>F&amp=
+;UM Discovery:</strong> <time datetime=3D"2026-05-25" class=3D"date-past">2=
+5 May 2026</time>&nbsp;<br>
+        <p>Discussed about the Set-up GIC access for employees topic with A=
+dam, there are already GIC access for employees under two profiles: Desk, O=
+perations (for MFDO). Basically, all NBIN employees can be set up to one of=
+ the profiles and access via SZ SSO.</p>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li class=3D"checked" data-inline-task-id=3D"154" data-uuid=3D"6d0=
+37ef9-a079-4f94-94d6-87d5a4eb9e3a">Adam to provide the documentation - pers=
+onas description of Trading desk vs ops profile<br>
+          <ul>
+           <li data-uuid=3D"249f6be9-6845-497a-9def-dc969c0b1720">Reference=
+:=20
+            <ul>
+             <li data-uuid=3D"c2618b43-f1c5-4703-a7da-76400c8bca02" data-in=
+line-task-id=3D""><a href=3D"/spaces/GPTI/pages/1015221404/Personas">Person=
+as</a></li>
+             <li data-uuid=3D"d7cb9624-f3b8-46fd-aa35-630c0b600388" data-in=
+line-task-id=3D""><a href=3D"https://wiki.bnc.ca/spaces/GPTI/pages/11914214=
+07/CDIC+-+Information+pour+acc%C3%A9der+%C3%A0+l+application" rel=3D"nofoll=
+ow">https://wiki.bnc.ca/spaces/GPTI/pages/1191421407/CDIC+-+Information+pou=
+r+acc%C3%A9der+%C3%A0+l+application</a></li>
+             <li data-uuid=3D"d978af47-88f5-4d60-99b1-6896927ef709" data-in=
+line-task-id=3D""><a class=3D"external-link" href=3D"https://bnc.service-no=
+w.com/esc?id=3Dsc_cat_item&amp;sys_id=3D9ee1f2fb1b89de102c0a21fcbc4bcbe4" r=
+el=3D"nofollow">https://bnc.service-now.com/esc?id=3Dsc_cat_item&amp;sys_id=
+=3D9ee1f2fb1b89de102c0a21fcbc4bcbe4</a></li>
+            </ul></li>
+          </ul></li>
+         <li data-inline-task-id=3D"155" data-uuid=3D"289d2f04-c8d4-490e-b2=
+3d-ab11a09795a7"><s>Give it to Stan to verify the solution</s></li>
+         <li data-inline-task-id=3D"156" data-uuid=3D"065be58d-ebfc-4cfc-9b=
+4a-36869a5919b4"><s>Connect with Stan and Radhika to ensure onboarding all =
+employees who need GIC access</s></li>
+        </ul></li>
+       <li><strong>F&amp;UM Product decision (<em>click <a class=3D"externa=
+l-link" href=3D"https://nbin.aha.io/pages/FUM-N-44" rel=3D"nofollow">here</=
+a></em>):</strong>&nbsp;=20
+        <ul style=3D"list-style-type: square;">
+         <li data-uuid=3D"fb581114-cf02-4ba3-9b3b-151aba38adac">GIC NBIN ve=
+rsion is the client version, should not be offered through the internal url=
+ access by employees</li>
+         <li data-uuid=3D"81dfbf0e-e384-4e3e-9d84-d2189661fe2f">Employees w=
+ho need access to this version will request a secondary ID</li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">25</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"48" data-uuid=3D"8af0377d-45fd-45d6-aa7e-=
+7d1466cce28d">Validate provisioning for primary account flow (UAT)<br><time=
+ datetime=3D"2026-09-21" class=3D"date-future">21 Sep 2026</time></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"sha=
+r005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-=
+linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://wiki.bnc.ca">Radhika Sharma</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span></p>
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"194" data-uuid=3D"1ee38697-6a46-440d-aad7=
+-428631accd12">#10:&nbsp; Complete Integration Development - Primary ID: Pr=
+imary Account Provisioning<br><time datetime=3D"2026-07-07" class=3D"date-p=
+ast">07 Jul 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">26</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"49" data-uuid=3D"d71c09ac-a47b-4f87-8013-=
+e9e0eb77786d">Complete myIT setup (or PS JIRA) for <strong>additional accou=
+nt</strong> flow AND R2 ID / OSS ID <br><time datetime=3D"2026-08-31" class=
+=3D"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"soc=
+007" href=3D"/display/~soc007" data-linked-resource-id=3D"9568271" data-lin=
+ked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-base=
+-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">27</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"50" data-uuid=3D"369578f7-92d0-4a03-a012-=
+81096f0a00d7">Validate provisioning for <strong>additional account </strong=
+>flow??<br><time datetime=3D"2026-08-31" class=3D"date-upcoming">31 Aug 202=
+6</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"sha=
+r005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-=
+linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://wiki.bnc.ca">Radhika Sharma</a></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">28</td>
+    <td rowspan=3D"4" class=3D"confluenceTd">
+     <p>CX employee transition</p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"120" data-uuid=3D"9d856428-5363-43a3-abad=
+-42abd1a24231">Build employee transition /activation plan<br><time datetime=
+=3D"2026-08-10" class=3D"date-past">10 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"sha=
+r005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data-=
+linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-b=
+ase-url=3D"https://wiki.bnc.ca">Radhika Sharma</a>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">29</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"150" data-uuid=3D"92480440-c95e-4b98-8570=
+-0e96b14355c6"><span style=3D"color:#333333;">Dry run E2E (UAT)</span>
+        <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606=
+127347">
+         <li data-inline-task-id=3D"244" data-uuid=3D"f7769cdd-11e8-437a-ad=
+db-576f9ed2635f"><span style=3D"color:#333333;">One-time initial load solut=
+ion delivery&nbsp;<a class=3D"external-link" href=3D"https://nbin.aha.io/fe=
+atures/FUM-452" rel=3D"nofollow">FUM-452</a>&nbsp;<br><time datetime=3D"202=
+6-09-21" class=3D"date-future">21 Sep 2026</time>&nbsp;<br></span></li>
+        </ul></li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>FUM,&nbsp;NBIN Product</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+      <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">DEPENDE=
+NCY</span></p>
+      <ul>
+       <li data-uuid=3D"7c2f328e-a4cf-4004-807d-54ff6645feda">Implementatio=
+n plan (or checklist) for testing <a class=3D"confluence-userlink user-ment=
+ion" data-username=3D"newp002" href=3D"/display/~newp002" data-linked-resou=
+rce-id=3D"992295893" data-linked-resource-version=3D"1" data-linked-resourc=
+e-type=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Persis Esther New=
+ton</a>&nbsp;</li>
+       <li data-uuid=3D"38e51040-20f2-4416-8811-0a753c103b2d">Consolidated =
+User List <a class=3D"confluence-userlink user-mention" data-username=3D"sh=
+ar005" href=3D"/display/~shar005" data-linked-resource-id=3D"43941889" data=
+-linked-resource-version=3D"2" data-linked-resource-type=3D"userinfo" data-=
+base-url=3D"https://wiki.bnc.ca">Radhika Sharma</a></li>
+       <li data-uuid=3D"67411e05-08dc-433b-b2f7-f015bdd97769">Integration w=
+ith IIQ <a class=3D"confluence-userlink user-mention" data-username=3D"h277=
+zjj" href=3D"/display/~h277zjj" data-linked-resource-id=3D"2459069640" data=
+-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-=
+base-url=3D"https://wiki.bnc.ca">Jeremy Kama</a></li>
+       <li data-uuid=3D"508eac7e-4284-4642-816f-642f59e92d3f">Execution in =
+F&amp;UM <a class=3D"confluence-userlink user-mention" data-username=3D"raz=
+a002" href=3D"/display/~raza002" data-linked-resource-id=3D"9568289" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data-ba=
+se-url=3D"https://wiki.bnc.ca">Alexandre Razmakhnine</a>&nbsp;</li>
+      </ul>
+      <p><br></p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">30</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"51" data-uuid=3D"5dacf848-3a54-47c2-b411-=
+577ec8044395">Complete R2 employee user clean-up <br><time datetime=3D"2026=
+-08-07" class=3D"date-past">07 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Radhika</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">31</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"53" data-uuid=3D"247554bd-50ad-4f64-9db1-=
+225f603790db">Employee communications <br><time datetime=3D"2026-08-31" cla=
+ss=3D"date-upcoming">31 Aug 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Radhika</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">32</td>
+    <td rowspan=3D"4" class=3D"confluenceTd">
+     <p>Go-live</p></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"54" data-uuid=3D"e4dca101-fbe6-4b2c-99aa-=
+b4c77b2a1a7a">Employee access launch (Production)<br><time datetime=3D"2026=
+-10-02" class=3D"date-future">02 Oct 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Radhika</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">33</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul>
+       <li data-uuid=3D"133466e6-8df7-4756-b8d4-c4f573a2d5b8">One-time init=
+ial user load&nbsp;<br><time datetime=3D"2026-10-02" class=3D"date-future">=
+02 Oct 2026</time>&nbsp;</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">Esther</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">34</td>
+    <td class=3D"confluenceTd">
+     <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606127=
+347">
+      <li data-inline-task-id=3D"55" data-uuid=3D"bd125a82-4f0a-42df-a86a-6=
+b3672180e01">Monitoring procedures go-live</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Sarina</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">35</td>
+    <td class=3D"confluenceTd">
+     <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2606127=
+347">
+      <li data-inline-task-id=3D"56" data-uuid=3D"8269d80d-2b18-49d9-a64b-8=
+908628bc515">First quarterly certification</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Sarina</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">36</td>
+    <td class=3D"confluenceTd">
+     <p>Post go-live</p></td>
+    <td class=3D"confluenceTd">BAU service request process for changes and =
+coordination of updates</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><span class=3D"status-macro aui-lozenge">NOT STARTED</span></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h1 id=3D"EmployeeAccessProjectPlan-KeyRisks&amp;Issues">Key Risks &amp; Is=
+sues</h1>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 92=
+.428%;">
+  <colgroup>
+   <col style=3D"width: 3.10709%;">
+   <col style=3D"width: 5.25721%;">
+   <col style=3D"width: 41.1018%;">
+   <col style=3D"width: 6.33255%;">
+   <col style=3D"width: 7.10918%;">
+   <col style=3D"width: 37.0992%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">ID</th>
+    <th scope=3D"col" class=3D"confluenceTh">Type</th>
+    <th scope=3D"col" class=3D"confluenceTh">Description</th>
+    <th scope=3D"col" class=3D"confluenceTh">Status</th>
+    <th scope=3D"col" class=3D"confluenceTh">Logged</th>
+    <th scope=3D"col" class=3D"confluenceTh">Remediation</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">1</td>
+    <td class=3D"confluenceTd"><s>Risk</s></td>
+    <td class=3D"confluenceTd"><s>Discovery lagging putting Jul at risk - n=
+ew integration is not straight forward due to different tenants for the sam=
+e platform / multi-ID requirements</s></td>
+    <td class=3D"confluenceTd">Closed</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-03-30" class=3D"date-past">30 Mar 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"60dbd51a-1644-4a15-842a-5b6372b5cd2b">Prioritizing t=
+ime to close off review discussions and to see if we can simplify scope.</l=
+i>
+      <li data-uuid=3D"8d13438d-bea0-40a6-a547-7bf98309e78d">Discovery is c=
+ompleted. Design Review is completed.</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2</td>
+    <td class=3D"confluenceTd"><s>Risk</s></td>
+    <td class=3D"confluenceTd"><s>Support operationalization lead time (2 m=
+onths) may be impacted by current project plan&nbsp;</s></td>
+    <td class=3D"confluenceTd">Monitoring</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-04-21" class=3D"date-past">21 Apr 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"0c1cc761-0bec-491b-b630-bf4ee4a524c0">There is a wee=
+kly huddle to review the project plan&nbsp;</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3</td>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">
+     <p>IIQ Integration / Solution Development:</p>
+     <ul style=3D"list-style-type: square;">
+      <li>The additional Secondary ID scope was not planned for Q3 in IIQ (=
+ETC: Q4)</li>
+      <li data-uuid=3D"b4666389-7e89-4084-a06a-7abe4b9738ec">Even if IIQ is=
+ able to create capacity in Q3, F&amp;UM has not yet provided the required =
+APIs to support the additional work</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Open</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-04-27" class=3D"date-past">27 Apr 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"7271462b-0293-48a2-ae88-92cb157e6c8d">Ad hoc discove=
+ry is currently underway to align on the required APIs.</li>
+      <li data-uuid=3D"b8ccee1d-ff6b-422c-90b1-409d496333e6">Once the APIs =
+are available, discussions will be initiated with IIQ to negotiate capacity=
+ for the added scope</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">4</td>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">
+     <p>Employee migration approach is unclear.</p>
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"dbd4139b-2018-4a41-9ce7-9b4f0052afcf">Alignment on t=
+he activities before, during, and after migration</li>
+      <li data-uuid=3D"115cae6f-0ee6-4f13-aa78-89a3e52c0872"><s>Owen:&nbsp;=
+</s><br><s><em>I still don't know what happens when an employee's name and =
+email gets changes, how do we ingest that change/ if IIQ has an automation =
+for this.&nbsp;</em></s><br><s><em>Candi said she'll book some time with Je=
+remy to see what things they typically include in an integration.&nbsp;</em=
+></s></li>
+     </ul></td>
+    <td class=3D"confluenceTd">Closed</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-05-06" class=3D"date-past">06 May 2026</tim=
+e>&nbsp;<br><time datetime=3D"2026-05-20" class=3D"date-past">20 May 2026</=
+time>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"74a7e003-f3a1-46cc-9069-965c2d468b04">Analysis is o=
+ngoing to define the user transition strategy ( Candi <time datetime=3D"202=
+6-05-15" class=3D"date-past">15 May 2026</time> )=20
+        <ul>
+         <li style=3D"list-style-type: none;">
+          <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"26=
+06127347">
+           <li data-inline-task-id=3D"97" data-uuid=3D"99e348d7-744c-4ea5-9=
+610-29da50379496">
+            <p>Complete the impact analysis of outgoing employee user id (e=
+xternal user id)</p></li>
+           <li data-inline-task-id=3D"98" data-uuid=3D"cffb7361-ccf2-40a2-9=
+048-b8a9eed2607d">
+            <p>Verify SOMA / GIC access for employees</p></li>
+          </ul></li>
+        </ul></li>
+      </ul>
+      <p><br></p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">5</td>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">
+     <p><s>Employee direct access to GIC is currently not working</s></p></=
+td>
+    <td class=3D"confluenceTd">Closed</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-05-12" class=3D"date-past">12 May 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"61b1332f-18d3-42da-9c3f-ff902a69b3bf">Candi to alig=
+n with Mahdi, then possibly with Adam (Orion)</li>
+       <li data-uuid=3D"3515c4eb-d303-44fa-ab9b-86bf1c834460">
+        <p>Context on <strong>Employees SSO into GIC:</strong></p>
+        <ul>
+         <li data-uuid=3D"95764f18-acba-41a3-b0e2-aeb1cd85f2c0">Basically, =
+the GIC-NBIN version is meant for NBIN clients=20
+          <ul>
+           <li>On the other hand, the GIC-M app, which is accessible via We=
+lcome app or direct url, is meant for either Desk or MFDO, and this version=
+ requires more privileges. (Source: Joanne and Adam)</li>
+          </ul></li>
+        </ul>
+        <p><strong>Question:</strong> Should the employees who now access G=
+IC-NBIN via Compass (e.g. Zheng, Stan) be set up to access the full version=
+ in the future?</p>
+        <ul>
+         <li data-uuid=3D"c79c3bb8-94b3-449a-808f-ef48b1b84f48"><strong>Ans=
+wer: </strong>No, the full version cannot be made available to employees, o=
+nly desk / MFDO should have access.</li>
+        </ul>
+        <p><strong>Question: </strong>For <strong>employees who now access =
+the GIC-NBIN version via Compass,</strong> do they still need access to the=
+ "client" version after employee access is launched? If yes, how?</p>
+        <ul>
+         <li data-uuid=3D"45dfd700-6242-43f0-aff8-3883e981fd8e">The problem=
+ is, the client version is not integrated to Okta NBC tenant and we don't h=
+ave SZ id in employee accounts anymore. If we need to support this use case=
+, will have to find the solution.</li>
+         <li data-uuid=3D"250441ff-a96e-4372-95a8-fdf0f9fa5bd3"><strong>Ans=
+wer:</strong> They would have a secondary external CX ID which links to the=
+ir SZ ID, and SSO to the GIC-NBIN version via Compass</li>
+        </ul></li>
+      </ul>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">6</td>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"51fd69a5-bd6f-4113-80c6-88f33116cb22">API scope chan=
+ges could lead to delayed delivery</li>
+     </ul>
+     <ul style=3D"list-style-type: square;">
+      <li data-uuid=3D"471d1430-5ae3-49da-8f97-840b54057cda">Devops environ=
+ment set-up delayed for UAT and PreProd due AWS incorrect config</li>
+     </ul></td>
+    <td class=3D"confluenceTd">Open</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-05-27" class=3D"date-past">27 May 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul style=3D"list-style-type: square;">
+       <li data-uuid=3D"911c02bc-bad8-488e-8bc9-5de0e9de6640">Working with =
+contributors to handover changes to the Delivery team</li>
+       <li data-uuid=3D"316ce1f0-3ba0-45e7-8481-a77334015dc8">DevOps is rea=
+ching out to AWS for resolution.</li>
+      </ul>
+     </div></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h1 id=3D"EmployeeAccessProjectPlan-Decisions&amp;WeeklyUpdates">Decisions =
+&amp; Weekly Updates</h1>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 77=
+.2136%;">
+  <colgroup>
+   <col style=3D"width: 9.87216%;">
+   <col style=3D"width: 63.563%;">
+   <col style=3D"width: 13.8041%;">
+   <col style=3D"width: 12.6805%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">ID</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">Owner</th>
+    <th class=3D"confluenceTh">Logged</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><strong>Decision&nbsp;</strong></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul>
+       <li data-uuid=3D"df6e619c-c381-4f0e-b64b-d972f9f3d7cd">Current DWH e=
+mployee access in F&amp;UM to be maintained until migration is complete.</l=
+i>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><a class=3D"confluence-userlink user-mention" data-username=3D"pie=
+j002" href=3D"/display/~piej002" data-linked-resource-id=3D"1133445809" dat=
+a-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data=
+-base-url=3D"https://wiki.bnc.ca">Joseph-Pascal Pierre</a></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-05-11" class=3D"date-past">11 May 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><strong>Weekly Update</strong></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"260612=
+7347">
+       <li data-inline-task-id=3D"109" data-uuid=3D"98bd617c-b551-49cc-b46b=
+-1fc10281201f">The F&amp;UM team is currently blocked due to UI constraints=
+. Sasha will schedule a technical session with J-P to help unblock this.<br=
+><time datetime=3D"2026-05-15" class=3D"date-past">15 May 2026</time>&nbsp;=
+</li>
+       <li class=3D"checked" data-inline-task-id=3D"110" data-uuid=3D"8b02c=
+6d6-d06d-42e9-b6b3-7a293772ed2a"><s>Seb confirmed that the name and email c=
+hange flows are already supported within IIQ, both for Fieldglass and Succe=
+ssFactors.</s><br><s>Next step is to proceed with testing alongside Chasse,=
+ Yulia</s> <br><time datetime=3D"2026-05-12" class=3D"date-past">12 May 202=
+6</time>&nbsp;(<a class=3D"confluence-userlink user-mention" data-username=
+=3D"mulo002" href=3D"/display/~mulo002" data-linked-resource-id=3D"94231005=
+6" data-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo=
+" data-base-url=3D"https://wiki.bnc.ca">Owen Mullings</a> )</li>
+       <li data-inline-task-id=3D"111" data-uuid=3D"e6531b3c-095d-4bee-ba0f=
+-4274467c8cb8">IIQ is waiting for the API changes to be completed and hande=
+d over <br><time datetime=3D"2026-06-02" class=3D"date-past">02 Jun 2026</t=
+ime>&nbsp; (<a class=3D"confluence-userlink user-mention" data-username=3D"=
+raza002" href=3D"/display/~raza002" data-linked-resource-id=3D"9568289" dat=
+a-linked-resource-version=3D"1" data-linked-resource-type=3D"userinfo" data=
+-base-url=3D"https://wiki.bnc.ca">Alexandre Razmakhnine</a> )&nbsp;</li>
+       <li data-inline-task-id=3D"112" data-uuid=3D"57d19d57-b1cc-4053-84bb=
+-d5fce85f389b">Access Matrix to be finalized in a meeting scheduled today, =
+followed by a walkthrough session with Jeremy and Atesh&nbsp;<time datetime=
+=3D"2026-05-13" class=3D"date-past">13 May 2026</time> (<a class=3D"conflue=
+nce-userlink user-mention" data-username=3D"shar005" href=3D"/display/~shar=
+005" data-linked-resource-id=3D"43941889" data-linked-resource-version=3D"2=
+" data-linked-resource-type=3D"userinfo" data-base-url=3D"https://wiki.bnc.=
+ca">Radhika Sharma</a> )</li>
+      </ul>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-05-12" class=3D"date-past">12 May 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Decision</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"5d727738-d600-418b-baab-315834d2c7c6">GIC NBIN versi=
+on is the client version, should not be offered through the internal url ac=
+cess by employees</li>
+      <li data-uuid=3D"7d2e9909-f8e7-4f12-9100-58ddf9592ac5">Employees who =
+need access to this version will request a secondary ID</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><a class=3D"confluence-userlink user-mention=
+" data-username=3D"soc007" href=3D"/display/~soc007" data-linked-resource-i=
+d=3D"9568271" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"userinfo" data-base-url=3D"https://wiki.bnc.ca">Candi So</a>&nbsp;</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><time datetime=3D"2026-06-03" class=3D"date-past">03 Jun 2026</tim=
+e>&nbsp;</p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">4</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>5</p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">6</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+     </div></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">7</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+     </div></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h1 id=3D"EmployeeAccessProjectPlan-Participants">Participants</h1>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 30=
+.8984%;">
+  <colgroup>
+   <col style=3D"width: 46.4658%;">
+   <col style=3D"width: 53.5218%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Group</th>
+    <th scope=3D"col" class=3D"confluenceTh">Contact</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Owner</td>
+    <td class=3D"confluenceTd">Lam, Penny</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Product</td>
+    <td class=3D"confluenceTd">So, Candi<br>
+      Adusumilli, Harsha</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">IT Delivery</td>
+    <td class=3D"confluenceTd">Ullattil, Sujith Muraleedharan<br>
+      Newton, Persis Esther<br>
+      Gulchand, Atesh</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">IIQ</td>
+    <td class=3D"confluenceTd">Gagn=C3=A9, S=C3=A9bastien<br>
+      Kama, Jeremy</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Product Support</td>
+    <td class=3D"confluenceTd">Khanna, Babita<br>
+      Chawla, Sarina<br>
+      Astrologo, Katrina<br>
+      Ahuja, Khushboo Shiv</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Product Activations</td>
+    <td class=3D"confluenceTd">Sharma, Radhika</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Risk</td>
+    <td class=3D"confluenceTd">Seguin, Jonathan</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Data Warehouse</td>
+    <td class=3D"confluenceTd">Pascual, Darwin<br>
+      Ogundare, Oluwagbenga</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Project</td>
+    <td class=3D"confluenceTd">Oyemade, Obaloluwa<br>
+      Chartray, Audrey-Anne</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86299_1177789569.1788185448059--

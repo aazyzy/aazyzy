@@ -1,0 +1,404 @@
+Date: Mon, 31 Aug 2026 09:53:20 -0400 (EDT)
+Message-ID: <1977445374.86107.1788184400502@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86106_297271888.1788184400501"
+
+------=_Part_86106_297271888.1788184400501
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access matrix configuration CX</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access matrix configuration CX</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"EmployeeaccessmatrixconfigurationCX-AllowableOptionsforPr=
+imaryAccessAssignments">Allowable Options for Primary Access Assignments</h=
+1>
+<h2 id=3D"EmployeeaccessmatrixconfigurationCX-FirmSetupRules">Firm Setup Ru=
+les</h2>
+<p>There are 3 assignable primary firm setups for employees:</p>
+<ol>
+ <li data-uuid=3D"b74d2d6f-a40d-45eb-83e0-a3639746541b"><strong>NBIN Intern=
+al:</strong> access to any of the firm accounts under the NBIN business lin=
+e; generally used by teams who are supporting clients, processing requests =
+on their behalf, or managing a Middle / Back Office function for our firms<=
+/li>
+ <li data-uuid=3D"ba48b216-02f5-4242-a70d-4eb3aef55182"><strong>COR</strong=
+>: an internal firm setup configured largely as an IB, for operational purp=
+oses containing operational accounts and test accounts; some RR ranges are =
+using for internal processing e.g. accounting adjustments and others are us=
+ed solely for product / project testing purposes</li>
+</ol>
+<p>The intent of the primary CX profile is to reflect access required for t=
+he job function of the user, so firm selection will be standardized against=
+ the department selected. &nbsp;</p>
+<p>A primary user profile for CX will have the firm pre-defined against the=
+ job function.</p>
+<h2 id=3D"EmployeeaccessmatrixconfigurationCX-UserSetupRules">User Setup Ru=
+les</h2>
+<h2 id=3D"EmployeeaccessmatrixconfigurationCX-CXiscurrentlyprimarilyarole-b=
+asedmodelwhere:"><span style=3D"font-size: 14.0px;letter-spacing: 0.0px;">C=
+X is currently primarily a role-based model where:</span></h2>
+<ol>
+ <li data-uuid=3D"cf6559e8-7bfd-46a9-a683-ae1f5cd210fb">A fixed feature acc=
+ess profile is assigned to a user, and</li>
+ <li data-uuid=3D"5d3191d7-201d-49d2-b882-7d10399ce70f">A configurable data=
+ access profile (i.e. RR codes) is assigned to work against those features.=
+</li>
+</ol>
+<p>This model generally supports departmental access to CX.</p>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-RoleProfileAssignment">Role P=
+rofile Assignment</h3>
+<p>There is a 1:1 departmental relationship with a given fixed profile setu=
+p to ensure consistent access for each job function, and least privileges a=
+re applied.</p>
+<ul>
+ <li data-uuid=3D"b99684b1-9175-4dc9-bd60-a763d1be5179">e.g. Trade Desk =3D=
+ Manage Transactions</li>
+ <li data-uuid=3D"25de26b8-ecd6-4d65-8031-aed45c95b53b">e.g. Registered Pla=
+ns team =3D Manage Service Requests</li>
+ <li data-uuid=3D"1a411135-cbdf-49a8-8ef1-0cc59b179ac3">e.g. Sales team =3D=
+ View-Only</li>
+</ul>
+<p>Allowable departments are as defined in the access matrix at the departm=
+ent level (not only by transit).</p>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-ModuleOverrides">Module Overr=
+ides</h3>
+<p>Manual "override" configurations are required around initial feature lau=
+nches due limitations of the portal behavior - new features that are launch=
+ed but hidden for internal users will still be selectable in the user setti=
+ngs, and must be manually turned off each time a new profile is created or =
+role changed.</p>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-DataAccess">Data Access</h3>
+<p>Corresponding to the purpose of the job function, RR codes would be assi=
+gned as such:</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 54=
+.9348%;">
+  <colgroup>
+   <col style=3D"width: 23.6532%;">
+   <col style=3D"width: 76.3124%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Firm</th>
+    <th scope=3D"col" class=3D"confluenceTh">RR Ranges</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">NBIN Internal</td>
+    <td class=3D"confluenceTd">Firm-level access for support / operational&=
+nbsp;departments</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">COR</td>
+    <td class=3D"confluenceTd">
+     <p>CNTA for access to live test accounts only</p>
+     <p>(NB: COR accounts are also accessible within NBIN Internal for Oper=
+ational teams)</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">A specific client firm</td>
+    <td class=3D"confluenceTd">Custom; typically firm-level access for vali=
+dators</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-AdditionalSettings">Additiona=
+l Settings</h3>
+<p>Linked ID's:</p>
+<ul>
+ <li data-uuid=3D"baca617f-a9db-4066-8dbf-49806763e5de">R2, OSS ID's will n=
+eed to be included once these ID's are setup and are optional to specify</l=
+i>
+</ul>
+<p>Default module:</p>
+<ul>
+ <li data-uuid=3D"2cb8826e-a971-4e49-8deb-1c9eff092fe3">Accounts for all us=
+ers EXCEPT for those with a privileged user admin. role (see below)&nbsp;</=
+li>
+</ul>
+<h1 id=3D"EmployeeaccessmatrixconfigurationCX-AllowableOptionsforAdditional=
+AccessAssignments">Allowable Options for Additional&nbsp;Access Assignments=
+</h1>
+<h2 id=3D"EmployeeaccessmatrixconfigurationCX-FirmSetupRules.1">Firm Setup =
+Rules</h2>
+<p>There are 3 assignable secondary firm setups for employees:</p>
+<ol>
+ <li data-uuid=3D"47fdbdd7-b143-4ab9-b5ed-afbb56ed3aab"><strong>NBIN Intern=
+al:</strong> access to any of the firm accounts under the NBIN business lin=
+e; generally used by teams who are supporting clients, processing requests =
+on their behalf, or managing a Middle / Back Office function for our firms<=
+/li>
+ <li data-uuid=3D"64bbfcc8-d1df-4459-9903-3361a2133148"><strong>COR</strong=
+>: an internal firm setup configured largely as an IB, for operational purp=
+oses containing operational accounts and test accounts; some RR ranges are =
+using for internal processing e.g. accounting adjustments and others are us=
+ed solely for product / project testing purposes</li>
+ <li data-uuid=3D"55427e9d-b197-4fb9-8664-a830ab9d9676"><strong>A specific =
+client firm</strong>: a live firm on the platform (temporary)</li>
+</ol>
+<h2 id=3D"EmployeeaccessmatrixconfigurationCX-UserSetupRules.1">User Setup =
+Rules</h2>
+<p>These additional profiles are dependent on its usage and therefore do no=
+t have standard configurations.</p>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-RoleProfileAssignment.1">Role=
+ Profile Assignment</h3>
+<p>Restrictions TBC.</p>
+<h3 id=3D"EmployeeaccessmatrixconfigurationCX-ModuleOverrides.1">Module Ove=
+rrides</h3>
+<p>Customizable</p>
+<p><strong>Data Access</strong></p>
+<p>Customizable</p>
+<p><strong>Additional Settings</strong></p>
+<p>Linked ID's:</p>
+<ul>
+ <li data-uuid=3D"d9ea43d5-f2ce-45c6-8932-b6fc4616f3ad">R2, OSS ID's will n=
+eed to be included once these ID's are setup and are optional to specify; R=
+2 ID's cannot be reused across profiles</li>
+</ul>
+<p>Default module:</p>
+<ul>
+ <li data-uuid=3D"e7a4755f-0649-465c-92db-e7f54995e370">Accounts for all us=
+ers&nbsp;</li>
+</ul>
+<h1 id=3D"EmployeeaccessmatrixconfigurationCX-PrivilegedAccessAssignments">=
+Privileged Access Assignments</h1>
+<p>CX has roles that provides higher level access:</p>
+<ol>
+ <li data-uuid=3D"c92d851b-3ae9-4813-ba68-a39efb36624e">Manage Firm &amp; U=
+ser</li>
+ <li data-uuid=3D"2dd23342-7007-4308-92d9-16cf6c7c4e83">Config Platform</li=
+>
+ <li data-uuid=3D"8d8e0eb8-d28b-456f-a075-27e17ca39640">TBC - superuser (F&=
+amp;UM + Manage All)</li>
+</ol>
+<p>Privileged access profiles needs to be the primary profile in order to a=
+pply the full lifecycle controls of IIQ.</p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86106_297271888.1788184400501--

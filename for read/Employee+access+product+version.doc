@@ -1,0 +1,594 @@
+Date: Mon, 31 Aug 2026 10:09:58 -0400 (EDT)
+Message-ID: <1344027157.86298.1788185398061@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86297_838714322.1788185398060"
+
+------=_Part_86297_838714322.1788185398060
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Employee access product version</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Employee access product version</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p><a class=3D"external-link" href=3D"https://nbin.aha.io/products/FUM/user=
+_story_maps/7314400247717852084" rel=3D"nofollow">User story maps for Firm =
+&amp; User Mgmt</a></p>
+<p>Nav path: Aha! Epics &gt; User story map, title: Employee access managem=
+ent 1.0&nbsp;&nbsp;</p>
+<h2 id=3D"Employeeaccessproductversion-MVPrelease(2026Q3)">MVP release (202=
+6 Q3)</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" data-snooker-col-s=
+eries=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 94.0901%;"=
+>
+  <colgroup>
+   <col style=3D"width: 5.64151%;">
+   <col style=3D"width: 19.5207%;">
+   <col style=3D"width: 34.526%;">
+   <col style=3D"width: 16.1347%;">
+   <col style=3D"width: 24.1457%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" da=
+ta-mce-resize=3D"false" scope=3D"col"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Epic</th>
+    <th scope=3D"col" class=3D"confluenceTh">Enabled Capabilities</th>
+    <th scope=3D"col" class=3D"confluenceTh">Key Outcome</th>
+    <th scope=3D"col" class=3D"confluenceTh">Notes</th>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">1</td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"letter-spacing: 0.0px;">Backfill Remaining User Pack=
+ages for Employee Access + Fix TA&nbsp;</span><a class=3D"external-link" hr=
+ef=3D"https://nbin.aha.io/features/FUM-432" rel=3D"nofollow" style=3D"lette=
+r-spacing: 0.0px;">FUM-432</a><span style=3D"letter-spacing: 0.0px;"> and</=
+span><span style=3D"letter-spacing: 0.0px;"> </span><a class=3D"external-li=
+nk" href=3D"https://nbin.aha.io/features/FUM-437" rel=3D"nofollow" style=3D=
+"letter-spacing: 0.0px;">FUM-437</a></p></td>
+    <td class=3D"confluenceTd">
+     <p>1. New user packages required for employee access are enabled:</p>
+     <ul>
+      <li data-uuid=3D"ce1c0053-108b-4b6f-a8e4-6ea669110e32">Global Admin</=
+li>
+      <li data-uuid=3D"b0e69175-36ec-42fd-af70-110fba9c2f8d">Manage Orders =
+and Trades</li>
+      <li data-uuid=3D"1fb207cd-31b4-4e1a-bc40-3ca608c572f4">Manage Users</=
+li>
+      <li data-uuid=3D"62c7cbcc-dfa8-4a64-830d-ee17fc68342b">Manage User Pa=
+sswords</li>
+      <li data-uuid=3D"3ed3aa17-911e-4aef-bd85-b9df3537b9ea">Admin Orders a=
+nd Trade</li>
+      <li data-uuid=3D"51049d15-c861-42a2-92e4-f2fbc5bcbab9">Full Admin Tra=
+des</li>
+     </ul>
+     <p>2. Feature and resource assignments in current user packages are re=
+conciled to the access matrix</p>
+     <p>3. TA access control are aligned to the user package specification<=
+/p>
+     <p>4. Trade Support group are re-assigned to the appropriate user pack=
+age&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"4e4ce25b-844f-45ae-87da-55e99376edac">Ensure all pre=
+scribed internal access provisioning according to the Internal access matri=
+x are accounted for</li>
+      <li data-uuid=3D"ac75a5ee-7306-4020-a25c-50faa2cf97f5">Ensure the rea=
+diness of Trade Allocation product launch</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:</p>
+     <ul>
+      <li data-uuid=3D"325ea6fa-32b9-4ca2-85d6-8247f91b0b4b">Cross-check pa=
+ckage access mappings verse internal access matrix, identifying gaps (if an=
+y)&nbsp;</li>
+      <li data-uuid=3D"7a471983-4598-4be4-93f0-23ca0f09fb25">Finalize Admin=
+ Transactions access mappings</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">2</td>
+    <td class=3D"confluenceTd">Primary account provisioning via IIQ <a clas=
+s=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-427" rel=3D"no=
+follow">FUM-427</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. Test env of Compass internal access is enabled</p>
+     <p>(non-prod IIQ =E2=86=92 CX QA / UAT / PP =E2=86=92 non-prod Okta NB=
+C tenant)</p>
+     <p>2. FUM data schema and APIs are restructured to support email unici=
+ty for all CX users (external users included)</p>
+     <p><span style=3D"color:#c9372c;">3. Refactor Manage DWH user admin pa=
+ge&nbsp;</span></p>
+     <p>4. Compass Internal access matrix is configured in IIQ</p>
+     <p>5. IIQ auto-provisioning of CX primary accounts is enabled for thes=
+e use cases:&nbsp;</p>
+     <ul>
+      <li data-uuid=3D"4aedab65-f8d6-409a-954e-3b3f4dc647f8">Add access</li=
+>
+      <li data-uuid=3D"e5d81060-6cd5-41a4-ad65-5d8614aa18d5">Modify access&=
+nbsp;</li>
+     </ul>
+     <p>6. Operation workflow to update linked Ids for CX primary accounts =
+is enabled</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9ef55a71-6b13-4fba-8928-f53ffed1f411">Enable E2E Int=
+ernal access testing in non-prod env</li>
+      <li data-uuid=3D"fdbe759f-b438-476e-b2db-03820959db81">Compliant to B=
+ank's employee access provisioning standard</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:</p>
+     <ul>
+      <li data-uuid=3D"28e16c6d-060f-4707-ac51-78d355f393c8">CIAM team and =
+IIQ team to support non-prod env setup</li>
+      <li data-uuid=3D"b9947ac0-1e65-4485-a847-926b2262d162">Finalize Inter=
+nal access matrix</li>
+      <li data-uuid=3D"969edca0-0a62-40ba-9547-98f79c5b0f0a">IIQ configurat=
+ion: new catalog items, internal access matrix, request &amp; approval rout=
+es for access provisioning</li>
+      <li data-uuid=3D"52afb9a0-52cf-4979-a185-5f8c159402eb">CX-IIQ endpoin=
+ts for access provisioning</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">3</td>
+    <td class=3D"confluenceTd">SSO access to platform <a class=3D"external-=
+link" href=3D"https://nbin.aha.io/features/FUM-429" rel=3D"nofollow">FUM-42=
+9</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. New Compass internal URL is enabled</p>
+     <p>2. Given that their primary account has been set up, employee can s=
+ingle signon CX and all integrated apps (excluding SZ apps)</p>
+     <p>3. Self-serve user profile mgmt features are hidden, including:</p>
+     <ul>
+      <li data-uuid=3D"7c954cbb-076f-4a6f-aa3a-439fb26fbcc7">Change Passwor=
+d</li>
+      <li data-uuid=3D"3fbfdeda-e130-4332-88d2-7e138a957007">Change 2FA</li=
+>
+      <li data-uuid=3D"6c8e0aec-ceef-4f3d-af3f-176553b246aa">Change Securit=
+y Question</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"485bb99c-5bf3-4824-b87e-f22b3077179b">Enhance Employ=
+ee CX login &amp; access experience&nbsp;</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:&nbsp;</p>
+     <ul>
+      <li data-uuid=3D"d7200147-6698-4901-9b6d-267dc6a54f71">DevOps to supp=
+ort new internal URL setup</li>
+      <li data-uuid=3D"255ba545-302c-4da0-921f-9b6e6c59bdc2">Integrated sys=
+tems (e.g. IIS apps) to handle employee access.. GIC-M app is TBD</li>
+      <li data-uuid=3D"ff06b497-5cdd-405e-bebb-b30724b8af79">Activation tea=
+m and IIQ to collaborate on CX employee account initial load (~260)</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">4</td>
+    <td class=3D"confluenceTd">User account deactivation for primary accoun=
+ts <a class=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-428"=
+ rel=3D"nofollow">FUM-428</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. IIQ auto-deprovisioning of CX primary accounts is enabled for th=
+ese use cases:&nbsp;</p>
+     <ul>
+      <li data-uuid=3D"f19460f7-a21f-44ae-ad67-8a5670fbef9d">Remove access<=
+/li>
+      <li data-uuid=3D"8a138d7e-a43e-4c1f-af3d-61a8c15212a1">Employee depar=
+ture</li>
+     </ul>
+     <p>2. Auto-deactivating linked secondary ID and all additional ID's</p=
+></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"babb9f3a-12df-404c-bc49-affea9e4de78">Compliant to B=
+ank's employee access de-provisioning standard</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:</p>
+     <ul>
+      <li data-uuid=3D"c62a7c68-478f-4f2d-8234-5c37a1aba77e">IIQ configurat=
+ion: new catalog items, internal access matrix, request &amp; approval rout=
+es for access de-provisioning&nbsp;</li>
+      <li data-uuid=3D"a1bf997a-f424-4ccd-989f-7752eba5c754">CX-IIQ endpoin=
+ts for access de-provisioning</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">5</td>
+    <td class=3D"confluenceTd">User certifications for primary accounts onl=
+y <a class=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-426" =
+rel=3D"nofollow">FUM-426</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. IIQ ongoing employee monitoring and the annual employee access c=
+ertification are set up</p>
+     <ul>
+      <li data-uuid=3D"50c14cc6-918a-49d9-b427-2d77fca6a6d3">Ensure that se=
+condary ID and all additional ID's will be linked to the primary ID and app=
+ear on the report</li>
+     </ul>
+     <p>2. Rule to deactivate user access after 90-day inactivity is enforc=
+ed</p>
+     <p><br></p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"90f39a2d-be74-4290-8726-67829241c93e">Compliant to B=
+ank's employee access monitoring standard</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:&nbsp;</p>
+     <ul>
+      <li data-uuid=3D"098a6711-dc36-459e-bddf-2d85b3e166b5">Locate the res=
+ponsible team to set up IIQ ongoing monitoring and annual access certificat=
+ion</li>
+      <li data-uuid=3D"b6ef1521-1378-4d82-ab54-c0bfe124a2bd">Detail design =
+on how to implement the 90-day inactivity rule&nbsp;</li>
+     </ul></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">6</td>
+    <td class=3D"confluenceTd">One-time initial load <a class=3D"external-l=
+ink" href=3D"https://nbin.aha.io/features/FUM-452" rel=3D"nofollow">FUM-452=
+</a></td>
+    <td class=3D"confluenceTd">
+     <ol>
+      <li data-uuid=3D"aea365b2-58e6-4114-920a-fbe495edfb53"><span>All in-s=
+cope employees with existing Compass access in internal firms (COR or NBIN)=
+ are transitioned to a single primary account provisioned through IIQ.</spa=
+n></li>
+      <li data-uuid=3D"d0191b0d-5cda-4621-826e-cff56a5f9c1e"><span><span>Ex=
+isting DWH access is preserved and re-applied where required during account=
+ creation or update.</span></span></li>
+      <li data-uuid=3D"550ad445-4834-485f-bf0b-95862c3dcf54"><span>External=
+ employee user IDs are sunset so they are no longer visible in User admin, =
+usable on the Login page, or maintainable by admins.</span></li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"text-align: left;">
+      <li data-uuid=3D"fc76bf46-0fa7-4ad6-a662-353be43fbf7f">Primary employ=
+ee accounts of all listed users are successfully set up&nbsp;</li>
+      <li data-uuid=3D"3ee26595-3f2e-495a-bb85-a3165bdee0dd">External user =
+accounts of the employees are not accessible anymore</li>
+      <li data-uuid=3D"8e5bdffd-3525-4b3e-ae5e-aa76bb0317b6">If existed pre=
+viously, employees' DWH app access are not impacted</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p>Dependencies:</p>
+     <ul style=3D"text-align: left;">
+      <li data-uuid=3D"13ba1ffa-1b24-4a61-b125-dcb9aed29df4">NBIN internal =
+access matrix is finalized and configured in IIQ</li>
+      <li data-uuid=3D"b8276cf6-cea3-48e3-a4db-9b8cc529aabd">Tech integrati=
+on between IIQ and FUM has been completed</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h2 id=3D"Employeeaccessproductversion-PostMVPrelease(Descopedfrom2026Q3&am=
+p;Q4)">Post MVP release (Descoped from 2026Q3 &amp; Q4)</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" data-snooker-col-s=
+eries=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 100.636%;"=
+>
+  <colgroup>
+   <col style=3D"width: 4.91471%;">
+   <col style=3D"width: 23.4923%;">
+   <col style=3D"width: 31.6507%;">
+   <col style=3D"width: 18.381%;">
+   <col style=3D"width: 21.5264%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false" da=
+ta-mce-resize=3D"false" scope=3D"col"><br></th>
+    <th scope=3D"col" class=3D"confluenceTh">Epic</th>
+    <th scope=3D"col" class=3D"confluenceTh">Enabled Capabilities</th>
+    <th scope=3D"col" class=3D"confluenceTh">Key Outcome</th>
+    <th scope=3D"col" class=3D"confluenceTh">Notes</th>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">1</td>
+    <td class=3D"confluenceTd">Firm &amp; User admin tool update <a class=
+=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-447" rel=3D"nof=
+ollow">FUM-447</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. User Directory display is enabled on Firm Settings&nbsp;</p>
+     <p>2. Page layouts of User List and User Details are re-arranged (univ=
+ersal)</p>
+     <p>3. Primary account details are enriched&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"abc16f6a-0067-4b31-ad75-01e4d2cfea40">Enhance firm a=
+nd user admin experience&nbsp;</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">2</td>
+    <td class=3D"confluenceTd">Secondary account provisioning, deactivation=
+ and certification <a class=3D"external-link" href=3D"https://nbin.aha.io/f=
+eatures/FUM-431" rel=3D"nofollow">FUM-431</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. MyIT request flows to request new, modify or remove additional C=
+X employee access are enabled</p>
+     <p>2. Both New Employee creation workflow and New User creation workfl=
+ow are supported</p>
+     <p>3. Additional account changes (profile details, role, data access, =
+assigned firm,...) are enabled</p>
+     <p>4. Rule to deactivate user access after 90-day inactivity is enforc=
+ed</p>
+     <p>5. User access certification on additional accounts is enforced&nbs=
+p;</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"f79490a3-2be8-44eb-8799-b42de418a678">Enable additio=
+nal employee account provisioning to support validation and troubleshooting=
+ use cases</li>
+      <li data-uuid=3D"93e00101-d8d7-46bb-b85d-98b9bf5b877d">Compliant to B=
+ank's employee access de-provisioning and monitoring standard</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false" da=
+ta-mce-resize=3D"false">3</td>
+    <td class=3D"confluenceTd">Bulk user processing for employees <a class=
+=3D"external-link" href=3D"https://nbin.aha.io/features/FUM-441" rel=3D"nof=
+ollow">FUM-441</a></td>
+    <td class=3D"confluenceTd">
+     <p>1. Bulk primary account update is enabled&nbsp;</p></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"b8ca6c70-50a4-4846-8c65-0cb17ba11723">Enable bulk em=
+ployee account update to support feature launch</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86297_838714322.1788185398060--

@@ -1,0 +1,957 @@
+Date: Mon, 31 Aug 2026 10:15:39 -0400 (EDT)
+Message-ID: <1519534786.86372.1788185739577@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86371_412112707.1788185739577"
+
+------=_Part_86371_412112707.1788185739577
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Data Analysis: Parent firm &amp; user</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Data Analysis: Parent firm &amp; user</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788185739566 {padding: 0px;}
+div.rbtoc1788185739566 ul {margin-left: 0px;}
+div.rbtoc1788185739566 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+    <div class=3D"toc-macro rbtoc1788185739566">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-ActiveFirmdata">Acti=
+ve Firm data</a></li>
+      <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-Parentfirmusers">Par=
+ent firm users</a></li>
+     </ul>
+     <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-FromNov/2/2026analysi=
+sbyProductActivations">From Nov/2/2026 analysis by Product Activations</a>
+      <ul class=3D"toc-indentation">
+       <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-NetRep">NetRep</a>
+        <ul class=3D"toc-indentation">
+         <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-Parent-Child">Par=
+ent - Child</a></li>
+        </ul></li>
+       <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-SecureZone(iMOST&am=
+p;GIConly)Nov2025Snapshot">Secure Zone (iMOST &amp; GIC only) Nov 2025 Snap=
+shot</a>
+        <ul class=3D"toc-indentation">
+         <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-ParentChild">Pare=
+nt Child</a></li>
+         <li><a href=3D"#DataAnalysis:Parentfirm&amp;user-Sub-advisor">Sub-=
+advisor</a></li>
+        </ul></li>
+      </ul></li>
+    </div>
+    <h3 id=3D"DataAnalysis:Parentfirm&amp;user-ActiveFirmdata">Active Firm =
+data&nbsp;</h3>
+    <p>Definition: Active firms are firms that are onboarded to Firm360 and=
+ kept active. IMPORTANT: Not all Active firms are enabled in CX.</p>
+    <p>Source file folder in SharePoint:&nbsp;<a class=3D"external-link" hr=
+ef=3D"https://cbncnbccs.sharepoint.com/:f:/r/sites/Compass-X/Shared%20Docum=
+ents/Product%20Management/Multi-Firm%20Users?csf=3D1&amp;web=3D1&amp;e=3DNV=
+kZBg" rel=3D"nofollow">NBIN Product Team &gt; Product Management &gt; Multi=
+-Firm Users</a></p>
+    <p>Collection method: The source file is the Firm360 data extract (PROD=
+) delivered on Mar 12, 2026</p>
+    <p><span style=3D"color:#c9372c;"><em>takeaway: how many parent firms a=
+re actually there?</em></span></p>
+    <ul style=3D"list-style-type: square;">
+     <li data-uuid=3D"fc8d6ed3-2df8-4840-8de2-73bf6cf78e8b">set up in F360&=
+nbsp;</li>
+     <li data-uuid=3D"db9e2dde-45d2-4225-8d5e-4e3de1a30053">by the R2 id, t=
+hey have cross-firm rr code assignments - interpret the firm ids the rr cod=
+es are driven from&nbsp;</li>
+    </ul>
+    <p><strong>In a glance</strong></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 91.3546%;">
+      <colgroup>
+       <col style=3D"width: 28.07%;">
+       <col style=3D"width: 20.1719%;">
+       <col style=3D"width: 51.7349%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Result</th>
+        <th scope=3D"col" class=3D"confluenceTh"><br></th>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Total number of Active fir=
+ms</th>
+        <td class=3D"confluenceTd">440</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"6d7284f9-52da-4495-9497-641e84921faa">Only activ=
+e firms are counted: filter rows where <code>Status_ID =3D 1</code>.</li>
+          <li data-uuid=3D"4f532ec2-7540-44fd-b75a-646c4eaca055">Because th=
+e data extract&nbsp;has<strong> </strong>multiple rows per firm (e.g., mult=
+iple RR/Account ranges per same <code>FIRMID</code>), only<strong> </strong=
+>distinct <code>FIRMID</code> per <code>Parent_ID</code>, not raw rows are =
+counted.</li>
+         </ul>
+         <p>IMPORTANT: It does not imply that all firms are "enabled" in CX=
+</p></td>
+       </tr>
+       <tr>
+        <th scope=3D"row" class=3D"confluenceTh">Number of Parent firms</th=
+>
+        <td class=3D"confluenceTd">85</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"5841ea16-aa54-43d4-b96f-946e3d2c07cc">NBIN Inter=
+nal firms (COR) is excluded</li>
+          <li data-uuid=3D"53676cd4-2255-4edd-b5ad-87760eb07902">Only <code=
+ style=3D"letter-spacing: 0.0px;">Parent_ID</code><span style=3D"letter-spa=
+cing: 0.0px;">s tied to </span><strong style=3D"letter-spacing: 0.0px;">2+<=
+/strong><span style=3D"letter-spacing: 0.0px;"> firms are counted</span></l=
+i>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Min/Max number of child firms per Parent firm</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p>Min: 2</p>
+         <p>Max: 5</p></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"344beea5-e45e-4f9c-af04-cf645afd5889">Harbourfro=
+nt has 5 child firms</li>
+          <li data-uuid=3D"c7e850fa-7abd-40e5-aa8d-040287fbe387">Worth to m=
+ention that there are 4 parent firms each has 4 child firms:=20
+           <ul>
+            <li data-uuid=3D"6acf3193-2b6b-4970-9b6b-ea5e9a923cfb">1832 Ass=
+et Mgmt (WATER)</li>
+            <li data-uuid=3D"5658a866-2f5d-41ca-a640-c58fdfe9cfde">BCV Asse=
+t Management</li>
+            <li data-uuid=3D"5ce86420-d7e3-473d-978a-167c7f8e832e"><span st=
+yle=3D"color:#333333;">Bridgeport Asset Management</span></li>
+            <li data-uuid=3D"bc915dbd-1295-4501-ac0e-eeafc2e25671">Cumberla=
+nd</li>
+           </ul></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Normal count of child firms per Parent firm</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p>2</p>
+         <p>Percentage of parent firms in this range: 80%</p></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"172bd1b8-fb18-445a-82e8-9ac1a39661d2">
+           <p>65 parents (80%) have 2 firms</p></li>
+          <li data-uuid=3D"fac8b3bc-4ae3-438a-a2ec-5333113ec716">
+           <p>11 parents (14%) have 3 firms</p></li>
+          <li data-uuid=3D"bfa9253e-cf89-4584-aca9-dab9d7e68c99">
+           <p>4<span style=3D"letter-spacing: 0.0px;"> parents (5%) have </=
+span>4<span style=3D"letter-spacing: 0.0px;"> firms</span></p></li>
+          <li data-uuid=3D"42fd148f-c2d3-4675-b0ac-08154d2a30f7">
+           <p>1<span style=3D"letter-spacing: 0.0px;"> parent (1%) has </sp=
+an>5<span style=3D"letter-spacing: 0.0px;"> firms</span></p></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Total number of child firms collectively</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p>184</p></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p><br></p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"DataAnalysis:Parentfirm&amp;user-Parentfirmusers">Parent firm=
+ users</h3>
+    <p>Assumption: A CX user is considered as a parent firm user if the fol=
+lowing conditions are met:</p>
+    <ul>
+     <li data-uuid=3D"ea480880-eaf8-4f52-b124-860c2e47f234">User's email ad=
+dress is duplicated in multiple user accounts</li>
+     <li data-uuid=3D"35ae25b5-d150-42ee-85c5-d92658b451cd">User's firm id =
+is associated to a parent id (which is tied to 2+ firm ids)</li>
+     <li data-uuid=3D"9b32ea53-8324-4dd0-977e-b9d049d8a3fa">What conditions=
+ are NOT considered as a factor of parent firm users?=20
+      <ul>
+       <li data-uuid=3D"6fc66085-98d2-413e-8e5e-ab73876d8281">"User's first=
+ name and last name match that of another user account": This is not a good=
+ condition because first name + last name are constituted to the user id, h=
+ence, there is almost no chance the combination of two rows would be the sa=
+me</li>
+       <li data-uuid=3D"b20829de-f5d8-41c7-b903-123051b101ba">"User's firm =
+id is not associated to a parent id with multiple child firms": These users=
+ may have multiple user accounts within their firm for various reasons, e.g=
+. perform different job function or segregate client account access, but th=
+ey are not considered as parent firm users</li>
+       <li data-uuid=3D"04be83d2-3bd1-416c-a41a-f62acf55cfb0">"All rows wit=
+h the same email address have the same firm id": Like the above, these user=
+s may simply have a duplicated user account under the same firm id</li>
+      </ul></li>
+    </ul>
+    <p>Data Deviation: As there is not a standard way to configure parent f=
+irm user access in CX, there are scenarios that the above assumption may mi=
+ss:&nbsp;</p>
+    <ul>
+     <li data-uuid=3D"6d0a2def-7aea-4630-817b-9c1a01281742">User's email ad=
+dresses are different in their duplicated user accounts</li>
+     <li data-uuid=3D"bcb31b33-1351-4f39-960b-f8af25874c5a">User's firm id =
+is not associated to a parent id, which may be stemmed from data input issu=
+e at Firm360</li>
+    </ul>
+    <p>Source file folder in SharePoint:&nbsp;<a class=3D"external-link" hr=
+ef=3D"https://cbncnbccs.sharepoint.com/:f:/r/sites/Compass-X/Shared%20Docum=
+ents/Product%20Management/Multi-Firm%20Users?csf=3D1&amp;web=3D1&amp;e=3DNV=
+kZBg" rel=3D"nofollow">NBIN Product Team &gt; Product Management &gt; Multi=
+-Firm Users</a></p>
+    <p>Evaluation method: Join the Firm360 data extract and the CX user ext=
+ract by all firms (dated March 17)</p>
+    <p><br></p>
+    <p><strong>In a glance</strong></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 99.9571%;">
+      <colgroup>
+       <col style=3D"width: 34.2581%;">
+       <col style=3D"width: 18.4432%;">
+       <col style=3D"width: 47.2782%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh"><br></th>
+        <th class=3D"confluenceTh">Result</th>
+        <th class=3D"confluenceTh"><br></th>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Total number of user rows with duplicate=
+d email address</th>
+        <td class=3D"confluenceTd">
+         <p>608</p>
+         <p>For context: there are totally 9,038 rows of client user accoun=
+ts</p></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"83bd9424-2796-46a0-aeb1-05e548c38ac5">User's ema=
+il address are duplicated and their user accounts are from different firms<=
+/li>
+          <li data-uuid=3D"d373c911-7fba-4b02-98ec-cdeeb5631e97">User's fir=
+m is associated to a parent group (which is tied to 2+ firms)</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Number of users with unique email addres=
+s</th>
+        <td class=3D"confluenceTd">292</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"892006fb-cf82-4c3f-a859-154e41619882">Roughly sp=
+eaking, there are 292 parent firm users (person)</li>
+          <li data-uuid=3D"32fa5837-7cfc-41a6-b480-400f4fb2255c"><em><span =
+style=3D"color:#c9372c;">takeaway: the number may be higher if we count the=
+ R2 misused case</span></em></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Number of distinct firm ids the users ar=
+e from</th>
+        <td class=3D"confluenceTd">73</td>
+        <td class=3D"confluenceTd">number of child firms</td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Number of parent firms the users are fro=
+m</th>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;"><strong>3=
+4</strong></span></td>
+        <td class=3D"confluenceTd">They are considered as "true" parent fir=
+m users</td>
+       </tr>
+       <tr>
+        <th class=3D"confluenceTh">Number of parent firms NO parent firm us=
+er has been set up&nbsp;</th>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">47</span></p>
+         <p><span style=3D"color:#c9372c;">(=3D81 - 34)&nbsp;</span></p></t=
+d>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"360b0731-a6d1-4760-a7d3-ca963925cc1d">Assuming a=
+ll 81 parent firms are enabled in CX, only 34 firms have parent firm users =
+set up, that is, 58% of parent firms do NOT have any parent firm users</li>
+          <li style=3D"font-style: italic;color:#c9372c;" data-uuid=3D"70c4=
+318f-0c74-44fd-af34-62aad27aa995"><em><span style=3D"color:#c9372c;">takeaw=
+ay: </span></em>
+           <ul>
+            <li style=3D"font-style: italic;color:#c9372c;" data-uuid=3D"d9=
+2c53f0-5b47-40ae-9193-43b364d8d624"><em><span style=3D"color:#c9372c;">who =
+are the parent firms NOT having a parent firm user, why not? what are the f=
+irm types bundles look like? Is there a pattern?</span></em></li>
+            <li style=3D"font-style: italic;color:#c9372c;" data-uuid=3D"07=
+7ade3a-d351-4854-9a77-f114e677aad5"><em><span style=3D"color:#c9372c;"> Is =
+there a use case? is there a current workaround? do they limit themselves f=
+or not knowing better how to use the platform?&nbsp;</span></em></li>
+           </ul></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Normal duplication group size</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p>2 or 3</p></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"ceb34d6e-fc87-4726-b628-3c45a2920360">536 rows o=
+r 268 users (92%) have 2 user accounts under different firm ids</li>
+          <li data-uuid=3D"869fcb30-1ed0-49bc-b54d-b3f2b7bb8956">72 rows or=
+ 24 users (8%) have 3 user accounts under different firm ids</li>
+         </ul></td>
+       </tr>
+       <tr>
+        <th style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTh">Parent group with the most Parent firm users</th>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p>(Top 5)</p>
+         <ul>
+          <li data-uuid=3D"46b75383-456d-459a-86b7-017f48fd6b49">Harbourfro=
+nt</li>
+          <li data-uuid=3D"1b275f2f-1049-4954-a884-94a3f0a6a941">BCV Asset =
+Management</li>
+          <li data-uuid=3D"db274f86-f154-4959-962e-739a911ed8c9"><span styl=
+e=3D"color:#333333;">CWB McLean &amp; Partners Wealth Management</span></li=
+>
+          <li data-uuid=3D"b3444e65-33c8-4587-ba5f-58e7c0d9581f"><span styl=
+e=3D"color:#333333;">Optimize Wealth Management</span></li>
+          <li data-uuid=3D"64832d06-e315-447e-a257-167f068f0276"><span styl=
+e=3D"color:#333333;">ATB Securities</span></li>
+         </ul></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li data-uuid=3D"45547673-43b6-495b-87b3-1439309daf4a">Harbourfro=
+nt (parent_id: 241) has 78 parent firm users (164 rows, 4 firms involved)</=
+li>
+          <li data-uuid=3D"d0b18871-1e58-41f1-b198-ecfaab937019">BCV Asset =
+Management (parent_id: 44) has 42 parent firm users (87 rows, 3 firms invol=
+ved)</li>
+          <li data-uuid=3D"e06a1358-4dad-48ab-9608-d434624337e5"><span styl=
+e=3D"color:#333333;">CWB McLean &amp; Partners WM </span>(parent_id: 136) h=
+as 27 parent firm users (55 rows, 3 firms involved)</li>
+          <li data-uuid=3D"f706d25c-95ef-45ee-ae6d-11a050206182"><span styl=
+e=3D"color:#333333;">Optimize Wealth Management</span>&nbsp;<span style=3D"=
+letter-spacing: 0.0px;">(parent_id: 35) has 15 parent firm users (32 rows, =
+3 firms involved)</span></li>
+         </ul></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p><span style=3D"color:#c9372c;">Discovery questions:&nbsp;</span></p>
+    <ul>
+     <li style=3D"color:#c9372c;" data-uuid=3D"a380a88b-d281-4eb8-a88f-151e=
+466aa25b"><span style=3D"color:#c9372c;">only 34 out of 457 (less than 10%)=
+ of client firms have a use case currently - does it worth to addr the prob=
+lem?</span></li>
+     <li style=3D"color:#c9372c;" data-uuid=3D"a38e8880-30b5-414f-a0fc-ec58=
+b8623805"><span style=3D"color:#c9372c;">Is any of them significant enough =
+(AUM?)</span></li>
+     <li style=3D"color:#c9372c;" data-uuid=3D"13916991-214b-4944-8f6f-4ab1=
+5cce055c"><span style=3D"color:#c9372c;">How about the other 47 - is there =
+a need?</span></li>
+     <li style=3D"color:#c9372c;" data-uuid=3D"737e9ffa-0300-4ecf-96e7-318e=
+64451a83"><span style=3D"color:#c9372c;">For future growth, is it a signifi=
+cant/marketable feature to draw clients in?</span></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"DataAnalysis:Parentfirm&amp;user-FromNov/2/2026analysisbyProd=
+uctActivations">From Nov/2/2026 analysis by Product Activations</h1>
+    <p>A <strong>Person</strong> is identified by an exact first + last nam=
+e match, which risks merging records of distinct people at different firms.=
+ Analysis will be further refined for precision during clean-up and launch =
+activities.</p>
+    <p><br></p>
+    <h2 id=3D"DataAnalysis:Parentfirm&amp;user-NetRep">NetRep</h2>
+    <h3 id=3D"DataAnalysis:Parentfirm&amp;user-Parent-Child">Parent - Child=
+</h3>
+    <p><strong>Conditions &amp; Considerations</strong></p>
+    <p>-Based on parent + child relationships available in F360</p>
+    <p>-Active Firms</p>
+    <p>-External users only</p>
+    <p>-ID Status is unavailable</p>
+    <p>-Last logged in on or after Jan 1, 2025</p>
+    <p>-Persons have one parent + one firm <strong>OR </strong>one parent +=
+ multi-firm access</p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of parent firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>290</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of child firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>372</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of people</p></td>
+        <td class=3D"confluenceTd">
+         <p>5412</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>6024</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of people with single ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>4906</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># people with multiple ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>506 =E2=80=93 between 2-4 Id=E2=80=99s</p>
+         <p>(1118 ID=E2=80=99s)</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># people who can trade</p></td>
+        <td class=3D"confluenceTd">
+         <p>3512</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># people with view-only</p></td>
+        <td class=3D"confluenceTd">
+         <p>1900</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p><strong># of ID=E2=80=99s</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Count of Persons</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong># of Parent Firms</strong></p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>4906</p></td>
+        <td class=3D"confluenceTd">
+         <p>277</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>2</p></td>
+        <td class=3D"confluenceTd">
+         <p>410</p></td>
+        <td class=3D"confluenceTd">
+         <p>66</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>3</p></td>
+        <td class=3D"confluenceTd">
+         <p>86</p></td>
+        <td class=3D"confluenceTd">
+         <p>10</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>4</p></td>
+        <td class=3D"confluenceTd">
+         <p>10</p></td>
+        <td class=3D"confluenceTd">
+         <p>2</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <h2 id=3D"DataAnalysis:Parentfirm&amp;user-SecureZone(iMOST&amp;GIConly=
+)Nov2025Snapshot">Secure Zone (iMOST &amp; GIC only)&nbsp;Nov 2025 Snapshot=
+</h2>
+    <h3 id=3D"DataAnalysis:Parentfirm&amp;user-ParentChild">Parent Child</h=
+3>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of parent firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>308</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of child firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>TBC</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of people</p></td>
+        <td class=3D"confluenceTd">
+         <p>5472</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>6228</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of people with single ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>4845</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># people with multiple ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>&nbsp;627 =E2=80=93 between 2-5 ID=E2=80=99s</p>
+         <p>(1383 ID=E2=80=99s)</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p><strong># of ID=E2=80=99s</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Count of Persons</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong># of Parent Firms</strong></p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>4845</p></td>
+        <td class=3D"confluenceTd">
+         <p>288</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>2</p></td>
+        <td class=3D"confluenceTd">
+         <p>515</p></td>
+        <td class=3D"confluenceTd">
+         <p>90</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>3</p></td>
+        <td class=3D"confluenceTd">
+         <p>96</p></td>
+        <td class=3D"confluenceTd">
+         <p>20</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>4</p></td>
+        <td class=3D"confluenceTd">
+         <p>15</p></td>
+        <td class=3D"confluenceTd">
+         <p>6</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>5</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h3 id=3D"DataAnalysis:Parentfirm&amp;user-Sub-advisor">Sub-advisor</h3=
+>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of parent firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>126</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of child firms</p></td>
+        <td class=3D"confluenceTd">
+         <p>TBC</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of people</p></td>
+        <td class=3D"confluenceTd">
+         <p>271</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p># of ID=E2=80=99s</p></td>
+        <td class=3D"confluenceTd">
+         <p>808</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p><strong># of ID=E2=80=99s</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Count of Persons</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong># of Parent Firms</strong></p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>2</p></td>
+        <td class=3D"confluenceTd">
+         <p>168</p></td>
+        <td class=3D"confluenceTd">
+         <p>86</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>3</p></td>
+        <td class=3D"confluenceTd">
+         <p>62</p></td>
+        <td class=3D"confluenceTd">
+         <p>54</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>4</p></td>
+        <td class=3D"confluenceTd">
+         <p>26</p></td>
+        <td class=3D"confluenceTd">
+         <p>37</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>5</p></td>
+        <td class=3D"confluenceTd">
+         <p>9</p></td>
+        <td class=3D"confluenceTd">
+         <p>12</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>6</p></td>
+        <td class=3D"confluenceTd">
+         <p>4</p></td>
+        <td class=3D"confluenceTd">
+         <p>9</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>56</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>11</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>57</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>11</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86371_412112707.1788185739577--

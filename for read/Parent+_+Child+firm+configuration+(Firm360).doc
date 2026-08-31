@@ -1,0 +1,659 @@
+Date: Mon, 31 Aug 2026 10:16:13 -0400 (EDT)
+Message-ID: <1832206278.86384.1788185773823@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86383_1442553244.1788185773823"
+
+------=_Part_86383_1442553244.1788185773823
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Parent / Child firm configuration (Firm360)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Parent / Child firm configuration (Firm360)</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"Parent/Childfirmconfiguration(Firm360)-Context"><strong>Conte=
+xt</strong></h3>
+    <ul>
+     <li>Parent firm is a logical entity, a grouping of child firms. Thus, =
+parent firms do not have the industry unique firm data, e.g. broker code.</=
+li>
+     <li>Parent firms are set up in Firm360</li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"Parent/Childfirmconfiguration(Firm360)-Currentimplementation(=
+asofPI-4,2023Q1)"><strong><span style=3D"letter-spacing: 0.0px;">Current im=
+plementation (as of PI-4, 2023 Q1)</span></strong></h3>
+    <ul>
+     <li>
+      <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-NBINissetupasadefaul=
+tparentfirm(orgrandparentfirm)whichhasallNBINfirmsasitschildfirm-Thisstatem=
+entisundertheassumptionthatNBFisNOTin-scope">NBIN is set up as a default pa=
+rent firm (or grandparent firm) which has all NBIN firms as its child firm =
+- This statement is under the assumption that NBF is NOT in-scope</h4></li>
+     <li>
+      <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-Bydesign,usersassign=
+edtoaparentfirmareabletobeassignedtoallorselectedRRcoderangesofalloranychil=
+dfirms">By design, users assigned to a parent firm are able to be assigned =
+to all or selected RR code ranges of all or any child firms</h4></li>
+     <li>
+      <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-Currently,thereisnoa=
+ssumptionorcascadingofresourceassignments/featurebundlesfromparentfirmtochi=
+ldfirms">Currently, there is no assumption or cascading of resource assignm=
+ents/feature bundles from parent firm to child firms</h4></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h3 id=3D"Parent/Childfirmconfiguration(Firm360)-NewParentFirmIdentifie=
+r(asofOct2025)"><strong style=3D"letter-spacing: -0.003em;">New Parent Firm=
+ Identifier (as of Oct 2025)</strong></h3>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-Currentfields"><strong=
+ style=3D"letter-spacing: -0.003em;">Current fields</strong></h4>
+    <ul>
+     <li data-uuid=3D"b9b2f74b-e9e5-4906-887c-14e29ac5d668">Here's what you=
+ are getting today:</li>
+    </ul>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>FIRMID</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Name</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">Parent_ID</span></p></td>
+        <td class=3D"confluenceTd">
+         <p>Company_Name</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Type</p></td>
+        <td class=3D"confluenceTd">
+         <p>Status_ID</p></td>
+        <td class=3D"confluenceTd">
+         <p>ISM_Broker_NO</p></td>
+        <td class=3D"confluenceTd">
+         <p>Broker_Code</p></td>
+        <td class=3D"confluenceTd">
+         <p>Branch_Code</p></td>
+        <td class=3D"confluenceTd">
+         <p>Account_From</p></td>
+        <td class=3D"confluenceTd">
+         <p>Account_To</p></td>
+        <td class=3D"confluenceTd">
+         <p>RR_From</p></td>
+        <td class=3D"confluenceTd">
+         <p>RR_To</p></td>
+        <td class=3D"confluenceTd">
+         <p>(No column name)</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Display_Name_EN</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Display_Name_FR</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>IAVM</p></td>
+        <td class=3D"confluenceTd">
+         <p>IA PRIVATE WEALTH INC.</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">279</span></p></td>
+        <td class=3D"confluenceTd">
+         <p>Industrielle Alliance</p></td>
+        <td class=3D"confluenceTd">
+         <p>IB</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>L06</p></td>
+        <td class=3D"confluenceTd">
+         <p>IAVM</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>37AAAA</p></td>
+        <td class=3D"confluenceTd">
+         <p>379999</p></td>
+        <td class=3D"confluenceTd">
+         <p>BJAA</p></td>
+        <td class=3D"confluenceTd">
+         <p>BJ99</p></td>
+        <td class=3D"confluenceTd">
+         <p>20250827</p></td>
+        <td class=3D"confluenceTd">
+         <p>iA Private Wealth Management Inc.</p></td>
+        <td class=3D"confluenceTd">
+         <p>iA Gestion Priv=C3=A9e de Patrimoine Inc.</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-NewField"><strong>New =
+Field</strong></h4>
+    <ul>
+     <li data-uuid=3D"b00ce4f6-0955-4aeb-9afc-c587096e0e86">Once we've impl=
+emented this change on Firm360 and you are ready to receive the new file, i=
+t will include the same fields as before, along with a new 8-character fiel=
+d, <strong>"<em>Parent_Code</em>"</strong>:</li>
+    </ul>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>FIRMID</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Name</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">Parent_ID</span></p></td>
+        <td class=3D"confluenceTd">
+         <p>Company_Name</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Type</p></td>
+        <td class=3D"confluenceTd">
+         <p>Status_ID</p></td>
+        <td class=3D"confluenceTd">
+         <p>ISM_Broker_NO</p></td>
+        <td class=3D"confluenceTd">
+         <p>Broker_Code</p></td>
+        <td class=3D"confluenceTd">
+         <p>Branch_Code</p></td>
+        <td class=3D"confluenceTd">
+         <p>Account_From</p></td>
+        <td class=3D"confluenceTd">
+         <p>Account_To</p></td>
+        <td class=3D"confluenceTd">
+         <p>RR_From</p></td>
+        <td class=3D"confluenceTd">
+         <p>RR_To</p></td>
+        <td class=3D"confluenceTd">
+         <p>(No column name)</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Display_Name_EN</p></td>
+        <td class=3D"confluenceTd">
+         <p>Firm_Display_Name_FR</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;"><strong>Parent_Code</strong></sp=
+an></p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>IAVM</p></td>
+        <td class=3D"confluenceTd">
+         <p>IA PRIVATE WEALTH INC.</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;">279</span></p></td>
+        <td class=3D"confluenceTd">
+         <p>Industrielle Alliance</p></td>
+        <td class=3D"confluenceTd">
+         <p>IB</p></td>
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>L06</p></td>
+        <td class=3D"confluenceTd">
+         <p>IAVM</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>37AAAA</p></td>
+        <td class=3D"confluenceTd">
+         <p>379999</p></td>
+        <td class=3D"confluenceTd">
+         <p>BJAA</p></td>
+        <td class=3D"confluenceTd">
+         <p>BJ99</p></td>
+        <td class=3D"confluenceTd">
+         <p>20250827</p></td>
+        <td class=3D"confluenceTd">
+         <p>iA Private Wealth Management Inc.</p></td>
+        <td class=3D"confluenceTd">
+         <p>iA Gestion Priv=C3=A9e de Patrimoine Inc.</p></td>
+        <td class=3D"confluenceTd">
+         <p><span style=3D"color:#c9372c;"><strong>INDUSTRI</strong></span>=
+</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-WhynotusethecurrentPar=
+ent_ID?"><strong>Why not use the current Parent_ID?</strong></h4>
+    <ul>
+     <li data-uuid=3D"504f944d-db5c-4bec-b107-51ef6f98f914">A system-genera=
+ted ID such as this one is not advisable for client-facing API's.</li>
+    </ul>
+    <p><br></p>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-What'snext?"><strong>W=
+hat's next?</strong></h4>
+    <ul>
+     <li data-uuid=3D"ebf99094-4c0b-4adb-a49d-510389df2585">We will share t=
+he target date for this implementation on Firm360 in a few days. After that=
+, we can discuss how soon you can start incorporating it into the Compass j=
+ob. <span>=E2=80=8B</span><span>=E2=80=8B</span></li>
+    </ul>
+    <p><br></p>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-Firmsetuplifecycle">Fi=
+rm setup lifecycle</h4>
+    <ul>
+     <li data-uuid=3D"62afebba-a453-40a0-9aa7-9b36fbe773ba">When a new firm=
+ is created in Firm360, they are always associated to a parent firm, whethe=
+r the parent firm is shared by other firms or not</li>
+     <li data-uuid=3D"bffe824e-e05c-4c48-ab29-7f620f21233a">When there is a=
+ merge, child firms will be grouped under the same parent firm&nbsp;</li>
+    </ul>
+    <p><br></p>
+    <h4 id=3D"Parent/Childfirmconfiguration(Firm360)-RelatedTaskBreakdown(f=
+romIshrat)"><strong>Related Task Breakdown</strong> (from Ishrat)</h4>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p><strong>Item</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Task Breakdown</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Ticket</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Responsible</strong></p></td>
+        <td class=3D"confluenceTd">
+         <p><strong>Status</strong></p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>1</p></td>
+        <td class=3D"confluenceTd">
+         <p>AppID Set Up</p></td>
+        <td class=3D"confluenceTd">
+         <p><u><a class=3D"external-link" href=3D"https://can01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FNBINPS-55=
+1&amp;data=3D05%7C02%7CCandi.So%40nbc.ca%7C9052ad85773541a62f5c08de0b622653=
+%7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C638960713352571067%7CUnknown%=
+7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI=
+kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DHu08Z%2FDHOz6k5b5r=
+QwPmXHX56wqrfhNU8a3w%2Fcm%2FQiU%3D&amp;reserved=3D0" rel=3D"nofollow">NBINP=
+S-551</a></u></p></td>
+        <td class=3D"confluenceTd">
+         <p>Ishrat</p></td>
+        <td class=3D"confluenceTd">
+         <p>Complete</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>2</p></td>
+        <td class=3D"confluenceTd">
+         <p>OKTA engagement</p></td>
+        <td class=3D"confluenceTd">
+         <p><u><a class=3D"external-link" href=3D"https://can01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FNBINPS-55=
+2&amp;data=3D05%7C02%7CCandi.So%40nbc.ca%7C9052ad85773541a62f5c08de0b622653=
+%7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C638960713352633070%7CUnknown%=
+7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI=
+kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DCy2edLvCHL3rgl6e59=
+dPDBsUOIukm1nB7DvFhDtVRJI%3D&amp;reserved=3D0" rel=3D"nofollow">NBINPS-552<=
+/a></u></p></td>
+        <td class=3D"confluenceTd">
+         <p>Ishrat</p></td>
+        <td class=3D"confluenceTd">
+         <p>Complete</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>3</p></td>
+        <td class=3D"confluenceTd">
+         <p>OKTA token generation</p></td>
+        <td class=3D"confluenceTd">
+         <p><u><a class=3D"external-link" href=3D"https://can01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FNBINPS-55=
+0&amp;data=3D05%7C02%7CCandi.So%40nbc.ca%7C9052ad85773541a62f5c08de0b622653=
+%7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C638960713352682858%7CUnknown%=
+7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI=
+kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DSow6mNJDruxGYrOedp=
+5L3f9bDbjwg89gic%2FDlGB9JTI%3D&amp;reserved=3D0" rel=3D"nofollow">NBINPS-55=
+0</a></u></p></td>
+        <td class=3D"confluenceTd">
+         <p>Dipanjan</p></td>
+        <td class=3D"confluenceTd">
+         <p>In Progress</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>4</p></td>
+        <td class=3D"confluenceTd">
+         <p>Updating Firm360 DB and its feed to CX</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>PS Business</p></td>
+        <td class=3D"confluenceTd">
+         <p>In Progress</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>5</p></td>
+        <td class=3D"confluenceTd">
+         <p>FUM updates</p></td>
+        <td class=3D"confluenceTd">
+         <p><u><a class=3D"external-link" href=3D"https://can01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FNWPI-1403=
+9&amp;data=3D05%7C02%7CCandi.So%40nbc.ca%7C9052ad85773541a62f5c08de0b622653=
+%7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C638960713352730787%7CUnknown%=
+7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsI=
+kFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DW6t%2FXcr%2B6O%2Fq=
+cjXLK8PQWhNzi4yR74H4JyuWYvi60tA%3D&amp;reserved=3D0" rel=3D"nofollow">NWPI-=
+14039</a></u></p></td>
+        <td class=3D"confluenceTd">
+         <p>FUM team</p></td>
+        <td class=3D"confluenceTd">
+         <p>TBD</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>6</p></td>
+        <td class=3D"confluenceTd">
+         <p>Account Balance Management API Refactoring</p></td>
+        <td class=3D"confluenceTd">
+         <p><u><a class=3D"external-link" href=3D"https://can01.safelinks.p=
+rotection.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FNOS-23044=
+&amp;data=3D05%7C02%7CCandi.So%40nbc.ca%7C9052ad85773541a62f5c08de0b622653%=
+7Cc21157cabce341a88aa7a23c4639610a%7C0%7C0%7C638960713352774973%7CUnknown%7=
+CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIk=
+FOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DzcYMWXVsINSLCBMuAbz=
+ZofFVnnFE1luQh3POJ0DSzBE%3D&amp;reserved=3D0" rel=3D"nofollow">NOS-23044</a=
+></u></p></td>
+        <td class=3D"confluenceTd">
+         <p>Tech Titans</p></td>
+        <td class=3D"confluenceTd">
+         <p>TBD</p></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">
+         <p>7</p></td>
+        <td class=3D"confluenceTd">
+         <p>Engaging IIS for end-to-end flow</p></td>
+        <td class=3D"confluenceTd">
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>PS Business</p></td>
+        <td class=3D"confluenceTd">
+         <p>TBD</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><strong>Inheritance properties</strong></p>
+    <ul>
+     <li>Have to do it case by case. For example, in firm digital packaging=
+, a parent firm's selection may/may not be cascaded to the child firms.</li=
+>
+     <li>Permission / Resource visibility: Example - A parent firm user has=
+ Trader role but the child firm does not have access to Trading module.&nbs=
+p;</li>
+    </ul>
+    <p>.</p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><strong>UI data aggregation - NOT to be centralized</strong></p>
+    <ul>
+     <li>When a parent firm user accesses a page or resource, whether only =
+the data pertained to the selected child firm or data of all firms are depi=
+cted would be prescribed by the respective product.</li>
+    </ul>
+    <p>.</p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86383_1442553244.1788185773823--

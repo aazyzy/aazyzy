@@ -1,0 +1,591 @@
+Date: Mon, 31 Aug 2026 10:16:03 -0400 (EDT)
+Message-ID: <1428926066.86378.1788185763379@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86377_1786139438.1788185763378"
+
+------=_Part_86377_1786139438.1788185763378
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sub-advisor analysis notes</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sub-advisor analysis notes</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"Subadvisoranalysisnotes-PlatformAccess"><span style=3D"font-s=
+ize: 20.0px;letter-spacing: -0.008em;">Platform Access</span></h1>
+    <p><strong>Scenario 1: PM sub-advisors who are our client</strong></p>
+    <ul>
+     <li>Users will be set under their =E2=80=98primary firm=E2=80=99 and l=
+inked to the firms of their sub-advising accounts as their =E2=80=98seconda=
+ry firm(s)=E2=80=99</li>
+     <li>Users only have limited Account feature access on their sub-advisi=
+ng accounts</li>
+     <li>Users must have trading capability and be able to do individual tr=
+ade orders, trade allocation and basket booking on their primary accounts a=
+nd sub-advising accounts on the same view - &nbsp;<a class=3D"external-link=
+" href=3D"mailto:joseph.kim@nbc.ca" rel=3D"nofollow">@Kim, Joseph</a><span>=
+&nbsp;</span>This is referred as the =E2=80=98aggregated=E2=80=99 view of O=
+rder module. Owen and I can update you about this</li>
+    </ul>
+    <p><br></p>
+    <p><strong>Scenario 2: PM sub-advisors who are not our client</strong><=
+/p>
+    <ul>
+     <li data-uuid=3D"691acab1-b5db-4e6d-a96b-0d7929e99a6a">e.g. SGGG</li>
+     <li data-uuid=3D"e56f37c4-d336-4fa9-9f8d-bdb7ba545d2d">Users will be s=
+et under the firm of their sub-advising accounts for white-labelling and fi=
+rm-specific settings</li>
+     <li data-uuid=3D"45e76166-5934-44f6-98ff-de28bf6269db">However, they m=
+ust only have limited Account feature access on their sub-advising accounts=
+ but full trading capability.</li>
+     <li data-uuid=3D"17416961-bee9-41bc-a0f5-96210719e117"><a class=3D"ext=
+ernal-link" href=3D"mailto:varun.anand@nbc.ca" rel=3D"nofollow">@Anand, Var=
+un</a><span>&nbsp;</span>Question - Though this user has one firm only, I t=
+hink the =E2=80=98assignment type=E2=80=99 should be marked as =E2=80=98S=
+=E2=80=99 to indicate that their assigned RR code ranges are =E2=80=98PM su=
+b-advisory RR codes=E2=80=99 (as opposed to primary rr codes). What do you =
+think? Thanks.</li>
+    </ul>
+    <p><strong>Anti use-case</strong></p>
+    <ul>
+     <li data-uuid=3D"7567ebe1-da55-40ed-ad26-c1283bc0d796">System access -=
+ NDEX Systems</li>
+     <li data-uuid=3D"4b38b35c-ea3c-4af8-b1f3-21b806bdf2e0">Ex-Employee acc=
+ess with no clean-up (e.g. Inthirai&nbsp;@ WA)</li>
+    </ul>
+    <p><strong>Sampling</strong></p>
+    <ol>
+     <li data-uuid=3D"358bd4cd-aa80-47ee-b8d5-457507d667fe">Non-firm&nbsp;<=
+/li>
+     <li data-uuid=3D"583bc4cb-ceec-44b7-a6d5-2cd65896ce7b">Standard, singl=
+e different parent</li>
+     <li data-uuid=3D"4b0e25ac-ec07-4ef9-a808-296a3b5f31e6">Standard, multi=
+ple parents (3 or more)</li>
+     <li data-uuid=3D"ca538790-fbd9-4e58-bd29-cf0a2768f6c6">Edge cases =E2=
+=86=92 over-provisioned access beyond trading</li>
+    </ol>
+    <p><br></p>
+    <p><br></p>
+    <p><strong>Problems To Solve</strong></p>
+    <ol>
+     <li data-uuid=3D"d9d900af-f583-4614-9371-7ceb80edf174">Person identifi=
+cation - no unique ID, relies of fuzzy matching may result in data breaches=
+</li>
+     <li data-uuid=3D"c7c033a2-edc3-49a5-afc2-bd83e5b34acb">Unclear relatio=
+nships between firms with no ability to supervise</li>
+     <li data-uuid=3D"04871026-f1c9-4733-afaf-a5cfdf74eeb4">Provisioning pr=
+ocess / standards historically have been inconsistent, leading to profile d=
+iscrepancies&nbsp;</li>
+     <li data-uuid=3D"79a62126-3221-4383-a24f-27194dcefe03">:question: Numb=
+er of consistencies across systems where e.g. SZ provisions MORE access tha=
+n NetRep and R2</li>
+     <li data-uuid=3D"7e4aafd7-62c7-4fc0-9c9e-a40b89b228f0">Historical inco=
+nsistent user setup practices lead to mismatches in first/last names</li>
+     <li data-uuid=3D"916eb074-ba2f-4c54-b7df-944008132fbd">Backdoor access=
+ for system providers&nbsp;</li>
+     <li data-uuid=3D"b7dda4cc-9de4-49c3-bba9-30fee651a449">Firm-level acce=
+ss for sub-advisors is currently not supported (looks like there may be use=
+ cases for this)</li>
+    </ol>
+    <p><br></p>
+    <h2 id=3D"Subadvisoranalysisnotes-PlatformInteractions">Platform Intera=
+ctions</h2>
+    <ul>
+     <li data-uuid=3D"6815e4ea-ee1e-4622-9b90-7a588e193b24">:question:&nbsp=
+; How does a PM actually work with their sub-advisor??&nbsp; Need to do som=
+e interviews.</li>
+     <li data-uuid=3D"5a6f2c9c-dc20-40a4-bcf3-b343c4c874fc">:question:&nbsp=
+; Do they all have the same accesses?&nbsp; &nbsp;Data analysis of R2 + SZ =
++ NR required.=20
+      <ul>
+       <li data-uuid=3D"3a165976-f062-42ac-ba02-e66934806207"><span style=
+=3D"letter-spacing: 0.0px;">Are there different usage profiles for differen=
+t sub-advisory relationships?</span></li>
+       <li data-uuid=3D"dff333ba-ec7a-4e1f-8a04-b2c6431d06ef">Would the fir=
+ms want us to help restrict a "standard sub-advisor" profile, how do they g=
+overn sub-advisor accesses and activities</li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"Subadvisoranalysisnotes-OperationalScenarios">&nbsp;Operation=
+al Scenarios</h1>
+    <p><br></p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 879.24px;">
+      <colgroup>
+       <col style=3D"width: 184.077px;">
+       <col style=3D"width: 190.704px;">
+       <col style=3D"width: 271.698px;">
+       <col style=3D"width: 231.981px;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th scope=3D"col" style=3D"text-align: left;vertical-align: top;" c=
+lass=3D"confluenceTh">
+         <ol>
+          <li data-uuid=3D"ec623c8c-d946-40db-8fcb-8b2dc2847383">Already ou=
+r client</li>
+         </ol></th>
+        <th scope=3D"col" style=3D"text-align: left;vertical-align: top;" c=
+lass=3D"confluenceTh">
+         <p><span>2. Not our client</span></p></th>
+        <th scope=3D"col" style=3D"text-align: left;vertical-align: top;" c=
+lass=3D"confluenceTh">
+         <p><span>3. Edge case</span></p></th>
+        <th scope=3D"col" style=3D"text-align: left;vertical-align: top;" c=
+lass=3D"confluenceTh">
+         <p><span>4. Emergent termination</span></p></th>
+       </tr>
+       <tr>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li class=3D"paragraph-child" data-uuid=3D"6ab3b012-d7a1-4627-ab6=
+f-d70762c5d839">
+           <p><span>They already have a CX id</span></p></li>
+          <li class=3D"paragraph-child" data-uuid=3D"9e6b3d88-978b-470b-9eb=
+e-4d6cd42caa28">
+           <p><span>Required to update the profile to allow PM sub-advising=
+ activities</span></p></li>
+         </ul></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p><span>Required to create a CX id for them</span></p>
+         <ul>
+          <li class=3D"paragraph-child" data-uuid=3D"1cb0105d-b4c0-4186-aa2=
+c-9d8a1b6f1c88">
+           <p><span>Under which firm id?</span></p></li>
+          <li class=3D"paragraph-child" data-uuid=3D"32daae36-e0dd-4f1e-ba8=
+9-6ca9d8b3fc9c">
+           <p><span>How to prevent the sub-advisor to have full access to c=
+lient accounts</span></p></li>
+         </ul></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <p><span>They was not our client but sub-advising for other PM fir=
+ms, then become our client (i.e. 2. becomes 1.)</span></p>
+         <ul>
+          <li class=3D"paragraph-child" data-uuid=3D"264025b3-36f5-42b0-9bb=
+6-379d39ad5022">
+           <p><span>Required to transfer their CX id to their firm and set =
+up their home firm user access in addition to the PM sub-advising access</s=
+pan></p></li>
+          <li class=3D"paragraph-child" data-uuid=3D"098b99a4-53df-4a3b-bfe=
+1-8c0ea7ae2abb">
+           <p><span>The case should be surfaced through the client implemen=
+tation process and be flagged</span></p></li>
+         </ul></td>
+        <td style=3D"text-align: left;vertical-align: top;" class=3D"conflu=
+enceTd">
+         <ul>
+          <li class=3D"paragraph-child" data-uuid=3D"21fd8021-979e-4a24-bdd=
+f-dfb6559b93db">
+           <p><span>There is a situation that the PM sub-advisors must not =
+be able to access their client accounts entrusted to them</span></p>
+           <ul>
+            <li class=3D"paragraph-child">
+             <p><span>How to update firm &amp; user settings intra-day?</sp=
+an></p></li>
+           </ul></li>
+         </ul>
+         <p><br></p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+    <p>.</p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"Subadvisoranalysisnotes-UseCases">Use Cases</h1>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 97.2355%;">
+      <colgroup>
+       <col style=3D"width: 14.7231%;">
+       <col style=3D"width: 46.8206%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"confluenceTh"><br></th>
+        <th class=3D"confluenceTh">Use Cases of PM Sub-advisor</th>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Onboarding</td>
+        <td class=3D"confluenceTd">
+         <p>Cannot access any onboarding capabilities of accounts under sub=
+-advising RR codes</p></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Trading&nbsp;</td>
+        <td class=3D"confluenceTd">Can trade on accounts pertained to my su=
+b-advising RR codes</td>
+       </tr>
+       <tr>
+        <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+        <td colspan=3D"1" class=3D"confluenceTd">PM Sub-advisors have full =
+trading rights just like the home firm advisors</td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Account Admin Services</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p>Cannot submit client/account update requests</p>
+          <p>Cannot submit servicing requests (e.g. withdrawl instructions,=
+ etc)</p>
+          <p>Can submit systematic plan instruction requests&nbsp;</p>
+          <p>Can submit Trade Cancel/Correction instruction requests <span =
+style=3D"color:#f87168;">- See Stanley's reply below&nbsp;</span></p>
+          <p>Can initiate or stop DRIP&nbsp;</p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"confluenceTd">Client &amp; Account Inquiry</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p>Can view the <strong>basic client info (NOT the Confidential d=
+ata, e.g. SIN #, home address, bank account #) - same as Trader role</stron=
+g></p>
+          <p>Can view the<strong> account portfolio info </strong>about the=
+ accounts under sub-advising RR codes <strong>- same as Trader role</strong=
+></p>
+          <p><strong>Requirement: A PM sub-advisor is supposed to view clie=
+nt/account info which are relevant to trading activities <time datetime=3D"=
+2023-02-06" class=3D"date-past">06 Feb 2023</time>&nbsp;</strong></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p class=3D"auto-cursor-target">.</p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p><br></p>
+    <p><strong>From:</strong> Kwong, Stanley &lt;stanley.kwong@<a class=3D"=
+external-link" href=3D"http://nbc.ca" rel=3D"nofollow">nbc.ca</a>&gt; <br><=
+strong>Sent:</strong> Wednesday, October 19, 2022 12:46 PM<br><strong>To:</=
+strong> So, Candi &lt;Candi.So@<a class=3D"external-link" href=3D"http://nb=
+c.ca" rel=3D"nofollow">nbc.ca</a>&gt;; Norris, Raymond &lt;Ray.Norris@<a cl=
+ass=3D"external-link" href=3D"http://nbc.ca" rel=3D"nofollow">nbc.ca</a>&gt=
+;<br><strong>Cc:</strong> Lam, Penny &lt;penny.lam@<a class=3D"external-lin=
+k" href=3D"http://nbc.ca" rel=3D"nofollow">nbc.ca</a>&gt;; Ahmed, Bilal &lt=
+;bilal.ahmed@<a class=3D"external-link" href=3D"http://nbc.ca" rel=3D"nofol=
+low">nbc.ca</a>&gt;<br><strong>Subject:</strong> Sub-advisor relationship -=
+ Background and Approach</p>
+    <p><br></p>
+    <p>Hi Candi,</p>
+    <p>As discussed a month back, I am providing more guidance on what has =
+been decided on specifically to how we treat sub-advisors.&nbsp; I will be =
+updating <a class=3D"external-link" href=3D"https://can01.safelinks.protect=
+ion.outlook.com/?url=3Dhttps%3A%2F%2Fjira.bnc.ca%2Fbrowse%2FRDB-1095&amp;da=
+ta=3D05%7C01%7CCandi.So%40nbc.ca%7C2ea9ce5f8f5c4b94315b08dab1f15944%7Cc2115=
+7cabce341a88aa7a23c4639610a%7C0%7C0%7C638017947380925333%7CUnknown%7CTWFpbG=
+Zsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C=
+3000%7C%7C%7C&amp;sdata=3DtyGAvgHaHH0ubkjpDYSb36qHj9%2BFUjuHZIYDOPBe85E%3D&=
+amp;reserved=3D0" rel=3D"nofollow">https://jira.bnc.ca/browse/RDB-1095</a>,=
+ with the same content after this email.</p>
+    <p><br></p>
+    <p><u>Background:</u></p>
+    <p>A sub-advisor / advisor relationship is where the advisor owns the c=
+lient relationship and performs non-portfolio management activities where-a=
+s the sub-advisor has the portfolio management responsibility (trading / tr=
+ade allocation) for the client but do not own the underlying relationship.&=
+nbsp; Sub-advisor does not bear the administration responsibilities to the =
+account.&nbsp; I.E.&nbsp; they do not take instructions or perform request =
+administration such as cash withdrawal or contribution from the client or t=
+he advisor.</p>
+    <p><strong>At NBIN, we may have sub-advisors who are also advisors for =
+their own client accounts.</strong></p>
+    <p><br></p>
+    <p><br></p>
+    <p><u>Capabilities of the sub-advisor:</u></p>
+    <p><br></p>
+    <p>A sub-advisor <u>currently have and will continue to have</u> the fo=
+llowing capabilities with respect to their activities at NBIN for RR Codes =
+they are sub-advising:</p>
+    <ul>
+     <li>Order entry and submission for all asset classes</li>
+     <li>Order list / status view</li>
+     <li>Submission of a Mutual Funds Basket</li>
+     <li>Submission of a Trade Advice for trade allocation</li>
+     <li>View Client ID level information (Read only)</li>
+     <ul>
+      <li>Client Profile</li>
+     </ul>
+     <li>View Account level information (Read only)</li>
+     <ul>
+      <li>Account Profile</li>
+      <li>transaction history</li>
+      <li>holdings</li>
+     </ul>
+    </ul>
+    <p><br></p>
+    <p>A sub-advisor <u>WILL NOT have</u> the following capabilities for th=
+e RR Codes they are sub-advising:</p>
+    <ul>
+     <li>Access to statements, confirmations or tax documents of client</li=
+>
+     <li>Client Onboarding</li>
+     <li>Direct access to iMost / SOMA.&nbsp; This means for the sub-adviso=
+r they cannot submit:</li>
+     <ul>
+      <li>MF Trade Correction</li>
+      <li>DRIP instruction submission</li>
+     </ul>
+    </ul>
+    <p><br></p>
+    <p>I will close the decision in JIRA on this but do let me know if we n=
+eed to have further chat on this.&nbsp;&nbsp;</p>
+    <p><br></p>
+    <p>Thanks,</p>
+    <p>Stanley</p>
+    <p><br></p>
+    <p>.</p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_86377_1786139438.1788185763378--

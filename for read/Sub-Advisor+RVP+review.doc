@@ -1,0 +1,864 @@
+Date: Mon, 31 Aug 2026 10:15:31 -0400 (EDT)
+Message-ID: <1500982093.86370.1788185731365@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_86369_1764349227.1788185731365"
+
+------=_Part_86369_1764349227.1788185731365
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sub-Advisor RVP review</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sub-Advisor RVP review</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"SubAdvisorRVPreview-Purpose"><strong>Purpose</strong></h2=
+>
+<p>This page consolidates insights from RVP discussions and sub-advisory re=
+views to inform the future-state design of:</p>
+<ul>
+ <li data-uuid=3D"61bf1ad5-e5a2-4a0c-8eb9-f691702dfe5e"><strong>Multi-firm =
+structure support</strong></li>
+ <li data-uuid=3D"b8a50b97-ac4d-4608-8f4d-cbc72df1e59d"><strong>Sub-advisor=
+y, vendor and referral user access models</strong></li>
+ <li data-uuid=3D"ae26a0f4-50d9-4672-b479-9765e5d165a3"><strong>Governance =
+and controls</strong></li>
+</ul>
+<p>=E2=9A=A0=EF=B8=8F Current-state challenges are driven by fragmented acc=
+ess models, poor data visibility, and evolving firm structures (M&amp;A, ou=
+tsourcing, multi-manager models).<br>
+  The platform lacks standardization, auditability, and flexibility require=
+d to support modern firm operating models.</p>
+<p><br></p>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Insights</b>
+ </div>
+ <div class=3D"panelContent">
+  <h2 id=3D"SubAdvisorRVPreview-Purpose.1"><strong>Purpose</strong></h2>
+  <p>This page consolidates RVP discovery insights across firm interactions=
+, user access patterns, and relationship structures, organized by relations=
+hip types, structural models, operational use cases, and data issues.</p>
+  <hr>
+  <h2 id=3D"SubAdvisorRVPreview-CoreRelationshipTypes"><strong>Core Relatio=
+nship Types</strong></h2>
+  <h3 id=3D"SubAdvisorRVPreview-Sub-Advisor"><strong>Sub-Advisor</strong></=
+h3>
+  <p><strong>Findings</strong></p>
+  <ul>
+   <li data-uuid=3D"5cdb9e44-4f6a-4e3f-9bfc-73e134663882">Sub-advisory rela=
+tionships are inconsistently represented and difficult to identify</li>
+   <li data-uuid=3D"724da141-9e16-46d0-ad71-8fc7cc8a8f67">Often identified =
+through&nbsp;duplicate user IDs, email patterns, or RR codes rather than ex=
+plicit tagging</li>
+   <li data-uuid=3D"2c4491d7-4fc8-4aea-8f97-adc6b1e58dfb">Some access exist=
+s for historical or operational reasons (e.g., account viewing) rather than=
+ active sub-advisory mandates</li>
+   <li data-uuid=3D"27d78b99-7f37-4258-9261-234dc0e9b3d5">Growing variance =
+in models:=20
+    <ul>
+     <li>Some firms continue to rely on sub-advisors</li>
+     <li>Others are transitioning to direct fund ownership and internal man=
+agement</li>
+    </ul></li>
+   <li data-uuid=3D"70b3ec1f-fe07-4deb-90f7-29528a7a09fc">Limited visibilit=
+y into full sub-advisor networks, especially beyond NBIN-held data</li>
+  </ul>
+  <hr>
+  <h3 id=3D"SubAdvisorRVPreview-Multi-Manager/OutsourcedIFM(StructuredSub-A=
+dvisor)"><strong>Multi-Manager / Outsourced IFM (Structured Sub-Advisor)</s=
+trong></h3>
+  <ul>
+   <li data-uuid=3D"d3445e19-64de-4160-8ee2-965f9b7fe81c">Increasing use of=
+ outsourced IFM providers (e.g., Majestic) across PM firms</li>
+   <li data-uuid=3D"734f087a-2f98-463c-a95f-4efb1b18d252">Typical model inc=
+ludes:=20
+    <ul>
+     <li>Separate PM and IFM entities</li>
+     <li>Roll-up to a parent firm structure</li>
+    </ul></li>
+  </ul>
+  <p>Some firms operate multi-manager platforms (e.g., Guardian, HighView) =
+with multiple sub-advisors</p>
+  <ul>
+   <li data-uuid=3D"7e5f6a59-d277-467a-af85-e32292f91278">When a sub-adviso=
+r (e.g., Parametric, Fiera) works with&nbsp;multiple PM firms:=20
+    <ul>
+     <li>They are set up separately within each firm=E2=80=99s environment<=
+/li>
+     <li>They are treated like a user of each individual firm, not as a sha=
+red entity</li>
+    </ul></li>
+  </ul>
+  <h3 id=3D"SubAdvisorRVPreview-Consequence"><strong>Consequence</strong></=
+h3>
+  <ul>
+   <li data-uuid=3D"dadb470f-20f7-43bf-9223-1a93936e1ed1">The same sub-advi=
+sor:=20
+    <ul>
+     <li>Has multiple user setups / accounts</li>
+     <li>Is managed independently by each firm</li>
+    </ul></li>
+   <li data-uuid=3D"754d3d1b-13e1-4dee-83b6-0bfeefeab160">This results in:=
+=20
+    <ul>
+     <li>Duplicate access configurations</li>
+     <li>Repeated onboarding/offboarding effort</li>
+     <li>No single =E2=80=9Csource of truth=E2=80=9D for that sub-advisor</=
+li>
+    </ul></li>
+  </ul>
+  <p><br></p>
+  <hr>
+  <h3 id=3D"SubAdvisorRVPreview-Referral"><strong>Referral</strong></h3>
+  <ul>
+   <li data-uuid=3D"91bf026d-c6f0-4df8-ab0e-1c196b245f05">Access typically =
+includes but is not limited to:=20
+    <ul>
+     <li>Onboarding capabilities</li>
+     <li>View-only access to client accounts</li>
+    </ul></li>
+   <li data-uuid=3D"6f3207c0-9bd7-4b95-b55f-5785df4dde68">Access is granted=
+ to support:=20
+    <ul>
+     <li>Client onboarding</li>
+     <li>Ongoing referral fee validation</li>
+     <li data-uuid=3D"97e0c526-46a0-4aa8-a941-241f3b3bcf23">Accounting func=
+tions e.g. Tax slips, statements</li>
+    </ul></li>
+   <li data-uuid=3D"e30f44b6-57a3-4709-b07b-ad4b2f6f45e1">Referral-driven m=
+odels are used by&nbsp; firms BCV and Tri-Cert</li>
+   <li data-uuid=3D"ffcbdd91-f41f-43a2-9293-443b38b64bea">Referral roles ar=
+e not distinguished from other access types</li>
+  </ul>
+  <hr>
+  <h2 id=3D"SubAdvisorRVPreview-Structural/OrganizationalTypes"><strong>Str=
+uctural / Organizational Types</strong></h2>
+  <h3 id=3D"SubAdvisorRVPreview-Merger&amp;Acquisition(Multi-FirmAccess)"><=
+strong>Merger &amp; Acquisition (Multi-Firm Access)</strong></h3>
+  <ul>
+   <li data-uuid=3D"f43ff652-381e-4070-bcda-27aa13aa1634">Increasing freque=
+ncy of M&amp;A activity leading to parent-child firm structures</li>
+   <li data-uuid=3D"56a78a28-20e4-473c-b907-797bdb845bd4">Acquired firms ty=
+pically remain in separate environments post-acquisition</li>
+   <li data-uuid=3D"87086c12-5d58-403e-8de0-297d1187e2c6">Users must mainta=
+in multiple IDs across entities</li>
+   <li data-uuid=3D"edf79a9b-3ae5-4f17-8d9e-2d5d65a1c9f4">Platform constrai=
+nts prevent consolidated access across firms</li>
+   <li data-uuid=3D"401e4c9c-a61b-441c-b50e-1e85563117cb">Rebranding is oft=
+en used instead of full system migration or integration</li>
+   <li data-uuid=3D"927cadde-d442-455b-80b7-f7ce62246573">Examples include =
+Croft acquisitions (Venable Park, JC Hood, QCPM)</li>
+  </ul>
+  <hr>
+  <h2 id=3D"SubAdvisorRVPreview-Operational/SupportTypes"><strong>Operation=
+al / Support Types</strong></h2>
+  <h3 id=3D"SubAdvisorRVPreview-OutsourcedAdmin/Accounting"><strong>Outsour=
+ced Admin / Accounting</strong></h3>
+  <ul>
+   <li data-uuid=3D"ca2001be-455c-4681-9738-8ed3d7ec9164">Some access attri=
+buted to fund accountants, compliance or administrative service providers</=
+li>
+   <li data-uuid=3D"513e9c3c-546f-4e96-b2e1-3ab64bb91946">In certain cases:=
+=20
+    <ul>
+     <li>Users have unexpected system access instead of data-only feeds</li=
+>
+     <li>Email domains do not align with primary firm entities</li>
+    </ul></li>
+   <li data-uuid=3D"df33cad6-781a-4837-9a22-ffa24a6d797f">Indicates inconsi=
+stent implementation of intended operating model</li>
+   <li data-uuid=3D"8249094a-b9c2-4daa-92b6-cabe05e3ce02">Distinction betwe=
+en:=20
+    <ul>
+     <li>Operational support roles</li>
+     <li>True advisory relationships is not always clear</li>
+    </ul></li>
+  </ul>
+  <hr>
+  <h3 id=3D"SubAdvisorRVPreview-Third-PartyVendorAccess"><strong>Third-Part=
+y Vendor Access</strong></h3>
+  <ul>
+   <li data-uuid=3D"85e395d1-6d38-470c-b317-dd30dcfa0bf0">Presence of third=
+-party or external users whose roles are not always clearly defined; appear=
+ as sub-advisors but function as administrative or vendor support</li>
+   <li data-uuid=3D"d90e36bb-8e66-4aa2-b507-2f97b4110d2b">Limited transpare=
+ncy into:=20
+    <ul>
+     <li>Who the third party represents</li>
+     <li>Why access was provisioned</li>
+    </ul></li>
+   <li data-uuid=3D"0867b32f-a3e9-404a-a6d6-34bbd2443a38">Reflects lack of =
+standardized classification of external access types</li>
+  </ul>
+  <hr>
+  <h2 id=3D"SubAdvisorRVPreview-DataIssues(NotTrueRelationships)"><strong>D=
+ata Issues (Not True Relationships)</strong></h2>
+  <h3 id=3D"SubAdvisorRVPreview-StaleAccess"><strong>Stale Access</strong><=
+/h3>
+  <ul>
+   <li data-uuid=3D"59768751-11cd-41c9-86a5-7e432cdf6af9">Evidence of users=
+:=20
+    <ul>
+     <li>No longer with firms but retaining access</li>
+     <li>Maintaining access due to missed or ineffective attestation proces=
+ses</li>
+    </ul></li>
+   <li data-uuid=3D"c4e40199-0d96-4ba8-8943-bf7e56e46e16">Legacy access per=
+sists due to:=20
+    <ul>
+     <li>Manual governance processes</li>
+     <li>Lack of regular cleanup and enforcement</li>
+    </ul></li>
+   <li data-uuid=3D"b95b0d71-c26e-45e8-a616-58f2558c66c9">Significant effor=
+t required to:=20
+    <ul>
+     <li>Validate current access lists</li>
+     <li>Remove outdated permissions</li>
+    </ul></li>
+   <li data-uuid=3D"a8f9aff9-ebdf-4083-8ac8-55719d632fc7">Creates both:=20
+    <ul>
+     <li>Security and compliance risks</li>
+     <li>Noise in identifying true relationship structures</li>
+    </ul></li>
+  </ul>
+  <hr>
+  <h2 id=3D"SubAdvisorRVPreview-Recommendedfirmsforvalidationengagements"><=
+strong>Recommended firms for validation e</strong><strong>ngagements</stron=
+g></h2>
+  <ul>
+   <li style=3D"list-style-type: none;">
+    <ul>
+     <li>M&amp;A =E2=86=92 Croft</li>
+     <li>Sub-advisory / IFM =E2=86=92 Newport</li>
+     <li>Referral agents =E2=86=92 BCV</li>
+    </ul></li>
+   <li data-uuid=3D"71a936ab-cf16-4ac3-8500-2e168f61433d">
+    <p>Additional engagement with:</p>
+    <ul>
+     <li>Complex firms (e.g., Guardian, HighView)&nbsp;</li>
+    </ul></li>
+  </ul>
+  <p><br></p>
+ </div>
+</div>
+<p><br></p>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>RVP meeting notes</b>
+ </div>
+ <div class=3D"panelContent">
+  <p class=3D"auto-cursor-target"><strong>Meeting 1 - May 27, 2026&nbsp;</s=
+trong></p>
+  <p>Attendees: Todd Brennand, Penny Lam, Susanne Clifford&nbsp;</p>
+  <p>Meeting notes:</p>
+  <p><strong>User Access Anomalies :&nbsp;</strong></p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"a0c83ca5-fe9a-4c23-956=
+c-8fe2c48165ca">
+    <ul>
+     <li><strong>IPC User Access in Bellwether: </strong>Todd and Susanne i=
+dentified an IPC user with access in the Bellwether environment, which seem=
+ed incorrect.&nbsp;</li>
+     <li><strong>Fund Accountant Access in McIlvain: </strong>Susanne noted=
+ a user with two IDs whose email domain did not match Higgins or McIlvain, =
+suggesting it might be a fund accountant or administrative services. Todd e=
+xplained that fund accountants typically require data feeds rather than acc=
+ount access and recommended following up with Tim McIlvain to verify the se=
+tup.</li>
+     <li><strong>Quarterly Attestation Concerns: </strong>Todd expressed do=
+ubts about the thoroughness of quarterly attestations by firms, indicating =
+that anomalies in user access might go unnoticed, and emphasized the import=
+ance of reviewing these cases to ensure proper platform setups.</li>
+     <li><strong>Referral Agent Access: </strong>Susanne and Todd discussed=
+ referral agent access, with Todd clarifying that referral agents, such as =
+accountants or lawyers, may be granted onboarding or view-only access to fa=
+cilitate client onboarding and justify ongoing referral fees, and that risk=
+ teams are comfortable with this arrangement.</li>
+    </ul></li>
+  </ul>
+  <p><strong>Multi-Firm Relationships and Mergers:&nbsp;</strong></p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"7f934fe2-86c4-44d7-b5d=
+2-aa5857875dba">
+    <ul>
+     <li><strong>Croft Aquisition of Venable Park and JC Hood: </strong>Tod=
+d explained that Croft Financials' acquisition of Venable Park required sep=
+arate user access for each environment due to platform limitations, resulti=
+ng in Croft users needing additional IDs to access Venable Park accounts. <=
+strong>&nbsp;</strong>Todd noted that Croft's acquisition of JC Hood would =
+lead to similar access challenges and predicted more such cases as mergers =
+and acquisitions continue to increase among platform firms.</li>
+     <li><strong>Platform Rebranding: </strong>Todd described the process o=
+f rebranding acquired firm environments, such as Venable Park, rather than =
+migrating all accounts, to maintain separate environments and comply with p=
+latform constraints.</li>
+    </ul></li>
+  </ul>
+  <p><strong>Sub-Advisory Relationships and Outsourcing:&nbsp;</strong></p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"e9f60636-0d28-4d73-b20=
+6-196ac0d3a513">
+    <ul>
+     <li><strong>Sub-Advisor Engagement Process: </strong>Todd explained th=
+at as firms engage sub-advisors, the implementation and risk teams are invo=
+lved to ensure proper oversight, and that sub-advisors are set up as employ=
+ees of each PM firm to maintain control and facilitate access removal when =
+necessary.</li>
+     <li><strong>Parametric Example: </strong>Todd cited Parametric, a larg=
+e firm engaged by Northwood and Newport, as an example of sub-advisory rela=
+tionships, noting that Parametric prefers direct access but the platform re=
+quires them to be managed by each PM firm individually.</li>
+     <li><strong>Outsourced IFM Services: </strong>Todd highlighted Majesti=
+c as a major provider of outsourced IFM services, with many PMs on the plat=
+form delegating IFM responsibilities to Majestic, which aligns with the pla=
+tform's structure and access controls.</li>
+     <li><strong>Asset Allocator vs. Sub-Advisor: </strong>Todd distinguish=
+ed between asset allocators, who select PMs to manage fund sleeves, and PMs=
+ who provide sub-advisory services, noting that most traditional PMs prefer=
+ to manage assets internally rather than outsource.</li>
+    </ul></li>
+  </ul>
+  <p><strong>PM-IFM Relationship Dynamics and Account Structures:&nbsp;</st=
+rong></p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"41dabb34-800e-427b-bf8=
+2-40a6e010a4b6">
+    <ul>
+     <li><strong>PM Launching Fund and IFM Registration: </strong>Todd desc=
+ribed the typical process where a PM grows their business, decides to launc=
+h a fund, and obtains IFM registration, resulting in separate PM and IFM ac=
+counts that roll up to a parent account in Salesforce.</li>
+     <li><strong>Outsourcing IFM to Majestic: </strong>Todd explained that =
+some PMs choose to outsource IFM responsibilities to firms like Majestic, a=
+llowing them to focus on portfolio management while Majestic handles fund a=
+dministration.</li>
+     <li><strong>Standalone IFM Use Case: </strong>Todd outlined the rare s=
+cenario where a firm acts solely as an IFM, launching funds for distributio=
+n without managing private clients, and noted that these firms still requir=
+e both PM and IFM registrations.</li>
+     <li><strong>Account Range and Segregation: </strong>Todd detailed that=
+ fund accounts are typically opened in the 26x prime brokerage account rang=
+e for segregation and reporting, with legacy cases like Newport and Croft h=
+aving fund accounts within private client ranges, leading to double countin=
+g.</li>
+    </ul></li>
+  </ul>
+  <p><strong>User Access Configuration and System Limitations:&nbsp;</stron=
+g></p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"7410857f-bace-4454-880=
+0-fd770c27a4cf">
+    <ul>
+     <li><strong>Multiple User IDs Requirement: </strong>Todd explained tha=
+t users often require separate IDs for each firm or account type due to sys=
+tem constraints, such as the inability to blend access between ICBMB and IC=
+PMC environments, resulting in operational overhead for users.</li>
+     <li><strong>Application Inconsistencies: </strong>Penny noted inconsis=
+tencies between applications like Compass, NetRep, and SecureZone regarding=
+ user access, and emphasized the need to clean up and standardize configura=
+tions across the platform.</li>
+     <li><strong>Consultation with Implementation Team: </strong>Todd recom=
+mended engaging Kayla from the Implementations team to clarify access limit=
+ations and explore possible solutions, as well as consulting pilot firms li=
+ke Croft and Newport to validate design and controls.</li>
+     <li><strong>Rep Code Limitations: </strong>Todd mentioned that BCV, no=
+w owned by ATB, faces challenges with the number of rep codes that can be c=
+onfigured under one user ID, and suggested leveraging ID1 and ID2 fields to=
+ address this issue.</li>
+    </ul></li>
+  </ul>
+  <p><strong>Referral Agent Processes and Access: </strong>Todd and Penny d=
+iscussed the role of referral agents, their access to onboarding and accoun=
+t information, and the prevalence of referral agent-driven business models =
+among firms like BCV and Tri-Cert, clarifying that access is granted to fac=
+ilitate client onboarding and ongoing relationship management.</p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"c8a9751b-3236-4ef3-8df=
+b-a84d83beffa1">
+    <ul>
+     <li><strong>Referral Agent Access Types: </strong>Todd explained that =
+referral agents may be granted onboarding access or view-only access in Net=
+Rep to assist with client onboarding and justify ongoing referral fees, and=
+ that risk teams approve such access with appropriate documentation.</li>
+    </ul></li>
+  </ul>
+  <p><strong>Pilot Firm Engagement and Process Validation:&nbsp;</strong></=
+p>
+  <ul>
+   <li style=3D"list-style-type: none;" data-uuid=3D"fb3ac4e2-4454-452c-a95=
+1-7c4d92fd90ed">
+    <ul>
+     <li><strong>Pilot Firm Selection: </strong>Penny and Todd identified C=
+roft and Newport as suitable pilot firms for validating user access solutio=
+ns, given their experience with mergers, sub-advisors, and referral agents,=
+ and planned to consult BCV for insights into rep code challenges.</li>
+    </ul></li>
+  </ul>
+  <p>Follow-up tasks:</p>
+  <ul>
+   <li data-uuid=3D"c90fed57-98ca-42dd-b56f-aea3bfa39ac5"><strong>User Acce=
+ss Anomalies: </strong>Provide additional user details to Todd to enable fo=
+llow-up with Bellwether=E2=80=99s Chief Operating Officer regarding IPC use=
+r access in the Bellwether environment. (Susanne)</li>
+   <li data-uuid=3D"a2f023f1-1fb2-434d-88a0-b852eec93bbb"><strong>Fund Acco=
+untant Access Review: </strong>Flag and follow up with Tim (McIlvain) to co=
+nfirm the appropriateness of user access for a fund accountant or administr=
+ative services in the McIlvain environment, as the email domain does not ma=
+tch Higgins or McIlvain. (Susanne)</li>
+   <li data-uuid=3D"7365518d-fae5-4afa-9d47-adf517837318"><strong>Referral =
+Agent Access Investigation: </strong>Pull examples and review cases of refe=
+rral agents on the platform with onboarding or view-only access, particular=
+ly for firms like BCV and Tri-Cert, and coordinate with Paulo and Michelle =
+for further insight. (Susanne, Penny)</li>
+   <li data-uuid=3D"46177bba-1462-4500-955a-888ef5fb086e"><strong>User Acce=
+ss Consolidation Pilot: </strong>Engage Croft and Newport as pilot firms to=
+ validate user access controls and configurations, and consult with Kayla i=
+n Implementations for examples of cross-environment access challenges. (Pen=
+ny)</li>
+   <li data-uuid=3D"08dfbf39-b7f4-4e54-ba38-19e99fac1ef8"><strong>BCV Rep C=
+ode Limitation Follow-Up: </strong>Reach out to Michelle regarding BCV to d=
+iscuss rep code configuration limitations and challenges, including the use=
+ of ID1 and ID2 fields, and gather feedback for improving user access exper=
+ience. (Penny)</li>
+   <li data-uuid=3D"16451831-44e8-4815-aa4b-54c39abcdd51"><strong>Client Of=
+fice Visit Planning: </strong>Arrange a visit to Newport=E2=80=99s office t=
+o gain insight into their day-to-day user access practices and identify pot=
+ential areas for improvement. (Penny)</li>
+  </ul>
+  <p><br></p>
+  <p>Meeting 2 - May 27, 2026</p>
+  <p>Attendees: Matt Pollock, Penny Lam, Susanne Clifford</p>
+  <p>Meeting notes:</p>
+  <ul>
+   <li data-uuid=3D"2c5f41aa-65b6-4f47-a773-5fb62d754eab"><strong>Review of=
+ Sub-Advisory and Referral Relationships:&nbsp;</strong>
+    <ul>
+     <li><strong>Shift Away from Sub-Advisory: </strong>Matthew explained t=
+hat many multifamily office firms, such as Altium, have moved away from sub=
+-advisory relationships and now prefer to purchase funds directly, managing=
+ them internally rather than relying on sub-advisors.</li>
+     <li><strong>Firm-Specific Status Updates: </strong>The team discussed =
+the current sub-advisory or referral status for firms including Altium, Cla=
+ret, Jaroslovsky, Georgian, BCV, and Kerr, noting which firms still have su=
+b-advisory accounts, which have transitioned to direct fund purchases, and =
+which may require follow-up to confirm their current practices.</li>
+     <li><strong>Access and Account Management: </strong>They addressed the=
+ issue of legacy accounts and user access, highlighting that some users lis=
+ted as having access no longer work at the firms, and that there is a need =
+for better governance and regular cleanup of access rights.</li>
+     <li><strong>Purpose of Account Viewing: </strong>Matthew clarified tha=
+t in some cases, such as between Kerr and Jaroslovsky, access is provided f=
+or account viewing only, often due to the administrative burden of moving a=
+ccounts, rather than for active sub-advisory management.</li>
+     <li><strong>Compliance and Attestation: </strong>The group noted that =
+attestation processes are not always followed or understood by firms, leadi=
+ng to outdated access and potential compliance risks, and suggested that fi=
+rms should be required to maintain up-to-date disclosures of their sub-advi=
+sory and referral relationships.</li>
+    </ul></li>
+   <li data-uuid=3D"67581e3f-a28f-4320-a086-7f8a97e069bd"><strong>Operation=
+al Challenges and Data Management:&nbsp;</strong>
+    <ul>
+     <li><strong>Visibility and Data Accuracy: </strong>Penny highlighted t=
+he difficulty in maintaining visibility into sub-advisory relationships, no=
+ting that it took the team three months to compile the current list and tha=
+t data is often outdated or incomplete.</li>
+     <li><strong>User Access and Risk Management: </strong>The team discuss=
+ed the risks associated with user access, including cases where former empl=
+oyees retain access to systems, and emphasized the need for regular access =
+reviews and a more robust attestation process.</li>
+     <li><strong>Digitalization of Processes: </strong>Penny proposed movin=
+g attestation and delegation processes to digital platforms to improve effi=
+ciency and traceability, suggesting that digital delegation and automated t=
+racking would reduce manual errors and oversight.</li>
+     <li><strong>Role of Specialty Teams: </strong>Matthew suggested the cr=
+eation of a specialty team focused on user access management, given the hig=
+h risk and complexity involved in ensuring correct permissions and complian=
+ce.</li>
+    </ul></li>
+   <li data-uuid=3D"ea2383cc-b8e3-4b94-a6fa-8005a343c64d"><strong>Technical=
+ and Process Considerations for System Enhancements:&nbsp;</strong>
+    <ul>
+     <li><strong>System Flexibility and Onboarding: </strong>Penny and Matt=
+hew discussed Compass's flexibility in supporting new types of relationship=
+s, such as referrals, and the need to define and document these use cases t=
+o ensure the system can accommodate them.</li>
+     <li><strong>Pilot Testing with Partner Firms: </strong>The team agreed=
+ to involve representative firms, particularly those with more complex or u=
+nique use cases, in pilot testing system enhancements to validate new proce=
+sses before full implementation.</li>
+     <li><strong>Integration of Net Rep and Secure Zone: </strong>Susanne m=
+entioned that upcoming changes would include integrating net rep and secure=
+ zone information, which may affect how access and relationships are manage=
+d within the system.</li>
+     <li><strong>Surveying Firms for Requirements: </strong>Matthew suggest=
+ed conducting a brief survey with firms to gather information on their need=
+s and preferences regarding sub-advisory and referral access, to inform sys=
+tem design and process improvements.</li>
+    </ul></li>
+   <li data-uuid=3D"6eb80043-e078-4489-9b4d-8b53a247b8e2"><strong>Action It=
+ems and Next Steps:&nbsp;</strong>
+    <ul>
+     <li><strong>Legacy Access Cleanup: </strong>Matthew and Penny agreed o=
+n the need to review and remove outdated sub-advisory access, particularly =
+for firms and users no longer active, as part of the ongoing project.</li>
+     <li><strong>Documentation and Traceability: </strong>Penny emphasized =
+the importance of definitively defining relationship types and ensuring the=
+y are properly documented in systems like Firm 360 for future traceability.=
+</li>
+     <li><strong>Timeline for Implementation: </strong>The group acknowledg=
+ed that the solution would take four to five months to implement, with a fi=
+nal review and onboarding of relationships into the new system at the end o=
+f the process.</li>
+     <li><strong>Outreach and Feedback Collection: </strong>They planned to=
+ reach out to selected partner firms through Matthew and the RVPs to gather=
+ feedback and validate new processes, with the possibility of using surveys=
+ to streamline input collection.</li>
+    </ul></li>
+  </ul>
+  <p><br>
+    Follow-up tasks:</p>
+  <ul>
+   <li data-uuid=3D"86fc4ade-7b1f-47b5-bf76-c316fe259779"><strong>Sub-Advis=
+or Account Cleanup: </strong>Review and clean up sub-advisor accounts to co=
+nfirm which are still active and remove inactive ones, especially for firms=
+ like Kerr, Patrick Monica, and Leicester Asset Management. (Susanne, Penny=
+)</li>
+   <li data-uuid=3D"e0b88da8-1f8f-46ac-baf1-367c2588b978"><strong>User Acce=
+ss Attestation and Cleanup: </strong>Verify and update user access lists fo=
+r sub-advisory relationships, ensuring that access is current and removing =
+users who no longer work at the relevant firms. (Susanne, Penny)</li>
+   <li data-uuid=3D"581c7d70-4b5f-4fd8-b5c1-93fc9c0cbc01"><strong>Firm Disc=
+losure Process: </strong>Develop a process for firms to provide and maintai=
+n a disclosure list of individuals and sub-advisors with access, including =
+referrals, to improve visibility and governance. (Penny)</li>
+   <li data-uuid=3D"86577297-3b2c-4b3b-9dee-5001c3c98d8a"><strong>Correctio=
+n of Parent Firm Coding: </strong>Update Firm 360 to correct the parent fir=
+m coding for Cape Cove to Rivemont, consolidating the records appropriately=
+. (Susanne)</li>
+   <li data-uuid=3D"f5818dbf-181e-48d9-bd89-fd2a04916c32"><strong>Pilot Fir=
+m Engagement: </strong>Identify and engage representative partner firms (e.=
+g., Altium, Kerr) to participate in validating and testing the new solution=
+ during implementation. (Penny)</li>
+   <li data-uuid=3D"67350a22-1bd0-452d-bdd4-e19e2e856c1b"><strong>Referral =
+Use Case Clarification: </strong>Reach out to firms with referral relations=
+hips (e.g., BCV, Harris, Bilodeau) to understand their specific needs and u=
+se cases for access and activity in Compass. (Matthew)</li>
+   <li data-uuid=3D"e078d6e2-28f9-46b9-a936-160af1c32efa"><strong>Survey on=
+ Sub-Advisor and Referral Needs: </strong>Create and distribute a short sur=
+vey to firms to gather information on what activities sub-advisors and refe=
+rrals need to perform and why. (Matthew)</li>
+   <li data-uuid=3D"7e2bda2b-0522-49ef-bded-64953003a5ca"><strong>Digital D=
+elegation and Attestation Process: </strong>Design and implement a digital =
+process for delegating sub-advisor relationships and managing attestations,=
+ ensuring traceability and ease of use for firms. (Penny)</li>
+  </ul>
+  <p><strong>Meeting 3 - May 27, 2026&nbsp;</strong></p>
+  <p>Attendees: Paulo Demarco, Penny Lam, Susanne Clifford&nbsp;</p>
+  <p>Meeting notes:</p>
+  <ul>
+   <li data-uuid=3D"0da1c983-7268-474d-be15-5d2f6b125ec0"><strong>Guardian =
+Partners and Multi-Manager Sub-Advisor Structure:&nbsp;</strong>
+    <ul>
+     <li><strong>Guardian's Business Divisions: </strong>Paulo described Gu=
+ardian's two main divisions: Guardian Capital Advisors (core business with =
+direct fund management) and Guardian Partners Inc. (formerly BNY Mellon, fo=
+cused entirely on sub-advisory business), noting the recent rebranding to G=
+uardian Partners Inc.</li>
+     <li><strong>Sub-Advisor Relationship Complexity: </strong>The team cla=
+rified that Guardian has multiple sub-advisors, more than initially listed,=
+ and that the full extent of these relationships will become clearer with f=
+urther data analysis.</li>
+     <li><strong>Consolidation and Growth: </strong>Paulo explained that Gu=
+ardian is consolidating its sub-advisor business with NBIN, having already =
+moved significant assets and planning to move more, making Guardian a key p=
+artner for process improvements.</li>
+     <li><strong>Key Contacts and Collaboration: </strong>Sergio, Guardian'=
+s VP of Operations, was identified as the main contact for operational and =
+process discussions, with plans for Susanne to be introduced to Sergio for =
+deeper engagement and validation.</li>
+    </ul></li>
+   <li data-uuid=3D"5cf77e6b-efc5-4ff0-bba5-34ce75dc33d6"><strong>High View=
+ and Other Elite PM Firms=E2=80=99 Sub-Advisor Arrangements:&nbsp;</strong>
+    <ul>
+     <li><strong>High View=E2=80=99s Sub-Advisor Model: </strong>Paulo expl=
+ained that High View, a recently onboarded elite PM firm, outsources most o=
+f its management to a small group of sub-advisors, but not all are captured=
+ in the current data set.</li>
+     <li><strong>Data Limitations: </strong>The group acknowledged that onl=
+y sub-advisors on NBIN=E2=80=99s books are currently visible, and that the =
+actual number of sub-advisors is likely higher, with further validation nee=
+ded as more data becomes available.</li>
+     <li><strong>Other Firms=E2=80=99 Status: </strong>Paulo provided updat=
+es on other firms: Longview is a significant client with some unexpected su=
+b-advisor relationships, Merit is closing, CI Private Council is transition=
+ing away, and Higgins appears to be a third-party administrative case rathe=
+r than a true sub-advisor.</li>
+    </ul></li>
+   <li data-uuid=3D"b75544ef-3a78-466b-bdd4-519e9fac9df0"><strong>Process I=
+mprovements and Platform Formalization:&nbsp;</strong>
+    <ul>
+     <li><strong>Current Process Gaps: </strong>Penny highlighted that the =
+current process for managing sub-advisor access is unstructured, with no co=
+ntrols or auditability, leading to breaches and significant manual effort t=
+o compile accurate views.</li>
+     <li><strong>Platform Integration Plans: </strong>The team plans to for=
+malize sub-advisor relationships within the View Compass platform, which wi=
+ll allow for proper controls, delegation, and verification of access, addre=
+ssing current process weaknesses.</li>
+     <li><strong>Stakeholder Engagement: </strong>Guardian was identified a=
+s a strong candidate for piloting the new process, with Sergio suggested as=
+ a partner for feedback and validation, and the team agreed to involve Guar=
+dian in ongoing process improvements.</li>
+    </ul></li>
+   <li data-uuid=3D"5dc4d20b-ea0f-4017-9344-0d7a5dc95f99"><strong>Supervisi=
+on and Reporting Requirements for Sub-Advisors:&nbsp;</strong>
+    <ul>
+     <li><strong>Supervision Responsibilities: </strong>Paulo explained tha=
+t sub-advisors do not have supervision requirements because the main firm (=
+e.g., Guardian) retains discretionary management and responsibility for the=
+ accounts, with sub-advisors only managing allocated portions.</li>
+     <li><strong>Further Clarification Needed: </strong>The team agreed tha=
+t Sergio would be the best contact to clarify any remaining questions about=
+ supervision and reporting, given Guardian=E2=80=99s complex sub-advisor st=
+ructure.</li>
+    </ul></li>
+   <li data-uuid=3D"c0dd13d8-b5f0-4ef7-ae60-482c180beedd"><strong>Referral =
+Relationships Among Clients:&nbsp;</strong>
+    <ul>
+     <li><strong>Referral Arrangements: </strong>Paulo stated that, in theo=
+ry, any client could act as a PM for another, but in practice, referral rel=
+ationships for outsourced management are not common among their clients.</l=
+i>
+    </ul></li>
+  </ul>
+  <p><br></p>
+  <p><br></p>
+ </div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_86369_1764349227.1788185731365--

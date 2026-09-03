@@ -1,0 +1,300 @@
+Date: Wed, 2 Sep 2026 14:39:25 -0400 (EDT)
+Message-ID: <10708714.26836.1788374365988@ip-10-50-197-197.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26835_2072416697.1788374365987"
+
+------=_Part_26835_2072416697.1788374365987
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sunlife (SSO)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sunlife (SSO)</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<p><br></p>
+<ul>
+ <li>Sail point on prem for authentication is done at Sunlife , which then =
+feeds into Azure AD.</li>
+ <li>Azure AD to Okta integration already exists for other applications at =
+Sunlife.</li>
+ <li>Okta to Okta integration is not required for this set up.</li>
+ <li>Main attributes passed is email , First name , last name , additional =
+attributes like business title etc. needed by some applications.</li>
+ <li>Landing Page on compass SSO to be same or could change , depending on =
+where the user is on the portal , for now one location at Sunlife to the sa=
+me destination location at Compass for all the users is the proposed soluti=
+on.</li>
+ <li>Starting point would be to able to login to Compass , when new advisor=
+s are added . Down the line , context with roles automatically set up is th=
+e future road map.</li>
+ <li>All access management to be done on Compass.</li>
+ <li>Identity management at compass could have the capability to work with =
+security stewards on Sunlife side and then apply the relevant roles accordi=
+ngly , this is work in progress with other clients of NBIN.</li>
+ <li>Phil and some one from Sunlife Ops team to participate in more detaile=
+d architecture of SSO with NBIN.</li>
+ <li>Two environments exist at NBIN , Preview ( pre =E2=80=93 prod ) and Pr=
+od &nbsp;&nbsp;, Sign in URL=E2=80=99s could be made available for Dev , Te=
+st , UAT , if required.</li>
+ <li>No Audit or reporting required from Sunlife on SSO</li>
+ <li>JM to set up another connect for Oct 20 ( already done).</li>
+</ul>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<ul>
+ <li>API on NBIN compass side which could be exposed to SLF for off boardin=
+g</li>
+ <li>Profile deactivation will happen after set time ( 6 months )</li>
+ <li>Profile not deleted after 6 months , JIT provisioning at NBIN facilita=
+tes this use case</li>
+ <li>After 6 months profile goes from okta , remains on compass and JIT pro=
+visioning allows the profile to be recreated</li>
+ <li>After set period of inactivity , profile will be deleted</li>
+ <li>Initial preferences which are set up for advisors initially will remai=
+n even if there is no activity for 6 months</li>
+ <li>IDP IP=E2=80=99s to be whitelisted , SLF to send this information</li>
+ <li>If user is not set up in compass and SSO , a new page with error messa=
+ge to appear =E2=80=93 =E2=80=98You are not configured on compass=E2=80=99 =
+. This could be configured</li>
+ <li>Tracey Randell to be engaged for user experience page on compass from =
+Sunlife</li>
+ <li>context passing not in scope for now &nbsp;, data won=E2=80=99t be mov=
+ed to compass platform .</li>
+ <li>SAML and OIDC are approved at SunLife , Okta can support both and lot =
+of OIDC . OIDC is working with SunLife</li>
+ <li>Attribute such as language and others to be checked by Phil &nbsp;, if=
+ possible to be sent .</li>
+ <li>Timelines =E2=80=93 4 months implementation for SSO , by March 1<sup>s=
+t</sup> ( tentative )</li>
+ <li>Advisors could access compass using user id / password in prod , SSO t=
+o be implemented around March 1 .</li>
+ <li>Cost =E2=80=93 high right now . Estimates to be provided soon.</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_26835_2072416697.1788374365987--

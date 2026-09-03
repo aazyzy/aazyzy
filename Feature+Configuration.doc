@@ -1,0 +1,961 @@
+Date: Wed, 2 Sep 2026 14:39:39 -0400 (EDT)
+Message-ID: <228977151.26838.1788374379214@ip-10-50-197-197.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26837_71600254.1788374379212"
+
+------=_Part_26837_71600254.1788374379212
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Feature Configuration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Feature Configuration</h1>
+    <div class=3D"Section1">
+        <p>
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788374379174 {padding: 0px;}
+div.rbtoc1788374379174 ul {margin-left: 0px;}
+div.rbtoc1788374379174 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1788374379174">
+ <ul class=3D"toc-indentation">
+  <li><a href=3D"#FeatureConfiguration-BusinessContext">Business Context</a=
+></li>
+  <li><a href=3D"#FeatureConfiguration-ModelDefinition">Model Definition</a=
+>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#FeatureConfiguration-Permission">Permission</a></li>
+    <li><a href=3D"#FeatureConfiguration-Role">Role</a></li>
+    <li><a href=3D"#FeatureConfiguration-UserGroup">User Group</a></li>
+    <li><a href=3D"#FeatureConfiguration-Resource">Resource</a></li>
+    <li><a href=3D"#FeatureConfiguration-FeaturePackageTemplate">Feature Pa=
+ckage Template</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureConfiguration-Types">Types</a></li>
+      <li><a href=3D"#FeatureConfiguration-Attributes">Attributes</a></li>
+     </ul></li>
+    <li><a href=3D"#FeatureConfiguration-FeaturePackage">Feature Package</a=
+>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureConfiguration-Attributes.1">Attributes</a></li=
+>
+     </ul></li>
+    <li><a href=3D"#FeatureConfiguration-Feature">Feature</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureConfiguration-Attributes.2">Attributes</a></li=
+>
+     </ul></li>
+    <li><a href=3D"#FeatureConfiguration-FeaturePackage.1">Feature Package<=
+/a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureConfiguration-Attributes.3">Attributes</a></li=
+>
+      <li><a href=3D"#FeatureConfiguration-FirmPackage">Firm Package</a>
+       <ul class=3D"toc-indentation">
+        <li><a href=3D"#FeatureConfiguration-Add-On">Add-On</a></li>
+        <li><a href=3D"#FeatureConfiguration-Quota">Quota</a></li>
+       </ul></li>
+      <li><a href=3D"#FeatureConfiguration-UserPackage">User Package</a></l=
+i>
+     </ul></li>
+    <li><a href=3D"#FeatureConfiguration-ConfigurationManagement">Configura=
+tion Management</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#FeatureConfiguration-UserGroup.1">User Group</a></li>
+      <li><a href=3D"#FeatureConfiguration-Role.1">Role</a></li>
+      <li><a href=3D"#FeatureConfiguration-Permission.1">Permission</a></li=
+>
+      <li><a href=3D"#FeatureConfiguration-Resource.1">Resource</a></li>
+      <li><a href=3D"#FeatureConfiguration-FeaturePackageTemplate.1">Featur=
+e Package Template</a></li>
+      <li><a href=3D"#FeatureConfiguration-FeaturePackage.2">Feature Packag=
+e</a></li>
+      <li><a href=3D"#FeatureConfiguration-Feature.1">Feature</a></li>
+      <li><a href=3D"#FeatureConfiguration-FeatureGroup">Feature Group</a><=
+/li>
+      <li><a href=3D"#FeatureConfiguration-FeaturePackage.3">Feature Packag=
+e</a></li>
+      <li><a href=3D"#FeatureConfiguration-AccessControlAssignment">Access =
+Control Assignment</a></li>
+     </ul></li>
+   </ul></li>
+ </ul>
+</div>
+<p></p>
+<h1 id=3D"FeatureConfiguration-BusinessContext">Business Context</h1>
+<p><span style=3D"color:#0055cc;"><strong>Not to be interpreted as requirem=
+ent</strong></span></p>
+<p><a href=3D"/spaces/NWPI/pages/1353762177/Firm+Feature+Packages">Firm Fea=
+ture Packages</a></p>
+<p><a href=3D"/spaces/NWPI/pages/1040156523/Implementing+Access+Control">Im=
+plementing Access Control</a></p>
+<h1 id=3D"FeatureConfiguration-ModelDefinition">Model Definition</h1>
+<h2 id=3D"FeatureConfiguration-Permission">Permission</h2>
+<p>&lt;TBD&gt;</p>
+<h2 id=3D"FeatureConfiguration-Role">Role</h2>
+<p>&lt;TBD&gt;</p>
+<h2 id=3D"FeatureConfiguration-UserGroup">User Group</h2>
+<p>&lt;TBD&gt;</p>
+<h2 id=3D"FeatureConfiguration-Resource">Resource</h2>
+<p>&lt;TBD&gt;</p>
+<div class=3D"rwui_tabs">
+ <ul class=3D"rwui_tabs_menu">
+  <!-- These will be generated by the js -->
+ </ul><!-- Here will the tabs go -->
+ <div class=3D"rwui_tab_content" data-name=3D"Transition" data-hash=3D"tab-=
+Transition">
+  <h2 id=3D"FeatureConfiguration-FeaturePackageTemplate">Feature Package Te=
+mplate</h2>
+  <p>Its a grouping of <strong>one</strong> User Group and zero or more Res=
+ources.</p>
+  <h3 id=3D"FeatureConfiguration-Types">Types</h3>
+  <ul>
+   <li>Firm - Builds packages assigned to firms</li>
+   <li>User - Builds packages assigned to users</li>
+  </ul>
+  <h3 id=3D"FeatureConfiguration-Attributes">Attributes</h3>
+  <ol>
+   <li>Feature package must include one and only one User Group</li>
+   <li>In a firm package, a resource inclusion can be marked option (add-on=
+) and in addition specified to be included by default in an assignment to a=
+ firm.</li>
+   <li>User package templates don't have add-ons</li>
+  </ol>
+  <h2 id=3D"FeatureConfiguration-FeaturePackage">Feature Package</h2>
+  <p>It's the assignment of package template to a user or firm.</p>
+  <h3 id=3D"FeatureConfiguration-Attributes.1">Attributes</h3>
+  <ol>
+   <li>Firm assignment can optionally select/unselect any add-on resource i=
+n the package template</li>
+  </ol>
+ </div>
+ <div class=3D"rwui_tab_content" data-name=3D"Target" data-hash=3D"tab-Targ=
+et">
+  <h2 id=3D"FeatureConfiguration-Feature">Feature</h2>
+  <p>Features represent the units of value within the platform, expressed f=
+rom the perspective of the buyers of firms. Features can represent any prod=
+uct or service that &nbsp;is being offered to the firm when they decide to =
+buy or upgrade to compass x.</p>
+  <p>These features can be associated with digital features or services and=
+ can be used to monitor/manage access to feature versions and usage levels.=
+</p>
+  <p>Technically, feature represents a business functionality/operation. It=
+'s an aggregate of technical role/permission <strong>and/or</strong> techni=
+cal resources under IAM.</p>
+  <h3 id=3D"FeatureConfiguration-Attributes.2">Attributes</h3>
+  <ol>
+   <li>Feature may have a strong association with one or many firm configur=
+ation attributes. When such relationship exists, the feature package must r=
+espect it and ensure its within the bounds of it's own associations</li>
+   <li>Feature includes versioning and only one feature version can be incl=
+uded in a feature package <sub><em>(Feature Package are explained in detail=
+, further in this article)</em></sub></li>
+   <li>Feature may be dependent on another feature</li>
+   <li>Feature may be incomplete and un-assignable unless they are assigned=
+ together with another feature variation from the same group</li>
+  </ol>
+  <h2 id=3D"FeatureConfiguration-FeaturePackage.1">Feature Package</h2>
+  <p>Its a grouping of features via feature groups.</p>
+  <h3 id=3D"FeatureConfiguration-Attributes.3">Attributes</h3>
+  <ol>
+   <li>Feature package may have a strong association with one or many firm =
+configuration attributes. When such relationship exists, the feature packag=
+e must ensure all included features are within the bounds of it's own assoc=
+iations</li>
+   <li>Feature package includes versioning and only one version can be assi=
+gned to a firm or user</li>
+  </ol>
+  <h3 id=3D"FeatureConfiguration-FirmPackage">Firm Package</h3>
+  <p>Packages assigned to firms via their firm configuration.</p>
+  <h4 id=3D"FeatureConfiguration-Add-On">Add-On</h4>
+  <p>The association of a Feature in a package may optionally mark this rel=
+ationship as an add-on. This exempts this feature to be automatically assig=
+ned to the firm via the package assignment, while this feature would have t=
+o be included <u>explicitly</u> during the assignment.</p>
+  <h4 id=3D"FeatureConfiguration-Quota">Quota</h4>
+  <p>The association of a Feature in a package may also define the usage li=
+mits. This would apply at the firm level, upon its assignment to a firm.&nb=
+sp;</p>
+  <h3 id=3D"FeatureConfiguration-UserPackage">User Package</h3>
+  <p>Packages assigned to users.</p>
+ </div>
+</div>
+<h2 id=3D"FeatureConfiguration-ConfigurationManagement">Configuration Manag=
+ement</h2>
+<p>Configuration management will be access controlled with Okta scopes usin=
+g a REST interface.&nbsp;</p>
+<h3 id=3D"FeatureConfiguration-UserGroup.1">User Group</h3>
+<ol>
+ <li>Create -(UG5)</li>
+ <li>Remove (UG6)=20
+  <ol>
+   <li>remove if there are no role/user associations</li>
+  </ol></li>
+ <li>update attributes (PUT)&nbsp; (UG7)</li>
+ <li>update - add/remove roles (UG3 UG4)&nbsp;</li>
+</ol>
+<h3 id=3D"FeatureConfiguration-Role.1">Role</h3>
+<ol>
+ <li>Create (R1)</li>
+ <li>Remove (R2)=20
+  <ol>
+   <li>remove if there are no user group/permission associations</li>
+  </ol></li>
+ <li>update - add/remove permissions (<span style=3D"color:#172b4d;">R3)</s=
+pan></li>
+</ol>
+<h3 id=3D"FeatureConfiguration-Permission.1">Permission</h3>
+<ol>
+ <li>Create (P1)</li>
+ <li>Remove (P2)&nbsp;=20
+  <ol>
+   <li>remove if there are no role associations</li>
+  </ol></li>
+ <li>activate/de-activate (<span style=3D"color:#172b4d;">P6)</span></li>
+</ol>
+<h3 id=3D"FeatureConfiguration-Resource.1">Resource</h3>
+<ol>
+ <li>Create (G1)</li>
+ <li>Remove (G2)=20
+  <ol>
+   <li>remove if there are no user/package template associations</li>
+  </ol></li>
+ <li><s>update attributes - name and description (PUT) (G14)</s></li>
+ <li>
+  <p>activate/de-activate (<span style=3D"color:#172b4d;">G11)&nbsp;</span>=
+</p></li>
+</ol>
+<p><br></p>
+<div class=3D"rwui_tabs">
+ <ul class=3D"rwui_tabs_menu">
+  <!-- These will be generated by the js -->
+ </ul><!-- Here will the tabs go -->
+ <div class=3D"rwui_tab_content" data-name=3D"Transition" data-hash=3D"tab-=
+Transition">
+  <h3 id=3D"FeatureConfiguration-FeaturePackageTemplate.1">Feature Package =
+Template</h3>
+  <ol>
+   <li><span style=3D"color:#172b4d;">Create (<strong>PT1</strong>)</span>
+    <ol>
+     <li><span style=3D"color:#172b4d;">create package template and add des=
+cription</span></li>
+     <li><span style=3D"color:#172b4d;">choose the package type from F (fir=
+m) or U (user)</span></li>
+     <li><span style=3D"color:#172b4d;">For firm package, assign firm type<=
+/span></li>
+     <li><span style=3D"color:#172b4d;">set active =3D true</span></li>
+     <li><span style=3D"color:#172b4d;">create associations</span>
+      <ol>
+       <li><span style=3D"color:#172b4d;">can be associated with multiple e=
+xisting resources (by name and type)</span>
+        <ol>
+         <li><span style=3D"color:#172b4d;">define if the resource associat=
+ion is an add-on</span></li>
+         <li><span style=3D"color:#172b4d;">define if it should be selected=
+ by default</span></li>
+        </ol></li>
+       <li><span style=3D"color:#172b4d;">Only for User package templates -=
+ must be associated with one existing user group (by name)</span></li>
+      </ol></li>
+    </ol></li>
+   <li><span style=3D"color:#172b4d;">update - name and description&nbsp; (=
+<strong>PT3</strong>)</span></li>
+   <li><span style=3D"color:#172b4d;">activate/de-activate (<strong>PT3</st=
+rong>)</span></li>
+   <li>Remove (<strong>PT4</strong>)=20
+    <ol>
+     <li>remove if there are no associations with a package</li>
+    </ol></li>
+  </ol>
+  <h3 id=3D"FeatureConfiguration-FeaturePackage.2">Feature Package</h3>
+  <ol>
+   <li>Create (<strong>PK1</strong>)=20
+    <ol>
+     <li>create feature package and add description</li>
+     <li>link the package template id</li>
+     <li>set version =3D 1 and active =3D true&nbsp;</li>
+     <li>Add package assignments. For each assignment=20
+      <ol>
+       <li>link template assignment id</li>
+       <li>set active true for selected add-on or included or false for uns=
+elected add-on</li>
+       <li><u>ensure</u> template assignment id has the same template id as=
+ linked with the package</li>
+       <li><u>ensure</u> <strong>included</strong> assignment in template a=
+ssignment is being set to true</li>
+       <li>ensure all template assignments are included in the request</li>
+      </ol></li>
+    </ol></li>
+   <li>Remove (<strong>PK3</strong>)=20
+    <ol>
+     <li>remove if there are no associations with a firm/user</li>
+    </ol></li>
+   <li>Update (<strong>PK5</strong>)=20
+    <ol>
+     <li>update package assignments</li>
+    </ol></li>
+  </ol>
+ </div>
+ <div class=3D"rwui_tab_content" data-name=3D"Target" data-hash=3D"tab-Targ=
+et">
+  <h3 id=3D"FeatureConfiguration-Feature.1"><span style=3D"color:#c9372c;">=
+Feature</span></h3>
+  <ul>
+   <li><span style=3D"color:#c9372c;">creation</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">create feature and add description<=
+/span></li>
+     <li><span style=3D"color:#c9372c;">configure quota (usage limit) <u>ap=
+plicability</u></span></li>
+     <li><span style=3D"color:#c9372c;">create firm configuration criteria =
+(query)</span></li>
+     <li><span style=3D"color:#c9372c;">create a new feature version</span>=
+</li>
+     <li><span style=3D"color:#c9372c;">define transitive feature dependenc=
+ies (if any)</span></li>
+     <li><span style=3D"color:#c9372c;">define feature variation dependenci=
+es (if any)</span></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">update</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">name and description update</span><=
+/li>
+     <li><span style=3D"color:#c9372c;">Any other update will result in cre=
+ation of a new version&nbsp;</span></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">view</span></li>
+   <li><span style=3D"color:#c9372c;">archiving</span>
+    <ul>
+     <li><span style=3D"color:#c9372c;">soft delete</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Archiving will put the feature in=
+ an inactive state. This feature will be omitted from all use-cases except =
+view by name+version, id or search with inactive state</span></li>
+       <li><span style=3D"color:#c9372c;">A feature can't be archived until=
+ it's referenced in any active feature package via any feature group</span>=
+</li>
+       <li><span style=3D"color:#c9372c;">Inactive features can't be activa=
+ted</span></li>
+      </ul></li>
+     <li><span style=3D"color:#c9372c;">removing</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Inactive features after 'X' days =
+can be permanently removed</span></li>
+      </ul></li>
+    </ul></li>
+  </ul>
+  <h3 id=3D"FeatureConfiguration-FeatureGroup"><span style=3D"color:#c9372c=
+;">Feature Group</span></h3>
+  <ul>
+   <li><span style=3D"color:#c9372c;">creation</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">create feature group and add descri=
+ption</span></li>
+     <li><span style=3D"color:#c9372c;">define selection type (select one o=
+r many)</span></li>
+     <li><span style=3D"color:#c9372c;">add features to the group. ensure a=
+ddition of feature variation(s) when a dependent feature is defined</span>
+      <ol>
+       <li><span style=3D"color:#c9372c;">ensure only one version of a feat=
+ure is included</span></li>
+      </ol></li>
+     <li><span style=3D"color:#c9372c;">create a new feature group version<=
+/span></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">update</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">name and description update</span><=
+/li>
+     <li><span style=3D"color:#c9372c;">Any other update will result in cre=
+ation of a new version</span></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">view</span></li>
+   <li><span style=3D"color:#c9372c;">archiving</span>
+    <ul>
+     <li><span style=3D"color:#c9372c;">soft delete</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Archiving will put the feature gr=
+oup in an inactive state. This feature group will be omitted from all use-c=
+ases except view by name+version, id or search with inactive state</span></=
+li>
+       <li><span style=3D"color:#c9372c;">A feature group can't be archived=
+ until it's referenced in any active feature package</span></li>
+       <li><span style=3D"color:#c9372c;">Inactive feature group can't be a=
+ctivated</span></li>
+      </ul></li>
+     <li><span style=3D"color:#c9372c;">removing</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Inactive feature group after 'X' =
+days can be permanently removed</span></li>
+      </ul></li>
+    </ul></li>
+  </ul>
+  <h3 id=3D"FeatureConfiguration-FeaturePackage.3"><span style=3D"color:#c9=
+372c;">Feature Package</span></h3>
+  <ol>
+   <li><span style=3D"color:#c9372c;">creation</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">create feature package and add desc=
+ription</span></li>
+     <li><span style=3D"color:#c9372c;">link the package template id</span>=
+</li>
+     <li><span style=3D"color:#c9372c;">set version =3D 1 and active =3D tr=
+ue</span></li>
+     <li><span style=3D"color:#c9372c;">Add package assignments. For each a=
+ssignment</span>
+      <ol>
+       <li><span style=3D"color:#c9372c;">link template assignment id</span=
+></li>
+       <li><span style=3D"color:#c9372c;">set active true for selected add-=
+on or included or false for unselected add-on</span></li>
+       <li><span style=3D"color:#c9372c;"><u>ensure</u> template assignment=
+ id has the same template id as linked with the package</span></li>
+       <li><span style=3D"color:#c9372c;"><u>ensure</u> included assignment=
+ in template assignment is being set to true</span></li>
+      </ol></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">update</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">name and description update</span><=
+/li>
+     <li><span style=3D"color:#c9372c;">add/remove feature groups or any ot=
+her change will result in creation of a new feature package and auto-upgrad=
+e to this new version for assigned firm/user at a specific datetime</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">The previous version will be mark=
+ed for expiry at that datetime</span></li>
+       <li><span style=3D"color:#c9372c;">The new version will be effective=
+ from that datetime&nbsp;</span></li>
+      </ul></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">view</span></li>
+   <li><span style=3D"color:#c9372c;">archiving</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">soft delete</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Archiving will put the feature pa=
+ckage in an inactive state. This feature package will be omitted from all u=
+se-cases except view by name+version, id or search with inactive state</spa=
+n></li>
+       <li><span style=3D"color:#c9372c;">A feature package can't be archiv=
+ed until it's assigned to a firm/user</span></li>
+       <li><span style=3D"color:#c9372c;">Inactive feature package can't be=
+ activated</span></li>
+      </ul></li>
+     <li><span style=3D"color:#c9372c;">removing</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">Inactive feature package after 'X=
+' days can be permanently removed</span></li>
+      </ul></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">assignment</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">Firm</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">The previous version of an associ=
+ated package will be marked for expiry at the defined datetime</span></li>
+       <li><span style=3D"color:#c9372c;">The new version or package associ=
+ation will be effective from a defined datetime&nbsp;</span></li>
+      </ul></li>
+     <li><span style=3D"color:#c9372c;">User</span>
+      <ul>
+       <li><span style=3D"color:#c9372c;">The previous version of an associ=
+ated package will be marked for expiry at the defined datetime</span></li>
+       <li><span style=3D"color:#c9372c;">The new version or package associ=
+ation will be effective from a defined datetime&nbsp;</span></li>
+      </ul></li>
+    </ol></li>
+   <li><span style=3D"color:#c9372c;">Apply feature updates</span>
+    <ol>
+     <li><span style=3D"color:#c9372c;">Assignment would lead to refresh of=
+ access control for users</span>
+      <ol>
+       <li><span style=3D"color:#c9372c;">Firm package update</span>
+        <ol>
+         <li><span style=3D"color:#c9372c;">Find all the users of this Firm=
+</span></li>
+        </ol></li>
+       <li><span style=3D"color:#c9372c;">Association of a new firm package=
+ to a firm would result in ...</span></li>
+      </ol></li>
+     <li><span style=3D"color:#c9372c;">User package update</span></li>
+    </ol></li>
+  </ol>
+ </div>
+</div>
+<h3 id=3D"FeatureConfiguration-AccessControlAssignment">Access Control Assi=
+gnment</h3>
+<p><br></p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" draggable=3D"false" heigh=
+t=3D"158" src=3D"307b6e6bb0c6c20da11ed88e05067007449f04429d8d8283e6fa04849f=
+b2ff9b" data-image-src=3D"/download/attachments/1466913822/image-2023-4-24_=
+10-1-13.png?version=3D1&amp;modificationDate=3D1682344873448&amp;api=3Dv2" =
+data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"1489275067" =
+data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment"=
+ data-linked-resource-default-alias=3D"image-2023-4-24_10-1-13.png" data-ba=
+se-url=3D"https://wiki.bnc.ca" data-linked-resource-content-type=3D"image/p=
+ng" data-linked-resource-container-id=3D"1466913822" data-linked-resource-c=
+ontainer-version=3D"40" tabindex=3D"0" alt=3D"" width=3D"468"></span></p>
+    </div>
+</body>
+</html>
+------=_Part_26837_71600254.1788374379212
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/307b6e6bb0c6c20da11ed88e05067007449f04429d8d8283e6fa04849fb2ff9b
+
+iVBORw0KGgoAAAANSUhEUgAAAfIAAACpCAYAAADQr79QAAABWmlDQ1BJQ0MgUHJvZmlsZQAAKJFt
+kLFLQlEUxr+XT8SSCGxoCJIgKNGop0ujSUQQ8bAia4ieV1NBX9fri2qoqbbm1qKhIRojh5bGaA0q
++geaI3ApuZ2rlVpdOHw/Pr57OOcAHbrFeUEHULQdkZieDCSXVwKeF+jogxdBuC1W5jHTnKUIvrX9
+VR+gKb0Pq157A/nksffU5T/f961ODV78zbe9znSmzEg/qIKMCwfQhonNLYcr3ibuFTQU8aHibINP
+FKcafFnPLCTixLfEPSxnpYmfiEOpFj/bwsXCJvuaQU3vy9iL86TdVP0wYSCKEsIYxxjd5v9stJ6N
+YwMcOxDII4scHAQQI4ejgAzxDGwwjCJEbFA3AxF149+3a3qlOWBiF3DdNb21A+BqBPC/Nr0hF61B
++18Lbgnr56JaVS+vR4wGd1UA95GUb0uAh/7XHqV8r0hZO6P+z8BN9RObjF9Hmwza5QAAAFZlWElm
+TU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA5KGAAcAAAASAAAARKACAAQAAAABAAAB8qADAAQA
+AAABAAAAqQAAAABBU0NJSQAAAFNjcmVlbnNob3Qc0AuDAAAB1mlUWHRYTUw6Y29tLmFkb2JlLnht
+cAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENv
+cmUgNi4wLjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkv
+MDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0i
+IgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+
+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj4xNjk8L2V4aWY6UGl4ZWxZRGltZW5zaW9u
+PgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+NDk4PC9leGlmOlBpeGVsWERpbWVuc2lv
+bj4KICAgICAgICAgPGV4aWY6VXNlckNvbW1lbnQ+U2NyZWVuc2hvdDwvZXhpZjpVc2VyQ29tbWVu
+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
+AAAASUVORK5CYII=
+------=_Part_26837_71600254.1788374379212--

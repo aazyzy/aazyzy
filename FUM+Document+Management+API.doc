@@ -1,0 +1,497 @@
+Date: Wed, 2 Sep 2026 14:35:33 -0400 (EDT)
+Message-ID: <333457773.26811.1788374133908@ip-10-50-197-197.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26810_1220041717.1788374133907"
+
+------=_Part_26810_1220041717.1788374133907
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>FUM Document Management API</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>FUM Document Management API</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"FUMDocumentManagementAPI-/*<![CDATA[*/div.rbtoc1788374133=
+900{padding:0px;}div.rbtoc1788374133900ul{margin-left:0px;}div.rbtoc1788374=
+133900li{margin-left:0px;padding-left:0px;}/*]]>*/#FUMDocumentManagementAPI=
+-APIOverview#FUMDocumentManagementAPI-APIOvervie">
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788374133900 {padding: 0px;}
+div.rbtoc1788374133900 ul {margin-left: 0px;}
+div.rbtoc1788374133900 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+ <div class=3D"toc-macro rbtoc1788374133900">
+  <ul class=3D"toc-indentation">
+   <li><a href=3D"#FUMDocumentManagementAPI-"></a></li>
+   <li><a href=3D"#FUMDocumentManagementAPI-APIOverview">API Overview</a></=
+li>
+   <li><a href=3D"#FUMDocumentManagementAPI-Databaseschema">Database schema=
+</a></li>
+   <li><a href=3D"#FUMDocumentManagementAPI-Resources">Resources</a>
+    <ul class=3D"toc-indentation">
+     <li><a href=3D"#FUMDocumentManagementAPI-X1">X1</a></li>
+     <li><a href=3D"#FUMDocumentManagementAPI-X2">X2</a></li>
+     <li><a href=3D"#FUMDocumentManagementAPI-X3">X3</a></li>
+     <li><a href=3D"#FUMDocumentManagementAPI-X4">X4</a></li>
+     <li><a href=3D"#FUMDocumentManagementAPI-X5">X5</a></li>
+    </ul></li>
+  </ul>
+ </div></h2>
+<h2 id=3D"FUMDocumentManagementAPI-APIOverview">API Overview</h2>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 12=
+29.11px;">
+  <colgroup class=3D"">
+   <col class=3D"" style=3D"width: 106.953px;">
+   <col class=3D"" style=3D"width: 105.32px;">
+   <col class=3D"" style=3D"width: 120.75px;">
+   <col class=3D"" style=3D"width: 77.9688px;">
+   <col class=3D"" style=3D"width: 106.953px;">
+   <col class=3D"" style=3D"width: 107.0px;">
+   <col class=3D"" style=3D"width: 104.516px;">
+   <col class=3D"" style=3D"width: 110.445px;">
+   <col class=3D"" style=3D"width: 388.203px;">
+  </colgroup>
+  <thead class=3D"">
+   <tr class=3D"">
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+   </tr>
+  </thead>
+  <tbody class=3D"">
+   <tr class=3D"">
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">FUM Document Management API</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"text-decoration: none;color:#172b4d;">Access Control</sp=
+an></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li>Managing FUM Documents&nbsp;</li>
+     </ul></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">1.17.x</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Application API to manage Documents&nbsp;</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NBIN</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>NBIN IAM DB (PostGreSQL)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>This api is expected to service the requirements to store and retri=
+eve files in a database.</p>
+     <p><br></p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"FUMDocumentManagementAPI-Databaseschema">Database schema</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh"><span style=3D"color:#172b4d;"=
+>DOCUMENT</span></th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <ul style=3D"text-align: left;">
+      <li>document_id -serial4</li>
+      <li>file_name - varchar(100)</li>
+      <li>metadata - bytea //store the metadata tags</li>
+      <li>file_content - bytea</li>
+      <li>updated_date - timestamp</li>
+      <li>updated_by - varchar(100) //map to idpSubject</li>
+     </ul></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+<h2 id=3D"FUMDocumentManagementAPI-Resources">Resources</h2>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 10=
+1.534%;">
+  <colgroup>
+   <col style=3D"width: 2.53781%;">
+   <col style=3D"width: 14.5249%;">
+   <col style=3D"width: 27.43%;">
+   <col style=3D"width: 13.877%;">
+   <col style=3D"width: 17.0628%;">
+   <col style=3D"width: 11.3393%;">
+   <col style=3D"width: 13.229%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">REF</th>
+    <th class=3D"confluenceTh">Endpoint</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">Request</th>
+    <th class=3D"confluenceTh">Response</th>
+    <th class=3D"confluenceTh">Access control(User)</th>
+    <th class=3D"confluenceTh">Access control(system)</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FUMDocumentManagementAPI-X1">X1</h4></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">POST /fum-doc=
+ument-management/documents</span></td>
+    <td class=3D"confluenceTd">
+     <p>Upload a document to the data store</p>
+     <p><a class=3D"external-link" href=3D"https://docs.aws.amazon.com/Amaz=
+onS3/latest/API/RESTObjectPOST.html" rel=3D"nofollow">https://docs.aws.amaz=
+on.com/AmazonS3/latest/API/RESTObjectPOST.html</a></p>
+     <p>Supports the upload of a file contents along with its associated me=
+tadata in multi-part form data format</p></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">content: multipart/form-data</pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">{
+  document_id
+}</pre></td>
+    <td class=3D"confluenceTd">
+     <p>Group: Wealth.CompassX.MangeFirm</p>
+     <p>Role: wealth:cx-access-control:editor</p>
+     <p>Permission: access-control:post-document</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-authorization:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FUMDocumentManagementAPI-X2">X2</h4></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">GET /fum-docu=
+ment-management/documents/{document-id}</span></td>
+    <td class=3D"confluenceTd">Retrieve a document from the store</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">HTTP 200<br>content: multipart/form-data<br><=
+br>HTTP 404 If document does not exist</pre></td>
+    <td class=3D"confluenceTd">
+     <p>Group:Wealth.CompassX.MangeFirm</p>
+     <p>Role: wealth:cx-access-control:editor</p>
+     <p>access-control:read-document</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-authorization:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FUMDocumentManagementAPI-X3">X3</h4></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">PUT /fum-docu=
+ment-management/documents/{document-id}</span></td>
+    <td class=3D"confluenceTd">Update an existing document <strong>contents=
+</strong></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">content: multipart/form-data</pre></td>
+    <td class=3D"confluenceTd">
+     <p>404 If document-id is not found</p>
+     <p>201 if successfully updated</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-access-control:editor</p>
+     <p>access-control:update-document</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-authorization:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FUMDocumentManagementAPI-X4">X4</h4></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">DELETE /fum-d=
+ocument-management/documents/{document-id}</span></td>
+    <td class=3D"confluenceTd">Delete an existing document</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p>404 If document-id is not found</p>
+     <p>204 if successfully deleted</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-access-control:editor</p>
+     <p>access-control:delete-document</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-authorization:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FUMDocumentManagementAPI-X5">X5</h4></td>
+    <td class=3D"confluenceTd"><span style=3D"color:#172b4d;">HEAD /fum-doc=
+ument-management/documents/{document-id}</span></td>
+    <td class=3D"confluenceTd">
+     <p>Retrieve the metadata for a document&nbsp;</p>
+     <p><u><em>Raise a request with firewall/istio/akamai to open up HEAD r=
+equest</em></u></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">No content<br>The response headers will inclu=
+de additional metadata tags<br>prefixed with "dcm-" providing information r=
+egarding the document</pre></td>
+    <td class=3D"confluenceTd">
+     <p>Group:Wealth.CompassX.MangeFirm</p>
+     <p>Role: wealth:cx-access-control:editor</p>
+     <p>access-control:read-document-metadata</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-authorization:access</p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_26810_1220041717.1788374133907--

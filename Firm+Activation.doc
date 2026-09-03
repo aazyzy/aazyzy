@@ -1,0 +1,301 @@
+Date: Wed, 2 Sep 2026 14:37:28 -0400 (EDT)
+Message-ID: <1011625890.26827.1788374248362@ip-10-50-197-197.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_26826_644992525.1788374248362"
+
+------=_Part_26826_644992525.1788374248362
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Firm Activation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Firm Activation</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"FirmActivation-Architecture">Architecture</h1>
+<p><a href=3D"/spaces/NA/pages/1336995931/Manage+Firm#ManageFirm-Architectu=
+re">Manage Firm#Architecture</a></p>
+<h2 id=3D"FirmActivation-Usecases">Use cases</h2>
+<h3 id=3D"FirmActivation-Onboarding">Onboarding</h3>
+<ol>
+ <li>Firm will be created with state =3D onboarded, "status" active =3D fal=
+se</li>
+</ol>
+<h3 id=3D"FirmActivation-Searching">Searching</h3>
+<ul>
+ <li>Allow searching for firm IDs by their state and status</li>
+ <li>All Firm API endpoints to filter for active =3D false</li>
+</ul>
+<h3 id=3D"FirmActivation-Activating">Activating</h3>
+<ul>
+ <li>Must have at least one feature package assigned</li>
+ <li>Follow the firm state transition&nbsp;=20
+  <ul>
+   <li>If the firm is state =3D inactive and active =3D false, then trigger=
+ activation for all users listed under this firm. Refer <a href=3D"/spaces/=
+NA/pages/1230180707/User+Management">User Management</a></li>
+  </ul></li>
+</ul>
+<h4 id=3D"FirmActivation-SetupUsers"><span style=3D"color:#c9372c;">Setup U=
+sers</span></h4>
+<p><span style=3D"color:#c9372c;">Once the firm is activated, users can now=
+ be onboarded to access the firm</span></p>
+<p><span style=3D"color:#c9372c;">The users access will be based on a subse=
+t of the firm feature access</span></p>
+<h3 id=3D"FirmActivation-De-activating">De-activating</h3>
+<p>When a firm is de-activated:</p>
+<ul>
+ <li>Trigger deactivation for all users listed under this firm.&nbsp;Refer =
+<a href=3D"/spaces/NA/pages/1230180707/User+Management">User Management</a>=
+</li>
+ <li>All aggregate views must react to the event</li>
+</ul>
+<h3 id=3D"FirmActivation-Off-boarding">Off-boarding</h3>
+<p>:warning: Event bridge based weekly job to remove firms (API Ref FM6) in=
+active for more than 7 years</p>
+<h2 id=3D"FirmActivation-Integrationuse-cases(tobemovedintheirrespectivesec=
+tion)">Integration use-cases (to be moved in their respective section)</h2>
+<h3 id=3D"FirmActivation-FirmPackageassignment">Firm Package assignment</h3=
+>
+<ul>
+ <li>will be allowed for firms irrespective of state</li>
+ <li>If the firm is active=20
+  <ul>
+   <li>will trigger "access-control" refresh for all users listed under thi=
+s firm</li>
+  </ul></li>
+</ul>
+<h3 id=3D"FirmActivation-Whitelabelling">White labelling</h3>
+<ul>
+ <li>will be allowed for firms irrespective of state</li>
+</ul>
+<h2 id=3D"FirmActivation-Eventpublishing">Event publishing</h2>
+<p>:warning: Need event samples for all possible event types&nbsp;</p>
+<p><br></p>
+<p><a href=3D"/spaces/NBINDM/pages/2254868366/Firm+Management+API">Firm Man=
+agement API</a></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_26826_644992525.1788374248362--

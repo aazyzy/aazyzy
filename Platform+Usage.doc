@@ -1,0 +1,465 @@
+Date: Tue, 8 Sep 2026 16:16:14 -0400 (EDT)
+Message-ID: <224396577.2984.1788898574650@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2983_1051336932.1788898574647"
+
+------=_Part_2983_1051336932.1788898574647
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Platform Usage</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Platform Usage</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"PlatformUsage-NBINataglance(estimates)">NBIN at a glance =
+(estimates)</h2>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" draggable=3D"false" width=
+=3D"468" src=3D"df8382cac3215630107624bce358dd76449b114830bc5cb558237d3714b=
+266eb" data-image-src=3D"/download/attachments/934841296/image-2025-10-21_2=
+2-57-2-1.png?version=3D1&amp;modificationDate=3D1761101823093&amp;api=3Dv2"=
+ data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"2440764476"=
+ data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment=
+" data-linked-resource-default-alias=3D"image-2025-10-21_22-57-2-1.png" dat=
+a-base-url=3D"https://wiki.bnc.ca" data-linked-resource-content-type=3D"ima=
+ge/png" data-linked-resource-container-id=3D"934841296" data-linked-resourc=
+e-container-version=3D"12" tabindex=3D"0" alt=3D"" height=3D"52"></span></p=
+>
+<h2 id=3D"PlatformUsage-UserBase(asofMay2021)">User Base (as of May 2021)</=
+h2>
+<p>Total users (across 437 firms):</p>
+<ul>
+ <li>IB: 2888</li>
+ <li>PM: 2097</li>
+ <li>IFM: 124</li>
+</ul>
+<p><strong>Compass R2</strong></p>
+<ul>
+ <li>Total users ~7000</li>
+ <li>Total end clients ~964,000</li>
+ <li>Total end client accounts ~1.3m</li>
+</ul>
+<p>Total RR codes ~18000</p>
+<ul>
+ <li>Distribution amongst firms=20
+  <ul>
+   <li>&gt; 80% of PM firms have &lt;10 RR codes</li>
+   <li>&gt; 80% of IB firms have &lt; 37 RR codes</li>
+  </ul></li>
+ <li>Distribution amongst users=20
+  <ul>
+   <li>&gt; 90% of users have &lt; 26 RR codes; 75% have 10 or less</li>
+  </ul></li>
+ <li>Distribution of clients &amp; accounts=20
+  <ul>
+   <li>&gt; 99% of RR codes have &gt;1000 accounts; per above majority of u=
+sers have many RR codes and we assume certain roles support many RR codes</=
+li>
+   <li>Roughly 50% of RR codes have &lt; 20 clients</li>
+   <li>Note on a number of RR codes with only 1 "client": some firms looked=
+ for a "special RR code" to manage one type of client / product / some spec=
+ific edge case, instead of using other methods to identify those accounts</=
+li>
+  </ul></li>
+</ul>
+<p>End client:</p>
+<ul>
+ <li>More than 85% end clients have &lt;25&nbsp;holdings in their accounts<=
+/li>
+</ul>
+<p><strong>NetRep:</strong></p>
+<ul>
+ <li>IB's: 56 firms, 2435 ID's</li>
+ <li>PM's: 316 firms, 1772 ID's (mostly trading)</li>
+ <li>
+  <p class=3D"with-breadcrumbs"><a href=3D"https://wiki.bnc.ca/pages/viewpa=
+ge.action?pageId=3D1001600021" rel=3D"nofollow">NETREP User Access / Tradin=
+g Access by Products</a></p></li>
+</ul>
+<p>Usage</p>
+<ul>
+ <li>15% are mobile</li>
+ <li>most are average resolution</li>
+</ul>
+<h2 id=3D"PlatformUsage-UserForecast">User Forecast</h2>
+<p>PM:</p>
+<ul>
+ <li>Estimated # of staff across firms: ~5500</li>
+ <li>Largest firms: ~200 staff</li>
+ <li>% client services / operations staff in firm: roughly 10 - 20%&nbsp;:q=
+uestion:</li>
+</ul>
+<p>IB:</p>
+<ul>
+ <li>Estimated # of staff across firms: ~4500</li>
+ <li>Largest firms: ~1000 staff</li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_2983_1051336932.1788898574647
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/df8382cac3215630107624bce358dd76449b114830bc5cb558237d3714b266eb
+
+iVBORw0KGgoAAAANSUhEUgAABMQAAACKCAMAAABy82bHAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAADMUExURZIPHAAAALxrc/Hh4/////Tn6dOdopkfK5UVIdenrPv29u7Z261LVejMz8N6
+gfDd38aBiNmsseXHyrRaY/37+7NXYciHjfz3+J8rN5cZJvbr7Kc+SfHg4vPk5dWjqKU5RMyPleG8
+wM6TmceDic2SmLpnb+3X2ePBxNOfpLhja+C6vt20uJwmMcF2fciGjL5vd7tqcqM1QKtGUN63uubI
+y+K+wuvT1a1KVLBSW+TFyOTDxq9PWcN7gufLzp4qNsB0e6g/SbZeZ9uwtKIyPc+IJh0AAAACdFJO
+U/8A5bcwSgAAAAlwSFlzAAAXEQAAFxEByibzPwAAHWpJREFUeF7tnXt/20Z6hVlrlFCUZYYmI4dS
+tHLiWM7SbZM4sVO32Sa7/f7fqb+54j2DATC4EMCR+PwRmxo4enA4eHEbDBaL2fNvQNw6Q9iE0ZfQ
+OG6eIVy60pZAlwBIlCFSNmH0JTSOm2cIl660JdAlABJliJRNGH0JjePmGcKlK20JdAmARBkiZRNG
+X0LjuHmGcOlKWwJdAiBRhkjZhNGX0DhuniFcutKWQJcASJQhUjZh9CU0jptnCJeutCXQJQASZYiU
+TRh9CY3j5hnCpSttCXQJgEQZImUTRl9C47h5hnDpSlsCXQIgUYZI2YTRl9A4bp4hXLrSlkCXAEiU
+IVI2YfQlNI6bZwiXrrQl0CUAEmWIlE0YfQmN4+YZwqUrbQl0CYBEGSJlE0ZfQuO4eYZw6UpbAl0C
+IFGGSNmE0ZfQOG6eIVy60pZAlwBIlCFSNmH0JTSOm2cIl660JdAlABJliJRNGH0JjePmGcKlK20J
+dAmARBkiZRNGX0LjuHmGcOlKWwJdAiBRhkjZhNGX0DhuniFcutKWQJcASJQhUjZh9CU0jptnCJeu
+tCXQJQASZYiUTRh9CY3j5hnCpSttCXQJgEQZImUTRl9C47h5hnDpSlsCXQIgUYZI2YTRl9A4bp4h
+XLrSlkCXAEiUIVI2YfQlNI6bZwiXrrQl0CUAEmWIlE0YfQmN4+YZwqUrbQl0CYBEGSJlE0ZfQuO4
+eYZw6UpbAl0CIFGGSNmE0ZfQOG6eIVy60pZAlwBIlCFSNmH0JTSOm2cIl660JdAlABJliJRNGH0J
+jePmGcKlK20JdAmARBkiZRNGX0LjuHmGcOlKWwJdAiBRhkjZhNGX0DhuniFcutKWQJcASJQhUjZh
+9CU0jptnCJeutCXQJQASZYiUTRh9CY3j5hnCpSttCXQJgET7R/rsTKnzL740f19erJS6fF40Lq/U
+C/uHYf2VXa4dAwsfHfQlNI6bu7NRL93fRNdwnWKx2Krd13LpFrTSvba9T736Rn/qY7K/sf8Py+3q
+27z+LG2bdeupXJl+a0YGJNo3Ul2eztdKmW9zf6PUeqVcfK7ZFbHdeq2b7kQfyGVQ4RFAX0LjuLkr
+ywvli5jsGn4Du13tip7Skla6G3W+1lzqztfN5GJtFphBEatcmY5rxgkk2jfSa3X33ET2N5Ov/lKv
+3U5CUxQxF6lZriWDCo8A+hIax83duH+9UqGIya7hesPtSuzt2tJKdyMrTzeTja8T0xexqpXpuGac
+QKI9I93f2IPV29Wrb3TV1x9cRTNERWxxbQ/Z2jGk8BigL6Fx3NyNjVLffe+KGHQN2xv2N112aJ42
+ussrsd13NJlNEatemY5rxgkk2jPS63DNQ3zYFpUqLmKiKZ8hhccAfQmN4+ZuvPnhy9AloGuY3iB3
+dR1oowvbfaOJrlNvH5S6+3qx1MeS77409VjzIjTuvtKLmiIW+rbfoSeQto269VSvTOOaPSYg0Z6R
+bmRK/oM5LLPERQyKXi5DCo8B+hIax83d8d83dA3dG5bFJf9OtNHd34g9Z6PJ/ubVj+p8vVK7vz/4
+y71vDmfq8nD42jbu1mf2wpM9EtuG4lG5RtK2Ubee6pVpXLPHBCTaPtLle6Xe6Tsg+5tv//1Kvbh/
+726JpHZJURF7a494W9JTeHTQl9A4bs5Fdg27pbkihl1Df9qol+0PyQUNumCyv/k23EJvNtnfmPt5
+y41S3z43H/U/CKeTavcfYb1sEfPd3S2SQtqmdOvJW5nmNXtMQKKtI9U3GlfmcPp29XJ5pdb27qTL
+zSySLGL27uRdhxrWU3h80JfQOG7OBLqG/VFVEVt3uk0tqNdFk9uVUmt99HRnj1DMIpUmvvf6Kx/2
+ACcUMX8NWDe6a2J2CbxchkjbhG49mSvTvGaPCUi0daTmoPntSt0dViY4daF3CfrGSH0Rc+h7mW3p
+Jzw+6EtoHDdnAl3D/qiqiP3nTc8znXpdNFn+9LOuNfdX6mWGiS9GvohdYxGzjfaKiStieFaZQtom
+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
+gg==
+------=_Part_2983_1051336932.1788898574647--

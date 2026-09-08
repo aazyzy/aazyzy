@@ -1,0 +1,1081 @@
+Date: Tue, 8 Sep 2026 16:07:28 -0400 (EDT)
+Message-ID: <962589390.2960.1788898048119@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2959_1750794621.1788898048119"
+
+------=_Part_2959_1750794621.1788898048119
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Use Cases and Request Form Requirements</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Use Cases and Request Form Requirements</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">
+ <div class=3D"columnLayout two-equal" data-layout=3D"two-equal">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>The followings are the user profile scenarios, rules and requirement=
+s to cover all current use cases for client access requests. Only CX access=
+ and R2 access are considered; the linked system access, e.g. SZ, NetRep an=
+d OSS are not in focus.&nbsp;</p>
+    <p><br></p>
+   </div>
+  </div>
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <p>
+     <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788898048098 {padding: 0px;}
+div.rbtoc1788898048098 ul {margin-left: 0px;}
+div.rbtoc1788898048098 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+    <div class=3D"toc-macro rbtoc1788898048098">
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#UseCasesandRequestFormRequirements-Assumption">Assump=
+tion</a></li>
+      <li><a href=3D"#UseCasesandRequestFormRequirements-Dependency">Depend=
+ency</a></li>
+      <li><a href=3D"#UseCasesandRequestFormRequirements-UserProfileScenari=
+os">User Profile Scenarios</a></li>
+      <li><a href=3D"#UseCasesandRequestFormRequirements-UIRules">UI Rules<=
+/a></li>
+      <li><a href=3D"#UseCasesandRequestFormRequirements-AccessRequestForm"=
+>Access Request Form</a></li>
+     </ul>
+    </div>
+    <p></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UseCasesandRequestFormRequirements-Assumption">Assumption</h1=
+>
+    <ul>
+     <li data-uuid=3D"42e25089-555b-4451-8917-e1454690dc2b">Employee Access=
+ SSO has been launched=20
+      <ul>
+       <li data-uuid=3D"a6130639-7f44-46b9-af9c-34f40390a997">Employees use=
+r accounts (primary) are not in-scoped in UAR</li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+    <h1 id=3D"UseCasesandRequestFormRequirements-Dependency">Dependency</h1=
+>
+    <ul>
+     <li data-uuid=3D"5b79ca90-557d-442f-a2c1-d08cc7a2c89b">SZ SSO and app =
+link integration depend on the launch of UAR=20
+      <ul>
+       <li data-uuid=3D"6537e9fb-7923-4de3-8dbc-4488e5414970">Must provide =
+a way for clients to choose apps/services offered on SZ, which are now inte=
+grated and accessed via Compass</li>
+      </ul></li>
+     <li data-uuid=3D"f8ab68c9-5524-4612-9d27-7b5e70b88e77"><span style=3D"=
+letter-spacing: 0.0px;">R1/R2 decommissioning</span>
+      <ul>
+       <li data-uuid=3D"2cd89e69-331c-4ae2-b3d9-dee957c6c382"><span style=
+=3D"letter-spacing: 0.0px;">Must provide a way for clients to choose the Le=
+gacy Compass features (aka R2 features) before sunsetting the Legacy Securi=
+ty Steward feature (aka Manage Firm Users)&nbsp; &nbsp; &nbsp;</span></li>
+      </ul></li>
+    </ul>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UseCasesandRequestFormRequirements-UserProfileScenarios">User=
+ Profile Scenarios</h1>
+    <p>These are scenarios by the type of users who have unique access need=
+s.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" data-snooker-c=
+ol-series=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 92.252=
+9%;">
+      <colgroup>
+       <col style=3D"width: 5.00264%;">
+       <col style=3D"width: 9.49482%;">
+       <col style=3D"width: 9.49482%;">
+       <col style=3D"width: 12.4595%;">
+       <col style=3D"width: 26.2537%;">
+       <col style=3D"width: 37.2945%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false=
+" data-mce-resize=3D"false" scope=3D"col"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Product Version</th>
+        <th scope=3D"col" class=3D"confluenceTh">Target release</th>
+        <th scope=3D"col" class=3D"confluenceTh">Scenario</th>
+        <th scope=3D"col" class=3D"confluenceTh">Profile settings</th>
+        <th scope=3D"col" class=3D"confluenceTh">Requirements</th>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">1</td>
+        <td class=3D"confluenceTd">Initial load</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">User migration&nbsp;</td>
+        <td class=3D"confluenceTd">Data plotting</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"e89bad2a-b553-4462-813c-28b8a2161510">All curren=
+t client user data must be plotted to the new model</li>
+          <li data-uuid=3D"f3138559-1525-42e4-9ae7-bacd1ec4330d">The user a=
+ccess of all current clients are maintainable via UAR</li>
+          <ul>
+           <li data-uuid=3D"905cf833-b11f-4e3a-a392-dfbdac3d1d0d">In specif=
+ic, the access data can be rendered in the request form for user monitoring=
+ and modification request&nbsp;</li>
+          </ul>
+         </ul>
+         <p><strong>Additional data requirement:&nbsp;</strong><span style=
+=3D"letter-spacing: 0.0px;">load all NetRep Ids for NBIN clients **discuss =
+with Radhika</span></p>
+         <p>**Solution requirement for one-time data update</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">2</td>
+        <td class=3D"confluenceTd">Happy path</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">Create New users</td>
+        <td class=3D"confluenceTd">
+         <p>CX Id =E2=86=92 R2 Id =E2=86=92 SZ Id =E2=86=92 NetRep id (1 to=
+ 1)</p>
+         <p>Identical data access</p>
+         <p>Identical feature access categorization&nbsp;</p></td>
+        <td class=3D"confluenceTd">
+         <p>Able to handle the new user requests of the 1-to-1 user scenari=
+o&nbsp;</p>
+         <p>Q: How to identify who can use this form and screen out those w=
+ho cannot?</p>
+         <p>- Won't happen to new user request. Not allowed.</p>
+         <p>**This user type covers 90% of user population.</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">3</td>
+        <td class=3D"confluenceTd">Happy path</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">
+         <p>Modification</p>
+         <p>(add/remove access)</p></td>
+        <td class=3D"confluenceTd">User accounts created from UAR</td>
+        <td class=3D"confluenceTd">
+         <p>Able to handle the user modification requests for those who are=
+ created by UAR</p>
+         <p>Q: How to identify who can use this form and screen out those w=
+ho cannot?</p>
+         <p>- Decision point: Should the solution triage the users, or by o=
+peration means? E.g. a procedure to handle <strong>non-standard users </str=
+ong>non-digitally.</p>
+         <p>- After the initial load, we can identify those who cannot fit =
+in this process, we can design an <strong>alternate flow (how?) </strong>fo=
+r them. **Handle in the user modification request (epic)</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">4</td>
+        <td class=3D"confluenceTd">
+         <p style=3D"margin: 10.0px 0.0px 0.0px;"><span style=3D"letter-spa=
+cing: 0.0px;">Happy path</span></p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">User deactivation &amp; reactivation</td=
+>
+        <td class=3D"confluenceTd">Any client user accounts</td>
+        <td class=3D"confluenceTd">
+         <p>Able to capture user deactivation requests for operations to di=
+sable user accounts for the user across systems</p>
+         <p>- Same as above</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">5</td>
+        <td class=3D"confluenceTd">
+         <p>Next</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">Parent firm users in SZ</td>
+        <td class=3D"confluenceTd">
+         <p>1 CX Id to multiple SZ Ids</p>
+         <p>(non-standard users)</p></td>
+        <td class=3D"confluenceTd">
+         <p>Must confirm it is supported through CX-SZ SSO integration (to =
+be launched by 2026 Q4)</p>
+         <p>Q: How to identify which SZ Id the request is about? Especially=
+ after UAMA integration, SZ Id is not shared to clients -- legacy users kno=
+w their SZ Ids</p>
+         <p>- To be handled by the&nbsp;<strong style=3D"letter-spacing: 0.=
+0px;">alternate flow (how?) mentioned above</strong></p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">6</td>
+        <td class=3D"confluenceTd">
+         <p>Next&nbsp;</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">2=
+026 Q4</span></p>
+          <p><br></p>
+         </div></td>
+        <td class=3D"confluenceTd">Traders / Operation people</td>
+        <td class=3D"confluenceTd">
+         <p>No CX Id but NetRep Id only</p>
+         <p>No CX Id, no NetRep Id but OSS Id</p></td>
+        <td class=3D"confluenceTd">
+         <p>Business decision: Is it mandatory to create a CX Id for these =
+users? - no</p>
+         <p>If no, how UAR handle user access request access (new/change) f=
+or their NetRep Id without a CX Id reference? **Handle in the off-platform =
+epic.&nbsp;</p>
+         <p>**Key takeaway:</p>
+         <p>- Netrep Id and OSS Id must be searchable via the user monitori=
+ng.&nbsp;</p>
+         <p>- For one-time initial load, load all NetRep Ids for NBIN clien=
+ts **discuss with Radhika</p>
+         <p>- when someone requests a new user, NetRep access only, we don'=
+t need to create the CX Id but create the Person account only - get aligned=
+ with JP.</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">7</td>
+        <td class=3D"confluenceTd">
+         <p>Later</p>
+         <p>(Workaround available)</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">202=
+7 Q1 / Q2</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">Parent firm users in R2</td>
+        <td class=3D"confluenceTd">
+         <p>1 CX id to multiple R2 Ids</p>
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <p>Dependency: Multi-firm user feature (2027 Q1)</p>
+         <p>Workaround (Recommended approach): request a second CX id to ma=
+intain 1-to-1</p></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">8</td>
+        <td class=3D"confluenceTd">
+         <p>Later</p>
+         <p>(Workaround available)</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-moved">202=
+7 Q1 / Q2</span></p>
+         </div></td>
+        <td class=3D"confluenceTd">PM sub-advisors</td>
+        <td class=3D"confluenceTd">
+         <p>1. The PM sub-advisor works for a firm which is our client</p>
+         <p>2. The PM sub-advisor is a third-party not associated to any of=
+ our clients</p></td>
+        <td class=3D"confluenceTd">
+         <p>Dependency: Multi-firm user feature (2027 Q1)</p>
+         <p>Workaround (Recommended approach): request a second CX id to ma=
+intain 1-to-1:</p>
+         <ol>
+          <li data-uuid=3D"d41fc6e9-3f8b-49a0-bcce-ae385369ac0b">They have =
+their home firm CX Id, plus a CX Id for each firm they sub-advise</li>
+          <li data-uuid=3D"1aeca427-28c0-4714-b53b-bd5e8c926e12">Their CX I=
+d is under the firm they are sub-advising to, one Id per sub-advising firm<=
+/li>
+         </ol></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">9</td>
+        <td class=3D"confluenceTd">??</td>
+        <td class=3D"confluenceTd">??</td>
+        <td class=3D"confluenceTd"><strong>Cross-firm RR code assignments i=
+n SZ or NetRep</strong></td>
+        <td class=3D"confluenceTd">
+         <p>Most likely happen to parent firm users or PM sub-advisors,</p>
+         <ul>
+          <li data-uuid=3D"5b46beab-16d0-4cb7-805e-ec2a22fba421">1 CX Id to=
+ 1 SZ Id and 1 CX Id to 1 NetRep Id</li>
+          <li data-uuid=3D"418c1b5e-13c5-488a-af7f-a80dc38933db">The SZ Id =
+and/or NetRep Id is assigned to RR codes across multiple firms</li>
+         </ul>
+         <p>There is no concept of firm ranges or any RR code edits in SZ a=
+nd NetRep.</p></td>
+        <td class=3D"confluenceTd">
+         <p>Dependency: Multi-firm user feature (2027 Q1)</p>
+         <p><br></p>
+         <p>Q: How to request RR codes outside of their firm range to be ad=
+ded to their SZ Id or NetRep Id?</p></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UseCasesandRequestFormRequirements-UIRules">UI Rules</h1>
+    <p>These rules are agnostic to the request form structure.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped relative-table confluenceTable" data-snooker-c=
+ol-series=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 91.926=
+2%;">
+      <colgroup>
+       <col style=3D"width: 7.98435%;">
+       <col style=3D"width: 12.4408%;">
+       <col style=3D"width: 21.8738%;">
+       <col style=3D"width: 27.5908%;">
+       <col style=3D"width: 30.1103%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false=
+" data-mce-resize=3D"false" scope=3D"col"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Eligible Firm / Special Ca=
+se</th>
+        <th scope=3D"col" class=3D"confluenceTh">Client User Story</th>
+        <th scope=3D"col" class=3D"confluenceTh">NBIN Requirement</th>
+        <th scope=3D"col" class=3D"confluenceTh">Importance (Critical/High/=
+Medium)</th>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">1</td>
+        <td class=3D"confluenceTd">
+         <p>Client IDP firms</p>
+         <p>(e.g. IAVM)</p></td>
+        <td class=3D"confluenceTd">As a FSS, I want to provide the <strong>=
+External ID</strong> for my users when requesting a new CX Id, so that they=
+ can single signon CX through the company portal.</td>
+        <td class=3D"confluenceTd">
+         <p>External ID and IDP source (e.g. indall) must be populated for =
+SSO firm users when creating their CX Id</p>
+         <p>Current state: User admin UI cannot handle it but the bulk SSO =
+user creation flow can.</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+          <p>Workaround: Continue with the current flow to onboard new SSO =
+users.</p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">2</td>
+        <td class=3D"confluenceTd">PM sub-advising firms</td>
+        <td class=3D"confluenceTd">As a FSS, I want to add/update the <stro=
+ng>PM sub-advisor RR codes</strong> to the user accounts for my firm's PM s=
+ub-advisors, so that they can access the sub-advising accounts and action a=
+ccordingly.</td>
+        <td class=3D"confluenceTd">
+         <p>The PM sub-advisor RR codes are used in <strong>R2 only</strong=
+> because CX doesn't support PM sub-advisor use cases yet. Some R2 use case=
+s:</p>
+         <ul>
+          <li data-uuid=3D"cfbfed14-6238-4eb8-890f-a78a37b6f02d">My Account=
+</li>
+          <li data-uuid=3D"92e72729-fd22-4587-b74a-966ee2d5c941">Trade Advi=
+ce File Upload</li>
+          <li data-uuid=3D"49fe50c3-12af-420f-b294-54a90bfd5e73">Mutual Fun=
+d File Upload</li>
+         </ul>
+         <p><u>Data validation</u>: The input RR codes must be validated be=
+fore being persisted.&nbsp;</p>
+         <ul>
+          <li data-uuid=3D"3357f164-b583-43b1-bc5e-47fe14efd9ab">Current ru=
+les used in R2: The RR code is valid and belongs to a PM firm</li>
+          <li data-uuid=3D"b6747083-b65b-4901-ac0f-eabe8bd4fe24">We should =
+add a rule that the RR code belongs to the firm that submits the request</l=
+i>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+          <p>There is no workaround. Unable to manage the attribute via UAR=
+ means that the legacy security steward feature cannot be decommissioned.</=
+p>
+          <p><br></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">3</td>
+        <td class=3D"confluenceTd">Self-account opening firms (Broadridge a=
+ccess)</td>
+        <td class=3D"confluenceTd">As a FSS, I want to be able to assign an=
+ <strong>Onboarding profile and Division (if applicable)</strong>&nbsp;for =
+my users so that they can perform their account opening responsibilities.</=
+td>
+        <td class=3D"confluenceTd">The selectable options of onboarding pro=
+files and divisions must be driven by the respective firm settings.</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+          <p>There is no workaround. Unable to manage the attribute via UAR=
+ means that the legacy security steward feature cannot be decommissioned.</=
+p>
+          <p>**Key takeaways:&nbsp;</p>
+          <p>- Should be mapped by the CX access controls when requesting C=
+ore: Onboarding</p>
+          <p>**Check with Radhika</p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">4</td>
+        <td class=3D"confluenceTd">Broadridge firm settings</td>
+        <td class=3D"confluenceTd">As a NBIN Support team, I want to config=
+ure the <strong>Broadridge firm settings</strong> for all firms, so that th=
+e firm users can be set up with the appropriate onboarding profile and divi=
+sion by their firm.</td>
+        <td class=3D"confluenceTd">Firm settings for Onboarding apps availa=
+ble</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+          <p>The firm settings do not change often. The Firm Access mainten=
+ance can be easily go offline as an alternative.</p>
+          <p>**Key takeaways:</p>
+          <p>- Are the firm specific controls necessary?<span style=3D"lett=
+er-spacing: 0.0px;">&nbsp;</span></p>
+          <p>&nbsp;**Check with Caroline</p>
+          <p><br></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">5</td>
+        <td class=3D"confluenceTd">
+         <p>Internal feature filter</p>
+         <ul>
+          <li data-uuid=3D"55627e39-0675-4390-a118-69da43f2439b">Features w=
+hich are for NBIN-use only.</li>
+         </ul></td>
+        <td class=3D"confluenceTd">As a NBIN Product team, I want <strong>i=
+nternal features </strong>to be absent from UAR, so that our clients cannot=
+ be bothered with the options which are not applicable to them.</td>
+        <td class=3D"confluenceTd">
+         <p>Must be able to identify "internal features" in the catalogs.</=
+p>
+         <p>UAR (the form and downstream processes) must be able to filter =
+out internal features.</p>
+         <p>Known issues:</p>
+         <ul>
+          <li data-uuid=3D"79042d12-a28d-4f43-a31d-452681f0e4be">Cannot sup=
+port Notifications on internal features - TBC</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+          <p>In case internal features are assigned to clients by mistake, =
+the consequences will be unacceptable, for example, access error, inappropr=
+iate feature/data exposure. Even if the features are just shown up on the a=
+ccess request form, it may invite unnecessary inquiries from clients.&nbsp;=
+</p>
+          <p><strong>**Requirements: Onboard all features, which are on or =
+linked to CX, to feature registry, but not showing internal features to ext=
+ernal user request election.</strong></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">6</td>
+        <td class=3D"confluenceTd">
+         <p>Feature state filter</p>
+         <ul>
+          <li data-uuid=3D"b3697011-6ae4-4102-ba4e-76e06ec921cd">Pre-releas=
+ed features</li>
+          <li data-uuid=3D"b430779d-c720-4459-88e1-3328a37ed9b1">Active fea=
+tures</li>
+          <li data-uuid=3D"013ede33-8d06-4a15-8d13-88e2a792cf73">Deprecated=
+ features</li>
+         </ul></td>
+        <td class=3D"confluenceTd">As a NBIN Product team, I want to releas=
+e active features<strong> </strong>for our clients to select through UAR by=
+ manipulating the feature state, so that our clients cannot be exposed to p=
+re-released features or deprecated features.</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"93f161ce-c406-4c26-8534-1e3b596dd015">Only activ=
+e features must be available in UAR</li>
+          <li data-uuid=3D"eed71b51-a960-458e-92d3-c5efc7e22a63">Pre-releas=
+ed and deprecated features must not be available</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+          <p>Feature state indicates whether the feature is launched and re=
+ady for clients or not. Exposing pre-released or deprecated features for ac=
+cess request will result in system risk.</p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class=3D"columnLayout single" data-layout=3D"single">
+  <div class=3D"cell normal" data-type=3D"normal">
+   <div class=3D"innerCell">
+    <h1 id=3D"UseCasesandRequestFormRequirements-AccessRequestForm">Access =
+Request Form</h1>
+    <p>These are product requirements and stakeholder feedback in regard to=
+ the Form, in particular the Feature Access section.</p>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped relative-table confluenceTable" data-snooker-c=
+ol-series=3D"numbers" data-snooker-locked-cols=3D"0" style=3D"width: 85.275=
+2%;">
+      <colgroup>
+       <col style=3D"width: 3.11088%;">
+       <col style=3D"width: 14.7296%;">
+       <col style=3D"width: 48.3187%;">
+       <col style=3D"width: 30.7292%;">
+       <col style=3D"width: 3.1116%;">
+      </colgroup>
+      <tbody>
+       <tr>
+        <th class=3D"numberingColumn confluenceTh" contenteditable=3D"false=
+" data-mce-resize=3D"false" scope=3D"col"><br></th>
+        <th scope=3D"col" class=3D"confluenceTh">Topic</th>
+        <th scope=3D"col" class=3D"confluenceTh">Requirement</th>
+        <th scope=3D"col" class=3D"confluenceTh">Rationale</th>
+        <th scope=3D"col" class=3D"confluenceTh">Priority</th>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">1</td>
+        <td class=3D"confluenceTd">Core services</td>
+        <td class=3D"confluenceTd">At least one of the four core services m=
+ust be selected</td>
+        <td class=3D"confluenceTd">Platform UI would fail to render the lef=
+t-nav if there's no accessible module</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">2</td>
+        <td class=3D"confluenceTd">Ineligible combinations</td>
+        <td class=3D"confluenceTd">
+         <p>Some options must not be available to be chosen at the same tim=
+e.&nbsp;</p>
+         <ul>
+          <li data-uuid=3D"71e5a667-0c7e-4ad5-9540-e22560361e2f">Example, i=
+f Account Opening is "Control", cannot choose Manage Order Mgmt. There are =
+around 31.</li>
+          <li data-uuid=3D"d25d03fc-7019-4ce7-8244-212f7a0bb6ff">Details to=
+ follow - Radhika's list</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <p>The specific permutation does not exist in any user package.</p=
+>
+         <p>We are not adding new user packages.</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">3</td>
+        <td class=3D"confluenceTd">User Access Management options</td>
+        <td class=3D"confluenceTd">Must not be presented for selection (e.g=
+. manage firm, manage user)</td>
+        <td class=3D"confluenceTd">FSS onboarding should follow the BAU pro=
+cess (TBC)</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">4</td>
+        <td class=3D"confluenceTd">Firm settings filter</td>
+        <td class=3D"confluenceTd">Remove features which are not applicable=
+ or opted out by the firm</td>
+        <td class=3D"confluenceTd">Avoid confusion</td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">5</td>
+        <td class=3D"confluenceTd">Association between module and optional =
+entitlement</td>
+        <td class=3D"confluenceTd">
+         <p>Flag error if an optional entitlement is selected while the mod=
+ule it bundles under is unselected, and vice versa.</p></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"a059e128-0f94-4255-9121-1e443f47afe5">Validate c=
+lient selection upfront to prevent unresolvable scenarios</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">6</td>
+        <td class=3D"confluenceTd">Dependency&nbsp;</td>
+        <td class=3D"confluenceTd">
+         <p>Flag error if dependency is not met</p>
+         <ul>
+          <li data-uuid=3D"d9e3070b-63ed-4f51-b221-18dfafeb4a9b">Example-1,=
+ Manage Order is selected but no optional entitlement (EQ, MF, OP) is selec=
+ted</li>
+          <li data-uuid=3D"538da379-ea5a-448e-955d-c615f120dbb8">Example-2,=
+ Manage MF Basket is selected but Manage MF Order is not selected&nbsp;</li=
+>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"fd5b5dc1-043c-48a5-982a-a05f29fcb573">Validate c=
+lient selection upfront to prevent unresolvable scenarios</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-error">CRI=
+TICAL</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">7</td>
+        <td class=3D"confluenceTd">Default form settings</td>
+        <td class=3D"confluenceTd">
+         <ol>
+          <li data-uuid=3D"3617c6b8-c92b-4de8-9b2f-e9cb64df1b6e">Everything=
+ is none</li>
+          <li data-uuid=3D"d7c173e0-9b96-4b55-9e21-06208d07e582">When View =
+is chosen for Client Inquiry and Insights (first option), turn on "View" in=
+ everything below</li>
+         </ol></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"d956be14-1b06-42a6-bac7-fe0ae01ec2c2">Streamline=
+ the user experience</li>
+          <li data-uuid=3D"5c611dd5-a049-4343-ae49-388450c5ef78">Prevent in=
+eligible options to be chosen</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">8</td>
+        <td class=3D"confluenceTd">
+         <p>Form update while editing</p>
+         <p>(User experience suggestion)</p></td>
+        <td class=3D"confluenceTd">
+         <p>Must not present to clients ineligible options based on what ha=
+ve been selected</p>
+         <p>e.g. eliminate options from the form</p>
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"322fa409-16cb-497f-a748-8e570d143e71">Streamline=
+ the user experience</li>
+          <li data-uuid=3D"2066bdb4-83a2-46bc-96c0-21a2d476737a">Prevent in=
+eligible options to be chosen</li>
+         </ul>
+         <p>Alternatively, clients may choose all options and be told, at t=
+he end, that their selections are not eligible, which is not a good user ex=
+perience.</p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">9</td>
+        <td class=3D"confluenceTd">Presentation suggestion</td>
+        <td class=3D"confluenceTd">
+         <p>Q: How to tell the optional entitlements are associated with wh=
+ich features/modules listed?</p>
+         <p>1. Only present features when the right level of access is sele=
+cted</p>
+         <ul>
+          <li data-uuid=3D"4307b525-35f2-4c1e-ac74-6d0e263a67e4">e.g. "GIC"=
+ is only visible if Manage is selected on Orders Mgmt, not View Orders Mgmt=
+</li>
+         </ul>
+         <p>2. Allow clients to see clearly the dependencies between module=
+ and optional entitlements, and make their selection accordingly</p>
+         <ul>
+          <li data-uuid=3D"5c041f16-b378-4c3f-b9ae-9cea3203e122">Example, "=
+Approve option application" is applicable FBO only, but there's no associat=
+ion to the listed modules (Account opening, estate, ...)</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"b22af07d-fd0d-40f0-9197-c4ac86d4d3fe">Streamline=
+ the user experience</li>
+          <li data-uuid=3D"9538e98a-9b83-46a7-80d6-81b31666f563">Prevent in=
+eligible options to be chosen</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">10</td>
+        <td class=3D"confluenceTd">Access control tier</td>
+        <td class=3D"confluenceTd">
+         <p>Q: How to ensure clients choose the access level just fit their=
+ needs, not over?</p>
+         <p>Allow clients to distinguish the "extra" features from the view=
+ tier to the manage tier, so on so far, so that they can make the decision =
+on the right level of access controls they need.</p>
+         <ul>
+          <li data-uuid=3D"fa68eb06-a03c-4cac-b669-a562f00e5519">Example, w=
+hen a higher level is selected, it should be clear that clients would get "=
+everything from the next lower level, plus..."</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"386146d9-c896-41e9-b659-5d0658b4ecb9">Prevent ov=
+er-provisioning</li>
+          <li data-uuid=3D"595d4434-c672-4e7a-8fa9-9833a882a536">Usability<=
+/li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">11</td>
+        <td class=3D"confluenceTd">Inconsistency in module definition</td>
+        <td class=3D"confluenceTd">
+         <p>The feature registry (xls) and the implementation are not an ex=
+act match in module definition. There is a risk the form selection cannot b=
+e mapped to the correct Compass user access.&nbsp;</p>
+         <ul>
+          <li data-uuid=3D"dcf326c3-d0dd-4098-87ab-8f932cbe4c86">Example, O=
+rders (GIC) is implemented as a module, not as an optional entitlement unde=
+r manage orders. The form presentation is not wrong but to transfer the sel=
+ection to access update may request an exception handling, unlikely the EQ =
+order, MF order selection.</li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"6d5263dd-2858-4d03-aa1a-58f3521e00cd">Risk of op=
+erational friction</li>
+         </ul>
+         <p><br></p></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+       <tr>
+        <td class=3D"numberingColumn confluenceTd" contenteditable=3D"false=
+" data-mce-resize=3D"false">12</td>
+        <td class=3D"confluenceTd">
+         <p>Undo or reset selections</p>
+         <p>(User experience suggestion)</p></td>
+        <td class=3D"confluenceTd">Able to undo the last changes&nbsp;</td>
+        <td class=3D"confluenceTd">
+         <ul>
+          <li data-uuid=3D"4a58a4d1-02f9-4f39-b5c8-d524c2c1d1e8">Usability<=
+/li>
+         </ul></td>
+        <td class=3D"confluenceTd">
+         <div class=3D"content-wrapper">
+          <p><span class=3D"status-macro aui-lozenge aui-lozenge-current">H=
+IGH</span></p>
+         </div></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <p><br></p>
+   </div>
+  </div>
+ </div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2959_1750794621.1788898048119--

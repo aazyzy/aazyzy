@@ -1,0 +1,1088 @@
+Date: Tue, 22 Sep 2026 16:22:51 -0400 (EDT)
+Message-ID: <1652530738.12943.1790108571659@ip-10-50-193-247.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12942_528596011.1790108571658"
+
+------=_Part_12942_528596011.1790108571658
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Platform Integrations</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body,
+    #full-height-container,
+    #main,
+    #page,
+    #content,
+    .has-personal-sidebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover,
+    a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, 'Courier New', monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Platform Integrations</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"PlatformIntegrations-StartingPrinciples">Starting Princip=
+les</h1>
+<h2 id=3D"PlatformIntegrations-PortalasLauncherversusPortalasWorkspaces">Po=
+rtal as Launcher versus Portal as Workspaces</h2>
+<p>The Compass platform has 2 functions</p>
+<ul>
+ <li data-uuid=3D"9c044775-ece9-4d6a-8f7f-182f33240fff">The Portal acts as =
+a <strong>composite workspace </strong>when multiple apps need to be visibl=
+e together / users need to pivot quickly between those apps across the core=
+ operational experience</li>
+ <li data-uuid=3D"c38ec1cd-ed85-4e5b-a3ee-b730e2dd16a2">The platform is als=
+o a<strong> launch point </strong>for the curated ecosystem for application=
+s outside of the core operational experience.</li>
+</ul>
+<p>For the latter (i.e. Integrations), the role of the platform breaks down=
+ as follows:</p>
+<ol>
+ <li data-uuid=3D"2f66130e-1419-486e-bae2-64676d39c37e"><strong>Primary rol=
+e</strong>: enforce consistency and centralization of authentication, featu=
+re access, data access, firm &amp; user context, user monitoring, and infor=
+mation architecture</li>
+ <li data-uuid=3D"cfdfc4a7-f5de-4b9c-bc04-7a27a4f566d6"><strong>Secondary r=
+ole</strong>: facilitate selective application of design and integration st=
+andards</li>
+</ol>
+<h2 id=3D"PlatformIntegrations-Selective&amp;ProgressiveIntegration">Select=
+ive &amp; Progressive Integration</h2>
+<p>&nbsp;(how the app was built / app integration capabilities, whether it =
+is commissioned specifically for NBIN or purchased off the shelf, willingne=
+ss to invest, strategic relevance, etc.) -</p>
+<p>Due to the high % of 3rd party apps that will / make up the Compass plat=
+form, it is often difficult to harmonize app build across multiple app prov=
+iders due to the number of influencing factors which may result in many poi=
+nt to point negotiations (contractual, ROI, app maturity and integration re=
+adiness, prioritization conflicts, time-to-market needs, radius from Core o=
+ffering). &nbsp;The platform does NOT fully enforce integration standards s=
+ince the variability in 3rd party app partnerships for this reason as it wi=
+ll be difficult to negotiate integration standardization, unless it's a cri=
+tical core experience. &nbsp;Runtime composition (with tight integration) i=
+ntroduces dependency governance, integration testing, version skew, monitor=
+ing, fallback handling, and operational complexity.&nbsp; As a rule of thum=
+b:</p>
+<ul>
+ <li data-uuid=3D"721efb58-924f-498d-97a9-1b21b8e38b39">Micro-frontends are=
+ most valuable when independent deployment across multiple teams is a hard =
+requirement; otherwise, modular monolith or build-time integration can ofte=
+n deliver better cost-to-value.</li>
+ <li data-uuid=3D"3c2835fa-ce0e-4044-a45c-c8d2ba7d54aa">Module federation s=
+hould be used selectively for strategic in-house applications that need dee=
+p in-portal UX integration and independent release cycles</li>
+ <li data-uuid=3D"a7f2f64a-7970-47ee-8f0e-3174362203a1">Use simpler integra=
+tion patterns =E2=80=94 links, embedded routes, iFrames, web components, or=
+ packaged SDKs =E2=80=94 for lower-value, vendor-owned, or infrequently cha=
+nged applications</li>
+</ul>
+<p>Typical application of integration tiers in a product ecosystem:&nbsp;</=
+p>
+<ul>
+ <li data-uuid=3D"06f848e0-544e-4872-9abe-705d3ca70749">70-80% Tier 1</li>
+ <li data-uuid=3D"3d92ee54-ef2c-4f27-a1f9-ca4ad6160888">&lt;10% Tier 2</li>
+ <li data-uuid=3D"513462c9-6d02-45b4-95d3-d2e54b1f8817">10-20% Tier 3 (=3D=
+=3D optimized core)</li>
+</ul>
+<p>Examples of discretionary integration standards include session synchron=
+ization, session timeout intercept &amp; rerouting, micro frontend integrat=
+ion, etc.&nbsp; See tiering below.</p>
+<h1 id=3D"PlatformIntegrations-PlatformIntegrationModel">Platform Integrati=
+on Model</h1>
+<p><span>The tier determines the depth of integration, the review process, =
+and the capabilities available to the integration.</span></p>
+<p>integration solutions make onboarding, security, navigation, branding, a=
+ccess control, upgrades, and support viable</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 97=
+.4693%;">
+  <colgroup>
+   <col style=3D"width: 7.19551%;">
+   <col style=3D"width: 8.44404%;">
+   <col style=3D"width: 19.5899%;">
+   <col style=3D"width: 20.8015%;">
+   <col style=3D"width: 21.7593%;">
+   <col style=3D"width: 22.2098%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"highlight-#e6fcff confluenceTh" colspan=3D"2" data-highlig=
+ht-colour=3D"#e6fcff" scope=3D"rowgroup">Integration Tiering</th>
+    <th class=3D"highlight-#e6fcff confluenceTh" data-highlight-colour=3D"#=
+e6fcff" scope=3D"col">
+     <p title=3D"">0 - Navigation-only</p>
+    </th>
+    <th class=3D"highlight-#e6fcff confluenceTh" data-highlight-colour=3D"#=
+e6fcff" scope=3D"col">1 - Unified Access (Default)</th>
+    <th class=3D"highlight-#e6fcff confluenceTh" data-highlight-colour=3D"#=
+e6fcff" scope=3D"col">2 - Embedded Module (Rare)</th>
+    <th class=3D"highlight-#e6fcff confluenceTh" data-highlight-colour=3D"#=
+e6fcff" scope=3D"col">
+     <p title=3D"">3 - Integrated Module (Premium)</p>
+    </th>
+   </tr>
+   <tr>
+    <th rowspan=3D"6" scope=3D"rowgroup" class=3D"confluenceTh"><span>Integ=
+ration Context</span>
+     <br>
+     <span>=20
+      <br>=20
+     </span><span>=20
+      <br>=20
+     </span><span>=20
+      <br>=20
+     </span></th>
+    <th scope=3D"row" class=3D"confluenceTh">Goal</th>
+    <td class=3D"confluenceTd">
+     <p><strong>Ease of discoverability:</strong></p>
+     <ul>
+      <li data-uuid=3D"108a894b-0b08-4c3c-8c67-8346863fd668">Ensures users =
+have an easy way to find available NBIN digital products subscribed by thei=
+r firm</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <p><strong>Centralized access control:</strong></p>
+     <ul>
+      <li data-uuid=3D"510750d3-d3d2-4c5b-80a2-0882606c57bc">Seamless acces=
+s for users to reduce multiple login frictions</li>
+      <li data-uuid=3D"4297c50f-ff69-4ea0-8079-d4bd66e73d56">Traceability, =
+maintainability and auditability in user access controls</li>
+      <li data-uuid=3D"a316c515-f4d8-42d4-a96d-59a0c042e463">Navigation-onl=
+y with Auth</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <p><strong>Context containment:</strong></p>
+     <ul>
+      <li data-uuid=3D"2c2e8bee-5b73-4fb3-ab46-ba6860ca937a">Ensure users c=
+an maintain simultaneous platform context when using an app</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <p><strong>Experience optimization:</strong></p>
+     <ul>
+      <li data-uuid=3D"93d91271-c7c4-4a68-89ef-a674cf65bc75">Ensure maximum=
+ user efficiency and seamlessness of app functions</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh">Use Cases</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"ab98e7d1-eaec-4a6c-b207-e1658601c46e">Features unrel=
+ated to core journeys, where context continuity is not a concern</li>
+      <li data-uuid=3D"f7345526-4b94-4861-8492-0a6de3e1ea05">Digital servic=
+es for very specific groups/users outside of core platform experience</li>
+      <li data-uuid=3D"861de9b1-5931-40c1-aceb-12f99989bb62">New capability=
+ where demand across segments is not yet clear</li>
+      <li data-uuid=3D"75d0352d-c2f7-4cd5-98cb-86e794de0464">Separate, seco=
+ndary login is not a user barrier</li>
+      <li data-uuid=3D"43c89560-37ec-4599-8bc3-39bd8d33d676">No access cont=
+rols required</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"3a63becd-d2fb-455e-bfa4-eaea9cd4052a">Core or core-a=
+djacent capabilities with low context continuity with core experiences</li>
+      <li data-uuid=3D"0e8ded84-172f-4541-ab75-e40d509f0db1">3rd party part=
+ners offering standalone products with no / low interaction with core exper=
+ience</li>
+      <li data-uuid=3D"dbf73631-d0c8-4b3e-833f-1ea3fb5817fc">Legacy tools o=
+r reference applications where a deeper integration is not justified</li>
+      <li data-uuid=3D"138e2b6d-be03-4c64-bfdc-90eba3e92e63">New capability=
+ where need is not yet clear for deeper integration</li>
+      <li data-uuid=3D"62ee6693-1e43-4fbb-9a6e-e091481ddbae">Apps with sepa=
+rate release and support models</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"5bb882a6-9f1e-4a07-b8f8-acdb728c821a">Apps that prov=
+ide functions against a core or core-adjacent journey</li>
+      <li data-uuid=3D"29219446-b573-45cc-aa61-124cc687758e">3rd party apps=
+ which fulfill the functions of a core journey</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"fc61f0b8-57b5-4dd3-a09f-4e6c67b70b1c">High-use workf=
+lows / apps that provide functions against a core journey</li>
+      <li data-uuid=3D"bed349e5-cb80-4f2b-ba78-95f06e19fe31">
+       <p>Domain apps requiring seamless UX</p>
+      </li>
+      <li data-uuid=3D"ddc1ae0f-b1e2-4aac-a9af-7af9d28a37af">Long-term part=
+nerships with co-investment or customization appetite to maximize platform =
+coherence for NBIN</li>
+      <li data-uuid=3D"4ba47d4b-5859-4301-992a-824774c766ef">
+       <p>Independent deployment is a hard requirement</p>
+      </li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th class=3D"confluenceTh">Platform Role</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"0e61983e-ab48-455e-8d84-35c13b6d800e">&nbsp;Navigati=
+on hub</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"02602d32-bd8d-4e65-aff3-5b249d4f525b">Secure app lau=
+ncher and navigation hub&nbsp;</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>Integration deployment governance</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li><strong>&nbsp;</strong>Master workspace orchestrator</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh">Benefits</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c721d687-624b-499b-ba4e-6755baf5dddd">Cheap and chee=
+rful</li>
+      <li data-uuid=3D"6339a741-5c6e-451d-98a9-e7321141545a">Ability for NB=
+IN to track who has and uses what</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"cffde5d3-44c8-4e71-95d0-0c367a7bced7">Cheapest and f=
+astest integration to implement</li>
+      <li data-uuid=3D"b4bd98bb-a0d3-4388-a642-dc94d49f4ba0">Minimal depend=
+ency on partners / 3rd parties</li>
+      <li data-uuid=3D"1c9b5343-5ea7-4f3b-b09f-a823da67b00b">Auditable user=
+ access</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a6b0684e-43ec-4803-83c0-509c51f8d824">Less costly an=
+d easier to negotiate than Tier 3</li>
+      <li data-uuid=3D"f3caa810-8c9f-470d-8507-4f74f426200c">Isolation betw=
+een host and app</li>
+      <li data-uuid=3D"e539b970-25b4-4068-93e7-414cc45877a6">Minimal fronte=
+nd refactoring</li>
+      <li data-uuid=3D"e03a4004-c153-4d98-a682-9ec67174f4e3">Can accommodat=
+e different technology stacks</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c5d56676-175a-4cfe-ada9-926f9c4248a0">Best user expe=
+rience</li>
+      <li data-uuid=3D"87262039-b1f7-43e6-bcc0-3015a95b2cd2">Most flexibili=
+ty in supporting independent deployments</li>
+      <li data-uuid=3D"07fb522f-85dd-4421-9cf1-d65c12fa27b2">Enables seamle=
+ss composition of pages, widgets, capabilities inside one cohesive portal</=
+li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh">Drawbacks</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"42613ab5-7851-4053-b085-42a78b64c8ba">No access gove=
+rnance</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"01fcbcea-30fe-4e76-8dee-adba40c86756">Fragmented use=
+r experience
+       <ul>
+        <li data-uuid=3D"88b3d8a1-f514-41ba-a8fb-1987ab8ec143">No cross-app=
+ workflows</li>
+        <li data-uuid=3D"ef7556c1-f237-46d3-9c10-f09b49f36352">No common UI=
+ behaviors</li>
+       </ul></li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"efa76314-dd95-4fc8-a044-07b96caa4556">More dependenc=
+ies to manage, e.g. accessibility, responsive behavior, copy &amp; pasting,=
+ pop-ups</li>
+      <li data-uuid=3D"8a5b53fa-2050-4515-abd9-f8e35febe5c7">3rd party secu=
+rity policies, restrictions, cookie behaviors can create run-time issues</l=
+i>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"c54ca860-baea-46ee-9b15-590b943eb022">Requires teams=
+ with frontend engineering maturity</li>
+      <li data-uuid=3D"dbb201fa-62c9-4aad-953a-e18a13ffe235">Expensive oper=
+ationally</li>
+      <li data-uuid=3D"c23fc70f-3fc8-469a-b65c-faea68c580da">Requires stron=
+g dependency governance</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh">Examples</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"71693860-27ba-45b6-a6ff-588688ace569">Evercore Resea=
+rch</li>
+      <li data-uuid=3D"bb9cfc62-76e4-41c1-ae3d-7193975a3d45">FileCabinet UR=
+L</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"337e73d5-706f-4d86-b12b-c677cd9c92a9">SecuredZone Ap=
+ps</li>
+      <li data-uuid=3D"dba55c72-b187-4aff-b738-7a5e2e169f11">Croesus&nbsp;<=
+/li>
+      <li data-uuid=3D"e0898813-2186-4265-814c-c6457a779d7e">IIS Tools</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"2dea596b-2ac0-4afc-98aa-1c4d5e87a179">SOMA (current,=
+ partial)</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"92c4d452-70ee-4d14-99dc-d7c59288fb5f">Trade Allocati=
+ons</li>
+      <li data-uuid=3D"a4857568-238a-4f96-ab78-158d4c2ecec7">Core Orders&nb=
+sp;</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th class=3D"highlight-#e3fcef confluenceTh" colspan=3D"2" data-highlig=
+ht-colour=3D"#e3fcef" scope=3D"rowgroup">Integration Standards</th>
+    <th class=3D"highlight-#e3fcef confluenceTh" data-highlight-colour=3D"#=
+e3fcef">
+     <p title=3D"">0 - Navigation-only</p>
+    </th>
+    <th class=3D"highlight-#e3fcef confluenceTh" data-highlight-colour=3D"#=
+e3fcef">1 - Unified Access (Default)</th>
+    <th class=3D"highlight-#e3fcef confluenceTh" data-highlight-colour=3D"#=
+e3fcef">2 - Embedded Modules</th>
+    <th class=3D"highlight-#e3fcef confluenceTh" data-highlight-colour=3D"#=
+e3fcef">
+     <p title=3D"">3 - Integrated Module&nbsp;</p>
+    </th>
+   </tr>
+   <tr>
+    <th rowspan=3D"2" scope=3D"rowgroup" class=3D"confluenceTh"><span>Integ=
+ration Scope</span>
+     <br>
+     <span>&nbsp;</span></th>
+    <th class=3D"confluenceTh">High-level min. Requirements</th>
+    <td class=3D"confluenceTd">
+     <p>For representation as Feature:</p>
+     <ul>
+      <li data-uuid=3D"5044cd1d-ee41-451c-b311-a002ab831c3d">Feature regist=
+ration (listing only)</li>
+      <li data-uuid=3D"63b34865-028a-4411-8d82-9d5db2b81f67">Navigation upd=
+ate</li>
+     </ul>
+     <p>For true reference only, this should be a content management proble=
+m.&nbsp;</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Tier 0, plus:</p>
+     <ul>
+      <li data-uuid=3D"67172e6f-1633-4b41-acf4-58bcdefdde25">Auth integrati=
+on</li>
+      <li data-uuid=3D"68db17c7-0c07-4738-a5ad-1e2235307c59">Firm &amp; use=
+r lifecycle integration</li>
+      <li data-uuid=3D"42440325-462f-4f21-8d03-bce65be1f151">Minimal firm &=
+amp; user context passing</li>
+      <li data-uuid=3D"8b6d9877-8026-4bfa-8e2a-94da34dc48dc">Session expiry=
+ &amp; redirect</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Tier 1, plus:</p>
+     <ul>
+      <li data-uuid=3D"ff87eb29-30e2-4272-963d-c9bb348a479b">Session synchr=
+onization</li>
+      <li data-uuid=3D"d2ef20a0-f4c5-44e3-830a-0996de7d9b16">Session error =
+handling</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Tier 2, plus:</p>
+     <ul>
+      <li data-uuid=3D"b605d9d1-f72b-4922-ba3a-1c0d4aa79cf2">Data context p=
+assing</li>
+      <li data-uuid=3D"3cf932ad-a220-43af-bfce-dbab74ae9b24">User state man=
+agement</li>
+      <li data-uuid=3D"7555f875-f63c-4adb-a174-7ddd70078dbe">Register platf=
+orm actions</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th class=3D"confluenceTh">Optional Requirements</th>
+    <td class=3D"confluenceTd">N/A</td>
+    <td colspan=3D"3" class=3D"confluenceTd">
+     <ul>
+      <li style=3D"text-align: center;" data-uuid=3D"b75509e1-4dc8-4572-b1e=
+8-a1e7dc3fa037">Platform services integration (notifications, content, work=
+flow, search, WalkMe)</li>
+      <li style=3D"text-align: center;" data-uuid=3D"5aa7a06a-8b6c-43bb-85f=
+9-66b45f3c3e26">Design system adoption</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th rowspan=3D"2" class=3D"confluenceTh"><span>Feature Onboarding</span=
+>
+     <br>
+     <span>&nbsp;</span></th>
+    <th scope=3D"row" class=3D"confluenceTh">
+     <p><span>Feature Registration</span></p>
+     <p><span>See <a class=3D"external-link" href=3D"https://cbncnbccs.shar=
+epoint.com/:x:/r/sites/Compass-X/Shared%20Documents/General/Compass%20Featu=
+re%20Registry.xlsx?d=3Dw84755b7cfad44195b808e8bc1af5236d&amp;csf=3D1&amp;we=
+b=3D1&amp;e=3D1yKc6X" rel=3D"nofollow">Compass Feature Registry.xlsx</a></s=
+pan></p>
+    </th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a0d3d283-7a3f-49cd-ba92-edf2f8cf61e8">Single resourc=
+e to be mapped into CX Feature Registry</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"fdaa6d0a-b187-4633-972d-70c9a76da78e">Single resourc=
+e to be mapped into CX Feature Registry</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"13d9461c-e984-45ed-b0cd-405bc7726690">Single resourc=
+e to be mapped into CX Feature Registry</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"2301e25c-2f17-4d9b-a9bb-464232ef6237">One or more re=
+sources to be mapped into CX Feature Registry</li>
+      <li data-uuid=3D"5b7d4b66-e72d-42f6-a68c-b7917462cb63">Resources are =
+differentiated based on module vs. entitlement</li>
+      <li data-uuid=3D"cb1f88d1-3a0d-4339-897b-b79482517bcd">Core microapps=
+ conform to access level (view, manage, control, process) and entitlement c=
+ontrols&nbsp;</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Feature Package Assignme=
+nt</span></th>
+    <td class=3D"confluenceTd">
+     <p>Two options:</p>
+     <ol>
+      <li data-uuid=3D"ceaed63e-65c7-451c-8885-ae97211115d3">As mandatory r=
+esource available to all firms (with firm + user election)</li>
+      <li data-uuid=3D"9fe7f49d-df15-4b6e-8833-68328d3be683">As mandatory r=
+esource available by default for all firms and users (no election)</li>
+     </ol>
+    </td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li><span>For core modules:&nbsp;u</span>ser packages to be updated b=
+ased on product capability model</li>
+      <li data-uuid=3D"af8a45a5-9a52-4559-801f-46876112b95e">For non-core m=
+odules: register as add-on</li>
+      <li data-uuid=3D"9b9a562d-3c3d-4be3-afe5-d2a1dabf4ff0">For all module=
+s: firm packaging based on product bundling &amp; subscription model</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"b52824f8-9d61-4c64-8847-439389e08d21">Platform gover=
+ns the packaging of resources into features - app conforms to feature hiera=
+rchy and access levels and exposes resources to align as such</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th rowspan=3D"2" scope=3D"rowgroup" class=3D"confluenceTh"><span>IAM I=
+ntegration</span></th>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Authentication</span></t=
+h>
+    <td class=3D"confluenceTd">N/A</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li><span>S</span><span>SO launch: platform passes identity through O=
+kta SSO and required context via launch URL</span></li>
+      <li data-uuid=3D"ba0deb69-8230-49d5-9728-2cde0c7fc555">Ensure user pr=
+ofile linking for access auditability</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"b0cc5d30-eff4-42b7-9789-d86025ccf964"><span>S</span>=
+<span>SO launch: platform passes identity through Okta SSO and required con=
+text via launch URL</span></li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"64f7430a-4d7f-4318-b818-b7e668469c71">Uses platform =
+IAM (Okta) - app federates access to platform</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Authorization</span></th=
+>
+    <td class=3D"confluenceTd">N/A</td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li style=3D"text-align: left;" data-uuid=3D"c0345fbd-b37a-4f12-951c-=
+c2f1eb2f4d4a">Authorization context included in token from CX
+       <ul>
+        <li style=3D"text-align: left;" data-uuid=3D"5e48f6e1-6843-4501-80d=
+c-9efce8a46ff2">For Core apps, map role profiles to the appropriate control=
+s within the app</li>
+        <li style=3D"text-align: left;" data-uuid=3D"022ee701-db35-45d6-9a6=
+7-905418f7f0c9">For non-core apps, use context to authorize app-level acces=
+s</li>
+       </ul></li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"a215fae6-304f-4971-81bb-c71e8794689d">Uses platform =
+IAM (F&amp;UM integration)</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th rowspan=3D"5" scope=3D"rowgroup" class=3D"confluenceTh">Platform Ex=
+perience Integration</th>
+    <th scope=3D"row" class=3D"confluenceTh">Session Management</th>
+    <td class=3D"confluenceTd">N/A</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"f831302a-2df1-4f42-addc-e8056c6147d8">Session timeou=
+ts match platform standard</li>
+      <li data-uuid=3D"519f4ce2-eeb3-42a5-b52a-42a7a152f092">Session expiry=
+ re-routes to termination point</li>
+     </ul>
+    </td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"19275441-2b1d-4459-a82f-a98ddb83118f">Session synchr=
+onization required (<span>Compass </span><span>keep-alive event bus)</span>=
+</li>
+      <li data-uuid=3D"526d27f3-50ae-4f50-8b60-ec1482770a2c">Timeout / retr=
+y error handling</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Context passing</span></=
+th>
+    <td class=3D"confluenceTd">N/A</td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"7433e6fd-f27a-4db7-a87b-731df79d62e7">User language =
+preference</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"8b172050-2fdf-4060-9ca1-4ebfa4039af1">Firm white-lab=
+eling</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Localization &amp; Acces=
+sibility</span></th>
+    <td class=3D"confluenceTd">N/A</td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"9f811d19-8a3c-4b52-a6d1-84878222cfb3">At minimum mak=
+e available language toggle in EN and FR</li>
+      <li data-uuid=3D"07bc16e4-b529-43e7-bcee-5d203a911c05">At minimum mee=
+t AODA requirements</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"bcc84b44-5daa-400f-befa-ef3860214dcc">Language conte=
+xt passing</li>
+      <li data-uuid=3D"445333a4-4fe4-422d-895f-d56cbb77326f">Conformity to =
+platform accessibility standards</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh">UX <span>Integration</span></t=
+h>
+    <td class=3D"confluenceTd">N/A</td>
+    <td class=3D"confluenceTd">
+     <p><span>Partner app remains a standalone app, by the partner, has its=
+ own navigation.</span></p>
+     <p><span>Partner app entry point is governed by platform information a=
+rchitecture</span></p>
+    </td>
+    <td class=3D"confluenceTd">For iframed/vendor apps, conformance may be =
+partial.</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"bc46585e-dc7f-4b6e-9ae9-cb71f544e0b0">Pieces of an a=
+pplication will be continued by the platform and other modules</li>
+      <li data-uuid=3D"ca320021-1fc5-416c-b252-771eff77d5b4">Platform speci=
+fies:
+       <ul>
+        <li data-uuid=3D"dde935cb-cc4e-4d1b-ae7d-39aaa05b1cb4">Header behav=
+iour</li>
+        <li data-uuid=3D"152db690-9d2d-4d4b-8043-2a4bb4c1ef82">Navigation p=
+attern (Loading states,&nbsp;Empty states,&nbsp;Error states,&nbsp;Breadcru=
+mbs)</li>
+        <li data-uuid=3D"45ab1e74-5356-4549-a9e9-9db233089313">UI elements =
+(Button hierarchy,&nbsp;Typography,&nbsp;Spacing)</li>
+        <li data-uuid=3D"c55e7dcc-85cb-456e-b143-c0b86ee92322">Support/help=
+ entry point</li>
+       </ul></li>
+      <li>See: <a href=3D"/spaces/COMPASS/pages/2726104730/Module+Federatio=
+n">Module Federation</a></li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th scope=3D"row" class=3D"confluenceTh"><span>Module deployment</span>=
+</th>
+    <td class=3D"confluenceTd">Link, launchpad tile</td>
+    <td class=3D"confluenceTd"><span>Deep link + SSO, launchpad tile</span>=
+</td>
+    <td class=3D"confluenceTd">
+     <p>iFrame with SSO/token handoff&nbsp;</p>
+     <p>Modular monolith</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Module federation, micro-frontend run time composition</p>
+     <p><span style=3D"color:#172b4d;">Partner builds a Module Federation r=
+emote that mounts inside the Compass shell</span></p>
+    </td>
+   </tr>
+   <tr>
+    <th rowspan=3D"3" class=3D"confluenceTh"><span>Platform Services Integr=
+ation</span>
+     <br>
+     <span>=20
+      <br>=20
+     </span></th>
+    <th class=3D"confluenceTh"><span>Notifications=20
+      <br></span></th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"938900b5-858a-4ab5-8b9e-b67f7ee9f6ae">As required vi=
+a desired Support channels off-platform</li>
+     </ul>
+    </td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"11859c86-0705-49ff-ada2-c69fb0727ed2">As required ba=
+sed on features being introduced</li>
+     </ul>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"7340c8c7-ba3e-41d6-aa61-0ff6f568cb02">Event configur=
+ation / classification against platform domain model</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th class=3D"confluenceTh">Monitoring &amp; Alerts</th>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"83cfdebb-d8b5-453a-b36e-0765825befad">Register "feat=
+ure" to facilitate outage / app-related communications via platform</li>
+     </ul>
+    </td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <p>Basic usage reporting on entry point</p>
+     <ul>
+      <li data-uuid=3D"05f3fab1-7cd1-4394-932d-9ed543acf2c0">Daily / weekly=
+ / monthly activity</li>
+      <li data-uuid=3D"e53e0f4f-7e6f-4f2d-a505-92dedd8aecbd">Concurrent use=
+</li>
+     </ul>
+     <p>Basic SLA reporting</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li data-uuid=3D"22c8d164-5e1b-4f31-8c58-432b743f3fa0">Usage reportin=
+g across available components</li>
+      <li data-uuid=3D"9fe76b2e-0ca0-4dff-b4c2-b4eab727da6a">Transactional =
+reporting where applicable</li>
+      <li data-uuid=3D"08620bed-ce0c-48b7-acb7-9066fdbe344d">Automated oper=
+ational (system) alerting</li>
+     </ul>
+    </td>
+   </tr>
+   <tr>
+    <th class=3D"confluenceTh">Logging</th>
+    <td class=3D"confluenceTd">N/A</td>
+    <td colspan=3D"2" class=3D"confluenceTd">
+     <p>Provide auditable access logs</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>Considered but not promoted to an integration standard:</p>
+<ol>
+ <li data-uuid=3D"9e41b803-ce21-4fb6-b214-d98f47ce67e3">Web components, pac=
+kaged components - need for reusable widgets from partners for core workflo=
+ws is low</li>
+ <li data-uuid=3D"d21102f1-9165-46d3-aa61-3fe119409a35">Single SPA / micro-=
+frontend orchestration - framework for orchestrating multiple micro-fronten=
+ds in the browser, we currently do not have the need to orchestrate multipl=
+e existing SPAs, framework diversity is low in the bank</li>
+</ol>
+<h2 id=3D"PlatformIntegrations-IntegrationContract">Integration Contract</h=
+2>
+<p>Each app should declare:</p>
+<ul>
+ <li data-uuid=3D"a6ebb36d-4cc1-405c-94ab-1b101b386fac">How it authenticate=
+s</li>
+ <li data-uuid=3D"6617665f-515d-4dd2-ae10-05d84ad764f4">What user context i=
+t needs</li>
+ <li data-uuid=3D"46eb1f55-b410-41c0-b806-9d70db8b4e04">Whether it supports=
+ deep links</li>
+ <li data-uuid=3D"a82d7d98-e973-4f21-b354-a5060c2279a7">Whether it supports=
+ embedded mode</li>
+ <li data-uuid=3D"92c37871-f97c-40d5-b7d6-a7cb204cbe66">Whether it emits te=
+lemetry</li>
+ <li data-uuid=3D"64dbf183-c482-4864-b0d1-5b2b7bf4dd27">Whether it supports=
+ dark mode/accessibility standards</li>
+ <li data-uuid=3D"5b6adef3-10b0-41f5-995f-2d00790c675b">How it handles erro=
+rs</li>
+ <li data-uuid=3D"4fce15cb-e4b3-4700-81fd-79a2adc079eb">What support route =
+is shown to users</li>
+ <li data-uuid=3D"30fbd7d3-2d70-41d7-8f25-b1201ef13fe3">Whether it can be d=
+isabled without redeploying the portal</li>
+</ul>
+<h2 id=3D"PlatformIntegrations-RuntimeResilience">Runtime Resilience</h2>
+<p>For module federation and embedded apps, the portal must handle failure =
+gracefully.</p>
+<p>Minimum requirements:</p>
+<ul>
+ <li data-uuid=3D"8e1a0024-1572-4ccc-82b3-b58542bf7f3e">Remote unavailable =
+fallback</li>
+ <li data-uuid=3D"52f3f593-d7f8-4cd8-8cd5-0153814c691e">App loading timeout=
+</li>
+ <li data-uuid=3D"567477fd-e5bb-47d2-9fc9-095cd10fcd4a">User-friendly error=
+ message</li>
+ <li data-uuid=3D"272cbf07-7ff2-4a37-9099-5eddca74211e">Retry option</li>
+ <li data-uuid=3D"36979150-c738-44de-b084-4a904e069368">Logging/telemetry e=
+vent</li>
+ <li data-uuid=3D"9b0dff3d-e4c4-4046-af5a-b27a7f392250">Ability to disable =
+app from registry</li>
+ <li data-uuid=3D"c9560936-f22e-49a6-8fd3-4ec008b031f3">Rollback strategy</=
+li>
+</ul>
+<p>
+ <br>
+</p>
+<p>Example integration qualification triage&nbsp;</p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 39=
+.8178%;">
+  <colgroup>
+   <col style=3D"width: 36.6752%;">
+   <col style=3D"width: 31.5508%;">
+   <col style=3D"width: 31.774%;">
+  </colgroup>
+  <thead>
+   <tr>
+    <th class=3D"confluenceTh">Question</th>
+    <th class=3D"confluenceTh">If Yes</th>
+    <th class=3D"confluenceTh">If No</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">Is this app vendor-owned?</td>
+    <td class=3D"confluenceTd">Link or iframe</td>
+    <td class=3D"confluenceTd">Consider deeper integration</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Is the app high-usage?</td>
+    <td class=3D"confluenceTd">Consider native/federated</td>
+    <td class=3D"confluenceTd">Link/iframe likely sufficient</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Does it support cross-app workflow?</td>
+    <td class=3D"confluenceTd">Federated or native module</td>
+    <td class=3D"confluenceTd">Link/iframe</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Does it need independent deployment?</td>
+    <td class=3D"confluenceTd">Module federation</td>
+    <td class=3D"confluenceTd">Modular monolith</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Does it use a different tech stack?</td>
+    <td class=3D"confluenceTd">single-spa, iframe, or web component</td>
+    <td class=3D"confluenceTd">Standard React shell/module</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Is it a simple widget?</td>
+    <td class=3D"confluenceTd">Web component or package</td>
+    <td class=3D"confluenceTd">Avoid MFE overhead</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+    </div>
+</body>
+</html>
+------=_Part_12942_528596011.1790108571658--

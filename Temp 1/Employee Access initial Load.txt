@@ -1,0 +1,726 @@
+So, Candi
+0 minutes 3 seconds0:03
+So, Candi 0 minutes 3 seconds
+We also need some procedures to see how do we migrate or merge the user accounts from the external user account to the internal rim, and then we also want to do some testing after all the job roles we set up in.
+So, Candi 0 minutes 23 seconds
+according to the internal matrix. And we know it cannot be done in non-port. We talk about the limitation and so on. And we find a way, maybe we should be doing some extensive testing in production. So I think this call, we want everyone to be on the call.
+So, Candi 0 minutes 43 seconds
+And go through the step by step, make sure that we're not missing things, and to be honest, we we haven't we haven't done a dry run, so hasn't done testing with raw data, so such as like asking for a special CSV, CSV.
+So, Candi 1 minute 5 seconds
+But I think before we can produce the CSV for to run through the Sasha's cohort, the teams, you know, the initial low scripts, we also have to identify enough user scenarios. Like someone already exists because they have DWH access.
+So, Candi 1 minute 26 seconds
+someone they don't exist and then so there might be a difference in how do we create a profile or even create a CSV file. So how about we start with the data preparation? I know Radhika put the spot on you, but I know your.
+So, Candi 1 minute 46 seconds
+teams working on a lot of user account cleanup and then preparing for the employee user list. So, or you, if you want to start with the project plan to go through the line items, I would like maybe pass on the time to you to go through it.
+So, Candi 2 minutes 6 seconds
+If is fair.
+
+Sharma, Radhika
+2 minutes 8 seconds2:08
+Sharma, Radhika 2 minutes 8 seconds
+Okay. So.
+Sharma, Radhika 2 minutes 14 seconds
+We can start with the project plan. It doesn't have too much in it in terms of detail, in terms of...
+Sharma, Radhika 2 minutes 22 seconds
+all of the things that we're looking at when we're preparing the user list, but I'll speak through the items that are somewhat relevant.
+
+Sharma, Radhika
+12 minutes 2 seconds12:02
+Sharma, Radhika 12 minutes 2 seconds
+Yeah, so we'll pick enough people so that we have coverage across all of this.
+Sharma, Radhika 12 minutes 9 seconds
+So.
+Sharma, Radhika 12 minutes 11 seconds
+That'll be that first list that we provide. That helps us identify, sorry, validate the workflow. So, sorry, the initial load, it helps us identify like the initial load works. And it also is going to help us ensure that the packages or the...
+Sharma, Radhika 12 minutes 30 seconds
+job roles are being assigned correctly. The second validation that we want to do in production is the end-to-end workflow. So actually going into IQ, submitting a request for somebody, and making sure that it gets set up properly. Ideally, I would want to do that across all of the job roles as well. Now we can talk about that to see if that's overkill. If that's...
+Sharma, Radhika 12 minutes 53 seconds
+if both of those testings together are overkill, then the way that I would want to change it up, if it still makes sense, and Candi, you can let me know if you agree or not, is for the initial load, maybe we don't test all of the different profiles. We just pick a smaller number. But for the end-to-end testing where we're submitting through IIQ, we pick.
+Sharma, Radhika 13 minutes 15 seconds
+we make sure we have coverage across all of the profiles.
+Sharma, Radhika 13 minutes 23 seconds
+At the end of the day, the goal is to make sure that the IQ process is working successfully.
+
+So, Candi
+13 minutes 29 seconds13:29
+So, Candi 13 minutes 29 seconds
+Yeah, so this part is, if I may say, the purpose is to validate the internal access matrix setup. And then, and also our requirement, because we're saying assign this role and then show and hide uncheck certain things or check certain things.
+So, Candi 13 minutes 48 seconds
+We have to validate, is it the provisioning, is it according to what we expected? So, yeah.
+
+Sharma, Radhika
+13 minutes 59 seconds13:59
+Sharma, Radhika 13 minutes 59 seconds
+So I suppose we can have a separate conversation about the testing strategy and if we can actually do it. But yeah, that's essentially so the first file is going to contain all of the users that we need to validate something with, whether it's all of the profiles or just a handful to check that we have.
+
+So, Candi
+14 minutes 2 seconds14:02
+So, Candi 14 minutes 2 seconds
+Mhm.
+
+Sharma, Radhika
+14 minutes 18 seconds14:18
+Sharma, Radhika 14 minutes 18 seconds
+The initial load working properly.
+
+So, Candi
+14 minutes 21 seconds14:21
+So, Candi 14 minutes 21 seconds
+Yeah, so Radhika, this is the part we have to do it, we have no choice, but we have to do in production, right? And then for the part we can do, because we set up the profile, we still run through the script, but then should we or can we do some testing?
+
+Sharma, Radhika
+14 minutes 27 seconds14:27
+Sharma, Radhika 14 minutes 27 seconds
+Yeah.
+
+So, Candi
+14 minutes 40 seconds14:40
+So, Candi 14 minutes 40 seconds
+when we're in non-port. You provide some sample data and then Sasha will go through his procedure, making sure that we understand step by step what to do when we roll it in production. I think that part is still a black box to be Esther.
+So, Candi 14 minutes 59 seconds
+I know we talk about here and there, we talk about different use cases, does it cover DWH, so on and so forth, but we haven't seen or haven't put it in test. And I'm not sure we have the procedure, because it's more than one step. I understand you have to validate a list.
+So, Candi 15 minutes 18 seconds
+and then call, do some backup, and then call IQ to do something, and then come back and run the rest of your script. So I'm not sure we have seen it. Yeah.
+
+Newton, Persis Esther
+15 minutes 30 seconds15:30
+Newton, Persis Esther 15 minutes 30 seconds
+We have only done that in QA environment. We have to do that in pre-prod. So we went into pre-prod yesterday. So one, either tomorrow, likely tomorrow, we should be able to run it in pre-prod. Sasha was setting up the stuff today as well in pre-prod.
+Newton, Persis Esther 15 minutes 49 seconds
+So tomorrow we should be able to run it. We needed that Excel file or CSV file, but correct me if I'm wrong, in the CSV file, you were only providing the short ID and...
+Newton, Persis Esther 16 minutes 5 seconds
+The Roll.
+Newton, Persis Esther 16 minutes 7 seconds
+That was it.
+
+So, Candi
+16 minutes 7 seconds16:07
+So, Candi 16 minutes 7 seconds
+I think that's why we want Sasha to be on the call. So we don't repeat relay the question. Yeah. Can you bring him back, please? Yeah.
+
+Sharma, Radhika
+16 minutes 14 seconds16:14
+Sharma, Radhika 16 minutes 14 seconds
+Yeah, and I think it, I think it also extends to.
+
+So, Candi
+16 minutes 20 seconds16:20
+So, Candi 16 minutes 20 seconds
+Sorry.
+
+Sharma, Radhika
+16 minutes 21 seconds16:21
+Sharma, Radhika 16 minutes 21 seconds
+It also extends to what information you need for the DWH users.
+Sharma, Radhika 16 minutes 28 seconds
+who have a CX profile and those who don't. This is, this is the user list that we're working with, so it's a little, it's a little crazy, but.
+Sharma, Radhika 16 minutes 39 seconds
+Let's just look at me for a second here.
+Sharma, Radhika 16 minutes 47 seconds
+So, in my case...
+Sharma, Radhika 16 minutes 51 seconds
+We'll just look at.
+Sharma, Radhika 16 minutes 56 seconds
+I have a primary.
+Sharma, Radhika 16 minutes 58 seconds
+Just look at these two.
+Sharma, Radhika 17 minutes 3 seconds
+So if I was on your file.
+Sharma, Radhika 17 minutes 6 seconds
+You would get.
+Sharma, Radhika 17 minutes 8 seconds
+My CX ID.
+Sharma, Radhika 17 minutes 10 seconds
+Pierre.
+Sharma, Radhika 17 minutes 13 seconds
+You get my job role, you'll get my e-mail and my short ID. That's for CX. I also have a DWH.
+Sharma, Radhika 17 minutes 23 seconds
+So.
+Sharma, Radhika 17 minutes 25 seconds
+Initially, what I was going to do is in the CSV file that we share with you, for every user.
+Sharma, Radhika 17 minutes 32 seconds
+We would have another column that would indicate their DWH ID.
+Sharma, Radhika 17 minutes 39 seconds
+And that would tell you that Radhika Sharma here, this ID, also has a DWH profile and Shar005 is her DWH user ID.
+Sharma, Radhika 17 minutes 53 seconds
+But I don't know if that's what you mean.
+Sharma, Radhika 18 minutes 1 second
+session.
+
+Sharma, Radhika
+21 minutes 24 seconds21:24
+Sharma, Radhika 21 minutes 24 seconds
+Oh, sorry, yes, that's your primary.
+
+Razmakhnine, Alexandre
+21 minutes 30 seconds21:30
+Razmakhnine, Alexandre 21 minutes 30 seconds
+Yeah, OK, sad bus.
+
+So, Candi
+21 minutes 34 seconds21:34
+So, Candi 21 minutes 34 seconds
+Yeah, and Sasha.
+
+Sharma, Radhika
+21 minutes 34 seconds21:34
+Sharma, Radhika 21 minutes 34 seconds
+So this is all I need to provide, but don't I need to also share the job role? Don't you need that?
+
+So, Candi
+21 minutes 40 seconds21:40
+So, Candi 21 minutes 40 seconds
+No, IQ will get it from internal access matrix. And that's part of the test.
+
+Sharma, Radhika
+21 minutes 46 seconds21:46
+Sharma, Radhika 21 minutes 46 seconds
+How? How? Because you have people that have multiple that share transits.
+
+So, Candi
+21 minutes 53 seconds21:53
+So, Candi 21 minutes 53 seconds
+Oh, you need a job role. You need a job role. Yes, Sasha.
+
+Sharma, Radhika
+21 minutes 53 seconds21:53
+Sharma, Radhika 21 minutes 53 seconds
+Like we are all part of this. That's what I'm saying. So you do need the job room.
+
+Razmakhnine, Alexandre
+21 minutes 58 seconds21:58
+Razmakhnine, Alexandre 21 minutes 58 seconds
+Oh, I don't need it. It's like you probably need it, but I don't need it.
+
+So, Candi
+21 minutes 59 seconds21:59
+So, Candi 21 minutes 59 seconds
+Focus.
+
+Sharma, Radhika
+22 minutes 9 seconds22:09
+Sharma, Radhika 22 minutes 9 seconds
+So who gives it to IQ? Is that a separate list?
+
+So, Candi
+22 minutes 11 seconds22:11
+So, Candi 22 minutes 11 seconds
+Yeah, you need it on the spreadsheet. You need it on the spreadsheet. I think I gave a template. Yeah, job role. And e-mail address I think is important, but I would put e-mail address as well, just for our own reference.
+
+Sharma, Radhika
+22 minutes 18 seconds22:18
+Sharma, Radhika 22 minutes 18 seconds
+Yeah, so...
+Sharma, Radhika 22 minutes 20 seconds
+Let me just...
+Sharma, Radhika 22 minutes 31 seconds
+Yeah, so what for e-mail addresses, what we're doing is we're looking at the corporate directory and we're pulling in the official e-mail address because for some people it's at Nbcn.ca, for other people it's at Nbcn.ca.
+Sharma, Radhika 22 minutes 46 seconds
+And it's not necessary that it was set up correctly with the official domain on CX or R2. So we have a way to get that information. So we're going to say you also need official.
+Sharma, Radhika 23 minutes
+e-mail and the job role.
+Sharma, Radhika 23 minutes 14 seconds
+And if somebody doesn't have a DWH, we still need to provide the short ID.
+
+Razmakhnine, Alexandre
+23 minutes 21 seconds23:21
+Razmakhnine, Alexandre 23 minutes 21 seconds
+Yes, for DWH, we're going to reuse short ID, which already exists, and if it's a new user, you still have to put short ID.
+
+Sharma, Radhika
+23 minutes 35 seconds23:35
+Sharma, Radhika 23 minutes 35 seconds
+Okay.
+Sharma, Radhika 23 minutes 37 seconds
+I'm just trying to find the chat where you shared it with me, Candi. I just, I don't know. I think there was 5 fields.
+
+So, Candi
+23 minutes 45 seconds23:45
+So, Candi 23 minutes 45 seconds
+Yeah, I have it in front of me, but I think that's good. That is good, what we're seeing here. Yeah. Sasha, would you...
+So, Candi 23 minutes 57 seconds
+I will you recognize at Nbcn dot CA and at Nbcn dot CA?
+So, Candi 24 minutes 4 seconds
+When you link the Sandra ID, or should we do we have to clean them up?
+
+Razmakhnine, Alexandre
+24 minutes 8 seconds24:08
+Razmakhnine, Alexandre 24 minutes 8 seconds
+ALL.
+Razmakhnine, Alexandre 24 minutes 10 seconds
+I no, I don't recognize. I've been checked. I know for the I just linked them by e-mail address straightforward.
+
+So, Candi
+24 minutes 14 seconds24:14
+So, Candi 24 minutes 14 seconds
+You don't?
+So, Candi 24 minutes 18 seconds
+Okay.
+So, Candi 24 minutes 22 seconds
+Exact e-mail address.
+
+Razmakhnine, Alexandre
+24 minutes 24 seconds24:24
+Razmakhnine, Alexandre 24 minutes 24 seconds
+Yeah, exactly, my address.
+
+So, Candi
+24 minutes 26 seconds24:26
+So, Candi 24 minutes 26 seconds
+Case insensitive.
+
+Razmakhnine, Alexandre
+24 minutes 29 seconds24:29
+Razmakhnine, Alexandre 24 minutes 29 seconds
+I hope so. Yeah, I think so.
+
+So, Candi
+24 minutes 31 seconds24:31
+So, Candi 24 minutes 31 seconds
+Please.
+
+Razmakhnine, Alexandre
+24 minutes 32 seconds24:32
+Razmakhnine, Alexandre 24 minutes 32 seconds
+Oh, I did it like two months ago already. That routine, I don't remember by heart, but yeah, it should be case insensitive.
+
+So, Candi
+24 minutes 41 seconds24:41
+So, Candi 24 minutes 41 seconds
+Yeah, OK.
+
+Sharma, Radhika
+24 minutes 45 seconds24:45
+Sharma, Radhika 24 minutes 45 seconds
+Okay, so that's all you need for the initial load.
+Sharma, Radhika 24 minutes 50 seconds
+And.
+Sharma, Radhika 24 minutes 53 seconds
+But we might have multiple versions that the initial load depending on what we're testing when.
+
+So, Candi
+25 minutes25:00
+So, Candi 25 minutes
+Yes.
+So, Candi 25 minutes 2 seconds
+And yeah, just add Sasha.
+So, Candi 25 minutes 7 seconds
+If what happened if there's an error?
+So, Candi 25 minutes 11 seconds
+Do we handle error before, like, to screen these CSV first to make sure whatever we put in here, the CSV user ID does exist, or would you catch the exception during your script?
+
+
+Razmakhnine, Alexandre
+35 minutes 12 seconds35:12
+Razmakhnine, Alexandre 35 minutes 12 seconds
+Not from Okta, from the table.
+
+So, Candi
+35 minutes 16 seconds35:16
+So, Candi 35 minutes 16 seconds
+Is it legal to do that, JP Owen? So I think, I'm not sure technically how to do that. You can hide it, you can delete it. But from business perspective, we don't want to see the duplicated record.
+So, Candi 35 minutes 35 seconds
+To us is duplicated because I would place the old profile with the new profile. But then behind the scene, what's the best way? I'll leave it to you.
+
+Razmakhnine, Alexandre
+35 minutes 48 seconds35:48
+Razmakhnine, Alexandre 35 minutes 48 seconds
+We have database backup if something is going wrong and I can still have for the.
+Razmakhnine, Alexandre 35 minutes 58 seconds
+The backup online, we don't have to remove it until you, we discuss it. So it's going to have another schema here, just to keep that information. And we can keep it as long as we want.
+Razmakhnine, Alexandre 36 minutes 15 seconds
+So.
+Razmakhnine, Alexandre 36 minutes 19 seconds
+I think I removed it. Yeah, but it's going to be a AM V2 like employee or something like that, external. And it's going to have all the tables on the before the transformation. And what that means, we always can find.
+Razmakhnine, Alexandre 36 minutes 41 seconds
+all the information about the user ID and as the result, we're going to see audit local events for those users, if it's required to have a history, right? Because we might need the history and by DP subject we can find the history for that user.
+Razmakhnine, Alexandre 37 minutes 3 seconds
+So, even even if we remove it from the user config.
+Razmakhnine, Alexandre 37 minutes 8 seconds
+Right, we're going to remove from here. All the history for that user is still there.
+
+So, Candi
+37 minutes 14 seconds37:14
+So, Candi 37 minutes 14 seconds
+Yes, Owen.
+
+Mullings, Owen
+37 minutes 18 seconds37:18
+Mullings, Owen 37 minutes 18 seconds
+I think maybe you're answering my question, but I'm not entirely sure. The one thing I care about when we delete users is the audit trail on the different objects that they act on. So
+Mullings, Owen 37 minutes 32 seconds
+As you know, we don't store the user profile with events.
+Mullings, Owen 37 minutes 39 seconds
+We call FNUM using the users dash list dash list API to get the first name and last name to display it to know when somebody submitted something, cancelled something, etc. Will that still work in this scenario?
+
+Razmakhnine, Alexandre
+37 minutes 56 seconds37:56
+Razmakhnine, Alexandre 37 minutes 56 seconds
+I'm afraid not. It's going to have only IDP subject, but it's not going to have first name, last name of the user.
+
+So, Candi
+37 minutes 58 seconds37:58
+So, Candi 37 minutes 58 seconds
+No, I...
+So, Candi 38 minutes 6 seconds
+Yeah, I remember a talk about that.
+So, Candi 38 minutes 10 seconds
+I, I think we we said that if we cannot return the first name. OK, I maybe I'll pass on J.P. Do remember how we're going to solve that is that we don't want we don't need to keep the audit trail and basically.
+So, Candi 38 minutes 29 seconds
+The only ones that may have all the trials in the application would be orders, right?
+
+Pierre, Joseph-Pascal
+38 minutes 43 seconds38:43
+Pierre, Joseph-Pascal 38 minutes 43 seconds
+I didn't follow everything.
+
+So, Candi
+38 minutes 46 seconds38:46
+So, Candi 38 minutes 46 seconds
+Yeah, how, yeah, if the user ID got removed, then how do we return the first name, last name for something I done in that profile previously?
+
+Pierre, Joseph-Pascal
+39 minutes 3 seconds39:03
+Pierre, Joseph-Pascal 39 minutes 3 seconds
+Yeah, but so what we said is for now we won't delete users.
+
+So, Candi
+39 minutes 10 seconds39:10
+So, Candi 39 minutes 10 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+39 minutes 11 seconds39:11
+Pierre, Joseph-Pascal 39 minutes 11 seconds
+So it's not yet supported.
+Pierre, Joseph-Pascal 39 minutes 14 seconds
+I know it's coupled with the user username.
+
+So, Candi
+39 minutes 20 seconds39:20
+So, Candi 39 minutes 20 seconds
+Mhm.
+
+Pierre, Joseph-Pascal
+39 minutes 22 seconds39:22
+Pierre, Joseph-Pascal 39 minutes 22 seconds
+So, which prevents today from deleting, you know, that user from the table, but we said, as soon as we have time, we'll look into it to have something, you know, that's actually decoupled.
+Pierre, Joseph-Pascal 39 minutes 35 seconds
+Yeah. This is, as you said, is the resolution, right? That would fail today. You would see a username, but you wouldn't be able to see who's behind it. That's the first name and last name. So, that's yet to be solved.
+
+So, Candi
+39 minutes 52 seconds39:52
+So, Candi 39 minutes 52 seconds
+Okay, so my requirement is not to show Canada so on the UI after, you know, the user admin tool.
+
+Pierre, Joseph-Pascal
+40 minutes 5 seconds40:05
+Pierre, Joseph-Pascal 40 minutes 5 seconds
+Mhm.
+
+So, Candi
+40 minutes 5 seconds40:05
+So, Candi 40 minutes 5 seconds
+Because my profile got migrated into my shot ID and
+So, Candi 40 minutes 11 seconds
+So what would be the solution to that if we don't delete the profile?
+
+Mullings, Owen
+40 minutes 18 seconds40:18
+Mullings, Owen 40 minutes 18 seconds
+I somehow flagged them, I don't know.
+
+So, Candi
+40 minutes 21 seconds40:21
+So, Candi 40 minutes 21 seconds
+Yeah, Sasha, that's your answer.
+
+Razmakhnine, Alexandre
+40 minutes 23 seconds40:23
+Razmakhnine, Alexandre 40 minutes 23 seconds
+That was not implemented.
+Razmakhnine, Alexandre 40 minutes 26 seconds
+If you need it, we have to have a ticket or something, then we will implement it. We'll have to add additional flag on the table, I guess.
+Razmakhnine, Alexandre 40 minutes 38 seconds
+Or are we going to have another table which is going to have those additional flags?
+
+
+
+
+So, Candi 51 minutes 40 seconds
+Like some employee, like if my, just say when we did the campus migration, some user will be using the internal NBIN link to log in because their profiles got signed up and they can single sign on.
+So, Candi 52 minutes
+But some employees still log in from the external login.
+
+Sharma, Radhika
+52 minutes 8 seconds52:08
+Sharma, Radhika 52 minutes 8 seconds
+Yeah, so we'll have a list of people, where whichever team they're from, that we want to do that test run with. In my mind, though, that's one list for that, what I was calling wave one of the production test.
+
+So, Candi
+52 minutes 28 seconds52:28
+So, Candi 52 minutes 28 seconds
+Okay.
+
+Sharma, Radhika
+52 minutes 30 seconds52:30
+Sharma, Radhika 52 minutes 30 seconds
+Now my question though is, for that production test, again, there's two tests. There's the initial load test, and then there's the IIQ workflow test. If I put my name on the initial load test.
+Sharma, Radhika 52 minutes 45 seconds
+Can I also be part of the IQ flow? I'm assuming the answer is no, because I am already created through the initial load. Is that right?
+
+So, Candi
+52 minutes 55 seconds52:55
+So, Candi 52 minutes 55 seconds
+It doesn't matter because if you are created already, we will modify your access. So the IQ call.
+So, Candi 53 minutes 6 seconds
+Um...
+So, Candi 53 minutes 8 seconds
+Yeah, I can. It is the same call either to create a new user or modify your role.
+
+Sharma, Radhika
+53 minutes 15 seconds53:15
+Sharma, Radhika 53 minutes 15 seconds
+Okay.
+
+So, Candi
+53 minutes 17 seconds53:17
+So, Candi 53 minutes 17 seconds
+Yeah.
+So, Candi 53 minutes 20 seconds
+So we can use the same user ID repeatedly to test different job role. Yeah.
+
+Sharma, Radhika
+53 minutes 29 seconds53:29
+Sharma, Radhika 53 minutes 29 seconds
+Okay.
+Sharma, Radhika 53 minutes 34 seconds
+So in terms of timelines.
+Sharma, Radhika 53 minutes 38 seconds
+I was initially planning.
+Sharma, Radhika 53 minutes 42 seconds
+on sharing that.
+Sharma, Radhika 53 minutes 45 seconds
+for the testing purposes.
+Sharma, Radhika 53 minutes 50 seconds
+We had said Friday. Friday is probably when we'll be able to have the names of the people, but we can share that. What is the date, Sasha, that you need to have the file in your hands for the first set of users that we would like to load?
+
+Razmakhnine, Alexandre
+54 minutes 8 seconds54:08
+Razmakhnine, Alexandre 54 minutes 8 seconds
+Just a couple of days before we start doing this.
+
+Newton, Persis Esther
+54 minutes 14 seconds54:14
+Newton, Persis Esther 54 minutes 14 seconds
+No, you mean in for production? You mean for production or for us? Because for Product, there is an IQ process that you would have to submit the request into a GST.
+
+Sharma, Radhika
+54 minutes 14 seconds54:14
+Sharma, Radhika 54 minutes 14 seconds
+And that's.
+Sharma, Radhika 54 minutes 19 seconds
+Action.
+
+Razmakhnine, Alexandre
+54 minutes 28 seconds54:28
+Razmakhnine, Alexandre 54 minutes 28 seconds
+For production, we need to submit.
+
+Newton, Persis Esther
+54 minutes 31 seconds54:31
+Newton, Persis Esther 54 minutes 31 seconds
+Yeah, yeah, for IQ you need to submit their initial load process is different than just Jeremy's team. There's some JSD we need to submit the file to.
+
+Razmakhnine, Alexandre
+54 minutes 40 seconds54:40
+Razmakhnine, Alexandre 54 minutes 40 seconds
+Oh, but are we going to test IQ in production? Are they ready for that?
+Razmakhnine, Alexandre 54 minutes 48 seconds
+I've been thinking we'll be just going to how many, how many users we're talking about for testing.
+
+Newton, Persis Esther
+54 minutes 49 seconds54:49
+Newton, Persis Esther 54 minutes 49 seconds
+Oh.
+Newton, Persis Esther 54 minutes 59 seconds
+Radhika, how many users are we talking about? 20?
+
+Sharma, Radhika
+55 minutes 5 seconds55:05
+Sharma, Radhika 55 minutes 5 seconds
+It looks like.
+
+Newton, Persis Esther
+55 minutes 8 seconds55:08
+Newton, Persis Esther 55 minutes 8 seconds
+We, we should, but like, we will do a test, Sasha, yeah, we should do with one or two users, but Radhika's file, I don't know how many is this.
+
+Sharma, Radhika
+55 minutes 19 seconds55:19
+Sharma, Radhika 55 minutes 19 seconds
+So we're going to have at least, sorry.
+Sharma, Radhika 55 minutes 25 seconds
+Because I want to test every combination of.
+Sharma, Radhika 55 minutes 32 seconds
+Ahh.
+Sharma, Radhika 55 minutes 34 seconds
+the profiles to make sure they get set up properly.
+Sharma, Radhika 55 minutes 38 seconds
+So.
+Sharma, Radhika 55 minutes 39 seconds
+I think it's probably like 10 or something.
+
+
+
+Wahab, Maisha
+1 hour 14 minutes 27 seconds1:14:27
+Wahab, Maisha 1 hour 14 minutes 27 seconds
+So for example, for okay, so for internal, like if we were to move, let's say NBIN to core or core to NBIN, it's not a, there's no process that exists today to be able to do that for existing IDs. Okay.
+
+Sharma, Radhika
+1 hour 14 minutes 45 seconds1:14:45
+Sharma, Radhika 1 hour 14 minutes 45 seconds
+Yeah, that just that helps us confirm which IDs we're keeping and which IDs we're not keeping.
+
+Newton, Persis Esther
+1 hour 15 minutes 2 seconds1:15:02
+Newton, Persis Esther 1 hour 15 minutes 2 seconds
+Alrighty, is that it then, guys?
+
+Sharma, Radhika
+1 hour 15 minutes 6 seconds1:15:06
+Sharma, Radhika 1 hour 15 minutes 6 seconds
+Sorry, let's just confirm one last thing. For production, go live, we're still on target for October 16th, right? Like you guys, is there something still you have to do on October 16th? What's happening on October 16th, actually?
+
+Newton, Persis Esther
+1 hour 15 minutes 25 seconds1:15:25
+Newton, Persis Esther 1 hour 15 minutes 25 seconds
+That was just a placeholder, Radhika. It was just a placeholder suggesting when to do the employee migration, but you will have a phased approach, so whenever. It doesn't have to be 16.
+
+Sharma, Radhika
+1 hour 15 minutes 35 seconds1:15:35
+Sharma, Radhika 1 hour 15 minutes 35 seconds
+Put.
+Sharma, Radhika 1 hour 15 minutes 39 seconds
+OK, so we're not we're not bound by that, but Oba, we have to have we have to close this off before the end of October, right?
+
+Newton, Persis Esther
+1 hour 15 minutes 43 seconds1:15:43
+Newton, Persis Esther 1 hour 15 minutes 43 seconds
+No.
+OO
+Oyemade, Obaloluwa
+1 hour 15 minutes 47 seconds1:15:47
+Oyemade, Obaloluwa 1 hour 15 minutes 47 seconds
+Yeah, sorry.
+
+Newton, Persis Esther
+1 hour 15 minutes 48 seconds1:15:48
+Newton, Persis Esther 1 hour 15 minutes 48 seconds
+Yeah, yeah.
+
+Sharma, Radhika
+1 hour 15 minutes 49 seconds1:15:49
+Sharma, Radhika 1 hour 15 minutes 49 seconds
+Okay.
+OO
+Oyemade, Obaloluwa
+1 hour 15 minutes 51 seconds1:15:51
+Oyemade, Obaloluwa 1 hour 15 minutes 51 seconds
+We would have another meeting to brainstorm how to go about that.
+Oyemade, Obaloluwa 1 hour 16 minutes 12 seconds
+Yeah.
+
+Sharma, Radhika
+1 hour 16 minutes 14 seconds1:16:14
+Sharma, Radhika 1 hour 16 minutes 14 seconds
+So I will take this away and discuss a little bit around the timelines with my team on Friday, but maybe next week early if we can at least, oh, he's gone. Candi, maybe we can touch base with you and Ali and Obaloluwa just to make sure we're all on the same page. Maybe Esther.
+Sharma, Radhika 1 hour 16 minutes 32 seconds
+It should also be there.
+
+Newton, Persis Esther
+1 hour 16 minutes 34 seconds1:16:34
+Newton, Persis Esther 1 hour 16 minutes 34 seconds
+Sure, sounds good.
+Newton, Persis Esther 1 hour 16 minutes 38 seconds
+Maybe plan it after the test and prod.
+
+Sharma, Radhika
+1 hour 16 minutes 44 seconds1:16:44
+Sharma, Radhika 1 hour 16 minutes 44 seconds
+Yeah, I'm just, I'm thinking.
+
+So, Candi
+1 hour 16 minutes 44 seconds1:16:44
+So, Candi 1 hour 16 minutes 44 seconds
+Anyway, do it before I return.
+
+Sharma, Radhika
+1 hour 16 minutes 47 seconds1:16:47
+Sharma, Radhika 1 hour 16 minutes 47 seconds
+Well, see, right now, October 19th, and that's the other thing. I was like, oh, maybe we just wait till you're back. Okay, we'll see. Let us take the first stab at it, because I want to make sure we have enough time to do the communication. We also have to figure out the SA and password reset team and changes for them, and it's...
+
+So, Candi
+1 hour 16 minutes 47 seconds1:16:47
+So, Candi 1 hour 16 minutes 47 seconds
+I'm returning on October 22nd.
+OO
+Oyemade, Obaloluwa
+1 hour 16 minutes 48 seconds1:16:48
+Oyemade, Obaloluwa 1 hour 16 minutes 48 seconds
+Huu.
+Oyemade, Obaloluwa 1 hour 17 minutes 2 seconds
+Yeah.
+
+Sharma, Radhika
+1 hour 17 minutes 7 seconds1:17:07
+Sharma, Radhika 1 hour 17 minutes 7 seconds
+We just need to make sure we have enough time for operationalization.
+
+So, Candi
+1 hour 17 minutes 12 seconds1:17:12
+So, Candi 1 hour 17 minutes 12 seconds
+Goodship.
+So, Candi 1 hour 17 minutes 14 seconds
+Perfect.
+OO
+Oyemade, Obaloluwa
+1 hour 17 minutes 15 seconds1:17:15
+Oyemade, Obaloluwa 1 hour 17 minutes 15 seconds
+Sounds good.
+
+Sharma, Radhika
+1 hour 17 minutes 16 seconds1:17:16
+Sharma, Radhika 1 hour 17 minutes 16 seconds
+Thanks, everybody.
+
+So, Candi
+1 hour 17 minutes 17 seconds1:17:17
+So, Candi 1 hour 17 minutes 17 seconds
+Thank you, everyone.
+OO
+Oyemade, Obaloluwa
+1 hour 17 minutes 18 seconds1:17:18
+Oyemade, Obaloluwa 1 hour 17 minutes 18 seconds
+Thank you, guys.
+ST
+Shah, Taksh
+1 hour 17 minutes 19 seconds1:17:19
+Shah, Taksh 1 hour 17 minutes 19 seconds
+Hey, thank you.
+
+Sharma, Radhika
+1 hour 17 minutes 19 seconds1:17:19
+Sharma, Radhika 1 hour 17 minutes 19 seconds
+Yeah, right.
+
+Wahab, Maisha
+1 hour 17 minutes 20 seconds1:17:20
+Wahab, Maisha 1 hour 17 minutes 20 seconds
+Thank you. Thank you.
+
+So, Candi
+1 hour 17 minutes 20 seconds1:17:20
+So, Candi 1 hour 17 minutes 20 seconds
+Ali.

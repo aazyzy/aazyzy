@@ -1,0 +1,193 @@
+
+Razmakhnine, Alexandre
+30 minutes 35 seconds30:35
+Razmakhnine, Alexandre 30 minutes 35 seconds
+Yeah, yeah, yes.
+
+So, Candi
+30 minutes 37 seconds30:37
+So, Candi 30 minutes 37 seconds
+Okay.
+So, Candi 30 minutes 39 seconds
+Okay, is a yes. And about the sunset part, how do we handle the external user account now?
+
+Razmakhnine, Alexandre
+30 minutes 51 seconds30:51
+Razmakhnine, Alexandre 30 minutes 51 seconds
+For the sunset, we put them in the deactivate.
+Razmakhnine, Alexandre 31 minutes 2 seconds
+Well, I have to change it, right? I have to remove them.
+
+So, Candi
+31 minutes 5 seconds31:05
+So, Candi 31 minutes 5 seconds
+Yeah, do I have? Do I have?
+So, Candi 31 minutes 10 seconds
+Is JP still on the call?
+
+Wahab, Maisha
+31 minutes 13 seconds31:13
+Wahab, Maisha 31 minutes 13 seconds
+Sorry, Candi, when you say sunset the external user accounts, that means anyone that's internal for them to not be able to access it as they do today. Is that correct?
+
+So, Candi
+31 minutes 14 seconds31:14
+So, Candi 31 minutes 14 seconds
+Yeah.
+So, Candi 31 minutes 24 seconds
+Yes, but it's more than that because the requirement is they should not log in, but then we don't want them to be to appear on the user admin tool. So let's say my profile Candi does so.
+So, Candi 31 minutes 43 seconds
+is now move into my Shell ID account. So for sure I cannot use Candi Drasko to log in anymore. And naturally will think disable the user account. But if you disable it, it still show up on the UI. So someone can go in and reactivate it.
+So, Candi 32 minutes 2 seconds
+By mistake.
+
+Razmakhnine, Alexandre
+32 minutes 4 seconds32:04
+Razmakhnine, Alexandre 32 minutes 4 seconds
+Ohh, it's not gonna work, Angel. Alright, I'm checking right now. Can I share my screen for a sec?
+
+So, Candi
+32 minutes 4 seconds32:04
+So, Candi 32 minutes 4 seconds
+Yeah.
+So, Candi 32 minutes 9 seconds
+Yes, please.
+
+Razmakhnine, Alexandre
+32 minutes 13 seconds32:13
+Razmakhnine, Alexandre 32 minutes 13 seconds
+So, I copy paste this link to the to the chat.
+Razmakhnine, Alexandre 32 minutes 19 seconds
+Which is runbook? I'm planning to execute it. We can do everything automated, but I've chosen to do it step by step, calling the lambda function with different parameters. I instead of and watching every step the result instead of just...
+Razmakhnine, Alexandre 32 minutes 39 seconds
+run it automatically. So this is what we're going to do, like prepare, do the snapshot, do the DWH, prepare DWH, prepare the information in user migration CSV.
+Razmakhnine, Alexandre 32 minutes 57 seconds
+I called user migration CSV. It's going to check the information about CSV, create pre-migration report, extract our tool, user ID is because they're from another system, right? And then we're going to call IAQ.
+Razmakhnine, Alexandre 33 minutes 18 seconds
+And you've been talking about, okay, finalize it for OSS linkage to the new accounts. And you've been talking about sunset. For the sunset right now, we remove external assignments.
+Razmakhnine, Alexandre 33 minutes 34 seconds
+So we remove actually assignments, right? We unlink CompassX R2 ID and remove assignments. And then we deactivate external profile. So it's still going to be visible in user maintenance, but activating that profile is not going to help it.
+Razmakhnine, Alexandre 33 minutes 54 seconds
+So if you want, I can remove it. I can change the function to remove it, but I don't know if you want to remove it.
+Razmakhnine, Alexandre 34 minutes 7 seconds
+And then, yeah, we link back art to idea to the short idea.
+Razmakhnine, Alexandre 34 minutes 13 seconds
+And then we create the report, another report at the end.
+
+So, Candi
+34 minutes 18 seconds34:18
+So, Candi 34 minutes 18 seconds
+Yeah, I think the problem I have is if you don't remove it or hide it on the UI, then if I search Candi Soul, then I would see it's under the same firm, because my profile would be created in...
+So, Candi 34 minutes 37 seconds
+the same firm, NBIN firm, and I will see my shot ID, I will see Candi dots, so in parallel, right? I then we're doubling up. So initially we got 200 users, internal users, now we got 400.
+
+Razmakhnine, Alexandre
+34 minutes 55 seconds34:55
+Razmakhnine, Alexandre 34 minutes 55 seconds
+Okay, then I can instead of decommissioning those external profiles, I can remove them.
+
+So, Candi
+34 minutes 55 seconds34:55
+So, Candi 34 minutes 55 seconds
+So.
+So, Candi 35 minutes 1 second
+Um...
+
+Razmakhnine, Alexandre
+35 minutes 1 second35:01
+Razmakhnine, Alexandre 35 minutes 1 second
+No problem.
+
+So, Candi
+35 minutes 3 seconds35:03
+So, Candi 35 minutes 3 seconds
+Remove meaning.
+
+Razmakhnine, Alexandre
+35 minutes 5 seconds35:05
+Razmakhnine, Alexandre 35 minutes 5 seconds
+Remove from the table.
+
+So, Candi
+35 minutes 9 seconds35:09
+So, Candi 35 minutes 9 seconds
+I, I...
+
+Razmakhnine, Alexandre
+35 minutes 12 seconds35:12
+Razmakhnine, Alexandre 35 minutes 12 seconds
+Not from Okta, from the table.
+
+So, Candi
+35 minutes 16 seconds35:16
+So, Candi 35 minutes 16 seconds
+Is it legal to do that, JP Owen? So I think, I'm not sure technically how to do that. You can hide it, you can delete it. But from business perspective, we don't want to see the duplicated record.
+So, Candi 35 minutes 35 seconds
+To us is duplicated because I would place the old profile with the new profile. But then behind the scene, what's the best way? I'll leave it to you.
+
+
+
+
+
+
+Sharma, Radhika 1 hour 12 minutes 52 seconds
+It's still not approved. They've asked us, we're stuck at the privacy team right now because they need a list of all of the fields with the personal information and why we need to get access. So officially the matrix is actually not approved yet. We're going to confirm that on Friday.
+Sharma, Radhika 1 hour 13 minutes 11 seconds
+So that's also a change to the matrix, but I don't think that that affects IQ.
+Sharma, Radhika 1 hour 13 minutes 20 seconds
+So I suppose we need to get on the BAU process because one way or another, we need to, we're launching a new feature and we did say that the matrix needs to be updated once we launch a new feature.
+
+Newton, Persis Esther
+1 hour 13 minutes 23 seconds1:13:23
+Newton, Persis Esther 1 hour 13 minutes 23 seconds
+Mhm.
+Newton, Persis Esther 1 hour 13 minutes 35 seconds
+Yep, I agree.
+
+Sharma, Radhika
+1 hour 13 minutes 45 seconds1:13:45
+Sharma, Radhika 1 hour 13 minutes 45 seconds
+Is this driving everyone else crazy? Everyone's so quiet. I don't know if you guys all feel the same way that I feel right now.
+OO
+
+Oyemade, Obaloluwa
+1 hour 13 minutes 53 seconds1:13:53
+Oyemade, Obaloluwa 1 hour 13 minutes 53 seconds
+Yeah.
+Oyemade, Obaloluwa 1 hour 13 minutes 56 seconds
+Maisha.
+
+Wahab, Maisha
+1 hour 13 minutes 59 seconds1:13:59
+Wahab, Maisha 1 hour 13 minutes 59 seconds
+Sorry, I just had one more question before we end the call. We're just going through the list and doing cleanup. I just wanted to clarify, because I think our understanding is that it's not possible, but are we able to move existing users from one firm type to another?
+
+Newton, Persis Esther
+1 hour 14 minutes 20 seconds1:14:20
+Newton, Persis Esther 1 hour 14 minutes 20 seconds
+Atesh.
+
+Gulchand, Atesh
+1 hour 14 minutes 26 seconds1:14:26
+Gulchand, Atesh 1 hour 14 minutes 26 seconds
+No, we can't.
+
+Wahab, Maisha
+1 hour 14 minutes 27 seconds1:14:27
+Wahab, Maisha 1 hour 14 minutes 27 seconds
+So for example, for okay, so for internal, like if we were to move, let's say NBIN to core or core to NBIN, it's not a, there's no process that exists today to be able to do that for existing IDs. Okay.
+
+Sharma, Radhika
+1 hour 14 minutes 45 seconds1:14:45
+Sharma, Radhika 1 hour 14 minutes 45 seconds
+Yeah, that just that helps us confirm which IDs we're keeping and which IDs we're not keeping.
+
+Newton, Persis Esther
+1 hour 15 minutes 2 seconds1:15:02
+Newton, Persis Esther 1 hour 15 minutes 2 seconds
+Alrighty, is that it then, guys?
+
+Sharma, Radhika
+1 hour 15 minutes 6 seconds1:15:06
+Sharma, Radhika 1 hour 15 minutes 6 seconds
+Sorry, let's just confirm one last thing. For production, go live, we're still on target for October 16th, right? Like you guys, is there something still you have to do on October 16th? What's happening on October 16th, actually?

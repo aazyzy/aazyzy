@@ -1,0 +1,4994 @@
+WEBVTT
+
+65f8f5bb-f542-4313-8072-86204894fb43/10-0
+00:00:44.586 --> 00:00:50.288
+<v Lam, Penny>No one else did. This is your work.
+You're supposed to get this orientation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/10-1
+00:00:50.288 --> 00:00:56.286
+<v Lam, Penny>Yes, I I I didn't do the documentation.
+I didn't do the walkthrough, right? Yes,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/10-2
+00:00:56.286 --> 00:00:57.026
+<v Lam, Penny>yeah, yes.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/12-0
+00:00:58.306 --> 00:01:04.291
+<v Lam, Penny>Who will have to tell? I don't know. No,
+we had no time. I tried my best, but this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/12-1
+00:01:04.291 --> 00:01:08.067
+<v Lam, Penny>I was telling Ali,
+now we're really getting into not</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/12-2
+00:01:08.067 --> 00:01:12.626
+<v Lam, Penny>documented territory.
+We're gonna use the visual for discussion</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/12-3
+00:01:12.626 --> 00:01:16.046
+<v Lam, Penny>purposes,
+but I don't think we'll roll a lot of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/12-4
+00:01:16.046 --> 00:01:17.186
+<v Lam, Penny>this stuff down.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/13-0
+00:01:17.746 --> 00:01:21.051
+<v Lam, Penny>And so, we'll see,
+and I think we'll need the next session</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/13-1
+00:01:21.051 --> 00:01:25.141
+<v Lam, Penny>for it as well. We'll record it.
+I'll try to backfill the documentation,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/13-2
+00:01:25.141 --> 00:01:29.511
+<v Lam, Penny>but I don't think I can do it 'cause I
+don't know some of the nuances of like</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/13-3
+00:01:29.511 --> 00:01:33.377
+<v Lam, Penny>the deficiencies is with you,
+so I think I need your help with that,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/13-4
+00:01:33.377 --> 00:01:37.186
+<v Lam, Penny>but we can we can talk to it,
+trying to back in some feature issue.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/14-0
+00:01:37.426 --> 00:01:41.322
+<v Lam, Penny>So, but what I thought,
+and then you let me know if this is</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/14-1
+00:01:41.322 --> 00:01:46.712
+<v Lam, Penny>useful, because what I was going to do is,
+I think you've heard about most of this</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/14-2
+00:01:46.712 --> 00:01:50.153
+<v Lam, Penny>stuff already,
+but we'll go through kind of like the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/14-3
+00:01:50.153 --> 00:01:54.050
+<v Lam, Penny>what and the why anyway,
+as a capability overview. This is,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/14-4
+00:01:54.050 --> 00:01:57.426
+<v Lam, Penny>I guess, my current,
+I might be missing some stuff.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/15-0
+00:01:57.546 --> 00:02:03.732
+<v Lam, Penny>But this is my great universe of of what
+I define as platform management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/15-1
+00:02:03.732 --> 00:02:09.751
+<v Lam, Penny>And then so it is a capability map of
+platform management. Like I said,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/15-2
+00:02:09.751 --> 00:02:15.268
+<v Lam, Penny>I might be missing details, boxes,
+kind of uncover that as we go,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/15-3
+00:02:15.268 --> 00:02:18.026
+<v Lam, Penny>but at least should explain what.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-0
+00:02:18.346 --> 00:02:21.404
+<v Lam, Penny>what it is. We'll go through,
+like kind of do we need to go through</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-1
+00:02:21.404 --> 00:02:24.776
+<v Lam, Penny>like questions about how it works, maybe,
+like what is it look like today,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-2
+00:02:24.776 --> 00:02:28.238
+<v Lam, Penny>how it works. Do the demo, formal demo,
+so you're not kind of having to poke</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-3
+00:02:28.238 --> 00:02:30.891
+<v Lam, Penny>around yourself.
+And then we'll talk about what it does do</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-4
+00:02:30.891 --> 00:02:33.454
+<v Lam, Penny>and what it doesn't do.
+I think that's probably the most</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-5
+00:02:33.454 --> 00:02:36.691
+<v Lam, Penny>important conversation to have,
+because I'm not sure if that's going to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/16-6
+00:02:36.691 --> 00:02:36.826
+<v Lam, Penny>be.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/17-0
+00:02:36.946 --> 00:02:43.172
+<v Lam, Penny>easily uncovered on your own.
+I'm sure you'll find out at some point.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/17-1
+00:02:43.172 --> 00:02:47.709
+<v Lam, Penny>What? OK.
+But it would be nice if you had a bit of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/17-2
+00:02:47.709 --> 00:02:50.466
+<v Lam, Penny>a heads up. Yeah, yeah. OK. So.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-0
+00:02:51.426 --> 00:02:53.943
+<v Lam, Penny>There's, did I slice it up? Yeah,
+so for me,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-1
+00:02:53.943 --> 00:02:57.969
+<v Lam, Penny>like I think there's three main buckets
+of capabilities within platform</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-2
+00:02:57.969 --> 00:03:01.044
+<v Lam, Penny>management.
+The actual platform configuration, please,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-3
+00:03:01.044 --> 00:03:05.574
+<v Lam, Penny>so setting up the platform to work the
+way it should for anybody who's consuming</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-4
+00:03:05.574 --> 00:03:08.426
+<v Lam, Penny>the platform.
+There is then the kind of the set of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-5
+00:03:08.426 --> 00:03:12.117
+<v Lam, Penny>people to get access to whatever they
+need to do on the platform,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/22-6
+00:03:12.117 --> 00:03:13.906
+<v Lam, Penny>both at the firm and user level.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-0
+00:03:14.146 --> 00:03:18.168
+<v Lam, Penny>And then I tagged this on at the end
+because it technically is platform</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-1
+00:03:18.168 --> 00:03:21.185
+<v Lam, Penny>experience,
+but we never really kind of fully debated</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-2
+00:03:21.185 --> 00:03:24.034
+<v Lam, Penny>that one else.
+So it's easier if you're looking at</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-3
+00:03:24.034 --> 00:03:27.665
+<v Lam, Penny>platform configuration from user
+management to also look at that</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-4
+00:03:27.665 --> 00:03:30.905
+<v Lam, Penny>connecting all of this to the user access
+journey itself.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/23-5
+00:03:30.905 --> 00:03:33.586
+<v Lam, Penny>So how does a user log in and what do
+they see?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/24-0
+00:03:34.066 --> 00:03:38.006
+<v Lam, Penny>So all of that right now, today is under,
+I guess,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/24-1
+00:03:38.006 --> 00:03:43.568
+<v Lam, Penny>what Candi and I have been looking at,
+like in terms of kind of roadmap</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/24-2
+00:03:43.568 --> 00:03:49.208
+<v Lam, Penny>development and product development. So,
+I'll start on this end. Mostly,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/24-3
+00:03:49.208 --> 00:03:52.066
+<v Lam, Penny>it was all it was 100% you until I...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/25-0
+00:03:52.586 --> 00:03:58.946
+<v Lam, Penny>Forced my way in 11 months ago,
+so where is to have the right, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/26-0
+00:04:00.546 --> 00:04:03.906
+<v Lam, Penny>So, starting with platform configuration,
+this is probably...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/27-0
+00:04:05.386 --> 00:04:10.103
+<v Lam, Penny>Very familiar, hopefully,
+because all of our discovery sessions are</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/27-1
+00:04:10.103 --> 00:04:13.988
+<v Lam, Penny>about creating this capability,
+'cause it doesn't like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/27-2
+00:04:13.988 --> 00:04:18.289
+<v Lam, Penny>so I forgot we're recording,
+I'm gonna point this capability,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/27-3
+00:04:18.289 --> 00:04:23.839
+<v Lam, Penny>because it simply doesn't exist today,
+so objective of feature management is to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/27-4
+00:04:23.839 --> 00:04:24.186
+<v Lam, Penny>have.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-0
+00:04:24.306 --> 00:04:27.465
+<v Lam, Penny>Obviously,
+a representation of product features on</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-1
+00:04:27.465 --> 00:04:30.747
+<v Lam, Penny>the platform,
+so that that that kind of that feature</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-2
+00:04:30.747 --> 00:04:34.649
+<v Lam, Penny>could be used for anything kind of to the
+to the right, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-3
+00:04:34.649 --> 00:04:39.294
+<v Lam, Penny>So for for downstream application,
+ultimately the platform is distribution</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-4
+00:04:39.294 --> 00:04:43.877
+<v Lam, Penny>of features, that's what it does,
+and therefore we need to have a concept</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/28-5
+00:04:43.877 --> 00:04:46.106
+<v Lam, Penny>of features like feature management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/29-0
+00:04:46.386 --> 00:04:50.737
+<v Lam, Penny>And feature management should be the life
+cycle of the feature itself.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/29-1
+00:04:50.737 --> 00:04:54.720
+<v Lam, Penny>So from the point of feature creation,
+onboarding, registration,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/29-2
+00:04:54.720 --> 00:04:57.478
+<v Lam, Penny>all the way through to deprecation,
+when we,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/29-3
+00:04:57.478 --> 00:05:01.645
+<v Lam, Penny>anytime we see the word management,
+basically anywhere on this map,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/29-4
+00:05:01.645 --> 00:05:05.506
+<v Lam, Penny>it means the life cycle management of
+that thing, right? Okay.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/30-0
+00:05:05.906 --> 00:05:09.479
+<v Lam, Penny>So this is really feature lifecycle
+management. How do I register?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/30-1
+00:05:09.479 --> 00:05:12.733
+<v Lam, Penny>How do I deprecate? How do I version?
+How do I feature flag?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/30-2
+00:05:12.733 --> 00:05:16.733
+<v Lam, Penny>All of this stuff would be under the
+domain of how do I configure feature,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/30-3
+00:05:16.733 --> 00:05:20.573
+<v Lam, Penny>how do I configure the feature and its
+behavior on the platform, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/30-4
+00:05:20.573 --> 00:05:24.466
+<v Lam, Penny>So this you should be familiar with by
+now. I know it's still month one.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-0
+00:05:24.786 --> 00:05:28.937
+<v Lam, Penny>by at least all of the discovery sessions
+is to actually establish this because you</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-1
+00:05:28.937 --> 00:05:32.840
+<v Lam, Penny>know that today we don't have the concept
+of a feature on the platform, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-2
+00:05:32.840 --> 00:05:36.645
+<v Lam, Penny>It's a bunch of resources and those
+resources unfortunately do a whole whack</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-3
+00:05:36.645 --> 00:05:39.906
+<v Lam, Penny>load of different things.
+It's not just about access, it's about,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-4
+00:05:39.906 --> 00:05:43.365
+<v Lam, Penny>you know, presentation in the UI.
+We've got resources, like you said,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-5
+00:05:43.365 --> 00:05:46.923
+<v Lam, Penny>to federate the access control points.
+We've got resources to drive the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/31-6
+00:05:46.923 --> 00:05:48.306
+<v Lam, Penny>configuration. Like this is.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-0
+00:05:48.626 --> 00:05:52.570
+<v Lam, Penny>It's a whole mess of a deal,
+and so to be able to abstract the concept</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-1
+00:05:52.570 --> 00:05:56.458
+<v Lam, Penny>of what is an actual feature,
+that's what we're working on right now,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-2
+00:05:56.458 --> 00:06:01.179
+<v Lam, Penny>right? Then we have permission management,
+which is different to feature management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-3
+00:06:01.179 --> 00:06:04.234
+<v Lam, Penny>We need a, we need a role,
+we need a permission model.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-4
+00:06:04.234 --> 00:06:07.289
+<v Lam, Penny>We have that today.
+We talked a little bit about this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/32-5
+00:06:07.289 --> 00:06:10.066
+<v Lam, Penny>but permissions management is how do you
+control.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-0
+00:06:10.386 --> 00:06:13.490
+<v Lam, Penny>User entitlement specifically,
+feature access is one thing,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-1
+00:06:13.490 --> 00:06:17.524
+<v Lam, Penny>but entitlements is something different,
+right? So the actual scopes of like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-2
+00:06:17.524 --> 00:06:21.455
+<v Lam, Penny>you know, the view, the read, write,
+like that stuff goes into here, sorry,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-3
+00:06:21.455 --> 00:06:24.404
+<v Lam, Penny>mouse permissions,
+and and so the core of our permission</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-4
+00:06:24.404 --> 00:06:28.232
+<v Lam, Penny>role only does one thing, is really,
+it's Okta, it's the role management,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/33-5
+00:06:28.232 --> 00:06:29.266
+<v Lam, Penny>it's our RBAC model.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/34-0
+00:06:29.346 --> 00:06:31.530
+<v Lam, Penny>right,
+that sits underneath the feature</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/34-1
+00:06:31.530 --> 00:06:35.951
+<v Lam, Penny>management so that the feature plus the
+permissions is then applied to firm user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/34-2
+00:06:35.951 --> 00:06:38.844
+<v Lam, Penny>management.
+So you need those two components because</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/34-3
+00:06:38.844 --> 00:06:42.883
+<v Lam, Penny>one addresses entitlements and the other
+addresses the ability for you to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/34-4
+00:06:42.883 --> 00:06:44.466
+<v Lam, Penny>provision features to people.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-0
+00:06:47.346 --> 00:06:51.592
+<v Lam, Penny>We just talked about platform integration,
+so I don't need to go through this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-1
+00:06:51.592 --> 00:06:54.387
+<v Lam, Penny>but complementing the ability to onboard
+a feature,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-2
+00:06:54.387 --> 00:06:58.364
+<v Lam, Penny>you physically have to onboard the damn
+thing, right? So, the, like, the,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-3
+00:06:58.364 --> 00:07:01.750
+<v Lam, Penny>you know, the access, the UX,
+which is the session navigation,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-4
+00:07:01.750 --> 00:07:05.781
+<v Lam, Penny>and the micro app we just talked about,
+so we don't need to get into that,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/35-5
+00:07:05.781 --> 00:07:06.426
+<v Lam, Penny>and we'll...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/36-0
+00:07:06.746 --> 00:07:09.732
+<v Lam, Penny>Again,
+I think it is worth us doing the exercise</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/36-1
+00:07:09.732 --> 00:07:14.242
+<v Lam, Penny>together of assessing all of our
+integrations today to formalize this for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/36-2
+00:07:14.242 --> 00:07:18.203
+<v Lam, Penny>you. But I won't get into this,
+but these three things together,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/36-3
+00:07:18.203 --> 00:07:22.895
+<v Lam, Penny>these three capabilities together,
+should form the basis of the next step of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/36-4
+00:07:22.895 --> 00:07:26.186
+<v Lam, Penny>the journey,
+which is my ability to have all of this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/37-0
+00:07:26.306 --> 00:07:33.352
+<v Lam, Penny>Apply to a firm or user? Yeah,
+just the terms from 'cause JPE manage a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/37-1
+00:07:33.352 --> 00:07:40.993
+<v Lam, Penny>similar hierarchy just to fit in the
+cross-reference to business capability,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/37-2
+00:07:40.993 --> 00:07:47.146
+<v Lam, Penny>and we call the permission management
+entitlement management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-0
+00:07:47.626 --> 00:07:50.599
+<v Lam, Penny>Yeah,
+and it's more precise to the entitlement</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-1
+00:07:50.599 --> 00:07:53.636
+<v Lam, Penny>management,
+just that sometimes we use the term</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-2
+00:07:53.636 --> 00:07:57.811
+<v Lam, Penny>loosely and differently,
+and the different term can mean the same</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-3
+00:07:57.811 --> 00:08:01.986
+<v Lam, Penny>thing. Yeah, just, you know,
+we're really to convince people that</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-4
+00:08:01.986 --> 00:08:05.718
+<v Lam, Penny>terminology, like, yeah,
+what's a module versus a feature?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/38-5
+00:08:05.718 --> 00:08:10.146
+<v Lam, Penny>It's the same thing. What's a feature?
+What's an app versus a module?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/39-0
+00:08:10.226 --> 00:08:16.128
+<v Lam, Penny>That's different.
+I think it's still a nightmare for me</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/39-1
+00:08:16.128 --> 00:08:24.349
+<v Lam, Penny>sometimes happening in this conversations.
+He's saying, okay, he used module,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/39-2
+00:08:24.349 --> 00:08:28.986
+<v Lam, Penny>the other thing is stumbling between.
+Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/40-0
+00:08:31.106 --> 00:08:33.504
+<v Lam, Penny>Ultimately,
+it's whatever works with the counterparty</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/40-1
+00:08:33.504 --> 00:08:36.746
+<v Lam, Penny>you're talking to. We use that terminal.
+Yeah, I'm getting used to that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-0
+00:08:39.626 --> 00:08:44.312
+<v Lam, Penny>Well, what's even more confusing,
+to Candi's point, right, is, like, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-1
+00:08:44.312 --> 00:08:48.435
+<v Lam, Penny>this probably should say entitlements,
+but at the bank, you know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-2
+00:08:48.435 --> 00:08:51.434
+<v Lam, Penny>as with all enterprise architecture,
+of course,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-3
+00:08:51.434 --> 00:08:54.996
+<v Lam, Penny>enterprise architecture has a vision of
+the world, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-4
+00:08:54.996 --> 00:08:58.932
+<v Lam, Penny>which sometimes doesn't fit with product
+capability hierarchy,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/41-5
+00:08:58.932 --> 00:09:00.306
+<v Lam, Penny>and product really is.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-0
+00:09:00.626 --> 00:09:04.960
+<v Lam, Penny>business capability hierarchy,
+but you might hear IT and JP sometimes</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-1
+00:09:04.960 --> 00:09:08.242
+<v Lam, Penny>say, oh, you know,
+this needs to line up to the BCM,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-2
+00:09:08.242 --> 00:09:12.453
+<v Lam, Penny>the business capability model.
+And more typically we say, okay, JP,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-3
+00:09:12.453 --> 00:09:15.425
+<v Lam, Penny>do what you have to do.
+You know that when you,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-4
+00:09:15.425 --> 00:09:18.707
+<v Lam, Penny>I know this is on record,
+I need Kevin to hear this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/42-5
+00:09:18.707 --> 00:09:20.626
+<v Lam, Penny>You know that when it comes to.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-0
+00:09:20.946 --> 00:09:24.512
+<v Lam, Penny>our vision of the world and how we slice
+up features and how we divide that</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-1
+00:09:24.512 --> 00:09:28.172
+<v Lam, Penny>against product. There's a way we do it,
+which is against the client journey,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-2
+00:09:28.172 --> 00:09:30.893
+<v Lam, Penny>which is against the product line.
+It makes sense for us.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-3
+00:09:30.893 --> 00:09:34.130
+<v Lam, Penny>It makes sense for our clients.
+That's not the way the bank does it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-4
+00:09:34.130 --> 00:09:37.649
+<v Lam, Penny>The bank does it by domains, right?
+And sometimes those domains don't fit,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-5
+00:09:37.649 --> 00:09:40.042
+<v Lam, Penny>which is where we say,
+do what you need to do, JP,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/43-6
+00:09:40.042 --> 00:09:40.746
+<v Lam, Penny>but just don't.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/44-0
+00:09:40.866 --> 00:09:46.777
+<v Lam, Penny>Get bring that world into here,
+because even even a simple concept like</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/44-1
+00:09:46.777 --> 00:09:52.934
+<v Lam, Penny>our INITIUM model, sorry, sorry,
+I need to take something, yeah, but like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/44-2
+00:09:52.934 --> 00:09:53.426
+<v Lam, Penny>sorry.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/45-0
+00:09:58.226 --> 00:10:01.924
+<v Lam, Penny>Cyquest.
+I forgot about the beating up to mention</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/45-1
+00:10:01.924 --> 00:10:02.146
+<v Lam, Penny>it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/46-0
+00:10:03.346 --> 00:10:06.226
+<v Lam, Penny>But his technical, he, he knows, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/48-0
+00:10:08.146 --> 00:10:12.303
+<v Lam, Penny>Yeah, is a luxury to get them all for me.
+Is it? Yeah, it is.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/48-1
+00:10:12.303 --> 00:10:15.387
+<v Lam, Penny>This is all your stuff.
+No one ever did that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/48-2
+00:10:15.387 --> 00:10:19.275
+<v Lam, Penny>Because we were building this. The whole,
+like we didn't,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/48-3
+00:10:19.275 --> 00:10:23.097
+<v Lam, Penny>if we started seven years ago,
+we don't have this. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/48-4
+00:10:23.097 --> 00:10:27.186
+<v Lam, Penny>I was thinking how would we do it
+differently if we knew it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-0
+00:10:27.346 --> 00:10:30.496
+<v Lam, Penny>Like, if we can travel back,
+start on this side, five years ago,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-1
+00:10:30.496 --> 00:10:33.114
+<v Lam, Penny>create the map,
+start on this side and work this way,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-2
+00:10:33.114 --> 00:10:35.779
+<v Lam, Penny>not the other way around,
+'cause we started, remember,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-3
+00:10:35.779 --> 00:10:38.542
+<v Lam, Penny>we started on this side and then we work
+this way, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-4
+00:10:38.542 --> 00:10:42.371
+<v Lam, Penny>probably it's like crunched, yeah, yeah,
+and then whenever they talk about the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-5
+00:10:42.371 --> 00:10:45.958
+<v Lam, Penny>framework, the high, high level hierarchy,
+whatever, we said, no, no, no,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/49-6
+00:10:45.958 --> 00:10:47.266
+<v Lam, Penny>we want something tangible.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/50-0
+00:10:47.346 --> 00:10:48.706
+<v Lam, Penny>We want something else, too.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-0
+00:10:49.866 --> 00:10:54.750
+<v Lam, Penny>So then we didn't get the time to think
+about the hierarchy of the framework.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-1
+00:10:54.750 --> 00:10:57.756
+<v Lam, Penny>Yeah,
+we should have spent all of our time here</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-2
+00:10:57.756 --> 00:11:02.389
+<v Lam, Penny>modeling this. Like the first year.
+We didn't envision that, do we? Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-3
+00:11:02.389 --> 00:11:05.457
+<v Lam, Penny>we did.
+This is like our requirements have never</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-4
+00:11:05.457 --> 00:11:08.400
+<v Lam, Penny>changed.
+I can pull up any artifacts from five</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/51-5
+00:11:08.400 --> 00:11:09.026
+<v Lam, Penny>years ago.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-0
+00:11:09.186 --> 00:11:12.666
+<v Lam, Penny>And we have the concept of feature and
+entitlements management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-1
+00:11:12.666 --> 00:11:17.070
+<v Lam, Penny>We have that because we actually modeled
+after all the problems with legacy. So,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-2
+00:11:17.070 --> 00:11:21.257
+<v Lam, Penny>but this was this was the ask while while
+the delivery was focused on login,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-3
+00:11:21.257 --> 00:11:24.954
+<v Lam, Penny>we said come up with a model.
+We just never came up with one. Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-4
+00:11:24.954 --> 00:11:28.434
+<v Lam, Penny>That was the problem.
+I think is I we need to launch something.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/52-5
+00:11:28.434 --> 00:11:28.706
+<v Lam, Penny>Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-0
+00:11:29.586 --> 00:11:33.244
+<v Lam, Penny>Yeah, but even that, sorry,
+year one was supposed to be this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-1
+00:11:33.244 --> 00:11:36.901
+<v Lam, Penny>I was very clear with Varun. Like, guys,
+we start from there,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-2
+00:11:36.901 --> 00:11:40.854
+<v Lam, Penny>we wouldn't have any deliverable for him.
+Like, he couldn't, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-3
+00:11:40.854 --> 00:11:44.276
+<v Lam, Penny>but that was fine.
+I never asked you guys to do something</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-4
+00:11:44.276 --> 00:11:48.228
+<v Lam, Penny>first, but it's demonstrable. I said,
+start here. Yeah, we we did.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/53-5
+00:11:48.228 --> 00:11:50.706
+<v Lam, Penny>That's where we came out with the Outback.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/54-0
+00:11:51.426 --> 00:11:55.533
+<v Lam, Penny>Yeah, I know. So we defined,
+we we do have the feature entitling, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/54-1
+00:11:55.533 --> 00:11:59.868
+<v Lam, Penny>but the the like the model didn't like
+this was the biggest piece of churn,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/54-2
+00:11:59.868 --> 00:12:02.948
+<v Lam, Penny>right? And so,
+whilst this was fitting for 11 months,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/54-3
+00:12:02.948 --> 00:12:07.112
+<v Lam, Penny>what are you gonna do while you're gonna
+you're gonna do something else,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/54-4
+00:12:07.112 --> 00:12:10.306
+<v Lam, Penny>'cause otherwise the team has no no work,
+yeah, I know.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-0
+00:12:10.546 --> 00:12:13.036
+<v Lam, Penny>You can't do mine. Of course I do.
+Not every day.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-1
+00:12:13.036 --> 00:12:16.473
+<v Lam, Penny>And document this is like peeling back
+all the scars. We could have,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-2
+00:12:16.473 --> 00:12:20.408
+<v Lam, Penny>we should have. We should have. Yeah,
+Candi and I were just talking about like</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-3
+00:12:20.408 --> 00:12:23.944
+<v Lam, Penny>if we were to go back in time,
+because this is our five years of work,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-4
+00:12:23.944 --> 00:12:27.032
+<v Lam, Penny>is if we were to go back in time,
+what would we change? Well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-5
+00:12:27.032 --> 00:12:31.116
+<v Lam, Penny>we would start on the left and work our
+way to the right instead of the other way</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-6
+00:12:31.116 --> 00:12:33.108
+<v Lam, Penny>around.
+Because the login was the first</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/55-7
+00:12:33.108 --> 00:12:33.706
+<v Lam, Penny>deliverable.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/56-0
+00:12:35.266 --> 00:12:39.797
+<v Lam, Penny>But we kind of said like we wanted the
+first year to be spent on a new model,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/56-1
+00:12:39.797 --> 00:12:43.108
+<v Lam, Penny>but we just never got to a point where
+everybody agreed.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/56-2
+00:12:43.108 --> 00:12:47.174
+<v Lam, Penny>So we spent the time to build up the mess,
+the roles and so on. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/56-3
+00:12:47.174 --> 00:12:50.601
+<v Lam, Penny>like this was like a,
+this was like a year's worth of like</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/56-4
+00:12:50.601 --> 00:12:52.866
+<v Lam, Penny>contemplation. How should we change it?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-0
+00:12:52.946 --> 00:12:56.265
+<v Lam, Penny>We know that the legacy model doesn't
+work today.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-1
+00:12:56.265 --> 00:13:01.774
+<v Lam, Penny>So how do we pivot to something better?
+You see in R2, like even Candi brought up,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-2
+00:13:01.774 --> 00:13:04.694
+<v Lam, Penny>like,
+why do I get this random thing called</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-3
+00:13:04.694 --> 00:13:09.672
+<v Lam, Penny>transfer in and I check that. Like,
+is it part of something or not part of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-4
+00:13:09.672 --> 00:13:13.190
+<v Lam, Penny>something?
+And then these onboarding profiles, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/57-5
+00:13:13.190 --> 00:13:13.986
+<v Lam, Penny>how does it?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-0
+00:13:14.386 --> 00:13:18.220
+<v Lam, Penny>Like, how does it work?
+And then these firm data specialists,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-1
+00:13:18.220 --> 00:13:21.249
+<v Lam, Penny>is that a feature access or a data access?
+Like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-2
+00:13:21.249 --> 00:13:26.010
+<v Lam, Penny>it was like the concepts were all kind of
+not clear. It wasn't well modeled.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-3
+00:13:26.010 --> 00:13:29.040
+<v Lam, Penny>And so we said, okay,
+we understand all of that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-4
+00:13:29.040 --> 00:13:33.924
+<v Lam, Penny>We understand the need because we know
+our firms at the time and how they were</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/58-5
+00:13:33.924 --> 00:13:35.346
+<v Lam, Penny>set up, like all those.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-0
+00:13:35.506 --> 00:13:37.990
+<v Lam, Penny>business context, we have all of that,
+right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-1
+00:13:37.990 --> 00:13:41.823
+<v Lam, Penny>So how do we model all of that into a
+flexible feature and entitlement</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-2
+00:13:41.823 --> 00:13:45.494
+<v Lam, Penny>management model? That was year one.
+Unfortunately, after year one,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-3
+00:13:45.494 --> 00:13:50.029
+<v Lam, Penny>there was no result. There was no model.
+Like it was just kind of like a, you know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-4
+00:13:50.029 --> 00:13:53.646
+<v Lam, Penny>bank was saying you must do RBAC,
+you must do RBAC, and then okay,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/59-5
+00:13:53.646 --> 00:13:55.266
+<v Lam, Penny>we can't retrofit the feature.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/60-0
+00:13:55.426 --> 00:13:59.804
+<v Lam, Penny>concept into RBAC and then there was a
+huge philosophical debate about, well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/60-1
+00:13:59.804 --> 00:14:04.294
+<v Lam, Penny>in BNI and you shouldn't be doing feature
+management, you should be doing RBAC.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/60-2
+00:14:04.294 --> 00:14:06.146
+<v Lam, Penny>There was like 12 months of that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/61-0
+00:14:07.186 --> 00:14:11.227
+<v Lam, Penny>And so that's why you see all the
+problems we have today is because this</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/61-1
+00:14:11.227 --> 00:14:15.322
+<v Lam, Penny>was partially modeled. And so as a result,
+going into now immediately the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/61-2
+00:14:15.322 --> 00:14:18.920
+<v Lam, Penny>conversations with this,
+we didn't have a good representation of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/61-3
+00:14:18.920 --> 00:14:22.961
+<v Lam, Penny>features because we only went as far as
+at least register the resources,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/61-4
+00:14:22.961 --> 00:14:26.226
+<v Lam, Penny>at least have an inventory of that.
+But now the resources.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-0
+00:14:26.386 --> 00:14:29.080
+<v Lam, Penny>do a whole bunch of different things,
+right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-1
+00:14:29.080 --> 00:14:32.553
+<v Lam, Penny>It defines your entry point on the UI,
+it defines access,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-2
+00:14:32.553 --> 00:14:36.205
+<v Lam, Penny>it defines configuration, right?
+And now we're saying, okay,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-3
+00:14:36.205 --> 00:14:39.499
+<v Lam, Penny>let's clean that up and map that to an
+actual feature.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-4
+00:14:39.499 --> 00:14:44.169
+<v Lam, Penny>So at least we know what the feature is
+made of and what resources it has and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/62-5
+00:14:44.169 --> 00:14:45.426
+<v Lam, Penny>what type, like what.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-0
+00:14:45.946 --> 00:14:48.520
+<v Lam, Penny>those resources do,
+but at that point it wasn't clear.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-1
+00:14:48.520 --> 00:14:50.719
+<v Lam, Penny>Like it was like there was no solution
+for it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-2
+00:14:50.719 --> 00:14:53.901
+<v Lam, Penny>So we abandoned feature management as a
+result of that, which like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-3
+00:14:53.901 --> 00:14:56.193
+<v Lam, Penny>like we just can't sit on this for
+another year.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-4
+00:14:56.193 --> 00:14:58.580
+<v Lam, Penny>I don't know when you guys are going to
+reconcile.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-5
+00:14:58.580 --> 00:15:02.089
+<v Lam, Penny>The bank wasn't necessarily changing
+their position on our back. Actually,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-6
+00:15:02.089 --> 00:15:04.943
+<v Lam, Penny>we found out our architect didn't want to
+fight that battle.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/63-7
+00:15:04.943 --> 00:15:06.066
+<v Lam, Penny>So he just kind of said.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/64-0
+00:15:06.226 --> 00:15:10.711
+<v Lam, Penny>just take what the bank has and call it a
+day. And then now JP is saying,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/64-1
+00:15:10.711 --> 00:15:15.438
+<v Lam, Penny>why did you guys do that? Right? Like,
+you didn't have to go down that strict</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/64-2
+00:15:15.438 --> 00:15:19.378
+<v Lam, Penny>one user profile per user discussion.
+You could have changed it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/64-3
+00:15:19.378 --> 00:15:23.923
+<v Lam, Penny>It could have been better supported.
+And so you'll hear sometimes the team</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/64-4
+00:15:23.923 --> 00:15:26.226
+<v Lam, Penny>talk about 2.0, 2.0, because this was.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-0
+00:15:26.386 --> 00:15:29.452
+<v Lam, Penny>Under 1.0,
+we're just in resource land and resource</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-1
+00:15:29.452 --> 00:15:33.874
+<v Lam, Penny>help with no concept of feature.
+And then we said after we launched, okay,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-2
+00:15:33.874 --> 00:15:37.647
+<v Lam, Penny>this model is not going to work forever
+because as you can see,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-3
+00:15:37.647 --> 00:15:40.890
+<v Lam, Penny>once we add more and more integration,
+this gets more,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-4
+00:15:40.890 --> 00:15:44.664
+<v Lam, Penny>the list gets bigger and bigger and it's
+very hard to maintain.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/65-5
+00:15:44.664 --> 00:15:46.786
+<v Lam, Penny>Like you need specialized expertise.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/66-0
+00:15:47.186 --> 00:15:52.140
+<v Lam, Penny>to know what the developers interpreted
+as resources, right? And you need to pick,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/66-1
+00:15:52.140 --> 00:15:56.139
+<v Lam, Penny>like, what if Paul leaves? Like,
+we're totally screwed, right? So,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/66-2
+00:15:56.139 --> 00:15:59.541
+<v Lam, Penny>that's a problem.
+It's not abstracted in a way that it's</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/66-3
+00:15:59.541 --> 00:16:03.182
+<v Lam, Penny>usable, right? So,
+then we said we probably need a much more</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/66-4
+00:16:03.182 --> 00:16:06.226
+<v Lam, Penny>flexible model,
+and so JP kind of proposed with...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/67-0
+00:16:06.466 --> 00:16:10.603
+<v Lam, Penny>team that we need to move on from this
+RBAC into a policy-based model.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/67-1
+00:16:10.603 --> 00:16:13.925
+<v Lam, Penny>And then I kind of said, okay,
+that's too big of a jump.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/67-2
+00:16:13.925 --> 00:16:17.713
+<v Lam, Penny>We are going too far.
+Let's put the rest of the pieces in first.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/67-3
+00:16:17.713 --> 00:16:20.451
+<v Lam, Penny>Like let's formalize the concept of a
+feature.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/67-4
+00:16:20.451 --> 00:16:25.346
+<v Lam, Penny>Let's formalize kind of do we understand
+how to properly permission those features.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/68-0
+00:16:25.746 --> 00:16:29.811
+<v Lam, Penny>Do we understand this?
+If we fully understand that and it and it</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/68-1
+00:16:29.811 --> 00:16:34.815
+<v Lam, Penny>and and we're still hitting limitations,
+then you can do maybe like 1.5, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/68-2
+00:16:34.815 --> 00:16:39.067
+<v Lam, Penny>Move on to multi-user group.
+And then if that also doesn't support,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/68-3
+00:16:39.067 --> 00:16:44.196
+<v Lam, Penny>then you can rip it up and do it again.
+Because going from RBAC to policy base is</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/68-4
+00:16:44.196 --> 00:16:44.946
+<v Lam, Penny>a huge leap.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/69-0
+00:16:45.506 --> 00:16:49.687
+<v Lam, Penny>And we don't have operational processes
+that support that transition today,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/69-1
+00:16:49.687 --> 00:16:53.648
+<v Lam, Penny>because we're still we were at the point
+until right before you joined,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/69-2
+00:16:53.648 --> 00:16:57.940
+<v Lam, Penny>we were still very confused about how
+this works on the feature on the on the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/69-3
+00:16:57.940 --> 00:17:00.580
+<v Lam, Penny>kind of the platform configuration side,
+right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/69-4
+00:17:00.580 --> 00:17:03.826
+<v Lam, Penny>And so maybe a bit of backstory there,
+so at some point...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-0
+00:17:04.466 --> 00:17:08.601
+<v Lam, Penny>if you're hitting the limits of this
+platform, you might kind of say, okay,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-1
+00:17:08.601 --> 00:17:12.192
+<v Lam, Penny>do we need to maybe address the
+limitations of the permissioning?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-2
+00:17:12.192 --> 00:17:14.641
+<v Lam, Penny>I think this is a pretty severe
+limitations.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-3
+00:17:14.641 --> 00:17:18.395
+<v Lam, Penny>This is the reason why we have so many
+packages. And those packages,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-4
+00:17:18.395 --> 00:17:21.986
+<v Lam, Penny>Candi can tell you all about it,
+extremely difficult to maintain,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/70-5
+00:17:21.986 --> 00:17:23.346
+<v Lam, Penny>very little transparency.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-0
+00:17:23.506 --> 00:17:26.659
+<v Lam, Penny>into the updates and we've had issues
+with deployment,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-1
+00:17:26.659 --> 00:17:29.467
+<v Lam, Penny>incremental deployment into higher
+environments,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-2
+00:17:29.467 --> 00:17:32.791
+<v Lam, Penny>because every environment needs to follow
+the same steps.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-3
+00:17:32.791 --> 00:17:35.371
+<v Lam, Penny>It's updated by script or what have you
+not,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-4
+00:17:35.371 --> 00:17:39.268
+<v Lam, Penny>and then so somebody can make a mistake
+in production. Yeah, right.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/71-5
+00:17:39.268 --> 00:17:42.306
+<v Lam, Penny>So there's kind of problems there,
+but I think here.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/72-0
+00:17:42.946 --> 00:17:45.268
+<v Lam, Penny>Candi,
+maybe you can actually list them for Ali,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/72-1
+00:17:45.268 --> 00:17:47.589
+<v Lam, Penny>right,
+on some of the operational issues that we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/72-2
+00:17:47.589 --> 00:17:47.826
+<v Lam, Penny>have.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/73-0
+00:17:50.546 --> 00:17:55.887
+<v Lam, Penny>So, you might, you might,
+you might kind of get into that</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/73-1
+00:17:55.887 --> 00:18:01.595
+<v Lam, Penny>specifically to this area.
+I think we we talked about we have</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/73-2
+00:18:01.595 --> 00:18:05.186
+<v Lam, Penny>twenty-six user packages user packages.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/74-0
+00:18:06.306 --> 00:18:12.970
+<v Lam, Penny>And I want to understand that,
+and these user packages are stored inside</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/74-1
+00:18:12.970 --> 00:18:13.426
+<v Lam, Penny>Okta.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/75-0
+00:18:14.386 --> 00:18:17.426
+<v Lam, Penny>If I'm not drunk, where,
+where are they actually stored?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/76-0
+00:18:18.586 --> 00:18:26.158
+<v Lam, Penny>Compass. Compass. Yeah. How,
+how these user packages interaction with</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/76-1
+00:18:26.158 --> 00:18:32.540
+<v Lam, Penny>Okta? The other thing is user group, so,
+yeah, so in Okta,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/76-2
+00:18:32.540 --> 00:18:38.706
+<v Lam, Penny>how Okta operate is they, they,
+they create user groups.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-0
+00:18:39.106 --> 00:18:43.941
+<v Lam, Penny>So then in each user group,
+if you want someone to have provision to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-1
+00:18:43.941 --> 00:18:47.304
+<v Lam, Penny>something,
+you will add that person to the user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-2
+00:18:47.304 --> 00:18:50.597
+<v Lam, Penny>group. So far,
+Canvas is constructed in a way.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-3
+00:18:50.597 --> 00:18:55.151
+<v Lam, Penny>We only assign one user group,
+one or two user group per person,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-4
+00:18:55.151 --> 00:19:00.406
+<v Lam, Penny>but it is actually a self-imposed
+restriction. Alpha can support multiple.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/77-5
+00:19:00.406 --> 00:19:00.546
+<v Lam, Penny>So</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/78-0
+00:19:00.746 --> 00:19:06.515
+<v Lam, Penny>The same person can be added to multiple
+user groups. But anyway,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/78-1
+00:19:06.515 --> 00:19:11.235
+<v Lam, Penny>we decide that way.
+One user package would link to or</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/78-2
+00:19:11.235 --> 00:19:17.878
+<v Lam, Penny>corresponds to one user group in Alpha.
+So if you are assigned to this user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/78-3
+00:19:17.878 --> 00:19:19.626
+<v Lam, Penny>package, manage all.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/79-0
+00:19:20.066 --> 00:19:23.358
+<v Lam, Penny>And then behind the scene,
+when you assign it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/79-1
+00:19:23.358 --> 00:19:29.241
+<v Lam, Penny>the user management would be sending your
+request or your ID over to author and you</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/79-2
+00:19:29.241 --> 00:19:32.813
+<v Lam, Penny>to whatever we define as the manage or
+user group.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/79-3
+00:19:32.813 --> 00:19:38.626
+<v Lam, Penny>So your profile will be assigned to that
+door or your assigned to that user group.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-0
+00:19:39.026 --> 00:19:41.797
+<v Lam, Penny>But this,
+the definition of what's actually in the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-1
+00:19:41.797 --> 00:19:44.405
+<v Lam, Penny>user,
+the Okta user group is actually different</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-2
+00:19:44.405 --> 00:19:47.067
+<v Lam, Penny>to a compass user package, right? Because,
+like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-3
+00:19:47.067 --> 00:19:50.489
+<v Lam, Penny>in the in the user group definition in
+Okta, it would be what,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-4
+00:19:50.489 --> 00:19:54.618
+<v Lam, Penny>like a bunch of scopes and what have you
+not, and then on the compass side,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-5
+00:19:54.618 --> 00:19:57.715
+<v Lam, Penny>it's resources, yes, yes,
+so they're not the same thing,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/80-6
+00:19:57.715 --> 00:20:00.866
+<v Lam, Penny>we just happen to match the,
+they should be mapped, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/81-0
+00:20:02.066 --> 00:20:08.164
+<v Lam, Penny>Okay, and it's one-to-one, one person,
+one identity, one user group,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/81-1
+00:20:08.164 --> 00:20:09.666
+<v Lam, Penny>one user package.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/82-0
+00:20:10.866 --> 00:20:13.546
+<v Lam, Penny>It's like that, or two, yeah, two, OK.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/84-0
+00:20:16.066 --> 00:20:24.715
+<v Lam, Penny>Now I want to understand whether a firm
+user, I mean, Wellington Alliance,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/84-1
+00:20:24.715 --> 00:20:33.826
+<v Lam, Penny>if I'm not right. Wellington Altus, yeah.
+Wellington Altus, or someone from...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/85-0
+00:20:34.066 --> 00:20:38.386
+<v Lam, Penny>Inside back comes to the compass X.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/86-0
+00:20:39.986 --> 00:20:45.855
+<v Lam, Penny>Enter the credentials, and then after,
+once entering the credentials,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/86-1
+00:20:45.855 --> 00:20:50.466
+<v Lam, Penny>click authenticate,
+the message goes directly to Okta.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/87-0
+00:20:52.146 --> 00:20:57.736
+<v Lam, Penny>And Okta authenticates,
+authorize based on the that identity and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/87-1
+00:20:57.736 --> 00:21:03.498
+<v Lam, Penny>the credentials says, okay,
+this is the number of the user groups,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/87-2
+00:21:03.498 --> 00:21:08.486
+<v Lam, Penny>okay? And then it pass something,
+I don't know, whatever.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/87-3
+00:21:08.486 --> 00:21:12.786
+<v Lam, Penny>Maybe we can take it offline.
+It's the technical.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/88-0
+00:21:12.826 --> 00:21:13.426
+<v Lam, Penny>Our job.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/89-0
+00:21:14.626 --> 00:21:19.828
+<v Lam, Penny>Yeah, yeah, yeah, just, yeah,
+I want to understand the process that is</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/89-1
+00:21:19.828 --> 00:21:25.395
+<v Lam, Penny>this the process sequence that I
+explained is the is it the right sequence,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/89-2
+00:21:25.395 --> 00:21:28.839
+<v Lam, Penny>the sequence diagram in some of JP's page.
+OK,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/89-3
+00:21:28.839 --> 00:21:34.626
+<v Lam, Penny>so we can understand the locking and
+stuff, yeah, and it's not different that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/90-0
+00:21:34.666 --> 00:21:40.236
+<v Lam, Penny>Whether it's an internal bank user or
+it's a firm user, for example,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/90-1
+00:21:40.236 --> 00:21:46.856
+<v Lam, Penny>we're all on the external active tenant,
+so same active tenant, the request will,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/90-2
+00:21:46.856 --> 00:21:53.153
+<v Lam, Penny>because we all log in the same way from
+the external locate experience, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/90-3
+00:21:53.153 --> 00:21:56.866
+<v Lam, Penny>but then in future when you're coming
+from...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/91-0
+00:21:57.066 --> 00:22:00.267
+<v Lam, Penny>In a month's time,
+when the employee SSO is done,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/91-1
+00:22:00.267 --> 00:22:04.685
+<v Lam, Penny>then all the employees are going to be
+set up in an internal tenant,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/91-2
+00:22:04.685 --> 00:22:09.423
+<v Lam, Penny>which is different from the external
+tenant. It's still an Okta instance,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/91-3
+00:22:09.423 --> 00:22:14.353
+<v Lam, Penny>but it's just a different Okta tenant.
+Yeah, same sequencing for everything,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/91-4
+00:22:14.353 --> 00:22:15.826
+<v Lam, Penny>but OK, but just the...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/92-0
+00:22:16.386 --> 00:22:21.586
+<v Lam, Penny>Internal segmentation inside of that,
+that's right. OK, but...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/93-0
+00:22:22.786 --> 00:22:24.786
+<v Lam, Penny>It's a policy that...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/94-0
+00:22:26.026 --> 00:22:31.106
+<v Lam, Penny>When Compass X has users outside of the
+bank.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/95-0
+00:22:32.426 --> 00:22:37.685
+<v Lam, Penny>They should come into Okta.
+Okta is a service provider for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/95-1
+00:22:37.685 --> 00:22:43.300
+<v Lam, Penny>COPRESCOCHEF. Yeah.
+And is managed by bank, not by... Correct.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/95-2
+00:22:43.300 --> 00:22:43.746
+<v Lam, Penny>Okay.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/96-0
+00:22:46.066 --> 00:22:48.760
+<v Lam, Penny>OK,
+do we have we do we still have a like a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/96-1
+00:22:48.760 --> 00:22:52.066
+<v Lam, Penny>how's the relationship with the Octa team
+these days?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/97-0
+00:22:52.946 --> 00:22:57.773
+<v Lam, Penny>Ohh, the cam ticket, yeah, C.I.A.M.
+tickets, yeah, no,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/97-1
+00:22:57.773 --> 00:23:04.707
+<v Lam, Penny>but like they they typically are decent.
+I heard to turn around is quite slow,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/97-2
+00:23:04.707 --> 00:23:05.146
+<v Lam, Penny>yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/98-0
+00:23:06.706 --> 00:23:08.306
+<v Lam, Penny>But not as bad as the ECM team.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/99-0
+00:23:09.426 --> 00:23:10.706
+<v Lam, Penny>So, I think so.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/100-0
+00:23:11.826 --> 00:23:13.466
+<v Lam, Penny>At least I respond, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-0
+00:23:17.546 --> 00:23:21.069
+<v Lam, Penny>Where was I going with this thought
+process? You finished this side.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-1
+00:23:21.069 --> 00:23:24.796
+<v Lam, Penny>Did I finish this side? So yeah, UAM,
+like whatever's in scope of, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-2
+00:23:24.796 --> 00:23:28.932
+<v Lam, Penny>so going back to feature management in
+terms of what it does and what it doesn't</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-3
+00:23:28.932 --> 00:23:31.230
+<v Lam, Penny>do, you're in the discovery,
+so you'll know.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-4
+00:23:31.230 --> 00:23:33.476
+<v Lam, Penny>I don't think we're going to get into
+this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-5
+00:23:33.476 --> 00:23:36.284
+<v Lam, Penny>Platform integrations will do that
+assessment as well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/101-6
+00:23:36.284 --> 00:23:38.786
+<v Lam, Penny>so you know what we can do and what we
+can't do.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-0
+00:23:39.026 --> 00:23:42.668
+<v Lam, Penny>And then we just talked about the
+permission management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-1
+00:23:42.668 --> 00:23:45.480
+<v Lam, Penny>There's some limitations there.
+But I mean,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-2
+00:23:45.480 --> 00:23:48.483
+<v Lam, Penny>it like it's a very industry standard
+service.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-3
+00:23:48.483 --> 00:23:51.422
+<v Lam, Penny>So we use it in a very industry standard
+way.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-4
+00:23:51.422 --> 00:23:56.278
+<v Lam, Penny>So apart from the RBAC limitation of the
+single user group to a single user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/102-5
+00:23:56.278 --> 00:23:58.706
+<v Lam, Penny>identity, like the rest of it is fine.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/103-0
+00:23:59.346 --> 00:24:02.262
+<v Lam, Penny>We don't tend to see a lot of outages,
+like thank God,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/103-1
+00:24:02.262 --> 00:24:04.913
+<v Lam, Penny>like it's basically your gateway into
+everything.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/103-2
+00:24:04.913 --> 00:24:08.306
+<v Lam, Penny>I think we had one in the last five years.
+So it's not too bad.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/104-0
+00:24:11.826 --> 00:24:14.068
+<v Lam, Penny>So I think, yeah,
+I think maybe we spend more time in firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/104-1
+00:24:14.068 --> 00:24:14.866
+<v Lam, Penny>user management side.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/105-0
+00:24:23.266 --> 00:24:25.225
+<v Lam, Penny>To,
+and then you know all the packaging</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/105-1
+00:24:25.225 --> 00:24:28.603
+<v Lam, Penny>limitations as well, right?
+Like that we were kind of going through,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/105-2
+00:24:28.603 --> 00:24:28.946
+<v Lam, Penny>it's...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-0
+00:24:30.626 --> 00:24:34.210
+<v Lam, Penny>It's not flexible because it's the
+limitation of the RVAC. Otherwise,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-1
+00:24:34.210 --> 00:24:37.897
+<v Lam, Penny>we would have just said, like,
+kind of each capability has its own kind</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-2
+00:24:37.897 --> 00:24:42.249
+<v Lam, Penny>of user group and you can be assigned to,
+are you in the account opening user group,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-3
+00:24:42.249 --> 00:24:45.423
+<v Lam, Penny>are you in the orders user group?
+It's a lot easier that way.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-4
+00:24:45.423 --> 00:24:48.597
+<v Lam, Penny>And then even add-ons,
+like we don't have a good solution for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/108-5
+00:24:48.597 --> 00:24:49.826
+<v Lam, Penny>add-ons. That's why all.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-0
+00:24:49.866 --> 00:24:53.379
+<v Lam, Penny>add-on on core services get added to all
+the packages.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-1
+00:24:53.379 --> 00:24:56.509
+<v Lam, Penny>Not the best way of doing that.
+Like that's not,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-2
+00:24:56.509 --> 00:25:00.596
+<v Lam, Penny>that's not great from an access control
+perspective. It's just,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-3
+00:25:00.596 --> 00:25:04.237
+<v Lam, Penny>it just says you like anybody is entitled
+to any add-on,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-4
+00:25:04.237 --> 00:25:08.580
+<v Lam, Penny>which is not actually correct, right?
+It works, but it's not great.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/109-5
+00:25:08.580 --> 00:25:09.666
+<v Lam, Penny>So at some point.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/110-0
+00:25:09.826 --> 00:25:14.177
+<v Lam, Penny>We go to 1.5 multi-user group,
+we have a user group for Creases, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/110-1
+00:25:14.177 --> 00:25:17.743
+<v Lam, Penny>And that's how you represent your
+permission into Creases,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/110-2
+00:25:17.743 --> 00:25:20.946
+<v Lam, Penny>separate to all the other capabilities
+that we have.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/111-0
+00:25:21.826 --> 00:25:24.946
+<v Lam, Penny>That would be the 1.5 model,
+and then then if.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-0
+00:25:26.226 --> 00:25:29.191
+<v Lam, Penny>It needs to be even more flexible than
+that, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-1
+00:25:29.191 --> 00:25:31.749
+<v Lam, Penny>so specific firm threshold
+implementations,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-2
+00:25:31.749 --> 00:25:36.459
+<v Lam, Penny>like rule-based policies against firms.
+If that starts to come through the door,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-3
+00:25:36.459 --> 00:25:40.703
+<v Lam, Penny>then the next natural evolution on top of
+the 1.5, the multi-user group,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-4
+00:25:40.703 --> 00:25:44.714
+<v Lam, Penny>would be the policy-based access control.
+But I'm not, I'm not sure,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/112-5
+00:25:44.714 --> 00:25:46.226
+<v Lam, Penny>I'm not sure we have that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/113-0
+00:25:46.386 --> 00:25:49.996
+<v Lam, Penny>I don't, I just don't,
+I don't think you have my use cases for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/113-1
+00:25:49.996 --> 00:25:50.626
+<v Lam, Penny>that today.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/114-0
+00:25:52.306 --> 00:25:55.546
+<v Lam, Penny>I will only tell you this because people
+are going to talk to you about feedback</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/114-1
+00:25:55.546 --> 00:25:58.586
+<v Lam, Penny>and this is your response. Like, yeah,
+I'm not sure if there's a lot of use</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/114-2
+00:25:58.586 --> 00:25:59.346
+<v Lam, Penny>cases for that yet.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/115-0
+00:26:02.986 --> 00:26:03.106
+<v Lam, Penny>Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/116-0
+00:26:04.546 --> 00:26:08.256
+<v Lam, Penny>It's huge.
+You're gonna have to refactor the whole</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/116-1
+00:26:08.256 --> 00:26:12.984
+<v Lam, Penny>bloody platform. It's huge, right?
+So it's gonna be very costly.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/116-2
+00:26:12.984 --> 00:26:18.148
+<v Lam, Penny>Regarding your comment about the
+third-party applications, as you say,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/116-3
+00:26:18.148 --> 00:26:21.930
+<v Lam, Penny>it's not interesting to throw them under,
+you know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/116-4
+00:26:21.930 --> 00:26:24.476
+<v Lam, Penny>under features and do not have a...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/117-0
+00:26:24.546 --> 00:26:28.386
+<v Lam, Penny>Right now,
+we don't have granular resources.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/118-0
+00:26:29.946 --> 00:26:37.572
+<v Lam, Penny>What's your utopia for?
+Because from my understanding is that if</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/118-1
+00:26:37.572 --> 00:26:45.080
+<v Lam, Penny>we want to deep dive,
+it's like the third tier, like, you know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/118-2
+00:26:45.080 --> 00:26:49.186
+<v Lam, Penny>like that's integration. Otherwise.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/119-0
+00:26:49.746 --> 00:26:55.527
+<v Lam, Penny>You should let them, okay,
+they have their own SAS environment and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/119-1
+00:26:55.527 --> 00:26:58.546
+<v Lam, Penny>we just keep the track of the user.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-0
+00:27:00.066 --> 00:27:04.728
+<v Lam, Penny>But yeah, I I don't know where,
+where is your utopia with that? Yeah, no,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-1
+00:27:04.728 --> 00:27:09.453
+<v Lam, Penny>it's never the, it's never the three,
+it's an ecosystem, right? So, to me,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-2
+00:27:09.453 --> 00:27:14.304
+<v Lam, Penny>core should be always in the three,
+because there's a lot of related things.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-3
+00:27:14.304 --> 00:27:17.895
+<v Lam, Penny>If you think about, like,
+actually I got this yesterday,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-4
+00:27:17.895 --> 00:27:21.234
+<v Lam, Penny>well simple,
+because I opened a new checking account</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/120-5
+00:27:21.234 --> 00:27:22.746
+<v Lam, Penny>with those, well simple.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-0
+00:27:22.826 --> 00:27:25.901
+<v Lam, Penny>Because I was like, I wanna see,
+I wanna see, yeah, yeah, and then,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-1
+00:27:25.901 --> 00:27:29.428
+<v Lam, Penny>and then it kind of gives you, like,
+once you open the account, it gives you,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-2
+00:27:29.428 --> 00:27:31.509
+<v Lam, Penny>OK,
+there are four things you should do next,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-3
+00:27:31.509 --> 00:27:34.810
+<v Lam, Penny>right? You wanna transfer money in,
+you wanna deposit, you wanna set up,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-4
+00:27:34.810 --> 00:27:37.840
+<v Lam, Penny>I forgot what they direct debit,
+is it direct, yeah, direct debit,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-5
+00:27:37.840 --> 00:27:40.282
+<v Lam, Penny>and then I took a screenshot,
+because I was like, oh,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/121-6
+00:27:40.282 --> 00:27:41.186
+<v Lam, Penny>that's kind of cool.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-0
+00:27:42.386 --> 00:27:46.695
+<v Lam, Penny>Yeah, add money, set up direct deposit,
+receive e-transfers, add billing, pays,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-1
+00:27:46.695 --> 00:27:49.227
+<v Lam, Penny>right?
+All of this stuff is done in context of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-2
+00:27:49.227 --> 00:27:53.267
+<v Lam, Penny>the app and their integrated functions,
+because this is core to the online</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-3
+00:27:53.267 --> 00:27:56.284
+<v Lam, Penny>banking journey.
+You don't want this chef to kind of go</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-4
+00:27:56.284 --> 00:27:59.031
+<v Lam, Penny>somewhere else,
+but when you go into their loyalty</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/122-5
+00:27:59.031 --> 00:28:02.586
+<v Lam, Penny>program, the offers that they have,
+they send you somewhere else.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-0
+00:28:02.866 --> 00:28:05.154
+<v Lam, Penny>Right?
+Because it's not a core workflow of the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-1
+00:28:05.154 --> 00:28:07.685
+<v Lam, Penny>banking experience.
+So we're a banking environment.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-2
+00:28:07.685 --> 00:28:10.752
+<v Lam, Penny>It's the same thing.
+Like I don't want to like open an account</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-3
+00:28:10.752 --> 00:28:14.403
+<v Lam, Penny>and go somewhere else to do a transfer
+and kind of set up direct deposits.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-4
+00:28:14.403 --> 00:28:18.443
+<v Lam, Penny>I want to be in context of the accounting
+context of my operational environment to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-5
+00:28:18.443 --> 00:28:20.731
+<v Lam, Penny>do that.
+The only way to do that is you either</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/123-6
+00:28:20.731 --> 00:28:23.506
+<v Lam, Penny>build it yourself or you make the third
+party integrate.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/124-0
+00:28:23.546 --> 00:28:26.468
+<v Lam, Penny>in a way that looks like you built it
+yourself, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/124-1
+00:28:26.468 --> 00:28:29.656
+<v Lam, Penny>That fits into the user flows and you
+have control over it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/124-2
+00:28:29.656 --> 00:28:33.746
+<v Lam, Penny>That's the only time you would ever do a
+tier 3. And so outside of the core.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-0
+00:28:34.946 --> 00:28:38.534
+<v Lam, Penny>I'm not, I'm not convinced,
+like the you can do, and by the way,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-1
+00:28:38.534 --> 00:28:42.563
+<v Lam, Penny>I forgot to mention this earlier,
+so that's my current definition of the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-2
+00:28:42.563 --> 00:28:45.268
+<v Lam, Penny>tiering.
+There's probably more tiering in within</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-3
+00:28:45.268 --> 00:28:48.690
+<v Lam, Penny>the tiers themselves.
+You can do a basic SSO and pass minimal</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-4
+00:28:48.690 --> 00:28:51.726
+<v Lam, Penny>context over,
+and that could be an integration because</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/125-5
+00:28:51.726 --> 00:28:54.706
+<v Lam, Penny>that standalone does not require that
+context at all.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-0
+00:28:54.946 --> 00:28:57.843
+<v Lam, Penny>Or let's say you ask about the vision,
+right,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-1
+00:28:57.843 --> 00:29:01.054
+<v Lam, Penny>is some apps I think deserve context from
+Compass.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-2
+00:29:01.054 --> 00:29:05.210
+<v Lam, Penny>So if you look at a portfolio management
+system, what does it do?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-3
+00:29:05.210 --> 00:29:08.862
+<v Lam, Penny>You can view accounts on the portfolio
+management system.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-4
+00:29:08.862 --> 00:29:12.010
+<v Lam, Penny>You can trade on the portfolio management
+system.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/126-5
+00:29:12.010 --> 00:29:14.466
+<v Lam, Penny>You can rebalance and you can allocate.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/127-0
+00:29:14.506 --> 00:29:19.360
+<v Lam, Penny>on the portfolio management system.
+I already have context of that as a user.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/127-1
+00:29:19.360 --> 00:29:23.157
+<v Lam, Penny>Why would I not want to try to help the
+firm harmonize that?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/127-2
+00:29:23.157 --> 00:29:27.887
+<v Lam, Penny>So if I can do core trading in Compass,
+I should be able to trade in the PM</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/127-3
+00:29:27.887 --> 00:29:30.936
+<v Lam, Penny>system.
+If I can do core allocations on Compass,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/127-4
+00:29:30.936 --> 00:29:35.666
+<v Lam, Penny>I should be able to allocate on the
+trading system. I would like for those.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-0
+00:29:35.746 --> 00:29:39.398
+<v Lam, Penny>PM systems have that context.
+So then they don't have to then kind of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-1
+00:29:39.398 --> 00:29:41.902
+<v Lam, Penny>take that user. Okay,
+now that user has access,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-2
+00:29:41.902 --> 00:29:45.501
+<v Lam, Penny>because we did a basic SSO,
+now you got to go in and configure their</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-3
+00:29:45.501 --> 00:29:49.726
+<v Lam, Penny>profile and manually and set them up.
+And then sometimes you set it up and wait,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-4
+00:29:49.726 --> 00:29:52.021
+<v Lam, Penny>oh,
+this person can trade in the PM system,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/128-5
+00:29:52.021 --> 00:29:54.786
+<v Lam, Penny>but they can't trade here. Why? Right?
+Because it's.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/129-0
+00:29:54.906 --> 00:29:59.502
+<v Lam, Penny>completely different setups.
+There are some core adjacent stuff that's</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/129-1
+00:29:59.502 --> 00:30:03.839
+<v Lam, Penny>tied to the core services.
+Maybe you want to pass more context for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/129-2
+00:30:03.839 --> 00:30:08.370
+<v Lam, Penny>that. Like that would be ideal.
+Because then the access experience is</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/129-3
+00:30:08.370 --> 00:30:11.477
+<v Lam, Penny>consistent in the mind of the user, right?
+Yes.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/129-4
+00:30:11.477 --> 00:30:14.066
+<v Lam, Penny>And that's why we keep a global profile.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/130-0
+00:30:15.826 --> 00:30:19.872
+<v Lam, Penny>But we don't do that right now, obviously.
+And again, need-wise,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/130-1
+00:30:19.872 --> 00:30:24.415
+<v Lam, Penny>does it work today for those firms that
+are on digit or increases? Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/130-2
+00:30:24.415 --> 00:30:27.776
+<v Lam, Penny>it kind of does.
+Do they have issues sometimes? Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/130-3
+00:30:27.776 --> 00:30:31.385
+<v Lam, Penny>what do they do? They call, we fix it,
+we move on, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/130-4
+00:30:31.385 --> 00:30:34.186
+<v Lam, Penny>So the overhead of that is not as big as..
+.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/132-0
+00:30:34.626 --> 00:30:38.700
+<v Lam, Penny>having like 28 IDs because there's four
+platforms and you're accessing them</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/132-1
+00:30:38.700 --> 00:30:42.559
+<v Lam, Penny>separately because they're not integrated
+and we don't have multi-firm.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/132-2
+00:30:42.559 --> 00:30:45.667
+<v Lam, Penny>That's way worse.
+And then you run through an attestation</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/132-3
+00:30:45.667 --> 00:30:49.848
+<v Lam, Penny>process for 28 IDs at a time for each
+person that exists in the firm and that</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/132-4
+00:30:49.848 --> 00:30:50.866
+<v Lam, Penny>firm has 400 users.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/133-0
+00:30:52.946 --> 00:30:57.037
+<v Lam, Penny>Yeah, yeah, um,
+but but it would be it would be nice for..</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/133-1
+00:30:57.037 --> 00:30:57.106
+<v Lam, Penny>.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/134-0
+00:30:58.266 --> 00:31:01.702
+<v Lam, Penny>core adjacent, right,
+things that spin off of the core workflow</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/134-1
+00:31:01.702 --> 00:31:04.386
+<v Lam, Penny>for them to be able to take more context
+from us.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/135-0
+00:31:05.826 --> 00:31:06.226
+<v Lam, Penny>Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/136-0
+00:31:08.146 --> 00:31:13.391
+<v Lam, Penny>That makes sense. Okay. All right.
+So I think we wouldn't get too much into</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/136-1
+00:31:13.391 --> 00:31:17.945
+<v Lam, Penny>this because you know all the problems
+that we have here already.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/136-2
+00:31:17.945 --> 00:31:22.845
+<v Lam, Penny>So firm and user management,
+we'll start with kind of firm management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/136-3
+00:31:22.845 --> 00:31:26.226
+<v Lam, Penny>We've talked before about that kind of
+how do we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/137-0
+00:31:26.626 --> 00:31:31.607
+<v Lam, Penny>do the firm 360 flow into Compass?
+And then how do we activate the firm?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/137-1
+00:31:31.607 --> 00:31:36.860
+<v Lam, Penny>We don't have the ability to off-board
+firms. They live on forever, I think,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/137-2
+00:31:36.860 --> 00:31:40.203
+<v Lam, Penny>today, Candi.
+And then how do we manage the firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/137-3
+00:31:40.203 --> 00:31:43.956
+<v Lam, Penny>relationships?
+So we call all of that firm management.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/137-4
+00:31:43.956 --> 00:31:47.026
+<v Lam, Penny>So state of where we actually literally
+are,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-0
+00:31:47.986 --> 00:31:51.901
+<v Lam, Penny>With starting with firm subscriptions,
+so I think I, I think I showed you,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-1
+00:31:51.901 --> 00:31:54.980
+<v Lam, Penny>do you remember,
+do should I pull up from 360 again? Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-2
+00:31:54.980 --> 00:31:58.373
+<v Lam, Penny>yeah, yeah, we click on the firm,
+then it shows the information,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-3
+00:31:58.373 --> 00:32:00.774
+<v Lam, Penny>all our codes, yeah,
+firm you probably there,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-4
+00:32:00.774 --> 00:32:03.175
+<v Lam, Penny>and then at the bottom,
+product and services,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-5
+00:32:03.175 --> 00:32:06.098
+<v Lam, Penny>not a not a full list, right?
+It's got bits and pieces,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/138-6
+00:32:06.098 --> 00:32:08.186
+<v Lam, Penny>most of that is not actually on compass.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/139-0
+00:32:08.386 --> 00:32:12.646
+<v Lam, Penny>So when somebody subscribes to a tax
+package, that's through delivery,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/139-1
+00:32:12.646 --> 00:32:16.126
+<v Lam, Penny>like data delivery,
+it's not distributed through Compass.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/139-2
+00:32:16.126 --> 00:32:19.546
+<v Lam, Penny>And so the biggest gap today,
+because firm subscription,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/139-3
+00:32:19.546 --> 00:32:23.866
+<v Lam, Penny>firm settings in Compass works, right?
+You saw the firm settings panel,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/139-4
+00:32:23.866 --> 00:32:27.106
+<v Lam, Penny>there are orientation deficiencies,
+but by and large,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/144-0
+00:32:27.266 --> 00:32:32.837
+<v Lam, Penny>If you're talking about the job of being
+able to assign a firm and all of the its</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/144-1
+00:32:32.837 --> 00:32:35.826
+<v Lam, Penny>user specific things,
+we can do that today.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/145-0
+00:32:38.026 --> 00:32:39.746
+<v Lam, Penny>We want to get more into it, actually.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/154-0
+00:32:43.986 --> 00:32:49.260
+<v Lam, Penny>But that synchronization of firm 360 is
+obviously not there for the feature level.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/154-1
+00:32:49.260 --> 00:32:53.961
+<v Lam, Penny>So that's the part that's missing.
+But if I go just so we can see it with</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/154-2
+00:32:53.961 --> 00:32:57.138
+<v Lam, Penny>our eyeballs,
+if I kind of go into firm settings,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/154-3
+00:32:57.138 --> 00:33:02.475
+<v Lam, Penny>we know that to manage firm subscriptions,
+we list the resources that are available</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/154-4
+00:33:02.475 --> 00:33:03.746
+<v Lam, Penny>for us to configure.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/157-0
+00:33:04.866 --> 00:33:08.618
+<v Lam, Penny>We decide what at what level we want to
+configure them,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/157-1
+00:33:08.618 --> 00:33:13.911
+<v Lam, Penny>so not all resources are configurable
+today, right? You'll see in orders here,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/157-2
+00:33:13.911 --> 00:33:17.662
+<v Lam, Penny>it's a mega list,
+but then you can't check is this off.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/157-3
+00:33:17.662 --> 00:33:21.146
+<v Lam, Penny>We want the provisioning of that at a
+module level,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/157-4
+00:33:21.146 --> 00:33:23.826
+<v Lam, Penny>so we say we have the ability to define.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/158-0
+00:33:24.386 --> 00:33:26.626
+<v Lam, Penny>the short and height of the firm level
+based on.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/165-0
+00:33:27.666 --> 00:33:32.805
+<v Lam, Penny>Is it the module? It is the module, yeah,
+and and not the resources themselves.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/165-1
+00:33:32.805 --> 00:33:36.788
+<v Lam, Penny>This is this is the pseudo kind of
+feature concept, but once,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/165-2
+00:33:36.788 --> 00:33:41.156
+<v Lam, Penny>as long as you add those resources to a
+firm package and I pull up,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/165-3
+00:33:41.156 --> 00:33:45.588
+<v Lam, Penny>this is a rendering of that,
+what's in the what's in the contents of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/165-4
+00:33:45.588 --> 00:33:49.506
+<v Lam, Penny>that firm package,
+I should be able to configure stuff that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/171-0
+00:33:50.386 --> 00:33:55.249
+<v Lam, Penny>that I've assigned to that firm, right?
+So this firm has an IP package, which, no,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/171-1
+00:33:55.249 --> 00:33:59.878
+<v Lam, Penny>this is the BNI and internal package.
+I should have a list of all the features</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/171-2
+00:33:59.878 --> 00:34:02.631
+<v Lam, Penny>that are in here.
+If I go to a different firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/171-3
+00:34:02.631 --> 00:34:04.506
+<v Lam, Penny>what's a good example, actually?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/173-0
+00:34:05.506 --> 00:34:07.186
+<v Lam, Penny>I don't know if we did this actually,
+Candi.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/176-0
+00:34:08.386 --> 00:34:11.609
+<v Lam, Penny>I wanna, we're gonna test this out.
+I wonder if this dumps data to the other</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/176-1
+00:34:11.609 --> 00:34:11.986
+<v Lam, Penny>packages.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/177-0
+00:34:13.266 --> 00:34:13.746
+<v Lam, Penny>Can I try?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/180-0
+00:34:15.506 --> 00:34:16.466
+<v Lam, Penny>This is the test.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/187-0
+00:34:18.706 --> 00:34:23.701
+<v Lam, Penny>I go to a PM. Yeah, in production.
+In production. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/187-1
+00:34:23.701 --> 00:34:30.122
+<v Lam, Penny>this is one in production. Yeah.
+Let's go to, let's go to PVP, I guess.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/187-2
+00:34:30.122 --> 00:34:37.346
+<v Lam, Penny>So this is a PM and I should still see a
+very similar list of features, however.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/190-0
+00:34:37.906 --> 00:34:42.786
+<v Lam, Penny>You'll see on here as we go through,
+we don't have...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/195-0
+00:34:43.946 --> 00:34:46.997
+<v Lam, Penny>Thank God.
+We don't have trade allocations and we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/195-1
+00:34:46.997 --> 00:34:51.208
+<v Lam, Penny>don't have system health events.
+That's because we never added those</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/195-2
+00:34:51.208 --> 00:34:55.540
+<v Lam, Penny>resources to the PM package.
+We only added it to the internal packages</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/195-3
+00:34:55.540 --> 00:34:55.906
+<v Lam, Penny>today.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/200-0
+00:34:56.786 --> 00:35:01.718
+<v Lam, Penny>So, I'm gonna go back. So, PVP is like a,
+well, actually, it's a,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/200-1
+00:35:01.718 --> 00:35:08.144
+<v Lam, Penny>it's a parent firm, but it's a, it's a PM,
+but if I were to kind of provide to N.D.I.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/200-2
+00:35:08.144 --> 00:35:11.506
+<v Lam, Penny>N. So,
+each firm type has its own firm type.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/205-0
+00:35:12.466 --> 00:35:15.426
+<v Lam, Penny>Yeah, yeah,
+and then just I use the packages,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/205-1
+00:35:15.426 --> 00:35:18.965
+<v Lam, Penny>we got twenty-six,
+but here I think we got five or six</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/205-2
+00:35:18.965 --> 00:35:22.826
+<v Lam, Penny>different firm packages,
+and that's for us to bring certain</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/205-3
+00:35:22.826 --> 00:35:26.430
+<v Lam, Penny>features, so you'll see here type,
+there's an internal,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/205-4
+00:35:26.430 --> 00:35:30.226
+<v Lam, Penny>there's an introducing broker,
+what is this? I don't know.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/210-0
+00:35:31.226 --> 00:35:34.898
+<v Lam, Penny>What is that, Candi? I have uh,
+and BNI and internal,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/210-1
+00:35:34.898 --> 00:35:37.958
+<v Lam, Penny>but I also have like the core PM and IB,
+uh,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/210-2
+00:35:37.958 --> 00:35:42.786
+<v Lam, Penny>and I think there's IFM and their
+Investissements and Manager as well.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/210-3
+00:35:42.786 --> 00:35:47.750
+<v Lam, Penny>I know these types. OK, good. Uh,
+with NBIN on the platform, because uh,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/210-4
+00:35:47.750 --> 00:35:50.946
+<v Lam, Penny>like creating a global view is a special
+case.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/213-0
+00:35:51.266 --> 00:35:56.371
+<v Lam, Penny>our only our employees have access to
+these two firms, BNI and internal,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/213-1
+00:35:56.371 --> 00:35:59.727
+<v Lam, Penny>and BNI and when I go into there,
+I'm actually,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/213-2
+00:35:59.727 --> 00:36:05.042
+<v Lam, Penny>we actually have a BNI package that is
+targeted for just this kind of loose</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/213-3
+00:36:05.042 --> 00:36:10.706
+<v Lam, Penny>definition of a firm, BNI and internal,
+and typically we add everything to this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/216-0
+00:36:11.586 --> 00:36:15.403
+<v Lam, Penny>before we release its client.
+So we have access to it, we can test it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/216-1
+00:36:15.403 --> 00:36:19.273
+<v Lam, Penny>we can see what it looks like,
+we make it available to employees before</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/216-2
+00:36:19.273 --> 00:36:23.628
+<v Lam, Penny>clients start calling our employees and
+asking what the hell this is and can you</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/216-3
+00:36:23.628 --> 00:36:26.692
+<v Lam, Penny>support me on it?
+And so we do our internal distribution</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/216-4
+00:36:26.692 --> 00:36:30.186
+<v Lam, Penny>first by adding stuff to the NBN package
+first and the NBN core.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/217-0
+00:36:30.546 --> 00:36:33.971
+<v Lam, Penny>first. We're good. We do our Alpha. Okay,
+we're good.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/217-1
+00:36:33.971 --> 00:36:38.348
+<v Lam, Penny>Now we onboard the resources into the
+actual client-facing packages.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/217-2
+00:36:38.348 --> 00:36:42.598
+<v Lam, Penny>But as a result of that,
+we have an NPI package at the firm level.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/217-3
+00:36:42.598 --> 00:36:46.530
+<v Lam, Penny>We have an internal package, core,
+something like that. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/217-4
+00:36:46.530 --> 00:36:48.306
+<v Lam, Penny>maybe can you show the core?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/220-0
+00:36:51.026 --> 00:36:54.734
+<v Lam, Penny>So,
+the the definition or the biggest</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/220-1
+00:36:54.734 --> 00:37:01.955
+<v Lam, Penny>difference, if you search for BNI,
+you see core is also an internal type.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/220-2
+00:37:01.955 --> 00:37:08.786
+<v Lam, Penny>Core is the firm ID. Yeah, firm ID. So,
+what this one is used for is.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/225-0
+00:37:09.346 --> 00:37:15.960
+<v Lam, Penny>Basically, it got tasks accounts,
+and so when we assign a profile in here,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/225-1
+00:37:15.960 --> 00:37:20.546
+<v Lam, Penny>we can mimic what the client can do and
+go through.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/226-0
+00:37:22.546 --> 00:37:22.866
+<v Lam, Penny>Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/229-0
+00:37:24.386 --> 00:37:31.342
+<v Lam, Penny>So this is what we call the test booker
+or the if we want to pilot run something,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/229-1
+00:37:31.342 --> 00:37:36.941
+<v Lam, Penny>especially in production,
+we'll assign our profile and change our</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/229-2
+00:37:36.941 --> 00:37:42.115
+<v Lam, Penny>user package in here.
+So then we just like saying like stand</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/229-3
+00:37:42.115 --> 00:37:44.066
+<v Lam, Penny>and doing some testing.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/230-0
+00:37:44.706 --> 00:37:49.548
+<v Lam, Penny>with trading.
+So they may approve on here and why not</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/230-1
+00:37:49.548 --> 00:37:55.645
+<v Lam, Penny>in the BNI and the other one,
+the global access firm that Penny was</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/230-2
+00:37:55.645 --> 00:38:02.549
+<v Lam, Penny>looking at is that one doesn't have,
+first thing is it doesn't have any test</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/230-3
+00:38:02.549 --> 00:38:03.266
+<v Lam, Penny>account.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/231-0
+00:38:03.426 --> 00:38:07.813
+<v Lam, Penny>So,
+you cannot do the transactional testing</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/231-1
+00:38:07.813 --> 00:38:13.196
+<v Lam, Penny>with those,
+and secondly is that is some fake firm or</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/231-2
+00:38:13.196 --> 00:38:19.576
+<v Lam, Penny>just a firm we make up,
+and why do we do that is imagine in the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/231-3
+00:38:19.576 --> 00:38:22.866
+<v Lam, Penny>head office we need someone to...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/232-0
+00:38:23.146 --> 00:38:27.045
+<v Lam, Penny>be able to access all firms and then all
+accounts.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/232-1
+00:38:27.045 --> 00:38:30.867
+<v Lam, Penny>But the setup encompasses all firm
+contacts fund.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/232-2
+00:38:30.867 --> 00:38:36.448
+<v Lam, Penny>So if you are assigned to IPC,
+you can only see the accounts within IPC.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/232-3
+00:38:36.448 --> 00:38:42.487
+<v Lam, Penny>And that is very important because we're
+a platform supporting multiple client</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/232-4
+00:38:42.487 --> 00:38:42.946
+<v Lam, Penny>firms.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/233-0
+00:38:43.346 --> 00:38:48.120
+<v Lam, Penny>But then we also need someone at the MBIN
+headquarter level.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/233-1
+00:38:48.120 --> 00:38:53.754
+<v Lam, Penny>We can access all accounts under the sun.
+So we, in the very beginning,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/233-2
+00:38:53.754 --> 00:38:59.075
+<v Lam, Penny>we set up this MBIN, the global SX firm.
+And if you think about it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/233-3
+00:38:59.075 --> 00:39:03.066
+<v Lam, Penny>it's like the parent firm of all our
+client firms.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/234-0
+00:39:03.346 --> 00:39:06.977
+<v Lam, Penny>So,
+if let's say we have a profile assigned</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/234-1
+00:39:06.977 --> 00:39:10.938
+<v Lam, Penny>to this,
+we can practically support all the all</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/234-2
+00:39:10.938 --> 00:39:15.559
+<v Lam, Penny>the questions,
+and you sometimes will see we can select</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/234-3
+00:39:15.559 --> 00:39:21.666
+<v Lam, Penny>the firm, yeah, the firm drop down,
+Penny Penny showed the firm selector.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/235-0
+00:39:21.946 --> 00:39:27.920
+<v Lam, Penny>because we can go in whichever firm
+contacts and then see whatever relevant</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/235-1
+00:39:27.920 --> 00:39:33.972
+<v Lam, Penny>to that client. And also this one,
+we have to be very careful because again,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/235-2
+00:39:33.972 --> 00:39:38.138
+<v Lam, Penny>it has access to everything and we
+primarily use it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/235-3
+00:39:38.138 --> 00:39:42.146
+<v Lam, Penny>all the features we will put it in there
+for sure.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/236-0
+00:39:42.466 --> 00:39:47.146
+<v Lam, Penny>Because the validation,
+we have to do a lot of validation,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/236-1
+00:39:47.146 --> 00:39:53.491
+<v Lam, Penny>and if this question we have to jump in,
+and so that's why this profile we have</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/236-2
+00:39:53.491 --> 00:39:59.044
+<v Lam, Penny>access to everything, yeah,
+so those are so in our kind of going back</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/236-3
+00:39:59.044 --> 00:40:01.106
+<v Lam, Penny>to our our firm hierarchy.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-0
+00:40:01.586 --> 00:40:06.477
+<v Lam, Penny>Yeah, because we didn't talk about this.
+So we know that every firm might have its</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-1
+00:40:06.477 --> 00:40:09.894
+<v Lam, Penny>own broker code,
+or it might be belong to a shared broker</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-2
+00:40:09.894 --> 00:40:14.077
+<v Lam, Penny>code because we were trying to be
+economical with the number of broker</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-3
+00:40:14.077 --> 00:40:17.554
+<v Lam, Penny>codes being used.
+And each broker obviously is a business,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-4
+00:40:17.554 --> 00:40:22.150
+<v Lam, Penny>right? So for NBI and to Candi's point,
+we can't be logging into every single</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/237-5
+00:40:22.150 --> 00:40:25.626
+<v Lam, Penny>firm and have like 400 IDs to support
+them if I call them.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-0
+00:40:25.706 --> 00:40:29.606
+<v Lam, Penny>us it could be any client or client
+support team structure is flat.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-1
+00:40:29.606 --> 00:40:34.136
+<v Lam, Penny>They'll take calls from any clients,
+right? They specialize in like functions.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-2
+00:40:34.136 --> 00:40:37.519
+<v Lam, Penny>So like we have a team specializing in
+account management,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-3
+00:40:37.519 --> 00:40:40.214
+<v Lam, Penny>we have a team specializing in trading,
+right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-4
+00:40:40.214 --> 00:40:43.139
+<v Lam, Penny>So they need cross-firm access like to
+everything.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/238-5
+00:40:43.139 --> 00:40:45.146
+<v Lam, Penny>So NBN internal is that concept of.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-0
+00:40:45.866 --> 00:40:48.155
+<v Lam, Penny>It doesn't actually exist in the
+hierarchy.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-1
+00:40:48.155 --> 00:40:51.588
+<v Lam, Penny>We made it up to say this is just global
+access to all the firms.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-2
+00:40:51.588 --> 00:40:54.554
+<v Lam, Penny>So we're careful in provisioning that,
+to Kenny's point,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-3
+00:40:54.554 --> 00:40:58.299
+<v Lam, Penny>because you can do a lot of damage.
+If you're a new guy or uninitiated,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-4
+00:40:58.299 --> 00:41:02.305
+<v Lam, Penny>we typically don't give you that access
+because you can see all client data,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-5
+00:41:02.305 --> 00:41:05.790
+<v Lam, Penny>you can see all transactions,
+you can assist in initiating certain</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/240-6
+00:41:05.790 --> 00:41:06.466
+<v Lam, Penny>transactions.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-0
+00:41:06.586 --> 00:41:10.257
+<v Lam, Penny>from there. But it is a good test bed,
+so when we launch new features,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-1
+00:41:10.257 --> 00:41:14.032
+<v Lam, Penny>we launch the environment first. Oh, okay.
+That's still too much access.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-2
+00:41:14.032 --> 00:41:17.496
+<v Lam, Penny>So if you're not supporting a client
+directly, because we are not,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-3
+00:41:17.496 --> 00:41:20.082
+<v Lam, Penny>the product team isn't,
+Raise project team isn't,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-4
+00:41:20.082 --> 00:41:23.494
+<v Lam, Penny>we're not client-facing teams,
+you don't need access to all those</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-5
+00:41:23.494 --> 00:41:26.804
+<v Lam, Penny>accounts and all that data.
+You just need to know that whatever</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/241-6
+00:41:26.804 --> 00:41:27.786
+<v Lam, Penny>feature you deploy.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/242-0
+00:41:28.186 --> 00:41:32.673
+<v Lam, Penny>It works in like for a firm.
+So then we have another special case</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/242-1
+00:41:32.673 --> 00:41:38.316
+<v Lam, Penny>concept, which is what Candi called out.
+It's Coronet. It's Correspondent Network,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/242-2
+00:41:38.316 --> 00:41:43.551
+<v Lam, Penny>which is what BNI was called before BNI.
+That's why you see core everywhere.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/242-3
+00:41:43.551 --> 00:41:46.746
+<v Lam, Penny>People hate it.
+But this is actually a broker.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/245-0
+00:41:47.226 --> 00:41:52.695
+<v Lam, Penny>So it has a broker code. Okay.
+And this is for us to have a dedicated</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/245-1
+00:41:52.695 --> 00:41:58.712
+<v Lam, Penny>BNI account range for us to do stuff in.
+It's not actually just for testing,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/245-2
+00:41:58.712 --> 00:42:02.774
+<v Lam, Penny>but you know,
+if we need to refund somebody or hold</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/245-3
+00:42:02.774 --> 00:42:07.306
+<v Lam, Penny>funds or whatever,
+we have a set of operational accounts.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-0
+00:42:07.706 --> 00:42:10.832
+<v Lam, Penny>that we use that broker code for across
+all the teams here,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-1
+00:42:10.832 --> 00:42:13.124
+<v Lam, Penny>especially the transactional support
+teams,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-2
+00:42:13.124 --> 00:42:17.395
+<v Lam, Penny>like accounting might funnel some funds
+into there for holding before it goes out</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-3
+00:42:17.395 --> 00:42:20.729
+<v Lam, Penny>to the firm. You know,
+there might be error accounts where, oh,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-4
+00:42:20.729 --> 00:42:23.542
+<v Lam, Penny>there's an error,
+I need to debit somewhere, it goes,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/247-5
+00:42:23.542 --> 00:42:25.626
+<v Lam, Penny>it passes through those set of accounts.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/248-0
+00:42:26.426 --> 00:42:31.608
+<v Lam, Penny>happens that product team also has a set
+of accounts for testing purposes because</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/248-1
+00:42:31.608 --> 00:42:36.410
+<v Lam, Penny>production is never the same as UAT.
+So we want to have a broker setup with</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/248-2
+00:42:36.410 --> 00:42:40.265
+<v Lam, Penny>all the behaviors of a broker in here,
+which is called core.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/248-3
+00:42:40.265 --> 00:42:42.666
+<v Lam, Penny>We assign it features just like we do.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-0
+00:42:43.746 --> 00:42:46.480
+<v Lam, Penny>here,
+so it does have a firm package on its own.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-1
+00:42:46.480 --> 00:42:50.218
+<v Lam, Penny>It does have a set of resources that are
+assigned to that package,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-2
+00:42:50.218 --> 00:42:54.124
+<v Lam, Penny>but specifically tailored to our test
+environment and our operational</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-3
+00:42:54.124 --> 00:42:57.025
+<v Lam, Penny>environment,
+and typically also includes all of the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-4
+00:42:57.025 --> 00:43:01.601
+<v Lam, Penny>features that BNI and internal would have,
+because product team and project teams</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/257-5
+00:43:01.601 --> 00:43:03.386
+<v Lam, Penny>would typically use our project.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/260-0
+00:43:03.786 --> 00:43:07.180
+<v Lam, Penny>testing accounts in here,
+Stan actually places real orders in our</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/260-1
+00:43:07.180 --> 00:43:10.472
+<v Lam, Penny>product team account range.
+I actually get a trade confirmation</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/260-2
+00:43:10.472 --> 00:43:14.638
+<v Lam, Penny>coming back to say he placed the order
+and he better damn well sell it before we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/260-3
+00:43:14.638 --> 00:43:17.775
+<v Lam, Penny>accrue interest because we have to attest
+to those accounts.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/260-4
+00:43:17.775 --> 00:43:21.786
+<v Lam, Penny>The use of those accounts for not to make
+money but to run operations, right?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-0
+00:43:23.546 --> 00:43:27.171
+<v Lam, Penny>So you'll see similar thing,
+but just to explain why sometimes you</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-1
+00:43:27.171 --> 00:43:30.904
+<v Lam, Penny>look in here and you're like, oh,
+this package has certain features,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-2
+00:43:30.904 --> 00:43:33.718
+<v Lam, Penny>but how come the other firms' packages
+don't? Well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-3
+00:43:33.718 --> 00:43:38.046
+<v Lam, Penny>it's because we might not have gone to
+that place where we packaged it into the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-4
+00:43:38.046 --> 00:43:41.130
+<v Lam, Penny>IBRPM yet, right? So like, yeah,
+this is a good example.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/265-5
+00:43:41.130 --> 00:43:42.266
+<v Lam, Penny>I don't think that's.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/268-0
+00:43:42.346 --> 00:43:46.409
+<v Lam, Penny>Oh no, that's not a good example.
+Like view system health events is not in</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/268-1
+00:43:46.409 --> 00:43:50.906
+<v Lam, Penny>the key in package that you saw. Right.
+I don't know where trade allocations went.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/271-0
+00:43:54.746 --> 00:43:58.426
+<v Lam, Penny>Uh, I don't know where it went, um, so...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/276-0
+00:43:59.586 --> 00:44:03.359
+<v Lam, Penny>It kind of works today.
+It fulfills the job of the ability to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/276-1
+00:44:03.359 --> 00:44:08.532
+<v Lam, Penny>tailor certain features for certain firms,
+the ability to toggle that feature on and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/276-2
+00:44:08.532 --> 00:44:12.123
+<v Lam, Penny>off based on the firm's subscription and
+their preference.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/276-3
+00:44:12.123 --> 00:44:16.505
+<v Lam, Penny>So if they have a presence to say,
+I don't want to use this tool for my</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/276-4
+00:44:16.505 --> 00:44:19.426
+<v Lam, Penny>advisors or my shop,
+please turn it off for me.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-0
+00:44:19.626 --> 00:44:22.274
+<v Lam, Penny>We will go in here and turn it off for
+them. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-1
+00:44:22.274 --> 00:44:26.427
+<v Lam, Penny>that typically gets addressed when we
+launch new features with Radhika. Anyway,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-2
+00:44:26.427 --> 00:44:28.970
+<v Lam, Penny>the firm will say, like,
+if states got launched,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-3
+00:44:28.970 --> 00:44:31.929
+<v Lam, Penny>2 firms didn't want estates,
+we turned it off. Actually,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-4
+00:44:31.929 --> 00:44:34.525
+<v Lam, Penny>I think we can,
+I think we can actually see that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/277-5
+00:44:34.525 --> 00:44:36.186
+<v Lam, Penny>Is estates in here in, you know?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/286-0
+00:44:38.826 --> 00:44:43.845
+<v Lam, Penny>It still is on tools, no? Oh, it is tools.
+So how do we turn them on?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/286-1
+00:44:43.845 --> 00:44:48.791
+<v Lam, Penny>We have to call infinite.
+This is why we got to fix the integration.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/286-2
+00:44:48.791 --> 00:44:54.025
+<v Lam, Penny>Yeah, I think, yeah, you can't see,
+oh my god, you can't see it on here.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/286-3
+00:44:54.025 --> 00:44:57.466
+<v Lam, Penny>I think it showed, if you throw that,
+I saw it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/295-0
+00:44:58.986 --> 00:45:03.136
+<v Lam, Penny>No, it's not. It's not here. It's shown,
+yeah, like this one. Well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/295-1
+00:45:03.136 --> 00:45:07.774
+<v Lam, Penny>actually a good example that's more
+tangible. Yeah, tools. Tools, but yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/295-2
+00:45:07.774 --> 00:45:11.740
+<v Lam, Penny>you can't, you can't show and hide.
+These are confusing as well.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/295-3
+00:45:11.740 --> 00:45:14.609
+<v Lam, Penny>It show it in here,
+but practically we cannot.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/295-4
+00:45:14.609 --> 00:45:18.026
+<v Lam, Penny>We cannot hide it.
+We cannot choose which tool to show.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/298-0
+00:45:18.266 --> 00:45:20.433
+<v Lam, Penny>Yeah,
+so I would say limitations here is</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/298-1
+00:45:20.433 --> 00:45:24.291
+<v Lam, Penny>strictly like orientation of this forum.
+Not everybody comes in here and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/298-2
+00:45:24.291 --> 00:45:27.726
+<v Lam, Penny>understands how it works.
+That's the biggest deal we had when we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/298-3
+00:45:27.726 --> 00:45:30.632
+<v Lam, Penny>launched is how do you define the show
+and high? Well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/298-4
+00:45:30.632 --> 00:45:32.746
+<v Lam, Penny>you need to register specific resources.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/299-0
+00:45:33.866 --> 00:45:37.907
+<v Lam, Penny>To do that, and you have to define,
+I think, module groups as well,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/299-1
+00:45:37.907 --> 00:45:42.602
+<v Lam, Penny>which is again a very bespoke concept
+that somebody came up with to enable the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/299-2
+00:45:42.602 --> 00:45:45.990
+<v Lam, Penny>show and hide.
+This is not easy to explain why there are</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/299-3
+00:45:45.990 --> 00:45:49.912
+<v Lam, Penny>check boxes in gray. Well,
+that's just the way we implemented it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/299-4
+00:45:49.912 --> 00:45:52.586
+<v Lam, Penny>So there are usability challenges with
+this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/300-0
+00:45:52.746 --> 00:45:56.797
+<v Lam, Penny>Once you train somebody on it, though,
+it kind of makes sense.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/300-1
+00:45:56.797 --> 00:46:01.555
+<v Lam, Penny>At least product activation can use it to
+launch features. But obviously,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/300-2
+00:46:01.555 --> 00:46:06.570
+<v Lam, Penny>like limitations on degree of control,
+how you define the controls and how it</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/300-3
+00:46:06.570 --> 00:46:10.813
+<v Lam, Penny>gets loaded into here.
+It's just a little confusing. But it like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/300-4
+00:46:10.813 --> 00:46:11.906
+<v Lam, Penny>I mean, it works.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/305-0
+00:46:13.146 --> 00:46:17.441
+<v Lam, Penny>Yeah, it works. It works to a degree.
+You get into tricky things where, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/305-1
+00:46:17.441 --> 00:46:19.864
+<v Lam, Penny>if you want something to show up on the
+UI,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/305-2
+00:46:19.864 --> 00:46:24.214
+<v Lam, Penny>then you have to define it as a module,
+then you have to register these things</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/305-3
+00:46:24.214 --> 00:46:27.077
+<v Lam, Penny>separately, even though I say, well,
+features wise,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/305-4
+00:46:27.077 --> 00:46:30.986
+<v Lam, Penny>this actually all goes together.
+So there is a bit of a limitation on.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/306-0
+00:46:31.626 --> 00:46:36.465
+<v Lam, Penny>Like just the application of resources
+itself and how that affects the UI,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/306-1
+00:46:36.465 --> 00:46:41.239
+<v Lam, Penny>but I think Candi can give you more
+details on that than I can. No, Owen,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/306-2
+00:46:41.239 --> 00:46:46.078
+<v Lam, Penny>Owen can give you more details on that
+than I can call it. Yeah, but like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/306-3
+00:46:46.078 --> 00:46:49.626
+<v Lam, Penny>there's limitations on, I guess,
+the feature bundling.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/307-0
+00:46:50.266 --> 00:46:54.254
+<v Lam, Penny>but not to do with firm settings,
+it's more to do with how the resources</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/307-1
+00:46:54.254 --> 00:46:54.746
+<v Lam, Penny>are used.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/316-0
+00:46:56.266 --> 00:47:01.820
+<v Lam, Penny>But, for example, this in BNI,
+let's consider that it has been</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/316-1
+00:47:01.820 --> 00:47:07.903
+<v Lam, Penny>registered in Firm 360 as well. OK,
+I remember there we were we were</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/316-2
+00:47:07.903 --> 00:47:14.426
+<v Lam, Penny>selecting or subscribing to to some of
+the features, and I remember that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/327-0
+00:47:14.906 --> 00:47:22.963
+<v Lam, Penny>It was it was there as a source of the
+route that is going to downstream to to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/327-1
+00:47:22.963 --> 00:47:31.123
+<v Lam, Penny>Compass X because it's where the billing
+starts and that's where the firms gets</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/327-2
+00:47:31.123 --> 00:47:38.466
+<v Lam, Penny>onboarded in terms of the contract and so
+account opening and so forth.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/328-0
+00:47:39.146 --> 00:47:39.946
+<v Lam, Penny>So.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/333-0
+00:47:41.346 --> 00:47:47.964
+<v Lam, Penny>What is a bit confusing for me is that
+how we map what has been subscribed here</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/333-1
+00:47:47.964 --> 00:47:53.258
+<v Lam, Penny>against what we show here. Yeah. To here.
+Yeah. It doesn't map.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/333-2
+00:47:53.258 --> 00:47:57.890
+<v Lam, Penny>That's what I'm saying.
+There's no lineage of Fermi 16.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/333-3
+00:47:57.890 --> 00:48:02.026
+<v Lam, Penny>You said that it's totally offline.
+It's totally.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/334-0
+00:48:03.706 --> 00:48:07.306
+<v Lam, Penny>Manual, yeah, every, but OK.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/337-0
+00:48:08.746 --> 00:48:09.546
+<v Lam, Penny>It's.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/340-0
+00:48:10.906 --> 00:48:19.066
+<v Lam, Penny>Somehow, for example, here says, okay,
+this firm has subscribed to trading.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/343-0
+00:48:20.266 --> 00:48:24.158
+<v Lam, Penny>How we can see that,
+whether you don't see it, you're gonna,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/343-1
+00:48:24.158 --> 00:48:29.580
+<v Lam, Penny>it's totally offline, two points of entry,
+right? So, when you first onboard a firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/343-2
+00:48:29.580 --> 00:48:33.663
+<v Lam, Penny>we have a team called Firm
+Implementations. They call the firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/343-3
+00:48:33.663 --> 00:48:38.830
+<v Lam, Penny>the key contract at the firm, and say,
+"I'm now gonna set up all the systems and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/343-4
+00:48:38.830 --> 00:48:40.106
+<v Lam, Penny>tools and services."</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/344-0
+00:48:40.146 --> 00:48:43.443
+<v Lam, Penny>for you.
+That person called Kayla is going to take</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/344-1
+00:48:43.443 --> 00:48:47.644
+<v Lam, Penny>down and look at the contract and take
+down, okay, what is this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/344-2
+00:48:47.644 --> 00:48:52.621
+<v Lam, Penny>what is this firm supposed to have?
+And then she's going to go into each of,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/344-3
+00:48:52.621 --> 00:48:57.145
+<v Lam, Penny>because she's got a procedure guy,
+she's going to go into each of the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/344-4
+00:48:57.145 --> 00:48:59.666
+<v Lam, Penny>systems and configure it based on that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-0
+00:49:00.186 --> 00:49:04.033
+<v Lam, Penny>playbook based on that set of procedures.
+And one of the things she will do is she</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-1
+00:49:04.033 --> 00:49:07.880
+<v Lam, Penny>will go into Compass and she will do the
+checks right on what the firm is supposed</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-2
+00:49:07.880 --> 00:49:10.243
+<v Lam, Penny>to have.
+And if the firm at the time of onboarding</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-3
+00:49:10.243 --> 00:49:12.653
+<v Lam, Penny>says, oh,
+I'm going to bring my own account opening</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-4
+00:49:12.653 --> 00:49:16.176
+<v Lam, Penny>solution because that's the most real,
+like nobody says don't take trading.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/345-5
+00:49:16.176 --> 00:49:19.466
+<v Lam, Penny>Like they usually say I'm bringing in my
+own account opening solution.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-0
+00:49:19.826 --> 00:49:23.075
+<v Lam, Penny>Then Kayla would go into here and just
+hide it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-1
+00:49:23.075 --> 00:49:26.594
+<v Lam, Penny>What ideally Kayla should have is a
+one-step setup,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-2
+00:49:26.594 --> 00:49:30.181
+<v Lam, Penny>which is what we're seeing here,
+from configuration,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-3
+00:49:30.181 --> 00:49:33.972
+<v Lam, Penny>so the information doesn't get lost and
+it's traceable.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-4
+00:49:33.972 --> 00:49:39.386
+<v Lam, Penny>And we take this information and we use
+whatever is relevant for Compass and we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/346-5
+00:49:39.386 --> 00:49:40.266
+<v Lam, Penny>implement it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/349-0
+00:49:40.586 --> 00:49:45.454
+<v Lam, Penny>That's where we want to be.
+But clearly that does not exist today.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/349-1
+00:49:45.454 --> 00:49:50.177
+<v Lam, Penny>So again, it's all manual.
+And we don't onboard too many firms a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/349-2
+00:49:50.177 --> 00:49:54.972
+<v Lam, Penny>month. Right? What a year, in a year?
+I mean, like, I don't know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/349-3
+00:49:54.972 --> 00:49:59.186
+<v Lam, Penny>like the half dozen dozen firms.
+And so we get away, but.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/350-0
+00:49:59.266 --> 00:50:03.222
+<v Lam, Penny>The with the manual communication,
+and then if there's confusion,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/350-1
+00:50:03.222 --> 00:50:06.818
+<v Lam, Penny>Kayla just kind of walks over fast,
+but it is disconnected,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/350-2
+00:50:06.818 --> 00:50:10.954
+<v Lam, Penny>and so when you kind of come back to here,
+and like Ray said before,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/350-3
+00:50:10.954 --> 00:50:15.209
+<v Lam, Penny>if you want a global view of all the
+products and services for a firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/350-4
+00:50:15.209 --> 00:50:18.026
+<v Lam, Penny>you're going to pull it from different
+places.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/351-0
+00:50:18.266 --> 00:50:19.706
+<v Lam, Penny>To Put into here.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/352-0
+00:50:20.746 --> 00:50:24.354
+<v Lam, Penny>on the insights, right?
+And he will have the whole thing going on</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/352-1
+00:50:24.354 --> 00:50:28.728
+<v Lam, Penny>with data aggregation and analytics and
+adoption metrics and all that stuff for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/352-2
+00:50:28.728 --> 00:50:33.047
+<v Lam, Penny>that firm from all the different places
+that you need to pull that information</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/352-3
+00:50:33.047 --> 00:50:34.906
+<v Lam, Penny>from because it's not centralized.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-0
+00:50:37.946 --> 00:50:40.684
+<v Lam, Penny>So yeah, so it's kind of segregated.
+It depends on the.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-1
+00:50:40.684 --> 00:50:44.057
+<v Lam, Penny>So that's one entry point.
+The other entry point is when we launch a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-2
+00:50:44.057 --> 00:50:46.599
+<v Lam, Penny>new feature,
+then Radhika goes out to all the firms</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-3
+00:50:46.599 --> 00:50:48.995
+<v Lam, Penny>and says, it's like, you know, well,
+number one,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-4
+00:50:48.995 --> 00:50:53.102
+<v Lam, Penny>we're going to determine should that firm
+have this feature or not is even relevant</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-5
+00:50:53.102 --> 00:50:55.986
+<v Lam, Penny>for them. Check.
+And then the other piece is have we like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/353-6
+00:50:55.986 --> 00:50:56.426
+<v Lam, Penny>you know,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/354-0
+00:50:59.146 --> 00:51:02.974
+<v Lam, Penny>Has has has the kind of heavy like RVPs
+or however like have they signed a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/354-1
+00:51:02.974 --> 00:51:06.240
+<v Lam, Penny>contract and defined it?
+Is it relevant for them when we launch</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/354-2
+00:51:06.240 --> 00:51:09.914
+<v Lam, Penny>that product? Who does it go to?
+Who actually signed this contract? So,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/354-3
+00:51:09.914 --> 00:51:12.874
+<v Lam, Penny>that's kind of like the digit
+implementation with Wilson.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/354-4
+00:51:12.874 --> 00:51:15.426
+<v Lam, Penny>We know that as well,
+and then we go again and...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-0
+00:51:15.706 --> 00:51:19.673
+<v Lam, Penny>kind of come into it and manually
+configure companies in a certain way to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-1
+00:51:19.673 --> 00:51:23.908
+<v Lam, Penny>distribute that feature to the firm.
+Usually the stuff that goes to this team,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-2
+00:51:23.908 --> 00:51:26.320
+<v Lam, Penny>all of it is core anyway,
+like core product.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-3
+00:51:26.320 --> 00:51:30.340
+<v Lam, Penny>So everybody tends to get it and
+Radhika's team's job mainly is to refine,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-4
+00:51:30.340 --> 00:51:33.235
+<v Lam, Penny>okay, even though you should have it,
+do you want it?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/355-5
+00:51:33.235 --> 00:51:36.826
+<v Lam, Penny>And then you get that feedback from the
+clients and then we go on.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/356-0
+00:51:37.306 --> 00:51:38.826
+<v Lam, Penny>Cascade that into a firm setting.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/357-0
+00:51:40.026 --> 00:51:41.466
+<v Lam, Penny>Still kind of conversation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/358-0
+00:51:42.746 --> 00:51:43.626
+<v Lam, Penny>Ideally.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-0
+00:51:44.826 --> 00:51:49.119
+<v Lam, Penny>firms actually have a version of firm
+settings, right? And so when we say, hey,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-1
+00:51:49.119 --> 00:51:51.695
+<v Lam, Penny>this feature is now available,
+you can have it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-2
+00:51:51.695 --> 00:51:55.773
+<v Lam, Penny>you can share it with your users,
+then a firm can decide at the firm level,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-3
+00:51:55.773 --> 00:51:58.779
+<v Lam, Penny>do I want to hide it globally for
+everybody or show it?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-4
+00:51:58.779 --> 00:52:01.676
+<v Lam, Penny>Both the ones that obviously gets
+distributed to you.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-5
+00:52:01.676 --> 00:52:05.540
+<v Lam, Penny>It doesn't remove the step of firm
+implementation or product activation</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/359-6
+00:52:05.540 --> 00:52:06.506
+<v Lam, Penny>coming in and say,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/360-0
+00:52:06.746 --> 00:52:10.734
+<v Lam, Penny>now I'm going to assign this feature to
+that firm. They still need to do that,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/360-1
+00:52:10.734 --> 00:52:14.369
+<v Lam, Penny>but a firm ideally actually sees a
+version of that and then refines the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/360-2
+00:52:14.369 --> 00:52:18.407
+<v Lam, Penny>preferences of what they want to globally
+set in the system for their own users</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/360-3
+00:52:18.407 --> 00:52:21.588
+<v Lam, Penny>that way. Right now,
+it's all through calls, emails, feedback,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/360-4
+00:52:21.588 --> 00:52:25.626
+<v Lam, Penny>what do you want, what do you not want,
+I'll do it for you, that kind of thing.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/361-0
+00:52:26.426 --> 00:52:26.906
+<v Lam, Penny>Um...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/362-0
+00:52:27.786 --> 00:52:30.490
+<v Lam, Penny>Or in most cases,
+we actually only do that for like the top</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/362-1
+00:52:30.490 --> 00:52:31.706
+<v Lam, Penny>five firms, everybody else.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/364-0
+00:52:32.946 --> 00:52:36.072
+<v Lam, Penny>Just gonna enable it to hell with it,
+right? Just gonna get it,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/364-1
+00:52:36.072 --> 00:52:37.146
+<v Lam, Penny>stop asking questions.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/367-0
+00:52:38.986 --> 00:52:46.127
+<v Lam, Penny>So, when we deliver a new feature,
+do we have some kind of like product road</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/367-1
+00:52:46.127 --> 00:52:51.784
+<v Lam, Penny>show, for example,
+invite all of the parties and or record a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/367-2
+00:52:51.784 --> 00:52:57.626
+<v Lam, Penny>webinar or something like that to go
+through presentation and.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/368-0
+00:52:59.306 --> 00:53:02.141
+<v Lam, Penny>Not formally,
+we've been talking about it for years,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/368-1
+00:53:02.141 --> 00:53:06.420
+<v Lam, Penny>but nobody has time to put one together.
+So we used to have annual conferences,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/368-2
+00:53:06.420 --> 00:53:10.593
+<v Lam, Penny>that's where we showcase our features.
+And then that's kind of our main touch</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/368-3
+00:53:10.593 --> 00:53:13.588
+<v Lam, Penny>point with clients to find out what's new
+and upcoming.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/368-4
+00:53:13.588 --> 00:53:17.386
+<v Lam, Penny>But we've actually pivoted the format of
+our annual client conference.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-0
+00:53:17.466 --> 00:53:20.073
+<v Lam, Penny>as of this year.
+So it's no longer an BNI conference,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-1
+00:53:20.073 --> 00:53:23.646
+<v Lam, Penny>it's more of an industry conference.
+So now there is actually a whole of,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-2
+00:53:23.646 --> 00:53:27.653
+<v Lam, Penny>we used to do all the product marketing
+and kind of engagement in that conference.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-3
+00:53:27.653 --> 00:53:31.612
+<v Lam, Penny>We disinvited half those people because
+we wanted to bring more C-suite attendees</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-4
+00:53:31.612 --> 00:53:34.895
+<v Lam, Penny>to our industry conference.
+Now where are these people going to go?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/369-5
+00:53:34.895 --> 00:53:36.826
+<v Lam, Penny>So next year there should be a roadshow.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-0
+00:53:37.946 --> 00:53:41.941
+<v Lam, Penny>But somebody just needs to plan it.
+And I think Radhika has spearheaded that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-1
+00:53:41.941 --> 00:53:44.707
+<v Lam, Penny>In lieu of that,
+then it's a lot of communication and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-2
+00:53:44.707 --> 00:53:47.216
+<v Lam, Penny>collateral.
+And so the go-to-market process does</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-3
+00:53:47.216 --> 00:53:50.135
+<v Lam, Penny>include product marketing.
+That's what Yash is here for.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-4
+00:53:50.135 --> 00:53:53.772
+<v Lam, Penny>There's still written communications,
+notice, maybe change management,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-5
+00:53:53.772 --> 00:53:56.486
+<v Lam, Penny>learning and development comes in and
+runs sessions,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/370-6
+00:53:56.486 --> 00:53:59.866
+<v Lam, Penny>run webinars to introduce the feature.
+People do show up to that.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-0
+00:54:00.066 --> 00:54:03.762
+<v Lam, Penny>to learn about the new features,
+especially if they're big features and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-1
+00:54:03.762 --> 00:54:06.226
+<v Lam, Penny>people,
+we get quite good attendance on the big</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-2
+00:54:06.226 --> 00:54:08.484
+<v Lam, Penny>ones.
+And then we have a handful of what we</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-3
+00:54:08.484 --> 00:54:12.590
+<v Lam, Penny>call the special handling firms where we
+drive a direct engagement with them to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-4
+00:54:12.590 --> 00:54:16.850
+<v Lam, Penny>talk them through the planning and what
+they're getting and do you want it or not?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/371-5
+00:54:16.850 --> 00:54:20.546
+<v Lam, Penny>And they can have the opportunity to kind
+of customize your experience.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/372-0
+00:54:21.146 --> 00:54:26.152
+<v Lam, Penny>Give us feature requests, uh,
+because those are our biggest clients. OK,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/372-1
+00:54:26.152 --> 00:54:26.906
+<v Lam, Penny>yeah, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/373-0
+00:54:31.506 --> 00:54:34.717
+<v Lam, Penny>I don't think,
+I think this section for add-on has been</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/373-1
+00:54:34.717 --> 00:54:38.043
+<v Lam, Penny>abandoned. Nobody uses it.
+I don't know why it was there.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/373-2
+00:54:38.043 --> 00:54:39.706
+<v Lam, Penny>Do you know why it was there?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/374-0
+00:54:41.146 --> 00:54:45.026
+<v Lam, Penny>Yeah,
+there was an ambition to put it on there.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/379-0
+00:54:46.986 --> 00:54:51.768
+<v Lam, Penny>Okay, so launched. Just ignore it.
+I don't even know how you would populate</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/379-1
+00:54:51.768 --> 00:54:56.110
+<v Lam, Penny>something here. No, no. No, I do.
+One thing to note, I guess, Candi,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/379-2
+00:54:56.110 --> 00:54:59.634
+<v Lam, Penny>do we still have the concept of active
+firm activation?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/379-3
+00:54:59.634 --> 00:55:02.906
+<v Lam, Penny>Like if we have a new firm coming in from
+Firm 360.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/384-0
+00:55:04.146 --> 00:55:10.390
+<v Lam, Penny>What's the status of it on here?
+So you see this is the list of all the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/384-1
+00:55:10.390 --> 00:55:15.767
+<v Lam, Penny>firms we pull from Firm 360 and the
+downloads done every day.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/384-2
+00:55:15.767 --> 00:55:20.971
+<v Lam, Penny>So if someone set up, like Penny said,
+plan implementation,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/384-3
+00:55:20.971 --> 00:55:24.266
+<v Lam, Penny>basically they interact with Firm 360.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/385-0
+00:55:24.506 --> 00:55:30.384
+<v Lam, Penny>if they want to onboard a firm or do any
+changes. And in some situation,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/385-1
+00:55:30.384 --> 00:55:35.618
+<v Lam, Penny>maybe a firm got expanded.
+So they got more Oracle, more ranges,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/385-2
+00:55:35.618 --> 00:55:41.576
+<v Lam, Penny>or maybe the account ranges for them.
+Anything changed on the firm level.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/385-3
+00:55:41.576 --> 00:55:43.106
+<v Lam, Penny>So this loaded job.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/386-0
+00:55:43.386 --> 00:55:49.237
+<v Lam, Penny>will pick up the changes or any net new
+firm rather than to BNI and load it in</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/386-1
+00:55:49.237 --> 00:55:54.570
+<v Lam, Penny>here. So these ones not just enable,
+you see a lot of them are enabled,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/386-2
+00:55:54.570 --> 00:55:58.939
+<v Lam, Penny>but there's also maybe something disabled
+at the meantime.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/386-3
+00:55:58.939 --> 00:56:02.346
+<v Lam, Penny>And so the firm onboarding process for us
+is.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/387-0
+00:56:02.626 --> 00:56:08.267
+<v Lam, Penny>When the firm got set up in Firm 360,
+then someone will have to come here.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/387-1
+00:56:08.267 --> 00:56:12.555
+<v Lam, Penny>Usually, it was digital support,
+not sure to them. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/387-2
+00:56:12.555 --> 00:56:16.993
+<v Lam, Penny>they would come here,
+they got the message that we have to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/387-3
+00:56:16.993 --> 00:56:21.807
+<v Lam, Penny>onboard the firm. No,
+it's firm activation, product activation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/387-4
+00:56:21.807 --> 00:56:23.386
+<v Lam, Penny>It's Radhika Stanley.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/388-0
+00:56:23.626 --> 00:56:27.186
+<v Lam, Penny>Is it? I don't know,
+like between the three teams that keeps...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/388-1
+00:56:27.186 --> 00:56:30.968
+<v Lam, Penny>Ohh, yeah, I'm not sure,
+but they they will come here, find a firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/388-2
+00:56:30.968 --> 00:56:35.306
+<v Lam, Penny>and if the firm usually the first time
+the firm can you find a disabled firm?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/389-0
+00:56:36.666 --> 00:56:40.057
+<v Lam, Penny>It's hard to find, doesn't that exist?
+Hmm, yeah, yeah, OK, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/389-1
+00:56:40.057 --> 00:56:42.986
+<v Lam, Penny>if you bring it up, can you click on that,
+please? Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/392-0
+00:56:44.506 --> 00:56:48.986
+<v Lam, Penny>So, you see, um, are you in the front?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/399-0
+00:56:49.866 --> 00:56:54.272
+<v Lam, Penny>Yeah, firm setting. Oh, yeah, yeah.
+So it doesn't, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/399-1
+00:56:54.272 --> 00:56:59.296
+<v Lam, Penny>so this is the default,
+but then you got a choice here to enable</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/399-2
+00:56:59.296 --> 00:57:02.774
+<v Lam, Penny>the firm.
+So the firm currently is disabled.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/399-3
+00:57:02.774 --> 00:57:08.262
+<v Lam, Penny>So what they do is they have to,
+they got some agreement what the firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/399-4
+00:57:08.262 --> 00:57:10.426
+<v Lam, Penny>wants, so the show and time.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/400-0
+00:57:10.786 --> 00:57:15.580
+<v Lam, Penny>So they have to change the usability and
+then enable the firm.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/400-1
+00:57:15.580 --> 00:57:20.678
+<v Lam, Penny>But that's the only thing they do because
+everything else presets.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/400-2
+00:57:20.678 --> 00:57:25.929
+<v Lam, Penny>Even in here you see these features is
+coming from the firm package.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/400-3
+00:57:25.929 --> 00:57:30.266
+<v Lam, Penny>And the firm package, as we said,
+it's by the firm tech.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/403-0
+00:57:30.666 --> 00:57:34.515
+<v Lam, Penny>So when you load the firm,
+it knows the firm type,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/403-1
+00:57:34.515 --> 00:57:39.420
+<v Lam, Penny>so it will pre-fill the firm,
+pick up the firm package template,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/403-2
+00:57:39.420 --> 00:57:45.230
+<v Lam, Penny>and then load the features in here.
+But then the activation team's job is to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/403-3
+00:57:45.230 --> 00:57:49.380
+<v Lam, Penny>make sure if the firm say,
+I want to about onboarding,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/403-4
+00:57:49.380 --> 00:57:51.946
+<v Lam, Penny>I have my own onboarding solution.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/404-0
+00:57:52.266 --> 00:57:55.362
+<v Lam, Penny>So,
+then they would hide the onboarding</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/404-1
+00:57:55.362 --> 00:58:00.703
+<v Lam, Penny>module here, and that's it,
+and then enable the firm. So, the sorry,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/404-2
+00:58:00.703 --> 00:58:06.817
+<v Lam, Penny>so let's describe like the enable firm.
+What is that actually do? Does it one,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/404-3
+00:58:06.817 --> 00:58:10.223
+<v Lam, Penny>of course,
+it changes the status to active,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/404-4
+00:58:10.223 --> 00:58:11.306
+<v Lam, Penny>but I think...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/407-0
+00:58:11.626 --> 00:58:16.260
+<v Lam, Penny>I want to show one.
+If you click on user on the left, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/407-1
+00:58:16.260 --> 00:58:20.585
+<v Lam, Penny>so you see one condition is we always
+onboard the firm,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/407-2
+00:58:20.585 --> 00:58:26.223
+<v Lam, Penny>enable the firm 1st and then you add
+users. So if you haven't done that,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/407-3
+00:58:26.223 --> 00:58:31.706
+<v Lam, Penny>you are blocked from updating any user.
+And the reason is, as we said,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/408-0
+00:58:31.786 --> 00:58:37.157
+<v Lam, Penny>when you provision the user account,
+it also have to reference what your firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/408-1
+00:58:37.157 --> 00:58:40.394
+<v Lam, Penny>has.
+And so that's why the firm setting has to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/408-2
+00:58:40.394 --> 00:58:44.112
+<v Lam, Penny>be done first,
+and then we allow you to set up users.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/408-3
+00:58:44.112 --> 00:58:48.106
+<v Lam, Penny>Yeah, that's, yeah.
+So that's the difference. Yeah, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/409-0
+00:58:50.106 --> 00:58:53.234
+<v Lam, Penny>Get out and keep. Yeah,
+I'll be in box and I don't know what</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/409-1
+00:58:53.234 --> 00:58:54.106
+<v Lam, Penny>these people are.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/410-0
+00:58:56.556 --> 00:58:59.002
+<v Lam, Penny>OK,
+I think I think that's all I wanted to go</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/410-1
+00:58:59.002 --> 00:59:00.756
+<v Lam, Penny>through anyway for from settings.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/415-0
+00:59:02.746 --> 00:59:06.538
+<v Lam, Penny>So maybe I'll change,
+or you can change the colors on this.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/415-1
+00:59:06.538 --> 00:59:10.330
+<v Lam, Penny>Like, this is gray, it doesn't exist.
+We talked about this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/415-2
+00:59:10.330 --> 00:59:13.807
+<v Lam, Penny>this actually exists.
+Firm offboarding does not exist.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/415-3
+00:59:13.807 --> 00:59:17.409
+<v Lam, Penny>Once you enable a firm,
+we can't disable a firm, can we?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/415-4
+00:59:17.409 --> 00:59:20.506
+<v Lam, Penny>I think we can, yeah. Oh, nice. Yes,
+if you can.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/416-0
+00:59:20.986 --> 00:59:23.786
+<v Lam, Penny>Well, we don't anything,
+it's just disabled.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/417-0
+00:59:24.986 --> 00:59:27.795
+<v Lam, Penny>And I don't want to randomly disable from,
+yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/417-1
+00:59:27.795 --> 00:59:30.146
+<v Lam, Penny>just so bring a bathroom any enable from.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/426-0
+00:59:31.186 --> 00:59:35.938
+<v Lam, Penny>Do to ourselves, yeah, yeah, yeah, yeah,
+and then I think that's a go to firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/426-1
+00:59:35.938 --> 00:59:40.264
+<v Lam, Penny>settings, yeah, ohh, you don't,
+I don't think, I don't think it works,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/426-2
+00:59:40.264 --> 00:59:45.381
+<v Lam, Penny>I don't think we scoped it in, OK, sorry,
+it was getting too close to launch at the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/426-3
+00:59:45.381 --> 00:59:48.184
+<v Lam, Penny>time,
+and we said we save some time enough to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/426-4
+00:59:48.184 --> 00:59:50.986
+<v Lam, Penny>do the disabling, yeah,
+'cause the disabling.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-0
+00:59:51.746 --> 00:59:55.518
+<v Lam, Penny>Flag on the yeah, no,
+'cause then the team got into the debate</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-1
+00:59:55.518 --> 00:59:58.153
+<v Lam, Penny>of, ohh, Penny, and once you disable,
+like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-2
+00:59:58.153 --> 01:00:02.225
+<v Lam, Penny>how long do you retain that firm
+information for and all its users,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-3
+01:00:02.225 --> 01:00:05.817
+<v Lam, Penny>and when do you purge and when do you
+delete, and I'm like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-4
+01:00:05.817 --> 01:00:10.128
+<v Lam, Penny>I don't wanna talk about that,
+and they don't do disabling because even</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/429-5
+01:00:10.128 --> 01:00:11.146
+<v Lam, Penny>the firm left us.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/430-0
+01:00:11.266 --> 01:00:14.458
+<v Lam, Penny>Yeah,
+we're obligated to keep the history for,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/430-1
+01:00:14.458 --> 01:00:19.415
+<v Lam, Penny>for how long first? Exactly, yeah.
+So then there's no real, no material,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/430-2
+01:00:19.415 --> 01:00:23.082
+<v Lam, Penny>like, yeah, purpose. It is,
+but you have to be, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/430-3
+01:00:23.082 --> 01:00:25.866
+<v Lam, Penny>why do you ask about the line, because...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-0
+01:00:26.986 --> 01:00:30.434
+<v Lam, Penny>It is, well,
+maybe I decide two years later to delete</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-1
+01:00:30.434 --> 01:00:32.733
+<v Lam, Penny>it.
+It's gonna be a kind of offline</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-2
+01:00:32.733 --> 01:00:36.117
+<v Lam, Penny>operations,
+script maintenance thing to delete them.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-3
+01:00:36.117 --> 01:00:39.309
+<v Lam, Penny>I don't think,
+but they don't they don't create a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-4
+01:00:39.309 --> 01:00:43.013
+<v Lam, Penny>scheduled job.
+I don't think they create a scheduled job,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-5
+01:00:43.013 --> 01:00:46.333
+<v Lam, Penny>but what's the policy,
+and then if there isn't one,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/431-6
+01:00:46.333 --> 01:00:47.546
+<v Lam, Penny>what's the purpose?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-0
+01:00:48.506 --> 01:00:51.110
+<v Lam, Penny>People,
+like if you present an option to somebody,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-1
+01:00:51.110 --> 01:00:54.683
+<v Lam, Penny>you have to tell them what it's for.
+And then like if you don't have,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-2
+01:00:54.683 --> 01:00:58.614
+<v Lam, Penny>like if there's no need for it right now,
+the firm can sit on there forever.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-3
+01:00:58.614 --> 01:01:01.524
+<v Lam, Penny>It disappears.
+I don't even think it disappears off Firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-4
+01:01:01.524 --> 01:01:03.464
+<v Lam, Penny>360.
+And so if we're supposed to be a</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/432-5
+01:01:03.464 --> 01:01:06.986
+<v Lam, Penny>representation of Firm 360,
+there's no disabling in Firm 360 either.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-0
+01:01:07.466 --> 01:01:12.042
+<v Lam, Penny>So representing it disabling means you're
+just shutting off the ability to create</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-1
+01:01:12.042 --> 01:01:15.390
+<v Lam, Penny>users. It came from Firm 360.
+If it's disabled in Firm 360,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-2
+01:01:15.390 --> 01:01:18.850
+<v Lam, Penny>it will send down. Oh, is it?
+Because we download the status.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-3
+01:01:18.850 --> 01:01:22.143
+<v Lam, Penny>So we don't even,
+so we can't even disable on the platform</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-4
+01:01:22.143 --> 01:01:25.379
+<v Lam, Penny>because it might still be active in Firm
+360. Yeah, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/433-5
+01:01:25.379 --> 01:01:27.946
+<v Lam, Penny>I think there's some complication because.
+..</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/434-0
+01:01:28.226 --> 01:01:33.503
+<v Lam, Penny>We have to synchronize from Phone 360 and
+I don't remember because we don't offer</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/434-1
+01:01:33.503 --> 01:01:36.335
+<v Lam, Penny>so often. Yeah,
+last time we offer someone,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/434-2
+01:01:36.335 --> 01:01:41.354
+<v Lam, Penny>we still have to keep the data in the
+system for all the purposes and some of</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/434-3
+01:01:41.354 --> 01:01:44.958
+<v Lam, Penny>our MBI and stuff,
+they will have still have to go into</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/434-4
+01:01:44.958 --> 01:01:48.626
+<v Lam, Penny>those accounts. Is it settled?
+So that's why you cannot.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-0
+01:01:48.706 --> 01:01:52.776
+<v Lam, Penny>Disabled it from yet. OK, yeah, yeah,
+that's a better reason in my case. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-1
+01:01:52.776 --> 01:01:55.351
+<v Lam, Penny>yeah, yeah,
+like I I questioned one time H.S.B.C.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-2
+01:01:55.351 --> 01:01:58.802
+<v Lam, Penny>that still exists, yeah,
+'cause their accounts have to live on and</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-3
+01:01:58.802 --> 01:02:01.945
+<v Lam, Penny>someone has access to those accounts.
+Someone has to access,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-4
+01:02:01.945 --> 01:02:06.169
+<v Lam, Penny>'cause they're trying to close out the
+accounts and move the assets over to Rdsp,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/435-5
+01:02:06.169 --> 01:02:06.426
+<v Lam, Penny>yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/436-0
+01:02:08.306 --> 01:02:14.331
+<v Lam, Penny>That's much fun, actually. Yeah, yeah.
+I didn't want to get into any of that,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/436-1
+01:02:14.331 --> 01:02:18.194
+<v Lam, Penny>so I'm like, ***** it!" Yeah,
+it can deals, yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/436-2
+01:02:18.194 --> 01:02:23.060
+<v Lam, Penny>As soon as you create in Firm 360,
+so it takes time to set up,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/436-3
+01:02:23.060 --> 01:02:27.386
+<v Lam, Penny>so it means that you create,
+you can state a new state.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/437-0
+01:02:27.626 --> 01:02:32.666
+<v Lam, Penny>pending and as soon as you set up you can
+enable but</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/445-0
+01:02:33.626 --> 01:02:40.008
+<v Lam, Penny>When the in the firm 360 gets disabled,
+so it should be replicated here in</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/445-1
+01:02:40.008 --> 01:02:46.134
+<v Lam, Penny>Compass X that it's been disabled,
+but in terms of the data governance,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/445-2
+01:02:46.134 --> 01:02:52.346
+<v Lam, Penny>this one throw it in our book,
+but then we have an enable it in Compass.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/448-0
+01:02:52.586 --> 01:02:59.546
+<v Lam, Penny>So, that's why is in this firm selector,
+but if a firm I don't even know.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/455-0
+01:03:00.506 --> 01:03:05.476
+<v Lam, Penny>It did happen ever.
+So change your firm to inactive in from</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/455-1
+01:03:05.476 --> 01:03:12.186
+<v Lam, Penny>360. It doesn't happen that often. Sorry,
+Ali, cut you off too. So I don't know.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/458-0
+01:03:13.466 --> 01:03:16.426
+<v Lam, Penny>But, anyway, it doesn't, it doesn't work.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/459-0
+01:03:17.306 --> 01:03:19.386
+<v Lam, Penny>to keep them in the book.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/462-0
+01:03:21.746 --> 01:03:22.826
+<v Lam, Penny>I guess that's why.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-0
+01:03:25.386 --> 01:03:30.097
+<v Lam, Penny>So, it's not, it's not matching,
+but it could be one of two reasons,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-1
+01:03:30.097 --> 01:03:35.149
+<v Lam, Penny>because the loader would filter out
+active firms only and then low income</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-2
+01:03:35.149 --> 01:03:39.108
+<v Lam, Penny>books, so I, I,
+I don't remember the disabled firm. Yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-3
+01:03:39.108 --> 01:03:43.819
+<v Lam, Penny>if the firm became inactive income in
+from 360, does it do anything?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-4
+01:03:43.819 --> 01:03:47.574
+<v Lam, Penny>I think it does something,
+but if you filter them out,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/467-5
+01:03:47.574 --> 01:03:48.666
+<v Lam, Penny>then what is it?</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/468-0
+01:03:48.746 --> 01:03:53.162
+<v Lam, Penny>Okay, yeah, yeah, yeah,
+the other way around. So this one active,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/468-1
+01:03:53.162 --> 01:03:57.712
+<v Lam, Penny>so it got load into campus,
+but product activation hasn't turned it</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/468-2
+01:03:57.712 --> 01:04:01.860
+<v Lam, Penny>on. So the status on campus is disabled.
+We think. Yeah, yes.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/468-3
+01:04:01.860 --> 01:04:06.544
+<v Lam, Penny>But we can verify that. Yeah,
+like this whole disabling is such a low</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/468-4
+01:04:06.544 --> 01:04:07.146
+<v Lam, Penny>priority.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/469-0
+01:04:09.226 --> 01:04:12.105
+<v Lam, Penny>No, this firm is active. Yeah,
+it is active on here,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/469-1
+01:04:12.105 --> 01:04:13.626
+<v Lam, Penny>but it's not active in here.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/478-0
+01:04:14.826 --> 01:04:17.724
+<v Lam, Penny>Well, I don't think we care about that.
+No,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/478-1
+01:04:17.724 --> 01:04:22.663
+<v Lam, Penny>it's not active in here because we
+haven't turned on the firm settings for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/478-2
+01:04:22.663 --> 01:04:25.362
+<v Lam, Penny>them.
+And the reason could be we haven't</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/478-3
+01:04:25.362 --> 01:04:29.840
+<v Lam, Penny>onboard them to the MBI and business.
+Or there's an interpretation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/478-4
+01:04:29.840 --> 01:04:35.306
+<v Lam, Penny>Or they don't use compass or they don't
+haven't provide any user for us to set up.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/479-0
+01:04:38.826 --> 01:04:39.626
+<v Lam, Penny>Maybe.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/480-0
+01:04:40.706 --> 01:04:44.746
+<v Lam, Penny>confirm that. Radhika? Yeah, I guess so.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/483-0
+01:04:49.306 --> 01:04:53.339
+<v Lam, Penny>You really want to know? Well,
+just for educational purposes,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/483-1
+01:04:53.339 --> 01:04:58.348
+<v Lam, Penny>because we clearly have thought very
+little about this deactivation concept,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/483-2
+01:04:58.348 --> 01:05:02.186
+<v Lam, Penny>that it's just whatever was at the time
+of interpretation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/486-0
+01:05:03.306 --> 01:05:06.646
+<v Lam, Penny>But I guess my, I still,
+I'm still kind of,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/486-1
+01:05:06.646 --> 01:05:11.048
+<v Lam, Penny>I'm still just in terms of like the
+availability of this,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/486-2
+01:05:11.048 --> 01:05:15.146
+<v Lam, Penny>it's just not a focus.
+It's not that important. Yeah.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-0
+01:05:16.426 --> 01:05:19.175
+<v Lam, Penny>If we, if,
+if there was a security thing like user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-1
+01:05:19.175 --> 01:05:21.546
+<v Lam, Penny>deactivation exists, for sure,
+like I mean,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-2
+01:05:21.546 --> 01:05:25.803
+<v Lam, Penny>that is just employee leaves a firm,
+you wanna immediately deactivate the user</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-3
+01:05:25.803 --> 01:05:29.252
+<v Lam, Penny>and eliminate access.
+There's a clear security use case for it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-4
+01:05:29.252 --> 01:05:32.485
+<v Lam, Penny>Firm deactivation, like, yeah,
+as long as you have no user,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/489-5
+01:05:32.485 --> 01:05:37.066
+<v Lam, Penny>that's no breaking, like, yeah, who cares?
+Well, like, it's more when you get the...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/490-0
+01:05:37.186 --> 01:05:43.932
+<v Lam, Penny>Firm disabled in compass X,
+I think the underlying users no longer</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/490-1
+01:05:43.932 --> 01:05:49.066
+<v Lam, Penny>can do anything, is that right?
+I think so, Candi.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/491-0
+01:05:50.746 --> 01:05:54.781
+<v Lam, Penny>I will,
+because you guys do this as a homework</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/491-1
+01:05:54.781 --> 01:06:01.477
+<v Lam, Penny>investigation, then we got no idea.
+With you showing me if firm was disabled,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/491-2
+01:06:01.477 --> 01:06:08.001
+<v Lam, Penny>and there were no users under that,
+so it's logical because it's inheriting</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/491-3
+01:06:08.001 --> 01:06:09.546
+<v Lam, Penny>the firm packages.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-0
+01:06:10.986 --> 01:06:14.687
+<v Lam, Penny>but make no assumptions, Ali.
+In this current platform environment,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-1
+01:06:14.687 --> 01:06:18.061
+<v Lam, Penny>we made a lot of horrible decisions,
+or in this case, really,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-2
+01:06:18.061 --> 01:06:20.781
+<v Lam, Penny>we really didn't spend time on it.
+We said, okay,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-3
+01:06:20.781 --> 01:06:24.482
+<v Lam, Penny>I said lifecycle management.
+So this firm management should be firm</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-4
+01:06:24.482 --> 01:06:27.421
+<v Lam, Penny>lifecycle management,
+which goes from subscription to</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/492-5
+01:06:27.421 --> 01:06:29.706
+<v Lam, Penny>activation to maintenance to deactivation.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/493-0
+01:06:30.026 --> 01:06:33.742
+<v Lam, Penny>When we got to deactivation, I think,
+was it just me and you at the time, Candi,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/493-1
+01:06:33.742 --> 01:06:36.724
+<v Lam, Penny>or is it somebody else?
+I can't remember who was responsible for</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/493-2
+01:06:36.724 --> 01:06:40.073
+<v Lam, Penny>this at the time. We just said,
+forget about it. We're going to move on.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/493-3
+01:06:40.073 --> 01:06:42.551
+<v Lam, Penny>That's all.
+And then so I think the dev team did some</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/493-4
+01:06:42.551 --> 01:06:42.826
+<v Lam, Penny>stuff.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/494-0
+01:06:44.026 --> 01:06:48.521
+<v Lam, Penny>To interpret what he, what do you do,
+and that's why I think it's still worth.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/494-1
+01:06:48.521 --> 01:06:51.366
+<v Lam, Penny>I think we, we, we, yeah, we scoped it,
+and then,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/494-2
+01:06:51.366 --> 01:06:54.666
+<v Lam, Penny>but then you can't fully descope
+something if you get it.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/495-0
+01:06:56.106 --> 01:07:00.218
+<v Lam, Penny>So, in the code, when the user,
+for example,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/495-1
+01:07:00.218 --> 01:07:06.614
+<v Lam, Penny>is under a firm that is disabled,
+because when they need to check the</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/495-2
+01:07:06.614 --> 01:07:13.467
+<v Lam, Penny>intersection of the firm package and user
+package, okay, when they log in,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/495-3
+01:07:13.467 --> 01:07:14.746
+<v Lam, Penny>and then if...</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/496-0
+01:07:15.146 --> 01:07:18.106
+<v Lam, Penny>Affirm package status.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/497-0
+01:07:19.066 --> 01:07:20.106
+<v Lam, Penny>Is disable.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/498-0
+01:07:21.186 --> 01:07:24.749
+<v Lam, Penny>Which I don't know whether they have this,
+yeah, but it's no,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/498-1
+01:07:24.749 --> 01:07:29.173
+<v Lam, Penny>it's but it's not the firm package status,
+it's a firm attribute, yes, yeah,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/498-2
+01:07:29.173 --> 01:07:32.506
+<v Lam, Penny>it's a firm status in Compass,
+which has no ties to Okta.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/499-0
+01:07:33.786 --> 01:07:36.089
+<v Lam, Penny>Remember, right? Like,
+so user authentication, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/499-1
+01:07:36.089 --> 01:07:38.739
+<v Lam, Penny>that's the part I'm not,
+I think Katie's gonna now find out.</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/499-2
+01:07:38.739 --> 01:07:41.867
+<v Lam, Penny>We should probably find out. I don't,
+we don't know if it blocks, like,</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/499-3
+01:07:41.867 --> 01:07:45.472
+<v Lam, Penny>I don't know if there's like a validation
+when you get to Okta to say that is this</v>
+
+65f8f5bb-f542-4313-8072-86204894fb43/499-4
+01:07:45.472 --> 01:07:46.906
+<v Lam, Penny>from active or not. I'm not sure.</v>

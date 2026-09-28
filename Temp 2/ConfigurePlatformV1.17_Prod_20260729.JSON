@@ -1,0 +1,230 @@
+{
+        "packageTemplateId": 61,
+        "name": "ConfigurePlatformV1.17",
+        "description": "ConfigurePlatform",
+        "type": "User",
+        "firmType": "NBIN",
+        "active": true,
+        "details": [
+            {
+                "templateDetailId": 4065,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 309,
+                    "name": "tech_support_trade_allocations",
+                    "type": "cx_ui_trade_allocations",
+                    "description": "Ability to execute tech support for trade allocations",
+                    "group": "trade_allocations",
+                    "label": "view_trade_allocations",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2968,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 165,
+                    "name": "firms_manage",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to manage firm",
+                    "group": "platform:view_manage_firm",
+                    "label": "firms_manage",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2969,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 164,
+                    "name": "firms_module",
+                    "type": "cx_ui_module",
+                    "description": "Ability to access manage firm module",
+                    "group": "platform:view_manage_firm",
+                    "label": "firms_module",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2970,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 179,
+                    "name": "firms_system_config_module",
+                    "type": "cx_ui_module",
+                    "description": "Ability to load firm configuration data",
+                    "group": "platform:view_manage_firm",
+                    "label": "firms_system_config_module",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2971,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 163,
+                    "name": "firms_system_config_module_feature",
+                    "type": "feature",
+                    "description": "Ability to load firm configuration data",
+                    "group": "firm_configuration",
+                    "label": "firms_system_config_module_feature",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2972,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 180,
+                    "name": "firm_system_config",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to execute firm configuration uploads",
+                    "group": "platform:view_manage_firm",
+                    "label": "firm_system_config",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2973,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 141,
+                    "name": "manage_my_profile",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to manage self profile",
+                    "group": "manage_my_profile",
+                    "label": "manage_my_profile",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2974,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 139,
+                    "name": "toggle_language",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to toggle language",
+                    "group": "toggle_language",
+                    "label": "toggle_language",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2975,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 140,
+                    "name": "view_my_profile",
+                    "type": "feature",
+                    "description": "Ability to manage self profile",
+                    "group": "profile",
+                    "label": "view_my_profile",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2976,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 123,
+                    "name": "view_profile",
+                    "type": "feature",
+                    "description": "Ability to view basic profile information",
+                    "group": "profile",
+                    "label": "view_profile",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2977,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 138,
+                    "name": "view_toggle_language",
+                    "type": "feature",
+                    "description": "Ability to toggle language",
+                    "group": "platform",
+                    "label": "view_toggle_language",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2978,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 193,
+                    "name": "view_help_center",
+                    "type": "feature",
+                    "description": "Ability to access help center user guide",
+                    "group": "platform",
+                    "label": "view_help_center",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2979,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 194,
+                    "name": "help_center",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to access help center user guide",
+                    "group": "help_center",
+                    "label": "help_center",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 2967,
+                "assignmentType": "G",
+                "assignmentMode": "M",
+                "userGroup": {
+                    "userGroupId": 26,
+                    "name": "Wealth.CompassX.Platform",
+                    "description": "ConfigurePlatform",
+                    "isInternal": false,
+                    "isFirmScope": true
+                }
+            }
+        ]
+    }

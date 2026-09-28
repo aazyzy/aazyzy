@@ -1,0 +1,1078 @@
+{
+        "packageTemplateId": 70,
+        "name": "ProcessAccounts_V1.17",
+        "description": "ProcessAccounts",
+        "type": "User",
+        "firmType": "NBIN",
+        "active": true,
+        "details": [
+            {
+                "templateDetailId": 4026,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 292,
+                    "name": "view_structured_solutions",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view the structured solutions platform",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3866,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 252,
+                    "name": "tools_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the tools menu",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3867,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 251,
+                    "name": "tools_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the tools menu",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3868,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 253,
+                    "name": "view_tools_menu",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view the tools menu",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3869,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 254,
+                    "name": "view_maturing_instruments",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view the list of positions maturing across the firm",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3870,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 255,
+                    "name": "view_dividend_reinvestment_positions",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view the list of dividend reinvestment types across all the firms positions",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3871,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 256,
+                    "name": "view_equity_borrowing_list",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view the list of equities available for short sell",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3872,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 257,
+                    "name": "view_historical_exchange_rates",
+                    "type": "cx_iis_tools",
+                    "description": "Ability to view a history of daily rates used for transactions",
+                    "group": "tools_menu",
+                    "label": "view_tools_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4000,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 285,
+                    "name": "paper_upload_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the paper upload menu",
+                    "group": "paper_upload_menu",
+                    "label": "view_paper_upload_menu",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 4001,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 284,
+                    "name": "paper_upload_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the paper upload menu",
+                    "group": "paper_upload_menu",
+                    "label": "view_paper_upload_menu",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4002,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 286,
+                    "name": "view_paper_upload_menu",
+                    "type": "cx_paper_upload",
+                    "description": "Ability to view the paper upload menu",
+                    "group": "paper_upload_menu",
+                    "label": "view_paper_upload_menu",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4003,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 290,
+                    "name": "process_onboarding_applications",
+                    "type": "cx_onboarding",
+                    "description": "Ability to verify, approve and process onboarding applications",
+                    "group": "cx_onboarding",
+                    "label": "cx_onboarding",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4196,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 320,
+                    "name": "view_system_events",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to view system events",
+                    "group": "cx_application_status",
+                    "label": "view_system_events",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4322,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 352,
+                    "name": "view_statements",
+                    "type": "reports",
+                    "description": "Ability to view, preview and download portfolio statements, client statements and annual reports",
+                    "group": "reports_statements",
+                    "label": "reports_statements",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4323,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 353,
+                    "name": "statements_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download portfolio statements, client statements and annual reports",
+                    "group": "reports_statements",
+                    "label": "view_reports_statements",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 4324,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 354,
+                    "name": "statements_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download portfolio statements, client statements and annual reports",
+                    "group": "reports_statements",
+                    "label": "view_reports_statements",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4325,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 355,
+                    "name": "view_tax_documents",
+                    "type": "reports",
+                    "description": "Ability to view, preview and download tax documents, like tax slips",
+                    "group": "reports_tax_documents",
+                    "label": "reports_tax_documents",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4326,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 356,
+                    "name": "tax_documents_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download tax documents, like tax slips",
+                    "group": "reports_tax_documents",
+                    "label": "view_reports_tax_documents",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 4327,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 357,
+                    "name": "tax_documents_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download tax documents, like tax slips",
+                    "group": "reports_tax_documents",
+                    "label": "view_reports_tax_documents",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4328,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 358,
+                    "name": "view_trade_confirmations",
+                    "type": "reports",
+                    "description": "Ability to view, preview and download transactional documents, like trade confirms",
+                    "group": "reports_trade_confirmations",
+                    "label": "reports_trade_confirmations",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 4329,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 359,
+                    "name": "trade_confirmations_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download transactional documents, like trade confirms",
+                    "group": "reports_trade_confirmations",
+                    "label": "view_reports_trade_confirmations",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 4330,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 360,
+                    "name": "trade_confirmations_menu",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view, preview and download transactional documents, like trade confirms",
+                    "group": "reports_trade_confirmations",
+                    "label": "view_reports_trade_confirmations",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3476,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 137,
+                    "name": "access_firm",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to access firm list",
+                    "group": "access_firm",
+                    "label": "access_firm",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3477,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 156,
+                    "name": "access_firm_configuration",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to access firm configuration",
+                    "group": "access_firm_configuration",
+                    "label": "access_firm_configuration",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3478,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 157,
+                    "name": "access_user_configuration",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to access user configuration",
+                    "group": "access_user_configuration",
+                    "label": "access_user_configuration",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3479,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 133,
+                    "name": "client_accounts",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view basic account information that selected client holds",
+                    "group": "client_accounts",
+                    "label": "client_accounts",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3480,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 134,
+                    "name": "client_documents",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view clients documents that has collected on account opening",
+                    "group": "client_documents",
+                    "label": "client_documents",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3481,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 181,
+                    "name": "compass_r2",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Compass Legacy Module in  Navigation Panel",
+                    "group": "compass_legacy",
+                    "label": "compass_r2",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3482,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 142,
+                    "name": "compass_r2",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Compass Legacy Module in  Navigation Panel",
+                    "group": "compass_r2",
+                    "label": "compass_r2",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3483,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 135,
+                    "name": "firm_client_accounts",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view basic Clients/Accounts Information for next action",
+                    "group": "client_account",
+                    "label": "client_account",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3484,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 127,
+                    "name": "firm_client_accounts",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view basic Clients/Accounts Information for next action",
+                    "group": "firm_client_accounts",
+                    "label": "firm_client_accounts",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3485,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 109,
+                    "name": "firm_level_access",
+                    "type": "data_access",
+                    "description": "Firm Level Access",
+                    "group": "accounts_scope",
+                    "label": "firm_level_access",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3486,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 130,
+                    "name": "inquiry_balances",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view balance component (Account Balance Client Balance)",
+                    "group": "inquiry_balances",
+                    "label": "inquiry_balances",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3487,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 128,
+                    "name": "inquiry_profile",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view basic profile information",
+                    "group": "inquiry_profile",
+                    "label": "inquiry_profile",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3488,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 141,
+                    "name": "manage_my_profile",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to manage self profile",
+                    "group": "manage_my_profile",
+                    "label": "manage_my_profile",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3490,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 118,
+                    "name": "orders_module",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view orders in Compass",
+                    "group": "orders",
+                    "label": "orders_module",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3491,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 110,
+                    "name": "orders_module",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view orders in Compass",
+                    "group": "cx_ui_module",
+                    "label": "orders_module",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3492,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 112,
+                    "name": "orders_view",
+                    "type": "cx_ui_trading",
+                    "description": "Ability to view orders in Compass",
+                    "group": "cx_ui_trading",
+                    "label": "orders_view",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3493,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 132,
+                    "name": "positions",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view basic security information that the client is holding",
+                    "group": "positions",
+                    "label": "positions",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3494,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 152,
+                    "name": "questionnaire_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view Nest OnBoarding Module in  Navigation Panel",
+                    "group": "questionnaire_applications",
+                    "label": "questionnaire_applications",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3495,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 153,
+                    "name": "questionnaire_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view Nest OnBoarding Module in  Navigation Panel",
+                    "group": "questionnaire_applications",
+                    "label": "questionnaire_applications",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3496,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 145,
+                    "name": "soma_servicing",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Soma Servicing Module in  Navigation Panel",
+                    "group": "servicing",
+                    "label": "soma_servicing",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3497,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 144,
+                    "name": "soma_servicing",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Soma Servicing Module in  Navigation Panel",
+                    "group": "soma_servicing",
+                    "label": "soma_servicing",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3498,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 139,
+                    "name": "toggle_language",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to toggle language",
+                    "group": "toggle_language",
+                    "label": "toggle_language",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3499,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 131,
+                    "name": "transactions",
+                    "type": "cx_ui_inquiry",
+                    "description": "Ability to view basic Intraday & historical transaction information",
+                    "group": "transactions",
+                    "label": "transactions",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3500,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 136,
+                    "name": "view_access_firm",
+                    "type": "feature",
+                    "description": "Ability to access firm list",
+                    "group": "platform",
+                    "label": "view_access_firm",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3501,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 146,
+                    "name": "view_all_service_requests",
+                    "type": "cx_ui_soma_servicing",
+                    "description": "Ability to access instructions",
+                    "group": "servicing",
+                    "label": "view_all_service_requests",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3502,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 126,
+                    "name": "view_balances",
+                    "type": "feature",
+                    "description": "Ability to view balance component (Account Balance, Client Balance)",
+                    "group": "balances",
+                    "label": "view_balances",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3503,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 124,
+                    "name": "view_client_accounts",
+                    "type": "feature",
+                    "description": "Ability to view basic account information that selected client holds",
+                    "group": "accounts",
+                    "label": "view_client_accounts",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3504,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 125,
+                    "name": "view_client_documents",
+                    "type": "feature",
+                    "description": "Ability to view clients documents that has collected on account opening",
+                    "group": "profile_documents",
+                    "label": "view_client_documents",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3505,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 143,
+                    "name": "view_compass_legacy",
+                    "type": "cx_ui_legacy",
+                    "description": "Ability to access Compass Legacy",
+                    "group": "compass_legacy",
+                    "label": "view_compass_legacy",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3506,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 103,
+                    "name": "view_compass_orders",
+                    "type": "feature",
+                    "description": "Ability to view orders in compass",
+                    "group": "orders",
+                    "label": "view_compass_orders",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3507,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 120,
+                    "name": "view_firm_client_accounts",
+                    "type": "feature",
+                    "description": "Ability to view basic Clients/Accounts Information for next action",
+                    "group": "client_account",
+                    "label": "view_client_account",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3508,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 140,
+                    "name": "view_my_profile",
+                    "type": "feature",
+                    "description": "Ability to manage self profile",
+                    "group": "profile",
+                    "label": "view_my_profile",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3509,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 121,
+                    "name": "view_positions",
+                    "type": "feature",
+                    "description": "Ability to view basic security information that the client is holding",
+                    "group": "position",
+                    "label": "view_positions",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3510,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 123,
+                    "name": "view_profile",
+                    "type": "feature",
+                    "description": "Ability to view basic profile information",
+                    "group": "profile",
+                    "label": "view_profile",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3511,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 138,
+                    "name": "view_toggle_language",
+                    "type": "feature",
+                    "description": "Ability to toggle language",
+                    "group": "platform",
+                    "label": "view_toggle_language",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3512,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 122,
+                    "name": "view_transactions",
+                    "type": "feature",
+                    "description": "Ability to view basic Intraday & historical transaction information",
+                    "group": "transaction",
+                    "label": "view_transactions",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3513,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 193,
+                    "name": "view_help_center",
+                    "type": "feature",
+                    "description": "Ability to access help center user guide",
+                    "group": "platform",
+                    "label": "view_help_center",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3514,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 194,
+                    "name": "help_center",
+                    "type": "cx_ui_platform",
+                    "description": "Ability to access help center user guide",
+                    "group": "help_center",
+                    "label": "help_center",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3518,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 200,
+                    "name": "form_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Inform OnBoarding Module in Navigation Panel",
+                    "group": "view_form_applications",
+                    "label": "form_applications",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3519,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 198,
+                    "name": "form_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Inform OnBoarding Module in Navigation Panel",
+                    "group": "form_applications",
+                    "label": "form_applications",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3520,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 199,
+                    "name": "view_form_applications",
+                    "type": "feature",
+                    "description": "Ability to view the Inform OnBoarding Module in Navigation Panel",
+                    "group": "view_form_applications",
+                    "label": "form_applications",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3521,
+                "assignmentType": "S",
+                "assignmentMode": "O",
+                "selectionDefault": false,
+                "resource": {
+                    "resourceId": 203,
+                    "name": "infinite_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Infinite Analytics Module in Navigation Panel",
+                    "group": "view_infinite_applications",
+                    "label": "infinite_applications",
+                    "purpose": "feature",
+                    "restriction": true
+                }
+            },
+            {
+                "templateDetailId": 3522,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 201,
+                    "name": "infinite_applications",
+                    "type": "cx_ui_module",
+                    "description": "Ability to view the Infinite Analytics Module in Navigation Panel",
+                    "group": "infinite_applications",
+                    "label": "infinite_applications",
+                    "purpose": "resource",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3523,
+                "assignmentType": "S",
+                "assignmentMode": "M",
+                "selectionDefault": true,
+                "resource": {
+                    "resourceId": 202,
+                    "name": "view_infinite_applications",
+                    "type": "feature",
+                    "description": "Ability to view the Infinite Analytics Module in Navigation Panel",
+                    "group": "view_infinite_applications",
+                    "label": "infinite_applications",
+                    "purpose": "feature",
+                    "restriction": false
+                }
+            },
+            {
+                "templateDetailId": 3475,
+                "assignmentType": "G",
+                "assignmentMode": "M",
+                "userGroup": {
+                    "userGroupId": 29,
+                    "name": "Wealth.CompassX.ProcessAccounts",
+                    "description": "ProcessAccounts",
+                    "isInternal": false,
+                    "isFirmScope": true
+                }
+            }
+        ]
+    }

@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How Compass X Authenticates & Authorizes — Animated Training Walkthrough</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700;800&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f4f3ef;--card:#ffffff;--ink:#1d2630;--mut:#5c6570;--line:#dcd9d1;
+--navy:#16283e;--navy2:#1e3350;--red:#c9413a;--teal:#2c7a74;--gold:#b8860b;--chip:#eceae4}
+:root:not([data-theme="light"]){ }
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121a24;--card:#1b2634;--ink:#eef0ea;--mut:#9fb0c3;--line:#2c3a4d;--navy:#223550;--navy2:#2a4060;--chip:#243242}}
+:root[data-theme="dark"]{--bg:#121a24;--card:#1b2634;--ink:#eef0ea;--mut:#9fb0c3;--line:#2c3a4d;--navy:#223550;--navy2:#2a4060;--chip:#243242}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Libre Franklin',Arial,sans-serif;display:flex;flex-direction:column}
+header{padding:14px 20px;display:flex;align-items:center;gap:14px;border-bottom:1px solid var(--line)}
+header h1{font-family:'Source Serif 4',Georgia,serif;font-size:clamp(15px,2.4vw,22px);margin:0;font-weight:600}
+header .sub{font-size:12px;color:var(--mut)}
+#stagewrap{flex:1;display:flex;flex-direction:column;min-height:0;padding:10px 16px 0}
+.scene{display:none;flex:1;min-height:0;flex-direction:column}
+.scene.active{display:flex;animation:fade .6s ease}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+.scene h2{margin:2px 0 8px;font-size:clamp(16px,2.6vw,24px);font-weight:800}
+.stage{flex:1;min-height:0;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:8px;overflow:hidden}
+.stage svg{width:100%;height:100%;display:block}
+#caption{margin:10px 0;background:var(--navy);color:#f2efe8;border-radius:12px;padding:12px 16px;font-size:clamp(13px,1.9vw,16px);line-height:1.45;min-height:3.2em}
+#controls{display:flex;align-items:center;gap:10px;padding:0 16px 14px}
+button{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 14px;cursor:pointer;font-weight:700}
+button:hover{border-color:var(--teal)}
+#bar{flex:1;height:8px;background:var(--chip);border-radius:99px;overflow:hidden}
+#fill{height:100%;width:0%;background:linear-gradient(90deg,var(--teal),var(--red))}
+#count{font-size:12px;color:var(--mut);min-width:86px;text-align:right}
+.paused #stagewrap *{animation-play-state:paused !important}
+/* svg text */
+text{font-family:'Libre Franklin',Arial,sans-serif;fill:var(--ink)}
+.t{font-size:13px}.ts{font-size:11.5px;fill:var(--mut)}.th{font-size:14px;font-weight:800}.tw{fill:#f2efe8}.twm{fill:#cfd8e3}
+.box{fill:var(--card);stroke:var(--line)}
+.navy{fill:var(--navy)}.teal{fill:var(--teal)}.red{fill:var(--red)}.chip{fill:var(--chip);stroke:var(--line)}
+.wire{stroke:var(--mut);stroke-width:1.6;fill:none;marker-end:url(#m)}
+.token{filter:drop-shadow(0 1px 2px rgba(0,0,0,.35))}
+/* persona cards pop-in */
+.pop{opacity:0;animation:pop .5s ease forwards}
+@keyframes pop{to{opacity:1}}
+.d1{animation-delay:.2s}.d2{animation-delay:1.2s}.d3{animation-delay:2.2s}.d4{animation-delay:3.2s}.d5{animation-delay:4.2s}.d6{animation-delay:5.2s}
+/* scene 3 token journey */
+@keyframes s3{0%,4%{transform:translate(120px,118px);opacity:0}8%{opacity:1}
+22%{transform:translate(330px,118px)}34%{transform:translate(330px,118px)}
+48%{transform:translate(330px,250px)}60%{transform:translate(330px,250px)}
+80%{transform:translate(560px,250px)}100%{transform:translate(560px,250px);opacity:1}}
+.tk3{animation:s3 9s ease-in-out infinite}
+@keyframes lockpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.25)}}
+.lock{transform-origin:330px 95px;animation:lockpulse 2.2s ease-in-out infinite}
+/* scene 4 venn */
+@keyframes slideL{from{transform:translateX(-70px)}to{transform:translateX(0)}}
+@keyframes slideR{from{transform:translateX(70px)}to{transform:translateX(0)}}
+.cL{animation:slideL 2.4s ease forwards .6s}.cR{animation:slideR 2.4s ease forwards .6s}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.inter{animation:glow 2.4s ease-in-out infinite 3s}
+/* scene 5 token */
+@keyframes s5{0%{transform:translate(90px,120px);opacity:0}6%{opacity:1}
+25%{transform:translate(90px,260px)}45%{transform:translate(285px,260px)}
+70%{transform:translate(480px,260px)}100%{transform:translate(610px,260px);opacity:1}}
+.tk5{animation:s5 8s ease-in-out infinite}
+/* scene 6 three lanes tokens */
+@keyframes lane{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{transform:translateX(300px);opacity:1}100%{transform:translateX(300px);opacity:0}}
+.lk{animation:lane 5s ease-in-out infinite}
+.lk2{animation-delay:1.2s}.lk3{animation-delay:2.4s}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.warn{animation:blink 1.6s ease-in-out infinite}
+/* scene 7 verdicts */
+@keyframes stamp{0%{transform:scale(2.2);opacity:0}60%{transform:scale(.95);opacity:1}100%{transform:scale(1)}}
+.v1{animation:stamp .6s ease forwards .8s;opacity:0}.v2{animation:stamp .6s ease forwards 2s;opacity:0}
+.v3{animation:stamp .6s ease forwards 3.2s;opacity:0}.v4{animation:stamp .6s ease forwards 4.4s;opacity:0}
+
+/* scene 9 sequence reveal */
+@keyframes msgin{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.msg{opacity:0;animation:msgin .45s ease forwards}
+.lane{stroke:var(--mut);stroke-width:1;stroke-dasharray:3 4}
+.sq{font-size:10.5px}
+.num{font-size:9px;font-weight:800;fill:#f2efe8}
+.band{fill:var(--chip);opacity:.55}
+@media (max-width:640px){#controls{flex-wrap:wrap}#count{min-width:auto}}
+</style>
+</head>
+<body>
+<header>
+<div style="font-size:26px">🎬</div>
+<div><h1>How Compass X authenticates &amp; authorizes</h1>
+<div class="sub">An animated training walkthrough · personas, systems &amp; data flow · ~4 minutes · built from production exports &amp; KT sessions</div></div>
+</header>
+<div id="stagewrap">
+<!-- SCENE 1: personas -->
+<section class="scene" id="s1"><h2>Scene 1 · The cast</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<g class="pop d1"><rect class="box" x="20" y="24" width="200" height="120" rx="12"/><circle cx="55" cy="60" r="18" class="teal"/><text class="th" x="85" y="56">Maria</text><text class="ts" x="85" y="74">Portfolio manager @ BCV (PM firm)</text><text class="ts" x="30" y="104">Card: ManageAll_V1.17</text><text class="ts" x="30" y="122">Okta: Wealth.CompassX.ManageAll</text></g>
+<g class="pop d2"><rect class="box" x="240" y="24" width="200" height="120" rx="12"/><circle cx="275" cy="60" r="18" class="navy"/><text class="th" x="305" y="56">Sam</text><text class="ts" x="305" y="74">Maria's assistant @ BCV</text><text class="ts" x="250" y="104">Card: ManageAccounts&amp;Profiles</text><text class="ts" x="250" y="122">Paperwork yes · trading no</text></g>
+<g class="pop d3"><rect class="box" x="460" y="24" width="200" height="120" rx="12"/><circle cx="495" cy="60" r="18" class="red"/><text class="th" x="525" y="56">Alex</text><text class="ts" x="525" y="74">Ops admin @ IAPW (IB firm)</text><text class="ts" x="470" y="104">Card: AdminAll_V1.17</text><text class="ts" x="470" y="122">The approver persona</text></g>
+<g class="pop d4"><rect class="chip" x="20" y="176" width="200" height="110" rx="12"/><text class="th" x="30" y="202">Firm Security Steward</text><text class="ts" x="30" y="222">BCV's access admin — requests</text><text class="ts" x="30" y="238">users &amp; modules, owns attestation</text></g>
+<g class="pop d5"><rect class="chip" x="240" y="176" width="200" height="110" rx="12"/><text class="th" x="250" y="202">SAA · ID Administration</text><text class="ts" x="250" y="222">Fulfils every request by hand —</text><text class="ts" x="250" y="238">incl. keying SecureZone profiles</text><text class="ts" x="250" y="258">(no straight-through processing)</text></g>
+<g class="pop d6"><rect class="chip" x="460" y="176" width="200" height="110" rx="12"/><text class="th" x="470" y="202">Platform Administrator</text><text class="ts" x="470" y="222">Firm settings · feature config ·</text><text class="ts" x="470" y="238">user uploads — the ConfigurePlatform</text><text class="ts" x="470" y="258">card (13 resources)</text></g>
+</svg></div></section>
+<!-- SCENE 2: systems -->
+<section class="scene" id="s2"><h2>Scene 2 · The systems on stage</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<g class="pop d1"><rect class="navy" x="250" y="20" width="180" height="64" rx="12"/><text class="th tw" x="340" y="46" text-anchor="middle">OKTA — the door</text><text class="ts twm" x="340" y="66" text-anchor="middle">identity · 2FA · ONE group label</text></g>
+<g class="pop d2"><rect class="teal" x="210" y="120" width="260" height="90" rx="12"/><text class="th tw" x="340" y="146" text-anchor="middle">COMPASS X — the building</text><text class="ts twm" x="340" y="166" text-anchor="middle">packages (23) · firm settings · resources (139)</text><text class="ts twm" x="340" y="184" text-anchor="middle">firm ∩ user on every render &amp; call</text></g>
+<g class="pop d3"><rect class="box" x="20" y="120" width="160" height="90" rx="12"/><text class="th" x="100" y="146" text-anchor="middle">Microservices</text><text class="ts" x="100" y="166" text-anchor="middle">SOMA · orders · fi…</text><text class="ts" x="100" y="184" text-anchor="middle">2nd ledger: roles→perms</text></g>
+<g class="pop d4"><rect class="box" x="500" y="120" width="160" height="90" rx="12"/><text class="th" x="580" y="146" text-anchor="middle">Firm 360</text><text class="ts" x="580" y="166" text-anchor="middle">firm master · contracts</text><text class="ts" x="580" y="184" text-anchor="middle">nightly firm-etl-glue →</text></g>
+<g class="pop d5"><rect class="chip" x="20" y="240" width="300" height="70" rx="12"/><text class="th" x="30" y="266">SecureZone (9 apps)</text><text class="ts" x="30" y="286">own access model — SAA-keyed · CX passes nothing</text></g>
+<g class="pop d5"><rect class="chip" x="360" y="240" width="300" height="70" rx="12"/><text class="th" x="370" y="266">Infinite tools (20+) · Croesus · d1g1t</text><text class="ts" x="370" y="286">Tier-1 SSO · Infinite fetches the user's resources</text></g>
+<path class="wire pop d6" d="M340 84 L340 116"/><path class="wire pop d6" d="M210 165 L184 165"/><path class="wire pop d6" d="M496 165 L474 165"/><path class="wire pop d6" d="M250 214 L220 236"/><path class="wire pop d6" d="M430 214 L470 236"/>
+</svg></div></section>
+<!-- SCENE 3: authentication -->
+<section class="scene" id="s3"><h2>Scene 3 · Authentication — the login dance</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect class="box" x="40" y="80" width="170" height="80" rx="12"/><text class="th" x="125" y="112" text-anchor="middle">Maria's browser</text><text class="ts" x="125" y="132" text-anchor="middle">opens Compass X</text>
+<rect class="navy" x="250" y="60" width="170" height="110" rx="12"/><text class="th tw" x="335" y="92" text-anchor="middle">OKTA</text><text class="ts twm" x="335" y="112" text-anchor="middle">password + 2FA typed HERE</text><text class="ts twm" x="335" y="130" text-anchor="middle">CX never sees credentials</text><text class="t lock" x="330" y="155" text-anchor="middle">🔒</text>
+<rect class="teal" x="470" y="210" width="180" height="84" rx="12"/><text class="th tw" x="560" y="240" text-anchor="middle">Compass X</text><text class="ts twm" x="560" y="260" text-anchor="middle">receives the TOKEN</text><text class="ts twm" x="560" y="278" text-anchor="middle">carrying one group label</text>
+<path class="wire" d="M212 110 L246 110"/><text class="ts" x="228" y="100" text-anchor="middle">1·redirect</text>
+<path class="wire" d="M335 172 L335 206"/><text class="ts" x="372" y="192">2·token issued</text>
+<path class="wire" d="M335 250 L466 250"/><text class="ts" x="400" y="240" text-anchor="middle">3·back to CX</text>
+<rect class="chip" x="40" y="206" width="250" height="88" rx="12"/><text class="th" x="52" y="230">Ever sent TO Okta:</text><text class="ts" x="52" y="250">• credentials — typed by the user, at login</text><text class="ts" x="52" y="268">• provisioning admin — create / one-group</text><text class="ts" x="52" y="284">   change / deactivate / MFA reset. Nothing else.</text>
+<g class="token tk3"><circle r="11" class="red"/><text class="ts tw" y="4" text-anchor="middle">🎫</text></g>
+<text class="ts" x="560" y="120" text-anchor="middle">token =</text><text class="t" x="560" y="140" text-anchor="middle" style="font-weight:700">Wealth.CompassX.</text><text class="t" x="560" y="158" text-anchor="middle" style="font-weight:700">ManageAll</text>
+</svg></div></section>
+<!-- SCENE 4: authorization in CX -->
+<section class="scene" id="s4"><h2>Scene 4 · Authorization — Compass intersects</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<g class="cL"><circle cx="270" cy="160" r="110" fill="var(--teal)" opacity="0.55"/><text class="th tw" x="210" y="120" text-anchor="middle">FIRM</text><text class="ts tw" x="205" y="140" text-anchor="middle">BCV settings</text><text class="ts tw" x="205" y="158" text-anchor="middle">PM template − hides</text><text class="ts tw" x="205" y="176" text-anchor="middle">(uploads &amp; approvals off)</text></g>
+<g class="cR"><circle cx="410" cy="160" r="110" fill="var(--red)" opacity="0.5"/><text class="th tw" x="470" y="120" text-anchor="middle">USER</text><text class="ts tw" x="474" y="140" text-anchor="middle">Maria's bag:</text><text class="ts tw" x="474" y="158" text-anchor="middle">108 resources</text><text class="ts tw" x="474" y="176" text-anchor="middle">85 M + ticked electives</text></g>
+<g class="inter"><text class="th" x="340" y="150" text-anchor="middle" style="font-size:17px">∩</text><text class="ts" x="340" y="172" text-anchor="middle">what renders</text></g>
+<rect class="chip" x="60" y="288" width="560" height="34" rx="10"/><text class="ts" x="340" y="310" text-anchor="middle">every button &amp; every Compass API call re-checks the SAME resource — common library, front and back</text>
+<text class="ts" x="340" y="40" text-anchor="middle">token label → packages table → the bag · profile → firm → settings gate · overlap only</text>
+</svg></div></section>
+<!-- SCENE 5: second ledger -->
+<section class="scene" id="s5"><h2>Scene 5 · Deep calls — the second ledger</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect class="box" x="30" y="80" width="130" height="70" rx="12"/><text class="th" x="95" y="110" text-anchor="middle">Maria clicks</text><text class="ts" x="95" y="130" text-anchor="middle">"submit withdrawal"</text>
+<rect class="teal" x="30" y="220" width="130" height="70" rx="12"/><text class="th tw" x="95" y="248" text-anchor="middle">Compass UI</text><text class="ts twm" x="95" y="268" text-anchor="middle">resource check ✓</text>
+<rect class="navy" x="215" y="220" width="150" height="70" rx="12"/><text class="th tw" x="290" y="244" text-anchor="middle">SOMA API</text><text class="ts twm" x="290" y="262" text-anchor="middle">same token label</text><text class="ts twm" x="290" y="278" text-anchor="middle">group → 75 roles</text>
+<rect class="navy" x="410" y="220" width="150" height="70" rx="12"/><text class="th tw" x="485" y="244" text-anchor="middle">roles → perms</text><text class="ts twm" x="485" y="262" text-anchor="middle">63 permissions, e.g.</text><text class="ts twm" x="485" y="278" text-anchor="middle">cash-security:withdrawal:write</text>
+<rect class="red" x="600" y="228" width="56" height="54" rx="10"/><text class="th tw" x="628" y="250" text-anchor="middle">✔</text><text class="ts tw" x="628" y="268" text-anchor="middle">execute</text>
+<path class="wire" d="M95 154 L95 216"/><path class="wire" d="M164 255 L211 255"/><path class="wire" d="M369 255 L406 255"/><path class="wire" d="M564 255 L596 255"/>
+<g class="token tk5"><circle r="11" class="red"/><text class="ts tw" y="4" text-anchor="middle">🎫</text></g>
+<rect class="chip warn" x="180" y="60" width="470" height="78" rx="12"/><text class="th" x="196" y="86">Two ledgers, zero shared keys</text><text class="ts" x="196" y="106">UI resources (139) and service roles/permissions are different ID spaces —</text><text class="ts" x="196" y="124">kept equivalent by deployment discipline only. Drift is undetectable by design.</text>
+</svg></div></section>
+<!-- SCENE 6: third parties -->
+<section class="scene" id="s6"><h2>Scene 6 · Third parties — three live patterns</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect class="chip" x="20" y="30" width="640" height="84" rx="12"/><text class="th" x="34" y="56">1 · The Infinite way (equity borrowing, paper upload…)</text><text class="ts" x="34" y="76">SSO out → the APP PHONES HOME: fetches Maria's resources by token · view vs submit are different resources</text>
+<g class="lk"><circle cx="120" cy="96" r="8" class="teal"/></g><path class="wire" d="M110 96 L440 96"/><text class="ts" x="470" y="100">resources →</text>
+<rect class="chip" x="20" y="128" width="640" height="92" rx="12"/><text class="th" x="34" y="154">2 · The SecureZone way (GIC, iMOST, Fund Facts…)</text><text class="ts" x="34" y="174">CX passes NOTHING — just shows or hides the link · SZ's own profile (function groups + RR ranges)</text><text class="ts" x="34" y="192">was pre-keyed BY A HUMAN (SAA). A mis-key beats anything Compass says — the no-STP gap.</text>
+<g class="lk lk2"><circle cx="120" cy="204" r="8" class="gold" fill="var(--gold)"/></g><path class="wire" d="M110 204 L440 204"/><text class="ts" x="470" y="208">link only →</text>
+<rect class="chip" x="20" y="234" width="640" height="80" rx="12"/><text class="th" x="34" y="260">3 · The R2 way (legacy Compass)</text><text class="ts" x="34" y="280">IDs physically stored on the CX profile purely for the AUDIT LINK — this Compass user = that R2 user</text>
+<g class="lk lk3"><circle cx="120" cy="296" r="8" class="red"/></g><path class="wire" d="M110 296 L440 296"/><text class="ts" x="470" y="300">stored ID →</text>
+</svg></div></section>
+<!-- SCENE 7: verdicts -->
+<section class="scene" id="s7"><h2>Scene 7 · Four verdicts that teach everything</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<rect class="box" x="24" y="30" width="305" height="120" rx="12"/><text class="th" x="40" y="58">Sam opens Orders @ BCV</text><text class="ts" x="40" y="80">Firm: Show ✓ · Card: missing ✗</text><g class="v1"><text x="285" y="112" text-anchor="middle" style="font-size:34px">❌</text></g><text class="ts" x="40" y="132">same firm, different card</text>
+<rect class="box" x="351" y="30" width="305" height="120" rx="12"/><text class="th" x="367" y="58">Maria uploads orders @ BCV</text><text class="ts" x="367" y="80">Card: has it ✓ · Firm: Hide ✗</text><g class="v2"><text x="612" y="112" text-anchor="middle" style="font-size:34px">❌</text></g><text class="ts" x="367" y="132">same card, different firm — @IAPW it's ✔</text>
+<rect class="box" x="24" y="172" width="305" height="120" rx="12"/><text class="th" x="40" y="200">Anyone seeks Approvals @ BCV</text><text class="ts" x="40" y="222">Firm hides it AND no card has Control</text><g class="v3"><text x="285" y="254" text-anchor="middle" style="font-size:34px">❌</text></g><text class="ts" x="40" y="274">double lock — Alex @ an IB turns it ✔</text>
+<rect class="box" x="351" y="172" width="305" height="120" rx="12"/><text class="th" x="367" y="200">Maria buys a GIC</text><text class="ts" x="367" y="222">CX shows the door ✓ — but the SZ</text><text class="ts" x="367" y="240">profile furnishes the room</text><g class="v4"><text x="612" y="254" text-anchor="middle" style="font-size:34px">⚠️</text></g><text class="ts" x="367" y="274">works only if SAA keyed her SZ profile right</text>
+</svg></div></section>
+<!-- SCENE 8: recap -->
+<section class="scene" id="s8"><h2>Scene 9 · The whole loop in one breath</h2><div class="stage">
+<svg viewBox="0 0 680 330" preserveAspectRatio="xMidYMid meet">
+<rect class="navy" x="30" y="30" width="620" height="200" rx="16"/>
+<text class="th tw" x="340" y="68" text-anchor="middle" style="font-size:16px">Compass writes the dictionary and the 23 recipes.</text>
+<text class="th tw" x="340" y="96" text-anchor="middle" style="font-size:16px">Okta checks you're you and stamps ONE label on your hand.</text>
+<text class="th tw" x="340" y="124" text-anchor="middle" style="font-size:16px">Compass reads the label twice — the UI book and the services book —</text>
+<text class="th tw" x="340" y="152" text-anchor="middle" style="font-size:16px">intersects with the firm's switches, and only the overlap exists for you.</text>
+<text class="ts twm" x="340" y="186" text-anchor="middle">Third parties either fetch your resources (Infinite), trust a human-keyed profile (SecureZone),</text>
+<text class="ts twm" x="340" y="204" text-anchor="middle">or carry a stored ID for audit (R2).</text>
+<rect class="chip" x="30" y="250" width="620" height="56" rx="12"/>
+<text class="ts" x="340" y="274" text-anchor="middle">Effective access = firm ∩ user — recomputed on every render and every call.</text>
+<text class="ts" x="340" y="294" text-anchor="middle">Training build · Ali Azizi · from 10 KT sessions, 23 production package exports &amp; the authorization DB</text>
+</svg></div></section>
+
+<!-- SCENE 9: full sequence -->
+<section class="scene" id="s9"><h2>Scene 8 · The full sequence — sign-in to execution (reference slide)</h2><div class="stage">
+<svg viewBox="0 0 680 470" preserveAspectRatio="xMidYMid meet">
+<defs><marker id="m2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6"/></marker></defs>
+<rect class="band" x="30" y="56" width="640" height="104" rx="8"/><text class="sq" x="34" y="68" style="font-weight:800">AUTHENTICATION (OIDC)</text>
+<rect class="band" x="30" y="166" width="640" height="100" rx="8" opacity=".35"/><text class="sq" x="34" y="178" style="font-weight:800">RESOLVE &amp; RENDER</text>
+<rect class="band" x="30" y="272" width="640" height="112" rx="8"/><text class="sq" x="34" y="284" style="font-weight:800">ACTION — the two checks</text>
+<rect class="band" x="30" y="390" width="640" height="72" rx="8" opacity=".35"/><text class="sq" x="34" y="402" style="font-weight:800">SECUREZONE HANDOFF</text>
+<g><rect class="box" x="22" y="14" width="66" height="30" rx="7"/><text class="sq" x="55" y="33" text-anchor="middle" style="font-weight:800">Maria</text><line class="lane" x1="55" y1="44" x2="55" y2="462"/></g>
+<g><rect class="teal" x="130" y="14" width="70" height="30" rx="7"/><text class="sq tw" x="165" y="33" text-anchor="middle" style="font-weight:800">CX front</text><line class="lane" x1="165" y1="44" x2="165" y2="462"/></g>
+<g><rect class="navy" x="243" y="14" width="66" height="30" rx="7"/><text class="sq tw" x="276" y="33" text-anchor="middle" style="font-weight:800">Okta</text><line class="lane" x1="276" y1="44" x2="276" y2="462"/></g>
+<g><rect class="teal" x="358" y="14" width="76" height="30" rx="7"/><text class="sq tw" x="396" y="33" text-anchor="middle" style="font-weight:800">CX back (FUM)</text><line class="lane" x1="396" y1="44" x2="396" y2="462"/></g>
+<g><rect class="navy" x="482" y="14" width="66" height="30" rx="7"/><text class="sq tw" x="515" y="33" text-anchor="middle" style="font-weight:800">SOMA</text><line class="lane" x1="515" y1="44" x2="515" y2="462"/></g>
+<g><rect class="box" x="592" y="14" width="72" height="30" rx="7"/><text class="sq" x="628" y="33" text-anchor="middle" style="font-weight:800">SecureZone</text><line class="lane" x1="628" y1="44" x2="628" y2="462"/></g>
+<g class="msg" style="animation-delay:0.50s"><line x1="55" y1="78" x2="165" y2="78" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="55" cy="78" r="7" class="red"/><text class="num" x="55" y="81" text-anchor="middle">1</text><text class="sq" x="110.0" y="74" text-anchor="middle">GET compass.nbin.ca</text></g><g class="msg" style="animation-delay:1.55s"><line x1="165" y1="96" x2="55" y2="96" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="165" cy="96" r="7" class="red"/><text class="num" x="165" y="99" text-anchor="middle">2</text><text class="sq" x="110.0" y="92" text-anchor="middle">302 → Okta /authorize (OIDC)</text></g><g class="msg" style="animation-delay:2.60s"><line x1="55" y1="114" x2="276" y2="114" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="55" cy="114" r="7" class="red"/><text class="num" x="55" y="117" text-anchor="middle">3</text><text class="sq" x="165.5" y="110" text-anchor="middle">credentials + 2FA — typed AT Okta</text></g><g class="msg" style="animation-delay:3.65s"><path d="M276 124 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="267" cy="124" r="7" class="red"/><text class="num" x="267" y="127" text-anchor="middle">4</text><text class="sq" x="308" y="133">validate · load memberships (exactly 1 group)</text></g><g class="msg" style="animation-delay:4.70s"><line x1="276" y1="152" x2="165" y2="152" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="276" cy="152" r="7" class="red"/><text class="num" x="276" y="155" text-anchor="middle">5</text><text class="sq" x="220.5" y="148" text-anchor="middle">tokens { group: Wealth.CompassX.ManageAll }</text></g><g class="msg" style="animation-delay:5.75s"><line x1="165" y1="186" x2="396" y2="186" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="165" cy="186" r="7" class="red"/><text class="num" x="165" y="189" text-anchor="middle">6</text><text class="sq" x="280.5" y="182" text-anchor="middle">GET /me  (bearer token)</text></g><g class="msg" style="animation-delay:6.80s"><path d="M396 196 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="387" cy="196" r="7" class="red"/><text class="num" x="387" y="199" text-anchor="middle">7</text><text class="sq" x="428" y="205">packages table: label → 108 resources (85 M + ticked O)</text></g><g class="msg" style="animation-delay:7.85s"><path d="M396 214 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="387" cy="214" r="7" class="red"/><text class="num" x="387" y="217" text-anchor="middle">8</text><text class="sq" x="428" y="223">firm settings: BCV = PM template − hides</text></g><g class="msg" style="animation-delay:8.90s"><path d="M396 232 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="387" cy="232" r="7" class="red"/><text class="num" x="387" y="235" text-anchor="middle">9</text><text class="sq" x="428" y="241">∩ intersect — overlap only</text></g><g class="msg" style="animation-delay:9.95s"><line x1="396" y1="258" x2="165" y2="258" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="396" cy="258" r="7" class="red"/><text class="num" x="396" y="261" text-anchor="middle">10</text><text class="sq" x="280.5" y="254" text-anchor="middle">effective set → nav renders</text></g><g class="msg" style="animation-delay:11.00s"><line x1="55" y1="296" x2="165" y2="296" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="55" cy="296" r="7" class="red"/><text class="num" x="55" y="299" text-anchor="middle">11</text><text class="sq" x="110.0" y="292" text-anchor="middle">click: submit withdrawal</text></g><g class="msg" style="animation-delay:12.05s"><line x1="165" y1="314" x2="396" y2="314" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="165" cy="314" r="7" class="red"/><text class="num" x="165" y="317" text-anchor="middle">12</text><text class="sq" x="280.5" y="310" text-anchor="middle">POST /servicing  (token)</text></g><g class="msg" style="animation-delay:13.10s"><path d="M396 324 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="387" cy="324" r="7" class="red"/><text class="num" x="387" y="327" text-anchor="middle">13</text><text class="sq" x="428" y="333">re-validate the SAME resource (common library)</text></g><g class="msg" style="animation-delay:14.15s"><line x1="396" y1="350" x2="515" y2="350" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="396" cy="350" r="7" class="red"/><text class="num" x="396" y="353" text-anchor="middle">14</text><text class="sq" x="455.5" y="346" text-anchor="middle">service call  (token)</text></g><g class="msg" style="animation-delay:15.20s"><path d="M515 360 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="506" cy="360" r="7" class="red"/><text class="num" x="506" y="363" text-anchor="middle">15</text><text class="sq" x="547" y="369">group → 75 roles → 63 perms: cash-security:withdrawal:write ✔</text></g><g class="msg" style="animation-delay:16.25s"><line x1="515" y1="381" x2="165" y2="381" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="515" cy="381" r="7" class="red"/><text class="num" x="515" y="384" text-anchor="middle">16</text><text class="sq" x="340.0" y="377" text-anchor="middle">200 — executed → confirm to Maria</text></g><g class="msg" style="animation-delay:17.30s"><line x1="55" y1="414" x2="165" y2="414" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="55" cy="414" r="7" class="red"/><text class="num" x="55" y="417" text-anchor="middle">17</text><text class="sq" x="110.0" y="410" text-anchor="middle">click: GIC (SZ app)</text></g><g class="msg" style="animation-delay:18.35s"><line x1="165" y1="432" x2="628" y2="432" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="165" cy="432" r="7" class="red"/><text class="num" x="165" y="435" text-anchor="middle">18</text><text class="sq" x="396.5" y="428" text-anchor="middle">resource check ✔ → SSO deep-link — NO context passed</text></g><g class="msg" style="animation-delay:19.40s"><path d="M628 442 h26 v12 h-22" fill="none" stroke="var(--mut)" stroke-width="1.4" marker-end="url(#m2)"/><circle cx="619" cy="442" r="7" class="red"/><text class="num" x="619" y="445" text-anchor="middle">19</text><text class="sq" x="660" y="451">SZ's own profile (SAA-keyed function groups + RR) decides inside</text></g></svg></div></section>
+<div id="caption"></div>
+</div>
+<div id="controls">
+<button id="prev">⟨ Prev</button>
+<button id="play">⏸ Pause</button>
+<button id="next">Next ⟩</button>
+<div id="bar"><div id="fill"></div></div>
+<div id="count"></div>
+</div>
+<script>
+const scenes=[
+{id:'s1',dur:13,cap:"Meet the cast. Three end users with different cards — Maria (ManageAll), Sam (paperwork-only), Alex (the approver) — plus the three personas who run access itself: the firm's Security Steward, NBIN's SAA team, and the Platform Administrator."},
+{id:'s2',dur:13,cap:"Six systems share the stage. Okta is only the door. Compass X is the building holding every rule. Microservices keep a second rulebook. Firm 360 feeds firms in nightly. SecureZone and the partner apps live outside — each integrated differently."},
+{id:'s3',dur:16,cap:"Authentication: Compass redirects Maria's BROWSER to Okta; she types her password and 2FA into Okta's own page — Compass never touches credentials. Okta returns a token carrying exactly one thing: her group label. That label is Okta's entire contribution."},
+{id:'s4',dur:14,cap:"Authorization, part one: Compass looks the label up in its OWN packages table (108 resources), loads BCV's firm settings as the gate, and intersects. Only the overlap renders — and every click re-validates the very same resource on the backend."},
+{id:'s5',dur:15,cap:"Authorization, part two: when Maria's action reaches a service like SOMA, the SAME label is expanded through the second ledger — 75 roles, 63 permissions — before the withdrawal executes. Two ledgers, zero shared keys: equivalence rests on deployment discipline."},
+{id:'s6',dur:16,cap:"Third parties, three live patterns: Infinite apps fetch Maria's resources and render accordingly; SecureZone receives NOTHING — a human pre-keyed her SZ profile, and a mis-key beats Compass; legacy R2 just stores an ID so auditors can link the identities."},
+{id:'s7',dur:16,cap:"Four verdicts carry the whole training: blocked by card, blocked by firm, blocked by both — and the GIC warning, where Compass can only open the door while SecureZone furnishes the room. If a learner can explain these four, they understand the platform."},
+{id:'s9',dur:40,cap:"The reference slide: nineteen numbered messages across six lifelines — the OIDC sign-in at Okta, the token's single group claim, Compass resolving package then firm then intersecting, the same-resource re-check on the action, SOMA's role-ledger verdict, and the SecureZone handoff where Compass passes nothing. Pause here: this one slide is the whole architecture."},
+{id:'s8',dur:14,cap:"The loop in one breath. Dictionary and recipes in Compass; one stamp from Okta; two books read against the same label; the firm's switches cut the rest. Pause here, screen-record the run, and you have your mp4 for the LMS."}];
+let i=0,playing=true,elapsed=0,sceneStart=0,raf;
+const total=scenes.reduce((a,s)=>a+s.dur,0);
+const $=id=>document.getElementById(id);
+function show(n){i=(n+scenes.length)%scenes.length;
+document.querySelectorAll('.scene').forEach(s=>s.classList.remove('active'));
+const sc=scenes[i];$(sc.id).classList.add('active');
+// restart css animations
+const el=$(sc.id);el.querySelectorAll('*').forEach(x=>{const a=x.style.animation;x.style.animation='none';void x.offsetWidth;x.style.animation=a;});
+$('caption').textContent=sc.cap;sceneStart=scenes.slice(0,i).reduce((a,s)=>a+s.dur,0);elapsed=0;
+$('count').textContent=`Scene ${i+1} / ${scenes.length}`;}
+function tick(ts){if(!tick.last)tick.last=ts;const dt=(ts-tick.last)/1000;tick.last=ts;
+if(playing){elapsed+=dt;if(elapsed>=scenes[i].dur){show(i+1);}}
+const pct=Math.min(100,((sceneStart+Math.min(elapsed,scenes[i].dur))/total)*100);
+$('fill').style.width=pct+'%';raf=requestAnimationFrame(tick);}
+$('prev').onclick=()=>show(i-1);$('next').onclick=()=>show(i+1);
+$('play').onclick=()=>{playing=!playing;document.body.classList.toggle('paused',!playing);$('play').textContent=playing?'⏸ Pause':'▶ Play';};
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')show(i+1);if(e.key==='ArrowLeft')show(i-1);if(e.key===' '){e.preventDefault();$('play').click();}});
+show(0);requestAnimationFrame(tick);
+</script>
+</body>
+</html>

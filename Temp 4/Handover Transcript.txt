@@ -1,0 +1,1688 @@
+Mullings, Owen
+0 minutes 3 seconds0:03
+Mullings, Owen 0 minutes 3 seconds
+of the platform uplift that we're doing to support the unified access requests that would allow our firms to be able to request access to.
+Mullings, Owen 0 minutes 14 seconds
+all the products and services that we offer across our ecosystem, replacing all the other channels that we had previously. My request, Unified Access Forum,
+Mullings, Owen 0 minutes 26 seconds
+and the security steward portal in R2. In this particular handover, we'll be looking at how do we catalogue the features that are available within Compass and the ecosystem. And there's a couple modules that
+Mullings, Owen 0 minutes 46 seconds
+we would use to accomplish that.
+Mullings, Owen 0 minutes 49 seconds
+The first one is...
+Mullings, Owen 0 minutes 52 seconds
+A systems access configuration.
+Mullings, Owen 0 minutes 56 seconds
+And this is comprised of a platform.
+Mullings, Owen 1 minute 1 second
+which is where we would list all of the resources that we would be controlling.
+Mullings, Owen 1 minute 10 seconds
+And then we have the individual applications listed. Some of them will have more features and functions than others. Esther.
+
+Newton, Persis Esther
+1 minute 20 seconds1:20
+Newton, Persis Esther 1 minute 20 seconds
+Sorry, I have a question already.
+Newton, Persis Esther 1 minute 24 seconds
+You know the previous UAR demo? Is this the same application?
+
+Mullings, Owen
+1 minute 34 seconds1:34
+Mullings, Owen 1 minute 34 seconds
+Uhh.
+
+Newton, Persis Esther
+1 minute 35 seconds1:35
+Newton, Persis Esther 1 minute 35 seconds
+Or is this, or?
+Newton, Persis Esther 1 minute 38 seconds
+Sorry, sorry. Oh, is this the same feature and it's just added on to the feature or is it a separate feature?
+
+Mullings, Owen
+1 minute 49 seconds1:49
+Mullings, Owen 1 minute 49 seconds
+So if I remember the previous demo was the ability for you to submit requests.
+
+Newton, Persis Esther
+1 minute 56 seconds1:56
+Newton, Persis Esther 1 minute 56 seconds
+Right.
+
+Mullings, Owen
+1 minute 58 seconds1:58
+Mullings, Owen 1 minute 58 seconds
+For everything except for, and we built everything except for the details, so the feature configuration.
+
+Newton, Persis Esther
+2 minutes 6 seconds2:06
+Newton, Persis Esther 2 minutes 6 seconds
+Correct, so the top portion, oops, in that details page, it was the top portion that was in scope, if I'm not mistaken.
+
+Mullings, Owen
+2 minutes 17 seconds2:17
+Mullings, Owen 2 minutes 17 seconds
+Yeah.
+
+Newton, Persis Esther
+2 minutes 18 seconds2:18
+Newton, Persis Esther 2 minutes 18 seconds
+Okay.
+Newton, Persis Esther 2 minutes 19 seconds
+And then this is separate from that.
+
+Mullings, Owen
+2 minutes 23 seconds2:23
+Mullings, Owen 2 minutes 23 seconds
+Yeah, so that's a fair question. I didn't connect, show how they connect. So this is a shell of the unified access request. And in order for us to populate the feature access, we need to structure the features that we offer in a way that can get this displayed like this.
+Mullings, Owen 2 minutes 44 seconds
+So we'll be enhancing the current feature management page and introducing another page to inventory all the systems.
+Mullings, Owen 2 minutes 56 seconds
+Does that bridge a gap for you?
+
+Newton, Persis Esther
+2 minutes 56 seconds2:56
+Newton, Persis Esther 2 minutes 56 seconds
+I see. Yes. And then we'll also get into databases like JP will walk us through what changes we need in the database, if there's any new APIs, we'll also get into that, right?
+
+Mullings, Owen
+3 minutes 12 seconds3:12
+Mullings, Owen 3 minutes 12 seconds
+Yeah, this is a hello for the catalog.
+
+Newton, Persis Esther
+3 minutes 15 seconds3:15
+Newton, Persis Esther 3 minutes 15 seconds
+Awesome, thank you.
+
+Mullings, Owen
+3 minutes 17 seconds3:17
+Mullings, Owen 3 minutes 17 seconds
+Norris.
+Mullings, Owen 3 minutes 20 seconds
+Okay, so to our internal tools that we can manage the features.
+Mullings, Owen 3 minutes 27 seconds
+So yes, we have a new module called System Access Configuration. And this would list all of the systems that exist and then what it's able to do slash control.
+Mullings, Owen 3 minutes 40 seconds
+And then the platform one is where we define all the resources, sorry, all the features and functions across all of our apps that we want to store internally. And part of the reason why we're doing that is because in order to know if somebody has access to
+Mullings, Owen 3 minutes 59 seconds
+say a feature in Compass Legacy or a feature in Secure Zone, we need to be able to store an assignment so we know that when you go to update their profile, they were assigned that feature. So we have a universal list of all the features and functions in Compass and where they're delivered here.
+Mullings, Owen 4 minutes 20 seconds
+The other component is an enhancement to an existing feature that was already built.
+Mullings, Owen 4 minutes 27 seconds
+So we do have a feature management page currently deployed. We'll be making some enhancements to that to accommodate all of the access management bundling and configuration that we'll need to do. So I'll go through these two modules one by one.
+Mullings, Owen 4 minutes 48 seconds
+but I'll start with the systems inventory. Actually, let me give one overview just to connect it. So I'll try to talk about the workflow, so how they would be using these two modules together. I'll do that first before I go into the details of what we need to build.
+Mullings, Owen 5 minutes 8 seconds
+So, the workflow as new features come out.
+Mullings, Owen 5 minutes 14 seconds
+The idea is that they would start in the system access configuration.
+Mullings, Owen 5 minutes 20 seconds
+Then we go to the platform option here. And then this is where all features and functions and external applications would get listed.
+Mullings, Owen 5 minutes 32 seconds
+It will pre-exist.
+Mullings, Owen 5 minutes 35 seconds
+And I mocked up two screens here just because I tried to use realistic content. And because there is quite a lot of business services that we offer, I split it out into different groups. So what we used to have is capability.
+Mullings, Owen 5 minutes 54 seconds
+Is no the business service?
+Mullings, Owen 5 minutes 57 seconds
+But this gives you a bit of a better picture. I grouped them all together so you can see. If you select a particle capability, what it would look like.
+Mullings, Owen 6 minutes 7 seconds
+So within each of these services that we offer.
+Mullings, Owen 6 minutes 12 seconds
+There'll be a set of features and functions. So this is what the accounts module looks like. They're all features, there's no functions. So features are...
+Mullings, Owen 6 minutes 25 seconds
+everything that's not a permission per se. All the ones that are permissions are functions and they usually have verbs in front of them.
+Mullings, Owen 6 minutes 35 seconds
+But features includes some of the features can be modules. Usually features only a module when it's a feature that delivers a whole workflow.
+Mullings, Owen 6 minutes 50 seconds
+So if you can view, manage, control, et cetera, usually that's a module.
+Mullings, Owen 6 minutes 57 seconds
+If it's a if it's a subset of a workflow.
+Mullings, Owen 7 minutes 1 second
+it's more of an assigned feature. So in the case of say, documents, text documents.
+Mullings, Owen 7 minutes 11 seconds
+This isn't a module on its own.
+Mullings, Owen 7 minutes 14 seconds
+It's a feature that can be enabled within your access to the client and accounts module.
+Mullings, Owen 7 minutes 21 seconds
+This will get populated by the product team, so they have a spreadsheet to load all the data. But those are the definitions that they will be using to organise these.
+Mullings, Owen 7 minutes 32 seconds
+And it will help facilitate the access management and so on afterwards. So the first thing that they would do is they would come in here. If there's a new feature in one of the capabilities, they would add in the features and functions that they need with the names. And this would be a dropdown that pulls up the resource that should
+Mullings, Owen 7 minutes 52 seconds
+Control that feature, that function, and they should these are all Compass resources.
+Mullings, Owen 7 minutes 59 seconds
+So once they add it to the inventory, they would pick the system where...
+Mullings, Owen 8 minutes 6 seconds
+That feature is being delivered.
+Mullings, Owen 8 minutes 9 seconds
+If it's a native feature that we built, it would be in this Compass system here. If it's a feature from any of the external ones, it would be in one of these other ones.
+Mullings, Owen 8 minutes 22 seconds
+And when it's a feature that's integrated where we have a link on our side, but the true access is managed on the other side, we do kind of help differentiate that. So there'll be an entry here just for the entry point. And then all the functions would be in the tool.
+Mullings, Owen 8 minutes 41 seconds
+If that's where the authorization is managed.
+Mullings, Owen 8 minutes 47 seconds
+So, let's pick an example. If I go to Compass.
+Mullings, Owen 8 minutes 54 seconds
+Compass would get set up with, I'll go into detail into these things and how they kind of help later on, but you would add the feature module here. So in the case where we're adding accounts, this would be the client accounts module. And then these are the additional features that are tied to it. And then the functions, there's no functions.
+Mullings, Owen 9 minutes 15 seconds
+associated with the client and accounts, but it would be registered at this point.
+Mullings, Owen 9 minutes 20 seconds
+Once you enter in.
+Mullings, Owen 9 minutes 23 seconds
+these features on the system page. It will also have an entry of the platform to tell you where it's being used.
+Mullings, Owen 9 minutes 34 seconds
+So each of these features and functions in the platform page, it will show you which system is delivering, or yeah, which, which, where can you use this feature or function? It will show up in the platform page.
+Mullings, Owen 9 minutes 48 seconds
+So at that point, you would have registered the feature, and then to configure the feature, you would go into the features module to finish it off.
+Mullings, Owen 10 minutes
+There's no create button here because all the features that you would have created show up here automatically.
+Mullings, Owen 10 minutes 7 seconds
+It it starts off by being.
+Mullings, Owen 10 minutes 12 seconds
+planned, and you can assign it to be, well it starts off by being unconfigured, and then you can set it to either planned, pre-release, active, or deprecated.
+Mullings, Owen 10 minutes 26 seconds
+But if it's unconfigured, you will see the information that you saw on the platform page, so the name of the feature, and then you can configure that feature. What type of feature it is? The feature types are either module,
+Mullings, Owen 10 minutes 45 seconds
+And module will give you tools for you to say what does a view person have access to, what does a managed person have access to, et cetera. If it says assign feature, you'll assign a resource, but you don't assign a workflow to it. If it's an integrated app, you could assign a workflow to it. Sorry, if it's an integrated app.
+Mullings, Owen 11 minutes 5 seconds
+Yeah, you can assign workflow to it. Same thing with external app. And then a general feature is more of like a platform feature where there's no access control. It's available to everybody. So that would be stuff like my profile, et cetera. And it's there so that you can report system health events and other things.
+Mullings, Owen 11 minutes 24 seconds
+tied to that feature.
+Mullings, Owen 11 minutes 27 seconds
+So those are the different types that the product team will use to organise the features that exist.
+Mullings, Owen 11 minutes 34 seconds
+People.
+GP
+Guevarra, Paul
+11 minutes 37 seconds11:37
+Guevarra, Paul 11 minutes 37 seconds
+Hi, Owen. So whenever we create a system, we add those features and these get populated within the features module, correct? But whenever we need to add a new feature, you said that there's no create new feature in the other.
+
+Mullings, Owen
+11 minutes 47 seconds11:47
+Mullings, Owen 11 minutes 47 seconds
+Yeah.
+GP
+Guevarra, Paul
+11 minutes 56 seconds11:56
+Guevarra, Paul 11 minutes 56 seconds
+Page, right?
+
+Mullings, Owen
+11 minutes 58 seconds11:58
+Mullings, Owen 11 minutes 58 seconds
+Yeah, everything with everything needs to get added here first.
+GP
+Guevarra, Paul
+12 minutes 1 second12:01
+Guevarra, Paul 12 minutes 1 second
+Here, okay. And oh, there's a new feature put in there then, right? Oh, okay. Sorry, I didn't see it.
+
+Mullings, Owen
+12 minutes 2 seconds12:02
+Mullings, Owen 12 minutes 2 seconds
+In the platform.
+Mullings, Owen 12 minutes 5 seconds
+Yep, yep.
+GP
+Guevarra, Paul
+12 minutes 9 seconds12:09
+Guevarra, Paul 12 minutes 9 seconds
+And then, can we go back to the types as well?
+Guevarra, Paul 12 minutes 15 seconds
+All right.
+Guevarra, Paul 12 minutes 17 seconds
+Let's say we have a OK.
+
+GP
+Guevarra, Paul
+12 minutes 22 seconds12:22
+Guevarra, Paul 12 minutes 22 seconds
+Let's say we do have, let's say SOMA servicing, for example, right? We have a feature that is considered a module, right? Because it's in the left navigation menu, right? Would that also be...
+
+Mullings, Owen
+12 minutes 27 seconds12:27
+Mullings, Owen 12 minutes 27 seconds
+Yeah.
+Mullings, Owen 12 minutes 36 seconds
+That's not the, that's not the definition of a module, but keep going.
+GP
+Guevarra, Paul
+12 minutes 39 seconds12:39
+Guevarra, Paul 12 minutes 39 seconds
+Okay.
+Guevarra, Paul 12 minutes 41 seconds
+But so I guess we don't necessarily define it, but like what would it be considered a module then in that case for the ZOMA application?
+
+Mullings, Owen
+12 minutes 51 seconds12:51
+Mullings, Owen 12 minutes 51 seconds
+So, I spent some time documenting what our module should be.
+Mullings, Owen 12 minutes 57 seconds
+Yeah.
+Mullings, Owen 12 minutes 58 seconds
+But A module is a...
+Mullings, Owen 13 minutes 2 seconds
+Within a particular business service, it's a task or a workflow that where you can do create, you can do manage, you can do updates. Maybe there is a middle office and a back office function. It's meant to be the end-to-end. So servicing, client servicing should have a module.
+Mullings, Owen 13 minutes 22 seconds
+and it's delivered through the servicing feature.
+Mullings, Owen 13 minutes 25 seconds
+So people would be able to get view access to it, manage access to it, etc. So it is a valid module. The servicing approvals, I think both of those are part of the same module, but we should be checking the function to approve servicing as a way of assigning it.
+Mullings, Owen 13 minutes 47 seconds
+I know that's not how we do it today. So servicing approvals is its own feature.
+Mullings, Owen 13 minutes 53 seconds
+that relies on has a dependency with servicing because the child module.
+Mullings, Owen 14 minutes
+So we would register servicing approvals as a feature.
+Mullings, Owen 14 minutes 5 seconds
+And features do have restrictions, like a module, so you can show and hide it.
+GP
+Guevarra, Paul
+14 minutes 10 seconds14:10
+Guevarra, Paul 14 minutes 10 seconds
+OK, and and I...
+
+Mullings, Owen
+14 minutes 11 seconds14:11
+Mullings, Owen 14 minutes 11 seconds
+So, in effect, everything's the same.
+GP
+Guevarra, Paul
+14 minutes 14 seconds14:14
+Guevarra, Paul 14 minutes 14 seconds
+OK, but in that case, for approvals, would that fall under like integrated apps then?
+
+Mullings, Owen
+14 minutes 22 seconds14:22
+Mullings, Owen 14 minutes 22 seconds
+Uh...
+Mullings, Owen 14 minutes 24 seconds
+Yes.
+GP
+Guevarra, Paul
+14 minutes 25 seconds14:25
+Guevarra, Paul 14 minutes 25 seconds
+Okay.
+
+Mullings, Owen
+14 minutes 29 seconds14:29
+Mullings, Owen 14 minutes 29 seconds
+Because it does SSO, but it's delivered by an external app.
+Mullings, Owen 14 minutes 38 seconds
+This is if it if there's no auth, there's no there's no authentication, there's no authorization. If it's just purely external and net rep, that's what this is for.
+GP
+Guevarra, Paul
+14 minutes 47 seconds14:47
+Guevarra, Paul 14 minutes 47 seconds
+Okay.
+Guevarra, Paul 14 minutes 50 seconds
+And then I noticed that there's like, for example, a system called Platform, but then you also have a feature type general feature. So.
+Guevarra, Paul 15 minutes
+How would that work? So anything within that platforms?
+Guevarra, Paul 15 minutes 6 seconds
+A platform system would be a general feature, then.
+
+Mullings, Owen
+15 minutes 13 seconds15:13
+Mullings, Owen 15 minutes 13 seconds
+No, I'm trying to get how you made that connection.
+Mullings, Owen 15 minutes 18 seconds
+But let me go back over here.
+Mullings, Owen 15 minutes 21 seconds
+So.
+Mullings, Owen 15 minutes 23 seconds
+within the systems that the platform manages.
+Mullings, Owen 15 minutes 28 seconds
+So we had, so this is how we ended up with this layout. So.
+Mullings, Owen 15 minutes 36 seconds
+We need to be able to have resources for all of the features across all of our different systems.
+Mullings, Owen 15 minutes 42 seconds
+So we need to have some kind of representation for systematic plans in R2, for example.
+Mullings, Owen 15 minutes 48 seconds
+In order for us to create resources against against that feature and the functions associated with it.
+Mullings, Owen 15 minutes 57 seconds
+We need to store all of those assignments as resources inside of Ethanium.
+Mullings, Owen 16 minutes 3 seconds
+Previously I had Compass as the platform.
+Mullings, Owen 16 minutes 6 seconds
+Where all of the features that Compass that the NBIN offers digitally is registered inside of FNU, and previously I called that Compass, but the feedback was that they wanted to know specifically what was built inside of Compass, separate from the from the platform, so we created this read-only system.
+Mullings, Owen 16 minutes 29 seconds
+call platform that'll be anchored at the top. And then that's where we would do all of the management of the features and functions that exist in Compass or that exists that NBIN delivers. So platform is essentially FNU.
+GP
+Guevarra, Paul
+16 minutes 48 seconds16:48
+Guevarra, Paul 16 minutes 48 seconds
+Okay.
+
+Mullings, Owen
+16 minutes 51 seconds16:51
+Mullings, Owen 16 minutes 51 seconds
+That okay sounded like a question still.
+GP
+Guevarra, Paul
+16 minutes 54 seconds16:54
+Guevarra, Paul 16 minutes 54 seconds
+I'm just trying to think like what resources would fall into this, for example. I'm just trying to understand, yeah.
+
+Mullings, Owen
+16 minutes 59 seconds16:59
+Mullings, Owen 16 minutes 59 seconds
+Every, all of them, all of them. Platform is the only place where you can create, where you can associate resources.
+GP
+Guevarra, Paul
+17 minutes 6 seconds17:06
+Guevarra, Paul 17 minutes 6 seconds
+And then, what would, like, for example, like let's say a resource to like the access user profile, right? I forgot the specific names, so...
+
+Mullings, Owen
+17 minutes 15 seconds17:15
+Mullings, Owen 17 minutes 15 seconds
+The, the, the, the answer is, every resource is great is linked here, everyone.
+Mullings, Owen 17 minutes 22 seconds
+So every example that you bring up, yes, that would be created here.
+GP
+Guevarra, Paul
+17 minutes 27 seconds17:27
+Guevarra, Paul 17 minutes 27 seconds
+But what type would it be?
+
+Mullings, Owen
+17 minutes 30 seconds17:30
+Mullings, Owen 17 minutes 30 seconds
+What type of resources? There's only two types in this here. It'd be either feature or function.
+Mullings, Owen 17 minutes 36 seconds
+If it's if it's a prohibition, essentially it's a function. If it's not, it's a feature.
+GP
+Guevarra, Paul
+17 minutes 46 seconds17:46
+Guevarra, Paul 17 minutes 46 seconds
+Okay, okay, I think I understand, but like if we go back to the types again, like for example, modules.
+
+Mullings, Owen
+17 minutes 52 seconds17:52
+Mullings, Owen 17 minutes 52 seconds
+The the the types is on is when you're packaging it, they're not connected like that.
+GP
+Guevarra, Paul
+17 minutes 57 seconds17:57
+Guevarra, Paul 17 minutes 57 seconds
+I see, okay.
+
+Mullings, Owen
+17 minutes 59 seconds17:59
+Mullings, Owen 17 minutes 59 seconds
+So once you list out all the features and the functions.
+GP
+Guevarra, Paul
+18 minutes 2 seconds18:02
+Guevarra, Paul 18 minutes 2 seconds
+Mm.
+
+Mullings, Owen
+18 minutes 3 seconds18:03
+Mullings, Owen 18 minutes 3 seconds
+You come over here and then you classify what kind of feature it is. And then you assign them here.
+Mullings, Owen 18 minutes 12 seconds
+So, over there, you add every single feature that will show up here, and then you come over and you configure it, and then depending on the types, so for the ones that are an entry point to a whole workflow.
+Mullings, Owen 18 minutes 26 seconds
+They'll be classified as a module. If it's essentially just a feature of a module, it'll be an assignable feature. And then for applications, we have two types. We have external apps where there's no integration, and then we have internal apps where it's an entry point to an integrated application. So they are two.
+Mullings, Owen 18 minutes 46 seconds
+And then general features are the ones where there's no access control to it, but we need to be able to list something that, so something that everybody gets. So reset, self-reset password, the login screen, the types of stuff that isn't.
+Mullings, Owen 19 minutes 7 seconds
+Access controlled, that's what will come here.
+GP
+Guevarra, Paul
+19 minutes 11 seconds19:11
+Guevarra, Paul 19 minutes 11 seconds
+Okay, I got it now.
+
+Mullings, Owen
+19 minutes 13 seconds19:13
+Mullings, Owen 19 minutes 13 seconds
+Okay.
+GP
+Guevarra, Paul
+19 minutes 13 seconds19:13
+Guevarra, Paul 19 minutes 13 seconds
+Thank you.
+
+Mullings, Owen
+19 minutes 15 seconds19:15
+Mullings, Owen 19 minutes 15 seconds
+Norris.
+Mullings, Owen 19 minutes 19 seconds
+Anybody else had questions as we explored those topics?
+
+Newton, Persis Esther
+19 minutes 27 seconds19:27
+Newton, Persis Esther 19 minutes 27 seconds
+I think I'll have some questions after I dig into it a little bit more.
+
+
+Mullings, Owen 19 minutes 35 seconds
+So that's the overview completed. Now I'll dive into both of the modules step by step.
+Mullings, Owen 19 minutes 44 seconds
+So in the system access configuration, like we discussed before, the only place where you can create features and functions within the platform is through this platform option here.
+Mullings, Owen 19 minutes 59 seconds
+And...
+Mullings, Owen 20 minutes 2 seconds
+I'm just using this for the sake of, it'll be, because this is so long.
+Mullings, Owen 20 minutes 10 seconds
+I tried to make it so that you would select a list of capability first.
+Mullings, Owen 20 minutes 16 seconds
+and then see what was created underneath here. And if you need to add more, you can add more features or functions.
+Mullings, Owen 20 minutes 24 seconds
+In terms of capabilities, this will essentially be rough data inside of the content API.
+Mullings, Owen 20 minutes 35 seconds
+So we'll
+Mullings, Owen 20 minutes 38 seconds
+This is not something that we, because it doesn't change very often, the capabilities that we offer. It's okay if this is a ref data that we store internally. For everything else in terms of features and functions, we provide a UI for the product team to add and enhance it.
+Mullings, Owen 20 minutes 58 seconds
+as the releases happen.
+Mullings, Owen 21 minutes 1 second
+Uh...
+Mullings, Owen 21 minutes 3 seconds
+Okay, let me go back. So just, I noticed that Yash is here. This app isn't client-facing, just keep that in mind. This is an internal tool, just as you listen through.
+LY
+Londhe, Yash
+21 minutes 13 seconds21:13
+Londhe, Yash 21 minutes 13 seconds
+Okay.
+Londhe, Yash 21 minutes 15 seconds
+Okay.
+
+Newton, Persis Esther
+21 minutes 16 seconds21:16
+Newton, Persis Esther 21 minutes 16 seconds
+So not even available to firms, is only available to NBIN.
+
+Mullings, Owen
+21 minutes 23 seconds21:23
+Mullings, Owen 21 minutes 23 seconds
+Yeah, this is for the product team to configure the platform.
+
+Newton, Persis Esther
+21 minutes 27 seconds21:27
+Newton, Persis Esther 21 minutes 27 seconds
+On it.
+
+Mullings, Owen
+21 minutes 28 seconds21:28
+Mullings, Owen 21 minutes 28 seconds
+Yeah.
+Mullings, Owen 21 minutes 30 seconds
+So, the list of the list of capabilities here, or or what we call services, will be.
+Mullings, Owen 21 minutes 39 seconds
+kind of like a static list, and then that will drive what shows up in terms of the offerings that you can pick from, the services that you can pick from.
+Mullings, Owen 21 minutes 48 seconds
+But it's something that we store internally or in the content API, I think, is where we store all of our ref data. So.
+Mullings, Owen 21 minutes 58 seconds
+Uh, I'll start by...
+
+Newton, Persis Esther
+21 minutes 59 seconds21:59
+Newton, Persis Esther 21 minutes 59 seconds
+Sorry, Owen, one more thing. I don't know if I'm mixing things up now.
+
+Mullings, Owen
+22 minutes 3 seconds22:03
+Mullings, Owen 22 minutes 3 seconds
+Yeah.
+
+Newton, Persis Esther
+22 minutes 6 seconds22:06
+Newton, Persis Esther 22 minutes 6 seconds
+Firm settings, you have the ability to show and hide features from there, right?
+
+Mullings, Owen
+22 minutes 13 seconds22:13
+Mullings, Owen 22 minutes 13 seconds
+Yep.
+
+Newton, Persis Esther
+22 minutes 14 seconds22:14
+Newton, Persis Esther 22 minutes 14 seconds
+And then, over here.
+Newton, Persis Esther 22 minutes 17 seconds
+You can configure it as well.
+Newton, Persis Esther 22 minutes 21 seconds
+Is it?
+
+Mullings, Owen
+22 minutes 21 seconds22:21
+Mullings, Owen 22 minutes 21 seconds
+Yep.
+
+Newton, Persis Esther
+22 minutes 23 seconds22:23
+Newton, Persis Esther 22 minutes 23 seconds
+Is what you configure through here available to all firms and NBIN? Or is it now firm specific as well?
+Newton, Persis Esther 22 minutes 38 seconds
+Sorry, I don't know if I'm asking the right question.
+Newton, Persis Esther 22 minutes 42 seconds
+Do you know what I mean?
+
+Mullings, Owen
+22 minutes 43 seconds22:43
+Mullings, Owen 22 minutes 43 seconds
+I think, I think, yeah, I do. So it is connected. I guess I can talk about how they interrelate, but so part of the reason why we're doing this is because...
+Mullings, Owen 23 minutes
+The way that we packaged or organised or presented features inside of the manage users UI wasn't intuitive to clients. So then we reorganised how we display, because we do have feature management in terms of the firm packages.
+Mullings, Owen 23 minutes 19 seconds
+be it NBIN, IBPM, IFM, et cetera. And then we have user packages that's on the user. So all of that remains as is today. This is a layer on top of that in order for us to catalogue all the features that are inside of Compass so that we can leverage that for other platform features.
+Mullings, Owen 23 minutes 41 seconds
+like system health events, notifications, and the UAR.
+Mullings, Owen 23 minutes 48 seconds
+So firm settings currently isn't set up to be a catalogue for services to be used by all these systems.
+Mullings, Owen 23 minutes 57 seconds
+So, we're establishing this catalogue separate from how our features are packaged within the firms, but they're related. So, the way that the firm set, so the purpose of firm settings and those configurations for hiding resources, that constraints constraints what users in that firm are able to do.
+Mullings, Owen 24 minutes 19 seconds
+The way that would come into effect here is on the request form. When they go to pick from their available options, the ones that are disabled at the firm level for the firm where that request is happening would get removed in that context.
+Mullings, Owen 24 minutes 34 seconds
+Here, we're still listing all the full inventory.
+Mullings, Owen 24 minutes 38 seconds
+But the firm settings, if you hide something there, it'll hide it from the forms that the firm can't pick it.
+Mullings, Owen 24 minutes 43 seconds
+But that's not inside of this conversation today because we're not looking at the forum right now.
+Mullings, Owen 24 minutes 50 seconds
+Is that clear?
+
+Newton, Persis Esther
+24 minutes 52 seconds24:52
+Newton, Persis Esther 24 minutes 52 seconds
+Yeah.
+Newton, Persis Esther 24 minutes 54 seconds
+Yeah, I'm good, thanks.
+
+Mullings, Owen
+24 minutes 54 seconds24:54
+Mullings, Owen 24 minutes 54 seconds
+Huu.
+Mullings, Owen 24 minutes 56 seconds
+Okay, no worries.
+Mullings, Owen 24 minutes 59 seconds
+So, for the platform.
+Mullings, Owen 25 minutes 3 seconds
+So the platform is the only place where we can add, like truly add new features and functions. When you hit new feature, it'll add a new role, a new role. You can give it that English and a French name. And then
+Mullings, Owen 25 minutes 22 seconds
+The this will be a drop-down.
+Mullings, Owen 25 minutes 25 seconds
+for our list of resources.
+Mullings, Owen 25 minutes 29 seconds
+We'll do a philtre on this to only show what will eventually get assigned. So if it's a restriction, it shouldn't show up.
+Mullings, Owen 25 minutes 40 seconds
+Uh...
+Mullings, Owen 25 minutes 42 seconds
+Think.
+Mullings, Owen 25 minutes 44 seconds
+What else would we not show up here?
+Mullings, Owen 25 minutes 48 seconds
+Yeah, essentially, we should make sure that this is a valid feature. I have to look at the types and so on and so forth to see if there's any other thing that we should hide just to make sure it made this less error prone. But they should be, they should go to look at all the resources and then
+Mullings, Owen 26 minutes 7 seconds
+So that you're able to pick the one that fully controls access to that module or that feature.
+Mullings, Owen 26 minutes 16 seconds
+And then a similar thing for some modules shouldn't show up as the function, so we should philtre those out. And then on the functions, they should only be the ones that are more permission-based. Sorry, go ahead, sir.
+
+Newton, Persis Esther
+26 minutes 18 seconds26:18
+Newton, Persis Esther 26 minutes 18 seconds
+What, so?
+Newton, Persis Esther 26 minutes 33 seconds
+What did you say about restrictions? So the top is...
+
+Mullings, Owen
+26 minutes 38 seconds26:38
+Mullings, Owen 26 minutes 38 seconds
+So, restrictions are fake resources. They're like a tool for us to unassign or put like a deny on your access to a module.
+
+Newton, Persis Esther
+26 minutes 50 seconds26:50
+Newton, Persis Esther 26 minutes 50 seconds
+Okay.
+
+Mullings, Owen
+26 minutes 51 seconds26:51
+Mullings, Owen 26 minutes 51 seconds
+But it doesn't get that side itself.
+Mullings, Owen 26 minutes 54 seconds
+So.
+Mullings, Owen 26 minutes 56 seconds
+We need to be able to associate the feature with what the user actually gets assigned.
+Mullings, Owen 27 minutes 3 seconds
+to access that feature.
+Mullings, Owen 27 minutes 6 seconds
+So if somebody mistakenly, because the restrictions have the same name as a module. So when somebody is going to assign this, it could be really confusing for them to pick the right one when they both have the same name.
+Mullings, Owen 27 minutes 20 seconds
+So we should only, so we should philtre out the resources essentially, make sure that all of these are currently of type module. And we should philtre out the restrictions so that the resource associated with the feature is the one that the user would eventually get assigned. Because these features get relied on by other platform features. So
+Mullings, Owen 27 minutes 41 seconds
+When they're getting system health events, whenever they're trying to say, do you have access to this feature, it's going to cheque the resource that actually gets assigned.
+
+Newton, Persis Esther
+27 minutes 49 seconds27:49
+Newton, Persis Esther 27 minutes 49 seconds
+And what about features that have multiple resources like a view and manage? How does...
+Newton, Persis Esther 27 minutes 58 seconds
+That work, we allow it over here.
+
+Mullings, Owen
+28 minutes 2 seconds28:02
+Mullings, Owen 28 minutes 2 seconds
+So, um, all of the functions of you and manage.
+
+Newton, Persis Esther
+28 minutes 6 seconds28:06
+Newton, Persis Esther 28 minutes 6 seconds
+Got it.
+
+Mullings, Owen
+28 minutes 6 seconds28:06
+Mullings, Owen 28 minutes 6 seconds
+Those are functions and those go down here.
+
+Newton, Persis Esther
+28 minutes 10 seconds28:10
+Newton, Persis Esther 28 minutes 10 seconds
+Got it.
+Newton, Persis Esther 28 minutes 14 seconds
+Why do you have an English name and French name for functions? We don't do we show that?
+
+Mullings, Owen
+28 minutes 21 seconds28:21
+Mullings, Owen 28 minutes 21 seconds
+We'll need to when they request access to it through the UAR.
+Mullings, Owen 28 minutes 27 seconds
+And the reason why they're here is because it would be very challenging to have like a dev request every single time that you need to fix the name on something in the unified access form.
+
+Newton, Persis Esther
+28 minutes 27 seconds28:27
+Newton, Persis Esther 28 minutes 27 seconds
+Is.
+Newton, Persis Esther 28 minutes 42 seconds
+So does this have to match the feature?
+
+Mullings, Owen
+28 minutes 47 seconds28:47
+Mullings, Owen 28 minutes 47 seconds
+It should, but it's not your responsibility because it's just content to you.
+Mullings, Owen 28 minutes 51 seconds
+But this is for the product team to manage.
+Mullings, Owen 29 minutes 1 second
+So part of the reason why you have to worry about it in the past is because you are doing it on behalf, like essentially assigning the task of naming things to you.
+
+Newton, Persis Esther
+29 minutes 10 seconds29:10
+Newton, Persis Esther 29 minutes 10 seconds
+OK, so we will.
+
+Mullings, Owen
+29 minutes 10 seconds29:10
+Mullings, Owen 29 minutes 10 seconds
+But, because...
+Mullings, Owen 29 minutes 12 seconds
+Yeah, go ahead.
+
+Newton, Persis Esther
+29 minutes 13 seconds29:13
+Newton, Persis Esther 29 minutes 13 seconds
+Sorry, we will then store it somewhere and then when this page comes up, we'll pull it back into this page, right? Okay, okay.
+
+Mullings, Owen
+29 minutes 19 seconds29:19
+Mullings, Owen 29 minutes 19 seconds
+Yep, yep, and then same thing for the form.
+Mullings, Owen 29 minutes 26 seconds
+There's a bit of trickiness when we get to the form because everything else in the platform so far, it relies on our translocal local cache and the language toggle just basically toggles the language for you. I think when we get to the form, we'll have a conversation about how this works in conjunction with that.
+Mullings, Owen 29 minutes 47 seconds
+But I'll get to that when we get to that part, which we're not going through right now.
+
+Newton, Persis Esther
+29 minutes 55 seconds29:55
+Newton, Persis Esther 29 minutes 55 seconds
+Gone.
+
+Mullings, Owen
+30 minutes30:00
+Mullings, Owen 30 minutes
+Okay.
+Mullings, Owen 30 minutes 3 seconds
+So for each of the different capabilities, you'll be able to list all of the features or functions that exist within Compass. And then we'll have a representation of what actually gets assigned to the user to say that you have access to this feature or this function.
+Mullings, Owen 30 minutes 18 seconds
+Yes.
+Mullings, Owen 30 minutes 19 seconds
+So this platform section will have the full catalogue of everything. And then in each of the different systems, you're configuring the system. And then all you're doing is picking from something that you had already put in the platform. So you can't actually add. So all of these are drop-downs.
+Mullings, Owen 30 minutes 39 seconds
+You can't add anything. Everything would be populated at the platform level. You're basically just associating or assigning that client and accounts. We have a client and accounts module in Compass. So you're showing what features and what functions are available in Compass.
+Mullings, Owen 30 minutes 56 seconds
+Here, and in addition to that.
+Mullings, Owen 31 minutes
+There's some configurations here. So integration type.
+Mullings, Owen 31 minutes 7 seconds
+Let me go to the variations.
+Mullings, Owen 31 minutes 14 seconds
+So, it's an integrated or an external app.
+Mullings, Owen 31 minutes 18 seconds
+And then for the authentication type.
+Mullings, Owen 31 minutes 25 seconds
+One second.
+Mullings, Owen 31 minutes 28 seconds
+It's either you it's either you signed in.
+Mullings, Owen 31 minutes 33 seconds
+use single sign-on or it's hybrid. So the reason why hybrid exists is because for CX.
+Mullings, Owen 31 minutes 42 seconds
+or external IDP firms like IPW. They don't use their login page.
+Mullings, Owen 31 minutes 48 seconds
+They use their own credentials and single sign-on into Compass.
+Mullings, Owen 31 minutes 52 seconds
+So in cases like that, it would get classified as hybrid. Esther.
+
+Newton, Persis Esther
+31 minutes 58 seconds31:58
+Newton, Persis Esther 31 minutes 58 seconds
+Sorry, my question is still back in the features and functions page. Do the functions have to, like, is there a direct correlation from functions to features?
+
+Mullings, Owen
+32 minutes 13 seconds32:13
+Mullings, Owen 32 minutes 13 seconds
+Uhh...
+Mullings, Owen 32 minutes 15 seconds
+I'm trying, oh, okay, I'll just show you the feature, the features module.
+Mullings, Owen 32 minutes 23 seconds
+So.
+Mullings, Owen 32 minutes 26 seconds
+I'll eventually get here. So this is a preview.
+Mullings, Owen 32 minutes 30 seconds
+So when we're configuring a module.
+Mullings, Owen 32 minutes 35 seconds
+We would have to define what are you able to do. This one only has features, but I'll go to an example with functions too. So short answer, yes. Within a particular module, you'd have to articulate for somebody to have view access to the module, what should they get assigned?
+Mullings, Owen 32 minutes 55 seconds
+We.
+Mullings, Owen 32 minutes 56 seconds
+They should get assigned the module itself and then the features that are inside of that module that are access controlled.
+
+Newton, Persis Esther
+33 minutes 5 seconds33:05
+Newton, Persis Esther 33 minutes 5 seconds
+The.
+
+Mullings, Owen
+33 minutes 6 seconds33:06
+Mullings, Owen 33 minutes 6 seconds
+Here's a case with these are functions that you asked about. So in the case of orders, to get view access to orders, then it would just be the module and potentially the view resource.
+Mullings, Owen 33 minutes 21 seconds
+As well.
+Mullings, Owen 33 minutes 22 seconds
+But then for manage, they would have the module itself, and then these functions are optional. So they'll end up in the form as checkboxes where you pick which products they can trade.
+Mullings, Owen 33 minutes 36 seconds
+So this is how the features get related to or packaged with the module.
+
+Newton, Persis Esther
+33 minutes 44 seconds33:44
+Newton, Persis Esther 33 minutes 44 seconds
+Reason I asked Owen was because in your platform, your, that's where you create new features, create new functions. And then in your Compass screen, you can only select the features and functions. But it's just two different sections, right? That's why I was wondering, like one section.
+Newton, Persis Esther 34 minutes 7 seconds
+talks about client accounts, onboarding, and then the separate section talks about the functions, but it didn't look like there was a direct correlation. So this is the only screen that shows that relationship, right?
+
+Mullings, Owen
+34 minutes 26 seconds34:26
+Mullings, Owen 34 minutes 26 seconds
+Yep.
+Mullings, Owen 34 minutes 34 seconds
+You went off mute. Does that mean that you understood?
+
+Newton, Persis Esther
+34 minutes 35 seconds34:35
+Newton, Persis Esther 34 minutes 35 seconds
+No, I'm good. I think I understand. Yes, thanks.
+
+Mullings, Owen
+34 minutes 38 seconds34:38
+Mullings, Owen 34 minutes 38 seconds
+Okay.
+Mullings, Owen 34 minutes 41 seconds
+Right, so back to the uh...
+Mullings, Owen 34 minutes 46 seconds
+System configuration, so.
+Mullings, Owen 34 minutes 50 seconds
+For authentication, this is to drive the unified access form. So in the cases where they have to sign into an application, this would let the request know that you need to create credentials for that user.
+Mullings, Owen 35 minutes 7 seconds
+So we have to store the
+Mullings, Owen 35 minutes 11 seconds
+I guess the system properties so that we can know which for which systems that you request access to, do you need credentials for or not. And also for to deactivate the user, if it's single sign on, then deactivating in Compass would do. But then for every system where you have to go
+Mullings, Owen 35 minutes 30 seconds
+and remove their access. If they have sign in, we need that we have understanding what properties they are in that system.
+Mullings, Owen 35 minutes 39 seconds
+For the authorization, it's either internal or external. So internal is they're using our resources. External means that there's something on that system that tells them what they have access to in that other system.
+Mullings, Owen 35 minutes 55 seconds
+So for, I think I tried to mock up examples just to make it clear.
+Mullings, Owen 36 minutes 3 seconds
+Okay, so for Compass, it's hybrid because of the SSO firms and authorization is internal and these all use Compass resources.
+Mullings, Owen 36 minutes 15 seconds
+And the resources are on the platform page. So we just show you the name of the feature and function here.
+Mullings, Owen 36 minutes 22 seconds
+And Compass Legacy, it's a single sign-on.
+Mullings, Owen 36 minutes 27 seconds
+and authorization is external.
+Mullings, Owen 36 minutes 34 seconds
+because the features are managed on R2, not in Compass. And then we show what features exist in that system. And then because the authorization is external, you have to configure, or the team that's managing this, would basically say in order to get access to manage account opening,
+Mullings, Owen 36 minutes 56 seconds
+they would have to assign this value inside of R2.
+Mullings, Owen 37 minutes 5 seconds
+And for a secure zone, it's a similar thing. Know that we have SSO, it's good. Sorry, copy and paste, external.
+Mullings, Owen 37 minutes 18 seconds
+So for secure zone, it's no single sign-on after the project's done. So then they don't need credentials to secure zone anymore. But in order to get access to servicing, you will need these function group codes.
+Mullings, Owen 37 minutes 34 seconds
+So these are the different functions that exist inside of that system. All of the features will be inside of Compass as the integration point.
+Mullings, Owen 37 minutes 47 seconds
+But it gives us a way to specify, to give somebody access to certain features or functions inside a secure zone. These are the values that we would expect them to get assigned in that system's language.
+Mullings, Owen 38 minutes
+And these are all, you know, this is editable, which means that it's content that comes in from the user, not from the system. So for you guys, this is just content.
+Mullings, Owen 38 minutes 11 seconds
+But from a support perspective, there'll be impacts on this later on. So this would power the instructions that SAA gets when they're setting up the users in the security app. For the R2, this would be the instructions that they use to set up the users in the firm security steward in R2.
+Mullings, Owen 38 minutes 34 seconds
+and for each of the different systems. For the external apps where we don't want to control anything, essentially they get assigned a licence and that's it.
+Mullings, Owen 38 minutes 45 seconds
+Kris is just a license. So there's no details about what they have access in that system. It's just that they get access to those systems.
+Mullings, Owen 38 minutes 54 seconds
+The.
+Mullings, Owen 38 minutes 55 seconds
+OK, Esther.
+
+
+
+Newton, Persis Esther
+38 minutes 59 seconds38:59
+Newton, Persis Esther 38 minutes 59 seconds
+So if somebody made an error, for example, that in authentication instead of single sign on, it was something else written down. Is this supposed to go and change some systems?
+
+Mullings, Owen
+39 minutes 12 seconds39:12
+Mullings, Owen 39 minutes 12 seconds
+Yeah.
+Mullings, Owen 39 minutes 17 seconds
+Yeah.
+Mullings, Owen 39 minutes 18 seconds
+So this is managing a catalogue and then the impact would be based on whichever platform features rely on that catalog.
+
+Newton, Persis Esther
+39 minutes 23 seconds39:23
+Newton, Persis Esther 39 minutes 23 seconds
+Okay.
+
+Mullings, Owen
+39 minutes 28 seconds39:28
+Mullings, Owen 39 minutes 28 seconds
+So, like I was trying to describe the dependencies that are coming up is the instructions, whether they need to set your credentials, whether they need to remove credentials, etc.
+
+Newton, Persis Esther
+39 minutes 28 seconds39:28
+Newton, Persis Esther 39 minutes 28 seconds
+Okay.
+Newton, Persis Esther 39 minutes 31 seconds
+Yes.
+
+Mullings, Owen
+39 minutes 39 seconds39:39
+Mullings, Owen 39 minutes 39 seconds
+Does that answer your question?
+
+Newton, Persis Esther
+39 minutes 40 seconds39:40
+Newton, Persis Esther 39 minutes 40 seconds
+Got it. Yes. So where we are just feeding it to a catalog, then whoever wants to source from that catalog, they can do that. This is not actually going to go change somebody's API to do it just a different way. It's just a catalog.
+
+Mullings, Owen
+39 minutes 42 seconds39:42
+Mullings, Owen 39 minutes 42 seconds
+I.
+Mullings, Owen 39 minutes 48 seconds
+Yeah.
+Mullings, Owen 39 minutes 55 seconds
+Yeah, it's digitising and structuring what is in the platform so that other systems know what to do about, like, how to deal with the platform.
+
+Newton, Persis Esther
+40 minutes 7 seconds40:07
+Newton, Persis Esther 40 minutes 7 seconds
+Mhm.
+Newton, Persis Esther 40 minutes 10 seconds
+Thanks, Owen.
+
+Mullings, Owen
+40 minutes 10 seconds40:10
+Mullings, Owen 40 minutes 10 seconds
+Okay, that's everything for the systems configuration page.
+Mullings, Owen 40 minutes 17 seconds
+And this is how we summarise it in the end. So all the attributes that you would have put inside there, we show here. And we keep track of who did what. Not of, I don't think we have a full history on the history, but just last update, last modified, I guess. So both the user and the timestamp.
+Mullings, Owen 40 minutes 38 seconds
+And...
+Mullings, Owen 40 minutes 41 seconds
+Crap, I have half an hour left and JP still needs to go. Okay, I'll keep going through.
+Mullings, Owen 40 minutes 47 seconds
+So, know the features page.
+Mullings, Owen 40 minutes 50 seconds
+So this is what we have today, but we're going to enhance it, update some of the enums. It's not in Product yet, but it is currently integrated with the system health status, and it's being integrated into notifications today.
+Mullings, Owen 41 minutes 10 seconds
+But mainly what they use it for is, for example, notifications. It will ask the catalogue what.
+Mullings, Owen 41 minutes 23 seconds
+what features each of these notification topics are associated with, so that if they wanted to give somebody a list of events to subscribe to, it would be based on what features they currently have assigned. So it's a way for them to tailor the list of features, so they'll go subscribe to something where they do have access to the feature.
+Mullings, Owen 41 minutes 44 seconds
+It's also used in system health status to when there is an event. If there's an incident on a feature that you have access to, it only shows up in that case. If there's an incident on a feature that you do have access to, it doesn't show up. So those are the current 2 dependencies on it.
+Mullings, Owen 42 minutes 5 seconds
+But I'll walk through the updates to that screen.
+Mullings, Owen 42 minutes 16 seconds
+So like I said before, if you create a feature on the platform system page, it will show up in the features list. The features list is sorted alphabetically based on the English label. If you're a French user, the French label.
+Mullings, Owen 42 minutes 32 seconds
+And then it's initially unconfigured.
+Mullings, Owen 42 minutes 37 seconds
+And then from there, you would pick the type that we walked through previously, the capability from the list of capabilities that we walked through previously. This system should pull from the dropdown of the list of features associated with the feature that you picked. So it doesn't show you every system, just this list.
+Mullings, Owen 43 minutes 2 seconds
+And then the status.
+Mullings, Owen 43 minutes 5 seconds
+of the feature based on the workflow.
+Mullings, Owen 43 minutes 12 seconds
+So when you're configuring this, if it's a module, some of them will give you access to configure how you get access to that feature. And then if it's like a general feature, see if I can find an example of a general feature.
+Mullings, Owen 43 minutes 30 seconds
+So if it's an assigned feature, so it's a part of a module for documents, for document statements, there's no use of saying view, manage, et cetera, to document statements because it's just part of accounts. So for there, there would be no configuration for assigned features.
+Mullings, Owen 43 minutes 48 seconds
+And then same thing for general features, there's no access control.
+Mullings, Owen 43 minutes 53 seconds
+Okay.
+Mullings, Owen 43 minutes 55 seconds
+And then for external, yeah, for general features, there's no access control. Need to pick a different example here.
+Mullings, Owen 44 minutes 6 seconds
+No talk through.
+Mullings, Owen 44 minutes 10 seconds
+dependencies and authorization levels.
+Mullings, Owen 44 minutes 15 seconds
+So.
+Mullings, Owen 44 minutes 18 seconds
+There's some cases where a feature relies on an external module. Like it's a dependency, so you need to have that before you get access to this feature. And that would allow us to, on the form, if you remove access to, say, client and accounts, you wouldn't see the options for documents.
+Mullings, Owen 44 minutes 39 seconds
+because they're inside of clients and accounts. So basically when you remove that feature, all of its children go away as well, or it gets disabled.
+Mullings, Owen 44 minutes 49 seconds
+So we need a way of saying what are the dependencies between the features so that the assignments make sense. Some examples of the call out here, you would add an external dependency onto all of these because you need this to even get access to any of these.
+Mullings, Owen 45 minutes 7 seconds
+Same thing with, I guess you wouldn't know what this example is, but there's options in R2 for you to pick what division of IPC you're in. It'll be a resource that's only available in the IPC firm, only enabled to the IPC firm. So then this option, they'll have to pick on the form.
+Mullings, Owen 45 minutes 26 seconds
+which one of these options they are. But the...
+Mullings, Owen 45 minutes 33 seconds
+I guess through firm settings, what the firm has access to, it'll get filtered out on every firm but IPC. But even to get these options, you need, it's part of the Inform integration into R2. So this is the only module where this would be even relevant. So everything's segmented to where the concern is.
+Mullings, Owen 45 minutes 56 seconds
+And you can confidently update it without thinking about anything else, because all of the other dependencies are clearly linked. If we didn't, if we had like a global type of place to edit it, you'd always have to worry about if I, if I remove this, what other things do I need to consider?
+Mullings, Owen 46 minutes 15 seconds
+We made it so that if you edit each of the pages, everything should just work and there's no errors.
+Mullings, Owen 46 minutes 21 seconds
+Okay.
+Mullings, Owen 46 minutes 24 seconds
+The only other thing I wanted to call out here is...
+Mullings, Owen 46 minutes 31 seconds
+when we're picking the authorization levels that are available on a particular module.
+Mullings, Owen 46 minutes 37 seconds
+whenever you put view manage control.
+Mullings, Owen 46 minutes 43 seconds
+The module that you're in.
+Mullings, Owen 46 minutes 46 seconds
+their resource shows up as an automatic assignment here.
+Mullings, Owen 46 minutes 52 seconds
+And that's because you do have the option to hide modules over in the form.
+Mullings, Owen 46 minutes 59 seconds
+But we need to assign you at least this module whenever, as a standard feature, whenever you pick view manage control. So that will automatically get added here as an option, and then we disable it from being removed.
+Mullings, Owen 47 minutes 17 seconds
+And that will happen if you hit view manage. So in the case of manage.
+Mullings, Owen 47 minutes 22 seconds
+He gets added here as well.
+Mullings, Owen 47 minutes 30 seconds
+Okay, I think those are all the features in the two modules.
+Mullings, Owen 47 minutes 36 seconds
+I want to pause here to see if there's places that we covered that you want to explore more.
+Mullings, Owen 47 minutes 55 seconds
+JP, are you thinking a different session to go through the PCR?
+Mullings, Owen 48 minutes
+Because there's 20 minutes left, or did you want to start?
+
+
+
+Mullings, Owen
+49 minutes49:00
+Mullings, Owen 49 minutes
+Huu.
+
+Newton, Persis Esther
+49 minutes 1 second49:01
+Newton, Persis Esther 49 minutes 1 second
+That be right.
+
+Mullings, Owen
+49 minutes 2 seconds49:02
+Mullings, Owen 49 minutes 2 seconds
+So it, it's probably better to do manage integrations first.
+Mullings, Owen 49 minutes 7 seconds
+because you rely on that inside of managed features, but many features already exist. So you're basically just adding fields.
+
+Newton, Persis Esther
+49 minutes 15 seconds49:15
+Newton, Persis Esther 49 minutes 15 seconds
+Okay.
+
+Mullings, Owen
+49 minutes 16 seconds49:16
+Mullings, Owen 49 minutes 16 seconds
+But.
+Mullings, Owen 49 minutes 19 seconds
+Yeah, that could be a bit of a longer conversation with Annie about the product version mess for this.
+
+Newton, Persis Esther
+49 minutes 25 seconds49:25
+Newton, Persis Esther 49 minutes 25 seconds
+Okay.
+
+Mullings, Owen
+49 minutes 27 seconds49:27
+Mullings, Owen 49 minutes 27 seconds
+Because after you estimate it, there might be a conversation about how deep to go in terms of the features and stuff. But...
+Mullings, Owen 49 minutes 36 seconds
+probably manage integrations. I don't know, like if you had a front end dev, you could build up more, like you wouldn't be blocked to build out the UI for the feature management stuff because it already exists. You'd be adding fields and stuff, just waiting on the API. You can mock it. So that's a separate conversation, I think.
+
+Azizi, Ali
+49 minutes 49 seconds49:49
+Azizi, Ali 49 minutes 49 seconds
+Yeah.
+
+Newton, Persis Esther
+49 minutes 56 seconds49:56
+Newton, Persis Esther 49 minutes 56 seconds
+Okay, thank you.
+
+Azizi, Ali
+50 minutes 1 second50:01
+Azizi, Ali 50 minutes 1 second
+Yeah, the user journey starts from manage integration, but manage integration and manage features persona are going to be, you know, product activation and product management teams.
+Azizi, Ali 50 minutes 21 seconds
+For example, Radhika and I, and you know, and Candi, so...
+Azizi, Ali 50 minutes 27 seconds
+But, as a...
+Azizi, Ali 50 minutes 31 seconds
+Owen mentioned, we have a manage features page right now, but manage integration is totally new one, which we need to have new attributes over there. And then manage features will be populated based on those integrations.
+Azizi, Ali 50 minutes 51 seconds
+Uh...
+Azizi, Ali 50 minutes 52 seconds
+But in terms of the sequence, yeah, managed integration is the first one. And yeah, the rest, I think if we go from left to the right, the sequence in the Figma is the right sequence. But we can talk about the priorities.
+Azizi, Ali 51 minutes 12 seconds
+And yeah, we can sort it out.
+
+Mullings, Owen
+51 minutes 16 seconds51:16
+Mullings, Owen 51 minutes 16 seconds
+Thanks, Ali.
+
+Azizi, Ali
+51 minutes 18 seconds51:18
+Azizi, Ali 51 minutes 18 seconds
+Voice.
+
+Newton, Persis Esther
+51 minutes 18 seconds51:18
+Newton, Persis Esther 51 minutes 18 seconds
+Good.
+
+Mullings, Owen
+51 minutes 21 seconds51:21
+Mullings, Owen 51 minutes 21 seconds
+Well, I have one last question before JP takes over.
+Mullings, Owen 51 minutes 25 seconds
+So I ended up putting in a lot of examples in the design, so it looks complicated because I tried to actually include all the content that would be there. Is that helpful or does that, is that more?
+Mullings, Owen 51 minutes 40 seconds
+confusing to you guys. Should I just focus on the features and not the content? I could separate them into two different pages. So you just see what you need to build.
+GP
+Guevarra, Paul
+51 minutes 54 seconds51:54
+Guevarra, Paul 51 minutes 54 seconds
+I think I need we need to look over this first before.
+Guevarra, Paul 51 minutes 59 seconds
+Making that decision, Owen, because, like, for me, maybe the content does help just to understand, like, what what needs to be there, but then...
+Guevarra, Paul 52 minutes 10 seconds
+I, I for now it looks like it's okay.
+
+Mullings, Owen
+52 minutes 14 seconds52:14
+Mullings, Owen 52 minutes 14 seconds
+Okay.
+GP
+Guevarra, Paul
+52 minutes 14 seconds52:14
+Guevarra, Paul 52 minutes 14 seconds
+That it gives, because that's a sense of what's being what needs to be there, rather than just to go in blind, right?
+
+Mullings, Owen
+52 minutes 19 seconds52:19
+Mullings, Owen 52 minutes 19 seconds
+Okay.
+Mullings, Owen 52 minutes 42 seconds
+All right, JP, over to you.
+
+Pierre, Joseph-Pascal
+52 minutes 54 seconds52:54
+Pierre, Joseph-Pascal 52 minutes 54 seconds
+Kabir.
+Pierre, Joseph-Pascal 52 minutes 58 seconds
+Ohh, let's keep me.
+Pierre, Joseph-Pascal 53 minutes 2 seconds
+Second.
+Pierre, Joseph-Pascal 53 minutes 40 seconds
+Phone.
+Pierre, Joseph-Pascal 53 minutes 46 seconds
+I understand why I say we better have a separate session, because...
+Pierre, Joseph-Pascal 53 minutes 53 seconds
+It's actually.
+Pierre, Joseph-Pascal 53 minutes 56 seconds
+What we're trying to achieve is, at least to me, a complicated topic.
+Pierre, Joseph-Pascal 54 minutes 5 seconds
+Um...
+Pierre, Joseph-Pascal 54 minutes 8 seconds
+So, there's lots of detail, and we have to be, in my view, very careful on implementing. So,
+Pierre, Joseph-Pascal 54 minutes 23 seconds
+Done.
+Pierre, Joseph-Pascal 54 minutes 36 seconds
+Chair.
+Pierre, Joseph-Pascal 54 minutes 48 seconds
+Okay.
+Pierre, Joseph-Pascal 54 minutes 50 seconds
+Twelve minutes left.
+Pierre, Joseph-Pascal 54 minutes 55 seconds
+So, some time ago, I believe, so we went over the Pam, right?
+Pierre, Joseph-Pascal 55 minutes 1 second
+Right, still be some questions, maybe, but now we're going to focus on if I go back to the...
+Pierre, Joseph-Pascal 55 minutes 11 seconds
+They say.
+Pierre, Joseph-Pascal 55 minutes 14 seconds
+Hired Huu.
+Pierre, Joseph-Pascal 55 minutes 17 seconds
+You know, PAM is what we went over. There was that form, you know, the request form that was presented back then, which is part of PAM. So, and but then PAM needs to be fed, fed with information. So the form needs to
+Pierre, Joseph-Pascal 55 minutes 37 seconds
+Display.
+Pierre, Joseph-Pascal 55 minutes 40 seconds
+Things that can be selected, and that system that would essentially feed it is PCR. So, PCR stands for Platform Capability Registry, so it's just a database, you know, it would data basically.
+Pierre, Joseph-Pascal 55 minutes 59 seconds
+But that we call a registry or registries or catalogs, and it's only that it doesn't. It's very static, it simply holds data, but for the purpose of requesting accesses, you know, tools to.
+Pierre, Joseph-Pascal 56 minutes 17 seconds
+to features and functions and modules and whatnot. OK. So.
+Pierre, Joseph-Pascal 56 minutes 25 seconds
+But then, PCR.
+Pierre, Joseph-Pascal 56 minutes 28 seconds
+is fed by something else, needs to be fed by something else. And this is the feature management. So part of what Owen explained or screens from the FM, but I'll focus on the PCR itself, because that's the one that's going to feed.
+Pierre, Joseph-Pascal 56 minutes 46 seconds
+PAM so that the security store can go and pick and select which service, which feature, which module, which this and that. I want to give access to my fellow colleague. And from there, we'll submit their request and that request will trigger.
+Pierre, Joseph-Pascal 57 minutes 7 seconds
+A provisioning plan to be built.
+Pierre, Joseph-Pascal 57 minutes 12 seconds
+They can guess what has been requested, fetching, what are the different capabilities associated, you know, and basically the instructions, sort of fine-grained instructions, you know, that needs to be followed.
+Pierre, Joseph-Pascal 57 minutes 32 seconds
+By the Ops to provision the access as per requested. OK, so PCR holds really a responsibility of cataloguing things for the purpose of.
+Pierre, Joseph-Pascal 57 minutes 50 seconds
+being requested or for request access. So if I dive into PCR.
+Pierre, Joseph-Pascal 57 minutes 59 seconds
+Same thing, I have 3 catalogs. I have a service catalog, a PVT catalog, and provisioning catalog. So provisioning catalogue is a...
+Pierre, Joseph-Pascal 58 minutes 9 seconds
+Friends provisioning proof. We won't dive right away on into the provisioning catalogue necessarily, but essentially it's the one that holds the instructions. Service catalogue is the one that holds the services, so what what will be displayed from from a.
+Pierre, Joseph-Pascal 58 minutes 28 seconds
+customer point of view, you know, it has to be, it has to make sense from for them the way it is spelled over there. Then in between you have all the details that is not necessarily exposed to the customer, but that is necessarily, that is needed.
+Pierre, Joseph-Pascal 58 minutes 48 seconds
+For the systems, OK, but anyway, at this point, all of this is all theoretical, so let's go on to practice. So, you have, so that's the first, you have 3 views. I have a graph view.
+Pierre, Joseph-Pascal 59 minutes 4 seconds
+Yeah, I'll go in edit mode.
+Pierre, Joseph-Pascal 59 minutes 8 seconds
+And I have a conceptual view which is closer to what you would do in a database, and then I have a logical view which is even closer and very.
+Pierre, Joseph-Pascal 59 minutes 21 seconds
+almost what you will end up provisioning in terms of tables. So in there, which we won't go over today because there's too many tables, too many details, it's impossible to do in 7 minutes. You have, you know, I segregated, I said, okay, these are actually PAM tables.
+Pierre, Joseph-Pascal 59 minutes 40 seconds
+These are PCR tables. And in there you have all the concepts, you know, of service catalog, you could say, instructions, which is the provisioning catalog, and then the in between, which are the capabilities mixed together. So there's many things, you know, that needs to be done.
+Pierre, Joseph-Pascal 1 hour
+Explain here, but if I start from the graph.
+Pierre, Joseph-Pascal 1 hour 5 seconds
+Just less detail, but at least it allows me to explain it rather quickly. So I have a request that will be submitted.
+Pierre, Joseph-Pascal 1 hour 16 seconds
+request form, you know, and so it's going to be saved and persisted as a request. So it's going to have a request ID. And that request will reference a user, right? It may be an existing user or a new user to be created. Okay, so we'll go there. In the conceptual model, I have the notion.
+Pierre, Joseph-Pascal 1 hour 37 seconds
+of a requested user. So it doesn't mean that he exists. He may exist or he may not exist. But it is distinct from the user config or the user table that we have in SUM. And by the way, all of this would sit in the same database as SUM. There's no point spinning a new database server for that.
+Pierre, Joseph-Pascal 1 hour 57 seconds
+So same database, maybe a different schema, but same same database.
+Pierre, Joseph-Pascal 1 hour 1 minute 2 seconds
+So, here is about a requested user, and you have that notion of a secret. Why secret is because, for, let's say, a selected service, you know...
+Pierre, Joseph-Pascal 1 hour 1 minute 16 seconds
+There's a requirement to have a login on CompassX or a login on Netrep or a whatever other system, so therefore, for fulfilling info to fulfil that request, the ops will have to go on that system and create that.
+Pierre, Joseph-Pascal 1 hour 1 minute 36 seconds
+Credential that login, so therefore it will be saved in the form of a secret, so that secret will reference will have to save that secret reference and reference the request for which you know it got created, because it's a request that knows you know the user, right?
+Pierre, Joseph-Pascal 1 hour 1 minute 56 seconds
+So.
+Pierre, Joseph-Pascal 1 hour 1 minute 57 seconds
+The secret is simply a reference to some vault, you know, that says, okay, hey, request 123 has these many secrets that have been created for these different systems, and therefore they need to be displayed back to the security store.
+Pierre, Joseph-Pascal 1 hour 2 minutes 17 seconds
+you know, so that he can manage to send it over to the respective end user. So far so good. No question or?
+Pierre, Joseph-Pascal 1 hour 2 minutes 30 seconds
+Esther.
+Pierre, Joseph-Pascal 1 hour 2 minutes 32 seconds
+Good.
+
+
+Newton, Persis Esther
+1 hour 2 minutes 33 seconds1:02:33
+Newton, Persis Esther 1 hour 2 minutes 33 seconds
+Ah.
+Newton, Persis Esther 1 hour 2 minutes 35 seconds
+I know, but I'll have to listen to this again to form the right questions. I'm good.
+
+Pierre, Joseph-Pascal
+1 hour 2 minutes 40 seconds1:02:40
+Pierre, Joseph-Pascal 1 hour 2 minutes 40 seconds
+But.
+Pierre, Joseph-Pascal 1 hour 2 minutes 44 seconds
+Okay, but don't hesitate. I'd rather answer now before covering everything than having to explain too many, but...
+
+Razmakhnine, Alexandre
+1 hour 2 minutes 55 seconds1:02:55
+Razmakhnine, Alexandre 1 hour 2 minutes 55 seconds
+Are all these tables he showed originally, are they all new?
+
+Pierre, Joseph-Pascal
+1 hour 2 minutes 59 seconds1:02:59
+Pierre, Joseph-Pascal 1 hour 2 minutes 59 seconds
+Yes, if I go at logical.
+Pierre, Joseph-Pascal 1 hour 3 minutes 3 seconds
+And you look at PAM and you look at PCR, it's all new table. Nothing exists. So SUM.
+
+Razmakhnine, Alexandre
+1 hour 3 minutes 10 seconds1:03:10
+Razmakhnine, Alexandre 1 hour 3 minutes 10 seconds
+I think it's probably it's probably better to create separate scheme for it for it, but do not even mix it with what we have right now.
+
+Pierre, Joseph-Pascal
+1 hour 3 minutes 12 seconds1:03:12
+Pierre, Joseph-Pascal 1 hour 3 minutes 12 seconds
+Yeah.
+Pierre, Joseph-Pascal 1 hour 3 minutes 17 seconds
+Exactly, yeah.
+Pierre, Joseph-Pascal 1 hour 3 minutes 21 seconds
+True, but it could be on the same server, though.
+
+Razmakhnine, Alexandre
+1 hour 3 minutes 24 seconds1:03:24
+Razmakhnine, Alexandre 1 hour 3 minutes 24 seconds
+Yeah, on the same server, just a different logical path, right? So not to mix it, because capability of the premier, for example, table capability we have.
+
+Pierre, Joseph-Pascal
+1 hour 3 minutes 29 seconds1:03:29
+Pierre, Joseph-Pascal 1 hour 3 minutes 29 seconds
+Yes.
+Pierre, Joseph-Pascal 1 hour 3 minutes 35 seconds
+Two.
+Pierre, Joseph-Pascal 1 hour 3 minutes 36 seconds
+Exactly, true, true, true. So it's better. And anyway, the vision is eventually, if we have budget, if we have the will, whatever, this could sit on an external database. But for now, there's no gain, real gain doing so, so it might, you know, sit next.
+
+Razmakhnine, Alexandre
+1 hour 3 minutes 48 seconds1:03:48
+Razmakhnine, Alexandre 1 hour 3 minutes 48 seconds
+Ohh.
+Razmakhnine, Alexandre 1 hour 3 minutes 54 seconds
+Yeah, but physically I want to separate it. No, not physically, logically. I want to separate it on the same server, but a different scheme.
+
+Pierre, Joseph-Pascal
+1 hour 3 minutes 58 seconds1:03:58
+Pierre, Joseph-Pascal 1 hour 3 minutes 58 seconds
+Yes.
+Pierre, Joseph-Pascal 1 hour 4 minutes 2 seconds
+I agree, I agree, 100%. So if I move back to the graphs and then, so yeah, that notion of service and capability.
+Pierre, Joseph-Pascal 1 hour 4 minutes 14 seconds
+and access right, but let's focus for now on service and capability. This is my naming of this. It doesn't follow Owen's naming.
+Pierre, Joseph-Pascal 1 hour 4 minutes 25 seconds
+It doesn't follow SAA is naming of things, you know, that notion of feature and package and function and resources and module. All of that, I don't consider why, because this is to be generic.
+Pierre, Joseph-Pascal 1 hour 4 minutes 44 seconds
+That notion of feature and package is very specific to CompassX. If you go to Network.
+Pierre, Joseph-Pascal 1 hour 4 minutes 52 seconds
+They don't have such thing. If you go to secure zone, they don't have such thing. Even the access right is intentionally very generic of a term because in secure zone, it's a question of functional group, of data group.
+
+Razmakhnine, Alexandre
+1 hour 4 minutes 57 seconds1:04:57
+Razmakhnine, Alexandre 1 hour 4 minutes 57 seconds
+Dif.
+
+Pierre, Joseph-Pascal
+1 hour 5 minutes 9 seconds1:05:09
+Pierre, Joseph-Pascal 1 hour 5 minutes 9 seconds
+Of what not to our code, I don't know what else. In CompassX, it's something else. In R2, it's something else. In Netrap, it's something else. So the best term I found was access right.
+Pierre, Joseph-Pascal 1 hour 5 minutes 22 seconds
+So whatever, for whatever service that is composed of these many capabilities, be it module, be it function, be it feature.
+Pierre, Joseph-Pascal 1 hour 5 minutes 34 seconds
+There will be a set of access rights.
+Pierre, Joseph-Pascal 1 hour 5 minutes 39 seconds
+Those access rights will need to be provisioned against the system.
+Pierre, Joseph-Pascal 1 hour 5 minutes 44 seconds
+for a given user. So these are the instructions. We would have instructions that will say, assign this access right on this system. And for doing so, you need this parameter. And that parameter is something that can only be.
+Pierre, Joseph-Pascal 1 hour 6 minutes 4 seconds
+Given by the requesting user, meaning the security store.
+Pierre, Joseph-Pascal 1 hour 6 minutes 11 seconds
+So if I close this up.
+Pierre, Joseph-Pascal 1 hour 6 minutes 15 seconds
+And I go to...
+Pierre, Joseph-Pascal 1 hour 6 minutes 17 seconds
+To this you, oops, to this you instead, so yeah.
+Pierre, Joseph-Pascal 1 hour 6 minutes 29 seconds
+Uh, not chair, sorry.
+Pierre, Joseph-Pascal 1 hour 6 minutes 32 seconds
+I have a security steward.
+Pierre, Joseph-Pascal 1 hour 6 minutes 35 seconds
+It goes into Pam, fills up the request form.
+Pierre, Joseph-Pascal 1 hour 6 minutes 39 seconds
+Start selecting Services, so if I go to...
+Pierre, Joseph-Pascal 1 hour 6 minutes 45 seconds
+Oops, took PCR.
+Pierre, Joseph-Pascal 1 hour 6 minutes 53 seconds
+Yeah.
+Pierre, Joseph-Pascal 1 hour 6 minutes 55 seconds
+Sorry, I'm better at in edit mode.
+Pierre, Joseph-Pascal 1 hour 6 minutes 59 seconds
+So, you went in the security, the words went in.
+Pierre, Joseph-Pascal 1 hour 7 minutes 4 seconds
+Opens a new request, selected a user.
+Pierre, Joseph-Pascal 1 hour 7 minutes 9 seconds
+He starts selecting a bunch of services, choices at different details, so he end up selecting different modules, different features, different functions, whatever. In the end, in PCR, it results or it links to...
+Pierre, Joseph-Pascal 1 hour 7 minutes 28 seconds
+different access threads, okay, that will need to be provisioned, you know. So, but we would know upon selection that for one access thread, a given instruction requires a input by the security engine.
+Pierre, Joseph-Pascal 1 hour 7 minutes 47 seconds
+A user, a security store, which is the parameter here.
+Pierre, Joseph-Pascal 1 hour 7 minutes 52 seconds
+because I have that all interrelated. So therefore, on the screen, our request up front before the guy submits his request, you need to provide these parameters in because upon your selection.
+Pierre, Joseph-Pascal 1 hour 8 minutes 8 seconds
+we know from the PCR that these are required so that the access right be provisioned, right? So up front, go and through the relationships, we'll find out, okay, these are the many parameters that needs to be entered by the security stewards.
+Pierre, Joseph-Pascal 1 hour 8 minutes 28 seconds
+before submitting his request, it will be presented and asked. He will enter the different things, you know, be it.
+Pierre, Joseph-Pascal 1 hour 8 minutes 38 seconds
+what is, I don't know, what is the firm, you know, because maybe for that given user that he selected, he's working for two firms, you know. So for which firm do you want that access to be provisioned? So you have to specify it because otherwise I as a system, I cannot infer that information. I don't know.
+Pierre, Joseph-Pascal 1 hour 8 minutes 57 seconds
+he has two firms, 3 firms, which one of the two of the three this is for? So, that's the type of questions that will be asked, given, you know, that mapping that we have. Okay. So, if you look at this,
+Pierre, Joseph-Pascal 1 hour 9 minutes 15 seconds
+For Sasha and Dres, let's look at the conceptual. It's because I have a request that's been filled. I've selected services.
+Pierre, Joseph-Pascal 1 hour 9 minutes 25 seconds
+Those are composed of these many capabilities, be it module, function, or feature.
+Pierre, Joseph-Pascal 1 hour 9 minutes 33 seconds
+They have access, right?
+Pierre, Joseph-Pascal 1 hour 9 minutes 36 seconds
+Do you not associate to each?
+Pierre, Joseph-Pascal 1 hour 9 minutes 40 seconds
+They have an instruction.
+Pierre, Joseph-Pascal 1 hour 9 minutes 43 seconds
+Against the system, and some instructions will have a required input parameter.
+Pierre, Joseph-Pascal 1 hour 9 minutes 50 seconds
+So the request will have a required parameters that will be collected.
+Pierre, Joseph-Pascal 1 hour 9 minutes 58 seconds
+And.
+Pierre, Joseph-Pascal 1 hour 9 minutes 59 seconds
+Up, up and save, OK.
+Pierre, Joseph-Pascal 1 hour 10 minutes 4 seconds
+So, in the end, what it means is, when I, if I go back, oops.
+Pierre, Joseph-Pascal 1 hour 10 minutes 14 seconds
+When the request is saved.
+Pierre, Joseph-Pascal 1 hour 10 minutes 18 seconds
+This kicks in.
+Pierre, Joseph-Pascal 1 hour 10 minutes 21 seconds
+It produces the plan.
+Pierre, Joseph-Pascal 1 hour 10 minutes 24 seconds
+upon the whatever has been requested, right? So it goes into PCR, finds what are the instructions, and for the instructions that had a parameter, required parameter, technically it would find the value in the request.
+Pierre, Joseph-Pascal 1 hour 10 minutes 41 seconds
+So you would have everything at hand.
+Pierre, Joseph-Pascal 1 hour 10 minutes 44 seconds
+These are the instructions for these access rights. Here's the parameters, the parameter values that had been supplied by the security store. All of this is saved, so I can go build up a plan of instructions, required parameters.
+Pierre, Joseph-Pascal 1 hour 11 minutes 5 seconds
+For each each each each systems involved, basically, and then maybe also on top of that.
+Pierre, Joseph-Pascal 1 hour 11 minutes 15 seconds
+It's, I don't know.
+Pierre, Joseph-Pascal 1 hour 11 minutes 18 seconds
+A new access, a new login that needs to be created, so they gonna go, they create that login on their trip, let's say they go back into their admin screen, save that secret or the whatever you know.
+Pierre, Joseph-Pascal 1 hour 11 minutes 34 seconds
+and then it gets attached to the request.
+Pierre, Joseph-Pascal 1 hour 11 minutes 39 seconds
+So all of this represents, you know, what I just explained.
+Pierre, Joseph-Pascal 1 hour 11 minutes 45 seconds
+So, that's, in a nutshell, what PCR is. It's really from...
+Pierre, Joseph-Pascal 1 hour 11 minutes 54 seconds
+All of this here.
+Pierre, Joseph-Pascal 1 hour 11 minutes 56 seconds
+Okay.
+Pierre, Joseph-Pascal 1 hour 11 minutes 58 seconds
+Secret is something on the side, but it's very minimal. It's just a table, a simple table that holds, you know, a reference to the request, a request reference to which system, and then the secret reference. So it's just a...
+Pierre, Joseph-Pascal 1 hour 12 minutes 14 seconds
+Whatever, when you save, you know, that secret, you know, that vault, it's going to return to you something, you know, and that you need, you know, later on to retrieve that secret, per se. So that's what's going to get saved into that table. So we'll dive in detail into that, but...
+Pierre, Joseph-Pascal 1 hour 12 minutes 34 seconds
+It's essentially one volt that we, you guys are you guys are familiar with, and...
+Pierre, Joseph-Pascal 1 hour 12 minutes 44 seconds
+That's it. So next session, we'll dive into this diagram.
+Pierre, Joseph-Pascal 1 hour 12 minutes 48 seconds
+Looking at each table.
+
+Razmakhnine, Alexandre
+1 hour 12 minutes 51 seconds1:12:51
+Razmakhnine, Alexandre 1 hour 12 minutes 51 seconds
+Thank you.
+
+Pierre, Joseph-Pascal
+1 hour 12 minutes 52 seconds1:12:52
+Pierre, Joseph-Pascal 1 hour 12 minutes 52 seconds
+Et.
+
+Razmakhnine, Alexandre
+1 hour 12 minutes 53 seconds1:12:53
+Razmakhnine, Alexandre 1 hour 12 minutes 53 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+1 hour 12 minutes 54 seconds1:12:54
+Pierre, Joseph-Pascal 1 hour 12 minutes 54 seconds
+Any questions? Sounds good, not too complicated.
+
+Razmakhnine, Alexandre
+1 hour 12 minutes 54 seconds1:12:54
+Razmakhnine, Alexandre 1 hour 12 minutes 54 seconds
+Sounds good.
+Razmakhnine, Alexandre 1 hour 12 minutes 57 seconds
+A is a project for like six months or one year.
+
+Pierre, Joseph-Pascal
+1 hour 13 minutes1:13:00
+Pierre, Joseph-Pascal 1 hour 13 minutes
+Ha ha ha!
+Pierre, Joseph-Pascal 1 hour 13 minutes 2 seconds
+Yeah.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 2 seconds1:13:02
+Razmakhnine, Alexandre 1 hour 13 minutes 2 seconds
+Events expected to arrive, like delivered.
+
+Pierre, Joseph-Pascal
+1 hour 13 minutes 7 seconds1:13:07
+Pierre, Joseph-Pascal 1 hour 13 minutes 7 seconds
+I leave that answer to Oba.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 11 seconds1:13:11
+Razmakhnine, Alexandre 1 hour 13 minutes 11 seconds
+Oh, because I heard Obaloluwa wants to have it like November 15th or something like that to be in production.
+
+Pierre, Joseph-Pascal
+1 hour 13 minutes 17 seconds1:13:17
+Pierre, Joseph-Pascal 1 hour 13 minutes 17 seconds
+Yeah.
+Pierre, Joseph-Pascal 1 hour 13 minutes 19 seconds
+Yeah.
+Pierre, Joseph-Pascal 1 hour 13 minutes 21 seconds
+Because you know everybody thinks AI is too magic, right? So.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 27 seconds1:13:27
+Razmakhnine, Alexandre 1 hour 13 minutes 27 seconds
+Ohh, it's not that magic, anyway.
+
+Pierre, Joseph-Pascal
+1 hour 13 minutes 30 seconds1:13:30
+Pierre, Joseph-Pascal 1 hour 13 minutes 30 seconds
+I know. But I tried to simplify as much as possible this model.
+Pierre, Joseph-Pascal 1 hour 13 minutes 39 seconds
+There's many abstraction when I'll go over next week. I don't know when, is it Monday, Tuesday or Wednesday? There's many details that I took out, I left out because I say, okay, I need to protect this. It doesn't have to be too complicated.
+Pierre, Joseph-Pascal 1 hour 13 minutes 58 seconds
+When we talk about, let's say, just to give you one example, function, modules, features, whatever. Me, it's all the same. It's a capability.
+Pierre, Joseph-Pascal 1 hour 14 minutes 10 seconds
+And it has very few fields. It's a name and there's a type. So are you a feature, are you a module, are you a function? Someone will give you that information. There's nothing for you to think about or give it to you. Because today in FUM, it's all mixed together.
+Pierre, Joseph-Pascal 1 hour 14 minutes 29 seconds
+It's all in a resource table and some more, you know, this, some more that. So here I'm just classifying properly, but it's a capability.
+Pierre, Joseph-Pascal 1 hour 14 minutes 40 seconds
+A access right, once again, it's also in the resource table of SUMs, all mixed together. Here, I'm clearly differentiating what a capability is from what a access right is, you know, a permission per se.
+Pierre, Joseph-Pascal 1 hour 14 minutes 58 seconds
+But then again, it could be a function group, it could be a data group, it could be a group, just a group, could be so many other things depending on the system. To me, it's an access right, so I keep it simple.
+Pierre, Joseph-Pascal 1 hour 15 minutes 15 seconds
+So that, you know, here in in in big.
+Pierre, Joseph-Pascal 1 hour 15 minutes 20 seconds
+These are the main tables, you know, instruction, system, access right. So if I go to system, access right, capability.
+Pierre, Joseph-Pascal 1 hour 15 minutes 34 seconds
+Services.
+Pierre, Joseph-Pascal 1 hour 15 minutes 37 seconds
+These, to me, are the main, main, main tables.
+Pierre, Joseph-Pascal 1 hour 15 minutes 42 seconds
+And request.
+
+Razmakhnine, Alexandre
+1 hour 15 minutes 42 seconds1:15:42
+Razmakhnine, Alexandre 1 hour 15 minutes 42 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+1 hour 15 minutes 44 seconds1:15:44
+Pierre, Joseph-Pascal 1 hour 15 minutes 44 seconds
+So that's how I try to help you guys and also me, right? Because there's no point doing something too complicated.
+Pierre, Joseph-Pascal 1 hour 15 minutes 57 seconds
+Um...
+Pierre, Joseph-Pascal 1 hour 15 minutes 58 seconds
+So, that's it.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 5 seconds1:16:05
+Razmakhnine, Alexandre 1 hour 16 minutes 5 seconds
+Thank you.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 13 seconds1:16:13
+Pierre, Joseph-Pascal 1 hour 16 minutes 13 seconds
+Surprise, Esther has no questions.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 15 seconds1:16:15
+Razmakhnine, Alexandre 1 hour 16 minutes 15 seconds
+I still jumped out, then nothing, that's why.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 18 seconds1:16:18
+Pierre, Joseph-Pascal 1 hour 16 minutes 18 seconds
+Yeah, that's why.
+
+Mullings, Owen
+1 hour 16 minutes 19 seconds1:16:19
+Mullings, Owen 1 hour 16 minutes 19 seconds
+Thank you.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 21 seconds1:16:21
+Razmakhnine, Alexandre 1 hour 16 minutes 21 seconds
+Yeah, we are like 10 minutes past.
+
+Mullings, Owen
+1 hour 16 minutes 22 seconds1:16:22
+Mullings, Owen 1 hour 16 minutes 22 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 23 seconds1:16:23
+Pierre, Joseph-Pascal 1 hour 16 minutes 23 seconds
+Okay, cool.
+
+Mullings, Owen
+1 hour 16 minutes 26 seconds1:16:26
+Mullings, Owen 1 hour 16 minutes 26 seconds
+Have a good weekend, everyone.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 26 seconds1:16:26
+Pierre, Joseph-Pascal 1 hour 16 minutes 26 seconds
+So, that's it.
+Pierre, Joseph-Pascal 1 hour 16 minutes 28 seconds
+Thank you.
+
+Mullings, Owen
+1 hour 16 minutes 28 seconds1:16:28
+Mullings, Owen 1 hour 16 minutes 28 seconds
+Uh, I imagine that Obaloluwa will follow up with another time slot.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 28 seconds1:16:28
+Razmakhnine, Alexandre 1 hour 16 minutes 28 seconds
+Thank you.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 32 seconds1:16:32
+Pierre, Joseph-Pascal 1 hour 16 minutes 32 seconds
+Yes.
+Pierre, Joseph-Pascal 1 hour 16 minutes 35 seconds
+Sebastien.
+
+Mullings, Owen
+1 hour 16 minutes 37 seconds1:16:37
+Mullings, Owen 1 hour 16 minutes 37 seconds
+No, he dropped to him.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 38 seconds1:16:38
+Pierre, Joseph-Pascal 1 hour 16 minutes 38 seconds
+Okay, yeah.
+
+Mullings, Owen
+1 hour 16 minutes 39 seconds1:16:39
+Mullings, Owen 1 hour 16 minutes 39 seconds
+IN.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 40 seconds1:16:40
+Pierre, Joseph-Pascal 1 hour 16 minutes 40 seconds
+Catch the subway.
+Pierre, Joseph-Pascal 1 hour 16 minutes 43 seconds
+the train. Okay, cool.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 43 seconds1:16:43
+Razmakhnine, Alexandre 1 hour 16 minutes 43 seconds
+Okay, talk to you later. Thank you, guys. Bye.
+GP
+Guevarra, Paul
+1 hour 16 minutes 45 seconds1:16:45
+Guevarra, Paul 1 hour 16 minutes 45 seconds
+Goodbye. Have a good long weekend. Goodbye. Thank you. Bye.
+PR
+
+Patel, Ravikumar
+1 hour 16 minutes 47 seconds1:16:47
+Patel, Ravikumar 1 hour 16 minutes 47 seconds
+Thanks, everyone. Bye.
+
+Pierre, Joseph-Pascal
+1 hour 16 minutes 48 seconds1:16:48
+Pierre, Joseph-Pascal 1 hour 16 minutes 48 seconds
+Bye.
+
+Mullings, Owen
+1 hour 16 minutes 49 seconds1:16:49
+Mullings, Owen 1 hour 16 minutes 49 seconds
+See you guys, man.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,699 @@
+Date: Fri, 9 Oct 2026 16:57:41 -0400 (EDT)
+Message-ID: <1812552544.118661.1791579461022@ip-10-50-203-210.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_118660_1905430295.1791579461021"
+
+------=_Part_118660_1905430295.1791579461021
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Onboarding Profiles</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body,
+    #full-height-container,
+    #main,
+    #page,
+    #content,
+    .has-personal-sidebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover,
+    a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, 'Courier New', monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Onboarding Profiles</h1>
+    <div class=3D"Section1">
+        <p>The following is a list of available Onboarding profiles by Firm=
+ Type.</p>
+<p>
+ <br>
+</p>
+<div role=3D"region" aria-label=3D"Warning" class=3D"confluence-information=
+-macro  confluence-information-macro-warning">
+ <p class=3D"title conf-macro-render">Reminder</p>
+ <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-=
+error confluence-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p><em>A Compass user profile can only be assigned one Onboarding Profile=
+.</em></p>
+ </div>
+</div>
+<h2 id=3D"OnboardingProfiles-PMOnboardingProfiles">PM Onboarding Profiles</=
+h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <thead>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Onboarding Profile</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Description</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Data Access</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" colspan=3D"1" data-highlight-colour=3D"#f4f5f7"><strong =
+title=3D"">Role</strong></td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Assistant</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create, view, and submit new applications for assigned RR code(=
+s)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>RR code</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_PROCESSOR</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Firm Operations</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can view all applications for firm and sub-branch</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Portfolio Manager</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create, view, and submit new applications for assigned RR code(=
+s)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>RR code</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_PROCESSOR</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Firm Submitter</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create, view, and submit new applications for any RR code at th=
+e firm.&nbsp; This profile also enables the use of the Bulk Upload feature.=
+</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_SUBMITTER</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<h2 id=3D"OnboardingProfiles-IBOnboardingProfiles">IB Onboarding Profiles</=
+h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col style=3D"width: 160.0px;">
+   <col style=3D"width: 1017.0px;">
+   <col style=3D"width: 145.0px;">
+   <col>
+  </colgroup>
+  <thead>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Onboarding Profile</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Description</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Data Access</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" colspan=3D"1" data-highlight-colour=3D"#f4f5f7"><strong =
+title=3D"">Role</strong></td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Advisor</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create, view, and submit new applications for assigned RR code(=
+s)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>RR code</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_PROCESSOR</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Assistant</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create, view, and submit new applications for assigned RR code(=
+s)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>RR code</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_PROCESSOR</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Branch Manager</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can approve <em>Branch Manager Review</em> workflow stage for any a=
+pplication in firm and sub-branch (where applicable)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Drop Approver</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can approve <em>Branch Manager Review</em> and <em>Options Review</=
+em> stages for any application in firm and sub-branch (where applicable)</p=
+>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd"><strong>Firm Account Opening</=
+strong></td>
+    <td colspan=3D"1" class=3D"confluenceTd">Can action stage <em>Account O=
+pening =E2=80=93 Manual Data Entry</em> if firm is configured as a self-ope=
+ning IB</td>
+    <td colspan=3D"1" class=3D"confluenceTd">Firm or Sub-branch</td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Firm Operations</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can action workflow stages: <em>Initial Review</em>, <em>Final Revi=
+ew</em>, <em>Account Opening =E2=80=93 Manual Data Entry </em>(if firm conf=
+igured as a self-opening IB), <em>Escalation =E2=80=93 Missing Info Require=
+d</em>, <em>Escalation =E2=80=93 Application Declined</em></p>
+     <p>Profile to be used when firm operations activities are performed by=
+ one user group.</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Firm Submitter</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can create view, and submit new applications for any RR code at fir=
+m. This profile also enables the use of the Bulk Upload feature.</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub- branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_SUBMITTER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Reviewer</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can complete <em>Initial Review</em>, <em>Final Review</em>, <em>Es=
+calation =E2=80=93 Missing Info Required</em>, <em>Escalation =E2=80=93 App=
+lication Declined</em> workflow stages.</p>
+     <p>Profile to be used when firm operations activities are performed by=
+ different user groups.</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>ReviewerPostBM</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can complete <em>Final Review</em>, Escalation =E2=80=93 <em>Applic=
+ation Declined</em>, <em>Escalation =E2=80=93 More Info Required</em> workf=
+low stages</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>ReviewerPreBM</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can complete <em>Initial Review</em> workflow stage</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Firm or Sub-branch</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_FIRM_APPROVER</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>For further information on IB configurable workflow stages see&nbsp;<a h=
+ref=3D"/spaces/CPKB/pages/1091314962/IB+Workflow+Configuration">IB Workflow=
+ Configuration</a>.</p>
+<p>
+ <br>
+</p>
+<h2 id=3D"OnboardingProfiles-NBINOnboardingProfiles">NBIN Onboarding Profil=
+es</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <thead>
+   <tr>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Onboarding Profile</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Description</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" data-highlight-colour=3D"#f4f5f7">
+     <p title=3D""><strong>Data Access</strong></p>
+    </td>
+    <td class=3D"highlight-#f4f5f7 confluenceTd" title=3D"Background color =
+: Light grey 100%" colspan=3D"1" data-highlight-colour=3D"#f4f5f7"><strong =
+title=3D"">Role</strong></td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Account Opening</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>CPMC user. Can action stage <em>Account Opening =E2=80=93 Manual Da=
+ta Entry</em> if firm is configured as a PM firm or NBIN opening IB firm.</=
+p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Administrator</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can view and update the system configuration</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_ADMINISTRATOR</td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D""><strong>Black Pearl</strong></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">Can create and submit new applications - <strong>not use=
+d</strong></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">All</p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ colspan=3D"1" data-highlight-colour=3D"grey">ROLE_DATA_ENTRY</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>NBIN DROP Approval</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>NBIN risk user who can action <em>Branch Manager Review</em> and <e=
+m>Options Review</em> stages for applications in PM workflow.</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Estates</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can action applications in <em>Escalation =E2=80=93 Estate Review</=
+em> stage</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>NBIN Risk</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can action <em>Branch Manager Review</em> stage in PM workflow for =
+any firm.</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Registered Plan Admin</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Can action <em>Special Handling =E2=80=93 RDSP</em> and <em>Special=
+ Handling =E2=80=93 RIF</em> workflow stages.&nbsp;</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p><strong>Service Coordinator</strong></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Read only access</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>All</p>
+    </td>
+    <td colspan=3D"1" class=3D"confluenceTd">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D""><strong>Transfer Team</strong></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">Can action paper upload transfer stage. Applications wit=
+h exception RR codes will not route to this team.- <strong>not used</strong=
+></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">All</p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ colspan=3D"1" data-highlight-colour=3D"grey">ROLE_NBIN_APPROVER</td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D""><strong>Transition Team</strong></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">Transfer user with access limited to exception RR codes =
+for paper upload transfer stage - <strong>not used</strong></p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ data-highlight-colour=3D"grey">
+     <p title=3D"">All</p>
+    </td>
+    <td class=3D"highlight-grey confluenceTd" title=3D"Background color : "=
+ colspan=3D"1" data-highlight-colour=3D"grey">ROLE_NBIN_APPROVER</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_118660_1905430295.1791579461021--

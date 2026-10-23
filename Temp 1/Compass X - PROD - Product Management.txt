@@ -1,0 +1,120 @@
+Manages product strategy, requirements, enhancements, and ongoing business support for platform capabilities.
+
+
+Role Hierarchy:
+
+Compass X - PROD - Product Management
+Type: Application Profile / Profil applicatif
+Owner: A006900 - Owners
+Description:
+Manages product strategy, requirements, enhancements, and ongoing business support for platform capabilities.
+
+Classifications: RP-Niveau 1 / PII-Level 1
+Entitlement Profiles
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+defaultModule	firm_client_accounts	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+firm	NBIN	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+rrcodes	CNTA	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+package	ManageAll_V1.17	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	firm_client_accounts	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	form_applications	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	paper_upload_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	gic_management_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	trade_allocations_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	soma_servicing	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	infinite_applications	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	tools_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	compass_r2	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	statements_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	tax_documents_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	trade_confirmations_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	view_system_events	
+Azure-AD
+Azure-AD: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.ManageAll	
+6231: Okta Employee
+6231: Okta Employee: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.ManageAll	
+
+
+Entitlements:
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+Azure-AD	groups	07641-PRD-ACC-Wealth.CompassX.ManageAll	Direct
+6231: Okta Employee	groups	07641-PRD-ACC-Wealth.CompassX.ManageAll	Direct
+6900: Compass X	rrcodes	CNTA	Direct
+6900: Compass X	package	ManageAll_V1.17	Direct
+6900: Compass X	firm	NBIN	Direct
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	compass_r2	Direct
+6900: Compass X	featureSelections	firm_client_accounts	Direct
+6900: Compass X	defaultModule	firm_client_accounts	Direct
+6900: Compass X	featureSelections	form_applications	Direct
+6900: Compass X	featureSelections	gic_management_menu	Direct
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	infinite_applications	Direct
+6900: Compass X	featureSelections	paper_upload_menu	Direct
+6900: Compass X	featureSelections	soma_servicing	Direct
+6900: Compass X	featureSelections	statements_menu	Direct
+6900: Compass X	featureSelections	tax_documents_menu	Direct
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	tools_menu	Direct
+6900: Compass X	featureSelections	trade_allocations_menu	Direct
+6900: Compass X	featureSelections	trade_confirmations_menu	Direct
+6900: Compass X	featureSelections	view_system_events	Direct
+
+
+Classifications:
+Name sorted ascendingClick to sort by this column	Description	OriginClick to sort by this column
+RP-Niveau 1 / PII-Level 1		MyIndependentDataSource

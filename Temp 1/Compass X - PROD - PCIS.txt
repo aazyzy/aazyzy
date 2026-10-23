@@ -1,0 +1,105 @@
+Supports delivery of MyPortfolio+ credentials to NBIN clients through Compass.
+
+
+Role Hierarchy:
+Compass X - PROD - PCIS
+Type: Application Profile / Profil applicatif
+Owner: A006900 - Owners
+Description:
+Supports delivery of MyPortfolio+ credentials to NBIN clients through Compass.
+
+Classifications: RP-Niveau 1 / PII-Level 1
+Entitlement Profiles
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+defaultModule	compass_r2	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+firm	NBIN	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+rrcodes	CNTA	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+package	ViewOnlyConfidentialProfile	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	firm_client_accounts	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	form_applications	
+6900: Compass X
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	trade_allocations_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	soma_servicing	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	tools_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	compass_r2	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	view_system_events	
+Azure-AD
+Azure-AD: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.ViewOnlyC	
+6231: Okta Employee
+6231: Okta Employee: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.ViewOnlyC	
+
+
+
+
+Entitlements:
+
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+Azure-AD	groups	07641-PRD-ACC-Wealth.CompassX.ViewOnlyC	Direct
+6231: Okta Employee	groups	07641-PRD-ACC-Wealth.CompassX.ViewOnlyC	Direct
+6900: Compass X	rrcodes	CNTA	Direct
+6900: Compass X	firm	NBIN	Direct
+6900: Compass X	package	ViewOnlyConfidentialProfile	Direct
+Application sorted ascendingClick to sort by this column	AttributeClick to sort by this column	NameClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	compass_r2	Direct
+6900: Compass X	featureSelections	firm_client_accounts	Direct
+6900: Compass X	featureSelections	form_applications	Direct
+6900: Compass X	featureSelections	paper_upload_menu	Direct
+6900: Compass X	featureSelections	soma_servicing	Direct
+Application sorted ascendingClick to sort by this column	AttributeClick to sort by this column	NameClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	tools_menu	Direct
+6900: Compass X	featureSelections	trade_allocations_menu	Direct
+6900: Compass X	featureSelections	view_system_events	Direct
+Azure-AD	groups	07641-PRD-ACC-Wealth.CompassX.ViewOnlyC	Direct
+
+
+
+Classifications:
+Name sorted ascendingClick to sort by this column	Description	OriginClick to sort by this column
+RP-Niveau 1 / PII-Level 1		MyIndependentDataSource
+
+
+
+
+
+
+
+
+
+
+

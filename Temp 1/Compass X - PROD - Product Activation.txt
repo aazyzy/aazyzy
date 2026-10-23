@@ -1,0 +1,85 @@
+Supports product launches, adoption activities, communications, and change readiness across client-facing and operational teams.
+
+
+Role Hierarchy:
+Compass X - PROD - Product Activation
+Type: Application Profile / Profil applicatif
+Owner: A006900 - Owners
+Description:
+Supports product launches, adoption activities, communications, and change readiness across client-facing and operational teams.
+
+Classifications: RP-Niveau 1 / PII-Level 1
+Entitlement Profiles
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+defaultModule	firm_client_accounts	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+firm	NBIN Internal	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+package	ManageFirmsAndUsers	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	firm_client_accounts	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	compass_r2	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	system_event_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	view_system_events	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	feature_menu	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	feature_conf	
+6900: Compass X
+6900: Compass X: undefined
+Attribute	Value	Description
+featureSelections	firm_level_access	
+Azure-AD
+Azure-AD: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.MangeFirm	
+6231: Okta Employee
+6231: Okta Employee: undefined
+Attribute	Value	Description
+groups	07641-PRD-ACC-Wealth.CompassX.MangeFirm	
+
+
+
+
+Entitlement:
+ApplicationClick to sort by this column	AttributeClick to sort by this column	Name sorted ascendingClick to sort by this column	AssignedClick to sort by this column
+6231: Okta Employee	groups	07641-PRD-ACC-Wealth.CompassX.MangeFirm	Direct
+Azure-AD	groups	07641-PRD-ACC-Wealth.CompassX.MangeFirm	Direct
+6900: Compass X	package	ManageFirmsAndUsers	Direct
+6900: Compass X	firm	NBIN Internal	Direct
+6900: Compass X	featureSelections	compass_r2	Direct
+Application sorted ascendingClick to sort by this column	AttributeClick to sort by this column	NameClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	feature_menu	Direct
+6900: Compass X	featureSelections	firm_client_accounts	Direct
+6900: Compass X	defaultModule	firm_client_accounts	Direct
+6900: Compass X	featureSelections	firm_level_access	Direct
+6900: Compass X	featureSelections	system_event_menu	Direct
+Application sorted ascendingClick to sort by this column	AttributeClick to sort by this column	NameClick to sort by this column	AssignedClick to sort by this column
+6900: Compass X	featureSelections	view_system_events	Direct
+Azure-AD	groups	07641-PRD-ACC-Wealth.CompassX.MangeFirm	Direct
+
+
+Classifications:
+Name sorted ascendingClick to sort by this column	Description	OriginClick to sort by this column
+RP-Niveau 1 / PII-Level 1		MyIndependentDataSource

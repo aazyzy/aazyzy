@@ -1,0 +1,3205 @@
+Shah, Taksh
+0 minutes 4 seconds0:04
+Shah, Taksh 0 minutes 4 seconds
+There should be one that says just IT development team.
+
+Newton, Persis Esther
+0 minutes 5 seconds0:05
+Newton, Persis Esther 0 minutes 5 seconds
+No.
+ST
+
+Shah, Taksh
+0 minutes 9 seconds0:09
+Shah, Taksh 0 minutes 9 seconds
+Let me send it in the chat. Okay, yep, there it is.
+
+Newton, Persis Esther
+0 minutes 11 seconds0:11
+Newton, Persis Esther 0 minutes 11 seconds
+Yeah, I got it.
+Newton, Persis Esther 0 minutes 14 seconds
+Okay, so this Atesh, you ready for it?
+Newton, Persis Esther 0 minutes 20 seconds
+Details.
+Newton, Persis Esther 0 minutes 23 seconds
+Entitlements.
+Newton, Persis Esther 0 minutes 28 seconds
+Kicking.
+Newton, Persis Esther 0 minutes 38 seconds
+Oh, Jeremy, can Ramin do the approval?
+KJ
+Kama, Jeremy
+0 minutes 45 seconds0:45
+Kama, Jeremy 0 minutes 45 seconds
+No, he no longer has admin access, so he would have to.
+
+Newton, Persis Esther
+0 minutes 48 seconds0:48
+Newton, Persis Esther 0 minutes 48 seconds
+Yi.
+Newton, Persis Esther 0 minutes 50 seconds
+Oh, no.
+KJ
+Kama, Jeremy
+0 minutes 50 seconds0:50
+Kama, Jeremy 0 minutes 50 seconds
+because after the test concluded this morning, it was removed.
+
+Newton, Persis Esther
+0 minutes 57 seconds0:57
+Newton, Persis Esther 0 minutes 57 seconds
+Can he get the admin access?
+KJ
+Kama, Jeremy
+0 minutes 59 seconds0:59
+Kama, Jeremy 0 minutes 59 seconds
+Hold on, let me ask what's saying.
+
+Newton, Persis Esther
+1 minute 2 seconds1:02
+Newton, Persis Esther 1 minute 2 seconds
+Okay, thank you. Like, we will need it for, like, this test.
+Newton, Persis Esther 1 minute 18 seconds
+Yeah, we'll need it for this test.
+Newton, Persis Esther 3 minutes 28 seconds
+Jeremy, can you message her when Ramin has that access? I'll give you the request, like access request for Atesh.
+KJ
+Kama, Jeremy
+3 minutes 43 seconds3:43
+Kama, Jeremy 3 minutes 43 seconds
+Yeah, one second, I'm messaging.
+
+Newton, Persis Esther
+3 minutes 45 seconds3:45
+Newton, Persis Esther 3 minutes 45 seconds
+Thank you.
+KJ
+Kama, Jeremy
+6 minutes 13 seconds6:13
+Kama, Jeremy 6 minutes 13 seconds
+Well, he's not able to get the admin rights because that was for the change this morning. It was for the activation. Once that was done, it was removed and he can't just request it again.
+Kama, Jeremy 6 minutes 28 seconds
+So, it would need to go through the entire approval workflow, so manager approval, and then...
+Kama, Jeremy 6 minutes 36 seconds
+It would have to go first by manager approval and then the app guardian.
+
+Newton, Persis Esther
+6 minutes 44 seconds6:44
+Newton, Persis Esther 6 minutes 44 seconds
+Maisha, what do we do here? Because I'm seeing Katrina is off. Can we request Sarina to do this?
+
+Wahab, Maisha
+6 minutes 53 seconds6:53
+Wahab, Maisha 6 minutes 53 seconds
+Maybe reach out to Khushboo. I think she might be the other custodian now since the recent role changes.
+KJ
+Kama, Jeremy
+7 minutes 3 seconds7:03
+Kama, Jeremy 7 minutes 3 seconds
+One second, I can tell you who the approvers are.
+
+Newton, Persis Esther
+7 minutes 9 seconds7:09
+Newton, Persis Esther 7 minutes 9 seconds
+No, it's alright, Jeremy. We know it's Katrina and Khushboo, Katrina and Sarina.
+Newton, Persis Esther 7 minutes 17 seconds
+Okay, I will be right back guys. I'm just getting a quick call.
+Newton, Persis Esther 13 minutes 58 seconds
+Maisha, I don't, uh, Khushboo is hasn't responded. I messaged Radhika, she hasn't responded. How do you want to proceed now?
+
+Wahab, Maisha
+14 minutes 9 seconds14:09
+Wahab, Maisha 14 minutes 9 seconds
+Um...
+Wahab, Maisha 14 minutes 11 seconds
+Let's wait then for the confirmation or the approval and maybe we can rejoin or if there's any other way of...
+Wahab, Maisha 14 minutes 18 seconds
+Confirming that the flow is working, Esther.
+
+Newton, Persis Esther
+14 minutes 21 seconds14:21
+Newton, Persis Esther 14 minutes 21 seconds
+No, no, we need that approval. Like because Ramin can't do admin anymore. So we need Katrina or Sarina to approve this.
+
+Wahab, Maisha
+14 minutes 33 seconds14:33
+Wahab, Maisha 14 minutes 33 seconds
+Okay.
+KJ
+Kama, Jeremy
+14 minutes 34 seconds14:34
+Kama, Jeremy 14 minutes 34 seconds
+Hold on, I think Patrick may be admin, so let's see if we can get him on the call.
+
+Newton, Persis Esther
+14 minutes 40 seconds14:40
+Newton, Persis Esther 14 minutes 40 seconds
+Okay, that would be great.
+KJ
+Kama, Jeremy
+16 minutes 2 seconds16:02
+Kama, Jeremy 16 minutes 2 seconds
+Persis, do you have the 13 users ready to request the roles?
+
+
+Newton, Persis Esther
+16 minutes 41 seconds16:41
+Newton, Persis Esther 16 minutes 41 seconds
+Okay.
+Newton, Persis Esther 16 minutes 47 seconds
+Does that does that answer your question, Jeremy?
+KJ
+Kama, Jeremy
+16 minutes 49 seconds16:49
+Kama, Jeremy 16 minutes 49 seconds
+Yeah, it does, but are we able to start those requests for the are those 13 for those 13 users? Is it manual request via the UI or via the bulk?
+
+Newton, Persis Esther
+17 minutes 2 seconds17:02
+Newton, Persis Esther 17 minutes 2 seconds
+The bulk, right, Maisha?
+
+Wahab, Maisha
+17 minutes 5 seconds17:05
+Wahab, Maisha 17 minutes 5 seconds
+So our list, yes, that would be with the bulk, but I think what Esther, you had suggested is we do a couple of individual ones first before we do that load, right?
+
+Newton, Persis Esther
+17 minutes 6 seconds17:06
+Newton, Persis Esther 17 minutes 6 seconds
+The initial.
+Newton, Persis Esther 17 minutes 13 seconds
+Yeah, yeah, yep, that that is my suggestion, but I mean.
+Newton, Persis Esther 17 minutes 20 seconds
+Oss.
+KJ
+Kama, Jeremy
+17 minutes 22 seconds17:22
+Kama, Jeremy 17 minutes 22 seconds
+The couple individual one, what would be, what's the reason for that since we already tested this morning's?
+
+Newton, Persis Esther
+17 minutes 30 seconds17:30
+Newton, Persis Esther 17 minutes 30 seconds
+Well, we didn't showcase it to our product team, right? We just need them to be able to see it as well.
+KJ
+Kama, Jeremy
+17 minutes 36 seconds17:36
+Kama, Jeremy 17 minutes 36 seconds
+Okay.
+
+Newton, Persis Esther
+18 minutes 2 seconds18:02
+Newton, Persis Esther 18 minutes 2 seconds
+So Maisha Khushboo is saying she does not see the access request on her side. So Katrina hasn't given her, I don't know, the privilege while she's away.
+
+Wahab, Maisha
+18 minutes 17 seconds18:17
+Wahab, Maisha 18 minutes 17 seconds
+So, is it confirmed that Khushboo should be the new custodian?
+
+Newton, Persis Esther
+18 minutes 21 seconds18:21
+Newton, Persis Esther 18 minutes 21 seconds
+She cannot give, she is not, I don't know who is the custodian, but she cannot approve the test for Atesh right now.
+
+Wahab, Maisha
+18 minutes 31 seconds18:31
+Wahab, Maisha 18 minutes 31 seconds
+Is it possible to reach out to Sarina? I'm not sure if there was maybe updates not done yet for that flow.
+
+Newton, Persis Esther
+18 minutes 39 seconds18:39
+Newton, Persis Esther 18 minutes 39 seconds
+I can reach out to Sarina. Last time I did, she was not, she said she's not in CompassX anymore, so, but I can ask her.
+KJ
+Kama, Jeremy
+18 minutes 52 seconds18:52
+Kama, Jeremy 18 minutes 52 seconds
+If Sarina is not in Compass X, should she still remain as one of the Guardians?
+
+Sharma, Radhika
+18 minutes 55 seconds18:55
+Sharma, Radhika 18 minutes 55 seconds
+Atesh.
+
+Newton, Persis Esther
+18 minutes 58 seconds18:58
+Newton, Persis Esther 18 minutes 58 seconds
+That is a request that is going to be made to change that.
+KJ
+Kama, Jeremy
+19 minutes19:00
+Kama, Jeremy 19 minutes
+Okay, okay.
+
+Sharma, Radhika
+19 minutes 4 seconds19:04
+Sharma, Radhika 19 minutes 4 seconds
+Sorry, we're not able to approve.
+
+Newton, Persis Esther
+19 minutes 5 seconds19:05
+Newton, Persis Esther 19 minutes 5 seconds
+And we're not able to approve Atesh is like the test request.
+
+Sharma, Radhika
+19 minutes 8 seconds19:08
+Sharma, Radhika 19 minutes 8 seconds
+Okay, let me reach out to Sarina. Give me a second.
+
+Newton, Persis Esther
+19 minutes 11 seconds19:11
+Newton, Persis Esther 19 minutes 11 seconds
+Thank you.
+Newton, Persis Esther 19 minutes 48 seconds
+Mushroom.
+Newton, Persis Esther 19 minutes 51 seconds
+Christopher is asking to just join because maybe she's like, she may not know where to approve it.
+Newton, Persis Esther 19 minutes 59 seconds
+Oh.
+Newton, Persis Esther 20 minutes 1 second
+Gee.
+Newton, Persis Esther 20 minutes 6 seconds
+I'm just gonna add her temporarily.
+
+Sharma, Radhika
+20 minutes 17 seconds20:17
+Sharma, Radhika 20 minutes 17 seconds
+But she's not configured as a custodian, so how's it going to work?
+
+Newton, Persis Esther
+20 minutes 21 seconds20:21
+Newton, Persis Esther 20 minutes 21 seconds
+But if Katrina is away, then it should, like if Katrina is given Khushboo access, then it should work for Khushboo, right?
+Newton, Persis Esther 20 minutes 32 seconds
+Jeremy, are you able to show, or maybe, maybe I can show this, where, how does Khushboo approve access?
+
+
+Newton, Persis Esther
+20 minutes 48 seconds20:48
+Newton, Persis Esther 20 minutes 48 seconds
+We don't know.
+
+Ahuja, Khushboo Shiv
+20 minutes 49 seconds20:49
+Ahuja, Khushboo Shiv 20 minutes 49 seconds
+That's the problem. I can share my screen. I can see my work is 0. There's nothing to approve.
+KJ
+Kama, Jeremy
+20 minutes 50 seconds20:50
+Kama, Jeremy 20 minutes 50 seconds
+Yeah, because if, if, if...
+Kama, Jeremy 20 minutes 55 seconds
+Okay, in that case, I think Patrick might be able to help. Patrick, do you have admin rights in Iiq?
+
+Speaker 1
+21 minutes 2 seconds21:02
+@1 21 minutes 2 seconds
+Hello, yeah, I'm in IQ, yeah, right?
+KJ
+Kama, Jeremy
+21 minutes 5 seconds21:05
+Kama, Jeremy 21 minutes 5 seconds
+Are you able to forward the access request that we did for your to yourself and approve it because the guardian is not here?
+
+Speaker 1
+21 minutes 10 seconds21:10
+@1 21 minutes 10 seconds
+Yeah.
+@1 21 minutes 15 seconds
+I should be okay. I should be able to forward the request. Can you give me the work items numbers, please?
+KJ
+Kama, Jeremy
+21 minutes 25 seconds21:25
+Kama, Jeremy 21 minutes 25 seconds
+Yeah, I'll go put it in the chat.
+
+Newton, Persis Esther
+21 minutes 27 seconds21:27
+Newton, Persis Esther 21 minutes 27 seconds
+Is it this?
+KJ
+Kama, Jeremy
+21 minutes 29 seconds21:29
+Kama, Jeremy 21 minutes 29 seconds
+Yeah, the access request IDs.
+
+Newton, Persis Esther
+21 minutes 32 seconds21:32
+Newton, Persis Esther 21 minutes 32 seconds
+Okay, thank you, Patrick.
+
+Speaker 1
+21 minutes 35 seconds21:35
+@1 21 minutes 35 seconds
+No, you're welcome. Is it possible to share the access file, batch file?
+@1 21 minutes 43 seconds
+So I can review it. You asked if I was available. Are you already at this point, at this step? Do you need me to run the batch files like in a couple few minutes or?
+
+Newton, Persis Esther
+21 minutes 53 seconds21:53
+Newton, Persis Esther 21 minutes 53 seconds
+We're almost...
+Newton, Persis Esther 21 minutes 58 seconds
+We're almost there, Patrick. We need to see this access work manually first. Once we see the access for Atesh work manually, then my team is going to go in and do like run some lambda jobs in the database. And then we'll give you the green light.
+
+Speaker 1
+22 minutes 3 seconds22:03
+@1 22 minutes 3 seconds
+K.
+@1 22 minutes 7 seconds
+Mhm.
+@1 22 minutes 14 seconds
+Okay.
+@1 22 minutes 17 seconds
+Yeah.
+
+Newton, Persis Esther
+22 minutes 17 seconds22:17
+Newton, Persis Esther 22 minutes 17 seconds
+Maisha, can you share the file please? Because Sasha needs to do some pre-req work for the initial load as well.
+
+Wahab, Maisha
+22 minutes 26 seconds22:26
+Wahab, Maisha 22 minutes 26 seconds
+Okay, yep, I'll share that shortly.
+
+Speaker 1
+22 minutes 27 seconds22:27
+@1 22 minutes 27 seconds
+Yep.
+@1 22 minutes 33 seconds
+Ohh.
+
+Newton, Persis Esther
+22 minutes 35 seconds22:35
+Newton, Persis Esther 22 minutes 35 seconds
+And Patrick, this is the ticket. If you don't mind approving it, that would be great.
+
+Speaker 1
+22 minutes 37 seconds22:37
+@1 22 minutes 37 seconds
+Yeah.
+
+Sharma, Radhika
+22 minutes 41 seconds22:41
+Sharma, Radhika 22 minutes 41 seconds
+Yes.
+
+Speaker 1
+22 minutes 42 seconds22:42
+@1 22 minutes 42 seconds
+I cannot approve myself for sure. I'm looking to see if I can forward it.
+@1 22 minutes 50 seconds
+Forward it right now. Would you want me to forward the request to?
+
+Newton, Persis Esther
+22 minutes 57 seconds22:57
+Newton, Persis Esther 22 minutes 57 seconds
+To yourself to approve it.
+KJ
+Kama, Jeremy
+23 minutes23:00
+Kama, Jeremy 23 minutes
+Yeah.
+
+Speaker 1
+23 minutes23:00
+@1 23 minutes
+No, for conformity reasons, I cannot approve.
+
+
+
+@1 24 minutes 38 seconds
+And...
+@1 24 minutes 41 seconds
+I'm not sure if I'm allowed to change that stuff, to be honest, for...
+
+Newton, Persis Esther
+24 minutes 42 seconds24:42
+Newton, Persis Esther 24 minutes 42 seconds
+Jo.
+Newton, Persis Esther 24 minutes 48 seconds
+Jeremy, are you able to guide Patrick how to forward this request?
+KJ
+Kama, Jeremy
+24 minutes 56 seconds24:56
+Kama, Jeremy 24 minutes 56 seconds
+I don't think the, I don't think the problem is that he can't forward it. It's like maybe for compliance. Are you able for compliance?
+Kama, Jeremy 25 minutes 4 seconds
+Reasons to actually forward it.
+
+Speaker 1
+25 minutes 4 seconds25:04
+@1 25 minutes 4 seconds
+No, no, I'm not allowed to change this.
+
+Newton, Persis Esther
+25 minutes 11 seconds25:11
+Newton, Persis Esther 25 minutes 11 seconds
+It's being recorded. The manager of Katrina is here. That's Khushboo. So for compliance, I mean, this can.
+
+Speaker 1
+25 minutes 14 seconds25:14
+@1 25 minutes 14 seconds
+Why?
+
+Ahuja, Khushboo Shiv
+25 minutes 20 seconds25:20
+Ahuja, Khushboo Shiv 25 minutes 20 seconds
+And Sarina was our previous manager. That's why the name is still with her. We haven't swapped the name yet. I'll make sure it's done. If you give it to Sarina, I'll make sure she approves it.
+
+Speaker 1
+25 minutes 23 seconds25:23
+@1 25 minutes 23 seconds
+Kaur.
+
+Newton, Persis Esther
+25 minutes 24 seconds25:24
+Newton, Persis Esther 25 minutes 24 seconds
+And.
+Newton, Persis Esther 25 minutes 25 seconds
+Just.
+
+Speaker 1
+25 minutes 27 seconds25:27
+@1 25 minutes 27 seconds
+Okay.
+@1 25 minutes 29 seconds
+So it's recorded, right? I will have the change number. What I could do right now is add someone to the owner groups, yeah, and then the person will be able to approve, right?
+
+Newton, Persis Esther
+25 minutes 32 seconds25:32
+Newton, Persis Esther 25 minutes 32 seconds
+It is being recorded.
+Newton, Persis Esther 25 minutes 34 seconds
+Yeah.
+KJ
+Kama, Jeremy
+25 minutes 39 seconds25:39
+Kama, Jeremy 25 minutes 39 seconds
+To the work group, right?
+
+Newton, Persis Esther
+25 minutes 43 seconds25:43
+Newton, Persis Esther 25 minutes 43 seconds
+Awesome!
+Newton, Persis Esther 25 minutes 48 seconds
+Awesome.
+
+Speaker 1
+25 minutes 48 seconds25:48
+@1 25 minutes 48 seconds
+So.
+
+Newton, Persis Esther
+25 minutes 50 seconds25:50
+Newton, Persis Esther 25 minutes 50 seconds
+Same person, yeah.
+
+Speaker 1
+25 minutes 50 seconds25:50
+@1 25 minutes 50 seconds
+Uar.
+@1 25 minutes 52 seconds
+Yeah, so I can add...
+@1 25 minutes 56 seconds
+Here, sorry.
+@1 26 minutes 2 seconds
+OK.
+@1 26 minutes 13 seconds
+Yeah, so now Auva Kush, I'm sorry if I pronounce it, Shiv Khushboo Shiv. Okay, you should be allowed, like it's dynamic, so you should be allowed right now to approve the request.
+
+Ahuja, Khushboo Shiv
+26 minutes 19 seconds26:19
+Ahuja, Khushboo Shiv 26 minutes 19 seconds
+Kush. Yeah, go ahead. Kush is good.
+Ahuja, Khushboo Shiv 26 minutes 27 seconds
+Atesh.
+Ahuja, Khushboo Shiv 26 minutes 31 seconds
+I have it.
+
+Newton, Persis Esther
+26 minutes 33 seconds26:33
+Newton, Persis Esther 26 minutes 33 seconds
+Awesome.
+
+Speaker 1
+26 minutes 33 seconds26:33
+@1 26 minutes 33 seconds
+Can you? Okay, cool.
+KJ
+Kama, Jeremy
+26 minutes 35 seconds26:35
+Kama, Jeremy 26 minutes 35 seconds
+Do you see it?
+
+Ahuja, Khushboo Shiv
+26 minutes 36 seconds26:36
+Ahuja, Khushboo Shiv 26 minutes 36 seconds
+I do see it, just making sure that the correct one I'm seeing.
+KJ
+Kama, Jeremy
+26 minutes 37 seconds26:37
+Kama, Jeremy 26 minutes 37 seconds
+Okay, good.
+Kama, Jeremy 26 minutes 40 seconds
+Okay, so moving forward, any requests you should be able to see.
+
+Speaker 1
+26 minutes 44 seconds26:44
+@1 26 minutes 44 seconds
+Yeah.
+KJ
+Kama, Jeremy
+26 minutes 45 seconds26:45
+Kama, Jeremy 26 minutes 45 seconds
+Do you, um, Persis, do you want us to keep the work the the owner group like this for now and you guys can?
+
+Ahuja, Khushboo Shiv
+26 minutes 51 seconds26:51
+Ahuja, Khushboo Shiv 26 minutes 51 seconds
+If you can, now that you're editing, can I just ask for a favour? Can we remove Sarina's name from there?
+
+
+
+Ahuja, Khushboo Shiv
+27 minutes 26 seconds27:26
+Ahuja, Khushboo Shiv 27 minutes 26 seconds
+Thank you, guys. Bye-bye. No problem. Bye.
+
+Newton, Persis Esther
+27 minutes 26 seconds27:26
+Newton, Persis Esther 27 minutes 26 seconds
+Yeah, thanks, thanks, Khushboo.
+
+Sharma, Radhika
+27 minutes 27 seconds27:27
+Sharma, Radhika 27 minutes 27 seconds
+Thanks, Khushboo.
+
+Speaker 1
+27 minutes 36 seconds27:36
+@1 27 minutes 36 seconds
+So is it possible to share me the batch file? So I will only review it. I won't run it, I promise, until I have the go. But I just want to make sure that I'm ready, up and running, because we're a little bit overwhelmed with requests right now.
+@1 27 minutes 55 seconds
+So I'll just make sure it's ready. When I have the go, I'll run it and that's it. But I'm not able to follow the bridge like officially right now. Is this okay with you?
+
+Wahab, Maisha
+28 minutes28:00
+Wahab, Maisha 28 minutes
+Yeah, Patrick.
+Wahab, Maisha 28 minutes 5 seconds
+Yeah, we're just doing, we're just doing a minor update to the file and we'll share it shortly.
+
+Speaker 1
+28 minutes 10 seconds28:10
+@1 28 minutes 10 seconds
+OK, if you can share it like over your Onedrive.
+
+Wahab, Maisha
+28 minutes 11 seconds28:11
+Wahab, Maisha 28 minutes 11 seconds
+OK.
+
+Speaker 1
+28 minutes 15 seconds28:15
+@1 28 minutes 15 seconds
+Like we can both everyone working in the file together. Okay. I must leave the call right now. Do you need anything else right now?
+
+Newton, Persis Esther
+28 minutes 29 seconds28:29
+Newton, Persis Esther 28 minutes 29 seconds
+Ohh, we are good. Thanks so much, Patrick. Yep, yeah, yeah.
+
+Speaker 1
+28 minutes 30 seconds28:30
+@1 28 minutes 30 seconds
+Okay, yeah, no, no, book me, as we say in French, don't give up.
+@1 28 minutes 40 seconds
+Have a good change. Bye-bye.
+
+Newton, Persis Esther
+28 minutes 40 seconds28:40
+Newton, Persis Esther 28 minutes 40 seconds
+Merci Beaucoup. Thank you.
+Newton, Persis Esther 28 minutes 46 seconds
+Radhika, the Iiq process, right, where we're approving one person at a time. I don't know what you feel about this. It might take a bit. Can we move forward after we validate Atesh's request? Do you want to move forward?
+Newton, Persis Esther 29 minutes 5 seconds
+to the initial.
+Newton, Persis Esther 29 minutes 7 seconds
+Load test, the test initial load, or how do you want to do this?
+
+Sharma, Radhika
+29 minutes 13 seconds29:13
+Sharma, Radhika 29 minutes 13 seconds
+Yeah, I'm fine with that. In fact, I thought we were starting with that. But is there something else that the team, like right now, everything's done for Atesh, right? So if I go into CX, I should be able to see what, like his profile? Or is there something else we're waiting for?
+
+Newton, Persis Esther
+29 minutes 25 seconds29:25
+Newton, Persis Esther 29 minutes 25 seconds
+Go.
+Newton, Persis Esther 29 minutes 27 seconds
+Once that, yeah, once that approval is done, so the approval is done, we're waiting for it to kick in. So the request in Iiq should show complete. Like, it's still saying pending. It goes through like a process every 5 minutes or so.
+Newton, Persis Esther 29 minutes 46 seconds
+So we have to just wait for this to say complete and then Atesh will be able to sign in to Compass and hopefully everything will be good.
+
+Sharma, Radhika
+29 minutes 46 seconds29:46
+Sharma, Radhika 29 minutes 46 seconds
+Okay.
+
+Newton, Persis Esther
+29 minutes 55 seconds29:55
+Newton, Persis Esther 29 minutes 55 seconds
+And then we can kick off the initial load.
+
+Sharma, Radhika
+29 minutes 56 seconds29:56
+Sharma, Radhika 29 minutes 56 seconds
+Okay.
+Sharma, Radhika 30 minutes
+We can start the initial load if you want while we wait for this.
+
+Newton, Persis Esther
+30 minutes 3 seconds30:03
+Newton, Persis Esther 30 minutes 3 seconds
+That would be great. Maisha, if you have the file, I'm going to give that to Sasha as well. We'll kick off our pre-processes, then get Patrick to kick off the actual initial load. And then after the initial load from Patrick, we have some more processes, and then it should be good.
+
+
+
+Newton, Persis Esther 33 minutes 13 seconds
+Don't say that. Try again.
+
+Gulchand, Atesh
+33 minutes 16 seconds33:16
+Gulchand, Atesh 33 minutes 16 seconds
+So.
+
+Newton, Persis Esther
+33 minutes 18 seconds33:18
+Newton, Persis Esther 33 minutes 18 seconds
+Yeah.
+Newton, Persis Esther 33 minutes 19 seconds
+Do you have the right URL?
+
+Gulchand, Atesh
+33 minutes 20 seconds33:20
+Gulchand, Atesh 33 minutes 20 seconds
+Okay, okay.
+Gulchand, Atesh 33 minutes 22 seconds
+Yeah.
+Gulchand, Atesh 33 minutes 24 seconds
+I hope so.
+
+Newton, Persis Esther
+33 minutes 25 seconds33:25
+Newton, Persis Esther 33 minutes 25 seconds
+It's Compass Dash INT.
+
+Gulchand, Atesh
+33 minutes 30 seconds33:30
+Gulchand, Atesh 33 minutes 30 seconds
+Yeah, it doesn't work. Yeah, let me cheque this.
+
+Newton, Persis Esther
+33 minutes 31 seconds33:31
+Newton, Persis Esther 33 minutes 31 seconds
+Can you share your screen, please?
+
+Gulchand, Atesh
+33 minutes 47 seconds33:47
+Gulchand, Atesh 33 minutes 47 seconds
+Sorry, URL, right?
+
+Newton, Persis Esther
+33 minutes 51 seconds33:51
+Newton, Persis Esther 33 minutes 51 seconds
+No, I'm not seeing your screen.
+
+Gulchand, Atesh
+33 minutes 53 seconds33:53
+Gulchand, Atesh 33 minutes 53 seconds
+All right, stay.
+Gulchand, Atesh 34 minutes 2 seconds
+Do you know?
+
+Newton, Persis Esther
+34 minutes 5 seconds34:05
+Newton, Persis Esther 34 minutes 5 seconds
+Okay, now we need Maxime.
+
+Gulchand, Atesh
+34 minutes 17 seconds34:17
+Gulchand, Atesh 34 minutes 17 seconds
+Right URL, right? INT.
+
+Newton, Persis Esther
+34 minutes 21 seconds34:21
+Newton, Persis Esther 34 minutes 21 seconds
+Yeah, that's the right URL. Yeah.
+
+Gulchand, Atesh
+34 minutes 22 seconds34:22
+Gulchand, Atesh 34 minutes 22 seconds
+Yeah.
+Gulchand, Atesh 34 minutes 48 seconds
+Yeah, no, those are.
+
+Newton, Persis Esther
+34 minutes 51 seconds34:51
+Newton, Persis Esther 34 minutes 51 seconds
+I'm messaging Maxime.
+Newton, Persis Esther 34 minutes 54 seconds
+Thank you, integration complete.
+Newton, Persis Esther 34 minutes 59 seconds
+Alright, just saying.
+Newton, Persis Esther 35 minutes 3 seconds
+You sure?
+Newton, Persis Esther 35 minutes 5 seconds
+Mm.
+Newton, Persis Esther 35 minutes 44 seconds
+Mm-hmm.
+Newton, Persis Esther 37 minutes 13 seconds
+Atesh, can you share the error?
+Newton, Persis Esther 37 minutes 16 seconds
+With the chat and Maxime, with Maxime.
+
+Gulchand, Atesh
+37 minutes 23 seconds37:23
+Gulchand, Atesh 37 minutes 23 seconds
+Yeah.
+Gulchand, Atesh 39 minutes 17 seconds
+I have to drop for another call. Um, I'll drive back after another one, and...
+
+Newton, Persis Esther
+39 minutes 23 seconds39:23
+Newton, Persis Esther 39 minutes 23 seconds
+You might, you might have to move that. OK, might have to move it to.
+
+Gulchand, Atesh
+39 minutes 31 seconds39:31
+Gulchand, Atesh 39 minutes 31 seconds
+Why do you want to be there?
+
+Newton, Persis Esther
+39 minutes 31 seconds39:31
+Newton, Persis Esther 39 minutes 31 seconds
+Let's see.
+Newton, Persis Esther 39 minutes 34 seconds
+Yeah, we need to get this solved and you're the one with the access, so we need you definitely.
+Newton, Persis Esther 39 minutes 43 seconds
+Just keep an, yeah, just keep an eye out.
+
+Gulchand, Atesh
+39 minutes 44 seconds39:44
+Gulchand, Atesh 39 minutes 44 seconds
+OK, I'll come back and cheque, yeah, yeah, I'll come back a certain time.
+
+Newton, Persis Esther
+39 minutes 47 seconds39:47
+Newton, Persis Esther 39 minutes 47 seconds
+Yeah, as soon as Maxime sees it, please.
+
+Gulchand, Atesh
+39 minutes 51 seconds39:51
+Gulchand, Atesh 39 minutes 51 seconds
+Yeah, okay. I'll be back. Bye.
+
+Newton, Persis Esther
+39 minutes 51 seconds39:51
+Newton, Persis Esther 39 minutes 51 seconds
+Thanks.
+Newton, Persis Esther 39 minutes 54 seconds
+Thank you.
+Newton, Persis Esther 39 minutes 56 seconds
+Guys, we're going to have to take a break. This is the error that Atesh is seeing.
+Newton, Persis Esther 40 minutes 5 seconds
+We have message Maxime.
+Newton, Persis Esther 40 minutes 9 seconds
+It looks to be...
+Newton, Persis Esther 40 minutes 18 seconds
+An authentication issue.
+Newton, Persis Esther 40 minutes 23 seconds
+We'll have to, we'll have to wait to investigate that.
+
+Azizi, Ali
+40 minutes 30 seconds40:30
+Azizi, Ali 40 minutes 30 seconds
+No worries.
+ST
+Shah, Taksh
+40 minutes 32 seconds40:32
+Shah, Taksh 40 minutes 32 seconds
+Okay.
+
+Newton, Persis Esther
+40 minutes 35 seconds40:35
+Newton, Persis Esther 40 minutes 35 seconds
+I'll message back as soon as we have an answer for this.
+
+Azizi, Ali
+40 minutes 39 seconds40:39
+Azizi, Ali 40 minutes 39 seconds
+Okay. Oh, thanks. Yeah.
+
+Newton, Persis Esther
+40 minutes 39 seconds40:39
+Newton, Persis Esther 40 minutes 39 seconds
+Oh, Maxime is here. Look at that. Perfect. Thank you, Maxime. Atesh literally just dropped.
+
+Wahab, Maisha
+40 minutes 40 seconds40:40
+Wahab, Maisha 40 minutes 40 seconds
+Yeah.
+
+Guilbert, Maxime
+40 minutes 42 seconds40:42
+Guilbert, Maxime 40 minutes 42 seconds
+Hello.
+Guilbert, Maxime 40 minutes 50 seconds
+Okay, so with which account did you have the issue?
+Guilbert, Maxime 40 minutes 56 seconds
+And just to confirm on which URL, on which call exactly.
+
+Newton, Persis Esther
+40 minutes 56 seconds40:56
+Newton, Persis Esther 40 minutes 56 seconds
+This is.
+Newton, Persis Esther 41 minutes 3 seconds
+It says it's an SSO callback. Oh, Atesh, can you share your screen again, please?
+
+Sharma, Radhika
+41 minutes 4 seconds41:04
+Sharma, Radhika 41 minutes 4 seconds
+Okay.
+Sharma, Radhika 41 minutes 9 seconds
+Esther, I don't even see his ID on the...
+Sharma, Radhika 41 minutes 14 seconds
+User management screen.
+
+Newton, Persis Esther
+41 minutes 19 seconds41:19
+Newton, Persis Esther 41 minutes 19 seconds
+Okay.
+
+Sharma, Radhika
+41 minutes 20 seconds41:20
+Sharma, Radhika 41 minutes 20 seconds
+The error, the error that you're seeing, we clicked on the URL before any migration and this was the error that we got. Now we didn't get into the weeds of it, but we don't even see, he's not even on the user management. Like he doesn't have an app, he doesn't have a profile.
+
+Newton, Persis Esther
+41 minutes 22 seconds41:22
+Newton, Persis Esther 41 minutes 22 seconds
+Yeah.
+
+Gulchand, Atesh
+41 minutes 34 seconds41:34
+Gulchand, Atesh 41 minutes 34 seconds
+Um, Esther, did Sasha do his part? We have to.
+
+Newton, Persis Esther
+41 minutes 38 seconds41:38
+Newton, Persis Esther 41 minutes 38 seconds
+No, we shouldn't have to do anything with, because there's a net new user through Iiq, right? So we shouldn't have to do anything on this piece.
+
+Guilbert, Maxime
+41 minutes 53 seconds41:53
+Guilbert, Maxime 41 minutes 53 seconds
+Yeah.
+
+Sharma, Radhika
+41 minutes 54 seconds41:54
+Sharma, Radhika 41 minutes 54 seconds
+Now, I wonder, because Atesh used to have a profile. Can I show you guys what I see?
+
+Gulchand, Atesh
+42 minutes42:00
+Gulchand, Atesh 42 minutes
+Hmm.
+
+Sharma, Radhika
+42 minutes 8 seconds42:08
+Sharma, Radhika 42 minutes 8 seconds
+So Atesh used to have a profile here that's inactive.
+
+Newton, Persis Esther
+42 minutes 13 seconds42:13
+Newton, Persis Esther 42 minutes 13 seconds
+No, that, that shouldn't make a difference.
+
+Sharma, Radhika
+42 minutes 16 seconds42:16
+Sharma, Radhika 42 minutes 16 seconds
+Alright, a new one should be created.
+
+Newton, Persis Esther
+42 minutes 17 seconds42:17
+Newton, Persis Esther 42 minutes 17 seconds
+It should be net new, yeah.
+Newton, Persis Esther 42 minutes 24 seconds
+So, some...
+
+Sharma, Radhika
+42 minutes 24 seconds42:24
+Sharma, Radhika 42 minutes 24 seconds
+But if that's the official bank e-mail address, his identity might already exist in Summary.
+
+Newton, Persis Esther
+42 minutes 36 seconds42:36
+Newton, Persis Esther 42 minutes 36 seconds
+Oh, there, there he is.
+
+Sharma, Radhika
+42 minutes 37 seconds42:37
+Sharma, Radhika 42 minutes 37 seconds
+No, no, this is data warehouse ID.
+
+Newton, Persis Esther
+42 minutes 40 seconds42:40
+Newton, Persis Esther 42 minutes 40 seconds
+Ohh.
+Newton, Persis Esther 42 minutes 42 seconds
+How do you know that's data warehouse?
+
+Sharma, Radhika
+42 minutes 42 seconds42:42
+Sharma, Radhika 42 minutes 42 seconds
+But if...
+Sharma, Radhika 42 minutes 47 seconds
+The user group.
+
+Newton, Persis Esther
+42 minutes 48 seconds42:48
+Newton, Persis Esther 42 minutes 48 seconds
+Okay.
+
+Guilbert, Maxime
+42 minutes 49 seconds42:49
+Guilbert, Maxime 42 minutes 49 seconds
+What?
+
+
+Guilbert, Maxime
+44 minutes 32 seconds44:32
+Guilbert, Maxime 44 minutes 32 seconds
+No, the issue is either by your side, because it's CompassX with requesting these scopes, or is it its configuration by our side to add these scopes?
+Guilbert, Maxime 44 minutes 49 seconds
+But either way, it's not in IAQ, it's not related to IAQ or entry ID. This part is, it seems to work correctly.
+Guilbert, Maxime 44 minutes 59 seconds
+As the group is already assigned in.
+
+Newton, Persis Esther
+44 minutes 59 seconds44:59
+Newton, Persis Esther 44 minutes 59 seconds
+And.
+
+Guilbert, Maxime
+45 minutes 3 seconds45:03
+Guilbert, Maxime 45 minutes 3 seconds
+We went through the the authentication, and we are at the authorization part.
+
+Newton, Persis Esther
+45 minutes 7 seconds45:07
+Newton, Persis Esther 45 minutes 7 seconds
+Mhm.
+Newton, Persis Esther 45 minutes 9 seconds
+Yeah.
+
+Guilbert, Maxime
+45 minutes 11 seconds45:11
+Guilbert, Maxime 45 minutes 11 seconds
+So currently, it's either by your side, you update the request to change this scope list, or I add them.
+Guilbert, Maxime 45 minutes 20 seconds
+It either way.
+
+Newton, Persis Esther
+45 minutes 20 seconds45:20
+Newton, Persis Esther 45 minutes 20 seconds
+But, but uh, Maxime, how is it working for Sasha's account?
+
+Guilbert, Maxime
+45 minutes 27 seconds45:27
+Guilbert, Maxime 45 minutes 27 seconds
+So, let's transfer.
+
+Newton, Persis Esther
+45 minutes 30 seconds45:30
+Newton, Persis Esther 45 minutes 30 seconds
+And now, now Sasha's account we had tested back in October 28th, and I think he had the same issue. And then I remember you went in and you modified something.
+
+Guilbert, Maxime
+45 minutes 42 seconds45:42
+Guilbert, Maxime 45 minutes 42 seconds
+And...
+
+Newton, Persis Esther
+45 minutes 44 seconds45:44
+Newton, Persis Esther 45 minutes 44 seconds
+And then I thought you did it for all the user groups, so we didn't have to do anything.
+Newton, Persis Esther 45 minutes 52 seconds
+Yeah.
+
+Guilbert, Maxime
+45 minutes 52 seconds45:52
+Guilbert, Maxime 45 minutes 52 seconds
+Yeah, but maybe, so I don't remember for which group we did the test.
+
+Newton, Persis Esther
+45 minutes 59 seconds45:59
+Newton, Persis Esther 45 minutes 59 seconds
+It was for admin all group back then.
+
+Guilbert, Maxime
+46 minutes 1 second46:01
+Guilbert, Maxime 46 minutes 1 second
+Because, okay, okay, because...
+Guilbert, Maxime 46 minutes 5 seconds
+Between the moment I've done this fix and now I know there were other requests done by your side to ask us to create new groups, etc, etc. So if these scopes were not requested,
+
+Newton, Persis Esther
+46 minutes 22 seconds46:22
+Newton, Persis Esther 46 minutes 22 seconds
+No, this was an original group. This was view only confidential was an original group. It was not a new group. There were two new groups added. View only confidential was not one of them.
+
+Guilbert, Maxime
+46 minutes 22 seconds46:22
+Guilbert, Maxime 46 minutes 22 seconds
+So you can.
+Guilbert, Maxime 46 minutes 34 seconds
+K.
+Guilbert, Maxime 46 minutes 36 seconds
+Honestly, I don't remember, so it's it's possible, so yes, for every admin all we have open ID profile and e-mail should be somewhere.
+
+Newton, Persis Esther
+46 minutes 48 seconds46:48
+Newton, Persis Esther 46 minutes 48 seconds
+Yeah, I saw e-mail in the first line.
+
+Guilbert, Maxime
+46 minutes 50 seconds46:50
+Guilbert, Maxime 46 minutes 50 seconds
+Not yet, exactly.
+Guilbert, Maxime 46 minutes 53 seconds
+So, it it explained the the case, so yeah, so I can add the this these three three scopes to all all these permissions.
+
+
+Guilbert, Maxime 52 minutes 50 seconds
+So, what is the old name of this group?
+
+Newton, Persis Esther
+52 minutes 53 seconds52:53
+Newton, Persis Esther 52 minutes 53 seconds
+Manage only see I think it was manage only see originally it was and then yeah, yeah, so on
+
+Guilbert, Maxime
+52 minutes 57 seconds52:57
+Guilbert, Maxime 52 minutes 57 seconds
+Okay, my nature and Lisa, okay.
+
+Wahab, Maisha
+53 minutes 1 second53:01
+Wahab, Maisha 53 minutes 1 second
+Sorry, Esther, are you talking about the view only one? So view only C was the original.
+
+Newton, Persis Esther
+53 minutes 4 seconds53:04
+Newton, Persis Esther 53 minutes 4 seconds
+Yeah, yeah.
+Newton, Persis Esther 53 minutes 7 seconds
+View only, see, sorry, thanks.
+
+Guilbert, Maxime
+53 minutes 10 seconds53:10
+Guilbert, Maxime 53 minutes 10 seconds
+OKOK.
+
+Newton, Persis Esther
+53 minutes 11 seconds53:11
+Newton, Persis Esther 53 minutes 11 seconds
+The.
+
+Guilbert, Maxime
+53 minutes 14 seconds53:14
+Guilbert, Maxime 53 minutes 14 seconds
+Mmmm.
+Guilbert, Maxime 53 minutes 25 seconds
+You only NC.
+Guilbert, Maxime 53 minutes 31 seconds
+Yeah, I wrote, I meant to write.
+Guilbert, Maxime 53 minutes 34 seconds
+Yeah.
+Guilbert, Maxime 53 minutes 36 seconds
+Ahh.
+Guilbert, Maxime 53 minutes 45 seconds
+Is it this one?
+Guilbert, Maxime 53 minutes 47 seconds
+Because I see you only NC if you only see.
+
+Gulchand, Atesh
+53 minutes 52 seconds53:52
+Gulchand, Atesh 53 minutes 52 seconds
+Should maybe always see.
+
+Guilbert, Maxime
+53 minutes 57 seconds53:57
+Guilbert, Maxime 53 minutes 57 seconds
+Oh, confidential profile, okay.
+
+Gulchand, Atesh
+53 minutes 57 seconds53:57
+Gulchand, Atesh 53 minutes 57 seconds
+We change the, we change the, we change the name here, also.
+
+Newton, Persis Esther
+53 minutes 58 seconds53:58
+Newton, Persis Esther 53 minutes 58 seconds
+But we changed, we, yeah, yeah, we changed the name, yeah.
+
+Guilbert, Maxime
+54 minutes54:00
+Guilbert, Maxime 54 minutes
+Yeah, yeah.
+Guilbert, Maxime 54 minutes 2 seconds
+Okay, Sso.
+
+Gulchand, Atesh
+54 minutes 2 seconds54:02
+Gulchand, Atesh 54 minutes 2 seconds
+The scope list should match which say it says 57 there and it says 4 on your right side.
+
+Guilbert, Maxime
+54 minutes 7 seconds54:07
+Guilbert, Maxime 54 minutes 7 seconds
+Okay, so I don't know why we have only this few right here, but let me trade. Okay, 27, okay, 28.
+Guilbert, Maxime 54 minutes 23 seconds
+And managed trader.
+Guilbert, Maxime 54 minutes 26 seconds
+Okay.
+Guilbert, Maxime 54 minutes 28 seconds
+This one.
+Guilbert, Maxime 54 minutes 31 seconds
+Okay, this one is good. Okay, so we'll update the configuration to have all the scopes. I don't know why.
+Guilbert, Maxime 54 minutes 41 seconds
+Only a few of them are here.
+Guilbert, Maxime 54 minutes 47 seconds
+Can't explain what's going on.
+
+Newton, Persis Esther
+54 minutes 50 seconds54:50
+Newton, Persis Esther 54 minutes 50 seconds
+Okay.
+
+Guilbert, Maxime
+54 minutes 50 seconds54:50
+Guilbert, Maxime 54 minutes 50 seconds
+Exactly.
+Guilbert, Maxime 55 minutes 12 seconds
+It will take me a few minutes to be able to copy paste.
+
+Newton, Persis Esther
+55 minutes 15 seconds55:15
+Newton, Persis Esther 55 minutes 15 seconds
+No worries, no worries.
+
+Guilbert, Maxime
+55 minutes 20 seconds55:20
+Guilbert, Maxime 55 minutes 20 seconds
+Yeah.
+Guilbert, Maxime 55 minutes 25 seconds
+Let's start with the one right here.
+
+Sharma, Radhika
+55 minutes 39 seconds55:39
+Sharma, Radhika 55 minutes 39 seconds
+PAB.
+
+Guilbert, Maxime
+56 minutes 24 seconds56:24
+Guilbert, Maxime 56 minutes 24 seconds
+OK, Atesh, if you try again, normally should go further.
+
+Newton, Persis Esther
+56 minutes 32 seconds56:32
+Newton, Persis Esther 56 minutes 32 seconds
+I hope it works.
+
+Gulchand, Atesh
+56 minutes 33 seconds56:33
+Gulchand, Atesh 56 minutes 33 seconds
+Okay, let me try.
+Gulchand, Atesh 56 minutes 48 seconds
+No, same thing.
+
+
+Guilbert, Maxime
+1 hour 3 minutes 25 seconds1:03:25
+Guilbert, Maxime 1 hour 3 minutes 25 seconds
+I don't see your last login attempt.
+
+Gulchand, Atesh
+1 hour 3 minutes 28 seconds1:03:28
+Gulchand, Atesh 1 hour 3 minutes 28 seconds
+Veryan.
+
+Guilbert, Maxime
+1 hour 3 minutes 29 seconds1:03:29
+Guilbert, Maxime 1 hour 3 minutes 29 seconds
+Our last logging attempt was at 18. I don't see anything in the logs, so it seems you are with the same Oct token.
+
+Gulchand, Atesh
+1 hour 3 minutes 39 seconds1:03:39
+Gulchand, Atesh 1 hour 3 minutes 39 seconds
+And square everything.
+Gulchand, Atesh 1 hour 3 minutes 59 seconds
+Are you seeing any new logs? No.
+
+Guilbert, Maxime
+1 hour 4 minutes 9 seconds1:04:09
+Guilbert, Maxime 1 hour 4 minutes 9 seconds
+Yes, I see it.
+
+Newton, Persis Esther
+1 hour 4 minutes 12 seconds1:04:12
+Newton, Persis Esther 1 hour 4 minutes 12 seconds
+Success.
+
+Guilbert, Maxime
+1 hour 4 minutes 16 seconds1:04:16
+Guilbert, Maxime 1 hour 4 minutes 16 seconds
+Yes, so it's a success, but for which...
+Guilbert, Maxime 1 hour 4 minutes 22 seconds
+So it's like the previous one, so it was a success.
+Guilbert, Maxime 1 hour 4 minutes 33 seconds
+Okay.
+
+Newton, Persis Esther
+1 hour 4 minutes 36 seconds1:04:36
+Newton, Persis Esther 1 hour 4 minutes 36 seconds
+Mm.
+
+Guilbert, Maxime
+1 hour 4 minutes 37 seconds1:04:37
+Guilbert, Maxime 1 hour 4 minutes 37 seconds
+So, multiple calls were done.
+Guilbert, Maxime 1 hour 4 minutes 42 seconds
+Everything is in success.
+Guilbert, Maxime 1 hour 4 minutes 46 seconds
+At least in the Utc side.
+
+Newton, Persis Esther
+1 hour 4 minutes 53 seconds1:04:53
+Newton, Persis Esther 1 hour 4 minutes 53 seconds
+Can you show your screen, Atesh?
+
+Gulchand, Atesh
+1 hour 4 minutes 55 seconds1:04:55
+Gulchand, Atesh 1 hour 4 minutes 55 seconds
+Yeah.
+
+Newton, Persis Esther
+1 hour 5 minutes 33 seconds1:05:33
+Newton, Persis Esther 1 hour 5 minutes 33 seconds
+Where's Sarah?
+
+Gulchand, Atesh
+1 hour 5 minutes 36 seconds1:05:36
+Gulchand, Atesh 1 hour 5 minutes 36 seconds
+I'm seeing one.
+Gulchand, Atesh 1 hour 6 minutes 1 second
+I don't see any, uh, no logs, but...
+Gulchand, Atesh 1 hour 6 minutes 7 seconds
+Maxime, I just everything looks fine, right?
+
+Guilbert, Maxime
+1 hour 6 minutes 12 seconds1:06:12
+Guilbert, Maxime 1 hour 6 minutes 12 seconds
+Sorry, did you say?
+
+Gulchand, Atesh
+1 hour 6 minutes 13 seconds1:06:13
+Gulchand, Atesh 1 hour 6 minutes 13 seconds
+I, I don't see any, you don't see any errors in your logs, right?
+
+Guilbert, Maxime
+1 hour 6 minutes 18 seconds1:06:18
+Guilbert, Maxime 1 hour 6 minutes 18 seconds
+Let me refresh, just to be sure.
+Guilbert, Maxime 1 hour 6 minutes 23 seconds
+OK, so wait a second, and OK, so I saw a bunch of new calls.
+Guilbert, Maxime 1 hour 6 minutes 40 seconds
+And I see some, but what are they?
+Guilbert, Maxime 1 hour 6 minutes 54 seconds
+Evaluation claim evaluation failure. I don't think it's a big issue.
+Guilbert, Maxime 1 hour 7 minutes 6 seconds
+All your access token were were granted, so I can see some issues, but it's...
+Guilbert, Maxime 1 hour 7 minutes 12 seconds
+Not real blocking issues.
+Guilbert, Maxime 1 hour 7 minutes 15 seconds
+I can show my screen just to.
+Guilbert, Maxime 1 hour 7 minutes 19 seconds
+to explain.
+Guilbert, Maxime 1 hour 7 minutes 24 seconds
+So I see this kind of errors saying claim evaluation for 02 token failure, user claim evaluation failure. So what does it mean? It means just that if I...
+Guilbert, Maxime 1 hour 7 minutes 37 seconds
+Ohh.
+Guilbert, Maxime 1 hour 7 minutes 44 seconds
+They go there.
+Guilbert, Maxime 1 hour 7 minutes 51 seconds
+It means that one of these fields wasn't correctly filled.
+Guilbert, Maxime 1 hour 7 minutes 56 seconds
+while generating your token.
+Guilbert, Maxime 1 hour 8 minutes 2 seconds
+So technically the token is fully generated, but if you are waiting for any information from these claims, it can explain your issue.
+Guilbert, Maxime 1 hour 8 minutes 14 seconds
+The.
+Guilbert, Maxime 1 hour 8 minutes 16 seconds
+Is it the PNGF?
+
+So, Candi
+1 hour 8 minutes 23 seconds1:08:23
+So, Candi 1 hour 8 minutes 23 seconds
+Yeah.
+
+Guilbert, Maxime
+1 hour 8 minutes 29 seconds1:08:29
+Guilbert, Maxime 1 hour 8 minutes 29 seconds
+Are you using the Bnc secure zone ID from the token?
+
+
+
+Razmakhnine, Alexandre
+1 hour 12 minutes 31 seconds1:12:31
+Razmakhnine, Alexandre 1 hour 12 minutes 31 seconds
+in the user management screen in production.
+Razmakhnine, Alexandre 1 hour 12 minutes 40 seconds
+I see it's active.
+
+Newton, Persis Esther
+1 hour 12 minutes 42 seconds1:12:42
+Newton, Persis Esther 1 hour 12 minutes 42 seconds
+Which one can you share? Can you which one? What is his user ID? Maybe that'll.
+Newton, Persis Esther 1 hour 12 minutes 51 seconds
+Okay.
+Newton, Persis Esther 1 hour 12 minutes 52 seconds
+So his username is that.
+
+Razmakhnine, Alexandre
+1 hour 12 minutes 55 seconds1:12:55
+Razmakhnine, Alexandre 1 hour 12 minutes 55 seconds
+Mhm.
+
+Newton, Persis Esther
+1 hour 12 minutes 57 seconds1:12:57
+Newton, Persis Esther 1 hour 12 minutes 57 seconds
+And it says it is active.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 1 second1:13:01
+Razmakhnine, Alexandre 1 hour 13 minutes 1 second
+Let's see what is what is being JF.
+Razmakhnine, Alexandre 1 hour 13 minutes 5 seconds
+And everything is in uppercase, so everything is good here.
+
+Newton, Persis Esther
+1 hour 13 minutes 6 seconds1:13:06
+Newton, Persis Esther 1 hour 13 minutes 6 seconds
+BNG.
+Newton, Persis Esther 1 hour 13 minutes 9 seconds
+It's good.
+Newton, Persis Esther 1 hour 13 minutes 11 seconds
+Um...
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 16 seconds1:13:16
+Razmakhnine, Alexandre 1 hour 13 minutes 16 seconds
+So, we we should open that him from a user management screen.
+
+Newton, Persis Esther
+1 hour 13 minutes 24 seconds1:13:24
+Newton, Persis Esther 1 hour 13 minutes 24 seconds
+So Candi.
+Newton, Persis Esther 1 hour 13 minutes 30 seconds
+Is seeing an error user toy loader not found. She's not seeing it.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 41 seconds1:13:41
+Razmakhnine, Alexandre 1 hour 13 minutes 41 seconds
+Oh.
+Razmakhnine, Alexandre 1 hour 13 minutes 42 seconds
+Sorry?
+
+Newton, Persis Esther
+1 hour 13 minutes 42 seconds1:13:42
+Newton, Persis Esther 1 hour 13 minutes 42 seconds
+In his screenshot.
+
+So, Candi
+1 hour 13 minutes 43 seconds1:13:43
+So, Candi 1 hour 13 minutes 43 seconds
+Sasha, can you share your screen again? Yeah, I was distracted.
+
+Razmakhnine, Alexandre
+1 hour 13 minutes 48 seconds1:13:48
+Razmakhnine, Alexandre 1 hour 13 minutes 48 seconds
+I see the user in the database.
+Razmakhnine, Alexandre 1 hour 13 minutes 52 seconds
+Can we see that user in the user maintenance screen?
+
+Sharma, Radhika
+1 hour 13 minutes 53 seconds1:13:53
+Sharma, Radhika 1 hour 13 minutes 53 seconds
+Tâche.
+
+So, Candi
+1 hour 13 minutes 54 seconds1:13:54
+So, Candi 1 hour 13 minutes 54 seconds
+Can, can you see?
+
+Sharma, Radhika
+1 hour 13 minutes 56 seconds1:13:56
+Sharma, Radhika 1 hour 13 minutes 56 seconds
+Sorry, before you guys start troubleshooting, can I, because I think Candi and Sasha, you guys weren't in the beginning part of the call. Can I explain to you what we saw before Atesh's Iiq request actually went through to Compass? I can't show you literally, but I can walk you through what we saw, and then you guys can look at what you're seeing right now.
+Sharma, Radhika 1 hour 14 minutes 15 seconds
+Because.
+Sharma, Radhika 1 hour 14 minutes 17 seconds
+Where we start with Atesh's profile, let me share my screen.
+Sharma, Radhika 1 hour 14 minutes 27 seconds
+So, with Atesh profile, we start with...
+Sharma, Radhika 1 hour 14 minutes 34 seconds
+Under NBIN, this one was inactive earlier on the call.
+Sharma, Radhika 1 hour 14 minutes 40 seconds
+Because he had an ID previously, we had to disable that ID for some other work. So he did not have a Compass ID.
+
+Razmakhnine, Alexandre
+1 hour 14 minutes 45 seconds1:14:45
+Razmakhnine, Alexandre 1 hour 14 minutes 45 seconds
+Mmh.
+
+Sharma, Radhika
+1 hour 14 minutes 48 seconds1:14:48
+Sharma, Radhika 1 hour 14 minutes 48 seconds
+He just, it was disabled.
+Sharma, Radhika 1 hour 14 minutes 51 seconds
+And this is under NBIN under core.
+
+Razmakhnine, Alexandre
+1 hour 14 minutes 51 seconds1:14:51
+Razmakhnine, Alexandre 1 hour 14 minutes 51 seconds
+Okay.
+
+Sharma, Radhika
+1 hour 14 minutes 55 seconds1:14:55
+Sharma, Radhika 1 hour 14 minutes 55 seconds
+Atesh has this, which is his short ID, right?
+Sharma, Radhika 1 hour 15 minutes 2 seconds
+When Iiq went through.
+Sharma, Radhika 1 hour 15 minutes 5 seconds
+This one became active.
+
+
+
+Sharma, Radhika 1 hour 16 minutes 12 seconds
+Okay, so, but this is a very unique case, right? We have a unique case here where you have somebody who had a profile that was inactive.
+Sharma, Radhika 1 hour 16 minutes 21 seconds
+And his profile is in NBIN.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 24 seconds1:16:24
+Razmakhnine, Alexandre 1 hour 16 minutes 24 seconds
+Yeah, well, let's deactivate this one. It's just a bug, yeah.
+
+Sharma, Radhika
+1 hour 16 minutes 27 seconds1:16:27
+Sharma, Radhika 1 hour 16 minutes 27 seconds
+Right.
+Sharma, Radhika 1 hour 16 minutes 29 seconds
+My.
+Sharma, Radhika 1 hour 16 minutes 31 seconds
+OK, Sso.
+
+Newton, Persis Esther
+1 hour 16 minutes 32 seconds1:16:32
+Newton, Persis Esther 1 hour 16 minutes 32 seconds
+So you're saying, Sasha, that this is not the account that Atesh is logging in from? His actual account is the one that Radhika is seeing in the core form. That is his account. Okay.
+
+Razmakhnine, Alexandre
+1 hour 16 minutes 42 seconds1:16:42
+Razmakhnine, Alexandre 1 hour 16 minutes 42 seconds
+Yes.
+
+Sharma, Radhika
+1 hour 16 minutes 44 seconds1:16:44
+Sharma, Radhika 1 hour 16 minutes 44 seconds
+But there's a layer deeper, guys. When you request for a user to be set up through Iiq.
+
+Newton, Persis Esther
+1 hour 16 minutes 46 seconds1:16:46
+Newton, Persis Esther 1 hour 16 minutes 46 seconds
+Mhm.
+Newton, Persis Esther 1 hour 16 minutes 50 seconds
+Mm.
+
+Sharma, Radhika
+1 hour 16 minutes 50 seconds1:16:50
+Sharma, Radhika 1 hour 16 minutes 50 seconds
+Let me share my whole screen.
+Sharma, Radhika 1 hour 16 minutes 58 seconds
+It needs to set the person up according to this, right? Or matrix.
+
+Newton, Persis Esther
+1 hour 17 minutes 3 seconds1:17:03
+Newton, Persis Esther 1 hour 17 minutes 3 seconds
+Yeah.
+
+Razmakhnine, Alexandre
+1 hour 17 minutes 3 seconds1:17:03
+Razmakhnine, Alexandre 1 hour 17 minutes 3 seconds
+Mm.
+
+Sharma, Radhika
+1 hour 17 minutes 5 seconds1:17:05
+Sharma, Radhika 1 hour 17 minutes 5 seconds
+So if this is the profile that was selected for Atesh, say, I don't know which one it was, but let's say development team, right? So development team.
+
+Newton, Persis Esther
+1 hour 17 minutes 11 seconds1:17:11
+Newton, Persis Esther 1 hour 17 minutes 11 seconds
+Development team #9, yeah.
+
+Sharma, Radhika
+1 hour 17 minutes 17 seconds1:17:17
+Sharma, Radhika 1 hour 17 minutes 17 seconds
+Oh, in his case, it is core, so he's not going to have an issue. We're saying that his DWH profile would, whatever we're seeing as DWH would actually become his DWH and Compass is what we're saying, right? When you guys fix the bug. So this one here.
+
+Newton, Persis Esther
+1 hour 17 minutes 25 seconds1:17:25
+Newton, Persis Esther 1 hour 17 minutes 25 seconds
+Is.
+Newton, Persis Esther 1 hour 17 minutes 32 seconds
+Right.
+
+Sharma, Radhika
+1 hour 17 minutes 38 seconds1:17:38
+Sharma, Radhika 1 hour 17 minutes 38 seconds
+is what is going to authenticate him for Compass or give him access to Compass and DWH.
+
+Razmakhnine, Alexandre
+1 hour 17 minutes 43 seconds1:17:43
+Razmakhnine, Alexandre 1 hour 17 minutes 43 seconds
+Yes.
+
+Sharma, Radhika
+1 hour 17 minutes 44 seconds1:17:44
+Sharma, Radhika 1 hour 17 minutes 44 seconds
+Okay, we might have other people.
+Sharma, Radhika 1 hour 17 minutes 48 seconds
+who currently might be like they might be their DWH ID is in core.
+Sharma, Radhika 1 hour 17 minutes 55 seconds
+But they are actually going to need to be set up in NBIN.
+Sharma, Radhika 1 hour 18 minutes 1 second
+And they're not going to be in the migration necessarily.
+Sharma, Radhika 1 hour 18 minutes 6 seconds
+So anytime a new user is created exclusively on DWH, it seems like they're being created in core. So let's talk about my team, for example. If I hire someone and I get their DWH ID created, they're going to get created under core. And then I'm going to submit a request for them.
+
+So, Candi
+1 hour 18 minutes 16 seconds1:18:16
+So, Candi 1 hour 18 minutes 16 seconds
+Yeah.
+So, Candi 1 hour 18 minutes 23 seconds
+Um, sorry, Radhika, I think that you...
+
+Sharma, Radhika
+1 hour 18 minutes 26 seconds1:18:26
+Sharma, Radhika 1 hour 18 minutes 26 seconds
+Sorry, Candi, I just want everyone to understand my scenario because I don't, to me, it's not clear why, like, how do you...
+
+So, Candi
+1 hour 18 minutes 31 seconds1:18:31
+So, Candi 1 hour 18 minutes 31 seconds
+Because this is not the future state. The operations has changed. I think you, yeah, yeah.
+
+Sharma, Radhika
+1 hour 18 minutes 37 seconds1:18:37
+Sharma, Radhika 1 hour 18 minutes 37 seconds
+We have not told anybody anything about DWH. A manager is free to request for access to DWH before Compass because their jobs can evolve and change. We can't put conditions on.
+
+So, Candi
+1 hour 18 minutes 41 seconds1:18:41
+So, Candi 1 hour 18 minutes 41 seconds
+We.
+So, Candi 1 hour 18 minutes 48 seconds
+Um...
+So, Candi 1 hour 18 minutes 51 seconds
+We did. Sorry, I think somehow you're not in the loop. Darwin and I, we have complicated that in the future. So on request DWH, they will have to request Compass first. So
+
+
+Razmakhnine, Alexandre
+1 hour 24 minutes 58 seconds1:24:58
+Razmakhnine, Alexandre 1 hour 24 minutes 58 seconds
+Um, can you actually close and open it again?
+Razmakhnine, Alexandre 1 hour 25 minutes 4 seconds
+And disable cache, and there is a checkbox: disable cache.
+Razmakhnine, Alexandre 1 hour 25 minutes 10 seconds
+Press of 12, or whatever, how you do.
+Razmakhnine, Alexandre 1 hour 25 minutes 15 seconds
+A development tools.
+Razmakhnine, Alexandre 1 hour 25 minutes 22 seconds
+Network.
+
+Gulchand, Atesh
+1 hour 25 minutes 29 seconds1:25:29
+Gulchand, Atesh 1 hour 25 minutes 29 seconds
+Okay.
+
+Razmakhnine, Alexandre
+1 hour 25 minutes 30 seconds1:25:30
+Razmakhnine, Alexandre 1 hour 25 minutes 30 seconds
+I disabled cache chequebooks.
+Razmakhnine, Alexandre 1 hour 25 minutes 34 seconds
+Yeah, okay. Let's try it.
+Razmakhnine, Alexandre 1 hour 25 minutes 48 seconds
+I don't remember if we fixed the problem with update with the update regis cache, but okay, let's see. Create server cookie. This is the only one, or we have anything else in 403?
+
+Newton, Persis Esther
+1 hour 26 minutes 7 seconds1:26:07
+Newton, Persis Esther 1 hour 26 minutes 7 seconds
+Redis cash wouldn't make a difference.
+
+Gulchand, Atesh
+1 hour 26 minutes 7 seconds1:26:07
+Gulchand, Atesh 1 hour 26 minutes 7 seconds
+No, I understand.
+Gulchand, Atesh 1 hour 26 minutes 10 seconds
+No, just the...
+
+Razmakhnine, Alexandre
+1 hour 26 minutes 12 seconds1:26:12
+Razmakhnine, Alexandre 1 hour 26 minutes 12 seconds
+Okay, so it's the only one. Let's see what it says.
+Razmakhnine, Alexandre 1 hour 26 minutes 17 seconds
+It's metrics NBIN. It's not even our metrics NBIN. Okay, let's see then.
+Razmakhnine, Alexandre 1 hour 26 minutes 28 seconds
+Uh, what else?
+Razmakhnine, Alexandre 1 hour 26 minutes 31 seconds
+Me status.
+Razmakhnine, Alexandre 1 hour 26 minutes 38 seconds
+Unauthorised. So you not authorised to that page. What is your default page?
+
+Gulchand, Atesh
+1 hour 26 minutes 51 seconds1:26:51
+Gulchand, Atesh 1 hour 26 minutes 51 seconds
+And.
+
+Razmakhnine, Alexandre
+1 hour 26 minutes 52 seconds1:26:52
+Razmakhnine, Alexandre 1 hour 26 minutes 52 seconds
+Who has access to the user maintenance screen?
+
+Gulchand, Atesh
+1 hour 27 minutes1:27:00
+Gulchand, Atesh 1 hour 27 minutes
+I do also with my external profile.
+
+Razmakhnine, Alexandre
+1 hour 27 minutes 2 seconds1:27:02
+Razmakhnine, Alexandre 1 hour 27 minutes 2 seconds
+Oh.
+Razmakhnine, Alexandre 1 hour 27 minutes 3 seconds
+Can you do you have access to user maintenance or radical user maintenance screen?
+
+So, Candi
+1 hour 27 minutes 8 seconds1:27:08
+So, Candi 1 hour 27 minutes 8 seconds
+Accounts module.
+So, Candi 1 hour 27 minutes 10 seconds
+Default to accounts module.
+
+Razmakhnine, Alexandre
+1 hour 27 minutes 13 seconds1:27:13
+Razmakhnine, Alexandre 1 hour 27 minutes 13 seconds
+So, you are not authorised to accounts module. Let's cheque them your token.
+Razmakhnine, Alexandre 1 hour 27 minutes 26 seconds
+Ohh.
+Razmakhnine, Alexandre 1 hour 27 minutes 27 seconds
+For what? Well, I think we we we should cheque for capabilities right now.
+Razmakhnine, Alexandre 1 hour 27 minutes 34 seconds
+Uh, IAM call just called.
+Razmakhnine, Alexandre 1 hour 27 minutes 45 seconds
+Sophie.
+Razmakhnine, Alexandre 1 hour 27 minutes 49 seconds
+Yeah, let's cheque. Not options. Switch to headers. This all options.
+Razmakhnine, Alexandre 1 hour 28 minutes
+Yeah, here, get so this is scopes for.
+Razmakhnine, Alexandre 1 hour 28 minutes 4 seconds
+Access control, it's fine, next one.
+Razmakhnine, Alexandre 1 hour 28 minutes 10 seconds
+This one, AOM, right? This is account something. What is response?
+Razmakhnine, Alexandre 1 hour 28 minutes 28 seconds
+So, you have access to your account.
+Razmakhnine, Alexandre 1 hour 28 minutes 33 seconds
+It looks good, right? You have everything here.
+
+Gulchand, Atesh
+1 hour 28 minutes 37 seconds1:28:37
+Gulchand, Atesh 1 hour 28 minutes 37 seconds
+Yeah.
+
+Razmakhnine, Alexandre
+1 hour 28 minutes 41 seconds1:28:4
+Okay, let's take out the capabilities again.
+Razmakhnine, Alexandre 1 hour 28 minutes 52 seconds
+What firm is trying to get?
+
+Newton, Persis Esther
+1 hour 28 minutes 57 seconds1:28:57
+Newton, Persis Esther 1 hour 28 minutes 57 seconds
+Kaur.
+
+Razmakhnine, Alexandre
+1 hour 29 minutes1:29:00
+Razmakhnine, Alexandre 1 hour 29 minutes
+They need to see it here in the network.
+
+Newton, Persis Esther
+1 hour 29 minutes 1 second1:29:01
+Newton, Persis Esther 1 hour 29 minutes 1 second
+We need to see it, yeah.
+
+Razmakhnine, Alexandre
+1 hour 29 minutes 4 seconds1:29:04
+Razmakhnine, Alexandre 1 hour 29 minutes 4 seconds
+In the network, can you see what the URL is trying to get to?
+Razmakhnine, Alexandre 1 hour 29 minutes 11 seconds
+It has to redirect, right?
+Razmakhnine, Alexandre 1 hour 29 minutes 13 seconds
+No, not me. It has to be, I think, Doc.
+
+Razmakhnine, Alexandre
+1 hour 34 minutes 49 seconds1:34:49
+Razmakhnine, Alexandre 1 hour 34 minutes 49 seconds
+Okay, it should be some drone setup in our database, I believe.
+
+So, Candi
+1 hour 34 minutes 58 seconds1:34:58
+So, Candi 1 hour 34 minutes 58 seconds
+Can you get all resources he assigned to this profile?
+So, Candi 1 hour 35 minutes 4 seconds
+Is it possible missing some resources?
+
+Razmakhnine, Alexandre
+1 hour 35 minutes 9 seconds1:35:09
+Razmakhnine, Alexandre 1 hour 35 minutes 9 seconds
+Yeah, it could be.
+
+So, Candi
+1 hour 35 minutes 11 seconds1:35:11
+So, Candi 1 hour 35 minutes 11 seconds
+Yeah, it, you know.
+
+Wahab, Maisha
+1 hour 35 minutes 11 seconds1:35:11
+Wahab, Maisha 1 hour 35 minutes 11 seconds
+I wanted to just know, sorry, Candi, go ahead.
+
+Razmakhnine, Alexandre
+1 hour 35 minutes 13 seconds1:35:13
+Razmakhnine, Alexandre 1 hour 35 minutes 13 seconds
+Yeah.
+
+So, Candi
+1 hour 35 minutes 14 seconds1:35:14
+So, Candi 1 hour 35 minutes 14 seconds
+Sorry, go ahead.
+
+Wahab, Maisha
+1 hour 35 minutes 15 seconds1:35:15
+Wahab, Maisha 1 hour 35 minutes 15 seconds
+It looks like for all of the any of the profiles that are linked to DWH, there are no actual modules that are showing on the user config UI. I don't know if that's a factor as well, because that is a step that we are thinking of validating to make sure those cheque boxes are visible.
+
+Razmakhnine, Alexandre
+1 hour 35 minutes 22 seconds1:35:22
+Razmakhnine, Alexandre 1 hour 35 minutes 22 seconds
+No.
+Razmakhnine, Alexandre 1 hour 35 minutes 34 seconds
+Uh...
+Razmakhnine, Alexandre 1 hour 35 minutes 35 seconds
+Sorry.
+
+Wahab, Maisha
+1 hour 35 minutes 37 seconds1:35:37
+Wahab, Maisha 1 hour 35 minutes 37 seconds
+So, for example...
+
+Razmakhnine, Alexandre
+1 hour 35 minutes 37 seconds1:35:37
+Razmakhnine, Alexandre 1 hour 35 minutes 37 seconds
+OK, can someone open the user maintenance screen for Atesh, so we see how it look like his profile?
+
+Wahab, Maisha
+1 hour 35 minutes 40 seconds1:35:40
+Wahab, Maisha 1 hour 35 minutes 40 seconds
+I.
+Wahab, Maisha 1 hour 35 minutes 42 seconds
+Yeah.
+Wahab, Maisha 1 hour 35 minutes 44 seconds
+Let me, let me show you guys what it is, or Candi, if...
+
+So, Candi
+1 hour 35 minutes 46 seconds1:35:46
+So, Candi 1 hour 35 minutes 46 seconds
+Et.
+So, Candi 1 hour 35 minutes 48 seconds
+It has the, yeah, it has the accounts page.
+So, Candi 1 hour 35 minutes 54 seconds
+It has the different module as a count.
+So, Candi 1 hour 35 minutes 58 seconds
+Merci.
+
+Wahab, Maisha
+1 hour 35 minutes 59 seconds1:35:59
+Wahab, Maisha 1 hour 35 minutes 59 seconds
+But shouldn't the access control sections?
+
+Razmakhnine, Alexandre
+1 hour 36 minutes1:36:00
+Razmakhnine, Alexandre 1 hour 36 minutes
+No, but what is his access control? He doesn't have any rules. I don't see anything. He's...
+
+Wahab, Maisha
+1 hour 36 minutes 5 seconds1:36:05
+Wahab, Maisha 1 hour 36 minutes 5 seconds
+Yeah.
+
+So, Candi
+1 hour 36 minutes 8 seconds1:36:08
+So, Candi 1 hour 36 minutes 8 seconds
+Yeah, that's what I'm saying. I couldn't see any user group assigned other than the DWH user group.
+
+Razmakhnine, Alexandre
+1 hour 36 minutes 14 seconds1:36:14
+Razmakhnine, Alexandre 1 hour 36 minutes 14 seconds
+On the left side, can we see what else is there?
+
+
+Gulchand, Atesh
+1 hour 37 minutes 21 seconds1:37:21
+Gulchand, Atesh 1 hour 37 minutes 21 seconds
+Yeah, cool.
+
+Razmakhnine, Alexandre
+1 hour 37 minutes 27 seconds1:37:27
+Razmakhnine, Alexandre 1 hour 37 minutes 27 seconds
+It's going to return only DWH because he doesn't have access to CompassX.
+
+So, Candi
+1 hour 37 minutes 30 seconds1:37:30
+So, Candi 1 hour 37 minutes 30 seconds
+Okay.
+So, Candi 1 hour 37 minutes 32 seconds
+No, but Maxime showed earlier that the profile is also assigned to the wealth CompassX, whatever, the Compass user groups. But I think when we authenticate our single sign on,
+So, Candi 1 hour 37 minutes 52 seconds
+Does it return all the user groups or does it only return the DWH user group? So that's the question. And we have to validate from attached token.
+
+Razmakhnine, Alexandre
+1 hour 38 minutes 1 second1:38:01
+Razmakhnine, Alexandre 1 hour 38 minutes 1 second
+It's going to return CompassX wells, but without specialisation.
+
+So, Candi
+1 hour 38 minutes 11 seconds1:38:11
+So, Candi 1 hour 38 minutes 11 seconds
+The problem is on our side.
+
+Razmakhnine, Alexandre
+1 hour 38 minutes 13 seconds1:38:13
+Razmakhnine, Alexandre 1 hour 38 minutes 13 seconds
+Mhm.
+
+So, Candi
+1 hour 38 minutes 19 seconds1:38:19
+So, Candi 1 hour 38 minutes 19 seconds
+Is this the good one? Can it resolve into something?
+
+Razmakhnine, Alexandre
+1 hour 38 minutes 21 seconds1:38:21
+Razmakhnine, Alexandre 1 hour 38 minutes 21 seconds
+Uh, this is the old, this is old user group.
+Razmakhnine, Alexandre 1 hour 38 minutes 26 seconds
+Well, if you can only confidential, this is what he had, right? Or somebody called with that. Is it?
+
+Newton, Persis Esther
+1 hour 38 minutes 35 seconds1:38:35
+Newton, Persis Esther 1 hour 38 minutes 35 seconds
+No, no, this is the new one, Sasha, because see, that's 07641. This is the internal user group.
+
+Razmakhnine, Alexandre
+1 hour 38 minutes 42 seconds1:38:42
+Razmakhnine, Alexandre 1 hour 38 minutes 42 seconds
+Mhm.
+Razmakhnine, Alexandre 1 hour 38 minutes 44 seconds
+Okay, but when the when IQ call to create our profile, Atesh profile, did they specify features, groups, whatever? No, not the user groups, did they specify what features has to be assigned?
+
+Newton, Persis Esther
+1 hour 38 minutes 52 seconds1:38:52
+Newton, Persis Esther 1 hour 38 minutes 52 seconds
+Mhm, mhm.
+Newton, Persis Esther 1 hour 39 minutes 5 seconds
+Yes.
+
+Razmakhnine, Alexandre
+1 hour 39 minutes 8 seconds1:39:08
+Razmakhnine, Alexandre 1 hour 39 minutes 8 seconds
+Do you know what they specified?
+
+Newton, Persis Esther
+1 hour 39 minutes 8 seconds1:39:08
+Newton, Persis Esther 1 hour 39 minutes 8 seconds
+I'm gonna.
+Newton, Persis Esther 1 hour 39 minutes 10 seconds
+I'm gonna borrow your screen for a second.
+
+So, Candi
+1 hour 39 minutes 14 seconds1:39:14
+So, Candi 1 hour 39 minutes 14 seconds
+And then we have to get the resource assigned to him.
+
+Newton, Persis Esther
+1 hour 39 minutes 15 seconds1:39:15
+Newton, Persis Esther 1 hour 39 minutes 15 seconds
+Long screen.
+Newton, Persis Esther 1 hour 39 minutes 19 seconds
+So this was his request.
+Newton, Persis Esther 1 hour 39 minutes 26 seconds
+Default module.
+Newton, Persis Esther 1 hour 39 minutes 28 seconds
+This.
+Newton, Persis Esther 1 hour 39 minutes 30 seconds
+Feature selection.
+Newton, Persis Esther 1 hour 39 minutes 32 seconds
+This.
+
+Gulchand, Atesh
+1 hour 39 minutes 33 seconds1:39:33
+Gulchand, Atesh 1 hour 39 minutes 33 seconds
+As to look, look, it says failed for all of the feature selection. What does that mean? Failed, failed, both of the pages.
+
+Newton, Persis Esther
+1 hour 39 minutes 38 seconds1:39:38
+Newton, Persis Esther 1 hour 39 minutes 38 seconds
+Ocean, yeah.
+
+Razmakhnine, Alexandre
+1 hour 39 minutes 41 seconds1:39:41
+Razmakhnine, Alexandre 1 hour 39 minutes 41 seconds
+So he doesn't have those features, features.
+
+Newton, Persis Esther
+1 hour 39 minutes 44 seconds1:39:44
+Newton, Persis Esther 1 hour 39 minutes 44 seconds
+So the Iiq call failed. Let me just take a look details. Oh, yeah.
+
+Gulchand, Atesh
+1 hour 39 minutes 45 seconds1:39:45
+Gulchand, Atesh 1 hour 39 minutes 45 seconds
+Another thing.
+
+
+So, Candi 1 hour 42 minutes 42 seconds
+to cheque the modules to assign the resources. So I think that part is our end point.
+
+Razmakhnine, Alexandre
+1 hour 42 minutes 46 seconds1:42:46
+Razmakhnine, Alexandre 1 hour 42 minutes 46 seconds
+Um...
+Razmakhnine, Alexandre 1 hour 42 minutes 49 seconds
+Um...
+Razmakhnine, Alexandre 1 hour 42 minutes 51 seconds
+Esther, you told you told that this were not in Octobre, right? This.
+Razmakhnine, Alexandre 1 hour 42 minutes 58 seconds
+Oh, you are saying it too?
+
+Newton, Persis Esther
+1 hour 43 minutes1:43:00
+Newton, Persis Esther 1 hour 43 minutes
+Maxime just assigned it into Octobre, but I don't know if this is coming from this area is ours or is it coming from Octobre? I don't know where the error is. Because this was done before Maxime assigned it, right?
+Newton, Persis Esther 1 hour 43 minutes 15 seconds
+The, I mean, the request.
+
+Razmakhnine, Alexandre
+1 hour 43 minutes 15 seconds1:43:15
+Razmakhnine, Alexandre 1 hour 43 minutes 15 seconds
+We can repeat the test one more time or ask Iiq team to comment what where this is coming from.
+
+Newton, Persis Esther
+1 hour 43 minutes 25 seconds1:43:25
+Newton, Persis Esther 1 hour 43 minutes 25 seconds
+Um, I'm just, I'm trying to call Yi.
+Newton, Persis Esther 1 hour 43 minutes 30 seconds
+Uh, sorry, uh, Jeremy, he's not responding, Ramin.
+
+Razmakhnine, Alexandre
+1 hour 43 minutes 36 seconds1:43:36
+Razmakhnine, Alexandre 1 hour 43 minutes 36 seconds
+And can we get Ravi on the call as well, because he was working right on put?
+
+Newton, Persis Esther
+1 hour 43 minutes 43 seconds1:43:43
+Newton, Persis Esther 1 hour 43 minutes 43 seconds
+Mm-hmm.
+
+Razmakhnine, Alexandre
+1 hour 43 minutes 45 seconds1:43:45
+Razmakhnine, Alexandre 1 hour 43 minutes 45 seconds
+If he recognised the SRE.
+
+Newton, Persis Esther
+1 hour 43 minutes 48 seconds1:43:48
+Newton, Persis Esther 1 hour 43 minutes 48 seconds
+Mhm.
+Newton, Persis Esther 1 hour 44 minutes 25 seconds
+Hey, Robbie.
+PR
+
+Patel, Ravikumar
+1 hour 44 minutes 27 seconds1:44:27
+Patel, Ravikumar 1 hour 44 minutes 27 seconds
+Hey, guys.
+
+Newton, Persis Esther
+1 hour 44 minutes 28 seconds1:44:28
+Newton, Persis Esther 1 hour 44 minutes 28 seconds
+Do you recognise this by any chance?
+PR
+
+Patel, Ravikumar
+1 hour 44 minutes 45 seconds1:44:45
+Patel, Ravikumar 1 hour 44 minutes 45 seconds
+So it doesn't like the feature selection that was provided.
+Patel, Ravikumar 1 hour 44 minutes 51 seconds
+Because maybe one of those features doesn't belong to the view-only confidential profile package.
+
+Razmakhnine, Alexandre
+1 hour 44 minutes 53 seconds1:44:53
+Razmakhnine, Alexandre 1 hour 44 minutes 53 seconds
+Mhm.
+
+Guilbert, Maxime
+1 hour 45 minutes 3 seconds1:45:03
+Guilbert, Maxime 1 hour 45 minutes 3 seconds
+But what does it mean exactly?
+
+Razmakhnine, Alexandre
+1 hour 45 minutes 3 seconds1:45:03
+Razmakhnine, Alexandre 1 hour 45 minutes 3 seconds
+Is this air from our?
+PR
+Patel, Ravikumar
+1 hour 45 minutes 3 seconds1:45:03
+Patel, Ravikumar 1 hour 45 minutes 3 seconds
+I'm just judging that based on the error message, so...
+
+Razmakhnine, Alexandre
+1 hour 45 minutes 7 seconds1:45:07
+Razmakhnine, Alexandre 1 hour 45 minutes 7 seconds
+Is this there from us? Is it the our API gives there? It's our API, right? So, how now how we can troubleshoot what is wrong with this call?
+PR
+Patel, Ravikumar
+1 hour 45 minutes 10 seconds1:45:10
+Patel, Ravikumar 1 hour 45 minutes 10 seconds
+It's ours, yeah.
+Patel, Ravikumar 1 hour 45 minutes 19 seconds
+Well, can you brief me on what's going on? So, like...
+
+Newton, Persis Esther
+1 hour 45 minutes 23 seconds1:45:23
+Newton, Persis Esther 1 hour 45 minutes 23 seconds
+Okay, so we created an Iiq request for Atesh for this request, and it was, I think, in view only confidential. Okay, so that's the package, view only confidential. View only confidential, so he got...
+PR
+Patel, Ravikumar
+1 hour 45 minutes 28 seconds1:45:28
+Patel, Ravikumar 1 hour 45 minutes 28 seconds
+Okay, yeah.
+Patel, Ravikumar 1 hour 45 minutes 37 seconds
+That's the package, right?
+Patel, Ravikumar 1 hour 45 minutes 39 seconds
+Okay.
+
+
+Razmakhnine, Alexandre 1 hour 52 minutes 33 seconds
+OK, let me copy-paste.
+Razmakhnine, Alexandre 1 hour 52 minutes 40 seconds
+In the chat.
+Razmakhnine, Alexandre 1 hour 52 minutes 44 seconds
+Awesome.
+Razmakhnine, Alexandre 1 hour 52 minutes 46 seconds
+For me, here.
+Razmakhnine, Alexandre 1 hour 53 minutes 5 seconds
+I copy paste what you have.
+GP
+Guevarra, Paul
+1 hour 53 minutes 18 seconds1:53:18
+Guevarra, Paul 1 hour 53 minutes 18 seconds
+We can philtre by optional too.
+
+Razmakhnine, Alexandre
+1 hour 53 minutes 28 seconds1:53:28
+Razmakhnine, Alexandre 1 hour 53 minutes 28 seconds
+Um...
+Razmakhnine, Alexandre 1 hour 53 minutes 33 seconds
+Sorry, but what do you want me to wear and assignment mode?
+GP
+Guevarra, Paul
+1 hour 53 minutes 36 seconds1:53:36
+Guevarra, Paul 1 hour 53 minutes 36 seconds
+For assignment, yeah, assignment will, can you make it equal to O?
+Guevarra, Paul 1 hour 54 minutes 38 seconds
+Is it the same as the error as well? If we look at the error, what you're passing is this, what's listed here as well?
+
+Razmakhnine, Alexandre
+1 hour 54 minutes 49 seconds1:54:49
+Razmakhnine, Alexandre 1 hour 54 minutes 49 seconds
+There, Ian, is in the chat.
+GP
+Guevarra, Paul
+1 hour 54 minutes 53 seconds1:54:53
+Guevarra, Paul 1 hour 54 minutes 53 seconds
+Okay.
+
+Razmakhnine, Alexandre
+1 hour 54 minutes 58 seconds1:54:58
+Razmakhnine, Alexandre 1 hour 54 minutes 58 seconds
+Just a couple of moments, a couple of messages before.
+GP
+Guevarra, Paul
+1 hour 56 minutes 2 seconds1:56:02
+Guevarra, Paul 1 hour 56 minutes 2 seconds
+Location paper upload.
+PR
+Patel, Ravikumar
+1 hour 56 minutes 12 seconds1:56:12
+Patel, Ravikumar 1 hour 56 minutes 12 seconds
+Sasha, do we have the payload when they're calling our endpoint?
+
+Razmakhnine, Alexandre
+1 hour 56 minutes 16 seconds1:56:16
+Razmakhnine, Alexandre 1 hour 56 minutes 16 seconds
+Um, I have no idea. I've been later joined as well.
+PR
+Patel, Ravikumar
+1 hour 56 minutes 22 seconds1:56:22
+Patel, Ravikumar 1 hour 56 minutes 22 seconds
+Okay.
+
+Razmakhnine, Alexandre
+1 hour 56 minutes 23 seconds1:56:23
+Razmakhnine, Alexandre 1 hour 56 minutes 23 seconds
+But you, you saw there, right? That's only what we have.
+PR
+Patel, Ravikumar
+1 hour 56 minutes 27 seconds1:56:27
+Patel, Ravikumar 1 hour 56 minutes 27 seconds
+Yeah, yeah, yeah. It's coming from user management API.
+GP
+Guevarra, Paul
+1 hour 56 minutes 32 seconds1:56:32
+Guevarra, Paul 1 hour 56 minutes 32 seconds
+It looks like this user should have everything too.
+Guevarra, Paul 1 hour 56 minutes 37 seconds
+Um...
+
+Razmakhnine, Alexandre
+1 hour 56 minutes 39 seconds1:56:39
+Razmakhnine, Alexandre 1 hour 56 minutes 39 seconds
+So, what is happening right now? Atesh, when he is trying to log in, he is getting the...
+Razmakhnine, Alexandre 1 hour 56 minutes 48 seconds
+Uh, I know.
+GP
+Guevarra, Paul
+1 hour 56 minutes 54 seconds1:56:54
+Guevarra, Paul 1 hour 56 minutes 54 seconds
+No, it's.
+
+Razmakhnine, Alexandre
+1 hour 56 minutes 54 seconds1:56:54
+Razmakhnine, Alexandre 1 hour 56 minutes 54 seconds
+Because none of the roles are assigned to him. No, no resources, no role is not assigned.
+Razmakhnine, Alexandre 1 hour 57 minutes 7 seconds
+Ha ha ha.
+Razmakhnine, Alexandre 1 hour 57 minutes 10 seconds
+Okay.
+Razmakhnine, Alexandre 1 hour 57 minutes 13 seconds
+Just a sec.
+Razmakhnine, Alexandre 1 hour 57 minutes 18 seconds
+Um...
+Razmakhnine, Alexandre 1 hour 57 minutes 21 seconds
+What does this? It's the error message. What does error message game?
+Razmakhnine, Alexandre 1 hour 57 minutes 28 seconds
+View only.
+Razmakhnine, Alexandre 1 hour 57 minutes 31 seconds
+Confidential profile, but guys, how our role is called?
+GP
+Guevarra, Paul
+1 hour 57 minutes 41 seconds1:57:41
+Guevarra, Paul 1 hour 57 minutes 41 seconds
+View only confidential profile.
+
+Razmakhnine, Alexandre
+1 hour 57 minutes 41 seconds1:57:41
+Razmakhnine, Alexandre 1 hour 57 minutes 41 seconds
+What's the name?
+Razmakhnine, Alexandre 1 hour 57 minutes 45 seconds
+Are you sure?
+Razmakhnine, Alexandre 1 hour 57 minutes 50 seconds
+Is it not version 117?
+GP
+Guevarra, Paul
+1 hour 57 minutes 56 seconds1:57:56
+Guevarra, Paul 1 hour 57 minutes 56 seconds
+No.
+KJ
+Kama, Jeremy
+1 hour 58 minutes 1 second1:58:01
+Kama, Jeremy 1 hour 58 minutes 1 second
+Everyone.
+GP
+Guevarra, Paul
+1 hour 58 minutes 6 seconds1:58:06
+Guevarra, Paul 1 hour 58 minutes 6 seconds
+I don't have access to prod, but if we cheque in the package template.
+
+Razmakhnine, Alexandre
+1 hour 58 minutes 9 seconds1:58:09
+Razmakhnine, Alexandre 1 hour 58 minutes 9 seconds
+Okay.
+GP
+Guevarra, Paul
+1 hour 58 minutes 11 seconds1:58:11
+Guevarra, Paul 1 hour 58 minutes 11 seconds
+It should be the only confidential profile.
+
+
+GP
+Guevarra, Paul
+1 hour 59 minutes 43 seconds1:59:43
+Guevarra, Paul 1 hour 59 minutes 43 seconds
+Yes.
+HY
+Heng Yan, Yi
+1 hour 59 minutes 44 seconds1:59:44
+Heng Yan, Yi 1 hour 59 minutes 44 seconds
+Oh, I can try.
+KJ
+Kama, Jeremy
+2 hours 49 seconds2:00:49
+Kama, Jeremy 2 hours 49 seconds
+So those features are the ones that are individually added as feature selection in the row, so there's nothing wrong at the role level, because that's how it was.
+Kama, Jeremy 2 hours 59 seconds
+The.
+Kama, Jeremy 2 hours 1 minute 2 seconds
+Built in the access matrix, so it's like you said it would it would be on the API side.
+GP
+Guevarra, Paul
+2 hours 1 minute 8 seconds2:01:08
+Guevarra, Paul 2 hours 1 minute 8 seconds
+Wait, sorry, I just see something else too. Can we scroll up? Is this the name of the...
+Guevarra, Paul 2 hours 1 minute 16 seconds
+The group?
+
+Newton, Persis Esther
+2 hours 1 minute 18 seconds2:01:18
+Newton, Persis Esther 2 hours 1 minute 18 seconds
+No, he checked. It's actually, this is not the name. This is not the Oct name.
+
+Razmakhnine, Alexandre
+2 hours 1 minute 26 seconds2:01:26
+Razmakhnine, Alexandre 2 hours 1 minute 26 seconds
+Can you copy, paste, attach the you did JWT IO?
+Razmakhnine, Alexandre 2 hours 1 minute 33 seconds
+The name of the Groupe.
+
+Gulchand, Atesh
+2 hours 1 minute 36 seconds2:01:36
+Gulchand, Atesh 2 hours 1 minute 36 seconds
+One second.
+GP
+Guevarra, Paul
+2 hours 1 minute 40 seconds2:01:40
+Guevarra, Paul 2 hours 1 minute 40 seconds
+It's the full name length, right? It's not okay, okay.
+
+Newton, Persis Esther
+2 hours 1 minute 42 seconds2:01:42
+Newton, Persis Esther 2 hours 1 minute 42 seconds
+Yeah, it is. It is.
+KJ
+Kama, Jeremy
+2 hours 1 minute 43 seconds2:01:43
+Kama, Jeremy 2 hours 1 minute 43 seconds
+Yeah, but it, but it's the it's the right object. We double checked. It's just that the name, the display value wasn't updated in Compass X, but if you look at the value, the object ID in Octobre, it matches the one that's in that's in Iiq.
+
+Newton, Persis Esther
+2 hours 1 minute 47 seconds2:01:47
+Newton, Persis Esther 2 hours 1 minute 47 seconds
+Yeah.
+GP
+Guevarra, Paul
+2 hours 1 minute 58 seconds2:01:58
+Guevarra, Paul 2 hours 1 minute 58 seconds
+Okay.
+
+Newton, Persis Esther
+2 hours 2 minutes 52 seconds2:02:52
+Newton, Persis Esther 2 hours 2 minutes 52 seconds
+Yi, are you getting the request?
+HY
+Heng Yan, Yi
+2 hours 2 minutes 57 seconds2:02:57
+Heng Yan, Yi 2 hours 2 minutes 57 seconds
+I'm trying to see spawn. Can I have the user ID in the chat?
+
+Newton, Persis Esther
+2 hours 3 minutes 7 seconds2:03:07
+Newton, Persis Esther 2 hours 3 minutes 7 seconds
+The user ID.
+Newton, Persis Esther 2 hours 3 minutes 11 seconds
+If you look for Adish's name.
+
+Guilbert, Maxime
+2 hours 3 minutes 15 seconds2:03:15
+Guilbert, Maxime 2 hours 3 minutes 15 seconds
+You mean in Nokta?
+
+Newton, Persis Esther
+2 hours 3 minutes 21 seconds2:03:21
+Newton, Persis Esther 2 hours 3 minutes 21 seconds
+Which, which user ID are you looking for, Yi?
+HY
+Heng Yan, Yi
+2 hours 3 minutes 26 seconds2:03:26
+Heng Yan, Yi 2 hours 3 minutes 26 seconds
+Usually.
+Heng Yan, Yi 2 hours 3 minutes 29 seconds
+Usually should have an account ID.
+Heng Yan, Yi 2 hours 3 minutes 35 seconds
+Does this user exist in Iiq already?
+Heng Yan, Yi 2 hours 3 minutes 43 seconds
+I don't see it here.
+Heng Yan, Yi 2 hours 3 minutes 46 seconds
+Anyway, I will search the name.
+Heng Yan, Yi 2 hours 4 minutes 7 seconds
+I also paste the error message in the chat.
+
+
+
+Gagné, Sébastien 2 hours 14 minutes 51 seconds
+True, because that's what I'm seeing is, it looks like there's maybe a misconfiguration, and...
+Gagné, Sébastien 2 hours 14 minutes 58 seconds
+And Compass, because the feature do not belong in package, so we're trying to add the package.
+Gagné, Sébastien 2 hours 15 minutes 8 seconds
+Like the view only confidential profile package, and we're sending a bunch of feature selection, but...
+Gagné, Sébastien 2 hours 15 minutes 18 seconds
+Or getting.
+HY
+Heng Yan, Yi
+2 hours 15 minutes 22 seconds2:15:22
+Heng Yan, Yi 2 hours 15 minutes 22 seconds
+So, it's the feature selection on their side is something like they belongs to the, so, so basically they have some resource and some of the resource are optional, so that's the feature selection.
+
+Gagné, Sébastien
+2 hours 15 minutes 23 seconds2:15:23
+Gagné, Sébastien 2 hours 15 minutes 23 seconds
+No.
+Gagné, Sébastien 2 hours 15 minutes 39 seconds
+Mhm.
+HY
+Heng Yan, Yi
+2 hours 15 minutes 41 seconds2:15:41
+Heng Yan, Yi 2 hours 15 minutes 41 seconds
+But technically it should belong to a package. Checking.
+Heng Yan, Yi 2 hours 15 minutes 54 seconds
+This package, so is it possible to?
+Heng Yan, Yi 2 hours 16 minutes
+Try on the other rules because we know the global admin works, right?
+
+Newton, Persis Esther
+2 hours 16 minutes 6 seconds2:16:06
+Newton, Persis Esther 2 hours 16 minutes 6 seconds
+The admin all we checked this morning.
+HY
+Heng Yan, Yi
+2 hours 16 minutes 8 seconds2:16:08
+Heng Yan, Yi 2 hours 16 minutes 8 seconds
+Yeah, so that one works. Is there another rule maybe we can do a test on so we can see if it's actually the problem of the rule itself?
+
+Gagné, Sébastien
+2 hours 16 minutes 20 seconds2:16:20
+Gagné, Sébastien 2 hours 16 minutes 20 seconds
+Oh, there's the entitlement, okay.
+Gagné, Sébastien 2 hours 16 minutes 24 seconds
+Fort Montréal.
+
+Newton, Persis Esther
+2 hours 16 minutes 28 seconds2:16:28
+Newton, Persis Esther 2 hours 16 minutes 28 seconds
+Preprod.
+KJ
+Kama, Jeremy
+2 hours 16 minutes 33 seconds2:16:33
+Kama, Jeremy 2 hours 16 minutes 33 seconds
+Persis, are there are there feature selection that are not compatible worse with certain packages? Is that what we're experiencing here?
+
+Newton, Persis Esther
+2 hours 16 minutes 33 seconds2:16:33
+Newton, Persis Esther 2 hours 16 minutes 33 seconds
+Then.
+Newton, Persis Esther 2 hours 16 minutes 42 seconds
+Just selection with certain, no sorry, feature selection with certain packages.
+KJ
+Kama, Jeremy
+2 hours 16 minutes 49 seconds2:16:49
+Kama, Jeremy 2 hours 16 minutes 49 seconds
+that are incompatible with certain packages, because that's essentially what the message is. It's like the individual feature selections that are a part of the world don't belong in the package that's in the world.
+GP
+Guevarra, Paul
+2 hours 16 minutes 49 seconds2:16:49
+Guevarra, Paul 2 hours 16 minutes 49 seconds
+The.
+
+Gagné, Sébastien
+2 hours 16 minutes 51 seconds2:16:51
+Gagné, Sébastien 2 hours 16 minutes 51 seconds
+I.
+GP
+Guevarra, Paul
+2 hours 17 minutes 2 seconds2:17:02
+Guevarra, Paul 2 hours 17 minutes 2 seconds
+There could be, but when Sasha checked the database in production, the message previously, it does match the name and it does belong to that package too. Like all nine of those resources within the error message.
+
+Razmakhnine, Alexandre
+2 hours 17 minutes 23 seconds2:17:23
+Razmakhnine, Alexandre 2 hours 17 minutes 23 seconds
+Sorry guys, one more thing. Can I share my screen?
+
+Gagné, Sébastien
+2 hours 17 minutes 27 seconds2:17:27
+Gagné, Sébastien 2 hours 17 minutes 27 seconds
+Yes.
+
+Razmakhnine, Alexandre
+2 hours 17 minutes 28 seconds2:17:28
+Razmakhnine, Alexandre 2 hours 17 minutes 28 seconds
+I just don't understand this message. Riley, probably you can jump in and tell me about this. Because here...
+Razmakhnine, Alexandre 2 hours 17 minutes 40 seconds
+It's like this.
+Razmakhnine, Alexandre 2 hours 17 minutes 44 seconds
+It's like one.
+Razmakhnine, Alexandre 2 hours 17 minutes 49 seconds
+It's one element, no?
+
+Gagné, Sébastien
+2 hours 17 minutes 52 seconds2:17:52
+Gagné, Sébastien 2 hours 17 minutes 52 seconds
+It's a list.
+HY
+Heng Yan, Yi
+2 hours 17 minutes 52 seconds2:17:52
+Heng Yan, Yi 2 hours 17 minutes 52 seconds
+So, that's that's the API returns all the so, so it's the API message crafting like which are not under in the one message, but this is not the payload we are sending.
+
+
+
+Chartray, Audrey-Anne
+2 hours 24 minutes 52 seconds2:24:52
+Chartray, Audrey-Anne 2 hours 24 minutes 52 seconds
+How many users are there supposed to be in PRV?
+
+Newton, Persis Esther
+2 hours 24 minutes 59 seconds2:24:59
+Newton, Persis Esther 2 hours 24 minutes 59 seconds
+We have some DWH users that should show up already and Sasha's account.
+
+Razmakhnine, Alexandre
+2 hours 25 minutes 4 seconds2:25:04
+Razmakhnine, Alexandre 2 hours 25 minutes 4 seconds
+On 500.
+
+Chartray, Audrey-Anne
+2 hours 25 minutes 6 seconds2:25:06
+Chartray, Audrey-Anne 2 hours 25 minutes 6 seconds
+Okay, because I see kept 476.
+
+Newton, Persis Esther
+2 hours 25 minutes 6 seconds2:25:06
+Newton, Persis Esther 2 hours 25 minutes 6 seconds
+Yeah.
+Newton, Persis Esther 2 hours 25 minutes 9 seconds
+Yeah, that's right.
+
+Chartray, Audrey-Anne
+2 hours 25 minutes 10 seconds2:25:10
+Chartray, Audrey-Anne 2 hours 25 minutes 10 seconds
+And I was expecting 10.
+
+Razmakhnine, Alexandre
+2 hours 25 minutes 13 seconds2:25:13
+Razmakhnine, Alexandre 2 hours 25 minutes 13 seconds
+No, no, it's 500, yeah.
+
+Newton, Persis Esther
+2 hours 25 minutes 13 seconds2:25:13
+Newton, Persis Esther 2 hours 25 minutes 13 seconds
+No, those are, yeah, those are existing users from a different project that also show up with Compass.
+
+Chartray, Audrey-Anne
+2 hours 25 minutes 21 seconds2:25:21
+Chartray, Audrey-Anne 2 hours 25 minutes 21 seconds
+Good.
+Chartray, Audrey-Anne 2 hours 25 minutes 24 seconds
+I...
+Chartray, Audrey-Anne 2 hours 25 minutes 25 seconds
+Hey.
+Chartray, Audrey-Anne 2 hours 25 minutes 26 seconds
+I'm just mindful of the time. It's 4.45.
+Chartray, Audrey-Anne 2 hours 25 minutes 33 seconds
+How, so what, sorry, I was on other project this afternoon. So what have we accomplished today? How many user have we created on the 13 we wanted to create?
+
+Newton, Persis Esther
+2 hours 25 minutes 45 seconds2:25:45
+Newton, Persis Esther 2 hours 25 minutes 45 seconds
+One, and because that one hasn't worked, we have not proceeded. We need Atesh's account to work. Only then will we proceed.
+
+Gagné, Sébastien
+2 hours 25 minutes 46 seconds2:25:46
+Gagné, Sébastien 2 hours 25 minutes 46 seconds
+Yeah.
+
+Chartray, Audrey-Anne
+2 hours 25 minutes 56 seconds2:25:56
+Chartray, Audrey-Anne 2 hours 25 minutes 56 seconds
+That makes sense.
+Chartray, Audrey-Anne 2 hours 25 minutes 58 seconds
+Do we carry on tomorrow?
+
+Newton, Persis Esther
+2 hours 26 minutes2:26:00
+Newton, Persis Esther 2 hours 26 minutes
+We have to.
+
+Chartray, Audrey-Anne
+2 hours 26 minutes 1 second2:26:01
+Chartray, Audrey-Anne 2 hours 26 minutes 1 second
+Do we?
+
+Gagné, Sébastien
+2 hours 26 minutes 1 second2:26:01
+Gagné, Sébastien 2 hours 26 minutes 1 second
+Police is still alive.
+
+Chartray, Audrey-Anne
+2 hours 26 minutes 2 seconds2:26:02
+Chartray, Audrey-Anne 2 hours 26 minutes 2 seconds
+Do we disable the rules?
+
+Gagné, Sébastien
+2 hours 26 minutes 4 seconds2:26:04
+Gagné, Sébastien 2 hours 26 minutes 4 seconds
+Thanks A lot.
+
+Newton, Persis Esther
+2 hours 26 minutes 8 seconds2:26:08
+Newton, Persis Esther 2 hours 26 minutes 8 seconds
+Let me call in Candi and Radhika. How do they want to proceed with that?
+
+Chartray, Audrey-Anne
+2 hours 26 minutes 16 seconds2:26:16
+Chartray, Audrey-Anne 2 hours 26 minutes 16 seconds
+Like if you have not promoted or advertised, I'm not sure, and we can monitor if somebody asks or requests, we can.
+Chartray, Audrey-Anne 2 hours 26 minutes 26 seconds
+monitor it. We can also...
+Chartray, Audrey-Anne 2 hours 26 minutes 30 seconds
+Just disable the rules.
+Chartray, Audrey-Anne 2 hours 26 minutes 34 seconds
+As you see fit.
+
+Gagné, Sébastien
+2 hours 26 minutes 36 seconds2:26:36
+Gagné, Sébastien 2 hours 26 minutes 36 seconds
+Maybe if they need to work, yeah.
+
+Newton, Persis Esther
+2 hours 26 minutes 44 seconds2:26:44
+Newton, Persis Esther 2 hours 26 minutes 44 seconds
+Just requesting my product team to.
+Newton, Persis Esther 2 hours 26 minutes 48 seconds
+Say what they need to.
+Newton, Persis Esther 2 hours 26 minutes 53 seconds
+Hey, Ali.
+
+Azizi, Ali
+2 hours 26 minutes 54 seconds2:26:54
+Azizi, Ali 2 hours 26 minutes 54 seconds
+Hey.
+
+Newton, Persis Esther
+2 hours 26 minutes 55 seconds2:26:55
+Newton, Persis Esther 2 hours 26 minutes 55 seconds
+And so, Atesh's account is still not working. We're trying to resolve that.
+Newton, Persis Esther 2 hours 27 minutes 1 second
+Till then, how do you want to proceed with the roles available in Iiq?
+Newton, Persis Esther 2 hours 27 minutes 12 seconds
+Do you want to leave them there? Do you want to disable them?
+
+
+Audet, Dominic 2 hours 30 minutes 29 seconds
+Okay, or we can go through incident. I mean, if it's not working as it's supposed to be, no, I don't know.
+
+Chartray, Audrey-Anne
+2 hours 30 minutes 36 seconds2:30:36
+Chartray, Audrey-Anne 2 hours 30 minutes 36 seconds
+No, no, no, no. It's just if we need to fix it, we will, worst case scenario, disable it, adapt the roles or fix it at the beginning of November.
+
+Audet, Dominic
+2 hours 30 minutes 42 seconds2:30:42
+Audet, Dominic 2 hours 30 minutes 42 seconds
+Uh-huh.
+Audet, Dominic 2 hours 30 minutes 47 seconds
+Okay.
+
+Chartray, Audrey-Anne
+2 hours 30 minutes 49 seconds2:30:49
+Chartray, Audrey-Anne 2 hours 30 minutes 49 seconds
+And but the one role worked this morning, so we know it's not general. It might be just specific to that user or not. We don't know. We have not done the investigation. We're not done with the investigation.
+Chartray, Audrey-Anne 2 hours 31 minutes 9 seconds
+Will you close the change?
+
+Audet, Dominic
+2 hours 31 minutes 10 seconds2:31:10
+Audet, Dominic 2 hours 31 minutes 10 seconds
+Yeah, yeah, I'll sorry. Yes, I'll take care of that.
+
+Chartray, Audrey-Anne
+2 hours 31 minutes 12 seconds2:31:12
+Chartray, Audrey-Anne 2 hours 31 minutes 12 seconds
+Perfect.
+Chartray, Audrey-Anne 2 hours 31 minutes 16 seconds
+Right, so we pick up tomorrow where we left off. Why can we can we try to request the other roles? I do understand that it's kind of a bummer that Atesh doesn't have his accesses, but I mean, if it's just this one.
+
+Razmakhnine, Alexandre
+2 hours 31 minutes 20 seconds2:31:20
+Razmakhnine, Alexandre 2 hours 31 minutes 20 seconds
+Um...
+
+Newton, Persis Esther
+2 hours 31 minutes 28 seconds2:31:28
+Newton, Persis Esther 2 hours 31 minutes 28 seconds
+No, that's.
+Newton, Persis Esther 2 hours 31 minutes 30 seconds
+So how do you want me to proceed? Should I disable Atesh's account role and then try and request another one? How do you want me to? Or sorry, Sasha, you were saying something too.
+
+Razmakhnine, Alexandre
+2 hours 31 minutes 31 seconds2:31:31
+Razmakhnine, Alexandre 2 hours 31 minutes 31 seconds
+Vice.
+Razmakhnine, Alexandre 2 hours 31 minutes 42 seconds
+Um, I found theirs in the in the log, I just don't understand.
+Razmakhnine, Alexandre 2 hours 31 minutes 50 seconds
+I, I, I don't understand.
+Razmakhnine, Alexandre 2 hours 31 minutes 54 seconds
+Why, why we get the ITP subjects such a strange one? So there is no way we can get the API request.
+Razmakhnine, Alexandre 2 hours 32 minutes 5 seconds
+Right, sorry, you, you, you guys go, go ahead, you, you discussed it to move it to the next time, yeah, we need more time to investigate.
+
+Chartray, Audrey-Anne
+2 hours 32 minutes 17 seconds2:32:17
+Chartray, Audrey-Anne 2 hours 32 minutes 17 seconds
+Yeah, well.
+Chartray, Audrey-Anne 2 hours 32 minutes 20 seconds
+Yeah, let's come back tomorrow.
+Chartray, Audrey-Anne 2 hours 32 minutes 27 seconds
+Good evening.
+
+Audet, Dominic
+2 hours 32 minutes 30 seconds2:32:30
+Audet, Dominic 2 hours 32 minutes 30 seconds
+Bye.
+
+Chartray, Audrey-Anne
+2 hours 32 minutes 31 seconds2:32:31
+Chartray, Audrey-Anne 2 hours 32 minutes 31 seconds
+Bye. See you tomorrow.
+
+Gagné, Sébastien
+2 hours 32 minutes 31 seconds2:32:31
+Gagné, Sébastien 2 hours 32 minutes 31 seconds
+Alright, alright, see you tomorrow. Bye bye.
+
+Guilbert, Maxime
+2 hours 32 minutes 32 seconds2:32:32
+Guilbert, Maxime 2 hours 32 minutes 32 seconds
+Thanks, bye.
+HY
+Heng Yan, Yi
+2 hours 32 minutes 34 seconds2:32:34
+Heng Yan, Yi 2 hours 32 minutes 34 seconds
+Yep.
+
+Gagné, Sébastien
+2 hours 32 minutes 35 seconds2:32:35
+Gagné, Sébastien 2 hours 32 minutes 35 seconds
+Right.
+
+Razmakhnine, Alexandre
+2 hours 32 minutes 36 seconds2:32:36
+Razmakhnine, Alexandre 2 hours 32 minutes 36 seconds
+So, Ravi, can you stay on the call for a sec?
+
+Newton, Persis Esther
+2 hours 32 minutes 41 seconds2:32:41
+Newton, Persis Esther 2 hours 32 minutes 41 seconds
+In drum.
+GP
+Guevarra, Paul
+2 hours 32 minutes 41 seconds2:32:41
+Guevarra, Paul 2 hours 32 minutes 41 seconds
+Wait, wait, one thing to, isn't Atesh off tomorrow?
+
+Newton, Persis Esther
+2 hours 32 minutes 46 seconds2:32:46
+Newton, Persis Esther 2 hours 32 minutes 46 seconds
+Of...
+
+Gulchand, Atesh
+2 hours 32 minutes 47 seconds2:32:47
+Gulchand, Atesh 2 hours 32 minutes 47 seconds
+Yeah, I was just gonna say that.
+Gulchand, Atesh 2 hours 32 minutes 50 seconds
+And I had to make chicken in the afternoon.
+
+
+Newton, Persis Esther 2 hours 33 minutes 28 seconds
+So this user already exists, so this user already existed for DWH role, then we assigned.
+
+Razmakhnine, Alexandre
+2 hours 33 minutes 28 seconds2:33:28
+Razmakhnine, Alexandre 2 hours 33 minutes 28 seconds
+Yeah, nothing happening before that.
+
+Newton, Persis Esther
+2 hours 33 minutes 38 seconds2:33:38
+Newton, Persis Esther 2 hours 33 minutes 38 seconds
+Iiq supposedly assigned, try to assign view only confidential role.
+Newton, Persis Esther 2 hours 33 minutes 45 seconds
+And we did this test in non-prod, right, Paul? Like, we had a user, CompassX user.
+
+Razmakhnine, Alexandre
+2 hours 33 minutes 45 seconds2:33:45
+Razmakhnine, Alexandre 2 hours 33 minutes 45 seconds
+Oh.
+GP
+Guevarra, Paul
+2 hours 33 minutes 51 seconds2:33:51
+Guevarra, Paul 2 hours 33 minutes 51 seconds
+Yes.
+
+Newton, Persis Esther
+2 hours 33 minutes 52 seconds2:33:52
+Newton, Persis Esther 2 hours 33 minutes 52 seconds
+Oh, sorry, a DWH user where we added a CompassX user group on top of that.
+GP
+Guevarra, Paul
+2 hours 33 minutes 57 seconds2:33:57
+Guevarra, Paul 2 hours 33 minutes 57 seconds
+Not on top, but we replaced it, so pretty much we would replace the current pre-existing group, and then we were able to assign those, yeah.
+
+Newton, Persis Esther
+2 hours 34 minutes 6 seconds2:34:06
+Newton, Persis Esther 2 hours 34 minutes 6 seconds
+Correct, correct, correct. So in our user management page, his group still shows the old DWH and he didn't get the new user group. So what is the error you're seeing, Sasha?
+
+Razmakhnine, Alexandre
+2 hours 34 minutes 25 seconds2:34:25
+Razmakhnine, Alexandre 2 hours 34 minutes 25 seconds
+First of all, my big question is, what is this weird IDP subject?
+
+Newton, Persis Esther
+2 hours 34 minutes 32 seconds2:34:32
+Newton, Persis Esther 2 hours 34 minutes 32 seconds
+This is the...
+Newton, Persis Esther 2 hours 34 minutes 35 seconds
+Octobre one, give me one second, let me cheque.
+Newton, Persis Esther 2 hours 34 minutes 39 seconds
+That's the Octobre ID.
+
+Razmakhnine, Alexandre
+2 hours 34 minutes 43 seconds2:34:43
+Razmakhnine, Alexandre 2 hours 34 minutes 43 seconds
+That is Oct.
+
+Newton, Persis Esther
+2 hours 34 minutes 44 seconds2:34:44
+Newton, Persis Esther 2 hours 34 minutes 44 seconds
+No, no, no, no, VTT4G, no.
+GP
+Guevarra, Paul
+2 hours 34 minutes 48 seconds2:34:48
+Guevarra, Paul 2 hours 34 minutes 48 seconds
+That's user, isn't that the user ID on Octobre?
+
+Newton, Persis Esther
+2 hours 34 minutes 53 seconds2:34:53
+Newton, Persis Esther 2 hours 34 minutes 53 seconds
+No, because, because Maxime.
+GP
+Guevarra, Paul
+2 hours 34 minutes 54 seconds2:34:54
+Guevarra, Paul 2 hours 34 minutes 54 seconds
+No.
+
+Razmakhnine, Alexandre
+2 hours 34 minutes 55 seconds2:34:55
+Razmakhnine, Alexandre 2 hours 34 minutes 55 seconds
+Why, why would we even get it? Are we asking for it?
+GP
+Guevarra, Paul
+2 hours 34 minutes 58 seconds2:34:58
+Guevarra, Paul 2 hours 34 minutes 58 seconds
+Yeah, right.
+
+Newton, Persis Esther
+2 hours 35 minutes 1 second2:35:01
+Newton, Persis Esther 2 hours 35 minutes 1 second
+No, that that's not so Maxime says this.
+Newton, Persis Esther 2 hours 35 minutes 9 seconds
+That's Octobre. The Octobre ID is that.
+Newton, Persis Esther 2 hours 35 minutes 18 seconds
+But your log is showing a different ID. Where is that ID coming from?
+Newton, Persis Esther 2 hours 35 minutes 25 seconds
+I don't know what that idea is.
+GP
+Guevarra, Paul
+2 hours 35 minutes 26 seconds2:35:26
+Guevarra, Paul 2 hours 35 minutes 26 seconds
+But...
+Guevarra, Paul 2 hours 35 minutes 28 seconds
+Do you mind if?
+
+Razmakhnine, Alexandre
+2 hours 35 minutes 29 seconds2:35:29
+Razmakhnine, Alexandre 2 hours 35 minutes 29 seconds
+Is that plus?
+GP
+Guevarra, Paul
+2 hours 35 minutes 31 seconds2:35:31
+Guevarra, Paul 2 hours 35 minutes 31 seconds
+I, I see.
+
+Razmakhnine, Alexandre
+2 hours 35 minutes 32 seconds2:35:32
+Razmakhnine, Alexandre 2 hours 35 minutes 32 seconds
+It's the, or what does this I.D.P. subs where this coming from? I don't understand. It's employee access management control. Employee access management control not supposed to have anything to do with this kind of I.D.P. subjects, right?
+Razmakhnine, Alexandre 2 hours 35 minutes 51 seconds
+What I see in our database is like this.
+GP
+Guevarra, Paul
+2 hours 35 minutes 58 seconds2:35:58
+Guevarra, Paul 2 hours 35 minutes 58 seconds
+It.
+
+Razmakhnine, Alexandre
+2 hours 35 minutes 58 seconds2:35:58
+Razmakhnine, Alexandre 2 hours 35 minutes 58 seconds
+I TP user ID.
+
+Newton, Persis Esther
+2 hours 35 minutes 59 seconds2:35:59
+Newton, Persis Esther 2 hours 35 minutes 59 seconds
+Look for look for Atesh is other account. Atesh has two accounts, right? Look for Atesh is second account.
+
+
+
+Guevarra, Paul 2 hours 38 minutes 53 seconds
+Oh, payload, okay. So this is the payload I have for non-prod right now.
+
+Razmakhnine, Alexandre
+2 hours 39 minutes2:39:00
+Razmakhnine, Alexandre 2 hours 39 minutes
+You're moving, but I cannot see anything.
+GP
+Guevarra, Paul
+2 hours 39 minutes 3 seconds2:39:03
+Guevarra, Paul 2 hours 39 minutes 3 seconds
+Oh, sorry. This one right here.
+
+Razmakhnine, Alexandre
+2 hours 39 minutes 6 seconds2:39:06
+Razmakhnine, Alexandre 2 hours 39 minutes 6 seconds
+No, but this is wrong. Is it right? No, this is right.
+GP
+Guevarra, Paul
+2 hours 39 minutes 10 seconds2:39:10
+Guevarra, Paul 2 hours 39 minutes 10 seconds
+No, it's right, yeah.
+
+Razmakhnine, Alexandre
+2 hours 39 minutes 14 seconds2:39:14
+Razmakhnine, Alexandre 2 hours 39 minutes 14 seconds
+Feature selections is just like that.
+Razmakhnine, Alexandre 2 hours 39 minutes 18 seconds
+And you have one bracket.
+GP
+Guevarra, Paul
+2 hours 39 minutes 18 seconds2:39:18
+Guevarra, Paul 2 hours 39 minutes 18 seconds
+PAG.
+
+Razmakhnine, Alexandre
+2 hours 39 minutes 26 seconds2:39:26
+Razmakhnine, Alexandre 2 hours 39 minutes 26 seconds
+Can you put two brackets?
+GP
+Guevarra, Paul
+2 hours 39 minutes 29 seconds2:39:29
+Guevarra, Paul 2 hours 39 minutes 29 seconds
+That's why I tried to do too, but it doesn't give me that error.
+
+Gulchand, Atesh
+2 hours 39 minutes 34 seconds2:39:34
+Gulchand, Atesh 2 hours 39 minutes 34 seconds
+Oh, it isn't even there.
+GP
+Guevarra, Paul
+2 hours 39 minutes 35 seconds2:39:35
+Guevarra, Paul 2 hours 39 minutes 35 seconds
+No, it doesn't give me that error here, but we can cheque in this. Yeah. No, I don't see it.
+
+Razmakhnine, Alexandre
+2 hours 39 minutes 39 seconds2:39:39
+Razmakhnine, Alexandre 2 hours 39 minutes 39 seconds
+Okay.
+GP
+Guevarra, Paul
+2 hours 39 minutes 45 seconds2:39:45
+Guevarra, Paul 2 hours 39 minutes 45 seconds
+It's not that feature selection error though.
+
+Gulchand, Atesh
+2 hours 39 minutes 51 seconds2:39:51
+Gulchand, Atesh 2 hours 39 minutes 51 seconds
+What error is it? It's an API error.
+GP
+Guevarra, Paul
+2 hours 39 minutes 55 seconds2:39:55
+Guevarra, Paul 2 hours 39 minutes 55 seconds
+It just says bad, so, or is it?
+
+Gulchand, Atesh
+2 hours 39 minutes 57 seconds2:39:57
+Gulchand, Atesh 2 hours 39 minutes 57 seconds
+Same guy.
+GP
+Guevarra, Paul
+2 hours 40 minutes 2 seconds2:40:02
+Guevarra, Paul 2 hours 40 minutes 2 seconds
+Fail to read a request, so when I reach the Api.
+
+Razmakhnine, Alexandre
+2 hours 40 minutes 12 seconds2:40:12
+Razmakhnine, Alexandre 2 hours 40 minutes 12 seconds
+You know what? Do it like this. I'm going to copy paste to the chat.
+Razmakhnine, Alexandre 2 hours 40 minutes 35 seconds
+No, no, no, like, no, wait, leave it, leave it with what you had.
+GP
+Guevarra, Paul
+2 hours 40 minutes 36 seconds2:40:36
+Guevarra, Paul 2 hours 40 minutes 36 seconds
+Ohh.
+Guevarra, Paul 2 hours 40 minutes 40 seconds
+Oh, see.
+
+Razmakhnine, Alexandre
+2 hours 40 minutes 43 seconds2:40:43
+Razmakhnine, Alexandre 2 hours 40 minutes 43 seconds
+Whatever you have, controls that, yeah, stop now.
+Razmakhnine, Alexandre 2 hours 40 minutes 49 seconds
+Ahh.
+Razmakhnine, Alexandre 2 hours 40 minutes 51 seconds
+Open.
+GP
+Guevarra, Paul
+2 hours 40 minutes 54 seconds2:40:54
+Guevarra, Paul 2 hours 40 minutes 54 seconds
+Like this.
+
+Razmakhnine, Alexandre
+2 hours 40 minutes 56 seconds2:40:56
+Razmakhnine, Alexandre 2 hours 40 minutes 56 seconds
+But take out from names, take out this string.
+GP
+Guevarra, Paul
+2 hours 41 minutes 5 seconds2:41:05
+Guevarra, Paul 2 hours 41 minutes 5 seconds
+Okay.
+
+Razmakhnine, Alexandre
+2 hours 41 minutes 6 seconds2:41:06
+Razmakhnine, Alexandre 2 hours 41 minutes 6 seconds
+Looks like this.
+GP
+Guevarra, Paul
+2 hours 41 minutes 9 seconds2:41:09
+Guevarra, Paul 2 hours 41 minutes 9 seconds
+Yeah.
+Guevarra, Paul 2 hours 41 minutes 12 seconds
+I think that's what they're doing.
+
+Razmakhnine, Alexandre
+2 hours 41 minutes 18 seconds2:41:18
+Razmakhnine, Alexandre 2 hours 41 minutes 18 seconds
+But why it was?
+GP
+Guevarra, Paul
+2 hours 41 minutes 19 seconds2:41:19
+Guevarra, Paul 2 hours 41 minutes 19 seconds
+That's why I want to see the payload for it, that's why.
+
+
+HY
+Heng Yan, Yi
+2 hours 44 minutes 53 seconds2:44:53
+Heng Yan, Yi 2 hours 44 minutes 53 seconds
+Yeah, because I only have access to the lower environment.
+
+Newton, Persis Esther
+2 hours 44 minutes 59 seconds2:44:59
+Newton, Persis Esther 2 hours 44 minutes 59 seconds
+Using the AI.
+HY
+Heng Yan, Yi
+2 hours 45 minutes2:45:00
+Heng Yan, Yi 2 hours 45 minutes
+Yeah.
+
+Newton, Persis Esther
+2 hours 45 minutes 1 second2:45:01
+Newton, Persis Esther 2 hours 45 minutes 1 second
+Yeah, we'll take it up tomorrow morning. We just wanted to quickly ask you if it was that specific thing, Yi.
+HY
+Heng Yan, Yi
+2 hours 45 minutes 8 seconds2:45:08
+Heng Yan, Yi 2 hours 45 minutes 8 seconds
+I mean, like, the problem is if it is like an extra bracket, then Sasha's account this morning should have the same error because he should contain the bracket.
+
+Newton, Persis Esther
+2 hours 45 minutes 21 seconds2:45:21
+Newton, Persis Esther 2 hours 45 minutes 21 seconds
+Yeah.
+Newton, Persis Esther 2 hours 45 minutes 22 seconds
+Yep, yep.
+
+Razmakhnine, Alexandre
+2 hours 45 minutes 23 seconds2:45:23
+Razmakhnine, Alexandre 2 hours 45 minutes 23 seconds
+But did you send actually features, or you just sent a package for my user?
+HY
+Heng Yan, Yi
+2 hours 45 minutes 30 seconds2:45:30
+Heng Yan, Yi 2 hours 45 minutes 30 seconds
+I mean, your role, does your role contains?
+
+Newton, Persis Esther
+2 hours 45 minutes 32 seconds2:45:32
+Newton, Persis Esther 2 hours 45 minutes 32 seconds
+It would be the same. It would have features.
+Newton, Persis Esther 2 hours 45 minutes 37 seconds
+Sasha, your role contained features. I'll go back and cheque your account, but it does.
+Newton, Persis Esther 2 hours 45 minutes 46 seconds
+Okay, no worries. We can cheque tomorrow morning.
+HY
+Heng Yan, Yi
+2 hours 45 minutes 50 seconds2:45:50
+Heng Yan, Yi 2 hours 45 minutes 50 seconds
+I will double-check in the code, but we can.
+Heng Yan, Yi 2 hours 45 minutes 54 seconds
+Do more testing tomorrow morning, yep.
+
+Newton, Persis Esther
+2 hours 45 minutes 58 seconds2:45:58
+Newton, Persis Esther 2 hours 45 minutes 58 seconds
+Oh, interestingly, Sasha's account also, it says it's failed. Oh, but maybe, yeah, maybe this was the first request that I had sent and then Ramin had to fix it. Maybe it was that, but.
+HY
+Heng Yan, Yi
+2 hours 46 minutes 5 seconds2:46:05
+Heng Yan, Yi 2 hours 46 minutes 5 seconds
+What?
+
+Razmakhnine, Alexandre
+2 hours 46 minutes 5 seconds2:46:05
+Razmakhnine, Alexandre 2 hours 46 minutes 5 seconds
+Sorry.
+Razmakhnine, Alexandre 2 hours 46 minutes 15 seconds
+I cannot log in by the way anymore. Somebody disabled my remove my account.
+
+Newton, Persis Esther
+2 hours 46 minutes 22 seconds2:46:22
+Newton, Persis Esther 2 hours 46 minutes 22 seconds
+I don't know.
+Newton, Persis Esther 2 hours 46 minutes 24 seconds
+Mm.
+HY
+Heng Yan, Yi
+2 hours 46 minutes 25 seconds2:46:25
+Heng Yan, Yi 2 hours 46 minutes 25 seconds
+But that was the one in the morning, no?
+
+Newton, Persis Esther
+2 hours 46 minutes 25 seconds2:46:25
+Newton, Persis Esther 2 hours 46 minutes 25 seconds
+What?
+Newton, Persis Esther 2 hours 46 minutes 28 seconds
+Yeah, that was okay. That was really early. Okay. Then after that, Ramin had...
+HY
+Heng Yan, Yi
+2 hours 46 minutes 32 seconds2:46:32
+Heng Yan, Yi 2 hours 46 minutes 32 seconds
+Yeah, yeah, that's a different thing. That was because you deleted on your side, but Iiq you didn't sync. So it's not, yeah.
+
+Newton, Persis Esther
+2 hours 46 minutes 33 seconds2:46:33
+Newton, Persis Esther 2 hours 46 minutes 33 seconds
+Created a separate one. OK.
+Newton, Persis Esther 2 hours 46 minutes 40 seconds
+Okay.
+Newton, Persis Esther 2 hours 46 minutes 42 seconds
+No worries.
+HY
+Heng Yan, Yi
+2 hours 46 minutes 42 seconds2:46:42
+Heng Yan, Yi 2 hours 46 minutes 42 seconds
+Yeah.
+Heng Yan, Yi 2 hours 46 minutes 44 seconds
+But.
+
+Newton, Persis Esther
+2 hours 46 minutes 45 seconds2:46:45
+Newton, Persis Esther 2 hours 46 minutes 45 seconds
+Okay, thank you guys. So we, let's hopefully we find this tomorrow.
+HY
+Heng Yan, Yi
+2 hours 46 minutes 47 seconds2:46:47
+Heng Yan, Yi 2 hours 46 minutes 47 seconds
+No problems.
+Heng Yan, Yi 2 hours 46 minutes 50 seconds
+Yep, hopefully, fingers crossed. Bye.
+
+
+
+
+
+
+
+
+
+

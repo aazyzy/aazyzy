@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Compass X · Multi-firm walkthrough</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --navy:#02324C; --navy2:#194566; --red:#83181E; --red-dark:#6E1419; --blue:#1572C5; --blue-dark:#0F5A9C; --blue-tint:#E1F1FF;
+  --green:#048037; --green-tint:#C3E7CC; --green-text:#0A4D22; --amber:#B25E00; --amber-tint:#FFF6D6;
+  --ink:#2B2D31; --muted:#5F6B7A; --faint:#9AA3AE; --page:#F3F4F6; --surface:#FFFFFF; --chip:#E5E7EB; --line:#DFDFDF; --line2:#C7C9CB;
+  --nav-text:#E6EEF5; --shadow:0 2px 6px rgba(2,50,76,.12);
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ color-scheme:dark; --ink:#E8ECF1; --muted:#B4BDC7; --faint:#7E8893; --page:#0F1B24; --surface:#17262F; --chip:#223340; --line:#2C3E4B; --line2:#3B4E5C; --blue-tint:#13314A; --green-tint:#17432A; --green-text:#BFE9CC; --amber-tint:#3D2E10; --shadow:0 2px 6px rgba(0,0,0,.4); }
+}
+:root[data-theme="dark"]{ color-scheme:dark; --ink:#E8ECF1; --muted:#B4BDC7; --faint:#7E8893; --page:#0F1B24; --surface:#17262F; --chip:#223340; --line:#2C3E4B; --line2:#3B4E5C; --blue-tint:#13314A; --green-tint:#17432A; --green-text:#BFE9CC; --amber-tint:#3D2E10; --shadow:0 2px 6px rgba(0,0,0,.4); }
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html,body{height:100%}
+*{box-sizing:border-box}
+body{margin:0;font-family:Quicksand,"Segoe UI",Roboto,Arial,sans-serif;font-size:14px;color:var(--ink);background:var(--page);line-height:1.45}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,h4,p{margin:0}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+a{color:var(--blue)}
+
+/* shell */
+.app{display:grid;grid-template-rows:56px 1fr;grid-template-columns:232px 1fr;height:100%}
+.topbar{grid-column:1/3;display:flex;align-items:center;gap:14px;padding:0 16px;background:var(--surface);box-shadow:var(--shadow);position:relative;z-index:50}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy);letter-spacing:.08em;font-size:15px}
+.roundel{width:28px;height:28px;border-radius:50%;background:var(--red);display:grid;place-items:center;color:#fff;font-size:13px;font-weight:700}
+.grow{flex:1}
+.persona{display:inline-flex;border:1px solid var(--navy);border-radius:999px;overflow:hidden}
+.persona button{border:0;background:transparent;padding:7px 16px;font-weight:600;color:var(--navy);cursor:pointer}
+.persona button.on{background:var(--navy);color:#fff}
+.circ{width:34px;height:34px;border-radius:50%;border:1px solid var(--line2);background:var(--surface);display:grid;place-items:center;color:var(--navy);cursor:pointer}
+.userchip{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 12px 0 6px;border:1px solid var(--line2);border-radius:999px;font-weight:600;font-size:13px}
+.userchip .av{width:24px;height:24px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:11px}
+.nav{background:var(--navy);color:var(--nav-text);padding:14px 12px;display:flex;flex-direction:column;gap:6px}
+.firmhome{display:flex;align-items:center;gap:10px;font-weight:600;padding:4px 6px;margin-bottom:6px}
+.firmhome .arr{width:28px;height:28px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center}
+.firmcard{background:#fff;color:#2B2D31;border-radius:8px;padding:10px 12px;margin:4px 0 10px;cursor:pointer;position:relative}
+.firmcard .lbl{font-size:11px;color:#5F6B7A;display:flex;align-items:center;gap:6px}
+.firmcard .name{font-weight:700;color:#02324C;display:flex;justify-content:space-between;gap:8px}
+.firmcard .name span:last-child{font-size:12px;color:#1572C5;white-space:nowrap}
+.firmmenu{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;color:#2B2D31;border-radius:8px;box-shadow:0 8px 24px rgba(2,50,76,.25);padding:6px;display:none;z-index:30;max-height:60vh;overflow:auto}
+.firmmenu.open{display:block}
+.firmmenu button{display:flex;width:100%;text-align:left;border:0;background:transparent;padding:8px 10px;border-radius:6px;cursor:pointer;align-items:center;gap:8px;color:#2B2D31}
+.firmmenu button:hover{background:#F3F4F6}
+.firmmenu .parent{font-weight:700;color:#02324C}
+.firmmenu .child{padding-left:26px}
+.firmmenu .t{margin-left:auto;font-size:11px;color:#5F6B7A}
+.navitem{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:6px;border:0;background:transparent;color:var(--nav-text);text-align:left;cursor:pointer;font-weight:500;width:100%}
+.navitem:hover{background:rgba(255,255,255,.12)}
+.navitem.active{background:var(--red);color:#fff;font-weight:600}
+.navitem .nb{margin-left:auto;background:rgba(255,255,255,.2);border-radius:999px;font-size:11px;padding:1px 8px}
+.navnote{font-size:11.5px;color:#9FB3C2;padding:0 8px;margin-top:auto}
+.main{overflow:auto;padding:22px 26px 120px}
+.pagehead{display:flex;align-items:flex-start;gap:16px;margin-bottom:12px}
+.pagehead h1{font-size:22px;font-weight:700;color:var(--navy)}
+.pagehead p{color:var(--muted);margin-top:2px}
+.pagehead .actions{margin-left:auto;display:flex;gap:8px}
+
+/* buttons / pills (Compass) */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:38px;padding:0 18px;border-radius:999px;border:1px solid var(--blue);background:var(--surface);color:var(--blue);font-weight:600;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--blue-tint)}
+.btn-red{border:0;background:var(--red);color:#fff;padding:0 22px}.btn-red:hover{background:var(--red-dark)}
+.btn-primary{border:0;background:var(--blue);color:#fff;padding:0 22px}.btn-primary:hover{background:var(--blue-dark)}
+.btn.sm{height:32px;font-size:13px;padding:0 14px}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.pill{display:inline-flex;align-items:center;justify-content:center;min-width:86px;height:22px;padding:0 10px;border-radius:3px;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+.pill-green{background:var(--green);color:#fff}.pill-lgreen{background:var(--green-tint);color:var(--green-text)}.pill-grey{background:var(--chip);color:var(--muted)}.pill-amber{background:#E8730C;color:#fff}.pill-outline{border:1px solid var(--line2);color:var(--muted)}
+.tag{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 10px;border-radius:999px;background:var(--chip);font-size:12px;font-weight:600;color:var(--ink);white-space:nowrap}
+.tag.navy{background:var(--navy);color:#fff}.tag.blue{background:var(--blue-tint);color:var(--blue-dark)}.tag.amber{background:var(--amber-tint);color:var(--amber)}.tag.green{background:var(--green-tint);color:var(--green-text)}
+.tag.click{cursor:pointer}
+
+/* captions / help */
+.caption{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:8px;padding:10px 14px;margin-bottom:14px}
+.caption .ic{width:26px;height:26px;border-radius:50%;background:var(--blue-tint);color:var(--blue-dark);display:grid;place-items:center;font-weight:700;flex:none}
+.caption b{color:var(--navy)}
+.help{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;border:1.5px solid var(--navy);color:var(--navy);font-size:11px;font-weight:700;cursor:help;position:relative;vertical-align:middle;margin-left:6px;background:var(--surface)}
+.help:hover,.help:focus-visible,.help.open{background:var(--navy);color:#fff}
+.help .tip{display:none;position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%);width:250px;background:var(--navy);color:#fff;font-size:12.5px;font-weight:500;line-height:1.4;padding:10px 12px;border-radius:8px;z-index:60;text-align:left;box-shadow:0 8px 24px rgba(0,0,0,.25);text-transform:none;letter-spacing:0}
+.help:hover .tip,.help:focus-visible .tip,.help.open .tip{display:block}
+.help.right .tip{left:auto;right:-4px;transform:none}
+
+/* tables */
+table{width:100%;border-collapse:collapse;background:var(--surface);border-radius:10px;overflow:hidden}
+th{text-align:left;color:var(--blue);font-weight:700;font-size:12.5px;padding:10px 12px;border-bottom:1px solid var(--line)}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr.row{cursor:pointer}tr.row:hover td{background:var(--page)}
+.name{font-weight:700;color:var(--blue)}
+.sub{color:var(--muted);font-size:12.5px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.rowbtns{display:flex;gap:6px;white-space:nowrap}
+.rowbtns .btn{height:28px;font-size:12px;padding:0 10px}
+.toolbar{display:flex;gap:12px;align-items:center;margin:0 0 10px}
+.toolbar input{height:34px;border:1px solid var(--line2);border-radius:999px;padding:0 14px;width:260px;background:var(--surface)}
+
+/* drawer */
+.scrim{position:fixed;inset:56px 0 0 0;background:rgba(2,50,76,.35);display:none;z-index:40}
+.scrim.open{display:block}
+.drawer{position:fixed;top:56px;right:0;bottom:0;width:min(620px,100%);background:var(--surface);box-shadow:-8px 0 32px rgba(0,0,0,.25);transform:translateX(100%);transition:transform .22s ease;z-index:45;display:flex;flex-direction:column}
+.drawer.open{transform:translateX(0)}
+.drawer header{padding:16px 22px 12px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+.drawer header h2{font-size:18px;color:var(--navy);font-weight:700}
+.drawer .body{padding:14px 22px;overflow:auto;flex:1}
+.drawer footer{padding:12px 22px;border-top:1px solid var(--line);background:var(--page);display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.x{margin-left:auto;width:34px;height:34px;border-radius:50%;border:1px solid var(--line2);background:var(--surface);cursor:pointer;color:var(--ink)}
+.sec{margin:14px 0}
+.sec h3{font-size:13px;font-weight:700;color:var(--navy);margin-bottom:8px;display:flex;align-items:center}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:6px 12px;font-size:13.5px}.kv .k{color:var(--muted)}
+.before{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.before .t{background:var(--page);border-radius:8px;padding:8px;text-align:center}
+.before .n{font-size:20px;font-weight:700;color:var(--red)}.before .l{font-size:11.5px;color:var(--muted)}
+.after{display:flex;align-items:center;gap:10px;background:var(--green-tint);color:var(--green-text);border-radius:8px;padding:9px 12px;font-weight:600;margin-top:8px}
+.tree{background:var(--page);border-radius:8px;padding:10px}
+.tree .node{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px}
+.tree .node.p{font-weight:700;color:var(--navy)}.tree .node.c{margin-left:22px}
+.tree .node.hit{background:var(--blue-tint)}
+.tree .node .rr{margin-left:auto;font-size:12px;color:var(--muted)}
+.tree .dot{width:8px;height:8px;border-radius:50%;background:var(--line2)}.tree .hit .dot{background:var(--blue)}
+.profile{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px}
+.profile.parent{border-color:var(--navy)}.profile.home{border-color:var(--blue)}.profile.sa{border-color:var(--amber)}
+.profile .ph{display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap}.profile .ph b{color:var(--navy)}
+.deleg{border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:6px;font-size:13px}
+.deleg .f{font-weight:700;color:var(--navy)}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:999px;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:opacity .2s;z-index:70;max-width:80vw;text-align:center}
+.toast.show{opacity:1}
+
+/* request form */
+.seg{display:inline-flex;border:1px solid var(--navy);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:transparent;padding:6px 14px;font-weight:600;color:var(--navy);cursor:pointer}
+.seg button.on{background:var(--navy);color:#fff}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:12.5px;font-weight:700;color:var(--navy);margin-bottom:5px}
+.input{width:100%;height:38px;border:1px solid var(--line2);border-radius:6px;padding:0 10px;background:var(--surface)}
+.radio{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin-bottom:6px;cursor:pointer}
+.radio.on{border-color:var(--blue);background:var(--blue-tint)}
+.radio.off{opacity:.55;cursor:not-allowed}
+.radio .r{width:16px;height:16px;border-radius:50%;border:2px solid var(--line2);margin-top:2px;flex:none}
+.radio.on .r{border-color:var(--blue);background:radial-gradient(var(--blue) 45%,transparent 50%)}
+.featgrp{background:var(--page);border-radius:8px;padding:8px 12px;margin-bottom:8px}
+.featgrp .g{font-weight:700;color:var(--navy);font-size:12.5px;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.featgrp .g .count{margin-left:auto;background:var(--navy);color:#fff;border-radius:999px;font-size:11px;padding:1px 8px}
+.feat{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;font-size:13.5px}
+.feat.off{opacity:.45;cursor:not-allowed}
+.feat .cb{width:16px;height:16px;border-radius:3px;border:1.5px solid var(--line2);display:grid;place-items:center;flex:none;background:var(--surface)}
+.feat.on .cb{background:var(--navy);border-color:var(--navy);color:#fff;font-size:11px}
+.feat .why{margin-left:auto;font-size:11.5px;color:var(--muted)}
+.ulist{border:1px solid var(--line2);border-radius:6px;max-height:160px;overflow:auto;background:var(--surface)}
+.ulist button{display:flex;width:100%;text-align:left;border:0;background:transparent;padding:8px 10px;cursor:pointer;gap:8px;align-items:center}
+.ulist button:hover{background:var(--page)}
+.ulist button.on{background:var(--blue-tint)}
+.check{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;margin-bottom:6px;cursor:pointer}
+.check.on{border-color:var(--green);background:var(--green-tint)}
+.check .cb{width:18px;height:18px;border-radius:4px;border:1.5px solid var(--line2);display:grid;place-items:center;background:var(--surface);flex:none}
+.check.on .cb{background:var(--green);border-color:var(--green);color:#fff;font-size:12px}
+.check .d{font-size:12px;color:var(--muted)}
+.timeline .node{display:flex;gap:10px;padding:6px 0;font-size:13.5px}
+.timeline .dot{width:10px;height:10px;border-radius:50%;background:var(--blue);margin-top:5px;flex:none}
+
+/* relationships */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.group{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px}
+.group.out{background:repeating-linear-gradient(135deg,var(--surface),var(--surface) 10px,var(--page) 10px,var(--page) 20px)}
+.group h3{font-size:15px;color:var(--navy);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.group .kind{font-size:12px;color:var(--muted);margin:2px 0 10px}
+.group .firm{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer}
+.group .firm:hover{background:var(--page)}
+.group .firm .t{margin-left:auto;font-size:11px;color:var(--muted)}
+.arrowline{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);padding:5px 8px}
+.arrowline .a{color:var(--amber);font-weight:700}
+
+/* guide */
+.guide{position:fixed;left:232px;right:0;bottom:0;background:var(--navy);color:#fff;padding:12px 22px calc(12px + env(safe-area-inset-bottom,0px));display:none;gap:16px;align-items:center;z-index:46;box-shadow:0 -6px 20px rgba(0,0,0,.25)}
+.guide.open{display:flex}
+.guide .no{width:34px;height:34px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:700;flex:none}
+.guide .txt{flex:1}.guide .txt b{display:block;font-size:14px}.guide .txt span{font-size:13px;color:#C9D7E2}
+.guide .btn{border-color:#fff;color:#fff;background:transparent}.guide .btn-primary{background:#fff;color:var(--navy);border:0}
+body.guideon .drawer{bottom:78px}
+.hl{box-shadow:0 0 0 3px #fff,0 0 0 6px var(--red) !important;animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 3px #fff,0 0 0 10px rgba(131,24,30,.35)}}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important}}
+@media (max-width:860px){.app{grid-template-columns:1fr}.nav{display:none}.guide{left:0}.main{padding:14px 14px 140px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="brand"><span class="roundel">C</span>COMPASS <span style="color:var(--red)">X</span></div>
+    <span class="tag blue">Prototype · multi-firm · v1.0 final</span>
+    <div class="grow"></div>
+    <div class="persona" role="tablist" aria-label="Journey"><button id="pFSS" class="on">Firm Security Steward</button><button id="pSAA">SAA · ID Admin</button></div>
+    <button class="btn btn-red sm" id="guideBtn">Guide</button>
+    <button class="circ" id="helpAll" title="Show all help tips">?</button>
+    <div class="userchip"><span class="av" id="avatar">S</span><span id="whoami">Steward · Harbourfront Group</span></div>
+  </div>
+  <nav class="nav" aria-label="Compass navigation">
+    <div class="firmhome"><span class="arr">←</span>Firm Home</div>
+    <div class="firmcard" id="firmcard" tabindex="0" role="button">
+      <div class="lbl"><span id="ctxLbl">Firm context</span><span class="help" tabindex="0"><span aria-hidden="true">?</span><span class="tip">New with multi-firm. The steward picks the parent group or any child firm; the user list and the request form follow it.</span></span></div>
+      <div class="name"><span id="ctxName">Harbourfront Group</span><span id="ctxChange">Change ▾</span></div>
+      <div class="firmmenu" id="firmmenu"></div>
+    </div>
+    <div id="navitems"></div>
+    <div class="navnote">Firms and cases are the ones Penny used: Harbourfront, Cumberland, Wellington-Altus, Guardian–Fiera, Tricert, Rae &amp; Lipsky.</div>
+  </nav>
+  <main class="main" id="main"></main>
+</div>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true"></aside>
+<div class="toast" id="toast" role="status"></div>
+<div class="guide" id="guide"><div class="no" id="gNo">1</div><div class="txt"><b id="gT"></b><span id="gS"></span></div><button class="btn sm" id="gPrev">Back</button><button class="btn btn-primary sm" id="gNext">Next</button><button class="x" id="gClose" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.4)">✕</button></div>
+
+<script>
+/* ================= firms (Penny’s examples) ================= */
+const FIRMS = {
+  hfg:{name:'Harbourfront Group',type:'Parent group',group:true,note:'Four child firms. Cumberland (bought April 2026) stays a separate group until operations and contracts merge.'},
+  hfw:{name:'Harbourfront Wealth',type:'IB',parent:'hfg',rr:'HF'}, kjh:{name:'KJ Harrison',type:'IB',parent:'hfg',rr:'KJ'}, rot:{name:'Rothenberg',type:'IB',parent:'hfg',rr:'RB'}, wc:{name:'Wealth Council',type:'PM',parent:'hfg',rr:'WC'},
+  cmg:{name:'Cumberland Group',type:'Parent group',group:true,wait:true,note:'Acquired by Harbourfront in April 2026 — itself a parent of four. Kept separate until the merger is formalized; then its firms move under Harbourfront, still one level.'},
+  cpw:{name:'Cumberland Private Wealth',type:'IB',parent:'cmg',rr:'CP'}, cic:{name:'Cumberland Investment Counsel',type:'PM',parent:'cmg',rr:'CI'}, cf:{name:'Cumberland Funds',type:'IFM',parent:'cmg',rr:'CF'}, cs:{name:'Cumberland Securities',type:'IB',parent:'cmg',rr:'CS'},
+  wag:{name:'Wellington-Altus',type:'Parent group',group:true,note:'One business, two arms: an IB firm that spun off a PM firm.'},
+  wapw:{name:'Wellington-Altus Private Wealth',type:'IB',parent:'wag',rr:'WA'}, wapc:{name:'Wellington-Altus Private Counsel',type:'PM',parent:'wag',rr:'WP'},
+  gcg:{name:'Guardian Capital',type:'Parent group',group:true,note:'The parent does some operations; most business and the stewards sit in the child firm. Guardian Partners also sub-advises for three other firms.'},
+  gp:{name:'Guardian Partners',type:'PM',parent:'gcg',rr:'GP'},
+  fiera:{name:'Fiera Capital',type:'PM',rr:'FI'}, kensel:{name:'Kensel',type:'PM',rr:'KN'}, dundee:{name:'Dundee',type:'PM',rr:'DN'},
+  tricert:{name:'Tricert',type:'PM',rr:'TC'},
+  rl:{name:'Rae & Lipsky Group',type:'Parent group',group:true,out:'Guardian holds a majority stake but does not supervise these accounts — an ownership stake is not a parent relationship.'},
+  rl1:{name:'Rae & Lipsky Wealth',type:'IB',parent:'rl',rr:'RL'}, rl2:{name:'Rae & Lipsky Counsel',type:'PM',parent:'rl',rr:'RC'}, rl3:{name:'Rae & Lipsky Funds',type:'IFM',parent:'rl',rr:'RF'},
+  ghost:{name:'Maple PM + Maple IFM',type:'Reporting group',group:true,out:'A grouping created for P&L reporting only — no users, accounts or contract. Never a real parent.'},
+  mpm:{name:'Maple Portfolio Management',type:'PM',parent:'ghost',rr:'MP'}, mifm:{name:'Maple Funds',type:'IFM',parent:'ghost',rr:'MF'},
+};
+const DELEG = [
+  {id:'d1',from:'fiera',to:'gp',type:'Sub-advisory',rr:'FI 2210–2240',agreement:'SAA-2024-017',status:'Active'},
+  {id:'d2',from:'kensel',to:'gp',type:'Sub-advisory',rr:'KN 0400–0418',agreement:'SAA-2023-052',status:'Active'},
+  {id:'d3',from:'dundee',to:'gp',type:'Sub-advisory',rr:'DN 1100–1106',agreement:'SAA-2025-009',status:'Active'},
+  {id:'d4',from:'tricert',to:'ext',type:'Referral',rr:'TC 5100–5120',agreement:'REF-2025-004',status:'Active'},
+];
+/* today’s feature list — modules a user package can include, no levels */
+const FEATURES = [
+  {g:'Clients & accounts', items:[['acc','Accounts'],['cli','Client profile'],['docs','Account documents'],['onb','Onboarding (account opening)']]},
+  {g:'Trading', items:[['ord','Orders'],['alloc','Trade allocations'],['fi','Fixed income'],['opt','Options']]},
+  {g:'Servicing', items:[['svc','Servicing (money movement, plans)'],['xfer','Transfers'],['sys','Systematic plans']]},
+  {g:'Secured Zone apps', items:[['gic','GICs'],['ff','FundFacts'],['max','MaxLite']]},
+  {g:'Reports & tools', items:[['exp','Data export'],['pan','Web Panagon'],['res','Research'],['mpp','MyPortfolio+']]},
+];
+const FEAT = {}; FEATURES.forEach(g => g.items.forEach(([k,n]) => FEAT[k] = n));
+const TRADING_ONLY = ['acc','ord','alloc','fi','opt','gic','ff','max'];
+const VIEW_ONLY = ['acc','cli','docs'];
+const ROLEFEAT = {
+  advisor:['acc','cli','docs','onb','ord','svc','xfer','gic','ff'], assistant:['acc','cli','docs','onb','svc'], pm:['acc','cli','docs','ord','alloc','fi','gic','ff','max','res'],
+  ops:['acc','cli','docs','svc','xfer','sys','exp','pan'], compliance:['acc','cli','docs','exp','pan','res'], steward:['acc','cli','docs'], trader:['acc','ord','alloc','fi','opt'],
+};
+
+/* ================= people: 4–6 per firm ================= */
+let seq = 1;
+const PEOPLE = [];
+function person(name, role, opts={}){ const p = Object.assign({id:'u'+(seq++), name, role, status:'ACTIVE', profiles:[], linked:{sz:[],r2:null}}, opts); PEOPLE.push(p); return p; }
+function addProfile(p, kind, firm, roleKey, rr, extra={}){ p.profiles.push(Object.assign({kind, firm, pkg: roleKey, features:[...(ROLEFEAT[roleKey]||[])], rr}, extra)); return p; }
+function firmUsers(firm, prefix, names){
+  names.forEach(([n, role, key, num]) => { const p = person(n, role + ' · ' + FIRMS[firm].name); addProfile(p, 'firm', firm, key, {[firm]: prefix + ' ' + num}); p.linked = {sz:['SZ · '+FIRMS[firm].rr+' '+num], r2:'R2 · '+FIRMS[firm].rr+'-'+n.split(' ')[0].toUpperCase()}; p.before={cx:1,nr:1,sz:1}; });
+}
+/* Harbourfront Group */
+const aaron = person('Aaron Chen','Back office · Harbourfront Group'); addProfile(aaron,'parent','hfg','ops',{hfw:'HF 1001–1040',kjh:'KJ 2001–2015',rot:'RB 3001–3012',wc:'WC 4001–4006'}); aaron.before={cx:7,nr:7,sz:7}; aaron.linked={sz:['SZ · HF 0021','SZ · KJ 0017','SZ · RB 0009','SZ · WC 0004'],r2:'R2 · HF-AARON'}; aaron.why='Penny’s example: Aaron exists seven times today because Compass can only put a person in one firm. With a parent profile he exists once and carries the children’s RR codes.';
+const lena = person('Lena Ortiz','Compliance · Harbourfront Group'); addProfile(lena,'parent','hfg','compliance',{hfw:'HF 1001–1040',kjh:'KJ 2001–2015'}); lena.before={cx:2,nr:2,sz:3}; lena.linked={sz:['SZ · HF 0030','SZ · KJ 0022'],r2:'R2 · HF-LENA'}; lena.why='A parent profile does not have to cover every child. Lena supervises two of the four firms.';
+const omar = person('Omar Haddad','Steward · Harbourfront Group'); addProfile(omar,'parent','hfg','steward',{hfw:'all',kjh:'all',rot:'all',wc:'all'}); omar.before={cx:4,nr:4,sz:4}; omar.linked={sz:['SZ · HF 0002'],r2:'R2 · HF-OMAR'}; omar.why='The group steward: sees every user across the four firms and submits requests at any level.';
+firmUsers('hfw','HF',[['Marc Tremblay','Advisor','advisor','1012'],['Sofia Reyes','Advisor','advisor','1018'],['Daniel Wu','Assistant','assistant','1019'],['Grace Park','Advisor','advisor','1027'],['Ethan Cole','Operations','ops','1031']]);
+firmUsers('kjh','KJ',[['Nadia Rahman','Advisor','advisor','2003'],['Liam Foster','Advisor','advisor','2005'],['Isabelle Roy','Assistant','assistant','2006'],['Victor Nguyen','Portfolio manager','pm','2011']]);
+firmUsers('rot','RB',[['Hannah Levy','Advisor','advisor','3002'],['Jonas Berg','Advisor','advisor','3004'],['Maya Singh','Assistant','assistant','3005'],['Felix Moreau','Operations','ops','3010']]);
+firmUsers('wc','WC',[['Claire Dubois','Portfolio manager','pm','4001'],['Ravi Patel','Portfolio manager','pm','4003'],['Emma Lindqvist','Assistant','assistant','4004'],['Noah Adams','Trader','trader','4005']]);
+/* Cumberland Group */
+const joanne = person('Joanne Pike','Steward · Cumberland Group'); addProfile(joanne,'parent','cmg','steward',{cpw:'all',cic:'all',cf:'all',cs:'all'}); joanne.before={cx:4,nr:4,sz:4}; joanne.linked={sz:['SZ · CP 0012','SZ · CI 0005'],r2:'R2 · CM-JOANNE'}; joanne.why='Cumberland belongs to Harbourfront on paper but not yet in operations. Until the merger is formalized it stays its own parent group, so Joanne is not visible under Harbourfront.';
+firmUsers('cpw','CP',[['Peter Galloway','Advisor','advisor','6001'],['Amira Said','Advisor','advisor','6004'],['Tom Ellis','Assistant','assistant','6005'],['Yuki Tanaka','Operations','ops','6011']]);
+firmUsers('cic','CI',[['Helen Marsh','Portfolio manager','pm','6101'],['Carlos Mendes','Portfolio manager','pm','6102'],['Ingrid Olsen','Assistant','assistant','6104'],['Samuel Osei','Trader','trader','6105']]);
+firmUsers('cf','CF',[['Priscilla Lau','Fund operations','ops','6201'],['Bruno Costa','Fund operations','ops','6202'],['Alice Morin','Compliance','compliance','6203'],['Kwame Boateng','Assistant','assistant','6204']]);
+firmUsers('cs','CS',[['Rachel Stern','Advisor','advisor','6301'],['Diego Alvarez','Advisor','advisor','6303'],['Mia Johansson','Assistant','assistant','6304'],['Oliver Grant','Operations','ops','6309']]);
+/* Wellington-Altus */
+const devin = person('Devin Clarke','Operations · Wellington-Altus'); addProfile(devin,'parent','wag','ops',{wapw:'WA 8001–8120',wapc:'WP 8500–8530'}); devin.before={cx:2,nr:2,sz:2}; devin.linked={sz:['SZ · WA 0102','SZ · WP 0019'],r2:'R2 · WA-DEVIN'}; devin.why='The IB + PM case: one business, two registrations. Devin served both arms with two of everything.';
+const sara = person('Sara Whitfield','Steward · Wellington-Altus'); addProfile(sara,'parent','wag','steward',{wapw:'all',wapc:'all'}); sara.before={cx:2,nr:2,sz:2}; sara.linked={sz:['SZ · WA 0001'],r2:'R2 · WA-SARA'};
+firmUsers('wapw','WA',[['Ben Carter','Advisor','advisor','8010'],['Chloe Martin','Advisor','advisor','8014'],['Arjun Mehta','Assistant','assistant','8015'],['Zoe Fraser','Advisor','advisor','8022'],['Luc Gagnon','Operations','ops','8030']]);
+firmUsers('wapc','WP',[['Nina Kowalski','Portfolio manager','pm','8501'],['Hugo Lefebvre','Portfolio manager','pm','8503'],['Tara Quinn','Assistant','assistant','8504'],['Idris Bello','Trader','trader','8506']]);
+/* Guardian Capital + Guardian Partners (with sub-advisory) */
+const sergio = person('Sergio Vitale','Oversight · Guardian Capital'); addProfile(sergio,'parent','gcg','compliance',{gp:'GP 7001–7030'}); sergio.before={cx:2,nr:1,sz:2}; sergio.linked={sz:['SZ · GC 0002','SZ · GP 0001'],r2:'R2 · GC-SERGIO'}; sergio.why='Two IDs just to oversee the child firm. A parent profile with view and reporting rights replaces them.';
+const nora = person('Nora Bianchi','Portfolio manager · Guardian Partners'); addProfile(nora,'home','gp','pm',{gp:'GP 7001–7030'}); addProfile(nora,'sa','gp','trader',{},{delegations:['d1','d2','d3'],features:[...TRADING_ONLY]}); nora.before={cx:4,nr:4,sz:4}; nora.linked={sz:['SZ · GP 0007','SZ · FI 0211','SZ · KN 0038','SZ · DN 0015'],r2:'R2 · GP-NORA'}; nora.why='Penny’s Fiera–Guardian example. Fiera owns the client; Nora trades the account. Today she is created inside Fiera, Kensel and Dundee as if she worked there — and their stewards attest a person they do not employ.';
+const theo = person('Theo Lambert','Portfolio manager · Guardian Partners'); addProfile(theo,'home','gp','pm',{gp:'GP 7001–7030'}); addProfile(theo,'sa','gp','trader',{},{delegations:['d1'],features:[...TRADING_ONLY]}); theo.before={cx:2,nr:2,sz:2}; theo.linked={sz:['SZ · GP 0011','SZ · FI 0219'],r2:'R2 · GP-THEO'}; theo.why='Sub-advises for Fiera only. Same mechanism as Nora, one delegation record.';
+firmUsers('gp','GP',[['Elena Petrova','Portfolio manager','pm','7004'],['Jack Morrison','Trader','trader','7009'],['Aisha Khan','Assistant','assistant','7012'],['Marco Ferri','Steward','steward','7001']]);
+/* Delegating firms */
+firmUsers('fiera','FI',[['Nadia Moreau','Steward','steward','0001'],['Simon Baptiste','Portfolio manager','pm','2201'],['Olivia Chan','Advisor','advisor','2215'],['Pavel Novak','Operations','ops','2230']]);
+firmUsers('kensel','KN',[['Laura Bennett','Steward','steward','0001'],['Mateo Ruiz','Portfolio manager','pm','0402'],['Kai Nakamura','Assistant','assistant','0405'],['Jade Thompson','Operations','ops','0410']]);
+firmUsers('dundee','DN',[['Robert Hale','Steward','steward','0001'],['Ana Lima','Portfolio manager','pm','1102'],['George Fox','Advisor','advisor','1104'],['Leila Nasser','Assistant','assistant','1105']]);
+firmUsers('tricert','TC',[['Michael Doyle','Steward','steward','0001'],['Sunita Rao','Portfolio manager','pm','5102'],['Adam Brooks','Portfolio manager','pm','5107'],['Fatima Zahra','Operations','ops','5115']]);
+const priya = person('Priya Nair','Accountant · Northway CPAs (referral partner of Tricert)'); addProfile(priya,'sa','tricert','steward',{},{delegations:['d4'],features:[...VIEW_ONLY],referral:true}); priya.before={cx:1,nr:0,sz:1}; priya.linked={sz:['SZ · TC 0066'],r2:null}; priya.why='Tricert’s accountants own the client relationship and need to see the accounts. A referral profile shows what they are and limits them to viewing.';
+const kevinm = person('Kevin Marsh','Accountant · Northway CPAs (referral partner of Tricert)'); addProfile(kevinm,'sa','tricert','steward',{},{delegations:['d4'],features:[...VIEW_ONLY],referral:true}); kevinm.before={cx:1,nr:0,sz:1}; kevinm.linked={sz:['SZ · TC 0067'],r2:null};
+PEOPLE.forEach(p => { if(!p.before) p.before={cx:1,nr:1,sz:1}; });
+
+/* ================= requests ================= */
+let REQ = [
+  {id:'R-10421',type:'Create',pid:aaron.id,ctx:'hfg',profileKind:'parent',rr:{hfw:'HF 1001–1040',kjh:'KJ 2001–2015',rot:'RB 3001–3012',wc:'WC 4001–4006'},features:[...ROLEFEAT.ops],status:'COMPLETE',done:{cx:true,sz:true,r2:true,link:true},log:['Submitted by Omar Haddad (steward, Harbourfront Group)','Picked up by ID Admin','Compass profile created · parent package','Secured Zone and R2 profiles configured','SZ and R2 IDs linked to the Compass profile','Completed · one-time credentials released'],applied:true},
+  {id:'R-10488',type:'Modify',pid:nora.id,ctx:'gp',profileKind:'sa',delegations:['d1','d2','d3'],features:[...TRADING_ONLY],status:'UNDER REVIEW',done:{cx:true,sz:false,r2:false,link:false},log:['Submitted by Marco Ferri (steward, Guardian Partners)','Delegation records checked: SAA-2024-017, SAA-2023-052, SAA-2025-009','Picked up by ID Admin','Compass sub-advisory profile configured']},
+  {id:'R-10502',type:'Modify',pid:joanne.id,ctx:'cmg',profileKind:'parent',rr:{cpw:'all',cic:'all',cf:'all',cs:'all'},features:[...ROLEFEAT.steward],status:'SUBMITTED',done:{cx:false,sz:false,r2:false,link:false},log:['Submitted by Joanne Pike (steward, Cumberland Group)']},
+  {id:'R-10510',type:'Deactivate',pid:PEOPLE.find(p=>p.name==='Felix Moreau').id,ctx:'rot',status:'SUBMITTED',done:{cx:false,sz:false,r2:false,link:false},log:['Submitted by Omar Haddad (steward, Harbourfront Group) · leaver, last day Oct 31']},
+];
+let nextReq = 10520;
+
+/* ================= state & helpers ================= */
+let persona = 'fss', ctx = 'hfg', screen = 'users', guide = -1, search = '';
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fname = id => FIRMS[id] ? FIRMS[id].name : (id==='ext'?'Northway CPAs':id);
+const children = pid => Object.keys(FIRMS).filter(k => FIRMS[k].parent === pid);
+const groupOf = id => FIRMS[id] && FIRMS[id].parent ? FIRMS[id].parent : id;
+const byId = id => PEOPLE.find(p => p.id === id);
+const help = (txt, right) => `<span class="help${right?' right':''}" tabindex="0"><span aria-hidden="true">?</span><span class="tip">${esc(txt)}</span></span>`;
+const PILL = {COMPLETE:'pill-green','UNDER REVIEW':'pill-lgreen',SUBMITTED:'pill-lgreen',REJECTED:'pill-amber',CANCELLED:'pill-grey',ACTIVE:'pill-green',INACTIVE:'pill-grey',INVITED:'pill-grey'};
+function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),3000); }
+function reach(p){ const s=new Set(); p.profiles.forEach(pr=>{ if(pr.rr) Object.keys(pr.rr).forEach(f=>s.add(f)); if(pr.delegations) pr.delegations.forEach(d=>s.add(DELEG.find(x=>x.id===d).from)); }); return [...s]; }
+function inCtx(p, c){ if (c==='all') return true; return p.profiles.some(pr => pr.firm===c || (FIRMS[c].group && groupOf(pr.firm)===c) || (pr.rr && pr.rr[c])); }
+function usersFor(c){ return PEOPLE.filter(p => inCtx(p,c)); }
+function profileTag(pr){
+  if (pr.kind==='parent') return `<span class="tag navy">Parent profile · ${esc(fname(pr.firm))}</span>`;
+  if (pr.kind==='home') return `<span class="tag blue">Home profile · ${esc(fname(pr.firm))}</span>`;
+  if (pr.kind==='sa') return `<span class="tag amber">${pr.referral?'Referral':'Sub-advisory'} · ${pr.delegations.map(d=>esc(fname(DELEG.find(x=>x.id===d).from))).join(', ')}</span>`;
+  return `<span class="tag">Firm profile · ${esc(fname(pr.firm))}</span>`;
+}
+
+/* ================= persona & navigation ================= */
+function setPersona(p){ persona = p; $('#pFSS').classList.toggle('on', p==='fss'); $('#pSAA').classList.toggle('on', p==='saa');
+  if (p==='saa'){ ctx='all'; screen = 'queue'; $('#avatar').textContent='ID'; $('#whoami').textContent='SAA · ID Admin (NBIN)'; $('#ctxLbl').textContent='Scope'; $('#ctxName').textContent='All firms'; $('#ctxChange').textContent=''; }
+  else { ctx='hfg'; screen='users'; $('#avatar').textContent='S'; $('#whoami').textContent='Steward · '+fname(ctx); $('#ctxLbl').textContent='Firm context'; $('#ctxName').textContent=fname(ctx); $('#ctxChange').textContent='Change ▾'; }
+  closeDrawer(); render(); }
+$('#pFSS').addEventListener('click', ()=>setPersona('fss')); $('#pSAA').addEventListener('click', ()=>setPersona('saa'));
+function renderFirmMenu(){ const m=$('#firmmenu'); let h='';
+  ['hfg','cmg','wag','gcg'].forEach(g=>{ h+=`<button class="parent" data-ctx="${g}">🏢 ${esc(FIRMS[g].name)}</button>`; children(g).forEach(c=>h+=`<button class="child" data-ctx="${c}">${esc(FIRMS[c].name)}<span class="t">${FIRMS[c].type}</span></button>`); });
+  ['fiera','kensel','dundee','tricert'].forEach(f=>h+=`<button class="parent" data-ctx="${f}">🏢 ${esc(FIRMS[f].name)}<span class="t">${f==='tricert'?'with referral partners':'delegating firm'}</span></button>`);
+  m.innerHTML=h; m.querySelectorAll('button').forEach(b=>b.addEventListener('click',e=>{e.stopPropagation(); setCtx(b.dataset.ctx); m.classList.remove('open');})); }
+function setCtx(id){ if (persona==='saa') return; ctx=id; $('#ctxName').textContent=fname(id); $('#whoami').textContent='Steward · '+fname(groupOf(id)); render(); }
+$('#firmcard').addEventListener('click',e=>{ if(e.target.closest('.help')||persona==='saa') return; $('#firmmenu').classList.toggle('open'); });
+document.addEventListener('click',e=>{ if(!e.target.closest('#firmcard')) $('#firmmenu').classList.remove('open'); });
+function renderNav(){
+  const items = persona==='fss' ? [['users','👥','Users'],['requests','📨','My requests'],['relationships','🔗','Firm relationships']] : [['queue','🗂️','Queue'],['users','👥','All users'],['relationships','🔗','Firm relationships']];
+  $('#navitems').innerHTML = items.map(([k,i,l])=>`<button class="navitem${screen===k?' active':''}" data-screen="${k}"><span>${i}</span>${l}<span class="nb" id="nb-${k}"></span></button>`).join('');
+  $('#navitems').querySelectorAll('.navitem').forEach(b=>b.addEventListener('click',()=>{screen=b.dataset.screen; search=''; closeDrawer(); render();}));
+  const nu=$('#nb-users'); if(nu) nu.textContent = usersFor(ctx).length;
+  const nr=$('#nb-requests'); if(nr) nr.textContent = REQ.filter(r=>r.status!=='COMPLETE'&&r.status!=='REJECTED'&&r.status!=='CANCELLED'&&(ctx==='all'||groupOf(r.ctx)===groupOf(ctx))).length;
+  const nq=$('#nb-queue'); if(nq) nq.textContent = REQ.filter(r=>r.status==='SUBMITTED'||r.status==='UNDER REVIEW').length;
+}
+
+/* ================= screens ================= */
+function render(){ renderNav(); const m=$('#main');
+  m.innerHTML = screen==='users' ? usersScreen() : screen==='requests' ? requestsScreen() : screen==='queue' ? queueScreen() : relScreen();
+  const s=m.querySelector('#search'); if(s){ s.addEventListener('input',()=>{search=s.value; const tb=m.querySelector('tbody'); if(tb) tb.innerHTML=userRows();}); }
+}
+$('#main').addEventListener('click', e => {
+  const mod=e.target.closest('[data-modify]'); if(mod){ e.stopPropagation(); openRequestForm({type:'Modify',pid:mod.dataset.modify}); return; }
+  const de=e.target.closest('[data-deact]'); if(de){ e.stopPropagation(); openRequestForm({type:'Deactivate',pid:de.dataset.deact}); return; }
+  if(e.target.closest('[data-new]')){ openRequestForm({type:'Create'}); return; }
+  const fm=e.target.closest('[data-firm]'); if(fm){ e.stopPropagation(); if(persona==='fss'){ setCtx(fm.dataset.firm); screen='users'; render(); } else { search=fname(fm.dataset.firm); screen='users'; render(); } return; }
+  const rq=e.target.closest('[data-req]'); if(rq){ openRequestView(rq.dataset.req); return; }
+  const u=e.target.closest('[data-user]'); if(u){ openUser(u.dataset.user); return; }
+});
+function userRows(){ const q=search.toLowerCase(); const list=usersFor(ctx).filter(p=>!q||p.name.toLowerCase().includes(q)||p.role.toLowerCase().includes(q)||reach(p).some(f=>fname(f).toLowerCase().includes(q)));
+  if(!list.length) return `<tr><td colspan="6" class="sub">No one matches. Try a firm name or a person.</td></tr>`;
+  return list.map(p=>`<tr class="row" data-user="${p.id}" tabindex="0"><td><div class="name">${esc(p.name)}</div><div class="sub">${esc(p.role)}</div></td><td><div class="chips">${p.profiles.map(profileTag).join('')}</div></td><td><div class="chips">${reach(p).map(f=>`<span class="tag">${esc(fname(f))}</span>`).join('')}</div></td><td class="sub">${p.linked.sz.length} SZ${p.linked.r2?' · 1 R2':''}</td><td><span class="pill ${PILL[p.status]}">${p.status}</span></td>${persona==='fss'?`<td><div class="rowbtns"><button class="btn" data-modify="${p.id}">Modify</button><button class="btn btn-red" data-deact="${p.id}">Deactivate</button></div></td>`:'<td></td>'}</tr>`).join(''); }
+function usersScreen(){ const g = ctx==='all'?null:FIRMS[ctx];
+  const cap = persona==='saa' ? 'Every person on the platform, with their profiles and linked IDs. The SAA team works from the queue; this list is for lookup.' : g.group ? `Everyone with a profile in <b>${esc(g.name)}</b> — parent profiles and child-firm profiles in one list. Click a person to see where they sit; use Modify or Deactivate to raise a request for them.` : `People in <b>${esc(g.name)}</b>, plus parent-profile holders whose access reaches this firm.`;
+  return `<div class="pagehead"><div><h1>${persona==='saa'?'All users':'Users'}</h1><p>${esc(ctx==='all'?'All firms':fname(ctx))} · ${usersFor(ctx).length} people</p></div><div class="actions">${persona==='fss'?'<button class="btn btn-red" data-new>New request</button>':''}</div></div>
+  <div class="caption"><div class="ic">i</div><div>${cap}</div></div>
+  <div class="toolbar"><input id="search" placeholder="Search people or firms" value="${esc(search)}"><span class="sub">Modify and Deactivate open the same request form the steward uses for new people.</span></div>
+  <table><thead><tr><th>Person</th><th>Profiles ${help('One person can hold more than one profile: a parent profile that reaches several child firms, or a home profile plus a sub-advisory profile. Today one ID holds one profile — the open decision.')}</th><th>Reach ${help('The firms this person’s access touches: the children a parent profile holds RR codes for, or the delegating firms behind a sub-advisory profile.')}</th><th>Linked IDs</th><th>Status</th><th></th></tr></thead><tbody>${userRows()}</tbody></table>`; }
+function requestsScreen(){ const list=REQ.filter(r=>groupOf(r.ctx)===groupOf(ctx)||r.ctx===ctx);
+  return `<div class="pagehead"><div><h1>My requests</h1><p>${esc(fname(ctx))} · create, modify and deactivate requests sent to the SAA team</p></div><div class="actions"><button class="btn btn-red" data-new>New request</button></div></div>
+  <div class="caption"><div class="ic">i</div><div>The steward raises one request and follows its status here. The same request appears in the SAA queue — switch the journey at the top to see it processed.</div></div>
+  <table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Firm context</th><th>Status</th></tr></thead><tbody>${list.length?list.map(r=>`<tr class="row" data-req="${r.id}" tabindex="0"><td class="name">${r.id}</td><td>${r.type}</td><td>${esc(byId(r.pid)?byId(r.pid).name:r.newName)}</td><td><span class="tag">${esc(fname(r.ctx))}</span></td><td><span class="pill ${PILL[r.status]}">${r.status}</span></td></tr>`).join(''):`<tr><td colspan="5" class="sub">No requests for this firm yet. Start one with New request.</td></tr>`}</tbody></table>`; }
+function queueScreen(){ const open=REQ.filter(r=>r.status==='SUBMITTED'||r.status==='UNDER REVIEW'); const done=REQ.filter(r=>!(r.status==='SUBMITTED'||r.status==='UNDER REVIEW'));
+  const row = r => `<tr class="row" data-req="${r.id}" tabindex="0"><td class="name">${r.id}</td><td>${r.type}</td><td>${esc(byId(r.pid)?byId(r.pid).name:r.newName)}</td><td><span class="tag">${esc(fname(r.ctx))}</span>${r.profileKind==='sa'?' <span class="tag amber">delegation</span>':r.profileKind==='parent'?' <span class="tag navy">parent</span>':''}</td><td><span class="pill ${PILL[r.status]}">${r.status}</span></td></tr>`;
+  return `<div class="pagehead"><div><h1>Queue</h1><p>Requests from firm stewards · ${open.length} open</p></div></div>
+  <div class="caption"><div class="ic">i</div><div>The SAA team picks up a request, provisions each system from the instructions, links the legacy IDs and completes it. The steward sees the status change on their side. ${help('The light UAR: no registry screens, no system-integration configuration. The catalogue is seeded data; provisioning instructions stay with the SAA spreadsheets and Radhika’s macro.')}</div></div>
+  <table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Firm context</th><th>Status</th></tr></thead><tbody>${open.map(row).join('')||'<tr><td colspan="5" class="sub">Queue is empty.</td></tr>'}</tbody></table>
+  <h3 style="margin:18px 0 8px;color:var(--navy)">Recently closed</h3><table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Firm context</th><th>Status</th></tr></thead><tbody>${done.map(row).join('')}</tbody></table>`; }
+function relScreen(){
+  const grp=(id,extra='')=>{ const g=FIRMS[id]; let h=`<div class="group${g.out?' out':''}"><h3>${esc(g.name)} ${g.wait?'<span class="pill pill-outline">wait</span>':''}${g.out?'<span class="pill pill-grey">not modelled</span>':''}</h3><div class="kind">${esc(g.type)} · ${esc(g.note||g.out||'')}</div>`; children(id).forEach(c=>h+=`<div class="firm" data-firm="${c}">▸ ${esc(FIRMS[c].name)}<span class="t">${FIRMS[c].type} · ${usersFor(c).length} people</span></div>`); return h+extra+'</div>'; };
+  const dl = to => DELEG.filter(d=>d.to===to).map(d=>`<div class="arrowline"><span>${esc(fname(d.from))}</span><span class="a">→</span><span>${esc(fname(d.to))}</span><span style="margin-left:auto;font-size:11.5px">${d.type} · ${d.rr} · ${d.agreement}</span></div>`).join('');
+  return `<div class="pagehead"><div><h1>Firm relationships</h1><p>What Compass knows about how firms are connected — maintained by Product Activation</p></div></div>
+  <div class="caption"><div class="ic">i</div><div><b>Two kinds of record.</b> A parent group lists its child firms one level deep. A delegation record says which firm lent which RR slice to which other firm, under which agreement. The request form derives eligible contexts and RR codes from these.</div></div>
+  <div class="grid">${grp('hfg')}${grp('cmg')}${grp('wag')}${grp('gcg',`<div style="margin-top:8px;border-top:1px solid var(--line);padding-top:6px"><div class="sub" style="padding:0 8px 4px">Delegations to Guardian Partners</div>${dl('gp')}</div>`)}
+  <div class="group"><h3>Tricert</h3><div class="kind">PM · with referral partners (accounting firms that own the client relationship)</div>${dl('ext')}<div class="firm" data-firm="tricert">▸ People at Tricert<span class="t">${usersFor('tricert').length} people</span></div></div>
+  ${grp('rl')}${grp('ghost')}</div>`; }
+
+/* ================= drawers ================= */
+function openDrawer(html){ const d=$('#drawer'); d.innerHTML=html; d.classList.add('open'); d.setAttribute('aria-hidden','false'); $('#scrim').classList.add('open'); d.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',closeDrawer)); }
+function closeDrawer(){ $('#drawer').classList.remove('open'); $('#drawer').setAttribute('aria-hidden','true'); $('#scrim').classList.remove('open'); }
+$('#scrim').addEventListener('click',closeDrawer); document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeDrawer(); });
+
+function tree(p){ const pr=p.profiles[0]; const g=groupOf(pr.firm); const held=pr.rr?Object.keys(pr.rr):[];
+  if(!FIRMS[g].group) return `<div class="tree"><div class="node p hit"><span class="dot"></span>${esc(fname(g))}<span class="rr">single firm — no parent</span></div></div>`;
+  let h=`<div class="tree"><div class="node p${pr.kind==='parent'?' hit':''}"><span class="dot"></span>${esc(fname(g))}<span class="rr">${pr.kind==='parent'?'profile lives here':'parent group'}</span></div>`;
+  children(g).forEach(c=>h+=`<div class="node c${held.includes(c)?' hit':''}"><span class="dot"></span>${esc(fname(c))}<span class="rr">${held.includes(c)?esc(pr.rr[c]):'no access'}</span></div>`);
+  h+='</div>'; if(g==='hfg') h+=`<div class="sub" style="margin-top:6px">Cumberland Group is not listed: it stays a separate parent until the merger is formalized.</div>`; return h; }
+function featList(keys){ return keys.map(k=>`<span class="tag">${esc(FEAT[k]||k)}</span>`).join(''); }
+function openUser(id){ const p=byId(id); const b=p.before; const total=b.cx+b.nr+b.sz;
+  const prof=p.profiles.map(pr=>{ if(pr.kind==='sa'){ const dl=pr.delegations.map(d=>DELEG.find(x=>x.id===d)); return `<div class="profile sa"><div class="ph"><span class="tag amber">${pr.referral?'Referral profile':'Sub-advisory profile'}</span><b>${pr.referral?'View only':'Trading only'}</b>${help(pr.referral?'A referral partner sees the client and account; nothing else.':'Penny’s two-credential option for May: a trading-only profile holding the RR slices of every delegating firm.',true)}</div>${dl.map(d=>`<div class="deleg"><span class="f">${esc(fname(d.from))} → ${esc(fname(d.to))}</span> <span class="pill ${d.status==='Active'?'pill-green':'pill-grey'}">${d.status}</span><div class="sub">${d.type} · RR ${d.rr} · ${d.agreement} · ${esc(fname(d.from))} confirms this at attestation and can revoke it</div></div>`).join('')}<div class="chips" style="margin-top:6px">${featList(pr.features)}</div></div>`; }
+    const tag = pr.kind==='parent'?'<span class="tag navy">Parent profile</span>':pr.kind==='home'?'<span class="tag blue">Home profile</span>':'<span class="tag">Firm profile</span>';
+    return `<div class="profile ${pr.kind}"><div class="ph">${tag}<b>${esc(fname(pr.firm))}</b>${pr.kind==='parent'?help('The parent package is the union of what the child firms subscribe to. A parent profile may hold RR codes from one, several or all children.',true):''}</div><div class="chips" style="margin-bottom:6px">${pr.rr?Object.entries(pr.rr).map(([f,r])=>`<span class="tag">${esc(fname(f))} · ${esc(r)}</span>`).join(''):''}</div><div class="sub" style="margin-bottom:4px">Features</div><div class="chips">${featList(pr.features)}</div></div>`; }).join('');
+  openDrawer(`<header><div><h2>${esc(p.name)}</h2><div class="sub">${esc(p.role)}</div></div><span class="pill ${PILL[p.status]}" style="margin-top:4px">${p.status}</span><button class="x" data-close aria-label="Close">✕</button></header>
+  <div class="body">${p.why?`<div class="caption"><div class="ic">★</div><div>${esc(p.why)}</div></div>`:''}
+    <div class="sec"><h3>Today ${help('One identity per firm per system — counted from the client discoveries and the SZ / NetRep / R2 analyses.')}</h3><div class="before"><div class="t"><div class="n">${b.cx}</div><div class="l">Compass IDs</div></div><div class="t"><div class="n">${b.nr}</div><div class="l">NetRep IDs</div></div><div class="t"><div class="n">${b.sz}</div><div class="l">Secured Zone IDs</div></div></div>${total>1?`<div class="after">→ With multi-firm: 1 login, ${p.profiles.length} profile${p.profiles.length>1?'s':''}, ${p.linked.sz.length} Secured Zone ID${p.linked.sz.length!==1?'s':''} linked behind it</div>`:'<div class="after">→ Unchanged: one firm, one profile</div>'}</div>
+    <div class="sec"><h3>Where this person sits</h3>${tree(p)}</div>
+    <div class="sec"><h3>Profiles</h3>${prof}</div>
+    <div class="sec"><h3>Linked IDs ${help('Secured Zone and R2 stay separate until they retire. Their IDs are linked when the request completes, so one deactivation removes all of them.')}</h3><div class="chips">${p.linked.sz.map(s=>`<span class="tag">${esc(s)}</span>`).join('')}${p.linked.r2?`<span class="tag">${esc(p.linked.r2)}</span>`:''}</div></div>
+  </div>
+  <footer><button class="btn" data-close>Close</button>${persona==='fss'?`<button class="btn btn-primary" data-modify="${p.id}">Modify</button><button class="btn btn-red" data-deact="${p.id}">Deactivate</button>`:''}</footer>`);
+  const d=$('#drawer'); d.querySelectorAll('[data-modify]').forEach(b=>b.addEventListener('click',()=>openRequestForm({type:'Modify',pid:p.id}))); d.querySelectorAll('[data-deact]').forEach(b=>b.addEventListener('click',()=>openRequestForm({type:'Deactivate',pid:p.id}))); }
+
+/* ---- the one request form: Create / Modify / Deactivate ---- */
+function openRequestForm(init){
+  const st = {type:init.type||'Create', pid:init.pid||null, newName:'', ctx: ctx, features:[], rr:{}, delegations:[]};
+  let p = st.pid?byId(st.pid):null;
+  function loadPerson(){ p = st.pid?byId(st.pid):null; if(p){ const pr=p.profiles[0]; st.ctx=pr.firm; st.features=[...pr.features]; st.rr=Object.assign({},pr.rr||{}); st.delegations=pr.delegations?[...pr.delegations]:[]; } }
+  loadPerson();
+  function contexts(){ const base = groupOf(ctx); const list=[];
+    if(FIRMS[base].group) list.push({id:base,t:'Across the whole group — '+fname(base),d:'One profile at the parent. Sees the accounts of the child firms you tick below. For back office, compliance, oversight.'});
+    children(base).forEach(c=>list.push({id:c,t:'Only in '+fname(c)+' ('+FIRMS[c].type+')',d:'A normal profile in this firm. Sees this firm’s accounts only.'}));
+    if(!FIRMS[base].group) list.push({id:base,t:'In '+fname(base)+' ('+FIRMS[base].type+')',d:'A normal profile in this firm.'});
+    const del=DELEG.filter(d=>d.to===base||children(base).includes(d.to)||d.to===ctx||(d.to==='ext'&&base==='tricert')); if(del.length) list.push({id:'sa',t:(del[0].type==='Referral'?'Viewing for a referral partner — ':'Trading for other firms — ')+del.map(d=>fname(d.from)).join(', '),d:(del[0].type==='Referral'?'A view-only profile on the accounts the partner refers. Nothing else.':'A trading-only profile on the accounts those firms delegated. Nothing else — and they can take it back.'),sa:true,del});
+    if(['fiera','kensel','dundee'].includes(base)) list.push({id:'x',t:'Delegated firm — Guardian Partners',d:'Not here: this firm authorizes the delegation; Guardian’s steward sets up Guardian’s people.',off:true});
+    return list; }
+  function render_(){ const cx=contexts(); if(!cx.some(c=>c.id===st.ctx&&!c.off)) st.ctx=cx[0].id; const cur=cx.find(c=>c.id===st.ctx); const sa=!!cur.sa; const allowed = st.type==='Deactivate'?[]:(sa?(cur.del[0].type==='Referral'?VIEW_ONLY:TRADING_ONLY):null);
+    const dup = st.type==='Create' && st.newName.length>2 && PEOPLE.some(x=>x.name.toLowerCase()===st.newName.trim().toLowerCase());
+    const curFirm = p ? p.profiles[0].firm : null;
+    const sees = sa ? cur.del.map(d=>fname(d.from)).join(', ') + (cur.del[0].type==='Referral'?' (view only)':' (trading only)') : (FIRMS[st.ctx].group ? (Object.keys(st.rr).filter(k=>st.rr[k]).map(fname).join(', ') || 'none yet — tick child firms below') : fname(st.ctx));
+    const lists = sa ? fname(groupOf(ctx)) : (FIRMS[st.ctx].group ? fname(st.ctx)+' and each ticked child firm' : fname(st.ctx) + (groupOf(st.ctx)!==st.ctx ? ' and the '+fname(groupOf(st.ctx))+' list' : ''));
+    const attest = sa ? 'the '+fname(groupOf(ctx))+' steward — '+cur.del.map(d=>fname(d.from)).join(', ')+' confirm the agreement' : (FIRMS[st.ctx].group ? 'the group steward' : 'the '+fname(st.ctx)+' steward');
+    const move = (st.type==='Modify' && p && curFirm && curFirm!==st.ctx && !sa) ? `<div class="sub" style="color:var(--amber);margin-top:6px">This moves ${esc(p.name.split(' ')[0])} from ${esc(fname(curFirm))} to ${FIRMS[st.ctx].group?'a group-wide parent profile':esc(fname(st.ctx))}.</div>` : (st.type==='Modify' && p && curFirm===st.ctx ? `<div class="sub" style="margin-top:6px">${esc(p.name.split(' ')[0])} stays where they are — you are only changing accounts or features.</div>` : '');
+    const meaning = st.type==='Deactivate' ? '' : `<div class="caption" style="margin:6px 0 0;border-left-color:var(--green)"><div class="ic" style="background:var(--green-tint);color:var(--green-text)">=</div><div><b>What this means</b><div class="sub" style="color:var(--ink)">Sees the accounts of: <b>${esc(sees)}</b><br>Appears in the user list of: <b>${esc(lists)}</b><br>Attested by: <b>${esc(attest)}</b><br>Logins: <b>1</b></div>${move}</div></div>`;
+    const personField = st.type==='Create' ? `<input class="input" id="newName" placeholder="Full name" value="${esc(st.newName)}">${dup?'<div class="sub" style="color:var(--amber);margin-top:4px">A person with this name already exists in the group — use Modify to add a profile instead of creating a second identity.</div>':''}`
+      : `<div class="ulist">${usersFor(persona==='fss'?groupOf(ctx):'all').map(x=>`<button class="${x.id===st.pid?'on':''}" data-pick="${x.id}"><b>${esc(x.name)}</b><span class="sub">${esc(x.role)}</span></button>`).join('')}</div>`;
+    const feats = st.type==='Deactivate' ? `<div class="caption" style="margin:0"><div class="ic">!</div><div>Deactivation removes the Compass profile${p&&p.profiles.length>1?'s':''} and every linked ID in one request. ${p?`${p.linked.sz.length} Secured Zone ID${p.linked.sz.length!==1?'s':''}${p.linked.r2?' and 1 R2 ID':''} will be disabled with it.`:''}</div></div>`
+      : FEATURES.map(g=>`<div class="featgrp"><div class="g">${esc(g.g)}<span class="count">${g.items.filter(([k])=>st.features.includes(k)).length}</span></div>${g.items.map(([k,n])=>{ const off=allowed&&!allowed.includes(k); return `<div class="feat${st.features.includes(k)?' on':''}${off?' off':''}" data-feat="${k}"><span class="cb">${st.features.includes(k)?'✓':''}</span>${esc(n)}${off?`<span class="why">not in the ${cur.del[0].type==='Referral'?'referral':'trading'} bundle</span>`:''}</div>`; }).join('')}</div>`).join('');
+    const rrField = st.type==='Deactivate' ? '' : `<div class="field"><label>Which accounts (RR codes) ${help('Eligible ranges come from the chosen context: the group’s children for a parent profile, the delegated slices for a sub-advisory profile, the firm’s own range otherwise.')}</label><div class="chips">${sa?cur.del.map(d=>`<span class="tag amber">${esc(fname(d.from))} · ${d.rr}</span>`).join(''):(FIRMS[st.ctx].group?children(st.ctx).map(c=>`<span class="tag click${st.rr[c]?' navy':''}" data-rr="${c}">${esc(fname(c))} · ${esc(st.rr[c]||'none')}</span>`).join(''):`<span class="tag">${esc(fname(st.ctx))} · ${esc(st.rr[st.ctx]||'all')}</span>`)}</div>${!sa&&FIRMS[st.ctx].group?'<div class="sub" style="margin-top:4px">Click a child firm to include or exclude its range.</div>':''}</div>`;
+    const d=$('#drawer'); d.innerHTML=`<header><div><h2>${st.type==='Create'?'New request':st.type+' user'}</h2><div class="sub">${p?esc(p.name)+' · currently in '+esc(fname(p.profiles[0].firm))+' · ':''}${esc(fname(groupOf(ctx)))} · sent to the SAA team</div></div><button class="x" data-close aria-label="Close">✕</button></header>
+    <div class="body">
+      <div class="field"><label>Request type</label><div class="seg">${['Create','Modify','Deactivate'].map(t=>`<button class="${st.type===t?'on':''}" data-type="${t}">${t}</button>`).join('')}</div></div>
+      <div class="field"><label>Who ${help(st.type==='Create'?'If the person already exists anywhere in the group, add a profile with Modify instead of creating a second identity.':'Pick the person. The form loads their current profile so you change only what you need.')}</label>${personField}</div>
+      ${st.type==='Deactivate'?'':`<div class="field"><label>Where will this person work? ${help('Pick one. Across the whole group gives one profile at the parent that reaches the child firms you tick. A single firm gives a normal profile there. Trading for other firms only appears where a delegation record exists.')}</label>${cx.map(c=>`<div class="radio${c.off?' off':(c.id===st.ctx?' on':'')}" data-ctx="${c.id}"><span class="r"></span><div><b>${esc(c.t)}</b><div class="sub">${esc(c.d)}</div></div></div>`).join('')}${meaning}</div>`}
+      ${rrField}
+      <div class="field"><label>${st.type==='Deactivate'?'What happens':'What can they do (features)'} ${st.type==='Deactivate'?'':help('Today’s feature list — the modules a user package can include. Tick what this person needs; the SAA team provisions exactly that.')}</label>${feats}</div>
+    </div>
+    <footer><button class="btn" data-close>Cancel</button><button class="btn btn-primary" id="submit">Submit ${st.type.toLowerCase()} request</button></footer>`;
+    d.classList.add('open'); d.setAttribute('aria-hidden','false'); $('#scrim').classList.add('open');
+    d.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',closeDrawer));
+    d.querySelectorAll('[data-type]').forEach(b=>b.addEventListener('click',()=>{ st.type=b.dataset.type; if(st.type==='Create'){ st.pid=null; p=null; st.features=[]; st.rr={}; } render_(); }));
+    const nn=d.querySelector('#newName'); if(nn){ nn.addEventListener('input',()=>{st.newName=nn.value;}); nn.addEventListener('change',render_); }
+    d.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener('click',()=>{ st.pid=b.dataset.pick; loadPerson(); render_(); }));
+    d.querySelectorAll('[data-ctx]').forEach(r=>r.addEventListener('click',()=>{ if(r.classList.contains('off')){ toast('This firm authorizes the delegation; Guardian’s steward sets up Guardian’s people.'); return; } st.ctx=r.dataset.ctx; const c=contexts().find(x=>x.id===st.ctx); if(c.sa){ st.features=[...(c.del[0].type==='Referral'?VIEW_ONLY:TRADING_ONLY)]; st.delegations=c.del.map(x=>x.id); st.rr={}; } else if(FIRMS[st.ctx].group){ st.rr={}; children(st.ctx).forEach(ch=>st.rr[ch]='all'); st.delegations=[]; } else { st.rr={[st.ctx]:'all'}; st.delegations=[]; } render_(); }));
+    d.querySelectorAll('[data-feat]').forEach(f=>f.addEventListener('click',()=>{ if(f.classList.contains('off')) return; const k=f.dataset.feat; st.features.includes(k)?st.features.splice(st.features.indexOf(k),1):st.features.push(k); render_(); }));
+    d.querySelectorAll('[data-rr]').forEach(t=>t.addEventListener('click',()=>{ const c=t.dataset.rr; if(st.rr[c]) delete st.rr[c]; else st.rr[c]='all'; render_(); }));
+    d.querySelector('#submit').addEventListener('click',()=>{ if(st.type==='Create'&&st.newName.trim().length<3){ toast('Enter the person’s name first.'); return; } if(st.type==='Create'&&dup){ toast('That person already exists — switch to Modify to add a profile.'); return; } if(st.type!=='Create'&&!st.pid){ toast('Pick a person first.'); return; }
+      const id='R-'+(nextReq++); const c=contexts().find(x=>x.id===st.ctx)||{}; const stew = usersFor(groupOf(ctx)).find(x=>x.role.startsWith('Steward')); const who = stew?stew.name:'Steward';
+      const r={id,type:st.type,pid:st.pid,newName:st.newName.trim(),ctx:c.sa?groupOf(ctx):st.ctx,profileKind:c.sa?'sa':(FIRMS[st.ctx]&&FIRMS[st.ctx].group?'parent':'firm'),rr:Object.assign({},st.rr),features:[...st.features],delegations:[...st.delegations],referral:!!(c.sa&&c.del[0].type==='Referral'),status:'SUBMITTED',done:{cx:false,sz:false,r2:false,link:false},log:[`Submitted by ${who} (steward, ${fname(groupOf(ctx))})`+(c.sa?` · delegation record${st.delegations.length>1?'s':''} checked: ${st.delegations.map(x=>DELEG.find(y=>y.id===x).agreement).join(', ')}`:'')]};
+      REQ.unshift(r); closeDrawer(); screen='requests'; render(); toast(`${id} submitted — it is now in the SAA queue. Switch to the SAA journey to process it.`); });
+  }
+  render_();
+}
+
+/* ---- request view: steward sees status; SAA processes ---- */
+function openRequestView(id){ const r=REQ.find(x=>x.id===id); const p=r.pid?byId(r.pid):null; const open=r.status==='SUBMITTED'||r.status==='UNDER REVIEW';
+  const summary = `<div class="kv"><span class="k">Type</span><span>${r.type}${r.profileKind==='parent'?' · parent profile':r.profileKind==='sa'?(r.referral?' · referral profile':' · sub-advisory profile'):''}</span><span class="k">Person</span><span>${esc(p?p.name:r.newName)}</span><span class="k">Firm context</span><span>${esc(fname(r.ctx))}</span>${r.rr&&Object.keys(r.rr).length?`<span class="k">RR codes</span><span>${Object.entries(r.rr).map(([f,v])=>esc(fname(f))+' · '+esc(v)).join(', ')}</span>`:''}${r.delegations&&r.delegations.length?`<span class="k">Delegations</span><span>${r.delegations.map(d=>{const x=DELEG.find(y=>y.id===d);return esc(fname(x.from))+' ('+x.agreement+')';}).join(', ')}</span>`:''}${r.features&&r.features.length?`<span class="k">Features</span><span class="chips">${featList(r.features)}</span>`:''}</div>`;
+  const checks = r.type==='Deactivate' ? [['cx','Disable the Compass profile'+(p&&p.profiles.length>1?'s':''),''],['sz','Disable Secured Zone ID'+(p&&p.linked.sz.length!==1?'s':''),p?p.linked.sz.join(', '):''],['r2','Disable the R2 ID',p&&p.linked.r2?p.linked.r2:'none linked'],['link','Confirm nothing is left behind','NetRep and external apps follow the old process']]
+    : [['cx','Compass: profile and package','Create or update the profile; tick the features from the request'],['sz','Secured Zone: profile, apps, RR ranges','From the SAA spreadsheets + Radhika’s macro'],['r2','R2: profile and RR ranges','Until R2 retires (Oct 2027)'],['link','Link SZ and R2 IDs to the Compass profile','Required before the request can be completed']];
+  const canComplete = checks.every(([k])=>r.done[k]);
+  openDrawer(`<header><div><h2>${r.id}</h2><div class="sub">${r.type} · ${esc(p?p.name:r.newName)} · ${esc(fname(r.ctx))}</div></div><span class="pill ${PILL[r.status]}" style="margin-top:4px">${r.status}</span><button class="x" data-close aria-label="Close">✕</button></header>
+  <div class="body">${summary}
+    ${persona==='saa'&&open?`<div class="sec"><h3>Provisioning checklist ${help('The light slice: instructions live with the SAA team, not in a registry. Each tick is a system done; the request cannot complete until the IDs are linked.')}</h3>${checks.map(([k,t,dsc])=>`<div class="check${r.done[k]?' on':''}" data-chk="${k}"><span class="cb">${r.done[k]?'✓':''}</span><div><b>${esc(t)}</b><div class="d">${esc(dsc)}</div></div></div>`).join('')}</div>`:''}
+    <div class="sec"><h3>History</h3><div class="timeline">${r.log.map(l=>`<div class="node"><span class="dot"></span><span>${esc(l)}</span></div>`).join('')}</div></div>
+    ${r.status==='COMPLETE'&&persona==='fss'&&r.type!=='Deactivate'?`<div class="after">One-time credentials are ready to collect for ${esc(p?p.name:r.newName)}.</div>`:''}
+  </div>
+  <footer><button class="btn" data-close>Close</button>${persona==='fss'&&open?'<button class="btn btn-red" id="cancelReq">Cancel request</button>':''}${persona==='saa'&&r.status==='SUBMITTED'?'<button class="btn btn-primary" id="startReq">Start request</button>':''}${persona==='saa'&&open?`<button class="btn btn-red" id="rejectReq">Reject</button><button class="btn btn-primary" id="completeReq" ${canComplete?'':'disabled'}>Complete request</button>`:''}</footer>`);
+  const d=$('#drawer');
+  d.querySelectorAll('[data-chk]').forEach(c=>c.addEventListener('click',()=>{ if(r.status==='SUBMITTED'){ r.status='UNDER REVIEW'; r.log.push('Picked up by ID Admin'); } const k=c.dataset.chk; r.done[k]=!r.done[k]; if(r.done[k]) r.log.push(checks.find(x=>x[0]===k)[1]+' · done'); openRequestView(id); renderNav(); }));
+  const s=d.querySelector('#startReq'); if(s) s.addEventListener('click',()=>{ r.status='UNDER REVIEW'; r.log.push('Picked up by ID Admin'); openRequestView(id); render(); });
+  const c=d.querySelector('#completeReq'); if(c) c.addEventListener('click',()=>{ applyRequest(r); r.status='COMPLETE'; r.log.push(r.type==='Deactivate'?'Completed · all identities disabled':'Completed · one-time credentials released to the steward'); closeDrawer(); render(); toast(`${r.id} completed — ${r.type==='Deactivate'?'the person is inactive everywhere':'the steward can now collect the credentials'}.`); });
+  const rj=d.querySelector('#rejectReq'); if(rj) rj.addEventListener('click',()=>{ r.status='REJECTED'; r.log.push('Rejected by ID Admin · reason sent to the steward'); closeDrawer(); render(); toast(`${r.id} rejected — the steward sees the reason on their side.`); });
+  const cn=d.querySelector('#cancelReq'); if(cn) cn.addEventListener('click',()=>{ r.status='CANCELLED'; r.log.push('Cancelled by the steward'); closeDrawer(); render(); toast(`${r.id} cancelled.`); });
+}
+function applyRequest(r){ if(r.applied) return; r.applied=true;
+  if(r.type==='Deactivate'){ const p=byId(r.pid); if(p) p.status='INACTIVE'; return; }
+  if(r.type==='Create'){ const p=person(r.newName,'New user · '+fname(r.ctx)); p.before={cx:0,nr:0,sz:0}; p.linked={sz:['SZ · '+(FIRMS[r.ctx].rr||'GRP')+' new'],r2:'R2 · new'}; p.status='INVITED';
+    if(r.profileKind==='sa'){ p.profiles.push({kind:'sa',firm:r.ctx,pkg:'trader',features:[...r.features],rr:{},delegations:[...r.delegations],referral:r.referral}); } else { p.profiles.push({kind:r.profileKind,firm:r.ctx,pkg:'custom',features:[...r.features],rr:Object.assign({},r.rr)}); } return; }
+  const p=byId(r.pid); if(!p) return; let pr = r.profileKind==='sa' ? p.profiles.find(x=>x.kind==='sa') : p.profiles.find(x=>x.kind!=='sa');
+  if(!pr){ pr={kind:r.profileKind,firm:r.ctx,pkg:'custom',features:[],rr:{}}; if(r.profileKind==='sa'){ pr.delegations=[]; pr.referral=r.referral; if(p.profiles[0]&&p.profiles[0].kind==='firm') p.profiles[0].kind='home'; } p.profiles.push(pr); }
+  pr.features=[...r.features]; if(r.profileKind==='sa'){ pr.delegations=[...r.delegations]; } else { pr.rr=Object.assign({},r.rr); pr.firm=r.ctx; pr.kind=r.profileKind==='parent'?'parent':(pr.kind==='home'?'home':'firm'); p.role=p.role.split(' · ')[0]+' · '+fname(r.ctx); }
+}
+
+/* ================= guide ================= */
+const STEPS=[
+  {t:'Steward journey: the user list follows the firm context',s:'Harbourfront Group has 20 people across four firms. Aaron and Lena sit at the parent; the advisors sit in their own firm. One list, one steward.',do:()=>{setPersona('fss'); setCtx('hfg'); screen='users'; render(); setTimeout(()=>mark('#firmcard'),250);}},
+  {t:'Steward journey: one request form for create, modify, deactivate',s:'Modify loads the person’s current profile; the steward changes the features or RR codes and submits. Nothing goes into a comment box.',do:()=>{setPersona('fss'); setCtx('hfg'); screen='users'; render(); openRequestForm({type:'Modify',pid:aaron.id}); setTimeout(()=>mark('.featgrp'),300);}},
+  {t:'SAA journey: the same request, processed from a checklist',s:'The ID Admin picks it up, provisions Compass, Secured Zone and R2, links the IDs and completes it. The steward’s status updates on the other side.',do:()=>{setPersona('saa'); screen='queue'; render(); openRequestView((REQ.find(r=>r.status==='SUBMITTED'||r.status==='UNDER REVIEW')||REQ[0]).id); setTimeout(()=>mark('.check'),300);}},
+  {t:'Aggregation: a parent profile',s:'Aaron carries RR codes from the four Harbourfront firms on one profile. Cumberland stays outside until the merger is real.',do:()=>{setPersona('fss'); setCtx('hfg'); screen='users'; render(); openUser(aaron.id); setTimeout(()=>mark('.tree'),300);}},
+  {t:'Sub-advisory: a delegation record and a trading-only profile',s:'Fiera owns the client; Nora trades it. The record names the slice and the agreement; Fiera can revoke it and attests the relationship, not the person.',do:()=>{setPersona('fss'); setCtx('gcg'); screen='users'; render(); openUser(nora.id); setTimeout(()=>mark('.profile.sa'),300);}},
+  {t:'Two records, one mechanism',s:'Parent groups and delegations are the only two things Compass needs to learn. Build it once for aggregation; switch it on for sub-advisory.',do:()=>{setPersona('fss'); screen='relationships'; render(); setTimeout(()=>mark('.grid .group'),300);}},
+];
+function mark(sel){ document.querySelectorAll('.hl').forEach(e=>e.classList.remove('hl')); const el=document.querySelector(sel); if(el){ el.classList.add('hl'); el.scrollIntoView({block:'center',behavior:'smooth'}); } }
+function showStep(i){ guide=i; const st=STEPS[i]; $('#gNo').textContent=i+1; $('#gT').textContent=st.t; $('#gS').textContent=st.s; $('#gPrev').disabled=i===0; $('#gNext').textContent=i===STEPS.length-1?'Finish':'Next'; st.do(); }
+function endGuide(){ $('#guide').classList.remove('open'); document.body.classList.remove('guideon'); document.querySelectorAll('.hl').forEach(e=>e.classList.remove('hl')); }
+$('#guideBtn').addEventListener('click',()=>{ $('#guide').classList.add('open'); document.body.classList.add('guideon'); showStep(0); });
+$('#gNext').addEventListener('click',()=>{ if(guide>=STEPS.length-1){ endGuide(); closeDrawer(); return; } showStep(guide+1); });
+$('#gPrev').addEventListener('click',()=>{ if(guide>0) showStep(guide-1); });
+$('#gClose').addEventListener('click',endGuide);
+$('#helpAll').addEventListener('click',()=>{ const all=document.querySelectorAll('.help'); const open=![...all].some(h=>h.classList.contains('open')); all.forEach(h=>h.classList.toggle('open',open)); toast(open?'All help tips shown — click ? again to hide':'Help tips hidden'); });
+document.addEventListener('click',e=>{ const h=e.target.closest('.help'); if(h){ e.stopPropagation(); h.classList.toggle('open'); } });
+
+renderFirmMenu(); render();
+</script>
+</body>
+</html>

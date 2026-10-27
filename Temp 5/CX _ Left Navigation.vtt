@@ -1,0 +1,1945 @@
+WEBVTT
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/5-0
+00:00:03.348 --> 00:00:05.988
+<v Mullings, Owen>Maybe the approach that we took.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/6-0
+00:00:06.468 --> 00:00:11.965
+<v Azizi, Ali>Yeah, yeah, the approach, yeah,
+just the approach and then I will come up</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/6-1
+00:00:11.965 --> 00:00:13.748
+<v Azizi, Ali>with my questions, okay?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/9-0
+00:00:16.068 --> 00:00:21.348
+<v Mullings, Owen>Okay. So it was intentionally bottom up.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/16-0
+00:00:22.308 --> 00:00:26.544
+<v Mullings, Owen>I tried to do it top though,
+and then I was asked not to do that.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/16-1
+00:00:26.544 --> 00:00:31.808
+<v Mullings, Owen>I should wait until the product team has
+organized their thoughts and stuff. But,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/16-2
+00:00:31.808 --> 00:00:33.028
+<v Mullings, Owen>okay, let me start.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/15-0
+00:00:34.308 --> 00:00:34.708
+<v Azizi, Ali>Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/19-0
+00:00:36.388 --> 00:00:42.043
+<v Mullings, Owen>So generally speaking,
+the way that the view Compass is,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/19-1
+00:00:42.043 --> 00:00:47.401
+<v Mullings, Owen>it's a digital distribution for all of
+NBIN features,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/19-2
+00:00:47.401 --> 00:00:51.668
+<v Mullings, Owen>and the platform is able to integrate
+with</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/21-0
+00:00:54.148 --> 00:00:59.883
+<v Mullings, Owen>any of the components that we want to
+make available to the external audience,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/21-1
+00:00:59.883 --> 00:01:03.803
+<v Mullings, Owen>so the firms,
+and access control and user management,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/21-2
+00:01:03.803 --> 00:01:07.360
+<v Mullings, Owen>all of that kind of stuff kind of plays
+into it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/21-3
+00:01:07.360 --> 00:01:13.022
+<v Mullings, Owen>But the navigation is the entry points to
+each of those features that we make</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/21-4
+00:01:13.022 --> 00:01:13.748
+<v Mullings, Owen>available.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/20-0
+00:01:14.828 --> 00:01:15.308
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/24-0
+00:01:14.868 --> 00:01:20.388
+<v Mullings, Owen>And the general approach that we had is
+it has to do with workspaces.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/29-0
+00:01:21.428 --> 00:01:28.722
+<v Mullings, Owen>And generally speaking,
+these workspaces are designed around the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/29-1
+00:01:28.722 --> 00:01:37.588
+<v Mullings, Owen>type of work that you tend to do on a
+daily basis, and then within that space.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/30-0
+00:01:38.548 --> 00:01:42.548
+<v Mullings, Owen>The objective is to give you a 360 degree
+view of that area.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/32-0
+00:01:44.388 --> 00:01:52.006
+<v Mullings, Owen>So we have the firm workspace and the
+firm workspace is the landing page that</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/32-1
+00:01:52.006 --> 00:01:52.788
+<v Mullings, Owen>you see.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/31-0
+00:01:53.348 --> 00:01:53.828
+<v Azizi, Ali>Yes.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/33-0
+00:01:53.748 --> 00:01:57.994
+<v Mullings, Owen>So all of the modules at this level is,
+I guess, firm scope,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/33-1
+00:01:57.994 --> 00:02:01.335
+<v Mullings, Owen>like all the firm accounts they have
+access to.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/33-2
+00:02:01.335 --> 00:02:06.486
+<v Mullings, Owen>And that firm could mean different things.
+So when you finish multi-firm,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/33-3
+00:02:06.486 --> 00:02:10.593
+<v Mullings, Owen>it could be at the parent firm level or
+at the NBIN level,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/33-4
+00:02:10.593 --> 00:02:15.188
+<v Mullings, Owen>which is a line of business level.
+And it's personalized based on</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/34-0
+00:02:16.948 --> 00:02:21.586
+<v Mullings, Owen>the features they have access to or the
+function that you do based on access</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/34-1
+00:02:21.586 --> 00:02:22.068
+<v Mullings, Owen>control.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/38-0
+00:02:24.148 --> 00:02:27.936
+<v Mullings, Owen>We also have a client and account
+workspace.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/38-1
+00:02:27.936 --> 00:02:33.071
+<v Mullings, Owen>So you can navigate to a client page and
+to an account page.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/38-2
+00:02:33.071 --> 00:02:39.216
+<v Mullings, Owen>And then in both of those cases,
+you get a 360 degree view of the client</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/35-0
+00:02:39.188 --> 00:02:39.668
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/38-3
+00:02:39.216 --> 00:02:42.668
+<v Mullings, Owen>and the account. So whenever we introduce</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/39-0
+00:02:42.948 --> 00:02:47.268
+<v Mullings, Owen>client features or account features,
+they should end up on that page.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/42-0
+00:02:49.668 --> 00:02:56.575
+<v Mullings, Owen>And then there is an administration that
+we use for the product team and firm</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/42-1
+00:02:56.575 --> 00:03:01.092
+<v Mullings, Owen>administration, so users, firm settings,
+branding,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/42-2
+00:03:01.092 --> 00:03:06.405
+<v Mullings, Owen>and we end up using it as a product
+administration as well.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/42-3
+00:03:06.405 --> 00:03:08.708
+<v Mullings, Owen>I don't know if that's the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/43-0
+00:03:09.028 --> 00:03:13.668
+<v Mullings, Owen>the best thing per se,
+but that's where it is today.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/45-0
+00:03:16.788 --> 00:03:17.428
+<v Azizi, Ali>Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/44-0
+00:03:17.228 --> 00:03:17.668
+<v Mullings, Owen>Sso.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/46-0
+00:03:18.548 --> 00:03:19.268
+<v Mullings, Owen>Yeah, go ahead.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/47-0
+00:03:19.668 --> 00:03:21.188
+<v Azizi, Ali>No, no, go ahead, go ahead.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/52-0
+00:03:23.468 --> 00:03:31.820
+<v Mullings, Owen>I think the other thing that we had
+earlier on is the hub and spoke model was</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/52-1
+00:03:31.820 --> 00:03:39.637
+<v Mullings, Owen>the approach that we took to making the
+navigation intuitive from a user</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/52-2
+00:03:39.637 --> 00:03:44.028
+<v Mullings, Owen>perspective. So the idea was to introduce</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/53-0
+00:03:44.468 --> 00:03:48.356
+<v Mullings, Owen>modules that provide an end-to-end
+capability.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/53-1
+00:03:48.356 --> 00:03:53.072
+<v Mullings, Owen>So from submission to cancel to whatever
+it is, ideally,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/53-2
+00:03:53.072 --> 00:03:57.374
+<v Mullings, Owen>it's consolidated into one function and
+one module.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/53-3
+00:03:57.374 --> 00:04:03.249
+<v Mullings, Owen>And part of the reason why it was
+important to call this all up front,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/53-4
+00:04:03.249 --> 00:04:03.828
+<v Mullings, Owen>because</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/54-0
+00:04:05.028 --> 00:04:09.898
+<v Mullings, Owen>in organizations that are decentralized,
+they end up shipping the arch right as</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/54-1
+00:04:09.898 --> 00:04:14.708
+<v Mullings, Owen>opposed to shipping what the client wants
+in the way that the client wants it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/55-0
+00:04:15.748 --> 00:04:20.722
+<v Mullings, Owen>So this was trying to combat that.
+And that's why I have like the features,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/55-1
+00:04:20.722 --> 00:04:24.191
+<v Mullings, Owen>the functions,
+the module definitions on the feature</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/55-2
+00:04:24.191 --> 00:04:29.428
+<v Mullings, Owen>management page is to try to steer in
+this direction where they try to organize</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/55-3
+00:04:29.428 --> 00:04:33.355
+<v Mullings, Owen>these modules in a certain way,
+name them in a certain way,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/55-4
+00:04:33.355 --> 00:04:35.188
+<v Mullings, Owen>and added definitions there.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/56-0
+00:04:35.348 --> 00:04:40.788
+<v Mullings, Owen>to kind of help guide those things.
+But from a navigation perspective,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/56-1
+00:04:40.788 --> 00:04:46.687
+<v Mullings, Owen>the way that these modules are being
+positioned is that they are features of</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/56-2
+00:04:46.687 --> 00:04:50.442
+<v Mullings, Owen>Compass as opposed to a suite of apps.
+So in R2,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/56-3
+00:04:50.442 --> 00:04:56.495
+<v Mullings, Owen>you go to the tools and apps page and
+then you see stuff like Max Lite and Web</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/56-4
+00:04:56.495 --> 00:04:57.108
+<v Mullings, Owen>Panagon.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/57-0
+00:04:58.468 --> 00:05:01.188
+<v Mullings, Owen>So that you have to translate in your
+head to know what the hell it does.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/58-0
+00:05:03.828 --> 00:05:09.468
+<v Mullings, Owen>They've been around for a long time,
+so people eventually knew what it was.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/58-1
+00:05:09.468 --> 00:05:14.070
+<v Mullings, Owen>But then for Compass,
+the intent was to make this a composite</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/58-2
+00:05:14.070 --> 00:05:19.933
+<v Mullings, Owen>product. And typically with products,
+it's self-evident from the function that</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/58-3
+00:05:19.933 --> 00:05:22.308
+<v Mullings, Owen>you're looking at, what it does.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/59-0
+00:05:22.628 --> 00:05:27.352
+<v Mullings, Owen>within the context of the objective of
+the product.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/59-1
+00:05:27.352 --> 00:05:34.075
+<v Mullings, Owen>So we aimed to use the terminology,
+the business terminology for the area</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/59-2
+00:05:34.075 --> 00:05:40.708
+<v Mullings, Owen>responsibility that the module covers in
+our navigation. Recently, we've</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/60-0
+00:05:41.748 --> 00:05:46.708
+<v Mullings, Owen>To bridge the gap in change management,
+there's been a push to reintroduce the...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/62-0
+00:05:47.748 --> 00:05:51.839
+<v Mullings, Owen>Kind of code names for features or the
+external products, so uh,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/62-1
+00:05:51.839 --> 00:05:56.308
+<v Mullings, Owen>Kevin was saying that on his side, um,
+my portfolio plus I is branded.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/61-0
+00:05:57.308 --> 00:05:57.788
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/63-0
+00:05:58.148 --> 00:06:03.452
+<v Mullings, Owen>So, the client portal,
+so that's what we use that to give the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/63-1
+00:06:03.452 --> 00:06:10.639
+<v Mullings, Owen>for the Firms to give their and investors
+a view into all of their information. So,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/63-2
+00:06:10.639 --> 00:06:16.628
+<v Mullings, Owen>that's our client portal solution from a
+product catalog perspective.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/64-0
+00:06:17.908 --> 00:06:20.918
+<v Mullings, Owen>Um,
+Max Lite is the way that we allow people</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/64-1
+00:06:20.918 --> 00:06:25.668
+<v Mullings, Owen>to monitor their allocation settlement
+when it's done outside of NBIN.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/65-0
+00:06:27.268 --> 00:06:32.323
+<v Mullings, Owen>So each one of those have a certain
+purpose and ideally we have a reference</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/65-1
+00:06:32.323 --> 00:06:36.847
+<v Mullings, Owen>to the purpose in the name.
+So that Compass ends up being a product</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/65-2
+00:06:36.847 --> 00:06:41.836
+<v Mullings, Owen>with features as opposed to something
+like your desktop where you have all</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/65-3
+00:06:41.836 --> 00:06:45.428
+<v Mullings, Owen>these different applications and the
+applications are</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/66-0
+00:06:47.348 --> 00:06:51.536
+<v Mullings, Owen>When they have a suite of apps,
+the names are based on the application</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/66-1
+00:06:51.536 --> 00:06:54.309
+<v Mullings, Owen>they install,
+whereas when you have a product,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/66-2
+00:06:54.309 --> 00:06:57.908
+<v Mullings, Owen>the navigation is based on what you can
+do with the product.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/67-0
+00:07:00.028 --> 00:07:00.708
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/68-0
+00:07:00.548 --> 00:07:01.188
+<v Mullings, Owen>Oh.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/69-0
+00:07:03.548 --> 00:07:05.508
+<v Mullings, Owen>I guess this is just covering the
+different kinds of...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/70-0
+00:07:07.668 --> 00:07:08.948
+<v Mullings, Owen>integrations that we have.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/71-0
+00:07:10.868 --> 00:07:12.308
+<v Mullings, Owen>What did I try to call it here?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/72-0
+00:07:14.068 --> 00:07:14.108
+<v Mullings, Owen>Uhh.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/76-0
+00:07:14.308 --> 00:07:18.905
+<v Azizi, Ali>So, so the, so the, so the nav lab,
+the first layer is based on the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/76-1
+00:07:18.905 --> 00:07:23.501
+<v Azizi, Ali>capability, the namings, for example,
+trading, transfer, Servicing,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/76-2
+00:07:23.501 --> 00:07:27.828
+<v Azizi, Ali>these are these names comes from the
+capabilities, is it right?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/75-0
+00:07:29.268 --> 00:07:30.068
+<v Mullings, Owen>Pretty much, yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/77-0
+00:07:30.468 --> 00:07:35.585
+<v Azizi, Ali>Yeah,
+and then on the left and the and the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/77-1
+00:07:35.585 --> 00:07:45.344
+<v Azizi, Ali>childs are are the modules features that
+we see in that in that feature registry,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/77-2
+00:07:45.344 --> 00:07:49.748
+<v Azizi, Ali>but today, for example, I see orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/78-0
+00:07:49.868 --> 00:07:55.939
+<v Azizi, Ali>Okay, on the left nav,
+why we don't have trading and then orders</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/78-1
+00:07:55.939 --> 00:08:00.235
+<v Azizi, Ali>on?
+I know that trading is still has not been</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/78-2
+00:08:00.235 --> 00:08:04.718
+<v Azizi, Ali>launched,
+but why we have not trading as a top,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/78-3
+00:08:04.718 --> 00:08:09.108
+<v Azizi, Ali>as a first layer of the navigation and
+then...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/79-0
+00:08:09.508 --> 00:08:15.649
+<v Azizi, Ali>When the user clicks on that,
+show the show the orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/79-1
+00:08:15.649 --> 00:08:22.887
+<v Azizi, Ali>Today orders is the is the is the top is
+the top on the left nav.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/79-2
+00:08:22.887 --> 00:08:26.068
+<v Azizi, Ali>Is there any reason for that?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/80-0
+00:08:27.348 --> 00:08:28.548
+<v Mullings, Owen>Yeah, it's um...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/81-0
+00:08:30.628 --> 00:08:34.148
+<v Mullings, Owen>I think as we release new and new
+features,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/82-0
+00:08:36.988 --> 00:08:37.828
+<v Mullings, Owen>Sso.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/84-0
+00:08:40.388 --> 00:08:45.029
+<v Mullings, Owen>I guess in an ideal world,
+we build a map of all of the possible</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/84-1
+00:08:45.029 --> 00:08:48.671
+<v Mullings, Owen>features,
+and then as the feature gets introduced,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/84-2
+00:08:48.671 --> 00:08:53.241
+<v Mullings, Owen>it goes into that particular spot.
+But then there's times when,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/83-0
+00:08:50.068 --> 00:08:50.548
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/84-3
+00:08:53.241 --> 00:08:57.668
+<v Mullings, Owen>because we have less features,
+the bucket doesn't make sense.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/85-0
+00:08:58.708 --> 00:08:59.828
+<v Mullings, Owen>So, um...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/86-0
+00:09:01.268 --> 00:09:04.628
+<v Mullings, Owen>We have been progressively adding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/87-0
+00:09:06.868 --> 00:09:11.324
+<v Mullings, Owen>Adding stuff for each version,
+so I had basically with every release I</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/87-1
+00:09:11.324 --> 00:09:15.028
+<v Mullings, Owen>had a version of the nav that made sense
+for that release.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/88-0
+00:09:16.548 --> 00:09:17.228
+<v Azizi, Ali>Mm-hmm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/89-0
+00:09:17.188 --> 00:09:23.595
+<v Mullings, Owen>And we just haven't gotten to a point yet
+where the trading function is there in</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/89-1
+00:09:23.595 --> 00:09:24.228
+<v Mullings, Owen>the app.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/90-0
+00:09:26.068 --> 00:09:26.548
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/91-0
+00:09:26.148 --> 00:09:30.149
+<v Mullings, Owen>But the plan is that it will be there.
+So after the secure zone integration,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/91-1
+00:09:30.149 --> 00:09:32.228
+<v Mullings, Owen>you should be able to see it, I believe.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/92-0
+00:09:34.348 --> 00:09:39.742
+<v Azizi, Ali>And also I see tools,
+which is a bunch of secure zone</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/92-1
+00:09:39.742 --> 00:09:44.936
+<v Azizi, Ali>applications.
+They have been condensed under tools.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/92-2
+00:09:44.936 --> 00:09:52.628
+<v Azizi, Ali>But I am wondering that I think this is
+the same story because maybe this is</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/93-0
+00:09:53.028 --> 00:09:58.868
+<v Azizi, Ali>unmeaningful to allocate them under a</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/94-0
+00:10:00.228 --> 00:10:08.788
+<v Azizi, Ali>specific menu, that's the reason.
+So we have not moved that direction.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/96-0
+00:10:09.508 --> 00:10:12.068
+<v Mullings, Owen>So those tools were built by Infinite.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/95-0
+00:10:13.028 --> 00:10:13.348
+<v Azizi, Ali>Yeah?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/97-0
+00:10:13.268 --> 00:10:17.467
+<v Mullings, Owen>And Henry didn't want to deal with our
+integration team.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/97-1
+00:10:17.467 --> 00:10:22.919
+<v Mullings, Owen>So they end up just putting them inside
+of tools. My from my perspective,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/97-2
+00:10:22.919 --> 00:10:28.592
+<v Mullings, Owen>it's a design that and this should be
+incorporated into the navigation and I</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/97-3
+00:10:28.592 --> 00:10:31.908
+<v Mullings, Owen>have spots for everything in the
+navigation.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/98-0
+00:10:32.948 --> 00:10:34.148
+<v Mullings, Owen>For us to get rid of the tools.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/99-0
+00:10:35.908 --> 00:10:40.468
+<v Mullings, Owen>Are they not access controlled?
+They're not bundled right now.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/100-0
+00:10:43.148 --> 00:10:47.923
+<v Azizi, Ali>When you say navigation team, sorry,
+integration team,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/100-1
+00:10:47.923 --> 00:10:50.788
+<v Azizi, Ali>who do you mean integration team?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/102-0
+00:10:52.028 --> 00:10:55.869
+<v Mullings, Owen>to register features,
+to do all of that stuff.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/102-1
+00:10:55.869 --> 00:11:00.690
+<v Mullings, Owen>The idea is that Infinite can do stuff
+without any issues.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/102-2
+00:11:00.690 --> 00:11:06.983
+<v Mullings, Owen>And I think there was a risk of all of
+the features that Infinite bills just</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/102-3
+00:11:06.983 --> 00:11:09.108
+<v Mullings, Owen>goes into that tools page.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/101-0
+00:11:10.748 --> 00:11:11.268
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/103-0
+00:11:10.868 --> 00:11:13.508
+<v Mullings, Owen>And not really come into our navigation.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/109-0
+00:11:16.308 --> 00:11:24.699
+<v Azizi, Ali>Okay. And I am wondering, for example,
+here, trading, okay,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/109-1
+00:11:24.699 --> 00:11:35.049
+<v Azizi, Ali>or let's say any other, for example,
+trading, okay? There are four today,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/109-2
+00:11:35.049 --> 00:11:36.308
+<v Azizi, Ali>there are</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/112-0
+00:11:36.428 --> 00:11:46.256
+<v Azizi, Ali>Four modules underlying that,
+and let's say a user just has access to</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/112-1
+00:11:46.256 --> 00:11:50.468
+<v Azizi, Ali>orders GIC and orders uploads.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/113-0
+00:11:51.908 --> 00:11:58.965
+<v Azizi, Ali>Now,
+when the when the access is is granted or</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/113-1
+00:11:58.965 --> 00:12:01.668
+<v Azizi, Ali>provisioned, so...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/114-0
+00:12:02.868 --> 00:12:14.043
+<v Azizi, Ali>How it will look like it will show all
+four and two will be dark or or waved and</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/114-1
+00:12:14.043 --> 00:12:21.908
+<v Azizi, Ali>the other two will be accessible.
+How it will look like?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/115-0
+00:12:21.988 --> 00:12:22.948
+<v Azizi, Ali>In a real world.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/116-0
+00:12:25.668 --> 00:12:26.388
+<v Mullings, Owen>At home.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/120-0
+00:12:31.428 --> 00:12:35.988
+<v Mullings, Owen>One second, just in the clock, uh,
+on general menu.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/121-0
+00:12:37.868 --> 00:12:40.628
+<v Mullings, Owen>So there's some features built into the
+module menu.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/122-0
+00:12:44.588 --> 00:12:45.348
+<v Mullings, Owen>Is it the sun?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/130-0
+00:12:55.948 --> 00:12:59.602
+<v Mullings, Owen>Okay, I'll drop this here.
+This answers your question. Technically,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/130-1
+00:12:59.602 --> 00:13:01.268
+<v Mullings, Owen>what features are built in? So.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/135-0
+00:13:04.948 --> 00:13:11.057
+<v Mullings, Owen>The short answer is if there are no
+children in the bucket,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/135-1
+00:13:11.057 --> 00:13:16.860
+<v Mullings, Owen>the whole parent goes.
+At the point in time when there's</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/135-2
+00:13:16.860 --> 00:13:20.628
+<v Mullings, Owen>sometimes where the parent is a link,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/136-0
+00:13:22.468 --> 00:13:26.829
+<v Mullings, Owen>And it's supposed to represent the full
+inventory,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/136-1
+00:13:26.829 --> 00:13:32.559
+<v Mullings, Owen>like it's related to everything all of
+the children. In that case,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/136-2
+00:13:32.559 --> 00:13:34.868
+<v Mullings, Owen>it makes sense as a parent.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/137-0
+00:13:36.548 --> 00:13:41.631
+<v Mullings, Owen>But in the case of trading, for instance,
+the orders module that we have only has</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/137-1
+00:13:41.631 --> 00:13:44.607
+<v Mullings, Owen>these products.
+It doesn't have these products,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/137-2
+00:13:44.607 --> 00:13:48.141
+<v Mullings, Owen>so it's not a good parent anymore.
+So then in that case,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/137-3
+00:13:48.141 --> 00:13:52.542
+<v Mullings, Owen>we put trading as a bucket,
+and then these are options within trading.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/137-4
+00:13:52.542 --> 00:13:55.828
+<v Mullings, Owen>And these are distinct and mutually
+exclusive items.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/138-0
+00:13:56.948 --> 00:13:59.897
+<v Mullings, Owen>This is at the occult level.
+There is basketbook and young stuff at</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/138-1
+00:13:59.897 --> 00:14:00.548
+<v Mullings, Owen>the firm level.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/143-0
+00:14:02.628 --> 00:14:07.687
+<v Mullings, Owen>Basket booking, kind of speaking.
+I don't know if it makes sense for you to</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/143-1
+00:14:07.687 --> 00:14:12.747
+<v Mullings, Owen>do it within that particular account.
+Usually it's off of a rebalancing and</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/143-2
+00:14:12.747 --> 00:14:17.340
+<v Mullings, Owen>it's a firm level activity.
+But I think there's features built into,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/143-3
+00:14:17.340 --> 00:14:20.736
+<v Mullings, Owen>I guess,
+let me talk through the features that are</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/143-4
+00:14:20.736 --> 00:14:21.668
+<v Mullings, Owen>in the module.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/144-0
+00:14:21.788 --> 00:14:22.148
+<v Mullings, Owen>Menu.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/145-0
+00:14:23.668 --> 00:14:24.868
+<v Mullings, Owen>Let me go to the Firms.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/153-0
+00:14:27.268 --> 00:14:30.926
+<v Mullings, Owen>So,
+there's usually a default module that</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/153-1
+00:14:30.926 --> 00:14:37.024
+<v Mullings, Owen>gets selected when you log in.
+For most people, it's set to accounts.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/148-0
+00:14:31.828 --> 00:14:32.388
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/153-2
+00:14:37.024 --> 00:14:41.467
+<v Mullings, Owen>If accounts get disabled and it's set to
+accounts,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/153-3
+00:14:41.467 --> 00:14:46.868
+<v Mullings, Owen>it will pick the next internal module
+that is in the list. If</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/154-0
+00:14:47.828 --> 00:14:52.574
+<v Mullings, Owen>You click on a parent and the child,
+so if you click on a parent,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/154-1
+00:14:52.574 --> 00:14:54.948
+<v Mullings, Owen>then the parent does have a link.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/156-0
+00:14:55.988 --> 00:15:00.911
+<v Mullings, Owen>And the child becomes the next area of
+focus. So you click on, in this case,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/156-1
+00:15:00.911 --> 00:15:04.684
+<v Mullings, Owen>client Servicing is the parent.
+This is the Servicing app.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/156-2
+00:15:04.684 --> 00:15:09.032
+<v Mullings, Owen>So if you click on this, it'll select.
+But if you click on trading,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/155-0
+00:15:05.908 --> 00:15:06.388
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/156-3
+00:15:09.032 --> 00:15:13.125
+<v Mullings, Owen>trading won't have a link itself.
+So when you click on trading,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/156-4
+00:15:13.125 --> 00:15:14.468
+<v Mullings, Owen>it'll default select.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/157-0
+00:15:16.548 --> 00:15:18.548
+<v Mullings, Owen>the training module that we built.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/158-0
+00:15:19.828 --> 00:15:22.388
+<v Mullings, Owen>because it's the first internal app
+that's available.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/159-0
+00:15:23.908 --> 00:15:27.268
+<v Mullings, Owen>In the case of Onboarding,
+for the longest time we had.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/160-0
+00:15:28.468 --> 00:15:32.708
+<v Mullings, Owen>It looked more like this.
+Let me create a duplicate.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/163-0
+00:15:37.028 --> 00:15:38.068
+<v Mullings, Owen>We do have a...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/168-0
+00:15:41.188 --> 00:15:44.708
+<v Mullings, Owen>This is when we had our new Onboarding
+tool, so.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/169-0
+00:15:45.868 --> 00:15:48.068
+<v Mullings, Owen>Let me remove all of these.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/170-0
+00:15:50.388 --> 00:15:53.988
+<v Mullings, Owen>So the way onboarding used to be set up,
+Onboarding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/173-0
+00:15:55.148 --> 00:15:58.761
+<v Mullings, Owen>So, we had form-based Onboarding,
+which is in form,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/173-1
+00:15:58.761 --> 00:16:03.348
+<v Mullings, Owen>and then we had our in-built our like our
+the tool that we built.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/174-0
+00:16:04.868 --> 00:16:06.948
+<v Mullings, Owen>List in here with list.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/175-0
+00:16:09.268 --> 00:16:10.308
+<v Mullings, Owen>A questionnaire base.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/176-0
+00:16:12.868 --> 00:16:14.068
+<v Mullings, Owen>It was more like this.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/177-0
+00:16:18.868 --> 00:16:19.988
+<v Mullings, Owen>And paper uploads.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/179-0
+00:16:21.828 --> 00:16:27.433
+<v Mullings, Owen>So this was our setup until Nest went
+defunct and the partnership failed and</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/179-1
+00:16:27.433 --> 00:16:33.402
+<v Mullings, Owen>then basically all the work we did there
+went away. So the way this used to work,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/179-2
+00:16:33.402 --> 00:16:37.188
+<v Mullings, Owen>so some people got one of these,
+two of these, etc.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/178-0
+00:16:37.828 --> 00:16:38.308
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/182-0
+00:16:38.388 --> 00:16:42.540
+<v Mullings, Owen>So let me see if I have the examples here.
+Basically,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/182-1
+00:16:42.540 --> 00:16:46.308
+<v Mullings, Owen>we have a mode where things are
+interchangeable.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/183-0
+00:16:47.468 --> 00:16:47.988
+<v Mullings, Owen>Hello.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/186-0
+00:16:54.548 --> 00:16:56.807
+<v Mullings, Owen>Sorry,
+just looking to see if there's an example</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/187-0
+00:16:56.148 --> 00:16:58.628
+<v Azizi, Ali>No worries, take your time,
+take your time.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/186-1
+00:16:56.807 --> 00:16:57.268
+<v Mullings, Owen>I can use.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/190-0
+00:16:59.908 --> 00:17:01.988
+<v Mullings, Owen>It's not here. Why is it not here?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/193-0
+00:17:02.868 --> 00:17:06.866
+<v Mullings, Owen>So in the case where everything here is
+not the same type,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/193-1
+00:17:06.866 --> 00:17:08.628
+<v Mullings, Owen>they're just alternatives.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/196-0
+00:17:10.548 --> 00:17:16.253
+<v Mullings, Owen>If you only have one of these,
+the parent becomes the thing that you</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/196-1
+00:17:16.253 --> 00:17:19.478
+<v Mullings, Owen>pick.
+So if all you had was form based</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/196-2
+00:17:19.478 --> 00:17:20.388
+<v Mullings, Owen>Onboarding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/197-0
+00:17:21.308 --> 00:17:24.948
+<v Mullings, Owen>And you didn't have the other two?
+All you would see here is Onboarding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/198-0
+00:17:27.348 --> 00:17:30.962
+<v Mullings, Owen>If you only had questionnaire based
+onboarding, you didn't have the other two.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/198-1
+00:17:30.962 --> 00:17:33.708
+<v Mullings, Owen>You'd have onboarding,
+but it would point to questionnaire.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/199-0
+00:17:34.788 --> 00:17:35.908
+<v Mullings, Owen>Question based on boarding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/200-0
+00:17:37.148 --> 00:17:38.468
+<v Mullings, Owen>And the same thing for paper upload.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/201-0
+00:17:39.148 --> 00:17:43.908
+<v Azizi, Ali>Okay, those two don't exist.
+It will not be shown.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/202-0
+00:17:47.428 --> 00:17:49.348
+<v Mullings, Owen>Say more. What do you mean by that?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/204-0
+00:17:50.548 --> 00:17:57.849
+<v Azizi, Ali>So it means that a user has access to
+question questionnaire based only feature.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/204-1
+00:17:57.849 --> 00:18:03.797
+<v Azizi, Ali>OK, to only to this feature.
+I want to know that when logs in and</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/203-0
+00:17:58.548 --> 00:17:58.948
+<v Mullings, Owen>Yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/204-2
+00:18:03.797 --> 00:18:10.828
+<v Azizi, Ali>opens Onboarding, what will be shown?
+It will shown only questionnaire based.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/205-0
+00:18:11.428 --> 00:18:17.156
+<v Azizi, Ali>or it will show all three,
+but the rest of those rest,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/205-1
+00:18:17.156 --> 00:18:22.468
+<v Azizi, Ali>those two will be disabled or cannot be
+clickable.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/206-0
+00:18:23.508 --> 00:18:29.108
+<v Mullings, Owen>This is what it looks like when you only
+have questionnaire based onboarding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/207-0
+00:18:33.988 --> 00:18:36.868
+<v Azizi, Ali>Okay, when I click on Onboarding,
+what will be shown?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/208-0
+00:18:38.068 --> 00:18:39.748
+<v Mullings, Owen>The questionnaire-based onboarding module.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/209-0
+00:18:40.868 --> 00:18:43.428
+<v Azizi, Ali>Okay, those two will not be shown.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/210-0
+00:18:44.708 --> 00:18:48.257
+<v Mullings, Owen>Yeah, because you do have access to them,
+so there's only one-on-one of our three</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/210-1
+00:18:48.257 --> 00:18:49.988
+<v Mullings, Owen>Onboarding solutions you have access to.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/211-0
+00:18:50.788 --> 00:18:55.841
+<v Azizi, Ali>Okay, and how we define when we click,
+for example,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/211-1
+00:18:55.841 --> 00:19:00.700
+<v Azizi, Ali>let's say that we have access to all
+those three,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/211-2
+00:19:00.700 --> 00:19:07.988
+<v Azizi, Ali>but when we click on Onboarding,
+how it will find out what is the default.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/212-0
+00:19:11.228 --> 00:19:17.248
+<v Azizi, Ali>module to as a default module.
+It's going to be questionnaire based,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/212-1
+00:19:17.248 --> 00:19:23.617
+<v Azizi, Ali>it's going to be firm form based.
+How the system understands the default</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/212-2
+00:19:23.617 --> 00:19:24.228
+<v Azizi, Ali>module.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/213-0
+00:19:25.668 --> 00:19:29.841
+<v Mullings, Owen>If it's configured and there is a there
+is a Compass built one,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/213-1
+00:19:29.841 --> 00:19:33.428
+<v Mullings, Owen>like an internal one in the list,
+it'll pick that one.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/214-0
+00:19:35.628 --> 00:19:37.708
+<v Mullings, Owen>That's the current implementation.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/215-0
+00:19:39.108 --> 00:19:42.453
+<v Azizi, Ali>Ohh,
+this this configuration exists in the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/215-1
+00:19:42.453 --> 00:19:44.788
+<v Azizi, Ali>code level, or it's somewhere?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/216-0
+00:19:45.028 --> 00:19:48.519
+<v Mullings, Owen>It's a it's a feature.
+It's a feature in the module in the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/216-1
+00:19:48.519 --> 00:19:50.708
+<v Mullings, Owen>module menu. So the link that I post.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/217-0
+00:19:50.148 --> 00:19:51.988
+<v Azizi, Ali>Ohh, OK.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/218-0
+00:19:51.788 --> 00:19:56.948
+<v Mullings, Owen>you have configuration in the module menu
+component for each of these scenarios.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/219-0
+00:19:59.708 --> 00:20:05.028
+<v Azizi, Ali>So when I want to create a user.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/227-0
+00:20:21.428 --> 00:20:27.748
+<v Azizi, Ali>May I share my screen just quickly to see
+what do you mean exactly?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/228-0
+00:20:29.988 --> 00:20:30.468
+<v Mullings, Owen>Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/235-0
+00:20:37.988 --> 00:20:43.746
+<v Azizi, Ali>So here I am going to create a new user
+and I'm going to, you know,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/235-1
+00:20:43.746 --> 00:20:49.928
+<v Azizi, Ali>to give access to the bunch of features.
+Now, here, for example, orders,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/235-2
+00:20:49.928 --> 00:20:55.010
+<v Azizi, Ali>I give access to orders. Okay,
+how when clicking on orders,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/235-3
+00:20:55.010 --> 00:20:58.228
+<v Azizi, Ali>which one of these three gets default?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/236-0
+00:21:00.628 --> 00:21:01.668
+<v Mullings, Owen>Those aren't modules.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/239-0
+00:21:07.508 --> 00:21:09.748
+<v Azizi, Ali>Yeah, but the top menu is orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/241-0
+00:21:10.908 --> 00:21:15.094
+<v Azizi, Ali>Which will come,
+which will be show up today in the left</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/241-1
+00:21:15.094 --> 00:21:15.388
+<v Azizi, Ali>nav.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/242-0
+00:21:17.028 --> 00:21:20.184
+<v Mullings, Owen>Uh, what controls it?
+What controls what goes in the left nav</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/242-1
+00:21:20.184 --> 00:21:22.068
+<v Mullings, Owen>is above that under the modules list.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/244-0
+00:21:25.668 --> 00:21:27.028
+<v Mullings, Owen>So pick an example from here.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/243-0
+00:21:25.828 --> 00:21:26.668
+<v Azizi, Ali>Ohh.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/245-0
+00:21:27.668 --> 00:21:28.308
+<v Azizi, Ali>Ofeke.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/246-0
+00:21:33.188 --> 00:21:36.628
+<v Azizi, Ali>Now, we have here orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/247-0
+00:21:40.148 --> 00:21:44.745
+<v Azizi, Ali>Okay, for example,
+here orders and orders upload,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/247-1
+00:21:44.745 --> 00:21:48.148
+<v Azizi, Ali>how it will how it will be showed up?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/248-0
+00:21:50.468 --> 00:21:54.377
+<v Mullings, Owen>Orders first and then uploads underneath
+it. If ever something's a child,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/248-1
+00:21:54.377 --> 00:21:56.068
+<v Mullings, Owen>if there's a parent in the name.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/249-0
+00:21:59.188 --> 00:22:03.588
+<v Azizi, Ali>And also older MFA uploads as well.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/252-0
+00:22:06.868 --> 00:22:12.280
+<v Mullings, Owen>I'm surprised that's there.
+That would have been an R2 feature.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/252-1
+00:22:12.280 --> 00:22:15.748
+<v Mullings, Owen>Or what environment is this? This is UAT.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/253-0
+00:22:16.828 --> 00:22:18.148
+<v Mullings, Owen>Interesting. Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/255-0
+00:22:20.948 --> 00:22:24.608
+<v Mullings, Owen>Somebody asked them to,
+somebody asked them to register the R2</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/254-0
+00:22:21.028 --> 00:22:21.828
+<v Azizi, Ali>Ohh...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/255-1
+00:22:24.608 --> 00:22:25.828
+<v Mullings, Owen>feature for a basket.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/256-0
+00:22:29.908 --> 00:22:32.388
+<v Azizi, Ali>Okay, or order GIC.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/261-0
+00:22:33.548 --> 00:22:41.161
+<v Azizi, Ali>To be honest, it's a bit confusing,
+and now I am understanding. OK,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/261-1
+00:22:41.161 --> 00:22:47.878
+<v Azizi, Ali>it's so what I see,
+so here the modules are the top headers</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/261-2
+00:22:47.878 --> 00:22:54.148
+<v Azizi, Ali>on the left nav, and you see here,
+for example, here...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/264-0
+00:22:54.268 --> 00:22:59.157
+<v Azizi, Ali>Orders are the features,
+so when I click here, all these three,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/264-1
+00:22:59.157 --> 00:23:04.276
+<v Azizi, Ali>how it will be shown in the left nav,
+it will show under this one,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/264-2
+00:23:04.276 --> 00:23:07.714
+<v Azizi, Ali>under if I click,
+if I have selected orders,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/264-3
+00:23:07.714 --> 00:23:10.388
+<v Azizi, Ali>it will show under this capability.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/265-0
+00:23:11.988 --> 00:23:15.428
+<v Mullings, Owen>Those are functions, so they.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/268-0
+00:23:17.828 --> 00:23:20.868
+<v Mullings, Owen>their permissions inside of a module.
+There are modules themselves.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/269-0
+00:23:22.868 --> 00:23:25.828
+<v Azizi, Ali>So they don't have any representative.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/270-0
+00:23:27.588 --> 00:23:30.908
+<v Azizi, Ali>Menu on the left now,
+do you do you mean that?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/271-0
+00:23:28.228 --> 00:23:32.628
+<v Mullings, Owen>Does it? No, they're just, yeah,
+they're just permissions.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/275-0
+00:23:33.028 --> 00:23:40.447
+<v Azizi, Ali>OK, OK, they are not menu, OK, OK,
+and the same here, they are not menu,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/275-1
+00:23:40.447 --> 00:23:45.428
+<v Azizi, Ali>they are just permissions, that's right,
+OK, OK.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/274-0
+00:23:41.988 --> 00:23:42.268
+<v Mullings, Owen>Yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/276-0
+00:23:46.308 --> 00:23:47.188
+<v Azizi, Ali>Sounds good.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/277-0
+00:23:49.428 --> 00:23:51.188
+<v Azizi, Ali>Funds, and why we have...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/278-0
+00:23:52.708 --> 00:23:58.727
+<v Azizi, Ali>This model, I know that in the Uar,
+in the design,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/278-1
+00:23:58.727 --> 00:24:04.628
+<v Azizi, Ali>it's been clean and it's more
+understandable, but</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/281-0
+00:24:06.428 --> 00:24:12.999
+<v Azizi, Ali>That's the reason that we wanted to have
+more granular permissions,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/281-1
+00:24:12.999 --> 00:24:19.667
+<v Azizi, Ali>but with this we couldn't have,
+and then we had tried to bring these</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/281-2
+00:24:19.667 --> 00:24:25.948
+<v Azizi, Ali>options to the table as the functions.
+This is my understanding.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/282-0
+00:24:27.828 --> 00:24:28.228
+<v Mullings, Owen>Mm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/285-0
+00:24:30.868 --> 00:24:35.248
+<v Mullings, Owen>I think in a typical system you would
+have the permissions and you wouldn't</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/285-1
+00:24:35.248 --> 00:24:36.228
+<v Mullings, Owen>have the modules.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/286-0
+00:24:37.748 --> 00:24:42.068
+<v Mullings, Owen>But the reason why we have the modules is
+because they wanted to...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/288-0
+00:24:45.268 --> 00:24:50.516
+<v Mullings, Owen>they're more likely to manage core screen
+access than your actual permissions,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/288-1
+00:24:50.516 --> 00:24:55.233
+<v Mullings, Owen>which is why they put a permission in
+every single module that launch,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/287-0
+00:24:51.508 --> 00:24:51.988
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/288-2
+00:24:55.233 --> 00:24:58.156
+<v Mullings, Owen>or like they put off,
+they create a module,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/288-3
+00:24:58.156 --> 00:25:02.209
+<v Mullings, Owen>the ability for you to hide every single
+module that launch,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/288-4
+00:25:02.209 --> 00:25:04.468
+<v Mullings, Owen>so you can manage feature logging.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/289-0
+00:25:04.708 --> 00:25:05.068
+<v Mullings, Owen>And.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/292-0
+00:25:06.468 --> 00:25:09.315
+<v Mullings, Owen>So,
+it's a way for it's a way for them to the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/292-1
+00:25:09.315 --> 00:25:13.895
+<v Mullings, Owen>feature ******* for the most part,
+is why they have the modules being its</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/292-2
+00:25:13.895 --> 00:25:14.948
+<v Mullings, Owen>own thing, but...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/293-0
+00:25:18.788 --> 00:25:22.317
+<v Mullings, Owen>I don't think that module is,
+you say it's confusing,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/293-1
+00:25:22.317 --> 00:25:27.283
+<v Mullings, Owen>I think it's just because we didn't spend
+any time on the design and stuff.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/293-2
+00:25:27.283 --> 00:25:32.838
+<v Mullings, Owen>They cut out when we did access control 1.
+0, a bunch of stuff that we wanted to do,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/293-3
+00:25:32.838 --> 00:25:36.956
+<v Mullings, Owen>this never prioritized,
+so then they just like stopped at some</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/293-4
+00:25:36.956 --> 00:25:37.348
+<v Mullings, Owen>point.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/295-0
+00:25:37.548 --> 00:25:38.628
+<v Mullings, Owen>I ended up with this.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/294-0
+00:25:39.468 --> 00:25:40.068
+<v Azizi, Ali>Mm-hmm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/296-0
+00:25:41.588 --> 00:25:46.668
+<v Azizi, Ali>And one more question, for example,
+here I see orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/296-1
+00:25:46.668 --> 00:25:50.548
+<v Azizi, Ali>This means view or manage or both of them.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/298-0
+00:25:51.348 --> 00:25:54.972
+<v Mullings, Owen>Those are permissions.
+They're just for screen access to the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/297-0
+00:25:53.428 --> 00:25:53.828
+<v Azizi, Ali>Yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/298-1
+00:25:54.972 --> 00:25:55.388
+<v Mullings, Owen>module.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/299-0
+00:25:57.588 --> 00:26:02.631
+<v Azizi, Ali>So, for example, for these users,
+I just want to get access to just view</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/299-1
+00:26:02.631 --> 00:26:05.188
+<v Azizi, Ali>the orders, how I should select that.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/300-0
+00:26:07.308 --> 00:26:07.908
+<v Mullings, Owen>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/301-0
+00:26:09.428 --> 00:26:10.228
+<v Mullings, Owen>So.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/302-0
+00:26:11.988 --> 00:26:13.108
+<v Mullings, Owen>Because.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/303-0
+00:26:14.948 --> 00:26:16.228
+<v Mullings, Owen>So when you selected the role.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/309-0
+00:26:18.708 --> 00:26:24.538
+<v Mullings, Owen>you got admin all as a role,
+you got a whole bunch of permissions</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/306-0
+00:26:21.508 --> 00:26:21.988
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/309-1
+00:26:24.538 --> 00:26:29.485
+<v Mullings, Owen>associated with that role.
+So everybody with admin all,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/309-2
+00:26:29.485 --> 00:26:36.729
+<v Mullings, Owen>they have the permission to view orders.
+All the module option does is hide it in</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/309-3
+00:26:36.729 --> 00:26:37.348
+<v Mullings, Owen>the UI.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/312-0
+00:26:39.188 --> 00:26:43.495
+<v Mullings, Owen>So behind the scenes, you have the scopes,
+you have the resources,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/312-1
+00:26:43.495 --> 00:26:46.388
+<v Mullings, Owen>you have all the permissions to view
+orders.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/312-2
+00:26:46.388 --> 00:26:50.116
+<v Mullings, Owen>The module section just gives you the
+ability to hide it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/312-3
+00:26:50.116 --> 00:26:53.588
+<v Mullings, Owen>And that's because we don't have a way of
+dynamically</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/314-0
+00:26:57.508 --> 00:26:58.788
+<v Mullings, Owen>changing what's in Auto.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/313-0
+00:26:57.588 --> 00:26:58.228
+<v Azizi, Ali>Got it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/315-0
+00:26:59.508 --> 00:27:00.388
+<v Azizi, Ali>Okay, got it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/316-0
+00:27:01.988 --> 00:27:07.788
+<v Azizi, Ali>Okay, got it. So when you know, it's...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/319-0
+00:27:08.788 --> 00:27:14.028
+<v Azizi, Ali>With the roles, we can limit the access.
+And yeah,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/319-1
+00:27:14.028 --> 00:27:20.500
+<v Azizi, Ali>but then if we want to customize the
+permissions of the roles,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/319-2
+00:27:20.500 --> 00:27:27.795
+<v Azizi, Ali>we have more granular options on bottom
+here. We can click and untick.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/319-3
+00:27:27.795 --> 00:27:29.028
+<v Azizi, Ali>That's what.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/320-0
+00:27:29.188 --> 00:27:31.428
+<v Azizi, Ali>That's what we can do to customize the
+role.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/321-0
+00:27:32.148 --> 00:27:32.548
+<v Mullings, Owen>Yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/324-0
+00:27:35.028 --> 00:27:36.068
+<v Azizi, Ali>Okay, got it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/325-0
+00:27:39.388 --> 00:27:40.628
+<v Azizi, Ali>That's good.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/328-0
+00:27:44.308 --> 00:27:49.908
+<v Azizi, Ali>I understood. Thank you. Thank you.
+Thank you for your knowledge sharing.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/331-0
+00:27:51.428 --> 00:28:01.304
+<v Azizi, Ali>I need to go through the documents and
+see more because I think Radhika had a</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/331-1
+00:28:01.304 --> 00:28:10.548
+<v Azizi, Ali>problem with CRS factor the way that has
+been presented on the left nav.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/332-0
+00:28:12.148 --> 00:28:16.628
+<v Azizi, Ali>But before going to meeting with her,
+I wanted to get some.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/333-0
+00:28:19.988 --> 00:28:24.948
+<v Azizi, Ali>some information to see how does it work
+and then</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/334-0
+00:28:26.068 --> 00:28:31.268
+<v Azizi, Ali>to see what's her issue and how we can
+solve it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/335-0
+00:28:38.068 --> 00:28:42.388
+<v Mullings, Owen>It's almost as if the ideal for her is if
+we re-implemented R2.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/336-0
+00:28:43.748 --> 00:28:46.788
+<v Mullings, Owen>Because she doesn't want to do the change
+management.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/338-0
+00:28:48.548 --> 00:28:52.868
+<v Mullings, Owen>And I guess he's challenging the Compass
+with a set of features model.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/337-0
+00:28:48.588 --> 00:28:49.108
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/339-0
+00:28:55.108 --> 00:28:58.007
+<v Mullings, Owen>And it came,
+I was surprised that this started coming</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/339-1
+00:28:58.007 --> 00:28:59.188
+<v Mullings, Owen>up that way because...</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/340-0
+00:29:01.268 --> 00:29:03.917
+<v Mullings, Owen>It's either we did the suite of
+applications,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/340-1
+00:29:03.917 --> 00:29:07.431
+<v Mullings, Owen>so if if we wanted to do it the way
+Radhika wanted to do it,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/340-2
+00:29:07.431 --> 00:29:09.965
+<v Mullings, Owen>we wouldn't have like feature
+descriptions,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/340-3
+00:29:09.965 --> 00:29:14.228
+<v Mullings, Owen>we would just have a page with apps and
+then you open up the app like R2.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/341-0
+00:29:15.828 --> 00:29:18.948
+<v Mullings, Owen>It's just different navigation models.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/343-0
+00:29:20.148 --> 00:29:23.969
+<v Mullings, Owen>But I won't fight that battle.
+That's probably why. But eventually,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/342-0
+00:29:20.868 --> 00:29:21.508
+<v Azizi, Ali>Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/343-1
+00:29:23.969 --> 00:29:28.408
+<v Mullings, Owen>if you don't have a structure for the
+navigation, it becomes a dumping ground.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/343-2
+00:29:28.408 --> 00:29:31.668
+<v Mullings, Owen>I might as well just have like a flat
+list of everything.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/346-0
+00:29:34.108 --> 00:29:39.740
+<v Azizi, Ali>Okay, she just sees, for example,
+CRS factor as an application,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/346-1
+00:29:39.740 --> 00:29:45.988
+<v Azizi, Ali>not the way we look as, for example,
+function, capability, provisions.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/346-2
+00:29:45.988 --> 00:29:52.060
+<v Azizi, Ali>She just sees that as a high level
+application, access or no access,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/345-0
+00:29:46.948 --> 00:29:47.428
+<v Mullings, Owen>Yeah.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/346-3
+00:29:52.060 --> 00:29:53.028
+<v Azizi, Ali>that's all.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/347-0
+00:29:59.188 --> 00:30:00.788
+<v Azizi, Ali>Got it. Got it.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/348-0
+00:30:03.428 --> 00:30:08.795
+<v Azizi, Ali>Okay,
+and and one more thing: do we have any</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/348-1
+00:30:08.795 --> 00:30:17.980
+<v Azizi, Ali>standard regarding the timeouts and the
+timeouts between between Compass and</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/348-2
+00:30:17.980 --> 00:30:23.348
+<v Azizi, Ali>External applications like like secure
+zone?</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/349-0
+00:30:25.028 --> 00:30:28.684
+<v Azizi, Ali>And, for example,
+or Netrep something like that,</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/349-1
+00:30:28.684 --> 00:30:32.788
+<v Azizi, Ali>or it's just it is different between each
+application.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/350-0
+00:30:34.948 --> 00:30:35.828
+<v Mullings, Owen>Ohh.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/352-0
+00:30:39.188 --> 00:30:45.030
+<v Mullings, Owen>So I guess the way that it played out,
+we consulted the security consultant for</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/352-1
+00:30:45.030 --> 00:30:49.630
+<v Mullings, Owen>each of these cases,
+and there is a documented standard within</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/352-2
+00:30:49.630 --> 00:30:51.748
+<v Mullings, Owen>the info sec within the bank.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/351-0
+00:30:53.828 --> 00:30:54.468
+<v Azizi, Ali>Okay.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/354-0
+00:30:54.548 --> 00:31:00.062
+<v Mullings, Owen>to define what it should be for external
+people versus internal people.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/354-1
+00:31:00.062 --> 00:31:06.418
+<v Mullings, Owen>So we're following their recommendation.
+But then every project team asks them the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/354-2
+00:31:06.418 --> 00:31:12.468
+<v Mullings, Owen>question and then depending on what they
+can do feasibly, it can be different.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/353-0
+00:31:13.668 --> 00:31:14.148
+<v Azizi, Ali>Mhm.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/356-0
+00:31:15.508 --> 00:31:19.795
+<v Mullings, Owen>But there's Sharepoint paintings with all
+of these documented.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/356-1
+00:31:19.795 --> 00:31:21.428
+<v Mullings, Owen>What we should be doing.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/358-0
+00:31:22.948 --> 00:31:29.371
+<v Azizi, Ali>Okay, I will check for that. Okay, Owen,
+thank you. Thank you for time.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/358-1
+00:31:29.371 --> 00:31:35.348
+<v Azizi, Ali>Thank you for sharing your knowledge.
+It was really helpful to me.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/360-0
+00:31:36.468 --> 00:31:39.218
+<v Mullings, Owen>Yeah, man, no worries.
+Let me just drop the link to the</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/360-1
+00:31:39.218 --> 00:31:42.949
+<v Mullings, Owen>presentation in case it's hard to find.
+And the navigation link I think you</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/359-0
+00:31:41.828 --> 00:31:42.228
+<v Azizi, Ali>Okta.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/360-2
+00:31:42.949 --> 00:31:43.588
+<v Mullings, Owen>already have.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/362-0
+00:31:43.588 --> 00:31:46.788
+<v Azizi, Ali>Yeah, yeah, yeah. You already provided me.
+Thank you.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/363-0
+00:31:47.668 --> 00:31:48.548
+<v Mullings, Owen>OK, Norris.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/364-0
+00:31:48.708 --> 00:31:50.628
+<v Azizi, Ali>Okay, thank you for time.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/365-0
+00:31:51.508 --> 00:31:52.788
+<v Mullings, Owen>All right, man. Take care. Talk soon.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/366-0
+00:31:52.908 --> 00:31:53.748
+<v Azizi, Ali>Take care, bye bye.</v>
+
+b63d35cf-ddb2-4411-820c-8865f68451c9/368-0
+00:31:53.988 --> 00:31:54.708
+<v Mullings, Owen>Perfect.</v>

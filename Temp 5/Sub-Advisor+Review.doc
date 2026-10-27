@@ -1,0 +1,522 @@
+Date: Tue, 27 Oct 2026 16:42:56 -0400 (EDT)
+Message-ID: <1039746846.195378.1793133776190@ip-10-50-203-187.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_195377_1072008411.1793133776189"
+
+------=_Part_195377_1072008411.1793133776189
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Sub-Advisor Review</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body,
+    #full-height-container,
+    #main,
+    #page,
+    #content,
+    .has-personal-sidebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover,
+    a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, 'Courier New', monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Sub-Advisor Review</h1>
+    <div class=3D"Section1">
+        <div role=3D"region" aria-label=3D"Info" class=3D"confluence-inform=
+ation-macro  confluence-information-macro-information">
+ <p class=3D"title conf-macro-render">Overview</p>
+ <span role=3D"presentation" class=3D"aui-icon aui-icon-small aui-iconfont-=
+info-filled confluence-information-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p><strong>Purpose</strong>
+   <br>
+   This outreach validates sub=E2=80=91advisor relationships and firm hiera=
+rchy data with RVPs to ensure intentional, auditable decisions.&nbsp;&nbsp;=
+</p>
+  <p><strong>Why this matters</strong>
+   <br>
+   =E2=80=A2 No system=E2=80=91level sub=E2=80=91advisor identifier exists =
+today
+   <br>
+   =E2=80=A2 Parent / group changes carry downstream access and reporting r=
+isk
+   <br>
+   =E2=80=A2 Business=E2=80=91validated requirements are required for Compa=
+ss access and role design</p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Intended Outcomes</b>
+ </div>
+ <div class=3D"panelContent">
+  <p>=E2=80=A2 Business=E2=80=91confirmed list of sub=E2=80=91advisor relat=
+ionships
+   <br>
+   =E2=80=A2 Documented sub=E2=80=91advisor access and usage requirements&n=
+bsp;
+   <br>
+   =E2=80=A2 Clear audit trail of decisions and follow=E2=80=91ups</p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Why RVP Confirmation is required</b>
+ </div>
+ <div class=3D"panelContent">
+  <p>=E2=80=A2 Currently there is no sub-advisor identifier, therefore the =
+data needs business confirmation.&nbsp;
+   <br>
+   =E2=80=A2 RVPs have the appropriate insight into their clients requireme=
+nts</p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Engagement Model</b>
+ </div>
+ <div class=3D"panelContent">
+  <p><strong>Primary:&nbsp; 1:1 RVP review</strong></p>
+  <p><strong>Objective:</strong> Review Compass legacy data analysis at a h=
+igh level</p>
+  <p><strong>Meeting 1: Agenda</strong></p>
+  <ol>
+   <li data-uuid=3D"0b543300-1ae3-4bca-830e-c62a5d6ffdfe">Context: what=E2=
+=80=99s coming and why this review is required</li>
+   <li data-uuid=3D"5fbb3599-46d5-47f5-94f2-fdcb5d0b4cde">Review methodolog=
+y used to flag potential sub=E2=80=91advisor firms</li>
+   <li data-uuid=3D"81081f08-9cb2-4cbd-8a07-b96566579f32">Confirm flagged r=
+elationships</li>
+   <li data-uuid=3D"677fcab7-0fb3-4c6c-9457-ee2a6e6edc38">Capture suggested=
+ firms for discovery and pilot&nbsp;</li>
+  </ol>
+  <p><strong>Meeting 2:</strong></p>
+  <ol>
+   <li data-uuid=3D"5c16ec4b-bddb-4f32-a159-c94cb176a130">Review methodolog=
+y used to flag potential sub=E2=80=91advisor firms</li>
+   <li data-uuid=3D"2e470a0d-ed05-437a-beed-6cc493edf3d9">Review data inclu=
+ding SZ/NetRep&nbsp;</li>
+   <li data-uuid=3D"ecb7b15f-dbcf-406e-9d32-7d3941e65f53">Validate proposed=
+ F360 parent / group changes (TBD)</li>
+   <li data-uuid=3D"59ef323e-dec6-49bf-b9aa-db4b3c6c7238">Capture sub=E2=80=
+=91advisor access and usage requirements (TBD)</li>
+  </ol>
+  <p><strong>Secondary:&nbsp; RVP Roundtable&nbsp;</strong></p>
+  <p><strong>Purpose</strong>
+   <br>
+   Share consolidated findings and align on standard handling going forward=
+.</p>
+  <p><strong>Proposed Agenda</strong></p>
+  <ul>
+   <li data-uuid=3D"ae7a05a5-81a0-47eb-b835-83c0d1f016b1">Why this exercise=
+ was required</li>
+   <li data-uuid=3D"5509dc52-8e27-4caa-a208-a0a25cea528e">Summary of confir=
+med findings and patterns</li>
+   <li data-uuid=3D"97685c60-8ec1-4adf-93be-0231fcb6d9c4">Expected changes =
+to come</li>
+   <li data-uuid=3D"055cdfdb-6f94-4cc9-bc53-68e866313573">Old vs. new handl=
+ing&nbsp;</li>
+   <li data-uuid=3D"e71b1354-dc4d-4c75-8f22-9fb12c9271ba">Benefits and risk=
+ reduction</li>
+   <li data-uuid=3D"bbef7688-f0aa-4210-89b4-5163310ccdb3">Q&amp;A and next =
+steps</li>
+  </ul>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Pre=E2=80=91Work Package </b>
+ </div>
+ <div class=3D"panelContent">
+  <p>To ensure we are optimizing all parties time, prior to the meeting the=
+ RVP will receive a communication that includes:</p>
+  <ul>
+   <li data-uuid=3D"e348d06d-435b-45ef-b2e8-d1e1f1f7a3d7">Meeting invite</l=
+i>
+   <li data-uuid=3D"4876b860-9b2d-429c-8c46-d20cff3e440d">Meeting agenda</l=
+i>
+   <li data-uuid=3D"3d6e6283-1757-45a7-8d40-ae33e98b9b66">Ask to complete s=
+ome pre-work with instructions</li>
+  </ul>
+  <p>The attachments will include a spreadsheet with the following informat=
+ion if applicable:</p>
+  <ul>
+   <li data-uuid=3D"9836a2a9-5639-48b0-b0e3-ba8a85163cb4">Sub=E2=80=91Advis=
+or Relationship Review</li>
+  </ul>
+  <p>
+   <br>
+  </p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Sub-Advisor Access and Usage Discovery</b>
+ </div>
+ <div class=3D"panelContent">
+  <p>To help us understand the requirements of Sub=E2=80=91Advisors, the se=
+cond 1:1 session will include dedicated time for discovery. The objective o=
+f this discussion is to gather business input from RVPs to enable us to:</p=
+>
+  <ul>
+   <li data-uuid=3D"bce6658b-befa-44c7-ab0c-bda62478ad16">Identify common S=
+ub=E2=80=91Advisor operating models across segments</li>
+   <li data-uuid=3D"064ce29d-9ad6-4d4c-8085-8ba5ad52d613">Inform future rol=
+e=E2=80=91based access patterns for Compass and related systems</li>
+   <li data-uuid=3D"685371d7-c1d5-43eb-a962-1d6f3c8550eb">Ensure future acc=
+ess decisions align with business reality and risk controls</li>
+  </ul>
+  <p>This discovery is intended to capture how Sub=E2=80=91Advisor relation=
+ships operate today, not to approve or implement access changes as part of =
+this exercise. Inputs will be reviewed and analyzed in aggregate to inform =
+future design and governance decisions.</p>
+  <p><strong>Suggested Discovery Questions</strong></p>
+  <p>The questions below are intended as conversation guides, not a checkli=
+st. Responses should reflect typical practices and meaningful variations.</=
+p>
+  <ul>
+   <li data-uuid=3D"e0e637ae-c22f-486a-89c8-4b87433350e2">How does the PM t=
+ypically interact with the assigned Sub=E2=80=91Advisor?</li>
+   <li data-uuid=3D"85986b8d-df0f-4774-921b-152a2b113f09">What systems does=
+ the Sub=E2=80=91Advisor require access to in order to perform their role?<=
+/li>
+   <li data-uuid=3D"6b9d3ad4-a198-4965-a0c6-5cc50470c04b">Are there differe=
+nt usage or access profiles depending on the type of sub=E2=80=91advisory r=
+elationship?</li>
+   <li data-uuid=3D"a90a26b9-0652-40af-a2f8-5ba43ae034b5">What are the typi=
+cal duties performed by the Sub=E2=80=91Advisor (e.g., trading, reporting, =
+oversight)?</li>
+   <li data-uuid=3D"17ea9b54-1f13-41b5-921c-a87cf199b214">When and where do=
+ Sub=E2=80=91Advisors primarily operate (e.g., NetRep, Compass, SecureZone)=
+?</li>
+  </ul>
+  <p>Insights will be tracked in Aha! (link)</p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Decision Framwork</b>
+ </div>
+ <div class=3D"panelContent">
+  <p>
+   <br>
+  </p>
+  <div class=3D"table-wrap">
+   <table class=3D"wrapped relative-table confluenceTable" style=3D"width: =
+34.8051%;">
+    <colgroup>
+     <col style=3D"width: 50.679%;">
+     <col style=3D"width: 49.3134%;">
+    </colgroup>
+    <tbody>
+     <tr>
+      <td class=3D"highlight-#b3d4ff confluenceTd" data-highlight-colour=3D=
+"#b3d4ff"><strong title=3D"">Decision</strong></td>
+      <td class=3D"highlight-#b3d4ff confluenceTd" data-highlight-colour=3D=
+"#b3d4ff"><strong title=3D"">Action</strong></td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Confirmed by RVP</td>
+      <td class=3D"confluenceTd">Treated as validated - Flag with indicator=
+</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Confirmed not a Sub-Advisor</td>
+      <td class=3D"confluenceTd">Logged for further investigation</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Unsure/No Confirmation</td>
+      <td class=3D"confluenceTd">Logged for further investigation</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Parent Name confirmed as correct&nbsp;</td=
+>
+      <td class=3D"confluenceTd">Treated as validated</td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Parent Name confirmed as not correct</td>
+      <td class=3D"confluenceTd">Submit for correction</td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+  <p>All confirmations and notes are retained in the master spreadsheet to =
+maintain an audit trail.</p>
+ </div>
+</div>
+<div class=3D"panel" style=3D"border-width: 1px;">
+ <div class=3D"panelHeader" style=3D"border-bottom-width: 1px;">
+  <b>Outcomes</b>
+ </div>
+ <div class=3D"panelContent">
+  <div class=3D"table-wrap">
+   <table class=3D"relative-table wrapped confluenceTable" style=3D"width: =
+44.8544%;">
+    <colgroup>
+     <col style=3D"width: 49.914%;">
+     <col style=3D"width: 50.0162%;">
+    </colgroup>
+    <tbody>
+     <tr>
+      <th class=3D"highlight-#b3d4ff confluenceTh" data-highlight-colour=3D=
+"#b3d4ff" scope=3D"col">Result</th>
+      <th class=3D"highlight-#b3d4ff confluenceTh" data-highlight-colour=3D=
+"#b3d4ff" scope=3D"col">Metric</th>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Firms Sub Advisor relationships confirmed<=
+/td>
+      <td class=3D"confluenceTd">
+       <br>
+      </td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Parent Group issues resolved</td>
+      <td class=3D"confluenceTd">
+       <br>
+      </td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Items requiring follow up</td>
+      <td class=3D"confluenceTd">
+       <br>
+      </td>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">Readiness to proceed to next phase</td>
+      <td class=3D"confluenceTd">
+       <br>
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </div>
+</div>
+<p>
+ <br>
+</p>
+    </div>
+</body>
+</html>
+------=_Part_195377_1072008411.1793133776189--

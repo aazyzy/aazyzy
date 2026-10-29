@@ -26,43 +26,63 @@ Mullings, Owen 1 minute 14 seconds
 something. OK. So, yeah, we had looked at the table in Firm 360 on what we sync. Currently, we don't sync current firm data, but if we did sync parent firm data, I think they have a representative of every firm as a parent firm. And then for us, we would only need.
 Mullings, Owen 1 minute 33 seconds
 Want the ones that have more than one child to be representative of the parents?
+Mullings, Owen 2 minutes 53 seconds
+And then that would allow me to troubleshoot in the child firms like Nbin does, etc.
+Mullings, Owen 3 minutes 2 seconds
+But in order to have a peer and firm as a real thing, when we're discussing this with Penny, so we have a firm package per firm type. So we have a PM firm package, we have an IB firm package.
+Mullings, Owen 3 minutes 22 seconds
+OT, IFM, et cetera, for the pierre for one.
+Mullings, Owen 3 minutes 29 seconds
+I think the concept within the this in the delivery in the discovery team, but the idea is that the parent firm would not have.
+Mullings, Owen 3 minutes 41 seconds
+A firm package, but it would be an aggregation. You'd aggregate and dedupe.
+Mullings, Owen 3 minutes 48 seconds
+what the child firms have.
+Mullings, Owen 3 minutes 52 seconds
+It's a little bit messy because, so part of the reason why I'm bringing that up is in each of the trial firms, they may have certain tools turned off.
+Mullings, Owen 4 minutes 2 seconds
+for individual trial firms.
+Mullings, Owen 4 minutes 5 seconds
+And then, when you, when you're in that aggregate view, it's almost as if...
+Mullings, Owen 4 minutes 10 seconds
+I don't know whether to validate if this is a real requirement or not, but it's almost as if for some accounts that are within firms that don't have a feature, we should have a secondary cheque to say does that feature exist in that firm.
+Mullings, Owen 4 minutes 26 seconds
+We do this somewhat in the NBF context today with features like investment objectives, permission, customization, and solicitation reporting, where the feature is controlled at the account level.
+Mullings, Owen 4 minutes 46 seconds
+So when we're loading, but most of the time it's in a detailed view.
+Mullings, Owen 4 minutes 51 seconds
+It's never on the list.
+Mullings, Owen 4 minutes 53 seconds
+which is why it ends up being performance. But we might run into situations where at the list level, we might need to cheque. But just to philtre out stuff that they probably shouldn't be operating on, or it might be a concession to say they can see it, but then when they go into the details, they realise it's view only.
+Mullings, Owen 5 minutes 16 seconds
+because of the reason that the firm hasn't turned off.
+Mullings, Owen 5 minutes 20 seconds
+I'll pause here to see if that made any sense, because I think I was doing something very conceptual and I didn't visualise it, so I'm wondering if that made sense.
+Mullings, Owen 5 minutes 32 seconds
+I think with this particular, so I'll extend this.
 
 Azizi, Ali
-7 minutes 50 seconds7:50
-Azizi, Ali 7 minutes 50 seconds
-Mhm.
+5 minutes 35 seconds5:35
+Azizi, Ali 5 minutes 35 seconds
+Uhh...
+Azizi, Ali 5 minutes 37 seconds
+I have a question, Owen, in terms of...
+Azizi, Ali 5 minutes 44 seconds
+Saying that, which?
 
 Mullings, Owen
-8 minutes 1 second8:01
-Mullings, Owen 8 minutes 1 second
-But if we don't philtre that data based on the feature at that firm level, it'll show up. And then you have kind of a confusing situation where they shouldn't be operating on those accounts inside of CX.
-Mullings, Owen 8 minutes 16 seconds
-Does that make sense?
+5 minutes 47 seconds5:47
+Mullings, Owen 5 minutes 47 seconds
+Est.
 
 Azizi, Ali
-8 minutes 19 seconds8:19
-Azizi, Ali 8 minutes 19 seconds
-Yeah, and are you going to consider, for example, to say, okay, in the parent firm, we're going to have a specific user called administrator who can manage
-Azizi, Ali 8 minutes 37 seconds
-All these things, and we'll have a set of specific permissions. Are you, are we going to have kind of a kind of, you know...
-Azizi, Ali 8 minutes 49 seconds
-Global admin users, something like that, not not in in in the in the Compassx context, I mean in the in the firm context, do you consider to have something like this or no, we just are going to have those regular user.
-Azizi, Ali 9 minutes 10 seconds
-With the with the regular permissions that we have today.
+5 minutes 47 seconds5:47
+Azizi, Ali 5 minutes 47 seconds
+Firms does have which features do you mean that we show it? If we show render, you mean we render and show it for the?
+Azizi, Ali 6 minutes
+Firm security steward or for SAA persona?
 
-Mullings, Owen
-9 minutes 16 seconds9:16
-Mullings, Owen 9 minutes 16 seconds
-I can't definitively say anything about the future, but the way that I described or the way that I understand it is that these
-Mullings, Owen 9 minutes 26 seconds
-These users that are doing centralised operations at the parent firm level, they would be enrolled in the parent firm and they would have the account data at the parent firm level. It's just that the equivalent of firm settings is now a little bit tricky. So for regular firms,
 
-Azizi, Ali
-9 minutes 53 seconds9:53
-Azizi, Ali 9 minutes 53 seconds
-Mhm.
-Azizi, Ali 10 minutes 3 seconds
-Yes, yes.
 
 Mullings, Owen
 10 minutes 5 seconds10:05
@@ -149,6 +169,31 @@ Azizi, Ali
 11 minutes 43 seconds11:43
 Azizi, Ali 11 minutes 43 seconds
 Ohh.
+
+Mullings, Owen
+11 minutes 46 seconds11:46
+Mullings, Owen 11 minutes 46 seconds
+OK, Candi JP is that point is that point made? Is there any questions?
+Mullings, Owen 11 minutes 54 seconds
+So.
+Mullings, Owen 11 minutes 57 seconds
+So of having like up here and from package, it would be an like an amalgamation of.
+Mullings, Owen 12 minutes 4 seconds
+what the child firms have subscribed to. I don't know if you guys remember.
+Mullings, Owen 12 minutes 9 seconds
+I remember that's what I settled on with Penny, as what she wanted to do.
+Mullings, Owen 12 minutes 18 seconds
+Firms will have their own subscriptions.
+Mullings, Owen 12 minutes 22 seconds
+Just checking to see if that made sense to you guys with the longest history.
+
+Azizi, Ali
+12 minutes 27 seconds12:27
+Azizi, Ali 12 minutes 27 seconds
+Yeah.
+
+
+
 Mullings, Owen 14 minutes 3 seconds
 We'll take the feature assignments across all of these and then dedupe it and then assign if the user gets access to it, they can get access to it at the parent firm because at the parent firm level, they paid for it. The trouble now is operationally.
 Mullings, Owen 14 minutes 21 seconds
@@ -229,12 +274,11 @@ Mullings, Owen 17 minutes 7 seconds
 Let me think. There's never a case where there's like individual, like the task differentiates depending on what the trial firm does.
 Mullings, Owen 17 minutes 19 seconds
 Uh...
-Mullings, Owen 17 minutes 20 seconds
+
 I guess with Nbin, if they don't have account opening for that firm, they just never generate any accounts.
 Mullings, Owen 17 minutes 28 seconds
 We need to find better examples, though, where we sync stuff from another system. This is why we have to validate it with use cases, though.
-
-
+Mullings, Owen 17 minutes 40 seconds
 But in the case where we're seeing stuff from other systems, and we have to prevent them from acting on something, because if the firm didn't subscribe to it, but that's the main difference is that you have the individual firm subscriptions.
 Mullings, Owen 17 minutes 57 seconds
 And what the parent firm should have is what they what the child firms paid for. There's another part of the PRD that I remember. There might be.
@@ -258,6 +302,89 @@ Mullings, Owen
 18 minutes 31 seconds18:31
 Mullings, Owen 18 minutes 31 seconds
 S.
+
+Mullings, Owen
+22 minutes 47 seconds22:47
+Mullings, Owen 22 minutes 47 seconds
+Huu.
+
+So, Candi
+22 minutes 51 seconds22:51
+So, Candi 22 minutes 51 seconds
+I think that was something even before.
+
+Mullings, Owen
+22 minutes 54 seconds22:54
+Mullings, Owen 22 minutes 54 seconds
+This is actually.
+
+So, Candi
+22 minutes 56 seconds22:56
+So, Candi 22 minutes 56 seconds
+Yeah, we were able to do that. I think we're still able to do that.
+
+Mullings, Owen
+23 minutes 2 seconds23:02
+Mullings, Owen 23 minutes 2 seconds
+Okay.
+Mullings, Owen 23 minutes 3 seconds
+Imagine that you've been doing the analysis, so...
+Mullings, Owen 23 minutes 7 seconds
+I'll leave that with you, but as long as I just wanted to share the the problem, not the solution, yeah.
+
+So, Candi
+23 minutes 12 seconds23:12
+So, Candi 23 minutes 12 seconds
+Yeah, yeah.
+So, Candi 23 minutes 15 seconds
+Of course.
+
+Mullings, Owen
+23 minutes 17 seconds23:17
+Mullings, Owen 23 minutes 17 seconds
+Did you get the problem?
+Mullings, Owen 23 minutes 20 seconds
+In theory.
+
+Pierre, Joseph-Pascal
+23 minutes 22 seconds23:22
+Pierre, Joseph-Pascal 23 minutes 22 seconds
+Yes.
+Pierre, Joseph-Pascal 23 minutes 25 seconds
+Myat.
+Pierre, Joseph-Pascal 23 minutes 26 seconds
+So, yeah.
+
+Mullings, Owen
+23 minutes 27 seconds23:27
+Mullings, Owen 23 minutes 27 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+23 minutes 31 seconds23:31
+Pierre, Joseph-Pascal 23 minutes 31 seconds
+Needs to be.
+
+Mullings, Owen
+23 minutes 31 seconds23:31
+Mullings, Owen 23 minutes 31 seconds
+Right.
+
+Pierre, Joseph-Pascal
+23 minutes 34 seconds23:34
+Pierre, Joseph-Pascal 23 minutes 34 seconds
+And that is.
+Pierre, Joseph-Pascal 23 minutes 35 seconds
+Okay, I see. I think in the end...
+Pierre, Joseph-Pascal 23 minutes 39 seconds
+We will have a choice to make changes to the database. OK, but once again, the issue is how far do we want to go?
+
+Mullings, Owen
+23 minutes 45 seconds23:45
+Mullings, Owen 23 minutes 45 seconds
+Sex.
+Mullings, Owen 23 minutes 51 seconds
+The.
 
 Pierre, Joseph-Pascal
 23 minutes 52 seconds23:52
@@ -286,62 +413,9 @@ Pierre, Joseph-Pascal
 Pierre, Joseph-Pascal 24 minutes 3 seconds
 Checking, because it's technically we would have a lesson to implement. It has to be very well thought through.
 
-Mullings, Owen
-24 minutes 4 seconds24:04
-Mullings, Owen 24 minutes 4 seconds
-Okay.
-Mullings, Owen 24 minutes 14 seconds
-Yeah.
-Mullings, Owen 24 minutes 19 seconds
-Makes sense.
-Mullings, Owen 24 minutes 22 seconds
-So.
-Mullings, Owen 24 minutes 25 seconds
-Is there anything else for parent firm for the firm hierarchy? So talk about the sync and the cleanup that we need to do to make sure that we don't have a whole bunch of duplicate firms. And then how do you browse to a parent firm? And then the firm package. So for sub advisor,
-Mullings, Owen 24 minutes 48 seconds
-Can they set up some meetings to talk to Aman?
-Mullings, Owen 24 minutes 54 seconds
-that sets up some advisors today.
-Mullings, Owen 24 minutes 58 seconds
-I think the process has changed.
-Mullings, Owen 25 minutes 5 seconds
-a few times and there was no source of truth. So there's no, sorry, when I say source of truth, I mean, there wasn't a definitive place that you could go to to understand all of the perm sub-advisor relationships. I think
-Mullings, Owen 25 minutes 24 seconds
-Uh, Robin's team tried to reverse engineer it to generate a new list, and then that's what they're going to load into Firm 360.
-Mullings, Owen 25 minutes 33 seconds
-In terms of the...
-Mullings, Owen 25 minutes 40 seconds
-I think the risk management team had set up.
-Mullings, Owen 25 minutes 45 seconds
-a process where they start storing these forms with the agreements between the firms. So there's a history of those, but it doesn't cover the full list because other ones existed before they did this process.
-Mullings, Owen 26 minutes 1 second
-Oh.
-Mullings, Owen 26 minutes 4 seconds
-And then I think we have examples of how.
-Mullings, Owen 26 minutes 10 seconds
-The implementation team, when they're setting up a firm or setting up one of these relationships, they'll create a set of RR ranges.
-Mullings, Owen 26 minutes 22 seconds
-inside of the firm to be sub-advised.
-Mullings, Owen 26 minutes 26 seconds
-and then made them available to the sub-advisor firm.
-Mullings, Owen 26 minutes 30 seconds
-to manage for trading purposes, but operationally for client management and that kind of stuff, it would stay in the home firm.
-Mullings, Owen 26 minutes 40 seconds
-So, my understanding of the...
-Mullings, Owen 26 minutes 44 seconds
-sub-advisor relationship to store within Compass.
-Mullings, Owen 26 minutes 49 seconds
-It's almost like there's cherry-picked bar codes from other firms.
-Mullings, Owen 26 minutes 56 seconds
-that will be included in.
-Mullings, Owen 27 minutes
-in the firm that's being the sub-advisor.
-Mullings, Owen 27 minutes 3 seconds
-And then, once these R codes are available.
-Mullings, Owen 27 minutes 6 seconds
-Uh, once we're doing, when we're doing the user assignments.
-Mullings, Owen 27 minutes 10 seconds
-I think maybe we need a sub advisor role, user group, et cetera, like something that describes the sub advisor feature access. And then would make available just these R codes for them to pick from.
+
+
+
 Mullings, Owen 27 minutes 25 seconds
 And then that's all this sub-advisor firm hierarchy would end up working.
 Mullings, Owen 27 minutes 33 seconds
@@ -357,6 +431,9 @@ But problem-wise, that's my understanding.
 Mullings, Owen 28 minutes 4 seconds
 Any questions, different understanding?
 
+Azizi, Ali
+28 minutes 12 seconds28:12
+Azizi, Ali 28 minutes 12 seconds
 This data, this data, do they exist in Firm 360 today or it's okay, they don't exist.
 
 Mullings, Owen
@@ -367,6 +444,345 @@ Mullings, Owen 28 minutes 20 seconds
 No.
 Mullings, Owen 28 minutes 23 seconds
 So this is an example of the implementations team documentation where they're saying that these people are going to be sub advisors inside of this firm. And then these are the RR codes from the other firms that they get assigned. And then they have to set up their access in Netrep. This is just Netrep.
+
+Azizi, Ali
+28 minutes 37 seconds28:37
+Azizi, Ali 28 minutes 37 seconds
+Ohh.
+
+Mullings, Owen
+28 minutes 43 seconds28:43
+Mullings, Owen 28 minutes 43 seconds
+but it'll be in Compass trading. It'll be in trade advice and mutual fund upload in R2 in the sub-advisor field until those features get migrated. But the idea is that I think Netrep will have to run in parallel for a while.
+
+Azizi, Ali
+28 minutes 47 seconds28:47
+Azizi, Ali 28 minutes 47 seconds
+Ohh.
+
+Mullings, Owen
+29 minutes 3 seconds29:03
+Mullings, Owen 29 minutes 3 seconds
+until they have confidence in trading. So I think they still have to set up in both of those places today.
+
+Azizi, Ali
+29 minutes 8 seconds29:08
+Azizi, Ali 29 minutes 8 seconds
+Mhm.
+Azizi, Ali 29 minutes 10 seconds
+And this is the list that probably they want to send as this format to to SAA team in Nbin.
+
+Mullings, Owen
+29 minutes 20 seconds29:20
+Mullings, Owen 29 minutes 20 seconds
+I.
+Mullings, Owen 29 minutes 24 seconds
+And we.
+Mullings, Owen 29 minutes 27 seconds
+I don't know if this will go to the, this is more the firm hierarchy piece. So at some point, so this is an example of one of the implementations teams firm relationship setup. But we would have a bunch of these across all the sub-advisors in the firm settings of the firm that is being the sub-advisor.
+
+Azizi, Ali
+29 minutes 35 seconds29:35
+Azizi, Ali 29 minutes 35 seconds
+1.
+Azizi, Ali 29 minutes 37 seconds
+Yeah.
+Azizi, Ali 29 minutes 40 seconds
+Okay, well.
+
+
+Mullings, Owen
+29 minutes 50 seconds29:50
+Mullings, Owen 29 minutes 50 seconds
+So which are codes come from data firms. And then at the user level, they would have to assign the sub advisor role with the trading functions that that includes, including the aggregate resources to kind of bypass the traditional firm scope.
+Mullings, Owen 30 minutes 10 seconds
+Um...
+Mullings, Owen 30 minutes 11 seconds
+They will have to do this doing user management, but for the firm hierarchy piece, I think this is the relationship.
+Mullings, Owen 30 minutes 17 seconds
+Piece that I understand.
+
+Azizi, Ali
+30 minutes 19 seconds30:19
+Azizi, Ali 30 minutes 19 seconds
+Mm-hmm.
+
+Mullings, Owen
+30 minutes 21 seconds30:21
+Mullings, Owen 30 minutes 21 seconds
+Thinh.
+Mullings, Owen 30 minutes 23 seconds
+Can the JP Checking in if this makes sense?
+
+Azizi, Ali
+30 minutes 24 seconds30:24
+Azizi, Ali 30 minutes 24 seconds
+Ohh.
+
+So, Candi
+30 minutes 31 seconds30:31
+So, Candi 30 minutes 31 seconds
+Yeah, just as I'm aware, we haven't given any requirements to from 360.
+So, Candi 30 minutes 38 seconds
+So, do they know what is to be changed?
+
+Mullings, Owen
+30 minutes 39 seconds30:39
+Mullings, Owen 30 minutes 39 seconds
+Okay.
+Mullings, Owen 30 minutes 44 seconds
+No, but I heard during that meeting, I think Radhika said that they did the analysis and there is some information to load. I haven't seen it. I don't know what the structure of it is.
+
+Azizi, Ali
+30 minutes 48 seconds30:48
+Azizi, Ali 30 minutes 48 seconds
+Yes.
+
+Mullings, Owen
+30 minutes 59 seconds30:59
+Mullings, Owen 30 minutes 59 seconds
+This is just based on how the meeting that you had set up with the command and how they set it up. Yeah, that's all them commenting on. That's all I know about.
+
+So, Candi
+31 minutes 4 seconds31:04
+So, Candi 31 minutes 4 seconds
+No. Yes.
+So, Candi 31 minutes 11 seconds
+Yeah, I, yeah, so Ali, FYI, we, this is my side, our side of story, but if anyone has given anything or any idea to the firm 316, we, we haven't compared Nooks yet.
+So, Candi 31 minutes 30 seconds
+So we don't know what they know and what they are trying to do.
+So, Candi 31 minutes 36 seconds
+So, yeah, there's no, at least from my side, we haven't talked to them about the actual requirements. I think on the high level, Ray knows that they have to implement the Servicing firm relationship, but I'm not sure how much detail or what did they get.
+So, Candi 31 minutes 55 seconds
+Get from from that initiative yet.
+
+Azizi, Ali
+32 minutes32:00
+Azizi, Ali 32 minutes
+Yeah, I agree. And it's, I think, I think it can be initiated with us to go there to talk about the requirements and about the data elements that are required.
+
+So, Candi
+32 minutes 1 second32:01
+So, Candi 32 minutes 1 second
+No.
+
+Azizi, Ali
+32 minutes 22 seconds32:22
+Azizi, Ali 32 minutes 22 seconds
+to be taken from Firm 360 when we want to implement the multi-firm. So at least we can talk about those attributes and data elements. To say, okay, for example, for SOIB advisory, we need these data points for
+
+Mullings, Owen
+32 minutes 34 seconds32:34
+Mullings, Owen 32 minutes 34 seconds
+Skip.
+
+Azizi, Ali
+32 minutes 39 seconds32:39
+Azizi, Ali 32 minutes 39 seconds
+parents, child is the same. So yeah, we need to talk with them. But yeah, let's, let's.
+Azizi, Ali 32 minutes 50 seconds
+go ahead and make ourselves more, our requirement more solid, and then yeah, we will have this meeting with them soon.
+
+
+
+Mullings, Owen
+34 minutes 47 seconds34:47
+Mullings, Owen 34 minutes 47 seconds
+This.
+Mullings, Owen 34 minutes 54 seconds
+S.
+
+Pierre, Joseph-Pascal
+34 minutes 55 seconds34:55
+Pierre, Joseph-Pascal 34 minutes 55 seconds
+So, hence that that that that relationship, you know, some advisory relationship.
+Pierre, Joseph-Pascal 35 minutes 2 seconds
+but it stops there. You know, it doesn't say who, what, but but but there's at least that grant that is given, you know, to the to the firm. It doesn't have to be the private firm, but there has to be a clear grant provided from the sub-advisory firm to
+
+Mullings, Owen
+35 minutes 13 seconds35:13
+Mullings, Owen 35 minutes 13 seconds
+Yes.
+Mullings, Owen 35 minutes 21 seconds
+Mm-hmm.
+
+Pierre, Joseph-Pascal
+35 minutes 24 seconds35:24
+Pierre, Joseph-Pascal 35 minutes 24 seconds
+that other firm that would have some of its users performing actions.
+Pierre, Joseph-Pascal 35 minutes 30 seconds
+So that to me was the first operation or first action. Then the second action is to formally assign permissions, be it or codes or whatnot, to specific users.
+
+Mullings, Owen
+35 minutes 30 seconds35:30
+Mullings, Owen 35 minutes 30 seconds
+Mhm.
+
+Pierre, Joseph-Pascal
+35 minutes 46 seconds35:46
+Pierre, Joseph-Pascal 35 minutes 46 seconds
+And.
+Pierre, Joseph-Pascal 35 minutes 49 seconds
+So that's how, at least that's how I remember, you know, where we stopped at this last time.
+Pierre, Joseph-Pascal 35 minutes 56 seconds
+But it seems to go a bit further, or...
+Pierre, Joseph-Pascal 36 minutes
+Uhh...
+Pierre, Joseph-Pascal 36 minutes 2 seconds
+Does it go in contradiction or?
+
+Mullings, Owen
+36 minutes 5 seconds36:05
+Mullings, Owen 36 minutes 5 seconds
+No, I think that's what I'm thinking too.
+
+Pierre, Joseph-Pascal
+36 minutes 8 seconds36:08
+Pierre, Joseph-Pascal 36 minutes 8 seconds
+Yeah.
+
+Mullings, Owen
+36 minutes 8 seconds36:08
+Mullings, Owen 36 minutes 8 seconds
+So the sub advisor relationship is essentially at a child firm. If it's a sub advisor, it can reference our codes that they can sub advise on other firms.
+Mullings, Owen 36 minutes 22 seconds
+And then that's the firm hierarchy piece.
+Mullings, Owen 36 minutes 25 seconds
+But then, at the user assignment piece, we might need to create a user access that represents A sub-advisor, and then only allow them to pick from the oracles that their that their firm is sub-advising from.
+Mullings, Owen 36 minutes 41 seconds
+when we're doing the assignment. So those are the same two pieces that you're talking about and the same two pieces that we're doing here.
+
+Pierre, Joseph-Pascal
+36 minutes 48 seconds36:48
+Pierre, Joseph-Pascal 36 minutes 48 seconds
+Yeah.
+Pierre, Joseph-Pascal 36 minutes 50 seconds
+K.
+Pierre, Joseph-Pascal 36 minutes 52 seconds
+Then to which, okay, because maybe I was misled or I misunderstood when you said our code.
+Pierre, Joseph-Pascal 37 minutes 2 seconds
+I understood that it would be attached to the parent firm or something, or be part of parent firms, our code range, but...
+Pierre, Joseph-Pascal 37 minutes 15 seconds
+It seems that's not what you want.
+
+
+
+Mullings, Owen
+38 minutes 58 seconds38:58
+Mullings, Owen 38 minutes 58 seconds
+Sep.
+
+Pierre, Joseph-Pascal
+38 minutes 59 seconds38:59
+Pierre, Joseph-Pascal 38 minutes 59 seconds
+Gee.
+
+Mullings, Owen
+39 minutes 2 seconds39:02
+Mullings, Owen 39 minutes 2 seconds
+I.
+
+Pierre, Joseph-Pascal
+39 minutes 7 seconds39:07
+Pierre, Joseph-Pascal 39 minutes 7 seconds
+I...
+Pierre, Joseph-Pascal 39 minutes 11 seconds
+To management, I think that's it.
+
+Mullings, Owen
+39 minutes 30 seconds39:30
+Mullings, Owen 39 minutes 30 seconds
+Oss.
+
+Pierre, Joseph-Pascal
+39 minutes 31 seconds39:31
+Pierre, Joseph-Pascal 39 minutes 31 seconds
+When we assign packages.
+
+Mullings, Owen
+39 minutes 33 seconds39:33
+Mullings, Owen 39 minutes 33 seconds
+What?
+
+Pierre, Joseph-Pascal
+39 minutes 34 seconds39:34
+Pierre, Joseph-Pascal 39 minutes 34 seconds
+So, what we just discussed is the Oracle code. OK, regardless where it lands, is it a GDP or still a table? The point is, there would be a set of our code attached to a specific firm.
+
+Mullings, Owen
+39 minutes 36 seconds39:36
+Mullings, Owen 39 minutes 36 seconds
+Sso.
+
+Pierre, Joseph-Pascal
+39 minutes 47 seconds39:47
+Pierre, Joseph-Pascal 39 minutes 47 seconds
+No, but, but, but the user itself would have that relationship, you know, yeah, anyway, you know, that, that's, let's say, the sub-advisory firm.
+Pierre, Joseph-Pascal 39 minutes 57 seconds
+That has those are codes.
+Pierre, Joseph-Pascal 40 minutes
+But then this user has a relationship with the firm as being, anyway, I'll model that with FGDA, you know, so let's not dive into that complexity, but the package itself.
+Pierre, Joseph-Pascal 40 minutes 20 seconds
+When we look at packages today.
+Pierre, Joseph-Pascal 40 minutes 28 seconds
+Big package or resources, either one, there is no reference to a firm, basically, because so far, what we, as we said yesterday, previously, if I go to the current state.
+Pierre, Joseph-Pascal 40 minutes 46 seconds
+A user has the ID for each firm is working for. So if she's working for several child firms on the apparent firm, you would have separate IDs for each of them. So therefore, going back to the assignment, there's no need at the assignment to specify this package or this resource
+Pierre, Joseph-Pascal 41 minutes 7 seconds
+These are codes for which firm of the user.
+Pierre, Joseph-Pascal 41 minutes 11 seconds
+Because it's it's implied that this user anyway has only one firm at time. OK, but in the new model.
+
+Mullings, Owen
+41 minutes 20 seconds41:20
+Mullings, Owen 41 minutes 20 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+41 minutes 22 seconds41:22
+Pierre, Joseph-Pascal 41 minutes 22 seconds
+So, going to the new one, current state, then you have one ID.
+Pierre, Joseph-Pascal 41 minutes 30 seconds
+tied to several firms, right? Be it parent and child firms. So in the assignment.
+Pierre, Joseph-Pascal 41 minutes 38 seconds
+I don't know if we have salt for it.
+Pierre, Joseph-Pascal 41 minutes 42 seconds
+He has, let's say you have this user assigned to one, two, three, 4, five different firms, okay?
+Pierre, Joseph-Pascal 41 minutes 49 seconds
+which are related, right? One is the parent, the others are the children.
+Pierre, Joseph-Pascal 41 minutes 55 seconds
+But then the user would be assigned packages and resources.
+Pierre, Joseph-Pascal 41 minutes 59 seconds
+So which package is for which firm?
+
+Mullings, Owen
+42 minutes42:00
+Mullings, Owen 42 minutes
+Okay.
+
+Pierre, Joseph-Pascal
+42 minutes 2 seconds42:02
+Pierre, Joseph-Pascal 42 minutes 2 seconds
+Is that of importance? Should we associate a package assignment?
+Pierre, Joseph-Pascal 42 minutes 10 seconds
+To a specific firm.
+
+Mullings, Owen
+42 minutes 14 seconds42:14
+Mullings, Owen 42 minutes 14 seconds
+So short answer, I don't know yet, but the way
+
+Pierre, Joseph-Pascal
+42 minutes 14 seconds42:14
+Pierre, Joseph-Pascal 42 minutes 14 seconds
+Org.
+Pierre, Joseph-Pascal 42 minutes 15 seconds
+Yeah.
+
+Mullings, Owen
+42 minutes 20 seconds42:20
+Mullings, Owen 42 minutes 20 seconds
+I interpret what you're saying.
 Mullings, Owen 42 minutes 24 seconds
 I think the idea is that the person sub-advising would be enrolled in their parent firm or home firm.
 Mullings, Owen 42 minutes 31 seconds
@@ -420,24 +836,8 @@ Mullings, Owen
 Mullings, Owen 44 minutes 30 seconds
 To put um your block trades in um all of that is at the firm is at the home firm.
 
-Pierre, Joseph-Pascal
-44 minutes 38 seconds44:38
-Pierre, Joseph-Pascal 44 minutes 38 seconds
-So, there's no use case.
 
-Mullings, Owen
-44 minutes 38 seconds44:38
-Mullings, Owen 44 minutes 38 seconds
-And it's managed by the, yeah, go ahead.
 
-Pierre, Joseph-Pascal
-44 minutes 40 seconds44:40
-Pierre, Joseph-Pascal 44 minutes 40 seconds
-So, so there's no use case where a user would have a...
-Pierre, Joseph-Pascal 44 minutes 46 seconds
-Different level of accesses.
-Pierre, Joseph-Pascal 44 minutes 52 seconds
-over certain children, but not all.
 Pierre, Joseph-Pascal 44 minutes 59 seconds
 In.
 
@@ -475,57 +875,580 @@ Pierre, Joseph-Pascal
 Pierre, Joseph-Pascal 45 minutes 32 seconds
 So, so I'm getting away from from this sub advisor to me is is.
 
-
 Mullings, Owen
-1 hour 6 minutes 50 seconds1:06:50
-Mullings, Owen 1 hour 6 minutes 50 seconds
-Unless, unless Friday afternoon, I just I stay until the end of the day.
-
-Pierre, Joseph-Pascal
-1 hour 6 minutes 50 seconds1:06:50
-Pierre, Joseph-Pascal 1 hour 6 minutes 50 seconds
-Mm.
-Pierre, Joseph-Pascal 1 hour 6 minutes 57 seconds
-No.
-OO
-Oyemade, Obaloluwa
-1 hour 6 minutes 58 seconds1:06:58
-Oyemade, Obaloluwa 1 hour 6 minutes 58 seconds
-I will do tomorrow afternoon.
-
-Pierre, Joseph-Pascal
-1 hour 7 minutes 2 seconds1:07:02
-Pierre, Joseph-Pascal 1 hour 7 minutes 2 seconds
-If it's tomorrow afternoon, it would have to be...
-
-Mullings, Owen
-1 hour 7 minutes 2 seconds1:07:02
-Mullings, Owen 1 hour 7 minutes 2 seconds
-Thank you.
-
-Pierre, Joseph-Pascal
-1 hour 7 minutes 6 seconds1:07:06
-Pierre, Joseph-Pascal 1 hour 7 minutes 6 seconds
-Two 30 and on.
-OO
-Oyemade, Obaloluwa
-1 hour 7 minutes 9 seconds1:07:09
-Oyemade, Obaloluwa 1 hour 7 minutes 9 seconds
-Yep, I think. Owen, are you okay with tomorrow afternoon, too, that is?
-
-Mullings, Owen
-1 hour 7 minutes 15 seconds1:07:15
-Mullings, Owen 1 hour 7 minutes 15 seconds
-I'm free from 2 to 3.30.
-OO
-Oyemade, Obaloluwa
-1 hour 7 minutes 20 seconds1:07:20
-Oyemade, Obaloluwa 1 hour 7 minutes 20 seconds
-2 to 330.
-Oyemade, Obaloluwa 1 hour 7 minutes 23 seconds
+45 minutes 33 seconds45:33
+Mullings, Owen 45 minutes 33 seconds
+Okay.
+Mullings, Owen 45 minutes 34 seconds
 Yeah.
-Oyemade, Obaloluwa 1 hour 7 minutes 25 seconds
-Alright, let's see, let's see what I can do. I can push, see if I can push two to three times 30 tomorrow.
+
+Pierre, Joseph-Pascal
+45 minutes 38 seconds45:38
+Pierre, Joseph-Pascal 45 minutes 38 seconds
+something else. I'm not saying that it doesn't have issues. But I'm just concerned about, you know, the home firm and children and child firms.
+Pierre, Joseph-Pascal 45 minutes 53 seconds
+any assignment that I am making on this user, right, this ID.
+Pierre, Joseph-Pascal 46 minutes
+Do I have to know for which firm it applies?
+Pierre, Joseph-Pascal 46 minutes 8 seconds
+And you, it seems saying no, it doesn't have to.
+
+So, Candi
+46 minutes 8 seconds46:08
+So, Candi 46 minutes 8 seconds
+I...
+
+Mullings, Owen
+46 minutes 12 seconds46:12
+Mullings, Owen 46 minutes 12 seconds
+So parent firm, yes, you'd be enrolled in whatever firm you are, either a parent firm or a child firm.
+
+So, Candi
+46 minutes 12 seconds46:12
+So, Candi 46 minutes 12 seconds
+Yeah.
+
+Mullings, Owen
+46 minutes 20 seconds46:20
+Mullings, Owen 46 minutes 20 seconds
+And if you enrol at the parent firm, I don't think you'd be enrolled in any of the child firms.
+Mullings, Owen 46 minutes 27 seconds
+So, the way you have it here makes sense to me, it might.
+Mullings, Owen 46 minutes 31 seconds
+But.
+
+Pierre, Joseph-Pascal
+46 minutes 33 seconds46:33
+Pierre, Joseph-Pascal 46 minutes 33 seconds
+No, but so yeah.
+
+So, Candi
+46 minutes 33 seconds46:33
+So, Candi 46 minutes 33 seconds
+I, I...
+So, Candi 46 minutes 35 seconds
+So, JP, I think I understand sub advisor would be a separate user ID. So, if I work for a firm, I have one ID, and if my firm have a sub-advisor relationship with another firm,
+So, Candi 46 minutes 56 seconds
+or firms, then I will need another user ID to do the traits for the Servicing R codes. So we do not, at least that was the idea, we do not want to mix up.
+So, Candi 47 minutes 15 seconds
+parent from user and Servicing user. So if a person is a parent from user and so advisor user, then the person will have two ID anyway.
+So, Candi 47 minutes 26 seconds
+So, we deal with one scenario at a time, right?
+
+Mullings, Owen
+47 minutes 33 seconds47:33
+Mullings, Owen 47 minutes 33 seconds
+Yeah, that's how we get away with not having a single user with multiple feature access.
+
+So, Candi
+47 minutes 40 seconds47:40
+So, Candi 47 minutes 40 seconds
+And so the idea is if, so let's say someone worked for Guardian Capitals, the firm, and then they self-advising for multiple firms. So first of all, on the firm level, on firm 360, those relationship has to be established.
+So, Candi 47 minutes 59 seconds
+And then what are the Oracle Guardians? Guardian Capital can some advice for those firms should be spelled out and we should ingest it from Firm 360 into Compass. And then when we set up someone for
+
+Mullings, Owen
+48 minutes 8 seconds48:08
+Mullings, Owen 48 minutes 8 seconds
+S.
+
+
+
+Mullings, Owen
+48 minutes 57 seconds48:57
+Mullings, Owen 48 minutes 57 seconds
+Shah.
+
+So, Candi
+48 minutes 59 seconds48:59
+So, Candi 48 minutes 59 seconds
+And then in terms of the error code assignments, because on the firm level, we know this Guardian Capital sub advising maybe for three other firms. They sub advising for high review for Harbour Fund for some other firm.
+
+Mullings, Owen
+49 minutes 13 seconds49:13
+Mullings, Owen 49 minutes 13 seconds
+So.
+
+So, Candi
+49 minutes 18 seconds49:18
+So, Candi 49 minutes 18 seconds
+So then when we select, when we know is a self-advising user package, we know what are the self-advising article can be assigned to this person. So that would be very specific for a self-advisor user persona. So that's how I understand and.
+So, Candi 49 minutes 39 seconds
+The error code restriction or the validation, what can be assigned to this person would be based on the firm settings. And that's to be backed up by those contracts, those agreements between the firms and so on and so forth. And we don't get involved.
+So, Candi 49 minutes 58 seconds
+Wolf in that.
+So, Candi 50 minutes 4 seconds
+So to your point, we don't need to know the firm assignment when we're setting up this sub-advisor user, because the firm relationship would be handled on the firm hierarchy, in the firm hierarchy.
+
+Mullings, Owen
+50 minutes 4 seconds50:04
+Mullings, Owen 50 minutes 4 seconds
+Mm.
+
+So, Candi
+50 minutes 22 seconds50:22
+So, Candi 50 minutes 22 seconds
+Does it make sense?
+
+Pierre, Joseph-Pascal
+50 minutes 28 seconds50:28
+Pierre, Joseph-Pascal 50 minutes 28 seconds
+So you think the parent and child is handled in the firmware hierarchy, right, which is this here. So I know how they are related to each other. And then I have assignments, a bunch of packages assigned to a user.
+
+Mullings, Owen
+50 minutes 35 seconds50:35
+Mullings, Owen 50 minutes 35 seconds
+It's fine.
+
+Pierre, Joseph-Pascal
+50 minutes 45 seconds50:45
+Pierre, Joseph-Pascal 50 minutes 45 seconds
+Irrespective of the firm.
+Pierre, Joseph-Pascal 50 minutes 49 seconds
+Okay.
+Pierre, Joseph-Pascal 50 minutes 52 seconds
+And it doesn't, to you guys, it's not an issue because when access control is performed, it's gonna cheque, give me the assignments. Does he have the right assignments? Let's say for that, for the action he wants to do. Does he have the right OR codes?
+
+Mullings, Owen
+50 minutes 56 seconds50:56
+Mullings, Owen 50 minutes 56 seconds
+Gee.
+Mullings, Owen 51 minutes 5 seconds
+The.
+
+Pierre, Joseph-Pascal
+51 minutes 11 seconds51:11
+Pierre, Joseph-Pascal 51 minutes 11 seconds
+Yes, he does.
+Pierre, Joseph-Pascal 51 minutes 13 seconds
+Um...
+Pierre, Joseph-Pascal 51 minutes 16 seconds
+So, we're fine.
+Pierre, Joseph-Pascal 51 minutes 21 seconds
+Maybe just to be more explicit, my concern or my question at least is, so far in Compassx, it's always firm scoped. So we always in a firm view for doing anything, you know. There's nothing that stands.
+Pierre, Joseph-Pascal 51 minutes 42 seconds
+But you could be at the parent firm view, let's say, for performance of the things, but you could also go into a child firm view.
+Pierre, Joseph-Pascal 51 minutes 57 seconds
+and try to make certain actions that aren't technically not shouldn't be done under that child firm, it should be done under another child firm, let's say. So, but you have the assignment, but because the assignments, be it resource or package or...
+
+
+
+Mullings, Owen 52 minutes 58 seconds
+So.
+Mullings, Owen 53 minutes
+Somebody with Nbin access has the access to brand other firms, but they can't brand Nbin itself.
+Mullings, Owen 53 minutes 9 seconds
+So if I was to go to Nbin here.
+Mullings, Owen 53 minutes 18 seconds
+The Nbin branding is set is set, but I can't do anything about it. But then I have permission to brand stuff. It's just that in NBF, they'll see it.
+Mullings, Owen 53 minutes 28 seconds
+But then if I go down to NHR firm.
+Mullings, Owen 53 minutes 33 seconds
+I can brand the child firm.
+Mullings, Owen 53 minutes 36 seconds
+That's one example.
+Mullings, Owen 53 minutes 38 seconds
+Um, firm at the station has a similar case.
+Mullings, Owen 53 minutes 42 seconds
+So, in the NBF firm.
+Mullings, Owen 53 minutes 48 seconds
+Uh, I have the ability to see at the stations where I, uh, what do I do?
+Mullings, Owen 53 minutes 53 seconds
+Do I do a typo?
+Mullings, Owen 53 minutes 56 seconds
+****, ****.
+Mullings, Owen 53 minutes 58 seconds
+Okay, go home.
+Mullings, Owen 54 minutes 1 second
+Not okay, good.
+Mullings, Owen 54 minutes 5 seconds
+So.
+Mullings, Owen 54 minutes 8 seconds
+I have the ability to generate attestations assigned to me because I'm part of Nbin. I can
+Mullings, Owen 54 minutes 17 seconds
+So, where is the great Atesh?
+Mullings, Owen 54 minutes 22 seconds
+Okay, this is maybe they removed the feature because it's launched. I don't understand. But this page is supposed to be where you set up the attestation, you pick the firms that need to get the attestation, and then you run it. So this is this is a function that's a Nbin function.
+Mullings, Owen 54 minutes 42 seconds
+It's kind of like an administration function and then it generates the individual firm. So you see the number of firms here.
+Mullings, Owen 54 minutes 50 seconds
+Then the individual attestation reports goes to the firms. So this is where you see the individual firm attestations. And then each firm was to their own attestations. So
+Mullings, Owen 55 minutes 4 seconds
+But so if I have the permission to generate the attestations, if I go into a child firm, I shouldn't see the ability to generate the global attestations.
+Mullings, Owen 55 minutes 16 seconds
+So those are two examples of the how I interpret the problem that you're describing is the firm context matters on what you can actually do.
+Mullings, Owen 55 minutes 28 seconds
+But in this case, in these cases, the way that I expect it is they cheque the firm assignment and then they have like, should I show it or should I not show it logic in the UI.
+Mullings, Owen 55 minutes 43 seconds
+I don't know if that's the best way of doing it, or it should be more centralised, but...
+
+Pierre, Joseph-Pascal
+55 minutes 45 seconds55:45
+Pierre, Joseph-Pascal 55 minutes 45 seconds
+Yeah.
+
+Mullings, Owen
+55 minutes 49 seconds55:49
+Mullings, Owen 55 minutes 49 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+55 minutes 49 seconds55:49
+Pierre, Joseph-Pascal 55 minutes 49 seconds
+To me, it touches.
+Pierre, Joseph-Pascal 55 minutes 54 seconds
+A similar issue we have.
+
+Mullings, Owen
+55 minutes 56 seconds55:56
+Mullings, Owen 55 minutes 56 seconds
+Thanks.
+
+Pierre, Joseph-Pascal
+55 minutes 58 seconds55:58
+Pierre, Joseph-Pascal 55 minutes 58 seconds
+Where we have certain controls done on the UI, but not on the back end.
+Pierre, Joseph-Pascal 56 minutes 4 seconds
+So if ever someone has access to the back end, let's say an API endpoint, whatever, he would be, he wouldn't be prevented. You know, he cannot do it from the front end because the menu is not made available or whatever. But the back end has no safeguard.
+
+
+Pierre, Joseph-Pascal
+56 minutes 22 seconds56:22
+Pierre, Joseph-Pascal 56 minutes 22 seconds
+Sso.
+Pierre, Joseph-Pascal 56 minutes 25 seconds
+I think that's what you're showing here is, okay, there's something, there's some control performed front-end wise.
+Pierre, Joseph-Pascal 56 minutes 34 seconds
+But, in my use case, means you know there's nothing backend wise that would prevent it.
+Pierre, Joseph-Pascal 56 minutes 41 seconds
+which to me is a loophole. Is it critical? I don't know, but I think it should be tied.
+Pierre, Joseph-Pascal 56 minutes 48 seconds
+If, if hence my question, basically, is that it should be, but is...
+Pierre, Joseph-Pascal 56 minutes 54 seconds
+Should the packages?
+
+Mullings, Owen
+56 minutes 54 seconds56:54
+Mullings, Owen 56 minutes 54 seconds
+This is important.
+
+Pierre, Joseph-Pascal
+56 minutes 57 seconds56:57
+Pierre, Joseph-Pascal 56 minutes 57 seconds
+Yeah, exactly. Should the packages and resource assignments be associated to a firm? Because currently, it's not, and was not, because the assumption was always a user only works for one firm.
+Pierre, Joseph-Pascal 57 minutes 13 seconds
+But now, not that it, like, not that it won't be true anymore.
+Pierre, Joseph-Pascal 57 minutes 20 seconds
+Should we make that explicit?
+Pierre, Joseph-Pascal 57 minutes 23 seconds
+OK, this assignment is actually for this one under that user.
+
+So, Candi
+57 minutes 30 seconds57:30
+So, Candi 57 minutes 30 seconds
+Sorry, you lost me because this advisor is.
+
+Pierre, Joseph-Pascal
+57 minutes 36 seconds57:36
+Pierre, Joseph-Pascal 57 minutes 36 seconds
+No, no, but I'm not talking about subadvisor.
+
+So, Candi
+57 minutes 38 seconds57:38
+So, Candi 57 minutes 38 seconds
+in a firm.
+
+Pierre, Joseph-Pascal
+57 minutes 40 seconds57:40
+Pierre, Joseph-Pascal 57 minutes 40 seconds
+No, but I'm not talking about self-advisory. For me, this issue is first and foremost without putting some advisory to the picture yet. It's first and foremost a firm hierarchy issue.
+
+So, Candi
+57 minutes 41 seconds57:41
+So, Candi 57 minutes 41 seconds
+But we always...
+So, Candi 57 minutes 43 seconds
+Mhm.
+So, Candi 57 minutes 59 seconds
+Mhm.
+
+Pierre, Joseph-Pascal
+57 minutes 59 seconds57:59
+Pierre, Joseph-Pascal 57 minutes 59 seconds
+If, if we allow, if we enable a user to only have one ID on the several Firms.
+
+Mullings, Owen
+58 minutes58:00
+Mullings, Owen 58 minutes
+OK.
+
+Pierre, Joseph-Pascal
+58 minutes 6 seconds58:06
+Pierre, Joseph-Pascal 58 minutes 6 seconds
+and those who are parent and children's.
+Pierre, Joseph-Pascal 58 minutes 10 seconds
+Then what about their assignments? Should there be, should they be specific to a related firm?
+
+Mullings, Owen
+58 minutes 14 seconds58:14
+Mullings, Owen 58 minutes 14 seconds
+Discussion.
+Mullings, Owen 58 minutes 18 seconds
+Gee.
+Mullings, Owen 58 minutes 23 seconds
+So, to JP, I think this is what I was trying to describe earlier, where
+Mullings, Owen 58 minutes 30 seconds
+If you're if you're enrolled in a parent firm, if ever you're going down into the child firm, we almost have to reapply the firm assignment of that child firm.
+Mullings, Owen 58 minutes 45 seconds
+But I don't know formally how that would look.
+
+Pierre, Joseph-Pascal
+58 minutes 49 seconds58:49
+Pierre, Joseph-Pascal 58 minutes 49 seconds
+You see, if...
+
+Mullings, Owen
+58 minutes 49 seconds58:49
+Mullings, Owen 58 minutes 49 seconds
+But there's a bunch of cases. Yeah, go ahead.
+
+Pierre, Joseph-Pascal
+58 minutes 52 seconds58:52
+Pierre, Joseph-Pascal 58 minutes 52 seconds
+Come again, repeat that.
+
+Mullings, Owen
+58 minutes 53 seconds58:53
+Mullings, Owen 58 minutes 53 seconds
+So, um, picture Nbin appear in firm.
+Mullings, Owen 58 minutes 58 seconds
+Um, if I'm uh, why does it always do that? All common letters, it's sensitive or something.
+Mullings, Owen 59 minutes 9 seconds
+So, I'm in Nbin here.
+Mullings, Owen 59 minutes 13 seconds
+If I go down into a child firm, I can't just rely on assignments based on my MBN profile.
+Mullings, Owen 59 minutes 20 seconds
+I almost have to look at the firm assignments once I go down into that child firm.
+Mullings, Owen 59 minutes 26 seconds
+is the way that I thought about it.
+
+Pierre, Joseph-Pascal
+59 minutes 32 seconds59:32
+Pierre, Joseph-Pascal 59 minutes 32 seconds
+Okay, so it's a firm because the firm has a set of packages and you as a user you may have more.
+Pierre, Joseph-Pascal 59 minutes 41 seconds
+which are contained and constrained by that firm assignments is what you say.
+
+Mullings, Owen
+59 minutes 48 seconds59:48
+Mullings, Owen 59 minutes 48 seconds
+Yeah, just avoid things from breaking and to have the firm scoping. But I think we need to gather use cases to know whether or not it's worth it. Like, when does that become a problem?
+
+
+
+Mullings, Owen
+1 hour 41 seconds1:00:41
+Mullings, Owen 1 hour 41 seconds
+Huu.
+
+Pierre, Joseph-Pascal
+1 hour 42 seconds1:00:42
+Pierre, Joseph-Pascal 1 hour 42 seconds
+So, so in which case, you shouldn't, yeah, but...
+
+Mullings, Owen
+1 hour 42 seconds1:00:42
+Mullings, Owen 1 hour 42 seconds
+Sso.
+
+Pierre, Joseph-Pascal
+1 hour 49 seconds1:00:49
+Pierre, Joseph-Pascal 1 hour 49 seconds
+But then, because the access control is not dynamic, in the end, I don't know about that, that Nbin firm and those firms, which to me, maybe it was.
+Pierre, Joseph-Pascal 1 hour 1 minute 5 seconds
+Thought to be like a firm key, like in the end being the parent of all.
+Pierre, Joseph-Pascal 1 hour 1 minute 10 seconds
+But I think that's not a good deal.
+Pierre, Joseph-Pascal 1 hour 1 minute 14 seconds
+It's not a good concept to keep using. But set that aside, I believe the access controls is not dynamic in the sense that is it going to cheque what the firm has assigned and compare it against what the user has assigned.
+
+Mullings, Owen
+1 hour 1 minute 19 seconds1:01:19
+Mullings, Owen 1 hour 1 minute 19 seconds
+Oss.
+
+So, Candi
+1 hour 1 minute 19 seconds1:01:19
+So, Candi 1 hour 1 minute 19 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 1 minute 22 seconds1:01:22
+Mullings, Owen 1 hour 1 minute 22 seconds
+Yes.
+
+Pierre, Joseph-Pascal
+1 hour 1 minute 33 seconds1:01:33
+Pierre, Joseph-Pascal 1 hour 1 minute 33 seconds
+And then perform is is is a yeah is a access control.
+Pierre, Joseph-Pascal 1 hour 1 minute 42 seconds
+I thought that what you had said before was it's actually done before saving.
+Pierre, Joseph-Pascal 1 hour 1 minute 51 seconds
+And whatever is saved is what the user is entitled to. So therefore the access control is simply about checking do you have that assignment or not.
+
+Mullings, Owen
+1 hour 2 minutes 2 seconds1:02:02
+Mullings, Owen 1 hour 2 minutes 2 seconds
+Yeah, in most cases that works.
+
+Pierre, Joseph-Pascal
+1 hour 2 minutes 3 seconds1:02:03
+Pierre, Joseph-Pascal 1 hour 2 minutes 3 seconds
+Said that.
+Pierre, Joseph-Pascal 1 hour 2 minutes 5 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 2 minutes 5 seconds1:02:05
+Mullings, Owen 1 hour 2 minutes 5 seconds
+But in these other cases, we need something else.
+
+Pierre, Joseph-Pascal
+1 hour 2 minutes 11 seconds1:02:11
+Pierre, Joseph-Pascal 1 hour 2 minutes 11 seconds
+Which is not implemented.
+
+Mullings, Owen
+1 hour 2 minutes 14 seconds1:02:14
+Mullings, Owen 1 hour 2 minutes 14 seconds
+In point cases where it's important, but not as a service, no.
+
+Pierre, Joseph-Pascal
+1 hour 2 minutes 22 seconds1:02:22
+Pierre, Joseph-Pascal 1 hour 2 minutes 22 seconds
+OK.
+Pierre, Joseph-Pascal 1 hour 2 minutes 24 seconds
+So, so to me, it comes back to the same thing, you know, it's how much...
+Pierre, Joseph-Pascal 1 hour 2 minutes 30 seconds
+How many changes you want to make to make the model a bit more?
+Pierre, Joseph-Pascal 1 hour 2 minutes 38 seconds
+Okay, you know, without going to Assurance 2.0.
+Pierre, Joseph-Pascal 1 hour 2 minutes 43 seconds
+And, on the same new point, you know, it's it could be checked against the firm assignments, but that means the access control would have to be dynamic.
+Pierre, Joseph-Pascal 1 hour 2 minutes 57 seconds
+Otherwise, you...
+Pierre, Joseph-Pascal 1 hour 3 minutes
+You always have a firm scope assignment.
+
+Mullings, Owen
+1 hour 3 minutes 5 seconds1:03:05
+Mullings, Owen 1 hour 3 minutes 5 seconds
+Mhm.
+
+
+
+So, Candi
+1 hour 4 minutes1:04:00
+So, Candi 1 hour 4 minutes
+Are you? Yeah, I...
+
+Mullings, Owen
+1 hour 4 minutes1:04:00
+Mullings, Owen 1 hour 4 minutes
+But, sorry, I run out of time.
+
+So, Candi
+1 hour 4 minutes 3 seconds1:04:03
+So, Candi 1 hour 4 minutes 3 seconds
+Yeah, we're talking about multi-firm, but actually parent firm users would be assigned to one firm ID only. But what we want to handle or what we want to enable is that even you're on one parent firm ID, but then...
+So, Candi 1 hour 4 minutes 22 seconds
+You can assign, you can see across all the child from some accounts.
+
+Mullings, Owen
+1 hour 4 minutes 29 seconds1:04:29
+Mullings, Owen 1 hour 4 minutes 29 seconds
+Mhm.
+
+So, Candi
+1 hour 4 minutes 31 seconds1:04:31
+So, Candi 1 hour 4 minutes 31 seconds
+So I don't think, yeah, we surely we can do more research on the use cases and what's the...
+
+Pierre, Joseph-Pascal
+1 hour 4 minutes 31 seconds1:04:31
+Pierre, Joseph-Pascal 1 hour 4 minutes 31 seconds
+Hmm.
+
+Mullings, Owen
+1 hour 4 minutes 32 seconds1:04:32
+Mullings, Owen 1 hour 4 minutes 32 seconds
+Okay.
+
+So, Candi
+1 hour 4 minutes 41 seconds1:04:41
+So, Candi 1 hour 4 minutes 41 seconds
+Problem they're trying to solve, but so far we heard it's because they cannot work on some of the account bound by the firm range.
+So, Candi 1 hour 4 minutes 51 seconds
+So it's not so much about switching the firm contacts for them. It's to make sure that they can do the same thing across the board to all the accounts.
+
+Mullings, Owen
+1 hour 4 minutes 56 seconds1:04:56
+Mullings, Owen 1 hour 4 minutes 56 seconds
+Best.
+
+So, Candi
+1 hour 5 minutes 4 seconds1:05:04
+So, Candi 1 hour 5 minutes 4 seconds
+So yeah, your branding is an example. Whenever I change from scope, I see branding, I don't see branding as a feature and so on.
+
+Mullings, Owen
+1 hour 5 minutes 11 seconds1:05:11
+Mullings, Owen 1 hour 5 minutes 11 seconds
+Each.
+
+So, Candi
+1 hour 5 minutes 15 seconds1:05:15
+So, Candi 1 hour 5 minutes 15 seconds
+Yeah, but...
+So, Candi 1 hour 5 minutes 17 seconds
+I don't know how it would complicate the access control, to be honest.
+So, Candi 1 hour 5 minutes 24 seconds
+Yeah, but we are out of time, so...
+
+Mullings, Owen
+1 hour 5 minutes 29 seconds1:05:29
+Mullings, Owen 1 hour 5 minutes 29 seconds
+Okay.
+OO
+Oyemade, Obaloluwa
+1 hour 5 minutes 29 seconds1:05:29
+Oyemade, Obaloluwa 1 hour 5 minutes 29 seconds
+Yep.
+
+So, Candi
+1 hour 5 minutes 30 seconds1:05:30
+So, Candi 1 hour 5 minutes 30 seconds
+Mhm.
+OO
+Oyemade, Obaloluwa
+1 hour 5 minutes 31 seconds1:05:31
+Oyemade, Obaloluwa 1 hour 5 minutes 31 seconds
+Guys, because we have away for a few days, should we have a follow-up session?
+Oyemade, Obaloluwa 1 hour 5 minutes 41 seconds
+this afternoon if you are all okay with that.
+Oyemade, Obaloluwa 1 hour 5 minutes 44 seconds
+Or, maybe tomorrow.
+
+Mullings, Owen
+1 hour 5 minutes 45 seconds1:05:45
+Mullings, Owen 1 hour 5 minutes 45 seconds
+And.
+Mullings, Owen 1 hour 5 minutes 46 seconds
+We have another session on Thursday if there is no other agenda items, but up to you guys.
+Mullings, Owen 1 hour 5 minutes 53 seconds
+I think we went through this section here.
+Mullings, Owen 1 hour 5 minutes 59 seconds
+But we didn't touch on the other ones.
 
 
 

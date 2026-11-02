@@ -1,0 +1,298 @@
+Firm Settings
+Enabled
+Last updated:
+--
+Oct 13 2026 11:01 am
+
+Firm Name
+NBIN Internal
+Firm Type
+NBIN
+Firm ID
+NBIN
+Default Module
+Accounts
+Applies to all users without an alternative set
+
+Features
+Included
+
+Compass Legacy
+
+Hide
+
+View Compass Legacy
+Ability to access Compass Legacy
+Firm Configuration
+
+View Branding
+Ability to access the white labelling of all firms I can access
+
+View Firm Configuration
+Ability to access the configuration module of the firm
+
+View Manage Firm
+Ability to access manage firm module
+
+Upload Firm Configuration
+Ability to load firm configuration data
+Client Account
+
+Hide
+
+View Firm Client Accounts
+Ability to view basic Clients/Accounts Information for next action
+Accounts Scope
+
+Firm Level Access
+Firm Level Access
+Profile
+
+View Investor Investment Profile
+Ability to view investment objectives & risk tolerance
+
+View My Profile
+Ability to manage self profile
+
+View Profile
+Ability to view basic profile information
+Trading: Upload
+
+Hide
+
+Manage Mutual Fund Uploads
+Ability to manage mutual fund basket booking
+
+Manage Mutual Fund Uploads (R2 Template)
+Ability to manage mutual fund basket booking using R2 template
+
+View All Mutual Fund Uploads
+Ability for an admin to view another users upload
+
+View Order Uploads
+Ability to view order upload history
+Trading: Orders
+
+Hide
+
+Customize Order Commissions
+Ability to add custom commissions to orders
+
+Order Solicitation Tracking
+Ability to manage solicitation tracking
+
+View Compass Orders
+Ability to view orders in compass
+
+Manage Mutual Fund Orders
+Ability to manage mutual fund orders
+
+Manage Equity Orders
+Ability to manage equity orders
+
+Manage Options Orders
+Ability to manage options orders
+Onboarding: Questionnaire Applications
+
+Hide
+
+View Questionnaire Applications
+Ability to view questionnaire-based onboarding applications
+Users
+
+View Users
+Ability to view users module of all firms I can access
+
+View All User Uploads
+Ability to access user uploads module of all firms I can access
+Platform
+
+Access Firm
+Ability to access firm list
+
+Toggle Language
+Ability to toggle language
+
+View Help Center
+Ability to view Help Center
+Balances
+
+View Balances
+Ability to view balance component (Account Balance, Client Balance)
+Accounts
+
+View Client Accounts
+Ability to view basic account information that selected client holds
+Profile Documents
+
+View Client Documents
+Ability to view client's documents that has collected on account opening
+Position
+
+View Positions
+Ability to view basic security information that the client is holding
+Transaction
+
+View Transactions
+Ability to view basic Intraday & historical transaction information
+Data Exports
+
+Hide
+
+View Data Exports
+Ability to view Data Exports
+Onboarding: Form Applications
+
+Hide
+
+View Form Applications
+Ability to view form-based onboarding applications
+Manage Users
+
+Manage Login Support Only
+Users with this restriction can only manage password and 2FA resets
+
+View User Uploads
+Ability to access the user uploads feature
+
+Manage User Uploads
+Ability to manage user uploads
+
+View Export Users
+Ability to export the users in a firm
+
+Manage User Exports
+Ability to manage user exports
+
+Export All Child Firm Users
+Ability to download users from all child firms
+Tools
+
+Hide
+
+View Tools
+Ability to see the tools menu on compass
+
+View Maturing Instruments
+Ability to view maturing positions
+
+View DRIPs
+Ability to view the positions with dividend reinvestment plans
+
+View Equity Borrowing
+Ability to view available equity borrowing positions
+
+Historical Exchange Rates
+Ability to view historical exchange rates
+
+View Structured Solutions
+Ability to view the structured solutions platform
+Onboarding: Paper Upload
+
+Hide
+
+View Paper Upload Applications
+Ability to view paper upload onboarding applications
+Onboarding
+
+Approve Onboarding Applications
+Ability to review submitted applications and approve applications except option accounts
+
+Approve Option Applications
+Ability to review submitted option applications and approve
+
+Process Onboarding Applications
+Ability to verify, approve and process onboarding applications
+Trade Allocations
+
+Hide
+
+View Trade Allocations
+Ability to view trade allocations
+
+Manage Trade Allocations
+Ability to manage trade allocations
+
+Control Trade Allocations
+Ability to control trade allocations
+
+Process Trade Allocations
+Ability to process trade allocations
+
+Tech Support Trade Allocations
+Ability to execute tech support for trade allocations
+Application Status
+
+Hide
+
+View System Health Events
+Ability to view system health events
+
+Manage System Health Events
+Ability to manage system health events
+Features
+
+Hide
+
+Manage Feature Configuration
+Ability to manage feature configuration
+Reports: Statements
+
+Hide
+
+View Statements
+Ability to view preview and download portfolio statements
+Reports: Tax Documents
+
+Hide
+
+View Tax Documents
+Ability to view, preview and download tax documents
+Reports: Trade Confirmations
+
+Hide
+
+View Trade Confirmations
+Ability to view, preview and download trade confirmations
+Trading: MF Uploads
+
+Hide
+
+View Mutual Funds Orders Uploads
+Ability to view Mutual Fund orders uploads
+Servicing
+
+Hide
+
+View All Service Requests
+Ability to access instructions
+
+Manage Servicing Requests
+Ability to manage instructions
+Servicing: Approvals
+
+Hide
+
+View Approval Tasks
+Ability to access approval
+
+Manage Approval Tasks
+Ability to manage approvals and rejection
+Trading: GIC
+
+Hide
+
+View GIC Management
+Ability to access the GIC application with View and Manage access
+Onboarding: CRS-FATCA Submissions
+
+Hide
+
+View CRS-FATCA Submissions
+Ability to view CRS-FATCA submissions for clients
+
+Manage CRS-FATCA Submissions
+Ability to manage CRS-FATCA submissions for clients
+Add-ons
+
+No add-ons features found

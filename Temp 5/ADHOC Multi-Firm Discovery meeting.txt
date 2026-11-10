@@ -1,0 +1,685 @@
+Sharma, Radhika  0:03
+So that would be like a head office user, right? That might be supporting the entire business. Then you might have...
+
+Pierre, Joseph-Pascal  0:08
+Mhm.
+
+Sharma, Radhika  0:11
+a parent firm user who has access to multiple children, and they might have access to only specific R codes for those children. And they might not have access to all children.
+then you can have a combination where maybe they have full RR access. This is going to be a rare, this is an edge case I'm talking about, but I think that we need to have this level of flexibility because it could come up, is you have access to all R codes for one child and a subset of R codes for another child.
+
+Pierre, Joseph-Pascal  0:50
+Okay.
+So, let's take the third use case aside.
+The 2 first that you mentioned is, I believe, supported here at least, or represented here in the sense that you see here is user Y1, which is this guy here, same person. He is a parent firm user, firm A, right? So the one on top.
+top, hence that green arrow. Okay, so he's a parent firm user, as user Y1. I don't explicitly in the design and in the database, I say, you see those purple lines?
+
+Sharma, Radhika  1:33
+Yeah.
+
+Pierre, Joseph-Pascal  1:34
+to all of the ORAO codes of the child firms. I put in dotted lines because it won't be explicitly assigned. It's implicit. Because you're a parent firm user, you have access to these ORAO codes.
+No.
+Um...
+But it's not the full story. It simply says you have access to them. It doesn't mean that you can perform all actions against them. So the...
+
+Sharma, Radhika  2:06
+But this, you're talking about the delegation though, right?
+
+Pierre, Joseph-Pascal  2:09
+No, no, not delegation. Delegation is about another firm that delegates one of your child firm. Okay, so those are these these arrows going on the right side, right? I'm just talking about, I'm a user under firm A.
+
+Sharma, Radhika  2:15
+Okay, okay.
+
+Pierre, Joseph-Pascal  2:27
+In comparison to this guy and this other guy, which are child firm users.
+You know, they have access to firm AA or firm A and AB, like this one person X, where this guy is on top of all of them. He is a parent firm user. So I'm saying in this case for this guy, who's a parent firm user, so in the terms of assignment.
+She would have user assignment person Y.
+Assigned to firm a OK, I'll be assigned, so this I would say I'm assigned.
+Assignment type would be firm.
+And the assignee ID would be from A.
+So, person Y user Y1 could be assigned.
+From A, so he's a parent firm user.
+Then I would not explicitly say that this Oracle and this are the ORAO codes are assigned to this guy. I would leave it as is.
+OK, why is because in the logic in the code. I will navigate and say, oh OK, is the parent firm user is trying to access this account. That has this Oracle code. Who is this Oracle code assigned to? It's assigned to firm AA.
+Is the user a firm A user? No, he's not. Okay, but Azizi, who's the parent of this firm? It's firm A. Is this user a firm A user? Yes, he is. Okay, therefore, implicitly, he has access.
+Now, the nuance that you're adding is it may not be entitled to do everything.
+
+Sharma, Radhika  4:15
+No, I'm saying that he may not be entitled to all the R codes.
+
+Pierre, Joseph-Pascal  4:15
+You know?
+or all of the R codes. So, me, it's I never specifically said that he has access. It's just implicit. Now, if you're telling...
+
+
+Sharma, Radhika  4:19
+So.
+So because he's a parent firm user, he has the capability will allow him to have access to all the RR codes, but we can specify amongst the childs which RR codes he should have access to. Is that correct?
+
+Pierre, Joseph-Pascal  4:40
+Yeah.
+But I didn't go there.
+So the other side of the story, so that's one side of the story, right? So just one, one, one facet, okay? The other side is the other assignments. So you may have access to the ORAO codes that say, but maybe you don't have any permissions, meaning to trade, to do this, to do that.
+Whatever, and these are the package assignment, the resource assignment, the user group.
+So you may have technically, implicitly access to the ORAO codes, but you need to be provisioned specific packages and resources to act on these ORAO codes. Maybe that's why I'm, you know, that nuance.
+that we need to master is, is it enough for you?
+Or you want also to specifically say you don't have access to this ORAO code. Not only you cannot act on it, but you simply don't have access to it at all.
+Like this guy, User, OK.
+
+Sharma, Radhika  5:52
+I think it's the other way around. I want to be able to say these are the ORAO codes you can have access to and you can act on them.
+
+Pierre, Joseph-Pascal  6:02
+Okay, so you mean this, these dotted lines?
+you want, you would like them to be explicit, so solid lines. Meaning this user is maybe a parent user, but I should not assume that because you are a parent user, you have access to everything. I need to discreetly tell you which ones.
+
+Sharma, Radhika  6:12
+Yes.
+Yes. And in some cases, it could be all. So you know how today we have the firm level access and the individual R code inputs.
+
+Pierre, Joseph-Pascal  6:32
+Mhm.
+
+Sharma, Radhika  6:33
+It essentially the same concept, but now across all the children.
+
+Pierre, Joseph-Pascal  6:39
+Yeah.
+
+Sharma, Radhika  6:40
+Now, whether it's specified at each individual child level, that is debatable. I know, Ali, from your mock-up, you had like every single child listed out, or it's because you're looking at the parent, it's still one, you know, input.
+
+Pierre, Joseph-Pascal  6:45
+Mhm.
+
+Sharma, Radhika  6:57
+Where you're specifying, but...
+
+Azizi, Ali  6:57
+No, every child was this that every child was this.
+
+Sharma, Radhika  7:01
+Yeah, I think that is better because it's it does allow for us to.
+ease into the change management if it's explicit by child.
+
+Pierre, Joseph-Pascal  7:15
+Yeah, but anyway, regardless, the user experience, the database.
+you know, can discreetly assign. You know, if you want to simplify the view, make it one click of a button. That's, I'll leave it to Ali. The point is, behind the scene in the database, how is it represented? So I can make it explicit. I was just trying to save some.
+compute, you know, effort. In the sense that, let's say I'm acquiring a new firm as a parent. I'm buying a new firm, so firm AC.
+Firm AC has a bunch of maybe child firms and therefore our codes.
+So that's a discussion we're going to have and entertain with Darwin maybe Thursday. What should happen? You know, should the hierarchy be flattened? You know, where it's only the child firm that gets added and that parent firm gets rid of.
+And then do our codes. If this guy uses Y1 is a parent firm user, should we go discreetly 1 by 1 on every child, new child firm, go and?
+select there are codes, pick and choose them, whatever you know, or automatically add them all and assign them to user Y. And the same would go with to all of the other parent firm users, right? So I was just trying to save that effort and say, you know what, if you're a parent firm user, you implicitly have access to all.
+
+
+Sharma, Radhika  9:02
+Yeah, no, I think the reason why JP is because it is with what you have here right now, it assumes that a parent user is a head office user only.
+
+Pierre, Joseph-Pascal  9:03
+It is, yeah.
+Mmh.
+
+Sharma, Radhika  9:12
+Right, so if we have in the case of like Harbor Firm, right, there's like 7 child firms. I don't know their model enough, but you know, we could, there could be a case there and we can validate this. They could have an advisor who is, you know, it's got an RR code under one firm child and an RR code under another child.
+So even as an advisor now, I...
+I'm operating under different child firms, but because I'm an advisor, I must not have the ability to have access to all our codes. It must be specified on my account or on my profile, which are our codes I can have access to and act on.
+
+Pierre, Joseph-Pascal  9:47
+Mhm.
+Okay, so I made it solid.
+Just to illustrate, I'm going to remove one R code.
+just to show that it's not because you're a parent user that you have access to all. So this guy would have access to two R codes out of three on the firm AB, for instance.
+Right, so that's your example, right?
+
+Sharma, Radhika  10:21
+Yeah, while still having access to firm AA as well, right? Yeah, yeah, yeah.
+
+Pierre, Joseph-Pascal  10:25
+Yeah, exactly. Here, there was only one Noir code, so I gave him access, but if I wanted, I could remove it, you know. But it needs to be explicit. So that means the model supports this anyway, right? Because it's the same structure, it's a user assignment. Just in one case, I didn't make it explicit.
+Here, I make it explicit, so I'm just going to fill up that user assignment for that user with an explicit barcode assignment against those.
+Um...
+Child Firms.
+you know, our codes. But obviously the logic would be impacted.
+Um...
+Yeah.
+that you could be impacted.
+
+Sharma, Radhika  11:14
+
+I do have a question, and you can let me know if this is not the right time to ask it, but...
+
+Pierre, Joseph-Pascal  11:16
+Yeah.
+
+Sharma, Radhika  11:22
+The users that are created, are they created under the umbrella of a parent? Or are they still created under childs and then...
+flagged or tagged as a parent.
+
+Pierre, Joseph-Pascal  11:35
+The.
+No, no, they can be both. It's one or the other. So here you see these two. They are created on the a child firm.
+You know, like this guy is...
+He is assigned, once again, it's assigned, not created. He's created, but then he's assigned to a bunch of firms. And this guy is assigned to these two children. But this guy, his user is assigned to only this child.
+And then this guy.
+Y has one user, right, is assigned to the parent and not to the children. But if you're at, it would be inconsistent to be assigned to the parent and the children.
+It's it's you have to assign it at a level, a given level.
+
+Sharma, Radhika  12:29
+Now, could user Z1 who's assigned to firm AA eventually also be assigned to firm AB?
+
+Pierre, Joseph-Pascal  12:38
+Yeah, yeah, yeah. I just made it an example. So this would be just like from X1.
+
+Sharma, Radhika  12:46
+Oh, yes.
+
+Pierre, Joseph-Pascal  12:46
+Today is assigned to two, you know, but you can change it, remove this assignment. It's just a firm assignment, so it's just a record here in the user assignment table saying user X1 or from user Z1.
+
+Sharma, Radhika  12:50
+Yeah.
+
+Pierre, Joseph-Pascal  13:00
+is no longer assigned or is additionally assigned to firm AB.
+
+Sharma, Radhika  13:05
+Yeah, the reason I'm asking and why I use the word created under a firm is because I'm literally thinking about how we set up users today, right? You go in, you select a firm, and you create a user. When we introduced this concept,
+
+Pierre, Joseph-Pascal  13:06
+Ray.
+
+Sharma, Radhika  13:23
+And say somebody does want to create a head office user who works at Harborfront that supports all the children.
+They're gonna have to...
+create, as in the way we do today, under the child, under one child.
+and then associate to the rest of the children or the parent.
+Or is it too early to ask that question?
+
+Pierre, Joseph-Pascal  13:51
+Can you ask again?
+Just wanna make sure I grasp the detail, yeah.
+
+Sharma, Radhika  13:53
+So.
+The today, literally when we go in, we select a firm and we create a user.
+Right, so in my head, I think you're describing that as being associated to a firm. In my domain, I'm describing that as I'm creating a user under a firm.
+
+Pierre, Joseph-Pascal  14:11
+Yeah.
+
+Sharma, Radhika  14:12
+When this is introduced and I need to create a user who works and supports all the children under a parent, am I still going to have to pick one of the children? So in the case of Harbor Front, one of the seven children, create that user, and then run the association to either the parent or the child.
+The individual children.
+
+Pierre, Joseph-Pascal  14:35
+So.
+It's a good question, but...
+Let's say...
+Mia have some assignment rules.
+Behind the scene, right? Irrespective of what you end up doing on your screen.
+You cannot be assigned one rule, a consistency rule, I call it.
+You cannot be assigned to two different levels of Firms.
+So, either you assigned at the parent level.
+Or you assign multiple times at the child at the children or yeah children level.
+OK, so that means if your user Z is a Z1, OK?
+You're currently assigned to Firm A, so you've been created under Firm A, let's say. OK, tomorrow.
+You have to, you have many choices. You could remove him from firm A, you could add him also to firm AB or AC or whatever. Or you could say, you know what, I'm just going to make this guy a firm, a parent firm user. So in your head, you're saying, oh, I'm going to go to the parent firm and then go and create this guy or associate this guy. Okay.
+What's going to end up happening behind the scene is because you've changed leveled, I'll remove those arrows.
+to the children.
+Because you've changed level, you've upgraded yourself. So you'll be assigned to the parent, which therefore would give you access to the children.
+But you're not forced to do so. You could, like this guy, assign discreetly to firm A and firm AB, because you don't want by default.
+If ever there comes a third firm from AC, D, whatever, you don't want this guy by default to gain access to these additional ones. So it would be a management decision, right? Meaning...
+
+
+Sharma, Radhika  16:44
+I'm just, yeah, because I'm thinking forward into, you know, it's much far away, but attestation. And how do you represent this information back to a, you know, if we do self-serve, how do we represent this to the firms in a way that it makes sense? And I think you said two things about
+changing the association for users at one, right? Where I, specifically where it comes to the parent firm, that I can.
+either change the association from Firm AA to and replace it with the association to Firm A as the parent.
+
+Pierre, Joseph-Pascal  17:22
+Mhm.
+
+Sharma, Radhika  17:22
+Or is it that I have to remove that user from firm AA and recreate them under the parent?
+
+Pierre, Joseph-Pascal  17:29
+No, I would make it implicit just to not make your life hard. You know, if you change it, so you go and you go to Fermi and you add the guy.
+I would behind the scene remove his relationship to firm AA. You wouldn't have to remove first from firm AA and then go to firm A and add him. I would do it for you.
+
+Sharma, Radhika  17:54
+But even if he's part of Fermi, right, he might not need to have that be associated to all the children.
+So is there not still an association from parent to child that you have to run across each person?
+
+Pierre, Joseph-Pascal  18:10
+If meaning if I move this guy here, right?
+
+Sharma, Radhika  18:14
+Yeah, so you say you moved it them and now user Z1 is associated to parent, but even at parent you shouldn't have all.
+
+How can you be assigned a parent firm and a child firm?
+At the same time.
+
+Sharma, Radhika  19:39
+I guess the reason, JP, that I may be spinning on this one a little bit is if we think about our clients and the way that we've grouped them as a parent, a parent is no different from the rest of the children, right? A parent has all the children. A child cannot exist without the parent.
+
+Pierre, Joseph-Pascal  19:53
+True.
+
+Sharma, Radhika  19:59
+So why wouldn't all users be associated to a parent and then discreetly specify which children they have they're associated to and then from there which R codes can be assigned to them?
+
+Pierre, Joseph-Pascal  20:15
+To me, it's this middle layer.
+is not unnecessary, but it's kind of unnecessary for me to explicitly assign it to them. What matters is the resources, the ORAO codes, whatever is underneath.
+Because being assigned to a firm.
+
+Sharma, Radhika  20:33
+It's more operationally, I think, that I'm trying to hint towards, because...
+If we get a request, for example, to set up a user from Harborfront.
+
+Pierre, Joseph-Pascal  20:47
+It was a parent.
+
+Sharma, Radhika  20:48
+And now we tell them.
+Yeah.
+The individuals, you know, during self-serve, it might be the firm security steward, but before that, it's our SAA team. It needs to make a decision which child that person's profile should initially be associated to.
+
+Pierre, Joseph-Pascal  20:59
+Mm.
+Yeah.
+
+Sharma, Radhika  21:07
+Because you have to create under a child is what I'm saying. Maybe we'll be changing that through the design. I don't know. But I'm going to live with what I see today. And today I have to still go to a firm and create someone.
+
+Pierre, Joseph-Pascal  21:14
+Yeah.
+True, it's a firm-based, yeah.
+
+Sharma, Radhika  21:23
+And if can I if I can't create someone at a parent and I have to make a decision, which child am I creating this person against, then I'm going to remove that association and associate them to the parent and then make them a parent user.
+
+Pierre, Joseph-Pascal  21:32
+Mhm.
+
+So, Candi  21:40
+Now, this all can be done. I think if you're looking at the migration or a launch, how to do the cleanup and so on, yeah, this all can be done.
+
+Sharma, Radhika  21:52
+No, I'm thinking from a BAU point of view. BAU point of view, Candi.
+
+So, Candi  21:57
+I think something mixing up in here and I want to clarify, just maybe make sure we're aligned. JP, I don't think there's a use case or is of anyone's interest to say a user can be assigned.
+to two child firm ranges. Let's say if someone is a, I create a profile in a child firm, then the jurisdiction for the person, the maximum they can get is the child firm range. So yeah, even though I know from AA and from ABL related,
+But if my profile is created in from AA, I don't suppose I can be assigned to some article in from AB. The reason I'm saying that is very tricky because if this one is not done correctly, then the next thing is.
+
+
+Pierre, Joseph-Pascal  22:47
+Butt.
+
+So, Candi  22:55
+we might have cross-firm data breaching. If FA and AB are not related for some reason, we allow user A from AA to access data from AB. So that's why I think the
+baseline is the user should be assigned to the parent firm. You know, as Radhika said, we create a profile, create a profile in the parent firm, and then it will open up the eligibility for them to choose, be assigned to all the child firm and how many accounts in the child firm.
+And it's important when we build the association or assign the article. I think what we told FGDA is we always provide them the firm contacts. So let's say a para firm user, I have someone assigned to firm A,
+and then it's the user Candi dot so, and then I assign the full range of firm AA. So then we will say firm context firm AA, and then it's a star all. So, and then maybe for firm AB, I will only have a discrete LR code. So that's how we will fit FGDA.
+
+Pierre, Joseph-Pascal  24:09
+Mm.
+
+So, Candi  24:17
+And I think to make our life easier, we should somehow preserve the same kind of assignment. When I'm setting up multiple Oracle ranges, then the firm contacts should, yeah, should be in there. Yeah.
+So I talk about two things basically. So just, yeah.
+
+Pierre, Joseph-Pascal  24:37
+No, but I understand your point. What you're saying is to, if ever this guy...
+Was not a child.
+You wanna prevent?
+A User.
+To be assigned.
+These two.
+Which are unrelated by forcing.
+saying this user must be assigned at the parent level to ensure that if he's assigned multiple firms, it needs to be underneath the parent.
+Is that your case?
+
+So, Candi  25:15
+Yeah, I want to validate the requirement again. So Radhika, if I should still be able to create user in the child firm, right? Maybe someone just work in that office as an AI assistant. So I create a user in the
+from a in a chat firm context, and I don't expect that person be able to access more than the chat firm range. Is that correct?
+
+Sharma, Radhika  25:48
+Yes, but but it can change at any time and operationally I don't think I don't think that that that is efficient.
+
+So, Candi  25:51
+Yeah, yeah, yeah.
+Yeah, when you change it, you will move the profile to the parent firm to the parent firm.
+Because when your profile is in the child form, you cannot access some other ranges.
+
+Pierre, Joseph-Pascal  26:04
+No, Butt.
+No, but here, for instance.
+Well, okay, any maybe another confirmation.
+You're saying this guy, we don't have a use case for him to be working for firm AA and firm AB. It's one job firm.
+Is that your case?
+
+So, Candi  26:32
+If that's the case, if that's the case, they the person support both from AA and from AB, then the profile should be created on the parent firm contacts.
+
+Pierre, Joseph-Pascal  26:35
+Mm.
+Yeah.
+Where me, to me, if you created at the parent firm context, it's because you potentially have access to all child firms. Now, discreetly.
+
+So, Candi  26:55
+Yeah, but then, yeah, discrete.
+
+
+Pierre, Joseph-Pascal  26:58
+Discreetly, you need to be assigned to our codes, as Radhika was saying. So that's the change I just made today. But to me, apparent from User, it's because you potentially have access to all firms. Where here, this guy, I don't want him to potentially have access to
+Child Firms to all child firms.
+I say, I just give him access to these two, and that's it. There might be 10 others, but this guy, I just give him access to these two. So he never had that potential. Okay? Where to me, a parent user, this is why I didn't see, if you're at the parent level, I'm not.
+
+So, Candi  27:34
+Yes.
+
+Pierre, Joseph-Pascal  27:40
+mixing up levels. If you are at the parent level, you are at the parent level. I don't need to tell you to specify that you have access to AC, A, B, etc. But at the R code.
+It's not because you're a parent from user, that it means you have access to everything underneath. I need to, exactly, I need to give you access to accounts, you know, and not only to accounts, but to features which gives you permissions against those accounts, you know, read, write, execute, I don't know.
+
+So, Candi  28:01
+Potentially.
+
+Pierre, Joseph-Pascal  28:16
+So this...
+
+Sharma, Radhika  28:18
+I just think the decision making during the operational process of implementing this becomes complicated because now we have to provide guidance to the people who are setting up users.
+
+Pierre, Joseph-Pascal  28:29
+Mhm.
+
+Sharma, Radhika  28:29
+on how to like, because again, unless we change how we actually set up users, the very first step of creating them under a firm.
+
+Pierre, Joseph-Pascal  28:35
+Mhm.
+Mhm.
+
+Sharma, Radhika  28:38
+There's an assumption that's going to have to be made that I'm going to pick one of the children, I'm going to assign, then I'm going to remove that association or replace it with the parent association, and then I'm going to go in and specify the RR codes across all of the children that the person should have access to. It just feels like a lot of operational.
+
+Pierre, Joseph-Pascal  28:58
+But is this where I feel?
+
+So, Candi  28:58
+No.
+
+Pierre, Joseph-Pascal  29:01
+For the operation, this is on the Ali.
+Because that's his design with with with Alexandra, exactly.
+
+So, Candi  29:05
+No.
+
+Sharma, Radhika  29:06
+Okay.
+
+So, Candi  29:07
+We can ease it out, yeah, just I think, yeah, oh, JP, I think maybe...
+We got confused. What you're looking at the user below, because a user has to be created under a firm. So 1.0, we still can assign a person to 1 firm ID only.
+Yes, so if I create the user in firm AA by the firm Oracle ranges, the most I can provide is the ranges assigned to firm AA.
+
+
+Pierre, Joseph-Pascal  29:35
+Yee.
+Mhm.
+
+So, Candi  29:47
+So it depends on what is the firm ID you create a user ID under. You create a user ID under. All you're talking about are the parent firm scenarios. So the person must be created in the firm A context.
+
+Pierre, Joseph-Pascal  30:03
+But okay, maybe little precision there.
+So, so understand your perspective, Candi.
+Where as soon as you get access to more than one firm to you, you should be created at the parent.
+
+So, Candi  30:20
+Yes.
+
+Pierre, Joseph-Pascal  30:21
+Well, I didn't make that decision or I didn't have, I didn't make that assumption. To me is you could be assigned to several firms. So I'm enabling that, you know, in my changes, okay, to
+to be assigned to multiple firms. And this is why to me, you're never, once again, it's me talking from a system perspective, how things are saved in the database.
+Do not create it on the affirm.
+But I understand from the user perspective, this is how it looks like. You go, you select a firm, you get in, and then you create user, and then you enter the information, and therefore the guy exists under that firm. Now, we're going to have to change our experience. And that's challenge, at least challenge.
+Okay.
+But in the database, even before, it was never done so.
+It was, you have a user that gets created.
+And then you have an assignment.
+Get that gets saved that ties that user, which is here.
+To affirm.
+It just so happens screen-wise.
+You click on Create User under that firm. So you thought that, oh, okay, the guy can only exist under that firm. But database-wise, I can have the user created two years before with no firm assigned.
+But then I decide to, you know what, I'm going to assign you to this firm and then to that other firm and then to that other firm. Now, if you see the firm, if your 1.0 has these other implications, if you enable that, then you have a lot of logic behind that you have to modify to accommodate for that.
+You know, so to your point, if you on 1.0 is assumptions made in the code that the user is only assigned to one firm.
+So, I have to modify that, so that's the complexity, the hidden complexity that Ali is not seeing, but that's the hidden complexity that we need to modify, but...
+Other than that.
+I'm able to assign to different firms.
+So.
+I'm saying here.
+Yes, I could make it as you said, Candi. If ever a user is given access to more than one firm, he needs to be provisioned or assigned to the parent firm. But I'm saying you're not forced to do so. You can discreetly assign him to.
+child firms. And whenever you're ready and the SAE or Securities to wants to elevate the guy to the parent level, he simply goes and assign him to the parent level, which would remove his child direct assignments.
+
+
+Sharma, Radhika  33:27
+JP, if we, if we actually take a step back, forget the, you know, how it's done in the UI, I get that you're looking at the database side, but theoretically speaking, every user is associated to a parent.
+that you're employed by the parent. No, not today, but what I'm saying is when you look at the concept of what a parent is,
+
+Pierre, Joseph-Pascal  33:41
+Not today.
+Not to.
+
+Sharma, Radhika  33:49
+A parent is the owner, is a pseudo owner, a fake owner of all of the children.
+
+Pierre, Joseph-Pascal  33:55
+Yes.
+
+Sharma, Radhika  33:55
+So every user is associated to a parent, whether they have access to.
+
+Pierre, Joseph-Pascal  34:00
+But I'll tell you.
+No, but I'll tell you just one little correction. Tell you why it's important for me to say and not today.
+It's because it is true, it's actually, it's not even, okay, in theory, yes, it's true what you're saying. In practice, it's not true in the sense that...
+This only exists in Fum 360.
+And not only it only exists in Firm 360, Firm 360 have no notion, no knowledge of users. Firm 360 only deals with firms. So it knows that this firm is associated to this other firm, how him being the parent and those are his children. That's it.
+Now, who's the users from 360 have no notion in FUM?
+We have so far no relationship among the firms. I'm introducing a relationship through this parent ID, saying this firm is the child of this other firm. That's the only thing that I'm adding. Now, other than that,
+uses technically or just a notion or concept of FUM in relation to a given firm.
+
+Sharma, Radhika  35:22
+Yeah, but if you have a user...
+Is only associated to a firm.
+
+Pierre, Joseph-Pascal  35:30
+Mhm.
+
+Sharma, Radhika  35:31
+I'm not the parent.
+from let's just say a reporting standpoint where we pull data from the database.
+
+Pierre, Joseph-Pascal  35:40
+Yeah.
+
+Sharma, Radhika  35:41
+Should we still represent?
+that they are associated to a parent.
+
+Pierre, Joseph-Pascal  35:44
+Dupont.
+Yeah, we can, because we would have at this point with the, you know, the little introduction, you know, the little changes a little, I say little, but and it's bigger, right? But those small tables are adding in this field that say, I know I can navigate.
+Although, okay, yes, from the user assignment table, this guy is only assigned to this chart firm.
+but I can navigate, okay, this child firm, does he have a parent?
+So I would have this field filled up.
+So we'd say, yes, he is actually the children, the child of this parent. So on the reporting side, I can make it clear. So yes, this guy works for this guy, but this guy is actually the parent, the children, the child of this other guy.
+So I can make it explicit.
+
+
+Sharma, Radhika  36:46
+Okay, yeah, because I guess it, yeah, yeah.
+
+Pierre, Joseph-Pascal  36:47
+But you understand, it's the difference basically is just...
+Do.
+
+Sharma, Radhika  36:53
+You're not creating the parent firm structure in CX. You're just associating the firms to, you know, this concept of parent.
+
+Pierre, Joseph-Pascal  37:05
+Yes, and just doing this, this little because, and this is where data architecture comes into play.
+You.
+You have to be efficient in the relationship you're creating.
+You don't want to create all, you know, if there's too many relationship in here, the maintenance is going to suffer. And then you're going to have discrepancy or inconsistencies, you know, and then to correct the data, it's going to be hard. So you're trying to do the very minimum as to who should be related to what.
+to who else, right? And then you try to have some consistency rules in place. So your data is, yes, you have to navigate more, you have more logic, right? To end up finding that, okay, this guy belongs to this other guy, or this guy has been delegated by this other guy.
+Right.
+And.
+But then...
+That's the data architecture complexity. That's the challenge.
+But when it's well done, you can report it the way you want in the end.
+as long as you have the right logic coded.
+So, if that was your worry, I can assure you, yes.
+
+Sharma, Radhika  38:29
+Yeah, as long as, as long, yeah, as long as we don't lose that association, right? Because if I think about Compass Marrying Farm 360, it expands this model of parent and child, right? Where now you have a parent and that parent has children and those children now have users, well, the parent has grandchildren.
+
+Pierre, Joseph-Pascal  38:35
+Mhm.
+
+Sharma, Radhika  38:48
+And those grandchildren have access to things, data and features. That's kind of how it works. And it's basically what you've kind of represented here. As long as those associations can be made and clear in reporting, and then we can talk to Ali and Candi about the design of it to ease
+
+
+Pierre, Joseph-Pascal  38:54
+Yeah, yeah.
+Exactly, because...
+
+Sharma, Radhika  39:07
+the way in which it's done then, then I think it makes sense.
+
+Pierre, Joseph-Pascal  39:10
+Yes. Yeah. Because otherwise, you know, I would always have imagined I have to name you after your parent, your grandparent, your great, great grandparents. It's going to be a, it's impossible. Like, like the Spanish guys, you know, they have like 10 names.
+
+Sharma, Radhika  39:25
+Yeah, it's just from a business perspective, I'm always going to want to see a user at potentially both levels at any given point of time. I'm going to want to know who their parent is, who their, like, who the child firm is, and I'm going to want to know who the parent is.
+
+Pierre, Joseph-Pascal  39:40
+Yeah.
+
+Sharma, Radhika  39:43
+It could be for different reasons. It could be at the time of setup, it could be for reporting, it could be for investigation, there could be many reasons for it. So as long as the associations are clear in the database and in the way we, you know, redesign the management page, then I think it should work.
+
+Pierre, Joseph-Pascal  39:58
+Mhm.
+Okay, it will. And then it will be my challenge to make it as performant as possible, right? So hence me introducing those tables to facilitate in these fields to facilitate that navigation, because obviously it's going to have a cost. But if it's well done, the cost is not too high.
+So that's my challenge.
+
+Sharma, Radhika  40:25
+Yep.
+
+Pierre, Joseph-Pascal  40:28
+Good. We're 12 minutes past. I feel, oh, I can hear his stomach.
+
+Oyemade, Obaloluwa  40:32
+Thank you.
+Yee.
+
+Sharma, Radhika  40:36
+Yeah.
+We're missing out on the Diwali celebration here.
+
+Oyemade, Obaloluwa  40:38
+It's Diwali.
+Yeah.
+
+Pierre, Joseph-Pascal  40:41
+Oh, it's true. Lucky you guys.
+
+Sharma, Radhika  40:43
+I have to change my outfit.
+
+Oyemade, Obaloluwa  40:45
+You.
+
+Pierre, Joseph-Pascal  40:47
+So have fun, guys. I think it was a good addition to have you here, Radhika. Thanks. I don't know if you're going to join all the time, but...
+
+
+Oyemade, Obaloluwa  40:48
+All right. Thank you. Take care.
+Yep, yeah.
+
+Sharma, Radhika  40:56
+Need to do here.
+
+Oyemade, Obaloluwa  40:59
+Oh, she's gonna join all the way.
+
+Sharma, Radhika  40:59
+You'll see, you'll see, you'll see more of me now.
+
+Pierre, Joseph-Pascal  41:03
+Oh no.
+
+Oyemade, Obaloluwa  41:06
+Mmh.
+
+Pierre, Joseph-Pascal  41:08
+Okay, good. So next time, yeah.
+
+Oyemade, Obaloluwa  41:08
+So, I move, I move, we will be meeting on Thursday, 11 to 12, just to continue, and I'll be, I added Darwin to that session, and so that we can get his stick as well.
+
+Pierre, Joseph-Pascal  41:12
+Yes.
+Yes.
+Yeah.
+So next, so next session focus will be, so we have to keep, we focused again on our code. We'll have to look into this because this has another implication. You know, this thing here, once again, performance wise, you know, the query, how many queries we're gonna have to make.
+just to collect all the data to aggregate them, right? So we'll have to speak to that. But since we're going to have Darwin, we'll focus instead on Thursday on parent-child.
+
+Oyemade, Obaloluwa  41:49
+Thinh.
+
+Pierre, Joseph-Pascal  42:01
+So basically the relationships that exist between firms and when they get synced, how we should flatten or what should we do with the structure? Because one firm may acquire another firm that has children. So what should happen, you know?
+And we'll speak to...
+What's the other points? Anyway, I had a list, but basically it's going to be a firm 360 conversation mostly.
+Interesting, interesting discussion to come, I guess.
+
+Oyemade, Obaloluwa  42:42
+That is Kiril.
+
+Pierre, Joseph-Pascal  42:43
+Thank you, guys.
+
+Oyemade, Obaloluwa  42:44
+Thank you so much, everyone.
+
+Sharma, Radhika  42:45
+Thank you. Bye.
+
+Pierre, Joseph-Pascal  42:46
+Bye.
+
+Bernards, Alexandra  42:47
+Thank you.
+
+
+
+
+
+
+
+
+
+
+
+

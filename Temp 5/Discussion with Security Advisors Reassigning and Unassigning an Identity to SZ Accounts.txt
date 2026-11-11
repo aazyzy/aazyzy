@@ -1,0 +1,380 @@
+Arafan, Lamiae  0:03
+I want to take time with everyone involved in the subject regarding the reassigning and unassigning an identity to secure zone accounts. I will let Mehdi explain more in details the previous discussion, either in the chat or within other calls, and we can take it from there.
+
+El Masaoudi, Mahdi  0:27
+Uh, okay.
+So I already explained for the...
+Mickael.
+I will explain for everybody. So, just for the organization of the accounts and identity,
+In secure zone slash Compassx or bank intra ID.
+We have one identity that can be either on the bank IDP for employees or on Compassx for NBIN side.
+And that identity represents a person.
+And that person can have one or more, zero or more, secure zone accounts.
+So, in the context of the SSO project.
+We are migrating secure zone applications.
+to SSO. That means we centralize 2 things. The first, the access management through IIQ for employees and through FNUM for Compassx.
+Yeah.
+And we centralize also the authentication using internal or external Okta tenants, backed by Intra ID for employees, and I think there is no IDP for the Compassx site.
+So, the discussion today is about reassignation.
+And...
+de-assignation. So to migrate, to make an account, Secure Zone account compatible with SSO, we link that account to the appropriate identity, which is the short ID for employee side and the Compass identity on CompassX.
+Side.
+Uh...
+Yeah, I will not go through the history until...
+We want to go there explicitly. But like I said, to make the account compatible with SSO, we do that link, we create that link. And link is possible through the API that we expose. So for IIQ, we do that through one endpoint using our user access management API.
+And once I will the example, I will give the example for employees. Once the identity is linked to a secure zone profile,
+We never remove that link.
+We have been running in production two years now, our employees, and we never had an issue where we had to remove the link between the identity.
+and the secure zone accounts. So now we are migrating, we are doing the same thing, but for external users, NBIN users.
+We can do the same. We can assign a...
+secure zone accounts, through CompassX identity, through different endpoints, and within that endpoint, we do only the assignation, the assignment. I can explain why if
+if there is a question. The problem today is...
+We have a requirement that we should do.
+reassignment, what does it, okay, the first thing that triggered the discussion with the security advisor is the unassignment.
+What does it mean explicitly is when we assign a secure zone profile to an identity,
+There is a requirement that says we should be able to unassign it.
+From SSO project perspective, that's like a rollback. So we are converting accounts to be able to use SSO. If we remove the link, we put the account into an inconsistent state.
+We don't want accounts to be just like that, unassigned from any identity. We want all accounts to be assigned to an identity.
+So, that's the first thing. And that discussion took us to another discussion, which is the reassignment. What does it mean is that today, let's say I am a user, external user, I have an identity, I have a secure zone account.
+And tomorrow, I will leave the bank.
+So, the requirement here is that we want to be NBIN team want to be able to reassign that account to someone else.
+That means today I have an account.
+that contain my first name, last name, employee ID, or any other information. And when I will leave, we want to be able to assign that account, to give that account to another person.
+
+
+Talbot, Eric  6:14
+Yeah.
+Yeah.
+Thanks for explaining. I think you make it clear what the issues are. So I think I would like maybe to hear more from the business sides, like where these requirements come from, so we better understand, you know, what are the use cases and if there is not better ways to manage that. So I don't know, Candi, if you could explain or somebody else like.
+I saw Ali, I think.
+Or GP could be GDP.
+
+Pierre, Joseph-Pascal  6:49
+Yeah, maybe summarize, forgot who was there in the meeting. Maybe Candi was then, I think was there. Ali definitely wasn't there, but just summarize it since we have 30 minutes only.
+
+Talbot, Eric  7:03
+Yeah.
+
+Pierre, Joseph-Pascal  7:04
+Right, so it's quite short, so essentially it's just a question of...
+
+Talbot, Eric  7:04
+Yeah.
+
+Pierre, Joseph-Pascal  7:11
+A project school.
+Maybe, maybe if you recall this, you know, this project has been running for so long, you know, maybe two years. It was scope on the Madi to only cover coarse grain access. Okay, so therefore, there is a bigger scope
+Which is the fault, the the fine grain which is handled in security app. When we have a secure zone profile created, we we have to set up data access, data group, function groups, etcetera, bunch of complexities and that's handled with the security app of the secure zone, OK?
+Now, Madi solution simply covers the assignment of a secret zone profile to a user. It doesn't cover the rest. So, therefore, for us, the business, we had to break the process into one goal still continue to go to the secret app to create.
+
+Talbot, Eric  8:02
+Mmh.
+
+Pierre, Joseph-Pascal  8:13
+the profile ahead of time with no user attached yet, assign the right data group function group, and then secondly, go into FQ1 slash CompassX, and then assign, attach that secure zone profile that has been created to a formal user.
+OK.
+So, in between, you're going to have a signal zone profile unattached, unassigned, until you assign it into CompassX, but then...
+What Madi was saying is, as soon as you assign it.
+You can no longer leave that profile on a sign.
+You can still, to accommodate us, reassign the user to another security profile, if need be.
+But you cannot leave that first execution profile on unassigned, so that means...
+You know, you have to basically manage your process in a way that don't break their rule.
+Which is, you kind of, you understand that it's not, it's not the...
+Can I say evident to do because you have to think if I want to reassign someone, I should actually think who is going to take his place on that secure zone profile. Or should I simply...
+
+Talbot, Eric  9:42
+But why would you need that? I mean, what we want to do is we have to have one-to-one scenario, because we don't want to, if that guy leaves or whatever, then we just delete the access. And then if somebody wants to take over, then we just assign him a new profile ID.
+
+Pierre, Joseph-Pascal  9:45
+If you let it.
+Mhm.
+That's fine.
+Okay.
+
+Talbot, Eric  10:11
+users to the same profile IDs that won't work.
+
+Pierre, Joseph-Pascal  10:14
+So maybe that's when Candi can jump in and explain, you know, is that a valid use case that may happen? Did it happen before in the past? What's the implication?
+
+So, Candi  10:26
+I, I think the argument is exactly like what J.P. said: the current Uama only support the, yeah, part of it, but then when we have to create a new user assigned that.
+data group and so on, it has to be done via the security app. And yes, in the best scenario is you create the security profile, go to Compass, and then link the profile. And that's it, and then you're there forever.
+But I could think of is the human error, because it's not automated and we cannot automate those. The and Compass are the two separate platform, and SA will have to do it separately. So, in case...
+Yeah, they typed the wrong ID or they do something incorrectly. I, there's no way, if there's no way to fix it, then what do you suggest? We have to create a new Compass ID and start everything again?
+Yeah, I think the ideal way is UAMA. I think Madi, we talk about for like two years ago, but then if we can create a user, we can, yeah, do the single user creation, then there's no problem, right?
+
+Talbot, Eric  12:00
+Well, let's say that SA assign a wrong profile ID in the secure zone and he wants to change it to something else, that's fine, as long as that something else is not already ever been used by somebody. So there is no problem to reassign to something that is completely new, likely because it's just a new profile ID.
+The problem would be just if you're saying, okay, now that this user has been migrated to a new profile ID, you want to reassign somebody else to that ID. That's an issue.
+
+So, Candi  12:24
+No, the... yeah, Eric, the...
+Yeah, no, Eric, the reassignment would not work because you have to, once you link the secursion profile, it cannot be left alone. So that's what Mahdi said. You have to place some identity on it.
+
+El Masaoudi, Mahdi  12:46
+Yeah.
+
+So, Candi  12:49
+No, I cannot unassign that one, so the unassigned doesn't work, unless I am sticking, yeah, uh, Madi, yeah.
+
+Talbot, Eric  12:54
+Mm.
+
+El Masaoudi, Mahdi  12:56
+For the, yeah, for the reassignment, I see two separate use cases. From what I understand, there is the human error. You just created an account and you assign it, but finally it was not the right thing to do. In that case, you should do the correction through our
+through the secure zone. We create a ticket and we correct that. The second one is, and I think it's the one that is not aligned with the security, which is, I have an account, I have been using it like for
+One month, two months, and then we we we give it to another person.
+
+Talbot, Eric  13:34
+Yeah, exactly.
+Yeah, that's not correct. Exactly. That's the issue. If you're saying you don't have that second use case, then we are good, right?
+The fact that somebody, I don't know, has been using a security zone profile for two months, and then you just want to assign it to somebody else, like another user of that same firm or something like that.
+If you don't have that use case, we are good, and we can end the meeting, and everybody's happy.
+
+Pierre, Joseph-Pascal  14:06
+Oh, but even even the first solution of Madi creates a delay.
+Even that is not good enough because it means you have to open a ticket. Wait for someone to...
+
+Talbot, Eric  14:16
+Well, if you don't want delays, you should that you should automate that part, right? The assignment of security zone.
+
+
+Talbot, Eric  14:53
+But anyway.
+
+Pierre, Joseph-Pascal  14:53
+So the impact on us is great, is greater at least. And so that's what we're trying to solve.
+
+El Masaoudi, Mahdi  15:03
+Yeah, you are referring to the fine grain, right?
+
+Pierre, Joseph-Pascal  15:08
+But the whole process, because you cannot separate coarse and fine grain in our perspective.
+Because if you do only one, it's simply not usable.
+So that's why we have to do it still manually against the security app.
+
+El Masaoudi, Mahdi  15:26
+Mhm.
+
+Pierre, Joseph-Pascal  15:26
+And then secondly, you had to provision, or at least you proposed to provision an endpoint to allow us to assign an unassigned profile, which in your rule technically shouldn't be the case. As soon as you create a profile, it should be assigned to someone. But here, you're going to end up with some time, you don't know how long.
+A profile with no name at night, not no name, but no digital ID attached.
+So, so you, you, you end up, you ended up providing an endpoint for doing so through a SUM, but you understand that you still have a a leading time with no ID attached, so...
+
+El Masaoudi, Mahdi  16:11
+Yeah, but until the process is not complete.
+The profile is not is not usable, because, yes, you have to do the first part with the secure zone team to create the profile. We do the things in reverse, because for employees they do the they do the opposite. They create the profile, it is assigned from second one.
+
+Pierre, Joseph-Pascal  16:28
+Is done exactly, yes.
+
+El Masaoudi, Mahdi  16:35
+and they add the fine grain. For you, it's the opposite. You just create the profile within the secure zone. They add the fine grain, everything, and then last step, you assign it. But the moment the account is created, it belongs to a person. Another person cannot.
+
+Pierre, Joseph-Pascal  16:40
+Yes.
+Mhm.
+
+El Masaoudi, Mahdi  16:55
+use it, even if the digital identity is not assigned to it, and it's not usable until the whole process is complete.
+
+So, Candi  17:19
+And so, I, I know we got 10 minutes left. Does that mean why I understand you're saying if we once we build the link from the Cx identity and the circular ID?
+Then we cannot.
+change it. Even if we have to change our Cx, because technically the Cx ID is all about the access provision. So maybe the Cx ID, I create another Cx ID for myself, and I rather to link my second Cx ID to my security ID.
+
+Pierre, Joseph-Pascal  17:43
+Yeah.
+
+So, Candi  18:02
+and we cannot do that also.
+
+El Masaoudi, Mahdi  18:06
+You can add, you can add the new one.
+
+Pierre, Joseph-Pascal  18:09
+Yeah, you can add, but you cannot remove. You cannot replace or...
+
+El Masaoudi, Mahdi  18:11
+Cannot remove. I think the problem.
+
+So, Candi  18:12
+But that's only one secursal ID.
+
+El Masaoudi, Mahdi  18:15
+Yeah, the problem is not much technical. We know technically we can, it's a matter of two days. The matter is...
+
+Talbot, Eric  18:43
+What?
+No, there is a security in in in for IAM, where actually it's IAM, which which says that each profile should be assigned with one unique ID, basically, so you cannot do like...
+Same profile used by two different persons - that's basically what the norm says.
+
+Pierre, Joseph-Pascal  19:09
+No, yeah, but we don't want that. We want, it might be used by a first person and then it's being transferred to a second one.
+
+Talbot, Eric  19:13
+I know.
+to a different ID, that's fine because we can still track the user. You know, the basic security need behind all of that is being able to track our users and what they did. So that's why you cannot have the same profile for two different persons. But you can have multiple.
+
+Pierre, Joseph-Pascal  19:22
+So a different one, exactly. Replacing, right?
+Yeah, but that...
+
+Talbot, Eric  19:39
+You can have multiple profiles, in fact, because it's always going to be the same user. You cannot just reassign it to a different person.
+
+El Masaoudi, Mahdi  19:48
+Is it Ti?
+
+Pierre, Joseph-Pascal  19:49
+Uhhh.
+
+Talbot, Eric  19:49
+You can have one too many.
+
+El Masaoudi, Mahdi  19:50
+At one instance, the current model does not allow to assign one profile to two different identities. The opposite, yeah, the opposite is true.
+
+Talbot, Eric  19:58
+Yeah, and it's, and it's okay.
+
+Pierre, Joseph-Pascal  20:03
+Yeah, I understand that, but just to clarify Eric's point, what we are talking is we have one security zone profile, let's say, assigned to one guy.
+
+El Masaoudi, Mahdi  20:08
+Yeah.
+
+Pierre, Joseph-Pascal  20:16
+and we want to assign it to this guy and give it to another guy. You.
+
+Talbot, Eric  20:20
+No, that's not.
+That's not okay.
+
+Pierre, Joseph-Pascal  20:22
+It's not the two at the same time using it. It's one and then the other one.
+
+Talbot, Eric  20:27
+Yeah, but when you when you look in terms of tracking, you know it's the same ID that you that you use for two different persons, so that's not OK. So it's just like saying the your GP something something, your short user at the bank, you use that for two different persons, two physical persons. You cannot do that.
+We cannot track, you know, it's very hard to track in the back-end system, like at which time did it became physical person one? At which time did it came physical person two? It's very hard to say in terms of SUC analysis. So to be able to better track something, our users, each unique ID has to be a...
+
+ierre, Joseph-Pascal  21:03
+Yeah.
+
+Talbot, Eric  21:05
+Unique to one person.
+
+Pierre, Joseph-Pascal  21:08
+So that means, Candi, you cannot afford to make mistakes.
+
+Talbot, Eric  21:14
+She can, she can make mistakes, she can just, she can just, but when she changing it to something, another ID is fine, reusing it, reusing the first ID is not OK.
+
+So, Candi  21:26
+No, I, I, I hear you. I think what will happen is, yeah, people still make mistakes, so, but then we don't allow them to correct it, so that that would mean that they will have to start all over again, create a new security ID and then link it.
+To the Cx ID, because that is allowed, right? Cx ID can link to multiple security ID, and then maybe, yeah, and maybe they they don't bother to clean up the the the old security ID, so there will be a lot of.
+
+Talbot, Eric  21:48
+Yeah, yeah, that's that's allowed.
+Yeah, just like a...
+
+So, Candi  22:04
+you know, garbage leftover. Yeah, because we don't provide a clean way for them to correct the mistakes. That is okay to me. I'm not, I'm not saying.
+
+Pierre, Joseph-Pascal  22:05
+Garbage, yeah, yeah.
+
+Talbot, Eric  22:07
+Yeah.
+
+So, Candi  22:19
+you know, but I'll pass on that to the whoever taking care of the operation on our side, the stakeholders. So we'll see what they think. And to be honest, I don't know how often this kind of mistake would happen, but just that we don't feel comfortable, we don't have a way to correct mistakes.
+So, that's why I think that's why we have this call, and, as mentioned, technically we can do that, like when J.P. was refining the requirement with Paul and Esther's team, we we see it's doable, it does a use case to support the reason, but because...
+Yes, the UAMA doesn't provide that support, so we won't, yeah, we won't be able to do that, yeah.
+
+Talbot, Eric  23:04
+8.
+Maybe to get it even better understanding is this scenario happens all the time at the bank, right? We have a new employee, somebody messed up their last family name, right? So they changed his short ID or they changed his e-mail, and then they assign that physical person to that new e-mail with that new short ID. That happens all the time at the bank.
+But it's okay, you know, because we are assigning a completely new profile, and the original profile with the original family name, this gets destroyed. So that's fine. And so if we do the same thing in CompassX, we're okay, it's compliant. But we just cannot reuse that same first profile with the wrong family name to another physical person.
+That would be an analgo.
+
+El Masaoudi, Mahdi  23:50
+I think we can, we can.
+
+Pierre, Joseph-Pascal  23:50
+I understand the analogy. It's just, to me, I never looked at the CQZone profile the same way. To me, it's an account that is unnamed in the sense that it's virtual. It belongs to nobody initially. At least that's how it was.
+created and handled in the past. It was done in security app and nobody digitally had a AID attached to it. You understand? So to me, it's not, the analogy to me doesn't work in that sense. Now I understand, and maybe that's where we want to go.
+
+Pierre, Joseph-Pascal  25:47
+But if that's the case, that's the case, you know, we'll simply report it.
+
+El Masaoudi, Mahdi  25:47
+Have a question for...
+Yeah, I have a question for Eric and Mickael. And it's not a commitment, just I want to know, maybe it will lead us to a solution. Is it acceptable that
+That reassignment can be granted to a group of limited group of people.
+
+Talbot, Eric  26:14
+SA's job is basically that, right?
+SAA.
+
+Pierre, Joseph-Pascal  26:22
+I see, I see is the, it's, it's, it's the Radhika. I don't know, you met Radhika, Madi? No, maybe not.
+
+So, Candi  26:23
+Yes, yes.
+
+El Masaoudi, Mahdi  26:23
+Uh, it's you.
+
+So, Candi  26:28
+The...
+It's not Radical's team. It's they take care of the idea, yeah, for NBIN, yeah.
+
+El Masaoudi, Mahdi  26:38
+Okay, but let's say in our solution, we say, for example, we create a special scope and we grant that scope to, let's say, three people, and they would be able to do the corrections. Is it something acceptable from a security perspective?
+
+Pierre, Joseph-Pascal  26:49
+Mm.
+
+Vermand, Mickael  27:00
+Um...
+I think there would be a risk. The one we're trying to avoid here, so it can be acceptable, but you know.
+It's still not perfect because we are just not respecting our security requirements for this device scope. So it can be done, but it's not perfect. That's what I mean.
+
+Talbot, Eric  27:20
+But in the end, somebody has to do it, right? To reassign to a new profile. So you have to do it. Like if it's not automated, somebody has to do manually. So a group has to take care of that. As far as I knew, SAA group, it was the people handling everything in terms of authentication, authorization.
+
+Vermand, Mickael  27:24
+Yes.
+
+Pierre, Joseph-Pascal  27:39
+Mmh.
+
+Talbot, Eric  27:40
+So if there is responsibility and they get audited, right, if we have proper logs and see who does what. So.
+
+Pierre, Joseph-Pascal  27:47
+Yeah.
+
+El Masaoudi, Mahdi  27:49
+Yeah, for for for the security one.
+
+Talbot, Eric  27:50
+So yeah, as long as they don't have the ability to reassign a current profile to somebody else, if as long as this kind of action is not permitted, then it's fine, I think.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1549 @@
+Patel, Ankitkumar
+0 minutes 3 seconds0:03
+Patel, Ankitkumar 0 minutes 3 seconds
+Yeah, thanks. So I will be demoing how the implementations on the UI side. So UAMA, we implemented to display, get the secure zone ID and display on the user profile. So currently the behavior is we get the secure zone ID from the Okta token and display it on the user profile, but now we have implemented.
+Patel, Ankitkumar 0 minutes 25 seconds
+The UMA, so we call the UM API endpoint to get the security ID for that users and display it on the UI.
+Patel, Ankitkumar 0 minutes 33 seconds
+So, this is the user profile, this is the secure zone ID, and as we can see here, it is coming from the Uama call.
+Patel, Ankitkumar 0 minutes 46 seconds
+So, and that's the first thing. The second thing, we also implemented the validations where we checked the secure zone ID is valid or invalid. So if you want, if you try to link any invalid secure zone ID to the user profile and then try to update the user.
+Patel, Ankitkumar 1 minute 7 seconds
+It will throw an error saying this secure zone ID is not valid.
+Patel, Ankitkumar 1 minute 14 seconds
+So that's the validations we have implemented on our sites. Then the third thing is if there is no secure zone ID linked with the users, and if user is logged in, we hide all the secure zone links from the left nav. So currently this user has a secure zone ID linked, and if I try to open this users,
+Patel, Ankitkumar 1 minute 39 seconds
+User profile.
+Patel, Ankitkumar 1 minute 47 seconds
+It have all, we can see all the secure zone IDs, secure zone links on the left left, but...
+Patel, Ankitkumar 1 minute 56 seconds
+If we remove the secure zone ID.
+Patel, Ankitkumar 2 minutes 3 seconds
+the user cannot see the secure zone links from the left. So that is the third things we implemented on the UI side. There are two limitations currently where UAMA and our Okta are not in a sync for the secure zone ID.
+Patel, Ankitkumar 2 minutes 22 seconds
+So for the existing users, Cx users, we observed that the secure zone ID is linked differently. So in Uama, it shows different secure zone ID in our Okta. And another thing is the one secure zone ID we cannot link.
+Patel, Ankitkumar 2 minutes 41 seconds
+with two Cx user profiles. So if user A has a secure zone ID link and if we try to link the same secure zone ID to user B, the first users will be unlinked and that secure zone ID will be linked with the user B. So that's the two things.
+Patel, Ankitkumar 3 minutes 2 seconds
+Yes, Candi.
+
+So, Candi
+3 minutes 5 seconds3:05
+So, Candi 3 minutes 5 seconds
+Hi, Ankit, can we slow down a little bit? So the first thing you said, this personal ID in Okta and the one linked to UMMA is different. So what does that mean? Sorry.
+PA
+Patel, Ankitkumar
+3 minutes 20 seconds3:20
+Patel, Ankitkumar 3 minutes 20 seconds
+Mm-hmm.
+Patel, Ankitkumar 3 minutes 22 seconds
+Ye.
+Patel, Ankitkumar 3 minutes 25 seconds
+So for the existing user, this is what we observed. But currently, if you try to enter the secure zone ID here and try to update the user profile, currently it will update the Uama and our Okta, NBIN Okta. So it will update on the both sides. But for the existing user, this is what we observed in the dev environment. I'm not sure about the Uat environment.
+Patel, Ankitkumar 3 minutes 49 seconds
+but in the dev environment we observe that the Cx users in NBIN and Okta has a different secure zone ID and in UMA call it shows the different secure zone ID. So, I'm not sure if those are in a sync or not, but yeah, that's the limitations.
+Patel, Ankitkumar 4 minutes 8 seconds
+Raffi can collect me.
+
+So, Candi
+4 minutes 9 seconds4:09
+So, Candi 4 minutes 9 seconds
+Mm.
+So, Candi 4 minutes 12 seconds
+No, I sorry. So is it an observation or is it technical limitation or a business requirement? I don't quite get it. Yeah, sorry.
+
+Newton, Persis Esther
+4 minutes 24 seconds4:24
+Newton, Persis Esther 4 minutes 24 seconds
+We.
+PR
+Patel, Ravikumar
+4 minutes 24 seconds4:24
+Patel, Ravikumar 4 minutes 24 seconds
+It's a technical limitation, Candi. So from when we integrated the UMA endpoints into Cx, one limitation, well, we knew while we did testing with Mahdi and Esther, we saw that ICR and Okta were not in sync.
+
+So, Candi
+4 minutes 25 seconds4:25
+So, Candi 4 minutes 25 seconds
+How, how did it happen?
+So, Candi 4 minutes 33 seconds
+Mhm.
+PR
+Patel, Ravikumar
+4 minutes 43 seconds4:43
+Patel, Ravikumar 4 minutes 43 seconds
+So, that's it's a technical limitation.
+
+El Masaoudi, Mahdi
+4 minutes 46 seconds4:46
+El Masaoudi, Mahdi 4 minutes 46 seconds
+Yeah, so that's what you mean. OK, so that was part of the discussion we had at 2P.m. with the security advisors.
+El Masaoudi, Mahdi 4 minutes 56 seconds
+Uh.
+El Masaoudi, Mahdi 4 minutes 58 seconds
+Yes, I know it doesn't sync in ICR. Why? Because we permitted that in UAMA, but not in ICR since it was not aligned with the security rules.
+El Masaoudi, Mahdi 5 minutes 11 seconds
+Uhh...
+El Masaoudi, Mahdi 5 minutes 13 seconds
+So now we will review what was said in the meeting with the security and we will have a synchronized solution. Either we allow reassignation on both sides, Uama and ICR.
+El Masaoudi, Mahdi 5 minutes 32 seconds
+or we do not allow it on both sides.
+El Masaoudi, Mahdi 5 minutes 37 seconds
+That has been said, you can always assign the identity to a new secure zone profile. There is no restriction on that. The restriction is on reassigning. And the reason why is that we do not allow to reuse a profile. Let's say I have a profile today.
+El Masaoudi, Mahdi 5 minutes 59 seconds
+secure zone profile, it's linked to my, it belongs to me. Security doesn't want that you give that account to another person because we want to keep the audit trace on.
+El Masaoudi, Mahdi 6 minutes 15 seconds
+Because it will create confusion on the on audit trace.
+
+
+So, Candi
+6 minutes 15 seconds6:15
+So, Candi 6 minutes 15 seconds
+Yeah, but...
+So, Candi 6 minutes 19 seconds
+Yeah, but Mahdi, it's a different question from what we have discussed, at least from my point of view, because here these are existing user. So before we migrate them into ICR or using UAMA, they've already tied to 1 securational ID, and that securational ID is persistent.
+So, Candi 6 minutes 43 seconds
+in Okta. So that, and then if now for the first time we have to fill up ICR for that person, are you saying we cannot use the same user ID the user has already been assigned to?
+So, Candi 7 minutes 2 seconds
+It's the same person. We just migrate, put it in ICR and yeah.
+
+El Masaoudi, Mahdi
+7 minutes 4 seconds7:04
+El Masaoudi, Mahdi 7 minutes 4 seconds
+And I have.
+El Masaoudi, Mahdi 7 minutes 7 seconds
+The.
+El Masaoudi, Mahdi 7 minutes 9 seconds
+The secure zone ID is not persisted in Okta.
+El Masaoudi, Mahdi 7 minutes 13 seconds
+In the Talbot.
+
+So, Candi
+7 minutes 13 seconds7:13
+So, Candi 7 minutes 13 seconds
+Yeah, we kept a copy of that. Yes, you're right.
+
+El Masaoudi, Mahdi
+7 minutes 17 seconds7:17
+El Masaoudi, Mahdi 7 minutes 17 seconds
+in the target solution because yes, Okta has the secure zone ID, but it gets it from ICR. It's not persisted in Okta. If you take Soma or another application like GIC, yes, it is persisted in Okta, but in the target solution, it is not persisted in Okta.
+El Masaoudi, Mahdi 7 minutes 36 seconds
+It is it is Okta gets it from ICR.
+
+So, Candi
+7 minutes 46 seconds7:46
+So, Candi 7 minutes 46 seconds
+Yeah, but Soma is still needed in the token, right? So I thought we agreed from the Compass when we update, maybe for a new user, we would call Uama, but at the same time, we would call the KYP endpoint.
+So, Candi 8 minutes 5 seconds
+to persist it in the sequential ID claim in Okta. So I thought that's what we agree. We, at least for NBIN, because Soma will have to get the ID from the Okta token.
+
+El Masaoudi, Mahdi
+8 minutes 21 seconds8:21
+El Masaoudi, Mahdi 8 minutes 21 seconds
+Yeah, for Soma, it's still the, it's still the case. It hasn't.
+
+So, Candi
+8 minutes 25 seconds8:25
+So, Candi 8 minutes 25 seconds
+Yeah, so, exactly.
+So, Candi 8 minutes 29 seconds
+So then the first question is for existing user doing the migration. Now we're ready to launch. I have 200 users, 300 users. They already have a secure zone ID as according to what they have in Okta. So I, and this is the information I can get from Compass.
+So, Candi 8 minutes 51 seconds
+Is that way we would?
+So, Candi 8 minutes 54 seconds
+Make sure that the same person would be assigned to the same sequential ID in ICR.
+So, Candi 9 minutes 2 seconds
+Is it breaking any security in here?
+
+El Masaoudi, Mahdi
+9 minutes 7 seconds9:07
+El Masaoudi, Mahdi 9 minutes 7 seconds
+Oh.
+El Masaoudi, Mahdi 9 minutes 9 seconds
+For existing users, we do the initial load, so it will populate everything in ICR in and in secure zone.
+
+So, Candi
+9 minutes 13 seconds9:13
+So, Candi 9 minutes 13 seconds
+Yeah.
+So, Candi 9 minutes 19 seconds
+Okay, so yeah, we...
+
+El Masaoudi, Mahdi
+9 minutes 20 seconds9:20
+El Masaoudi, Mahdi 9 minutes 20 seconds
+And even in Okta.
+
+So, Candi
+9 minutes 24 seconds9:24
+So, Candi 9 minutes 24 seconds
+Oh, okay, so we don't have to change the ID for existing users. It will work. It's...
+So, Candi 9 minutes 32 seconds
+Is guaranteed the one-time load.
+
+El Masaoudi, Mahdi
+9 minutes 37 seconds9:37
+El Masaoudi, Mahdi 9 minutes 37 seconds
+Yeah, normally, because we don't we don't want to get to go for each user and assigned the secure zone, it should be done as an initial load for the existing users.
+
+So, Candi
+9 minutes 51 seconds9:51
+So, Candi 9 minutes 51 seconds
+But you can do the initial, make sure there would be no impact to existing user, right?
+So, Candi 10 minutes
+That's part of the dude, yeah.
+So, Candi 10 minutes 6 seconds
+Okay, sorry, I sidetracked it, so...
+
+Newton, Persis Esther
+10 minutes 10 seconds10:10
+Newton, Persis Esther 10 minutes 10 seconds
+No, not at all. The Candi, that is a major issue for us, a technical issue.
+PA
+Patel, Ankitkumar
+10 minutes 11 seconds10:11
+Patel, Ankitkumar 10 minutes 11 seconds
+Analysis.
+OO
+Oyemade, Obaloluwa
+10 minutes 19 seconds10:19
+Oyemade, Obaloluwa 10 minutes 19 seconds
+Alright, so, so that just we are mindful of time, yeah, and we have, yeah, let's just try to get through the demo today. Thank you.
+Oyemade, Obaloluwa 10 minutes 30 seconds
+Hey, Maisha.
+
+Wahab, Maisha
+10 minutes 32 seconds10:32
+Wahab, Maisha 10 minutes 32 seconds
+I think this might be a question for Ankit, but I think you mentioned it identifies whether the system, the secured zone ID is valid or not. What defines that like criteria? Is it the status of the ID or if it's been mistyped or?
+PA
+Patel, Ankitkumar
+10 minutes 34 seconds10:34
+Patel, Ankitkumar 10 minutes 34 seconds
+Mhm.
+Patel, Ankitkumar 10 minutes 49 seconds
+So that will correct maybe to check if that secure zone IDs belongs to NBIN or not, right? That's how we identify.
+
+Newton, Persis Esther
+11 minutes 8 seconds11:08
+Newton, Persis Esther 11 minutes 8 seconds
+Ravi, are you there?
+
+El Masaoudi, Mahdi
+11 minutes 9 seconds11:09
+El Masaoudi, Mahdi 11 minutes 9 seconds
+You are calling your.
+PR
+Patel, Ravikumar
+11 minutes 11 seconds11:11
+Patel, Ravikumar 11 minutes 11 seconds
+Oh, you're asking me on Git? So what we do is we call, we do a Git call to secure zone, and then we check whether that ID exists in secure zone or not. That's how we validate, if it's valid or invalid.
+
+
+Patel, Ankitkumar
+11 minutes 12 seconds11:12
+Patel, Ankitkumar 11 minutes 12 seconds
+Yeah.
+
+Wahab, Maisha
+11 minutes 25 seconds11:25
+Wahab, Maisha 11 minutes 25 seconds
+Okay, so as long as it's an entry within, I guess, the database of secured zone, it's not driven by whether it's been deactivated or an active ID, correct?
+PA
+Patel, Ankitkumar
+11 minutes 30 seconds11:30
+Patel, Ankitkumar 11 minutes 30 seconds
+Mm.
+Patel, Ankitkumar 11 minutes 36 seconds
+Yeah, if it's in inactive secure zone ID, still it will be valid, but it will display a warning message. It says like this secure zone ID is inactive.
+
+Wahab, Maisha
+11 minutes 46 seconds11:46
+Wahab, Maisha 11 minutes 46 seconds
+Okay.
+PA
+Patel, Ankitkumar
+11 minutes 47 seconds11:47
+Patel, Ankitkumar 11 minutes 47 seconds
+Yeah.
+Patel, Ankitkumar 11 minutes 53 seconds
+Any other questions? If not, then Paul will be demo the SSO secure zone flow.
+Patel, Ankitkumar 12 minutes 4 seconds
+Thanks, everyone. Now, Paul, you can go next.
+GP
+Guevarra, Paul
+12 minutes 6 seconds12:06
+Guevarra, Paul 12 minutes 6 seconds
+Thank you, Ankit. I'm going to share my screen. Let me know when you guys are able to see so.
+PA
+Patel, Ankitkumar
+12 minutes 12 seconds12:12
+Patel, Ankitkumar 12 minutes 12 seconds
+Yep.
+
+
+
+Guevarra, Paul 15 minutes 28 seconds
+the my portfolio plus IA. I think they are trying to connect with the team and to see what the issue is, but for this demo, we're not able to show you the full flow. Okay. So first, let's just go down the list. Since we know this one's not working, I can just show you the error quickly.
+Guevarra, Paul 15 minutes 49 seconds
+Right here.
+Guevarra, Paul 15 minutes 51 seconds
+It just has something to do with the fine grain, I believe, if I'm not mistaken. It's just that my security zone ID doesn't have access to this. Okay, so that's just the first application. The next one is my portfolio plus user admin. So let's click on that here.
+Guevarra, Paul 16 minutes 12 seconds
+As you can see, I'm able to log in here. It does manage to use the language param here. And then also we are able to have the drop down for this. I won't go through every single applications. I believe Atesh will show you at the very end, but I'll just show you that.
+Guevarra, Paul 16 minutes 33 seconds
+Some of these applications have these implemented. OK, so the my portfolio plus user admin works here. You can go to my reports, uploads.
+Guevarra, Paul 16 minutes 45 seconds
+As you can see, we're able to log in here as well. Sorry.
+Guevarra, Paul 16 minutes 51 seconds
+Tchir.
+Guevarra, Paul 16 minutes 52 seconds
+Then let's go to the next application. If we go to allocations.
+Guevarra, Paul 16 minutes 59 seconds
+We're able to log in as well, and you're able to see the different profiles.
+Guevarra, Paul 17 minutes 4 seconds
+Let's go to the next one. Yeah, fun facts, delivery.
+Guevarra, Paul 17 minutes 15 seconds
+Funpack history.
+Guevarra, Paul 17 minutes 20 seconds
+Okay, and then next is Max Light, but as we know, it's not working currently. So next one we're going to go on to do is Web Panagon, which is for reports.
+Guevarra, Paul 17 minutes 33 seconds
+As you can see, we're able to go into this application and then CRMA, which is Credit Risk Management.
+Guevarra, Paul 17 minutes 47 seconds
+Okay, just to show you on one application for now, let me just go back to this call here.
+Guevarra, Paul 17 minutes 56 seconds
+So, you can see that, for example.
+Guevarra, Paul 18 minutes 1 second
+This GUPA001, I'm just going to call this account one, has all of these groups, right? And then this is configured for these applications. And then, for example, if we go to here and look at account #3, it doesn't have all of those groups here. So we can see, like, for example, if we...
+Guevarra, Paul 18 minutes 20 seconds
+have this secure zone, we're able to access the crisis risk management application. But let's say if we change into #2, we're still able to access it because it has that application, that list. So you can see here, it should be credit risk 0393.
+Guevarra, Paul 18 minutes 40 seconds
+0393, but if we check here on account #3, it doesn't have that group, and let's try to go access it here.
+Guevarra, Paul 18 minutes 51 seconds
+As you can see, we were not able to access it as well.
+Guevarra, Paul 18 minutes 55 seconds
+Which is expected?
+Guevarra, Paul 18 minutes 59 seconds
+Okay, I also want to show you one more thing too. I just saw an earlier discussion I had in regards to the Okta group.
+Guevarra, Paul 19 minutes 9 seconds
+Um...
+Guevarra, Paul 19 minutes 10 seconds
+So I'm just going to show you a call here from CIM. So this is my profile right now.
+Guevarra, Paul 19 minutes 17 seconds
+Okay, and then we would have to add those groups within this Okta profile as well. So not only at the function groups on the secure zone ID has to be there, but also, sorry, function groups on the secure zone ID have to be there, but as well as the groups, Okta groups need to be added to the Cx profile as well.
+Guevarra, Paul 19 minutes 44 seconds
+That's it for the SSO demo, my portion at least. Any questions so far?
+
+So, Candi
+19 minutes 50 seconds19:50
+So, Candi 19 minutes 50 seconds
+Hi, it looks good. Thanks, Paul. Just a question that the profile selector, it should render per application or, yeah, the question is if the account 3 doesn't have access to the application, why is it showing up on?
+So, Candi 20 minutes 10 seconds
+The drop-down.
+GP
+Guevarra, Paul
+20 minutes 13 seconds20:13
+Guevarra, Paul 20 minutes 13 seconds
+That's a good question. So, oh, JP, yeah.
+
+El Masaoudi, Mahdi
+20 minutes 16 seconds20:16
+El Masaoudi, Mahdi 20 minutes 16 seconds
+Okay.
+El Masaoudi, Mahdi 20 minutes 18 seconds
+I can, you can take, okay, go ahead and GP and then.
+GP
+Guevarra, Paul
+20 minutes 20 seconds20:20
+Guevarra, Paul 20 minutes 20 seconds
+Org.
+
+Pierre, Joseph-Pascal
+20 minutes 22 seconds20:22
+Pierre, Joseph-Pascal 20 minutes 22 seconds
+So, the reason can be is, um, the execution profiles comes from Okta.
+Pierre, Joseph-Pascal 20 minutes 30 seconds
+So Okta has it registered, well, actually it doesn't even have it. ICR have it registered, attached to the user, irrespective of the application. It simply says this user, like in this case, Paul, has these many security zone profiles.
+Pierre, Joseph-Pascal 20 minutes 49 seconds
+And this is what gets retrieved by Okta and attached to the token. So regardless of the application that you would be loading, it would get that token. Then it's up to the application to perform its own access control. As to for the selected profile,
+Pierre, Joseph-Pascal 21 minutes 8 seconds
+It would render an error if ever you don't have access to the application, or I would let you in.
+Pierre, Joseph-Pascal 21 minutes 15 seconds
+So, so that's you could say a it's not a limitation, it's just to be aware that what what we get from the Okta profile Okta token is is just a list of secure zone profiles that a user has.
+Pierre, Joseph-Pascal 21 minutes 35 seconds
+Owns, let's say.
+
+So, Candi
+21 minutes 39 seconds21:39
+So, Candi 21 minutes 39 seconds
+So then the filter, there's no filtering out by the app code or by the function group code. You just render what you got from ICR.
+
+Pierre, Joseph-Pascal
+21 minutes 47 seconds21:47
+Pierre, Joseph-Pascal 21 minutes 47 seconds
+None.
+Pierre, Joseph-Pascal 21 minutes 50 seconds
+Exactly. There's no logic implemented in Okta because it's out of scope for them. You know, they shouldn't mingle with access profile. Obviously, we can make the link to, you know, that context passing that we've explored where we can limit it.
+
+So, Candi
+21 minutes 51 seconds21:51
+So, Candi 21 minutes 51 seconds
+Okta.
+
+Pierre, Joseph-Pascal
+22 minutes 8 seconds22:08
+Pierre, Joseph-Pascal 22 minutes 8 seconds
+to specific secure zones, let's say, but that means it's from CompassX. You know, when you in CompassX click on this application allocation, you could say, okay, yes, you're going to get the list of secure zone from Okta.
+
+So, Candi
+22 minutes 19 seconds22:19
+So, Candi 22 minutes 19 seconds
+Mhm.
+
+Pierre, Joseph-Pascal
+22 minutes 29 seconds22:29
+Pierre, Joseph-Pascal 22 minutes 29 seconds
+But here's the only one that you should be using for this user.
+
+So, Candi
+22 minutes 35 seconds22:35
+So, Candi 22 minutes 35 seconds
+That is not the current solution.
+
+Pierre, Joseph-Pascal
+22 minutes 35 seconds22:35
+Pierre, Joseph-Pascal 22 minutes 35 seconds
+So, that's Compass Six.
+Pierre, Joseph-Pascal 22 minutes 37 seconds
+No, exactly. It's not yet implemented. It was discussed with Mahdi. We said it would go post-live, you know. So that's the next thing to be implemented.
+
+
+
+
+So, Candi 23 minutes 32 seconds
+Yeah.
+
+El Masaoudi, Mahdi
+23 minutes 36 seconds23:36
+El Masaoudi, Mahdi 23 minutes 36 seconds
+Go back to the profile.
+
+So, Candi
+23 minutes 38 seconds23:38
+So, Candi 23 minutes 38 seconds
+Mm.
+
+El Masaoudi, Mahdi
+23 minutes 39 seconds23:39
+El Masaoudi, Mahdi 23 minutes 39 seconds
+But he has access to me.
+
+So, Candi
+23 minutes 41 seconds23:41
+So, Candi 23 minutes 41 seconds
+So every time I switch a profile, the access control would be applied again to make sure I got the right access on in the application. Maybe, yeah, profile account one and account A, account two, I would have different level of access. So it will also.
+
+Pierre, Joseph-Pascal
+23 minutes 42 seconds23:42
+Pierre, Joseph-Pascal 23 minutes 42 seconds
+Mm.
+
+El Masaoudi, Mahdi
+24 minutes24:00
+El Masaoudi, Mahdi 24 minutes
+Yeah, at every interaction with the application, the access is checked.
+
+So, Candi
+24 minutes 1 second24:01
+So, Candi 24 minutes 1 second
+Rewinder.
+So, Candi 24 minutes 7 seconds
+I see. So then I think just cut out for some Kevin and Radhika. This is the behavior. Yeah, so what the IT support right now. Yeah, you potentially you see the drop down, but then
+So, Candi 24 minutes 26 seconds
+like what Paul download, you could get an error message. Yeah.
+So, Candi 24 minutes 33 seconds
+Okay, thank you.
+GP
+Guevarra, Paul
+24 minutes 36 seconds24:36
+Guevarra, Paul 24 minutes 36 seconds
+Thank you, Candi. Anyone else with any questions?
+
+Pierre, Joseph-Pascal
+24 minutes 41 seconds24:41
+Pierre, Joseph-Pascal 24 minutes 41 seconds
+Can you display again the error message?
+GP
+Guevarra, Paul
+24 minutes 44 seconds24:44
+Guevarra, Paul 24 minutes 44 seconds
+Yes, Tchir.
+
+Sharma, Radhika
+24 minutes 50 seconds24:50
+Sharma, Radhika 24 minutes 50 seconds
+The error message, I think, is pretty...
+Sharma, Radhika 24 minutes 54 seconds
+like maybe not what it says, but this is quite standard when the secure zone ID itself doesn't have the access to the app.
+
+Pierre, Joseph-Pascal
+24 minutes 59 seconds24:59
+Pierre, Joseph-Pascal 24 minutes 59 seconds
+Okay.
+
+Sharma, Radhika
+25 minutes 6 seconds25:06
+Sharma, Radhika 25 minutes 6 seconds
+So.
+Sharma, Radhika 25 minutes 8 seconds
+We'll take a look as we, because we're going to be reviewing all the IDs to see, you know, how many people do we have in a scenario like this where they have multiple IDs, but they don't have all the apps assigned to them.
+Sharma, Radhika 25 minutes 21 seconds
+we'd be able to gauge the scale of impact here. But I don't see this as too concerning.
+
+Pierre, Joseph-Pascal
+25 minutes 29 seconds25:29
+Pierre, Joseph-Pascal 25 minutes 29 seconds
+Okay, and the error message per se, unique error ID is fine with you, where it's displayed.
+
+Sharma, Radhika
+25 minutes 37 seconds25:37
+Sharma, Radhika 25 minutes 37 seconds
+I don't think it's the same for every app. So that is something I've seen different behaviors. Maisha, you can correct me if I'm wrong.
+
+Wahab, Maisha
+25 minutes 48 seconds25:48
+Wahab, Maisha 25 minutes 48 seconds
+I don't think it's consistent, yeah.
+
+Sharma, Radhika
+25 minutes 48 seconds25:48
+Sharma, Radhika 25 minutes 48 seconds
+It would be, I think it would it would be nice if it was more user-friendly, because this means nothing to the end user.
+
+Karatsu, Kevin
+25 minutes 55 seconds25:55
+Karatsu, Kevin 25 minutes 55 seconds
+I think this is the way it is today though, right?
+
+Pierre, Joseph-Pascal
+25 minutes 56 seconds25:56
+Pierre, Joseph-Pascal 25 minutes 56 seconds
+But, at least...
+
+Sharma, Radhika
+25 minutes 58 seconds25:58
+Sharma, Radhika 25 minutes 58 seconds
+I think so, yeah. I've seen different messages for different apps.
+
+Karatsu, Kevin
+26 minutes 2 seconds26:02
+Karatsu, Kevin 26 minutes 2 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+26 minutes 3 seconds26:03
+Pierre, Joseph-Pascal 26 minutes 3 seconds
+Okay.
+
+El Masaoudi, Mahdi
+26 minutes 6 seconds26:06
+El Masaoudi, Mahdi 26 minutes 6 seconds
+You mean the migrated apps?
+
+Sharma, Radhika
+26 minutes 15 seconds26:15
+Sharma, Radhika 26 minutes 15 seconds
+Yes, I'll say yes. Like I don't have access to all the apps right now as an employee. And I think I've seen different.
+Sharma, Radhika 26 minutes 25 seconds
+versions, but you know what? Today we don't see anything that says SSO error user, right? I think there's some other messaging, but where it says at the top where you don't have access to this app or please contact technical support, the terminology as it's different today, we're seeing it's the same.
+
+El Masaoudi, Mahdi
+26 minutes 27 seconds26:27
+El Masaoudi, Mahdi 26 minutes 27 seconds
+Yeah, no, then then.
+
+Sharma, Radhika
+26 minutes 43 seconds26:43
+Sharma, Radhika 26 minutes 43 seconds
+We see different words depending on the app. It's not consistent. I mean, that's not great. But I wouldn't necessarily say it's a showstopper.
+
+El Masaoudi, Mahdi
+26 minutes 45 seconds26:45
+El Masaoudi, Mahdi 26 minutes 45 seconds
+Mm.
+
+Pierre, Joseph-Pascal
+26 minutes 49 seconds26:49
+Pierre, Joseph-Pascal 26 minutes 49 seconds
+Mm.
+Pierre, Joseph-Pascal 26 minutes 55 seconds
+But what can you do then from here, Paul, besides changing profile?
+Pierre, Joseph-Pascal 27 minutes 2 seconds
+Can you stay on this profile and look at the other application that you may have access to?
+GP
+Guevarra, Paul
+27 minutes 10 seconds27:10
+Guevarra, Paul 27 minutes 10 seconds
+You want me to click on Applications, right?
+
+Pierre, Joseph-Pascal
+27 minutes 13 seconds27:13
+Pierre, Joseph-Pascal 27 minutes 13 seconds
+Yeah.
+GP
+Guevarra, Paul
+27 minutes 14 seconds27:14
+Guevarra, Paul 27 minutes 14 seconds
+I believe it's just cold.
+
+Pierre, Joseph-Pascal
+27 minutes 15 seconds27:15
+Pierre, Joseph-Pascal 27 minutes 15 seconds
+Curious to see.
+
+Berkani, Idriss
+27 minutes 15 seconds27:15
+Berkani, Idriss 27 minutes 15 seconds
+Yeah, this is actually my question, yeah.
+
+
+El Masaoudi, Mahdi
+27 minutes 48 seconds27:48
+El Masaoudi, Mahdi 27 minutes 48 seconds
+Just for your...
+El Masaoudi, Mahdi 27 minutes 50 seconds
+Yeah, just for the information, I'm doing the the work breakdown of this part. I don't know if it will be implemented or or not, but I'm doing the.
+El Masaoudi, Mahdi 28 minutes 5 seconds
+The breakdown of this part for application and logout links.
+
+Pierre, Joseph-Pascal
+28 minutes 11 seconds28:11
+Pierre, Joseph-Pascal 28 minutes 11 seconds
+Yeah, but that also we've discussed, right? There's, can I say, a proposal on the table as to how it should be handled? I remember, Candi, when you were, we were all part of that, and it...
+Pierre, Joseph-Pascal 28 minutes 30 seconds
+Should come along, I believe, with the context passing.
+Pierre, Joseph-Pascal 28 minutes 35 seconds
+So there's something that has been, I forgot if I documented it, but I know I have some notes regarding that. So indeed it wasn't part of this, this, how do you say, iteration or provisioning.
+Pierre, Joseph-Pascal 28 minutes 52 seconds
+So, for the, it's gonna be fixed soon after.
+GP
+Guevarra, Paul
+29 minutes 6 seconds29:06
+Guevarra, Paul 29 minutes 6 seconds
+Any other questions or?
+Guevarra, Paul 29 minutes 12 seconds
+On.
+OO
+Oyemade, Obaloluwa
+29 minutes 12 seconds29:12
+Oyemade, Obaloluwa 29 minutes 12 seconds
+So, quick question: would this fix be done solely by Mahdi's team or the secure zone team, or would there be capacity needed from our from the FPM team as well?
+GP
+Guevarra, Paul
+29 minutes 14 seconds29:14
+Guevarra, Paul 29 minutes 14 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+29 minutes 22 seconds29:22
+Pierre, Joseph-Pascal 29 minutes 22 seconds
+Mm.
+Pierre, Joseph-Pascal 29 minutes 26 seconds
+It's a multi-team effort. The thing is, when it logs out, because here, is this internal or external? That's external. So that's it. So one external.
+
+Newton, Persis Esther
+29 minutes 38 seconds29:38
+Newton, Persis Esther 29 minutes 38 seconds
+External.
+
+El Masaoudi, Mahdi
+29 minutes 39 seconds29:39
+El Masaoudi, Mahdi 29 minutes 39 seconds
+External.
+
+Pierre, Joseph-Pascal
+29 minutes 45 seconds29:45
+Pierre, Joseph-Pascal 29 minutes 45 seconds
+I won't do the whole analysis here, but the point is, we're not the only one, I think, using it. So Okta, which is the one driving basically the accesses going forward, his default login page.
+Pierre, Joseph-Pascal 30 minutes 4 seconds
+Is not CompassX, it's their own, you know, secure zone, whatever login or Okta login, so we kind of don't have a choice to be redirected there. That being said, if ever the user come came from CompassX.
+Pierre, Joseph-Pascal 30 minutes 23 seconds
+and this is work on text passing comes into play, there will be an information exchange from CompassX to the secure zones app saying, hey, this guy comes from CompassX. Therefore, upon login or time out or whatever, the application would kind of know that.
+Pierre, Joseph-Pascal 30 minutes 43 seconds
+that, oh, okay, this guy is actually a CompassX user or something. And from there, we could drive to log out to be redirected somewhere. Okay. It won't be necessary to CompassX login page, but at least some custom page on Okta.
+Pierre, Joseph-Pascal 31 minutes 2 seconds
+or something like that. Now, I'm missing some details, you know, of the initial analysis we've done.
+Pierre, Joseph-Pascal 31 minutes 9 seconds
+But it's all this to say that it's not going to be upon just Mahdi or the Okta team. It's we have to, we have a plane there, so does Mahdi, so does Okta.
+
+Berkani, Idriss
+31 minutes 29 seconds31:29
+Berkani, Idriss 31 minutes 29 seconds
+If you want, I can show you the behavior when we come from welcome, if you want.
+OO
+Oyemade, Obaloluwa
+31 minutes 30 seconds31:30
+Oyemade, Obaloluwa 31 minutes 30 seconds
+No.
+
+Pierre, Joseph-Pascal
+31 minutes 36 seconds31:36
+Pierre, Joseph-Pascal 31 minutes 36 seconds
+Mhm.
+
+Berkani, Idriss
+31 minutes 38 seconds31:38
+Berkani, Idriss 31 minutes 38 seconds
+Make sure you do that.
+Berkani, Idriss 31 minutes 44 seconds
+Yes, you're gonna have an an idea how it how it works, so...
+GP
+Guevarra, Paul
+31 minutes 44 seconds31:44
+Guevarra, Paul 31 minutes 44 seconds
+Mahdi.
+
+Berkani, Idriss
+31 minutes 49 seconds31:49
+Berkani, Idriss 31 minutes 49 seconds
+When you pass from the welcome, the welcome page, let me log in.
+Berkani, Idriss 31 minutes 56 seconds
+We use Adapa test.
+Berkani, Idriss 32 minutes 2 seconds
+This is an NBIN user.
+Berkani, Idriss 32 minutes 6 seconds
+It is asking me to reset my password. Hopefully this one works.
+Berkani, Idriss 32 minutes 12 seconds
+And.
+Berkani, Idriss 32 minutes 14 seconds
+Set my password. Sorry for that.
+Berkani, Idriss 32 minutes 18 seconds
+Time ago, I didn't use it.
+Berkani, Idriss 32 minutes 21 seconds
+Megan.
+Berkani, Idriss 32 minutes 25 seconds
+Hey, Mum.
+Berkani, Idriss 32 minutes 48 seconds
+Yeah, so this is the welcome, and I'll change my password.
+Berkani, Idriss 32 minutes 55 seconds
+That it.
+Berkani, Idriss 32 minutes 57 seconds
+Okay, this is user.
+Berkani, Idriss 33 minutes 3 seconds
+Okay, so this is the welcome page. When I log into, let's say, a location.
+Berkani, Idriss 33 minutes 12 seconds
+So we are not coming from Compass here. So it is the work on the secure zone welcome page. So when I click here on applications, it's going to take me back to the welcome.
+Berkani, Idriss 33 minutes 23 seconds
+This is how it works on our site.
+Berkani, Idriss 33 minutes 27 seconds
+Same thing for a quit.
+Berkani, Idriss 33 minutes 33 seconds
+It's gonna disconnect you, of course.
+Berkani, Idriss 33 minutes 53 seconds
+Yes.
+Berkani, Idriss 33 minutes 55 seconds
+Update.
+Berkani, Idriss 33 minutes 57 seconds
+And, in for a fun fact.
+Berkani, Idriss 34 minutes 1 second
+So when you click on applications, it's going to take you back to the welcome.
+Berkani, Idriss 34 minutes 7 seconds
+Just to show you how it how it works, so...
+Berkani, Idriss 34 minutes 10 seconds
+If you come from the welcome.
+Berkani, Idriss 34 minutes 16 seconds
+I'll stop sharing.
+
+
+Guevarra, Paul
+34 minutes 24 seconds34:24
+Guevarra, Paul 34 minutes 24 seconds
+Yes, so.
+OO
+Oyemade, Obaloluwa
+34 minutes 25 seconds34:25
+Oyemade, Obaloluwa 34 minutes 25 seconds
+Yeah, um, first I know one of the...
+Oyemade, Obaloluwa 34 minutes 30 seconds
+One of the test cases is the consistency of the URLs for each app. Can you confirm if it's consistent now on the prod versus the current UAT?
+
+Newton, Persis Esther
+34 minutes 52 seconds34:52
+Newton, Persis Esther 34 minutes 52 seconds
+Sorry, Ober, do you mean that in reference to the...
+OO
+Oyemade, Obaloluwa
+34 minutes 55 seconds34:55
+Oyemade, Obaloluwa 34 minutes 55 seconds
+All the links on top.
+Oyemade, Obaloluwa 34 minutes 58 seconds
+The Maisha and give the screenshots.
+
+Newton, Persis Esther
+35 minutes 1 second35:01
+Newton, Persis Esther 35 minutes 1 second
+Oh, no, we did see one difference. I saw one difference for sure. But maybe Paul can continue and then Atesh and then we can come back to that one. Yeah.
+OO
+Oyemade, Obaloluwa
+35 minutes 10 seconds35:10
+Oyemade, Obaloluwa 35 minutes 10 seconds
+Okta.
+Oyemade, Obaloluwa 35 minutes 13 seconds
+Okay, thanks.
+GP
+Guevarra, Paul
+35 minutes 16 seconds35:16
+Guevarra, Paul 35 minutes 16 seconds
+Okay, actually I am done with I needed to show. Atesh, you want to take it away?
+
+Gulchand, Atesh
+35 minutes 22 seconds35:22
+Gulchand, Atesh 35 minutes 22 seconds
+Yeah, sure. Hi, hi, good afternoon everyone. Most of the questions have already been answered that were raised for this spike, but I'll go over the remaining two. So the remaining two that was not discussed was the behavior if someone hits the link and they're not.
+Gulchand, Atesh 35 minutes 41 seconds
+in a authenticated session. So I'm here on my screen. So if I hit the direct link and I'm not signed into CompassX, I'll be redirected to the Okta authorization page. So that's the current behavior for all applications right now. If I'm not signed into current...
+Gulchand, Atesh 36 minutes
+Compass X and I tried to use the direct link, say it's a bookmark linked. This is the current behavior.
+Gulchand, Atesh 36 minutes 8 seconds
+And finally, the last outstanding question is session synchronization. There is currently no session synchronization between CompassX or any of these applications. So the behavior is right now, if I have any of these applications open in a tab and I sign out of CompassX.
+Gulchand, Atesh 36 minutes 28 seconds
+My session will stay active here.
+Gulchand, Atesh 36 minutes 31 seconds
+Given I provide input, will remain active for 8 hours.
+Gulchand, Atesh 36 minutes 41 seconds
+Is there any other questions anyone else has?
+
+El Masaoudi, Mahdi
+36 minutes 49 seconds36:49
+El Masaoudi, Mahdi 36 minutes 49 seconds
+Yeah, Atesh, what was the question for the first point?
+El Masaoudi, Mahdi 36 minutes 54 seconds
+I will answer both, but for the first one.
+
+Gulchand, Atesh
+36 minutes 56 seconds36:56
+Gulchand, Atesh 36 minutes 56 seconds
+The first.
+Gulchand, Atesh 36 minutes 59 seconds
+The first one is if I'm not signed in to Compass X and I copy and paste the link or access the link directly. This is the page that I am redirected to.
+
+El Masaoudi, Mahdi
+37 minutes 6 seconds37:06
+El Masaoudi, Mahdi 37 minutes 6 seconds
+Yeah.
+El Masaoudi, Mahdi 37 minutes 11 seconds
+Yeah, yeah, so, so this is the the open ID connect process with the with Okta.
+El Masaoudi, Mahdi 37 minutes 21 seconds
+This is how it behaves with the with Okta. The process is like that. You hit the application. Now the difference with SSO is the application becomes independent.
+El Masaoudi, Mahdi 37 minutes 32 seconds
+You can independent of.
+El Masaoudi, Mahdi 37 minutes 36 seconds
+The session creation, you can create a session without welcome.
+El Masaoudi, Mahdi 37 minutes 40 seconds
+Because the secure zone apps at the beginning, they are, they were tightly coupled with welcome. Welcome application creates the session. Now they use a different process, which is the OpenID Connect with Okta. So this is one step of the process. You hit the application.
+El Masaoudi, Mahdi 38 minutes 1 second
+the authorize process is started, it will redirect you to Okta. And Okta will authorize you or not, and then there will be the call back on the application. So yes, even if you don't have an active session on Compass, I guess, you can bookmark the application and request it.
+El Masaoudi, Mahdi 38 minutes 23 seconds
+It will redirect you to Okta to authenticate you, and then it will take you back to the application.
+
+
+Gulchand, Atesh
+38 minutes 39 seconds38:39
+Gulchand, Atesh 38 minutes 39 seconds
+Et.
+
+El Masaoudi, Mahdi
+38 minutes 39 seconds38:39
+El Masaoudi, Mahdi 38 minutes 39 seconds
+So this is for question one, question two.
+
+Pierre, Joseph-Pascal
+38 minutes 41 seconds38:41
+Pierre, Joseph-Pascal 38 minutes 41 seconds
+But...
+Pierre, Joseph-Pascal 38 minutes 44 seconds
+But before I move to question two, I think the upcoming once again, all tied together, context passing, log out, etc. I think one decision we made as well is...
+
+El Masaoudi, Mahdi
+38 minutes 45 seconds38:45
+El Masaoudi, Mahdi 38 minutes 45 seconds
+Yes, yes, repeat.
+
+Pierre, Joseph-Pascal
+39 minutes39:00
+Pierre, Joseph-Pascal 39 minutes
+Once that fix is implemented, you know, speaking of context passing, et cetera, if you are on the external tenant, since we are, I believe, the only one using or accessing secure zone or allowing external users to access secure zone from external,
+Pierre, Joseph-Pascal 39 minutes 20 seconds
+The default behavior would be access blocked.
+Pierre, Joseph-Pascal 39 minutes 26 seconds
+I think that's what we decided. And we said, eventually, if someone else, another line of business allows that access, we'll look into.
+Pierre, Joseph-Pascal 39 minutes 39 seconds
+A fix, let's say, to allow maybe them to still have access, but us, we want to prevent, you know, so we would have a set of...
+Pierre, Joseph-Pascal 39 minutes 50 seconds
+How did we decided? I think in secure, not in Okta.
+Pierre, Joseph-Pascal 39 minutes 56 seconds
+They would flag.
+Pierre, Joseph-Pascal 40 minutes
+The list of secret zone apps.
+Pierre, Joseph-Pascal 40 minutes 3 seconds
+that should be granted access.
+Pierre, Joseph-Pascal 40 minutes 10 seconds
+For CompassX only, CompassX users only, so...
+Pierre, Joseph-Pascal 40 minutes 15 seconds
+Either Okta would provide that, let's say a scope, so it's an indicator, a flag in the token saying, okay, this guy is supposed to be a CompassX user.
+Pierre, Joseph-Pascal 40 minutes 29 seconds
+So in the secure zone applications, they would say, okay, he's supposed to be a CompassX user. Did I receive a message from CompassX, which would say that the user is actually coming from CompassX, loading the application?
+Pierre, Joseph-Pascal 40 minutes 48 seconds
+And if the application didn't receive anything, it would understand that, oh, okay, the guy actually typed in the URL directly. He's not in fact coming from CompassX, and therefore he wouldn't be granted access. So that's once again a coming fix.
+Pierre, Joseph-Pascal 41 minutes 8 seconds
+And it comes along with the context passing and the other things we've talked about.
+
+El Masaoudi, Mahdi
+41 minutes 26 seconds41:26
+El Masaoudi, Mahdi 41 minutes 26 seconds
+Just for your information, GP, I think you are the only users of the external hosting.
+El Masaoudi, Mahdi 41 minutes 35 seconds
+So, yeah, there was for Max Light, there was the trust population, but I think they don't use it anymore.
+
+Pierre, Joseph-Pascal
+41 minutes 35 seconds41:35
+Pierre, Joseph-Pascal 41 minutes 35 seconds
+Yes, indeed. Yep.
+Pierre, Joseph-Pascal 41 minutes 43 seconds
+Mmh.
+Pierre, Joseph-Pascal 41 minutes 46 seconds
+Vivek.
+
+El Masaoudi, Mahdi
+41 minutes 46 seconds41:46
+El Masaoudi, Mahdi 41 minutes 46 seconds
+So, yes, in the current scope, we know it's not.
+El Masaoudi, Mahdi 41 minutes 51 seconds
+Not implemented.
+
+Pierre, Joseph-Pascal
+41 minutes 53 seconds41:53
+Pierre, Joseph-Pascal 41 minutes 53 seconds
+Mm.
+
+El Masaoudi, Mahdi
+41 minutes 54 seconds41:54
+El Masaoudi, Mahdi 41 minutes 54 seconds
+Party.
+El Masaoudi, Mahdi 41 minutes 55 seconds
+Yeah, maybe it would come in our next in our future future scope.
+
+Pierre, Joseph-Pascal
+42 minutes 2 seconds42:02
+Pierre, Joseph-Pascal 42 minutes 2 seconds
+Yep.
+Pierre, Joseph-Pascal 42 minutes 7 seconds
+And sorry, Mahdi, I know you were answering the second question before I cut you off.
+
+El Masaoudi, Mahdi
+42 minutes 8 seconds42:08
+El Masaoudi, Mahdi 42 minutes 8 seconds
+No, no.
+El Masaoudi, Mahdi 42 minutes 13 seconds
+Yeah, I was trying to remember what is it. The sync, the session sync between Compass Six and Okta.
+El Masaoudi, Mahdi 42 minutes 22 seconds
+What you should know is that CompassX and Secure Zone are two different words, two different technologies. So we try to accommodate as much as we can, but there are limitations to what we can do. So Secure Zone is all the technology stack, it starts and Java and
+El Masaoudi, Mahdi 42 minutes 46 seconds
+things like that. CompassX, maybe it's modern technology. So, and there are two different, how to say that, the parks. So in the current state, we cannot really sync the sessions.
+El Masaoudi, Mahdi 43 minutes 4 seconds
+Between both.
+El Masaoudi, Mahdi 43 minutes 8 seconds
+So, when you when you close your secure zone session, for example, it doesn't mean you close your your CompassX session.
+El Masaoudi, Mahdi 43 minutes 27 seconds
+Does it answer Atesh?
+
+Gulchand, Atesh
+43 minutes 32 seconds43:32
+Gulchand, Atesh 43 minutes 32 seconds
+Yeah, yeah, I just, I was just raising the point that I was asked to demonstrate the behavior of the applications, right? So.
+
+Sharma, Radhika
+43 minutes 35 seconds43:35
+Sharma, Radhika 43 minutes 35 seconds
+But.
+
+El Masaoudi, Mahdi
+43 minutes 36 seconds43:36
+El Masaoudi, Mahdi 43 minutes 36 seconds
+Yeah, it it's not completely, yeah, it's not completely sync, but we try to to do what we can, for example, the integration we are doing with the with SSO.
+
+Sharma, Radhika
+43 minutes 36 seconds43:36
+Sharma, Radhika 43 minutes 36 seconds
+Dif.
+
+El Masaoudi, Mahdi
+43 minutes 49 seconds43:49
+El Masaoudi, Mahdi 43 minutes 49 seconds
+It helps with the sync, but we cannot be sync 100%.
+El Masaoudi, Mahdi 43 minutes 54 seconds
+Sorry I cut you, Radhika.
+
+Sharma, Radhika
+43 minutes 57 seconds43:57
+Sharma, Radhika 43 minutes 57 seconds
+No, I'm just wondering, like, how does that...
+Sharma, Radhika 44 minutes 1 second
+What does that mean from a security standpoint? If...
+Sharma, Radhika 44 minutes 6 seconds
+A user's Compass session, which has authenticated them into the application, was terminated, but they can resume activity in the application.
+
+El Masaoudi, Mahdi
+44 minutes 20 seconds44:20
+El Masaoudi, Mahdi 44 minutes 20 seconds
+Well, on the application itself, when we do the authentication, now we have two layers. We have Okta and the secure zone itself. These are granting the session to the user.
+El Masaoudi, Mahdi 44 minutes 40 seconds
+So, application is somehow independent.
+
+Sharma, Radhika
+44 minutes 46 seconds44:46
+Sharma, Radhika 44 minutes 46 seconds
+I mean, I don't know what the answers are, but is that, I don't know if anybody here has the answers. Is that, is that compliant with whatever our security policies are?
+
+El Masaoudi, Mahdi
+44 minutes 59 seconds44:59
+El Masaoudi, Mahdi 44 minutes 59 seconds
+Uh, sure, because...
+
+
+Sharma, Radhika
+45 minutes 1 second45:01
+Sharma, Radhika 45 minutes 1 second
+For external users, specifically.
+
+So, Candi
+45 minutes 1 second45:01
+So, Candi 45 minutes 1 second
+They.
+So, Candi 45 minutes 3 seconds
+No, they, once you launch into, yeah, Kirby, if I'm wrong, Mahdi and JP, but once you launch into the Circle Zone app, they would continue to fetch or refresh the Okta token. So, it's only one, the initial, you kick off the authentication.
+So, Candi 45 minutes 24 seconds
+But then once you're authenticated and you're in the secure zone app, the token would expire. And then the secure zone app will also have to refresh the token with Okta. It's the same thing, but just that maybe the frequency would be.
+So, Candi 45 minutes 44 seconds
+Would be different, and yeah, and if you end the session in Cx, it doesn't end the session in, because, as Mahdi said, is separated once you launch into that, but we we do have the requirements saying.
+So, Candi 46 minutes 2 seconds
+For our clients, they can only launch the app from Compass, so you make sure we make sure that the call is always initiated by Cx from Cx, but then once it's launched, then would follow.
+So, Candi 46 minutes 22 seconds
+the security requirement, they will have to refresh the token. So same thing running in Cx.
+
+El Masaoudi, Mahdi
+46 minutes 32 seconds46:32
+El Masaoudi, Mahdi 46 minutes 32 seconds
+Well, like I said before, each application, each migrated application is independent. It will get its own tokens from Okta. You get an access token, refresh token. So as long as the user is active on the application, the access token will be refreshed each.
+
+Sharma, Radhika
+46 minutes 37 seconds46:37
+Sharma, Radhika 46 minutes 37 seconds
+Mhm.
+
+El Masaoudi, Mahdi
+46 minutes 51 seconds46:51
+El Masaoudi, Mahdi 46 minutes 51 seconds
+Five minutes, we have expiration times, but...
+El Masaoudi, Mahdi 46 minutes 58 seconds
+Even in Okta, the two applications are different. For CompassX, you have an application on Okta. For our secure zone apps, we have one application for each secure zone application.
+El Masaoudi, Mahdi 47 minutes 12 seconds
+Oh.
+
+Sharma, Radhika
+47 minutes 14 seconds47:14
+Sharma, Radhika 47 minutes 14 seconds
+And the timeout varies, right?
+
+El Masaoudi, Mahdi
+47 minutes 14 seconds47:14
+El Masaoudi, Mahdi 47 minutes 14 seconds
+It's not, it's not exact. There is timeout, yeah, on on on the.
+
+Sharma, Radhika
+47 minutes 18 seconds47:18
+Sharma, Radhika 47 minutes 18 seconds
+But they, but they vary, right? Some are 15 minutes, some are 30 minutes. It's not the same for all apps. Is that correct?
+
+El Masaoudi, Mahdi
+47 minutes 24 seconds47:24
+El Masaoudi, Mahdi 47 minutes 24 seconds
+The.
+El Masaoudi, Mahdi 47 minutes 28 seconds
+Well, for for secure zone legacy apps, we should have the same expiration times.
+El Masaoudi, Mahdi 47 minutes 37 seconds
+And we fixed that with the with security, with we even.
+El Masaoudi, Mahdi 47 minutes 44 seconds
+Had how to say that exceptions for to get some specific values, because we had some incidents in the past related to to the to that, and we searched for optimal values.
+El Masaoudi, Mahdi 48 minutes 1 second
+And we came back with the specific values that we should have for all the secure zone apps. If we change that, it may impact negatively the user experience.
+
+Sharma, Radhika
+48 minutes 20 seconds48:20
+Sharma, Radhika 48 minutes 20 seconds
+I just remember from the last demo that we had, and I know not everything was solidified, but Esther, you had a spreadsheet that you were showing us in the last demo, and some of the apps you had listed the timeout, some were 15, some were 30. So I suppose it's been fixed since then.
+
+Newton, Persis Esther
+48 minutes 36 seconds48:36
+Newton, Persis Esther 48 minutes 36 seconds
+That.
+Newton, Persis Esther 48 minutes 40 seconds
+No, we went back and did a test and they are all, they just remain active.
+Newton, Persis Esther 48 minutes 48 seconds
+So this was the screen I was previously showing. They are all now. They just remain active. So logging out from Cx does not log out user from secure zone app. Session remained signed in even after 30 minutes.
+
+
+
+Sharma, Radhika
+48 minutes 59 seconds48:59
+Sharma, Radhika 48 minutes 59 seconds
+For.
+
+Newton, Persis Esther
+49 minutes 7 seconds49:07
+Newton, Persis Esther 49 minutes 7 seconds
+And then we got a note for some specific applications. It stays active for 8 hours. For fun facts and allocations, this was the note we had gotten. And then the other ones, when we did the test, it remained signed in.
+
+El Masaoudi, Mahdi
+49 minutes 25 seconds49:25
+El Masaoudi, Mahdi 49 minutes 25 seconds
+For the timeout values for the secure zone.
+El Masaoudi, Mahdi 49 minutes 30 seconds
+The way it works, the refresh token is used to renew the access token every 5 minutes. So for the values, the refresh token is valid for 8 hours.
+El Masaoudi, Mahdi 49 minutes 45 seconds
+With.
+El Masaoudi, Mahdi 49 minutes 47 seconds
+activity. Without activity, 30 minutes.
+El Masaoudi, Mahdi 49 minutes 52 seconds
+The access token is valid for 5 minutes.
+
+Berkani, Idriss
+49 minutes 58 seconds49:58
+Berkani, Idriss 49 minutes 58 seconds
+And the refresh is transparent for the user.
+Berkani, Idriss 50 minutes 3 seconds
+Haha.
+
+El Masaoudi, Mahdi
+50 minutes 3 seconds50:03
+El Masaoudi, Mahdi 50 minutes 3 seconds
+That means if someone is not active on the secure zone app.
+El Masaoudi, Mahdi 50 minutes 9 seconds
+They should be logged out after 30 minutes.
+El Masaoudi, Mahdi 50 minutes 14 seconds
+But what happens is that with the SSO, like Idriss just said, it can seem.
+El Masaoudi, Mahdi 50 minutes 25 seconds
+it will be transparent for the user. Why? Because after 30 minutes of inactivity, user will be required to log in. But with SSO, it will be authorized. It's no longer welcome logging. But sometimes it's so quick that the tester does not see that there was a authorized.
+
+Newton, Persis Esther
+50 minutes 45 seconds50:45
+Newton, Persis Esther 50 minutes 45 seconds
+So, Mahdi, our my test was simply sign out, let the session sign out from CompassX, like after some time period after 15 minutes of inactivity, but all of the secure zone tabs remain signed in, so whether it is counting activity on the browser tab.
+
+El Masaoudi, Mahdi
+50 minutes 58 seconds50:58
+El Masaoudi, Mahdi 50 minutes 58 seconds
+Mhm.
+
+Newton, Persis Esther
+51 minutes 7 seconds51:07
+Newton, Persis Esther 51 minutes 7 seconds
+or this, like I was not on the secure zone app actively. It just remained signed in. So that is why I failed it.
+
+El Masaoudi, Mahdi
+51 minutes 15 seconds51:15
+El Masaoudi, Mahdi 51 minutes 15 seconds
+Yeah.
+El Masaoudi, Mahdi 51 minutes 17 seconds
+But did you check the did you check the network tab on developer tools?
+
+Newton, Persis Esther
+51 minutes 25 seconds51:25
+Newton, Persis Esther 51 minutes 25 seconds
+No, I'm just reporting on what the experience was. It remains signed in.
+Newton, Persis Esther 51 minutes 31 seconds
+even if I was inactive through here, even if my computer was signed out.
+OO
+Oyemade, Obaloluwa
+51 minutes 34 seconds51:34
+Oyemade, Obaloluwa 51 minutes 34 seconds
+Yeah.
+
+El Masaoudi, Mahdi
+51 minutes 37 seconds51:37
+El Masaoudi, Mahdi 51 minutes 37 seconds
+Yeah, like we, we, you, you left the application and used for 30 more than 30 minutes, right?
+
+Newton, Persis Esther
+51 minutes 45 seconds51:45
+Newton, Persis Esther 51 minutes 45 seconds
+Yeah, yeah.
+
+El Masaoudi, Mahdi
+51 minutes 46 seconds51:46
+El Masaoudi, Mahdi 51 minutes 46 seconds
+But what can happen is that, yes, you leave the application.
+El Masaoudi, Mahdi 51 minutes 52 seconds
+Unopen.
+El Masaoudi, Mahdi 51 minutes 53 seconds
+Your refresh token is expired. You can no longer renew your access token. But what will happen is that the application will invalidate your session, will redirect you to Okta. But Okta, since you logged in before, during the day to Okta, will recognize you.
+El Masaoudi, Mahdi 52 minutes 14 seconds
+recognize your identity, it will allow you.
+El Masaoudi, Mahdi 52 minutes 17 seconds
+It will not ask you to log in again.
+El Masaoudi, Mahdi 52 minutes 21 seconds
+And this can happen quickly. It can be transparent for you.
+OO
+Oyemade, Obaloluwa
+52 minutes 22 seconds52:22
+Oyemade, Obaloluwa 52 minutes 22 seconds
+But.
+
+Newton, Persis Esther
+52 minutes 29 seconds52:29
+Newton, Persis Esther 52 minutes 29 seconds
+Okay, so the session remains active, right? Even after 30 minutes, it may be an Okta refresh, but it remains active, right?
+
+El Masaoudi, Mahdi
+52 minutes 35 seconds52:35
+El Masaoudi, Mahdi 52 minutes 35 seconds
+It's.
+El Masaoudi, Mahdi 52 minutes 37 seconds
+Technically, you get a new session. It's not the same.
+
+Newton, Persis Esther
+52 minutes 40 seconds52:40
+Newton, Persis Esther 52 minutes 40 seconds
+Okay, okay, okay.
+
+El Masaoudi, Mahdi
+52 minutes 44 seconds52:44
+El Masaoudi, Mahdi 52 minutes 44 seconds
+Let's say, let's say you, after 30 minutes, your Okta account is disabled for some reason.
+OO
+Oyemade, Obaloluwa
+52 minutes 44 seconds52:44
+Oyemade, Obaloluwa 52 minutes 44 seconds
+Okay, guys.
+
+Newton, Persis Esther
+52 minutes 44 seconds52:44
+Newton, Persis Esther 52 minutes 44 seconds
+Sso.
+
+El Masaoudi, Mahdi
+52 minutes 53 seconds52:53
+El Masaoudi, Mahdi 52 minutes 53 seconds
+Here you will see the difference because Okta will refuse to do the authorize. It will not recognize you.
+
+Newton, Persis Esther
+52 minutes 59 seconds52:59
+Newton, Persis Esther 52 minutes 59 seconds
+Okay, so I'll just say secure zone app remains open.
+Newton, Persis Esther 53 minutes 4 seconds
+Okay.
+OO
+Oyemade, Obaloluwa
+53 minutes 6 seconds53:06
+Oyemade, Obaloluwa 53 minutes 6 seconds
+All right. Should we put this in the back burner to discuss in a separate session as well, because we're just about four minutes away. All right. Any other boarding issue that you want to bring up, Esther, from your team? Oh, Candi.
+
+
+
+So, Candi 53 minutes 18 seconds
+Um...
+So, Candi 53 minutes 21 seconds
+Yeah, I wanted to, I know, yeah, this one just came to us early this afternoon, right? I need Radhika and Kevin to see it. And keep in mind to bring the user
+OO
+Oyemade, Obaloluwa
+53 minutes 22 seconds53:22
+Oyemade, Obaloluwa 53 minutes 22 seconds
+It's 4 minutes to alright.
+Oyemade, Obaloluwa 53 minutes 26 seconds
+Okay.
+
+So, Candi
+53 minutes 41 seconds53:41
+So, Candi 53 minutes 41 seconds
+Page back.
+So, Candi 53 minutes 44 seconds
+Share your screen, please. And so the question, or what brought to our attention, is that when, when let's say SAA, they create a new user in and then now they go back to campus and trying to link.
+PA
+Patel, Ankitkumar
+53 minutes 46 seconds53:46
+Patel, Ankitkumar 53 minutes 46 seconds
+Yeah, sure.
+
+So, Candi
+54 minutes 4 seconds54:04
+So, Candi 54 minutes 4 seconds
+the Cx ID and the secretion profile. So that's good. That's the expected behavior. But then if for some reason they did a mistake, they link it, they picked the wrong Cx ID and link the secretion.
+So, Candi 54 minutes 24 seconds
+ID to the wrong campus profile. So in here, let's say this one in here is wrong and Ankit want to remove it. So can you click close and then submit again? Yeah, update.
+PA
+Patel, Ankitkumar
+54 minutes 40 seconds54:40
+Patel, Ankitkumar 54 minutes 40 seconds
+Okay.
+
+So, Candi
+54 minutes 46 seconds54:46
+So, Candi 54 minutes 46 seconds
+You can do it, I thought.
+PA
+Patel, Ankitkumar
+54 minutes 47 seconds54:47
+Patel, Ankitkumar 54 minutes 47 seconds
+Yeah.
+
+So, Candi
+54 minutes 49 seconds54:49
+So, Candi 54 minutes 49 seconds
+No way.
+
+El Masaoudi, Mahdi
+54 minutes 51 seconds54:51
+El Masaoudi, Mahdi 54 minutes 51 seconds
+No, it will not have, yeah, it will not have anything.
+
+So, Candi
+54 minutes 51 seconds54:51
+So, Candi 54 minutes 51 seconds
+What are we talking about? Uh, Mahdi, can you enlighten me?
+
+El Masaoudi, Mahdi
+54 minutes 56 seconds54:56
+El Masaoudi, Mahdi 54 minutes 56 seconds
+No, it will not.
+
+Newton, Persis Esther
+54 minutes 57 seconds54:57
+Newton, Persis Esther 54 minutes 57 seconds
+No.
+OO
+Oyemade, Obaloluwa
+54 minutes 57 seconds54:57
+Oyemade, Obaloluwa 54 minutes 57 seconds
+It's been resolved.
+
+Newton, Persis Esther
+54 minutes 59 seconds54:59
+Newton, Persis Esther 54 minutes 59 seconds
+No, it's not. This is on our system.
+
+El Masaoudi, Mahdi
+55 minutes55:00
+El Masaoudi, Mahdi 55 minutes
+It will not, it will not have effect.
+OO
+Oyemade, Obaloluwa
+55 minutes 1 second55:01
+Oyemade, Obaloluwa 55 minutes 1 second
+Hello?
+
+So, Candi
+55 minutes 1 second55:01
+So, Candi 55 minutes 1 second
+No.
+
+Newton, Persis Esther
+55 minutes 3 seconds55:03
+Newton, Persis Esther 55 minutes 3 seconds
+Yeah, go ahead, Mahdi.
+
+El Masaoudi, Mahdi
+55 minutes 4 seconds55:04
+El Masaoudi, Mahdi 55 minutes 4 seconds
+And confirm.
+
+So, Candi
+55 minutes 4 seconds55:04
+So, Candi 55 minutes 4 seconds
+No, I yeah.
+
+El Masaoudi, Mahdi
+55 minutes 6 seconds55:06
+El Masaoudi, Mahdi 55 minutes 6 seconds
+Whose account was that?
+PA
+Patel, Ankitkumar
+55 minutes 10 seconds55:10
+Patel, Ankitkumar 55 minutes 10 seconds
+Oh, that's my account.
+Patel, Ankitkumar 55 minutes 13 seconds
+So, if I, if I open it, and...
+
+So, Candi
+55 minutes 13 seconds55:13
+So, Candi 55 minutes 13 seconds
+Uhh...
+
+El Masaoudi, Mahdi
+55 minutes 15 seconds55:15
+El Masaoudi, Mahdi 55 minutes 15 seconds
+What was the what was the secure zone ID?
+PA
+Patel, Ankitkumar
+55 minutes 20 seconds55:20
+Patel, Ankitkumar 55 minutes 20 seconds
+Also, the security ID was this one.
+
+El Masaoudi, Mahdi
+55 minutes 26 seconds55:26
+El Masaoudi, Mahdi 55 minutes 26 seconds
+Okay.
+
+Pierre, Joseph-Pascal
+55 minutes 26 seconds55:26
+Pierre, Joseph-Pascal 55 minutes 26 seconds
+And can you refresh your page then in Git?
+
+El Masaoudi, Mahdi
+55 minutes 28 seconds55:28
+El Masaoudi, Mahdi 55 minutes 28 seconds
+It's.
+PA
+Patel, Ankitkumar
+55 minutes 30 seconds55:30
+Patel, Ankitkumar 55 minutes 30 seconds
+Uh-huh.
+GP
+Guevarra, Paul
+55 minutes 32 seconds55:32
+Guevarra, Paul 55 minutes 32 seconds
+Maybe I can just show mine instead, and then we can see the behavior that easier.
+
+So, Candi
+55 minutes 37 seconds55:37
+So, Candi 55 minutes 37 seconds
+Yeah, I want to see the actual behaviour because, so Radhika, what we were told and we look at is because that relationship has been set, we cannot assign it. So
+
+El Masaoudi, Mahdi
+55 minutes 53 seconds55:53
+El Masaoudi, Mahdi 55 minutes 53 seconds
+Yeah, but as you know, Candi, it was part of our 2:00 discussion.
+
+So, Candi
+55 minutes 55 seconds55:55
+So, Candi 55 minutes 55 seconds
+Yeah.
+So, Candi 55 minutes 59 seconds
+Yeah, yeah, I understand. But I want to let them, I mean, the radicals being representing the stakeholder, they know the operational impact. So I was back the security principal and so on. But because we have the screen here, so I thought we can show it.
+
+
+Pierre, Joseph-Pascal
+56 minutes56:00
+Pierre, Joseph-Pascal 56 minutes
+Mhm.
+Pierre, Joseph-Pascal 56 minutes 6 seconds
+The.
+
+So, Candi
+56 minutes 20 seconds56:20
+So, Candi 56 minutes 20 seconds
+Much easier than using words to explain it.
+
+El Masaoudi, Mahdi
+56 minutes 24 seconds56:24
+El Masaoudi, Mahdi 56 minutes 24 seconds
+Mhm.
+
+So, Candi
+56 minutes 24 seconds56:24
+So, Candi 56 minutes 24 seconds
+No offence, I, yeah, I, I respect, yeah.
+
+Sharma, Radhika
+56 minutes 25 seconds56:25
+Sharma, Radhika 56 minutes 25 seconds
+No, it's good. Thank. No, no, it's good. It's I do need the awareness if there's anything else that was uncovered. But
+Sharma, Radhika 56 minutes 34 seconds
+If we can show it in one minute, great, because I do have to run. Otherwise, maybe we can take it offline and review it.
+
+Newton, Persis Esther
+56 minutes 40 seconds56:40
+Newton, Persis Esther 56 minutes 40 seconds
+So the user over here, Radhika, even though Ankit removed the user and we updated it, it doesn't actually update that removal in ICR in the secure zone database.
+
+So, Candi
+56 minutes 54 seconds56:54
+So, Candi 56 minutes 54 seconds
+Yeah, so basically...
+
+Sharma, Radhika
+56 minutes 54 seconds56:54
+Sharma, Radhika 56 minutes 54 seconds
+So if the app is still enabled for them, they can still connect to it.
+
+Newton, Persis Esther
+56 minutes 54 seconds56:54
+Newton, Persis Esther 56 minutes 54 seconds
+And.
+
+So, Candi
+56 minutes 57 seconds56:57
+So, Candi 56 minutes 57 seconds
+No, basically, we once you set up that Cx and bond, you cannot break it. Yeah, if is a wrong ID, you have to create another ID and tie it to that again. But the you can submit a request to change something.
+
+El Masaoudi, Mahdi
+56 minutes 58 seconds56:58
+El Masaoudi, Mahdi 56 minutes 58 seconds
+No.
+
+So, Candi
+57 minutes 17 seconds57:17
+So, Candi 57 minutes 17 seconds
+in the back end, but otherwise we, the Uama cannot handle the unassignment or reassignment.
+So, Candi 57 minutes 25 seconds
+That's what we want to show you. And there will be some implication for SAA to do the job. They should be aware of that. But otherwise, we cannot change this yet the concern from security and this is how the application works.
+OO
+Oyemade, Obaloluwa
+57 minutes 29 seconds57:29
+Oyemade, Obaloluwa 57 minutes 29 seconds
+Ohh.
+
+So, Candi
+57 minutes 44 seconds57:44
+So, Candi 57 minutes 44 seconds
+Sorry, um, Mahdi, do you want to say something? I, yeah, sorry, yeah.
+
+El Masaoudi, Mahdi
+57 minutes 50 seconds57:50
+El Masaoudi, Mahdi 57 minutes 50 seconds
+No, from my side, I will review what we what we said earlier, and based on that, we will we need to have a how to say common implementation on both Uama and ICR.
+OO
+Oyemade, Obaloluwa
+58 minutes 10 seconds58:10
+Oyemade, Obaloluwa 58 minutes 10 seconds
+Okay, I think we may need to call it at this point. We can schedule a follow-up call later this week, but thank you so much, Candi, for bringing that up. Mandy, we look to you and Esther to continue to fix all the technical details and let us know the start of the page.
+
+Sharma, Radhika
+58 minutes 29 seconds58:29
+Sharma, Radhika 58 minutes 29 seconds
+just, just one thing, I think what what Candy's brought up is important enough for us to discuss further and not just assume that it's an operationalization fix. I'd like to understand the full extent of that impact. So we can take it offline. I just, yeah.
+OO
+Oyemade, Obaloluwa
+58 minutes 30 seconds58:30
+Oyemade, Obaloluwa 58 minutes 30 seconds
+Yes, Raj.
+Oyemade, Obaloluwa 58 minutes 41 seconds
+But.
+Oyemade, Obaloluwa 58 minutes 43 seconds
+Correct, and as well.
+Oyemade, Obaloluwa 58 minutes 45 seconds
+Yeah, we'll definitely discuss that, but not at this time. Thank you for the awareness, Candi. We are going to definitely have a separate call.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

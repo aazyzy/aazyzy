@@ -1,0 +1,2791 @@
+Mullings, Owen
+0 minutes 3 seconds0:03
+Mullings, Owen 0 minutes 3 seconds
+The last session we covered.
+Mullings, Owen 0 minutes 6 seconds
+I think up until here, the firm relationships.
+
+Azizi, Ali
+0 minutes 10 seconds0:10
+Azizi, Ali 0 minutes 10 seconds
+Mhm.
+
+Mullings, Owen
+0 minutes 12 seconds0:12
+Mullings, Owen 0 minutes 12 seconds
+We talked about the parent firm set up to do the sync and then for sub advisor, the firm relationship and some of the interaction with the
+Mullings, Owen 0 minutes 25 seconds
+User management piece.
+
+Azizi, Ali
+0 minutes 27 seconds0:27
+Azizi, Ali 0 minutes 27 seconds
+Yeah, sorry, Owen, we didn't talk about...
+OO
+
+Oyemade, Obaloluwa
+0 minutes 28 seconds0:28
+Oyemade, Obaloluwa 0 minutes 28 seconds
+Sorry about the.
+Oyemade, Obaloluwa 0 minutes 34 seconds
+Oh.
+
+Azizi, Ali
+0 minutes 34 seconds0:34
+Azizi, Ali 0 minutes 34 seconds
+the source of the data, how to get its source from Firm 360. Is that right?
+
+Mullings, Owen
+0 minutes 42 seconds0:42
+Mullings, Owen 0 minutes 42 seconds
+Yee.
+Mullings, Owen 0 minutes 44 seconds
+So, I think that is not determined. Well, let me ask precisely, what do you mean? So, today, all of our firm data we get from Firm 360, I think it's a file drop that we load. And we're going to enrich that file drop to support parent firm. I imagine for some advisor,
+Mullings, Owen 1 minute 3 seconds
+It might be something similar.
+
+Azizi, Ali
+1 minute 7 seconds1:07
+Azizi, Ali 1 minute 7 seconds
+Okay, which means that when you when we when we are working on receiving the file in terms of the firm relationship, whether it's parent, child, or sub-advisory,
+
+Mullings, Owen
+1 minute 23 seconds1:23
+Mullings, Owen 1 minute 23 seconds
+There.
+
+Azizi, Ali
+1 minute 26 seconds1:26
+Azizi, Ali 1 minute 26 seconds
+It means that we need to build that hierarchy or that relationship in our side.
+
+Mullings, Owen
+1 minute 30 seconds1:30
+Mullings, Owen 1 minute 30 seconds
+Yes.
+Mullings, Owen 1 minute 34 seconds
+Yes.
+
+Azizi, Ali
+1 minute 35 seconds1:35
+Azizi, Ali 1 minute 35 seconds
+I'm not saying in terms of the building, I mean in terms of having a repository with the meaningful attributes and meaningful relationship between, for example, Harbour Front and its child to understand that
+
+Mullings, Owen
+1 minute 46 seconds1:46
+Mullings, Owen 1 minute 46 seconds
+Sz.
+
+Azizi, Ali
+1 minute 53 seconds1:53
+Azizi, Ali 1 minute 53 seconds
+what users lie under Harborfront, what users lie under their child. I am actually clearly talking about this scope. Did we talk about it or not?
+
+Mullings, Owen
+2 minutes 13 seconds2:13
+Mullings, Owen 2 minutes 13 seconds
+Ohh.
+Mullings, Owen 2 minutes 16 seconds
+And I guess the assumption was made that the relationships as they established in Firms 360 is what we would think.
+
+Azizi, Ali
+2 minutes 24 seconds2:24
+Azizi, Ali 2 minutes 24 seconds
+Mmh.
+
+Mullings, Owen
+2 minutes 26 seconds2:26
+Mullings, Owen 2 minutes 26 seconds
+And.
+Mullings, Owen 2 minutes 28 seconds
+If...
+Mullings, Owen 2 minutes 30 seconds
+Because I think Penny modelled it from like a business relationship.
+Mullings, Owen 2 minutes 35 seconds
+Singh.
+Mullings, Owen 2 minutes 36 seconds
+and maybe not exactly how it's, because I think you only have one parent inside of Firm 360.
+Mullings, Owen 2 minutes 46 seconds
+Is that true? Do you know Candi?
+Mullings, Owen 2 minutes 50 seconds
+I think everything is 1 parent, right?
+
+So, Candi
+2 minutes 53 seconds2:53
+So, Candi 2 minutes 53 seconds
+Mm.
+So, Candi 2 minutes 55 seconds
+Hey.
+
+Azizi, Ali
+2 minutes 55 seconds2:55
+Azizi, Ali 2 minutes 55 seconds
+It can be one parent, it can be two parent, but I talked with Penny about two parent and it's not going to be in scope because managing 2 parent is not simple, is not simple. And also,
+
+Mullings, Owen
+3 minutes3:00
+Mullings, Owen 3 minutes
+Which?
+
+Azizi, Ali
+3 minutes 15 seconds3:15
+Azizi, Ali 3 minutes 15 seconds
+is doesn't have any business justification. So we are just talking about one parent.
+
+Mullings, Owen
+3 minutes 25 seconds3:25
+Mullings, Owen 3 minutes 25 seconds
+Okay, so I guess what's the gap that you're highlighting? My takeaway is that you're pointing out that.
+
+Azizi, Ali
+3 minutes 31 seconds3:31
+Azizi, Ali 3 minutes 31 seconds
+It's not a gap. It's not a gap, to be honest. I just, I am saying that when we talked about the firm hierarchy, we just talked about the concepts. We didn't drill down or deep dive about how the data is going to locate
+
+Mullings, Owen
+3 minutes 33 seconds3:33
+Mullings, Owen 3 minutes 33 seconds
+Oh, okay.
+Mullings, Owen 3 minutes 43 seconds
+Yes.
+
+Azizi, Ali
+3 minutes 50 seconds3:50
+Azizi, Ali 3 minutes 50 seconds
+in firm 360 or inside CX. How are we going to show them? How are we going to bind the parent child firm package to the user package? We didn't discuss about those things. That's right.
+
+Mullings, Owen
+3 minutes 55 seconds3:55
+Mullings, Owen 3 minutes 55 seconds
+Mhm.
+Mullings, Owen 4 minutes 10 seconds
+I think we did at the high level, but not in detail because we didn't have time for the detail, I don't think.
+
+Azizi, Ali
+4 minutes 12 seconds4:12
+Azizi, Ali 4 minutes 12 seconds
+Yes. Okay.
+Azizi, Ali 4 minutes 14 seconds
+Yeah.
+Azizi, Ali 4 minutes 16 seconds
+Okay.
+
+Mullings, Owen
+4 minutes 18 seconds4:18
+Mullings, Owen 4 minutes 18 seconds
+Shah.
+
+Azizi, Ali
+4 minutes 18 seconds4:18
+Azizi, Ali 4 minutes 18 seconds
+Okay, and did we talk about having some a concept like the user profile? I think today we don't have it, we have user role, but we don't have anything about user profile, is that right?
+
+Mullings, Owen
+4 minutes 20 seconds4:20
+Mullings, Owen 4 minutes 20 seconds
+Yee.
+Mullings, Owen 4 minutes 34 seconds
+Yeah, we do have a profile.
+
+Azizi, Ali
+4 minutes 36 seconds4:36
+Azizi, Ali 4 minutes 36 seconds
+Okay.
+
+Mullings, Owen
+4 minutes 36 seconds4:36
+Mullings, Owen 4 minutes 36 seconds
+And.
+Mullings, Owen 4 minutes 38 seconds
+Yeah, this is the prototype. It's pretty old. I haven't updated this in well over a year. But I think in here I had some placeholders for the parent firm.
+
+Azizi, Ali
+4 minutes 44 seconds4:44
+Azizi, Ali 4 minutes 44 seconds
+Mhm.
+
+Mullings, Owen
+4 minutes 54 seconds4:54
+Mullings, Owen 4 minutes 54 seconds
+So here.
+Mullings, Owen 4 minutes 58 seconds
+I have them nested.
+Mullings, Owen 5 minutes
+So I got a dump from Firm 360 a while back, and that's the data that's being presented here.
+
+Azizi, Ali
+5 minutes 8 seconds5:08
+Azizi, Ali 5 minutes 8 seconds
+Mm.
+
+Mullings, Owen
+5 minutes 9 seconds5:09
+Mullings, Owen 5 minutes 9 seconds
+So, in the case, we have a parent firm, it would look something like this, but this data is pretty old.
+
+Azizi, Ali
+5 minutes 11 seconds5:11
+Azizi, Ali 5 minutes 11 seconds
+Yeah.
+Azizi, Ali 5 minutes 13 seconds
+Okay, that's great.
+Azizi, Ali 5 minutes 17 seconds
+No, that's fine. The structure looks good. It doesn't matter the accuracy of the data. It's matter that the structure looks good. OK.
+
+Mullings, Owen
+5 minutes 30 seconds5:30
+Mullings, Owen 5 minutes 30 seconds
+Mhm.
+Mullings, Owen 5 minutes 32 seconds
+And then if you were, I think I have a slightly different view. Let me refresh.
+
+Azizi, Ali
+5 minutes 32 seconds5:32
+Azizi, Ali 5 minutes 32 seconds
+Okay.
+
+Mullings, Owen
+5 minutes 38 seconds5:38
+Mullings, Owen 5 minutes 38 seconds
+Think of a slightly different view is to kind of represent normal.
+Mullings, Owen 5 minutes 44 seconds
+And.
+Mullings, Owen 5 minutes 46 seconds
+All the database.
+Mullings, Owen 5 minutes 52 seconds
+OK, I'll leave that alone. All right, back to the regular schedule programme.
+
+Azizi, Ali
+5 minutes 56 seconds5:56
+Azizi, Ali 5 minutes 56 seconds
+Okay, let's go.
+
+Mullings, Owen
+5 minutes 59 seconds5:59
+Mullings, Owen 5 minutes 59 seconds
+Um...
+Mullings, Owen 6 minutes
+Okay, so I want to move on to user management now.
+Mullings, Owen 6 minutes 7 seconds
+So.
+Mullings, Owen 6 minutes 9 seconds
+User management in the parent from context.
+Mullings, Owen 6 minutes 13 seconds
+I'm assuming that the way it would work is you'd navigate to a parent firm.
+
+Azizi, Ali
+6 minutes 15 seconds6:15
+Azizi, Ali 6 minutes 15 seconds
+Shh.
+
+Mullings, Owen
+6 minutes 22 seconds6:22
+Mullings, Owen 6 minutes 22 seconds
+And then when you're in that parent firm, you would see the users. So you are currently on user management screen. It shows you the users that are in that firm in particular.
+Mullings, Owen 6 minutes 37 seconds
+So it would just show the users that are in that parent firm and then to get access as a security steward to manage that parent firm.
+Mullings, Owen 6 minutes 46 seconds
+We would have to have a way, and we're not including the firm security steward in the typical request, so it's likely that they would go through.
+Mullings, Owen 6 minutes 57 seconds
+some kind of product or operations team to establish a new firm security story profile. And they would be enrolled in here. And then for their experience, once you're in a parent firm, you should be able to see your child firms. So in this case, they would see these two and be able to switch between them.
+Mullings, Owen 7 minutes 18 seconds
+Miss that by the example, because it's...
+Mullings, Owen 7 minutes 22 seconds
+I FM PM.
+Mullings, Owen 7 minutes 25 seconds
+And I don't know if...
+Mullings, Owen 7 minutes 27 seconds
+people actually show up in IFMs.
+Mullings, Owen 7 minutes 30 seconds
+Uh, Candi, do you know in prod if you pick an FM firm, do you see anybody in there?
+
+So, Candi
+7 minutes 35 seconds7:35
+So, Candi 7 minutes 35 seconds
+Yes, yes, there will be, that can be.
+
+Mullings, Owen
+7 minutes 38 seconds7:38
+Mullings, Owen 7 minutes 38 seconds
+Oh.
+Mullings, Owen 7 minutes 41 seconds
+Okay.
+Mullings, Owen 7 minutes 43 seconds
+Alright, so leave that alone.
+
+Azizi, Ali
+7 minutes 44 seconds7:44
+Azizi, Ali 7 minutes 44 seconds
+Sorry, sorry, in that in that page, can you show that again?
+
+Mullings, Owen
+7 minutes 50 seconds7:50
+Mullings, Owen 7 minutes 50 seconds
+Yeah.
+
+Azizi, Ali
+7 minutes 51 seconds7:51
+Azizi, Ali 7 minutes 51 seconds
+Yeah. So when I click on Excellent Capital Management, it means that I can switch to, not the one disabled, the bottom one, that is status is enabled. So which means that when I click on that, I can switch
+Azizi, Ali 8 minutes 10 seconds
+to that firm and I can, it's like that I have logged in to this firm, which is the PM firm, and it will show my permissions, everything under this firm. Is it something like that?
+
+Mullings, Owen
+8 minutes 22 seconds8:22
+Mullings, Owen 8 minutes 22 seconds
+Yeah.
+Mullings, Owen 8 minutes 27 seconds
+Yeah.
+Mullings, Owen 8 minutes 30 seconds
+And or if more likely it would be if I'm a parent firm, so advisor, I would need to go down into that firm to create users in that firm.
+
+Azizi, Ali
+8 minutes 30 seconds8:30
+Azizi, Ali 8 minutes 30 seconds
+Ohh.
+Azizi, Ali 8 minutes 36 seconds
+Mm.
+
+Mullings, Owen
+8 minutes 44 seconds8:44
+Mullings, Owen 8 minutes 44 seconds
+And that's how it is today for somebody that's in the SA team that's in MBIM.
+
+Azizi, Ali
+8 minutes 50 seconds8:50
+Azizi, Ali 8 minutes 50 seconds
+Mhm.
+
+Mullings, Owen
+8 minutes 50 seconds8:50
+Mullings, Owen 8 minutes 50 seconds
+So if I come in here, the list of users that are here, it says 1654. These are all users that are created inside of Nbin. If I go down into...
+Mullings, Owen 9 minutes 3 seconds
+So this is QI, so this is the actual build.
+Mullings, Owen 9 minutes 8 seconds
+So this firm is deactivated, which is why things are blocked.
+
+Azizi, Ali
+9 minutes 15 seconds9:15
+Azizi, Ali 9 minutes 15 seconds
+Mhm.
+
+Mullings, Owen
+9 minutes 15 seconds9:15
+Mullings, Owen 9 minutes 15 seconds
+Well, let me pick an active firm.
+Mullings, Owen 9 minutes 19 seconds
+So here you see no users, which would mean that there's no users in this firm. So every firm has its own set of users, and that's all you see, unless you search.
+
+Azizi, Ali
+9 minutes 24 seconds9:24
+Azizi, Ali 9 minutes 24 seconds
+Okay.
+
+Mullings, Owen
+9 minutes 31 seconds9:31
+Mullings, Owen 9 minutes 31 seconds
+And then that's when we show you when users exist in all the firms.
+
+Azizi, Ali
+9 minutes 35 seconds9:35
+Azizi, Ali 9 minutes 35 seconds
+Okay, okay, so it is from SAA personal point of view, but what if, from the user firm for type view, for example, have access to two different firms? It's like...
+
+Mullings, Owen
+9 minutes 39 seconds9:39
+Mullings, Owen 9 minutes 39 seconds
+Yeah.
+Mullings, Owen 9 minutes 51 seconds
+So.
+Mullings, Owen 9 minutes 58 seconds
+I.
+Mullings, Owen 10 minutes 3 seconds
+Sso.
+
+Azizi, Ali
+10 minutes 3 seconds10:03
+Azizi, Ali 10 minutes 3 seconds
+Without any logout.
+
+Mullings, Owen
+10 minutes 6 seconds10:06
+Mullings, Owen 10 minutes 6 seconds
+Yeah, you can switch to the frame without, you under the same ID without any logout, without anything yet.
+
+Azizi, Ali
+10 minutes 10 seconds10:10
+Azizi, Ali 10 minutes 10 seconds
+Yes.
+Azizi, Ali 10 minutes 12 seconds
+Okay. Okay, great. Okay.
+
+Mullings, Owen
+10 minutes 15 seconds10:15
+Mullings, Owen 10 minutes 15 seconds
+She was thinking.
+Mullings, Owen 10 minutes 16 seconds
+Yeah, it's just that it would be very similar to the Nbccm case, but you'd have less firms, just just your trial firms.
+Mullings, Owen 10 minutes 24 seconds
+And I imagine that would maintain all of these features for people that have access to multiple firms. I think it's controlled by resource today that was set up for parent firm anyways.
+
+Azizi, Ali
+10 minutes 24 seconds10:24
+Azizi, Ali 10 minutes 24 seconds
+Great.
+
+Mullings, Owen
+10 minutes 37 seconds10:37
+Mullings, Owen 10 minutes 37 seconds
+Uh, but I don't know if it's, um, if it's firm scoped properly.
+
+Azizi, Ali
+10 minutes 37 seconds10:37
+Azizi, Ali 10 minutes 37 seconds
+Okay.
+
+Mullings, Owen
+10 minutes 46 seconds10:46
+Mullings, Owen 10 minutes 46 seconds
+something to do discovery on or analysis on to see if it was implemented that way or not.
+
+Azizi, Ali
+10 minutes 53 seconds10:53
+Azizi, Ali 10 minutes 53 seconds
+Mhm.
+
+Mullings, Owen
+10 minutes 57 seconds10:57
+Mullings, Owen 10 minutes 57 seconds
+So that has to do with where the users are being created.
+Mullings, Owen 11 minutes 4 seconds
+Let me talk through.
+Mullings, Owen 11 minutes 8 seconds
+Sso.
+Mullings, Owen 11 minutes 10 seconds
+The actual, let me see what's on this first, just to make sure I'm structured.
+Mullings, Owen 11 minutes 15 seconds
+So, designated current for security shorts, they add users in the individual firms.
+Mullings, Owen 11 minutes 23 seconds
+Okay, in this sub advisor home firm.
+Mullings, Owen 11 minutes 29 seconds
+Okay, let's start with that. So for a sub-advisor, there's an assumption that somewhere in this context, I don't know if it'll be in the UI or not, we would have essentially a list of sub-advisor accounts listed somewhere.
+
+Azizi, Ali
+11 minutes 35 seconds11:35
+Azizi, Ali 11 minutes 35 seconds
+Gee.
+
+Mullings, Owen
+11 minutes 49 seconds11:49
+Mullings, Owen 11 minutes 49 seconds
+So which are our codes belong to which external firm?
+
+Azizi, Ali
+11 minutes 53 seconds11:53
+Azizi, Ali 11 minutes 53 seconds
+Mhm.
+
+Mullings, Owen
+11 minutes 53 seconds11:53
+Mullings, Owen 11 minutes 53 seconds
+And then that would be all we would need to establish a relationship. I don't know if it would be ranges or individual ones and how long it would be in terms of layout. I imagine that it might be kind of convoluted if we had it all on the same page. You might start needing tabs or something.
+
+Azizi, Ali
+12 minutes 11 seconds12:11
+Azizi, Ali 12 minutes 11 seconds
+Mmh.
+
+Mullings, Owen
+12 minutes 11 seconds12:11
+Mullings, Owen 12 minutes 11 seconds
+or maybe another section. But at some point, you'd have the firm relationships that would reflect as our quotes from other firms available in this firm. And then to create a user,
+Mullings, Owen 12 minutes 26 seconds
+Inside of this firm that's so advised.
+Mullings, Owen 12 minutes 30 seconds
+I think we would need a roll call sub advisor.
+Mullings, Owen 12 minutes 35 seconds
+And then when you select the sub-advisor role, the features that they have access to would be within the short list of resources that cover the trading features that they should have access to.
+Mullings, Owen 12 minutes 53 seconds
+There's a few edge cases.
+Mullings, Owen 12 minutes 56 seconds
+Hey, JP, we started, but we're recording.
+
+Pierre, Joseph-Pascal
+13 minutes 1 second13:01
+Pierre, Joseph-Pascal 13 minutes 1 second
+Bye.
+
+Mullings, Owen
+13 minutes 3 seconds13:03
+Mullings, Owen 13 minutes 3 seconds
+Ed.
+Mullings, Owen 13 minutes 4 seconds
+So, there's a few edge cases, I think, say, in Servicing.
+
+Azizi, Ali
+13 minutes 10 seconds13:10
+Azizi, Ali 13 minutes 10 seconds
+SH.
+
+Mullings, Owen
+13 minutes 14 seconds13:14
+Mullings, Owen 13 minutes 14 seconds
+They might have to make some decisions as to what is in that some of that trading profile.
+Mullings, Owen 13 minutes 24 seconds
+Let me see if.
+Mullings, Owen 13 minutes 27 seconds
+Servicing is and then managed for this way.
+Mullings, Owen 13 minutes 32 seconds
+This account doesn't have, let me grant it to myself.
+Mullings, Owen 13 minutes 38 seconds
+But maybe it does have a secure zone ID manage.
+Mullings, Owen 13 minutes 50 seconds
+Actually, I shouldn't mess around with the QA's, because it's not my profile.
+Mullings, Owen 13 minutes 56 seconds
+Maybe it's not that big of a deal.
+Mullings, Owen 13 minutes 59 seconds
+Thanks.
+Mullings, Owen 14 minutes 1 second
+Adding a couple new features.
+Mullings, Owen 14 minutes 10 seconds
+Okay, so there is a secures only the
+Mullings, Owen 14 minutes 17 seconds
+Okay, I think because this money's from a user, that's why Servicing isn't here. It's not in the package.
+Mullings, Owen 14 minutes 23 seconds
+OK, I'll leave that alone.
+Mullings, Owen 14 minutes 29 seconds
+But the point I was trying to make is, of the list of instructions, there is, I think, a couple that
+Mullings, Owen 14 minutes 39 seconds
+that the trader would need. I think there's...
+Mullings, Owen 14 minutes 45 seconds
+Trade correction.
+Mullings, Owen 14 minutes 49 seconds
+Uh...
+Mullings, Owen 14 minutes 53 seconds
+So, I guess whatever their secure loan ID is for the sub advisor, we would need to pay it back to only have.
+Mullings, Owen 15 minutes 3 seconds
+The whatever tree there would need inside the secure zone.
+Mullings, Owen 15 minutes 7 seconds
+And I think it would include.
+Mullings, Owen 15 minutes 11 seconds
+Let's go back up to...
+Mullings, Owen 15 minutes 14 seconds
+In navigation.
+Mullings, Owen 15 minutes 18 seconds
+Picture.
+Mullings, Owen 15 minutes 20 seconds
+So, when the creating the security ID, that's dedicated to...
+Mullings, Owen 15 minutes 24 seconds
+The sub advisor.
+Mullings, Owen 15 minutes 27 seconds
+It would have these trading, secure zone trading features. It would have GSE orders.
+Mullings, Owen 15 minutes 35 seconds
+New issues.
+Mullings, Owen 15 minutes 38 seconds
+Uh...
+Mullings, Owen 15 minutes 40 seconds
+Think at the time that we launch.
+Mullings, Owen 15 minutes 43 seconds
+We might need mutual fund upload.
+Mullings, Owen 15 minutes 46 seconds
+Hopefully we don't need trade advice as like a, because usually we launch things in parallel and then we turn the top wind. We have confidence. Oh, hey, Ali.
+
+
+
+Azizi, Ali
+15 minutes 58 seconds15:58
+Azizi, Ali 15 minutes 58 seconds
+You said that probably we need a role for sub-advisor. We already talked about the firm user profile that we can record the firm relationship
+
+Mullings, Owen
+16 minutes 5 seconds16:05
+Mullings, Owen 16 minutes 5 seconds
+Yee.
+Mullings, Owen 16 minutes 8 seconds
+Yes.
+
+Azizi, Ali
+16 minutes 16 seconds16:16
+Azizi, Ali 16 minutes 16 seconds
+In that profile, so I am wondering, for example, for sub advisory, it's looked like that there is a owning firm that grants the sub advisory to a receiving firm for for a range of.
+
+Mullings, Owen
+16 minutes 30 seconds16:30
+Mullings, Owen 16 minutes 30 seconds
+Yes.
+Mullings, Owen 16 minutes 32 seconds
+Mmh.
+Mullings, Owen 16 minutes 33 seconds
+Sure.
+
+Azizi, Ali
+16 minutes 35 seconds16:35
+Azizi, Ali 16 minutes 35 seconds
+or codes. Okay, that's the definition. I understand. And also we have referral partner as well. But if this is the case, then...
+
+Mullings, Owen
+16 minutes 46 seconds16:46
+Mullings, Owen 16 minutes 46 seconds
+Evert.
+
+Azizi, Ali
+16 minutes 51 seconds16:51
+Azizi, Ali 16 minutes 51 seconds
+Um...
+Azizi, Ali 16 minutes 52 seconds
+How, how we gonna handle it as a as a as a feature, because, because if...
+Azizi, Ali 17 minutes
+For example, my understanding is that those R codes are not going to be static. They might, you cannot, the user is not, for example, going to have the full list of the R codes per firm. It's going to be customised. And for example,
+
+Mullings, Owen
+17 minutes 2 seconds17:02
+Mullings, Owen 17 minutes 2 seconds
+Texas.
+Mullings, Owen 17 minutes 6 seconds
+Est.
+
+Azizi, Ali
+17 minutes 20 seconds17:20
+Azizi, Ali 17 minutes 20 seconds
+for example, from 1 to 5 range of the Oracle. So in that case, how are we going to manage to delegate it as a role?
+
+Mullings, Owen
+17 minutes 34 seconds17:34
+Mullings, Owen 17 minutes 34 seconds
+So the rule would cover the feature access portion.
+Mullings, Owen 17 minutes 39 seconds
+I think once we select a sub-advisor role, then the R codes, instead of showing the firm ranges, it would need to show the sub-advisor ranges. And we may need a mechanism to say similar to firm level access that maintains a user's access to
+Mullings, Owen 18 minutes
+all of the R codes within a firm. So if the firm adds R codes, then everybody with firmly access gets those R codes. There could be a similar concept for sub advisor where you would see the list of sub advising R codes down here. I think there's a question about whether or not
+
+Azizi, Ali
+18 minutes 4 seconds18:04
+Azizi, Ali 18 minutes 4 seconds
+Mhm.
+
+Mullings, Owen
+18 minutes 20 seconds18:20
+Mullings, Owen 18 minutes 20 seconds
+that user's own firm's accounts would be in that? I suspect so.
+Mullings, Owen 18 minutes 27 seconds
+So the sub advisor R codes would have all the sub advisor R codes plus the firm range for their home firm here. And then they could pick either a discrete section or a portion of those R codes, or they would do
+
+Azizi, Ali
+18 minutes 34 seconds18:34
+Azizi, Ali 18 minutes 34 seconds
+Mhm.
+
+Mullings, Owen
+18 minutes 45 seconds18:45
+Mullings, Owen 18 minutes 45 seconds
+full, maybe they have two options, full firm level access and then subscriber, sub advisor level access. I don't know what the term would be, but something to say that if you add, if you dynamically add new sub advisors, you would everybody that has that access inherits them.
+Mullings, Owen 19 minutes 4 seconds
+Huu.
+Mullings, Owen 19 minutes 8 seconds
+Does that make sense?
+Mullings, Owen 19 minutes 10 seconds
+Cheque for my channel.
+
+Azizi, Ali
+19 minutes 11 seconds19:11
+Azizi, Ali 19 minutes 11 seconds
+Yes, it does make sense. I just was thinking about that portion that how the validation takes place, but based on what we are doing today, a validation is taking place offline and with.
+
+Mullings, Owen
+19 minutes 15 seconds19:15
+Mullings, Owen 19 minutes 15 seconds
+I believe that.
+Mullings, Owen 19 minutes 20 seconds
+Thanks.
+
+Azizi, Ali
+19 minutes 29 seconds19:29
+Azizi, Ali 19 minutes 29 seconds
+by Checking by SAA. So it means that they need to cheque whether this user that is sub-advisory, do they have access to this range of oracles? They need to cheque a matrix, something like that, to make sure that they don't delegate.
+
+Mullings, Owen
+19 minutes 45 seconds19:45
+Mullings, Owen 19 minutes 45 seconds
+The.
+
+Azizi, Ali
+19 minutes 49 seconds19:49
+Azizi, Ali 19 minutes 49 seconds
+Wrong access to this subadvisor.
+
+Mullings, Owen
+19 minutes 54 seconds19:54
+Mullings, Owen 19 minutes 54 seconds
+Tsx.
+
+Azizi, Ali
+19 minutes 56 seconds19:56
+Azizi, Ali 19 minutes 56 seconds
+Okay, I was thinking in parallel, but here sounds good, sounds good to me. Yeah, Candi, please go ahead.
+
+Mullings, Owen
+19 minutes 57 seconds19:57
+Mullings, Owen 19 minutes 57 seconds
+Yes.
+Mullings, Owen 20 minutes 7 seconds
+You, Candi.
+
+So, Candi
+20 minutes 8 seconds20:08
+So, Candi 20 minutes 8 seconds
+Yeah, hi. I think the idea I understand or we've been talking about is sub-advisor, they will have a separate ID just for the sub-advising role. It's so the, yeah, the article in that should be all the sub-advising article.
+
+Mullings, Owen
+20 minutes 23 seconds20:23
+Mullings, Owen 20 minutes 23 seconds
+IAM.
+
+So, Candi
+20 minutes 29 seconds20:29
+So, Candi 20 minutes 29 seconds
+given to the firm. So in the firm table or in the firm hierarchy, we have to set up the sub advising firm relationship. And then if this is Guardian Capital, they sub advising for High View, some other firms, then those are assigned to them.
+So, Candi 20 minutes 50 seconds
+would be given to them almost as if is the firm range. So these are the R code that we can put on a Servicing profile.
+
+Mullings, Owen
+20 minutes 55 seconds20:55
+Mullings, Owen 20 minutes 55 seconds
+Like.
+Mullings, Owen 20 minutes 56 seconds
+Mhm.
+
+So, Candi
+21 minutes 4 seconds21:04
+So, Candi 21 minutes 4 seconds
+So I think validation is still possible to be automated. And the worst thing is for someone to cheque it manually, right? That could, yeah, I think we should try to avoid making a requirement for SAA to cheque something else.
+
+Mullings, Owen
+21 minutes 5 seconds21:05
+Mullings, Owen 21 minutes 5 seconds
+Yeah.
+Mullings, Owen 21 minutes 6 seconds
+Sso.
+
+So, Candi
+21 minutes 25 seconds21:25
+So, Candi 21 minutes 25 seconds
+Because whatever list they're checking against could go outdated soon, and then people can forget about this step and so on. So we should think about how to automate that.
+So, Candi 21 minutes 39 seconds
+Yeah.
+
+Mullings, Owen
+21 minutes 40 seconds21:40
+Mullings, Owen 21 minutes 40 seconds
+Yeah, I think so. I think that once the firm relationships is established with the R codes for the home firm to sub advise, that could operate like the firm ranges here. And you can assign all or some subset of the
+Mullings, Owen 22 minutes
+sub advisor range. I think the, I guess the thing that the security steward still needs to manage on their side is they need to have some kind of requests to them that confirms that this person should be a sub advisor. Those type of things we don't usually keep in our system.
+
+Azizi, Ali
+22 minutes 23 seconds22:23
+Azizi, Ali 22 minutes 23 seconds
+Atesh.
+
+Mullings, Owen
+22 minutes 23 seconds22:23
+Mullings, Owen 22 minutes 23 seconds
+When Ali was talking, that was the sense that I got was, do we, somehow do we validate on some list that somebody, the sub advisor, I think that's a decision that somebody in the firm makes and then it gets captured on the firm side and we don't actually know about it. Hey, Ali.
+
+Azizi, Ali
+22 minutes 40 seconds22:40
+Azizi, Ali 22 minutes 40 seconds
+Yeah, that's right. I just want something conflicts which already with the question I already asked. Candi said that we need to have two user ID, one for multi-firm, one sorry, one for...
+Azizi, Ali 23 minutes 1 second
+for this regular activities and the other one for the sub-advisory. But my earlier question from you was that what if, if can they switch the profile without log in and log out? And you said yes. So in that case,
+
+
+Mullings, Owen
+23 minutes 6 seconds23:06
+Mullings, Owen 23 minutes 6 seconds
+Yeah.
+Mullings, Owen 23 minutes 8 seconds
+Julie.
+Mullings, Owen 23 minutes 18 seconds
+In the case, in the case of multi-firm, so if I have an ID that's set up for the parent firm, I can switch between firms, no problem.
+Mullings, Owen 23 minutes 28 seconds
+So the limitation that requires the new ID is that the supervisor needs a different feature access.
+Mullings, Owen 23 minutes 35 seconds
+Um...
+Mullings, Owen 23 minutes 36 seconds
+And we don't have a way in the system currently to give different feature accesses to the same ID. But in the multi-firm case, the person will get a peer and firm access level to do centralised services across all firms.
+Mullings, Owen 23 minutes 53 seconds
+So their feature access is the same, but then they can switch between firms with the same feature access, which is why they don't need another ID. But for the sub-advisor, we need to give them another ID in order to have them be able to do only sub-advising functions in terms of feature access on the
+
+Azizi, Ali
+23 minutes 59 seconds23:59
+Azizi, Ali 23 minutes 59 seconds
+Ohh.
+Azizi, Ali 24 minutes 2 seconds
+Yeah.
+
+Mullings, Owen
+24 minutes 15 seconds24:15
+Mullings, Owen 24 minutes 15 seconds
+sub-advisor accounts plus their home firm accounts that they're managing the portfolio for.
+Mullings, Owen 24 minutes 22 seconds
+That's the subtle difference.
+
+Azizi, Ali
+24 minutes 25 seconds24:25
+Azizi, Ali 24 minutes 25 seconds
+But you know, I want to ask, without dragging me into technical constraints, I want to say that, is this a law in our system or it can be changed? Because what I understand is that it's
+
+Mullings, Owen
+24 minutes 25 seconds24:25
+Mullings, Owen 24 minutes 25 seconds
+Thanks.
+
+Azizi, Ali
+24 minutes 44 seconds24:44
+Azizi, Ali 24 minutes 44 seconds
+The in the in the back end in the background, I don't want to judge that side, I don't want to talk about that side, but from the user experience.
+Azizi, Ali 24 minutes 57 seconds
+If the user can simply...
+Azizi, Ali 25 minutes
+Switch the profile, what is the, what is the, what is the, you know, technical constraint? I am saying that a technical constraint in platform level that avoids to have.
+
+Mullings, Owen
+25 minutes 10 seconds25:10
+Mullings, Owen 25 minutes 10 seconds
+Ex.
+
+Azizi, Ali
+25 minutes 20 seconds25:20
+Azizi, Ali 25 minutes 20 seconds
+A one single ID instead of two, because I think this technical constraint can be solved if, if we think about that, isn't that right?
+
+Mullings, Owen
+25 minutes 34 seconds25:34
+Mullings, Owen 25 minutes 34 seconds
+Ohh.
+Mullings, Owen 25 minutes 36 seconds
+So, the ability for for one ID to have multiple feature accesses was solved in the Stefano with the 2.0 solution that we did, but the estimate on building that was too high.
+Mullings, Owen 25 minutes 52 seconds
+So, in order to get everything all by trading, um, it's everything's possible.
+Mullings, Owen 25 minutes 59 seconds
+But it's a time thing.
+Mullings, Owen 26 minutes 4 seconds
+I imagine that you could debate of like challenging ourselves to find an alternative solution that doesn't take as long, but it's quite complex because all of these platform things, they have wide reach.
+Mullings, Owen 26 minutes 20 seconds
+So there is integrations into the secure zone infrastructure in different places, into access control when you load a page in the menus, the actions within the page.
+Mullings, Owen 26 minutes 36 seconds
+It it has a far reach, so it I don't think we're.
+Mullings, Owen 26 minutes 41 seconds
+We took it lightly when we made that, I guess, scope cut decision. It's just that the level of complexity jumps significantly once you try to make it a single ID.
+
+Azizi, Ali
+26 minutes 55 seconds26:55
+Azizi, Ali 26 minutes 55 seconds
+Ohh.
+Azizi, Ali 26 minutes 58 seconds
+OK, OK, that's another discussion for another time, but OK, in terms of the possibility, yeah, I understand that this is possible. OK, let's.
+
+Mullings, Owen
+27 minutes 2 seconds27:02
+Mullings, Owen 27 minutes 2 seconds
+Yeah.
+Mullings, Owen 27 minutes 9 seconds
+The one thing JP did suggest though is, say for example, you're in a situation where you have one ID for your home firm or your parent firm and then another one for your sub advisor.
+
+Azizi, Ali
+27 minutes 9 seconds27:09
+Azizi, Ali 27 minutes 9 seconds
+I don't have any.
+
+Mullings, Owen
+27 minutes 22 seconds27:22
+Mullings, Owen 27 minutes 22 seconds
+JP did suggest that there's something that we could do to switch between those profiles on the same person.
+Mullings, Owen 27 minutes 30 seconds
+Kind of like what they do in Servicing today.
+Mullings, Owen 27 minutes 33 seconds
+Or a secure zone.
+
+Azizi, Ali
+27 minutes 34 seconds27:34
+Azizi, Ali 27 minutes 34 seconds
+Sso.
+Azizi, Ali 27 minutes 35 seconds
+So, so the path is already provided by JP.
+
+Mullings, Owen
+27 minutes 36 seconds27:36
+Mullings, Owen 27 minutes 36 seconds
+The.
+Mullings, Owen 27 minutes 41 seconds
+It's different IDs, but you can switch with the time, you can have one login and you can switch between your profiles. So it's not, yeah.
+
+Azizi, Ali
+27 minutes 47 seconds27:47
+Azizi, Ali 27 minutes 47 seconds
+Oh, so it means that you need to have two credentials. They already need to be stored somewhere, something like that. And then, yeah, we can switch the profile, something. It's what I understand.
+
+Mullings, Owen
+28 minutes 2 seconds28:02
+Mullings, Owen 28 minutes 2 seconds
+Yeah.
+
+Azizi, Ali
+28 minutes 3 seconds28:03
+Azizi, Ali 28 minutes 3 seconds
+Okay.
+
+Mullings, Owen
+28 minutes 3 seconds28:03
+Mullings, Owen 28 minutes 3 seconds
+And I think that's effectively what you want, but it's just, it's just when you phrase it, you said two ID, I mean one ID, and it's not technically one ID, but it's effectively the same thing or same experience.
+
+Azizi, Ali
+28 minutes 20 seconds28:20
+Azizi, Ali 28 minutes 20 seconds
+Okay.
+
+Mullings, Owen
+28 minutes 23 seconds28:23
+Mullings, Owen 28 minutes 23 seconds
+Okay, so.
+Mullings, Owen 28 minutes 26 seconds
+Back to the user management piece.
+Mullings, Owen 28 minutes 29 seconds
+So at some point, we would have to define a sub advisor by what is in a sub advisor profile. It will be all the trading tools and then the
+Mullings, Owen 28 minutes 44 seconds
+R2 ID that we link, if that's still needed, would only have some advisor features as well, with the sub-advisor R codes fill out. And then the secure zone ID would have the secure zone apps.
+Mullings, Owen 29 minutes
+and then potentially serve a service in profile with the trading feature.
+Mullings, Owen 29 minutes 6 seconds
+In it. OK, I was trying to go back here.
+
+Azizi, Ali
+29 minutes 11 seconds29:11
+Azizi, Ali 29 minutes 11 seconds
+Gee.
+
+
+Mullings, Owen
+29 minutes 11 seconds29:11
+Mullings, Owen 29 minutes 11 seconds
+So the stuff that this sub advisory needs falls within these three, this main capability here.
+Mullings, Owen 29 minutes 19 seconds
+And, um, potentially.
+Mullings, Owen 29 minutes 23 seconds
+Clients and accounts.
+Mullings, Owen 29 minutes 26 seconds
+And that's it.
+Mullings, Owen 29 minutes 29 seconds
+To be determined, but my understanding is that's it. The only one that is a little bit iffy is that there is there's some Servicing.
+Mullings, Owen 29 minutes 43 seconds
+thing in here that they may need to get access to the tree corrections.
+Mullings, Owen 29 minutes 49 seconds
+And systematic plans, I think, I don't know.
+Mullings, Owen 29 minutes 55 seconds
+This is something I've always debated because it ends up being a mutual fund transaction. But the way they set it up, apparently it's a client administrator that sets it up and a systematic plan usually involves A scheduled money movement.
+Mullings, Owen 30 minutes 15 seconds
+plus an automated buyer cell.
+Mullings, Owen 30 minutes 19 seconds
+in a minor group that we're trading, but that apparently based on the roles that they have in their firm, it's not quite. So somebody we need to confirm if systematic plans is part of the subadvisor profile.
+Mullings, Owen 30 minutes 34 seconds
+I think for all of the ones, all of the secure zone apps with navigation items, I think those are pretty straightforward to bundle into one profile. The one that's tricky will be if you have Servicing just with that one or two instructions. So I imagine there's going to be some debate there.
+Mullings, Owen 30 minutes 54 seconds
+But one alternative, and that's if they want to be able to do a trade correction on the trades that they submitted.
+Mullings, Owen 31 minutes 7 seconds
+But to be determined. So for feature access, that's it. To create the role.
+Mullings, Owen 31 minutes 15 seconds
+for the R codes.
+Mullings, Owen 31 minutes 18 seconds
+I think they would need their firm range.
+Mullings, Owen 31 minutes 23 seconds
+plus the sub-advisor range.
+Mullings, Owen 31 minutes 26 seconds
+Because from my understanding, they would be kind of batch of bulk managing this portfolio across all of their sub-advisor accounts, like everybody, everybody that's part of the sub-advisor programme, they'll be managing their home.
+Mullings, Owen 31 minutes 45 seconds
+trades as well as their supervisory trades all in the same workflow. So when they're doing rebalancing, they rebalance all of that together.
+Mullings, Owen 31 minutes 55 seconds
+Uhh...
+Mullings, Owen 31 minutes 58 seconds
+Candi is, I just wanted to cheque to see if that made sense to you.
+
+So, Candi
+32 minutes 2 seconds32:02
+So, Candi 32 minutes 2 seconds
+And.
+
+Mullings, Owen
+32 minutes 3 seconds32:03
+Mullings, Owen 32 minutes 3 seconds
+So it would be their phone firm in the sub advisor user ID. It would be their home firm accounts plus the sub advisor accounts.
+Mullings, Owen 32 minutes 12 seconds
+Yes.
+
+So, Candi
+32 minutes 13 seconds32:13
+So, Candi 32 minutes 13 seconds
+Huu.
+So, Candi 32 minutes 14 seconds
+I was thinking the advisor ID, user ID, and the home firm ID would be separate. And then in the Servicing ID, you will only have to Servicing our code.
+
+Mullings, Owen
+32 minutes 29 seconds32:29
+Mullings, Owen 32 minutes 29 seconds
+S.
+
+So, Candi
+32 minutes 29 seconds32:29
+So, Candi 32 minutes 29 seconds
+Because, for those...
+So, Candi 32 minutes 32 seconds
+That range with you can apply only limited some feature on, right?
+
+Mullings, Owen
+32 minutes 34 seconds32:34
+Mullings, Owen 32 minutes 34 seconds
+Sftp.
+Mullings, Owen 32 minutes 40 seconds
+Est.
+
+So, Candi
+32 minutes 41 seconds32:41
+So, Candi 32 minutes 41 seconds
+Because the article would be in the context of your access provision.
+
+Mullings, Owen
+32 minutes 48 seconds32:48
+Mullings, Owen 32 minutes 48 seconds
+Huu.
+
+So, Candi
+32 minutes 49 seconds32:49
+So, Candi 32 minutes 49 seconds
+So the home firm ID, maybe in your home firm, you were assigned to admin orders. And then that range of account, you will have more capability to do things. So I was thinking it should be separated, but then
+
+Mullings, Owen
+32 minutes 58 seconds32:58
+Mullings, Owen 32 minutes 58 seconds
+Tsx.
+
+So, Candi
+33 minutes 8 seconds33:08
+So, Candi 33 minutes 8 seconds
+At the same time, I am conscious, like if someone, yeah, it goes back to the two ID issue. If I go in with my home firm ID, I can only see my home firm accounts. If I, yeah, so it's not a, it's not a.
+
+Mullings, Owen
+33 minutes 23 seconds33:23
+Mullings, Owen 33 minutes 23 seconds
+Yeah.
+Mullings, Owen 33 minutes 27 seconds
+Speech.
+
+So, Candi
+33 minutes 28 seconds33:28
+So, Candi 33 minutes 28 seconds
+So, consolidated view for me.
+So, Candi 33 minutes 33 seconds
+But I think maybe that's what we talk about is the limitation of 1.0 FUN 1.0. For now, we cannot provide a true consolidated order list view. But then at least we would group all your Servicing orders.
+
+Mullings, Owen
+33 minutes 33 seconds33:33
+Mullings, Owen 33 minutes 33 seconds
+Yeah.
+Mullings, Owen 33 minutes 35 seconds
+Sz.
+Mullings, Owen 33 minutes 38 seconds
+Shah.
+Mullings, Owen 33 minutes 50 seconds
+S.
+
+So, Candi
+33 minutes 54 seconds33:54
+So, Candi 33 minutes 54 seconds
+In your second, in your other user ID.
+
+Mullings, Owen
+33 minutes 54 seconds33:54
+Mullings, Owen 33 minutes 54 seconds
+Est.
+
+So, Candi
+34 minutes34:00
+So, Candi 34 minutes
+I'm not sure that makes sense. Yeah. Yeah.
+
+Mullings, Owen
+34 minutes34:00
+Mullings, Owen 34 minutes
+Yeah, so this...
+Mullings, Owen 34 minutes 3 seconds
+So this question came up when the topic first came up and the answer that I registered for it was in terms of their workflow, they don't care, like if they were to create a network ID today.
+
+So, Candi
+34 minutes 10 seconds34:10
+So, Candi 34 minutes 10 seconds
+Mhm.
+
+Mullings, Owen
+34 minutes 18 seconds34:18
+Mullings, Owen 34 minutes 18 seconds
+They don't care that to have one just for sub-advising and then another for their regular firm. They want to work on everything together. So in order for them to, so the sub-advisor rd is essentially a trading role tied to a portfolio management role.
+Mullings, Owen 34 minutes 38 seconds
+And they will want an aggregate view of everything. So one way of getting or supporting that workflow without the multiple IDs is to allow for their sole advisor ID to have all of the all of the.
+Mullings, Owen 34 minutes 55 seconds
+ID, sorry, all of the error codes that they would want to manage with the feature access of a sub advisor, so they can do their rebalancing and aggregate trades and manage their trades and investments across everything.
+Mullings, Owen 35 minutes 14 seconds
+And I think that is feasible and it aligns with what I understand the users to want to.
+
+
+
+So, Candi
+35 minutes 20 seconds35:20
+So, Candi 35 minutes 20 seconds
+Okay, so then the Servicing R code or the R code on the Servicing ID would be a superset of all the R codes the person can have access to.
+
+Mullings, Owen
+35 minutes 26 seconds35:26
+Mullings, Owen 35 minutes 26 seconds
+App.
+Mullings, Owen 35 minutes 36 seconds
+Yeah, and then we would need.
+
+So, Candi
+35 minutes 37 seconds35:37
+So, Candi 35 minutes 37 seconds
+It would contain, yeah.
+
+Mullings, Owen
+35 minutes 40 seconds35:40
+Mullings, Owen 35 minutes 40 seconds
+We would need two of these mechanisms. So one to give firm level access for their parent firm and then one to give full sub advisory ranges. I don't know if we can assume that they want to get everything together.
+Mullings, Owen 35 minutes 56 seconds
+You know what I mean?
+
+So, Candi
+35 minutes 59 seconds35:59
+So, Candi 35 minutes 59 seconds
+I think it would be too risky to give them from the full access.
+So, Candi 36 minutes 4 seconds
+So, if someone setting up, yeah, yeah.
+
+Mullings, Owen
+36 minutes 4 seconds36:04
+Mullings, Owen 36 minutes 4 seconds
+So, what is that?
+Mullings, Owen 36 minutes 7 seconds
+But what if they're a centralised trader, but their firm sub-advisors? Every centralised trader needs firm level access to manage all of their firms.
+
+So, Candi
+36 minutes 19 seconds36:19
+So, Candi 36 minutes 19 seconds
+Ohh, okay.
+
+Mullings, Owen
+36 minutes 20 seconds36:20
+Mullings, Owen 36 minutes 20 seconds
+Yeah.
+Mullings, Owen 36 minutes 24 seconds
+So, but it needs it needs to be optional, because not every firm has that situation.
+
+So, Candi
+36 minutes 24 seconds36:24
+So, Candi 36 minutes 24 seconds
+So.
+So, Candi 36 minutes 27 seconds
+Yep.
+So, Candi 36 minutes 31 seconds
+Okta.
+So, Candi 36 minutes 33 seconds
+So, maybe let me recap, see if it makes sense to everyone. So, let's say someone is a guardian angel, sorry, guardian capital. So, they they some advice for someone.
+
+Mullings, Owen
+36 minutes 48 seconds36:48
+Mullings, Owen 36 minutes 48 seconds
+Okay.
+
+So, Candi
+36 minutes 52 seconds36:52
+So, Candi 36 minutes 52 seconds
+for some other firms. But at the same time, they have their clients. So here, if I set up the person under Garden Capital, and then I know this person basically is a trading person. So then I, so one thing I can choose from level access.
+So, Candi 37 minutes 12 seconds
+If I choose the firm level access, that means all the accounts under this firm should be available to the person. But for the roles, the user package, we have to craft out a different user package. It's PM Servicing user.
+So, Candi 37 minutes 30 seconds
+package. That one is similar to, you may say, manage orders, but then it's very limited. Like they cannot see the holdings or they cannot change the account information. So it's more restrictive, but for sure it will provide enough feature.
+
+Mullings, Owen
+37 minutes 42 seconds37:42
+Mullings, Owen 37 minutes 42 seconds
+Yeah.
+Mullings, Owen 37 minutes 45 seconds
+S.
+
+So, Candi
+37 minutes 49 seconds37:49
+So, Candi 37 minutes 49 seconds
+for them to trade, to do the book balancing and so on. But the firm level access would apply to their home firm only. But then when they wrote down to the article assignments, they can also pick the sub-advising article. So let's say if
+
+Mullings, Owen
+37 minutes 53 seconds37:53
+Mullings, Owen 37 minutes 53 seconds
+The.
+Mullings, Owen 38 minutes 10 seconds
+Yes.
+
+So, Candi
+38 minutes 11 seconds38:11
+So, Candi 38 minutes 11 seconds
+Garden Capitals have the Servicing relationship with three other firms, and then so the three other R codes should be available for them to put in here. But then this one is not just the Servicing R code. It would contain their home firm ranges plus the Servicing R code they can they can subscribe to.
+
+Mullings, Owen
+38 minutes 30 seconds38:30
+Mullings, Owen 38 minutes 30 seconds
+Yee.
+
+So, Candi
+38 minutes 36 seconds38:36
+So, Candi 38 minutes 36 seconds
+So if the person only do trading, then maybe one profile is sufficient for them. But if the person wants to have another user package, maybe it's a small firm. So that person
+
+Mullings, Owen
+38 minutes 37 seconds38:37
+Mullings, Owen 38 minutes 37 seconds
+Oss.
+
+So, Candi
+38 minutes 55 seconds38:55
+So, Candi 38 minutes 55 seconds
+have to have an admin or profile to manage everything else, then they will need another profile to be assigned to the admin or user package.
+
+Mullings, Owen
+39 minutes 4 seconds39:04
+Mullings, Owen 39 minutes 4 seconds
+Yes.
+
+So, Candi
+39 minutes 8 seconds39:08
+So, Candi 39 minutes 8 seconds
+Does it make sense to you, Ali?
+
+Azizi, Ali
+39 minutes 15 seconds39:15
+Azizi, Ali 39 minutes 15 seconds
+Yes, it does make sense.
+Azizi, Ali 39 minutes 21 seconds
+Yeah, in terms of Guardian Partners, it may need to there is a there is a PM there and there is a contract between Gordon Partners with cancel with Fiona and Dundee now.
+Azizi, Ali 39 minutes 41 seconds
+Uh...
+Azizi, Ali 39 minutes 43 seconds
+That user needs to have access to a certain range of oracles under Fiona, under cancel, and...
+Azizi, Ali 39 minutes 54 seconds
+And let's say.
+Azizi, Ali 39 minutes 58 seconds
+Under Dundee, all these three are firm names.
+
+Mullings, Owen
+39 minutes 59 seconds39:59
+Mullings, Owen 39 minutes 59 seconds
+The.
+
+Azizi, Ali
+40 minutes 3 seconds40:03
+Azizi, Ali 40 minutes 3 seconds
+Now, what it should show up here is not only the Oracle codes of the firm, active firm, active working firm, but also the Oracle code range of those three firms.
+Azizi, Ali 40 minutes 19 seconds
+And then what Owen is saying is that without any profile change, they can see all the consolidated accounts. They can do trading for all.
+Azizi, Ali 40 minutes 38 seconds
+these respective accounts in one single page without switching profile.
+Azizi, Ali 40 minutes 47 seconds
+But still, in the back end, at the first time, they have entered 2 user ID and two user ID and credential to log in.
+
+
+Mullings, Owen
+40 minutes 47 seconds40:47
+Mullings, Owen 40 minutes 47 seconds
+Sz.
+
+Azizi, Ali
+40 minutes 59 seconds40:59
+Azizi, Ali 40 minutes 59 seconds
+Is that right?
+
+Mullings, Owen
+41 minutes 3 seconds41:03
+Mullings, Owen 41 minutes 3 seconds
+Yeah.
+
+Azizi, Ali
+41 minutes 6 seconds41:06
+Azizi, Ali 41 minutes 6 seconds
+Okay.
+Azizi, Ali 41 minutes 8 seconds
+My only problem is that those two say user ID and credentials, but let's think about it and yeah, let's not do it today. We can do it later. But in terms of the user experience, it sounds good.
+
+Mullings, Owen
+41 minutes 10 seconds41:10
+Mullings, Owen 41 minutes 10 seconds
+Oh.
+Mullings, Owen 41 minutes 22 seconds
+I think I think we.
+Mullings, Owen 41 minutes 25 seconds
+Yeah.
+
+Azizi, Ali
+41 minutes 27 seconds41:27
+Azizi, Ali 41 minutes 27 seconds
+But I need to get another confirmation because I have another idea whether they needed to be consolidated under one single page or if the user is willing to switch to profile to Fiona.
+Azizi, Ali 41 minutes 48 seconds
+And see the all the accounts under Pereira.
+
+Mullings, Owen
+41 minutes 48 seconds41:48
+Mullings, Owen 41 minutes 48 seconds
+Yes.
+
+Azizi, Ali
+41 minutes 54 seconds41:54
+Azizi, Ali 41 minutes 54 seconds
+not mixed with the other firms or even home firms. That's what I want to validate before, you know, because if it's the case, then switch profile is mandatory. But if this is not the case.
+
+Mullings, Owen
+42 minutes 6 seconds42:06
+Mullings, Owen 42 minutes 6 seconds
+Best.
+
+Azizi, Ali
+42 minutes 11 seconds42:11
+Azizi, Ali 42 minutes 11 seconds
+and they want to, for Sso Advisor, they want to see under a single unified account page to see all the orders, then this user experience seems solid.
+
+Mullings, Owen
+42 minutes 27 seconds42:27
+Mullings, Owen 42 minutes 27 seconds
+Yeah, I think it's a safe assumption that they want to consolidate it because, for instance, the way R2 works for trade advice and for mutual fund upload, that are the two trading features in R2. The sub-advisor R codes are included with the firm R code assignment.
+Mullings, Owen 42 minutes 46 seconds
+in the validation when you're uploading a basket of mutual fund trades or you're allocating trades across accounts.
+
+Azizi, Ali
+42 minutes 53 seconds42:53
+Azizi, Ali 42 minutes 53 seconds
+Gee.
+
+Mullings, Owen
+42 minutes 57 seconds42:57
+Mullings, Owen 42 minutes 57 seconds
+So in those two cases, they are combined together. In the case where they have to set up a Netrep ID, I don't think they purposely created 2 network IDs. I think they just have one across everything too.
+
+Azizi, Ali
+43 minutes 2 seconds43:02
+Azizi, Ali 43 minutes 2 seconds
+Mhm.
+
+Mullings, Owen
+43 minutes 14 seconds43:14
+Mullings, Owen 43 minutes 14 seconds
+So, I think it's a safe assumption that it should be consolidated like this, where you have both the firm range plus all the sub advisory ranges. Currently, if I'm wrong.
+
+Azizi, Ali
+43 minutes 21 seconds43:21
+Azizi, Ali 43 minutes 21 seconds
+Yep.
+Azizi, Ali 43 minutes 26 seconds
+I understand, just, you know, another part of cross-check, which, for example, with Guardian, to just make sure that it's not going to stop us, just sending, yeah, just doing a cross-check to make sure everything, but...
+
+Mullings, Owen
+43 minutes 40 seconds43:40
+Mullings, Owen 43 minutes 40 seconds
+Yeah.
+Mullings, Owen 43 minutes 44 seconds
+Makes makes sense.
+
+Azizi, Ali
+43 minutes 44 seconds43:44
+Azizi, Ali 43 minutes 44 seconds
+If, yeah, yeah, make sure that we are not doing something, and it also helps us to enforce and make our, you know, make our design more solid and justifiable in front of everyone.
+
+Mullings, Owen
+43 minutes 50 seconds43:50
+Mullings, Owen 43 minutes 50 seconds
+Sz.
+Mullings, Owen 43 minutes 53 seconds
+I.
+Mullings, Owen 43 minutes 56 seconds
+S.
+Mullings, Owen 44 minutes 4 seconds
+Makes sense.
+
+Azizi, Ali
+44 minutes 7 seconds44:07
+Azizi, Ali 44 minutes 7 seconds
+OK, that's good.
+
+Mullings, Owen
+44 minutes 9 seconds44:09
+Mullings, Owen 44 minutes 9 seconds
+So, I think that covers feature access for.
+Mullings, Owen 44 minutes 14 seconds
+Oh, the other thing I didn't mention, so if we were to create a sub-advisor role.
+Mullings, Owen 44 minutes 23 seconds
+with a set of features that you can select and the R code range expands to include both groups of R codes.
+
+Azizi, Ali
+44 minutes 26 seconds44:26
+Azizi, Ali 44 minutes 26 seconds
+Gee.
+
+Mullings, Owen
+44 minutes 32 seconds44:32
+Mullings, Owen 44 minutes 32 seconds
+Right now when you save this, it cheques your parent firm settings.
+
+Azizi, Ali
+44 minutes 32 seconds44:32
+Azizi, Ali 44 minutes 32 seconds
+Huu.
+
+
+Mullings, Owen
+44 minutes 38 seconds44:38
+Mullings, Owen 44 minutes 38 seconds
+and your user package feature assignment to give you your assignment. In the case of the sub advisor,
+Mullings, Owen 44 minutes 52 seconds
+I think it still works where.
+Mullings, Owen 44 minutes 58 seconds
+Actually, you may think about this.
+Mullings, Owen 45 minutes 2 seconds
+I think...
+Mullings, Owen 45 minutes 5 seconds
+So at first I was thinking that the sub advisor role wouldn't cheque any.
+Mullings, Owen 45 minutes 10 seconds
+Firms settings, because they could inadvertently.
+Mullings, Owen 45 minutes 15 seconds
+Um...
+Mullings, Owen 45 minutes 16 seconds
+change the features that you need to subadvise, but maybe they need to for their practise.
+Mullings, Owen 45 minutes 23 seconds
+So I guess one option is in their home firm, whatever we decide as a sub-advisor list of features inside the sub-advisor package, that package will still cheque permissions or compare itself to the firm settings on their home firm. And then that's what they end up getting.
+Mullings, Owen 45 minutes 44 seconds
+I guess the reason why I'm hesitating on the risk related to that is...
+Mullings, Owen 45 minutes 49 seconds
+If I was thinking about a hypothetical scenario that I don't know if it's true.
+Mullings, Owen 45 minutes 55 seconds
+But in principle, the sub-advisor firms could have features turned off that the home firm doesn't have turned off.
+Mullings, Owen 46 minutes 6 seconds
+So therefore, you'll be creating items in a tool that the sub-advised firm can never see or service. Because for all the sub-advisor accounts, even though the sub-advisor is managing investments, the home firm or the sub-advisor accounts,
+
+Azizi, Ali
+46 minutes 14 seconds46:14
+Azizi, Ali 46 minutes 14 seconds
+Mhm.
+
+Mullings, Owen
+46 minutes 27 seconds46:27
+Mullings, Owen 46 minutes 27 seconds
+they're managing the assets and the customers or the clients. So, it's one risk that we should validate is if the someone function.
+Mullings, Owen 46 minutes 43 seconds
+And the and the home firm settings makes it so that, um, there's some.
+Mullings, Owen 46 minutes 50 seconds
+Uhh...
+Mullings, Owen 46 minutes 51 seconds
+I guess incompatibility, maybe that's not the right word. There might be scenarios where the combination of the home firm settings and the subadvisor user package could cause a situation where you create objects in the subadvisor firm where they can't manage the assets that are created.
+Mullings, Owen 47 minutes 12 seconds
+It's probably unlikely, but theoretically it's possible.
+Mullings, Owen 47 minutes 18 seconds
+Let me cheque in with Candi to see if she gets what I mean.
+Mullings, Owen 47 minutes 22 seconds
+For the analysis piece.
+Mullings, Owen 47 minutes 25 seconds
+No, that giggle says no.
+
+So, Candi
+47 minutes 27 seconds47:27
+So, Candi 47 minutes 27 seconds
+No, yeah.
+So, Candi 47 minutes 29 seconds
+I see what you mean. I hear you.
+
+Mullings, Owen
+47 minutes 31 seconds47:31
+Mullings, Owen 47 minutes 31 seconds
+Okay.
+
+So, Candi
+47 minutes 33 seconds47:33
+So, Candi 47 minutes 33 seconds
+Yeah, just that is edge cases, right? Because if you don't want someone to trade on your accounts, why do some advising for those? So.
+
+Mullings, Owen
+47 minutes 37 seconds47:37
+Mullings, Owen 47 minutes 37 seconds
+Yeah.
+
+So, Candi
+47 minutes 49 seconds47:49
+So, Candi 47 minutes 49 seconds
+Yeah, but I think those are some details we can fine-tune later.
+So, Candi 47 minutes 55 seconds
+Yeah.
+
+Mullings, Owen
+47 minutes 56 seconds47:56
+Mullings, Owen 47 minutes 56 seconds
+Okay.
+
+So, Candi
+47 minutes 57 seconds47:57
+So, Candi 47 minutes 57 seconds
+Yeah, thanks.
+
+Mullings, Owen
+47 minutes 59 seconds47:59
+Mullings, Owen 47 minutes 59 seconds
+Sounds good. All right.
+Mullings, Owen 48 minutes 3 seconds
+What else is impacted by user management?
+Mullings, Owen 48 minutes 9 seconds
+I...
+Mullings, Owen 48 minutes 11 seconds
+I think.
+
+Azizi, Ali
+48 minutes 11 seconds48:11
+Azizi, Ali 48 minutes 11 seconds
+Sorry, sorry, Owen.
+
+Mullings, Owen
+48 minutes 14 seconds48:14
+Mullings, Owen 48 minutes 14 seconds
+Huu.
+
+Azizi, Ali
+48 minutes 15 seconds48:15
+Azizi, Ali 48 minutes 15 seconds
+The total assumption is that we are not going to create a user intake from firm security store. The assumption is that today, like today, that the security store sends us an e-mail.
+Azizi, Ali 48 minutes 34 seconds
+Or, through any form.
+Azizi, Ali 48 minutes 37 seconds
+to our SAA to ask for a creation of the user. It's going to be the same, but on this page and other maybe on the firm page, we need to add things.
+
+Mullings, Owen
+48 minutes 44 seconds48:44
+Mullings, Owen 48 minutes 44 seconds
+Yes.
+Mullings, Owen 48 minutes 46 seconds
+I.
+
+Azizi, Ali
+48 minutes 56 seconds48:56
+Azizi, Ali 48 minutes 56 seconds
+that support multi-firm. But in terms of the personas, we are not going to add firm securities to our persona to this equation for multi-firm. Is that right?
+
+Mullings, Owen
+49 minutes 11 seconds49:11
+Mullings, Owen 49 minutes 11 seconds
+And so.
+Mullings, Owen 49 minutes 17 seconds
+At that, I feel like that's up in the air because you have to re-scope Uar, but...
+
+
+Azizi, Ali
+49 minutes 25 seconds49:25
+Azizi, Ali 49 minutes 25 seconds
+No, I don't want to do that practise, to be honest. I want to, because just I want to put it as a fact on top of your list to say, okay, what this list is representing is that.
+Azizi, Ali 49 minutes 43 seconds
+This, this is the this is the SA personnel who manage the users, who manage the the user creation things, and if and the firm security store has only access to the firm firm scope, but...
+Azizi, Ali 50 minutes 2 seconds
+I want to understand that we are not going to provide a task flow like Uar with the multi-frame that we are talking today.
+Azizi, Ali 50 minutes 14 seconds
+Or is it the case?
+Azizi, Ali 50 minutes 17 seconds
+But so far, we have not talked about that.
+
+Mullings, Owen
+50 minutes 18 seconds50:18
+Mullings, Owen 50 minutes 18 seconds
+You.
+Mullings, Owen 50 minutes 22 seconds
+Yes, so the main reason Uar exists is because there's multiple system dashboards that the users would need to have access to to manage a full user. So they would have to go into OSS, they would have to go into Netrep, they would have to go into secure zone. And we don't want to offer all those credentials out to the frame.
+
+Azizi, Ali
+50 minutes 33 seconds50:33
+Azizi, Ali 50 minutes 33 seconds
+Mhm.
+
+Mullings, Owen
+50 minutes 45 seconds50:45
+Mullings, Owen 50 minutes 45 seconds
+So, it, um, so that's why Uar is required.
+Mullings, Owen 50 minutes 50 seconds
+Um...
+Mullings, Owen 50 minutes 52 seconds
+The reason why I hesitated is because there was a concept with Uar that once it ingests the request, it could auto provision a CX user, a R2 user, etc. And I just didn't want to say at the time when you're building Uar. I don't know if you would have scoped that in or not. I'm assuming not.
+Mullings, Owen 51 minutes 14 seconds
+Um, and then, based on that, what you're saying is true, um, the security storage with those, uh...
+Mullings, Owen 51 minutes 22 seconds
+Received an update from the Uar to.
+Mullings, Owen 51 minutes 29 seconds
+set up a user and a parent firm and they'd have to know that the person is coming from a parent firm and what set up the needs through that process and then they would come into this UI and set it up. But this UI at this moment is just for the SA team.
+
+Bernards, Alexandra
+51 minutes 38 seconds51:38
+Bernards, Alexandra 51 minutes 38 seconds
+What?
+
+Azizi, Ali
+51 minutes 38 seconds51:38
+Azizi, Ali 51 minutes 38 seconds
+Okta.
+Azizi, Ali 51 minutes 44 seconds
+Okay, sounds good.
+
+Mullings, Owen
+51 minutes 46 seconds51:46
+Mullings, Owen 51 minutes 46 seconds
+Yee.
+Mullings, Owen 51 minutes 48 seconds
+The other thing that's on this page is for the secure zone IDs.
+Mullings, Owen 51 minutes 56 seconds
+After the secure zone integration, we made a change so that...
+Mullings, Owen 52 minutes 4 seconds
+The Secure Zone ID Association is primarily managed in.
+Mullings, Owen 52 minutes 9 seconds
+ICR are through the UAMA API, but we also update the Okta claims that the Soma application uses, our Servicing application uses. And the idea was that
+Mullings, Owen 52 minutes 29 seconds
+Uh...
+Mullings, Owen 52 minutes 31 seconds
+When it comes to multi, what do we ask the secure zone team to do?
+Mullings, Owen 52 minutes 37 seconds
+So in FGDA, I think at some point FGDA will come back as a priority.
+Mullings, Owen 52 minutes 47 seconds
+And that would mean that, um, for...
+Mullings, Owen 52 minutes 51 seconds
+whichever ID is specified here.
+Mullings, Owen 52 minutes 55 seconds
+Whatever R codes is selected, we would send to FGDA to store in SPICE DB.
+Mullings, Owen 53 minutes 5 seconds
+And.
+Mullings, Owen 53 minutes 8 seconds
+We would also need to pass the firm context.
+Mullings, Owen 53 minutes 12 seconds
+with that.
+Mullings, Owen 53 minutes 14 seconds
+So which firm you're coming from?
+Mullings, Owen 53 minutes 18 seconds
+So, in the case of a...
+Mullings, Owen 53 minutes 23 seconds
+sub advisor.
+Mullings, Owen 53 minutes 26 seconds
+I guess let me stick with the happy path use cases, because I'm trying to build a full picture in my head and it's kind of fuzzy.
+Mullings, Owen 53 minutes 35 seconds
+So we talked about.
+Mullings, Owen 53 minutes 39 seconds
+storing the R codes in a centralised location as opposed to storing it in R FNUM plus storing it in FGDA. I don't know if we have to sort it in both places for a period of time and keep it in sync, but we would save it to FGDA with a firm scoping and then the reason is because at the firm level.
+Mullings, Owen 54 minutes
+When you switch firms here.
+Mullings, Owen 54 minutes 5 seconds
+Essentially, everything that you're seeing here should be in the context of this firm.
+Mullings, Owen 54 minutes 11 seconds
+So if you're appearing for a user.
+Mullings, Owen 54 minutes 15 seconds
+and you switch it on to one of your trial firms, the apps, in theory, should respond. Maybe I should look in the firm home.
+Mullings, Owen 54 minutes 26 seconds
+The app should should um also scope themselves to the problem that you're looking at that looking at the test.
+Mullings, Owen 54 minutes 33 seconds
+If that makes sense.
+Mullings, Owen 54 minutes 35 seconds
+Does that make sense? And the way that we went to that is, um, we would pass with the links. OK, let me use the...
+
+
+So, Candi
+54 minutes 44 seconds54:44
+So, Candi 54 minutes 44 seconds
+Do we allow, yeah, do we allow the firm switching, firm contact switching for parent firms users?
+
+Mullings, Owen
+54 minutes 44 seconds54:44
+Mullings, Owen 54 minutes 44 seconds
+So here.
+Mullings, Owen 54 minutes 48 seconds
+But.
+Mullings, Owen 54 minutes 51 seconds
+Ti.
+Mullings, Owen 54 minutes 53 seconds
+That's a decision because it comes with a bunch of work to make it work well.
+Mullings, Owen 54 minutes 59 seconds
+So, um, you have to deliberately do that and then do the rest of the work to make it work.
+
+So, Candi
+55 minutes 5 seconds55:05
+So, Candi 55 minutes 5 seconds
+Have we decided?
+
+Mullings, Owen
+55 minutes 7 seconds55:07
+Mullings, Owen 55 minutes 7 seconds
+No, no.
+
+So, Candi
+55 minutes 10 seconds55:10
+So, Candi 55 minutes 10 seconds
+Okay.
+
+Mullings, Owen
+55 minutes 11 seconds55:11
+Mullings, Owen 55 minutes 11 seconds
+Yeah.
+
+So, Candi
+55 minutes 12 seconds55:12
+So, Candi 55 minutes 12 seconds
+Uh, do we want to talk about it now, or is it for later?
+
+Mullings, Owen
+55 minutes 20 seconds55:20
+Mullings, Owen 55 minutes 20 seconds
+Probably for later, but there is a consideration in case we needed to do it.
+
+So, Candi
+55 minutes 21 seconds55:21
+So, Candi 55 minutes 21 seconds
+I...
+So, Candi 55 minutes 23 seconds
+Yeah, I, yeah.
+So, Candi 55 minutes 27 seconds
+Yeah, because I think we have to unpack the whole thing of what we mean by the FGDA and from contacts and stuff. I'm not sure Ali has the contacts of this.
+
+Mullings, Owen
+55 minutes 30 seconds55:30
+Mullings, Owen 55 minutes 30 seconds
+Okay.
+
+So, Candi
+55 minutes 43 seconds55:43
+So, Candi 55 minutes 43 seconds
+Yeah, if we have to do it, we can do it now, but otherwise, do we want to move on to some other things? I think, yeah, I'm fine either way, yeah.
+
+Mullings, Owen
+55 minutes 55 seconds55:55
+Mullings, Owen 55 minutes 55 seconds
+So I did have an agenda item to say there's some things on the secure zone side that is already in place to support whatever decision that we make.
+
+So, Candi
+55 minutes 55 seconds55:55
+So, Candi 55 minutes 55 seconds
+Yeah, what's more important?
+So, Candi 55 minutes 58 seconds
+Yeah.
+
+Mullings, Owen
+56 minutes 6 seconds56:06
+Mullings, Owen 56 minutes 6 seconds
+for multi-firm.
+Mullings, Owen 56 minutes 12 seconds
+So those are two of the...
+Mullings, Owen 56 minutes 16 seconds
+In terms of the data access, those are two of the provisions that were made.
+Mullings, Owen 56 minutes 19 seconds
+I think the defaults.
+Mullings, Owen 56 minutes 24 seconds
+It was the map of Tel.
+Mullings, Owen 56 minutes 28 seconds
+Manage from a user.
+Mullings, Owen 56 minutes 30 seconds
+A typical setup, though.
+Mullings, Owen 56 minutes 33 seconds
+The idea that we talked about was to have.
+Mullings, Owen 56 minutes 37 seconds
+Uh, once one sex ID, one secures one ID that matches.
+Mullings, Owen 56 minutes 42 seconds
+Oh.
+Mullings, Owen 56 minutes 44 seconds
+Or appearing from User.
+Mullings, Owen 56 minutes 48 seconds
+Sso.
+Mullings, Owen 56 minutes 52 seconds
+If they ever have a situation where they need to go down to the child firm, so in the, and they do to manage users in the way that users is currently managed. So if there is a parent firm secure zone, I mean, parent firm security storage, in order to manage the users in the child firm, they have to go down to the child firm.
+Mullings, Owen 57 minutes 12 seconds
+to create that user. So they have to be able to switch firms in this dashboard.
+Mullings, Owen 57 minutes 17 seconds
+But I guess the question is, do they, is there any use case that would force them to do it in the main dashboard? And then is the difference in behaviour acceptable? So the account page has the ability for you to switch between accounts. The client page has the ability for you to switch between clients.
+Mullings, Owen 57 minutes 38 seconds
+Sorry, each of the pages have the ability for you to switch between the items that are on that page if you have access to it.
+Mullings, Owen 57 minutes 46 seconds
+So Candi, that's why I thought that it was.
+Mullings, Owen 57 minutes 50 seconds
+I think it's kind of tied into the solution when you guys are looking at it. But then once you switch at the firm Hom, it pulls in what happens to...
+
+So, Candi
+57 minutes 55 seconds57:55
+So, Candi 57 minutes 55 seconds
+Yeah.
+
+Mullings, Owen
+58 minutes 5 seconds58:05
+Mullings, Owen 58 minutes 5 seconds
+Maybe for the secure zone apps, they're in a different tool, but then for servicing that's embedded inside of our app. You might be in a child firm and then you're seeing servicing requests from the firm that you're not in.
+Mullings, Owen 58 minutes 21 seconds
+But because secure zone is the first one to implement FGDA.
+Mullings, Owen 58 minutes 26 seconds
+What it would mean when that's done is that if you switched on to that child firm, we pass the firm context, the R codes get scoped, and then when you go into Servicing, you're seeing Servicing scoped down to that firm.
+Mullings, Owen 58 minutes 40 seconds
+So for the critical case, it's already handled.
+Mullings, Owen 58 minutes 47 seconds
+Does that make sense, Candi?
+Mullings, Owen 58 minutes 51 seconds
+I think every other one you go out into a different page, but Servicing is the one that's embedded.
+
+
+So, Candi
+59 minutes59:00
+So, Candi 59 minutes
+Yeah, um, Ali, do you have a question?
+
+Azizi, Ali
+59 minutes 6 seconds59:06
+Azizi, Ali 59 minutes 6 seconds
+No, I'm trying to ingest.
+Azizi, Ali 59 minutes 11 seconds
+And think about that.
+Azizi, Ali 59 minutes 14 seconds
+Um...
+
+Mullings, Owen
+59 minutes 17 seconds59:17
+Mullings, Owen 59 minutes 17 seconds
+Have you seen Servicing, Ali?
+
+Azizi, Ali
+59 minutes 20 seconds59:20
+Azizi, Ali 59 minutes 20 seconds
+Yes, I have seen Maisha provided me.
+
+Mullings, Owen
+59 minutes 21 seconds59:21
+Mullings, Owen 59 minutes 21 seconds
+Okay.
+Mullings, Owen 59 minutes 23 seconds
+It's embedded.
+
+Azizi, Ali
+59 minutes 26 seconds59:26
+Azizi, Ali 59 minutes 26 seconds
+Yeah.
+
+Mullings, Owen
+59 minutes 27 seconds59:27
+Mullings, Owen 59 minutes 27 seconds
+It's embedded into Compass.
+
+Azizi, Ali
+59 minutes 29 seconds59:29
+Azizi, Ali 59 minutes 29 seconds
+Yeah, yeah, yeah.
+Azizi, Ali 59 minutes 32 seconds
+And it's a set of tools, actually, not the tools that Iis created. It's a set of tools that requires for the trader. So I have seen that. Yeah.
+
+Mullings, Owen
+59 minutes 51 seconds59:51
+Mullings, Owen 59 minutes 51 seconds
+Okay, it's a request management system, kind of like what we, like Uar, but they end up focusing on asset management mostly, but it was a catch-all area too. So there's user access forms in there, there's
+
+Azizi, Ali
+1 hour 27 seconds1:00:27
+Azizi, Ali 1 hour 27 seconds
+Mm.
+Azizi, Ali 1 hour 27 seconds
+Yee.
+
+Mullings, Owen
+1 hour 27 seconds1:00:27
+Mullings, Owen 1 hour 27 seconds
+Why, it's only a handful of things that make sense to a trader, but the general idea is, if you're a parent for a user and you're doing self-centralized operations and you open up Servicing, if the secure zone ID on the other side has the same set of our codes and function groups.
+Mullings, Owen 1 hour 48 seconds
+equivalent to what you have in your CX profile, then you'd have like an aggregate parent firm view inside of Servicing. But then if you ever needed to switch on to a child firm, we could pass the context and then this would also get scoped down to the firm. So it's pretty well supported with those two.
+Mullings, Owen 1 hour 1 minute 8 seconds
+features.
+Mullings, Owen 1 hour 1 minute 12 seconds
+And.
+
+Azizi, Ali
+1 hour 1 minute 12 seconds1:01:12
+Azizi, Ali 1 hour 1 minute 12 seconds
+Okay.
+
+Mullings, Owen
+1 hour 1 minute 16 seconds1:01:16
+Mullings, Owen 1 hour 1 minute 16 seconds
+Okay, so what else? Let me go back to my list.
+
+Azizi, Ali
+1 hour 1 minute 24 seconds1:01:24
+Azizi, Ali 1 hour 1 minute 24 seconds
+But Owen, I am just, I would definitely there is a reason for this practise, but when you cheque capability by capability or feature for a feature to cheque against the compatibility of the multi-firm integration,
+
+Mullings, Owen
+1 hour 1 minute 33 seconds1:01:33
+Mullings, Owen 1 hour 1 minute 33 seconds
+Est.
+Mullings, Owen 1 hour 1 minute 39 seconds
+Yeah.
+
+Azizi, Ali
+1 hour 1 minute 46 seconds1:01:46
+Azizi, Ali 1 hour 1 minute 46 seconds
+Why each feature or capability should be checked individually? That's I am unable to understand, because from my from my perspective is that, for example, if there is a...
+
+Mullings, Owen
+1 hour 1 minute 47 seconds1:01:47
+Mullings, Owen 1 hour 1 minute 47 seconds
+Shah.
+Mullings, Owen 1 hour 1 minute 50 seconds
+Sftp.
+
+Azizi, Ali
+1 hour 2 minutes 6 seconds1:02:06
+Azizi, Ali 1 hour 2 minutes 6 seconds
+secure zone integration. So, it's in on the on the back end, it's on the level that there is a secure zone integration. Now, we are adding multi-firm on that layer, so why I should cheque it per?
+Azizi, Ali 1 hour 2 minutes 25 seconds
+each feature to understand if there is any conflict or discrepancy. That's my question.
+
+Mullings, Owen
+1 hour 2 minutes 36 seconds1:02:36
+Mullings, Owen 1 hour 2 minutes 36 seconds
+I think.
+Mullings, Owen 1 hour 2 minutes 39 seconds
+or system engineering, like sometimes things are built in different generations.
+Mullings, Owen 1 hour 2 minutes 48 seconds
+Sometimes, uh, like every implementation is different, so we can't really take.
+Mullings, Owen 1 hour 2 minutes 54 seconds
+So if you had a cohesive system and everybody respected the rules, then your changes would be simple, because you basically just update your interface with whatever that system is, and it should work with some regression. But that is not a real thing here, just because
+
+Azizi, Ali
+1 hour 3 minutes 6 seconds1:03:06
+Azizi, Ali 1 hour 3 minutes 6 seconds
+Yeah, yeah.
+
+Mullings, Owen
+1 hour 3 minutes 14 seconds1:03:14
+Mullings, Owen 1 hour 3 minutes 14 seconds
+Like everybody builds everything very differently. So then you have a lot of times and problems.
+
+Azizi, Ali
+1 hour 3 minutes 21 seconds1:03:21
+Azizi, Ali 1 hour 3 minutes 21 seconds
+Oh, okay.
+
+Mullings, Owen
+1 hour 3 minutes 24 seconds1:03:24
+Mullings, Owen 1 hour 3 minutes 24 seconds
+Yeah.
+
+Azizi, Ali
+1 hour 3 minutes 28 seconds1:03:28
+Azizi, Ali 1 hour 3 minutes 28 seconds
+Okay, thank you for the note. That's interesting. Because I thought that, for example, for SSO, there is a very standard flow.
+
+Mullings, Owen
+1 hour 3 minutes 30 seconds1:03:30
+Mullings, Owen 1 hour 3 minutes 30 seconds
+Yes.
+
+
+Azizi, Ali
+1 hour 3 minutes 43 seconds1:03:43
+Azizi, Ali 1 hour 3 minutes 43 seconds
+which all the modules have been integrated in a standard way in the FNUM. But for example, client Servicing seems it's not like that. The user saying this, maybe the integration is not as straight.
+Azizi, Ali 1 hour 4 minutes 2 seconds
+As if anyone.
+
+Mullings, Owen
+1 hour 4 minutes 5 seconds1:04:05
+Mullings, Owen 1 hour 4 minutes 5 seconds
+Mhm.
+
+Azizi, Ali
+1 hour 4 minutes 7 seconds1:04:07
+Azizi, Ali 1 hour 4 minutes 7 seconds
+Okta.
+Azizi, Ali 1 hour 4 minutes 10 seconds
+That's good to know.
+
+Mullings, Owen
+1 hour 4 minutes 10 seconds1:04:10
+Mullings, Owen 1 hour 4 minutes 10 seconds
+So in terms of user management, I think I covered everything. There is just one.
+Mullings, Owen 1 hour 4 minutes 18 seconds
+one bug recently that's relevant to this. So I think trading was trying to build out their user audit or.
+Mullings, Owen 1 hour 4 minutes 31 seconds
+So inside of trading, I guess I just want to show, well this one says dash dash, is that because the system?
+Mullings, Owen 1 hour 4 minutes 41 seconds
+Let me just try another user.
+Mullings, Owen 1 hour 4 minutes 45 seconds
+This is the user comes up.
+Mullings, Owen 1 hour 4 minutes 47 seconds
+So this looks like managed firm and user, but I think what's happening is they put managed firm in first name and end user QA or end user in the second and last name.
+Mullings, Owen 1 hour 4 minutes 58 seconds
+But this name, so this last updated attribute on all the systems across the apps.
+Mullings, Owen 1 hour 5 minutes 6 seconds
+This is not what they store inside of the apps and trading, for instance, when you submit a trade, cancel a trade, amend a trade, the person that did it gets stored as a user ID. And then in order to show the name, we ask FNUM
+Mullings, Owen 1 hour 5 minutes 26 seconds
+what that user's first name and last name is. But there was a bug popping up on the trading side where if somebody from Nbin acts on an order, their name was disappearing.
+Mullings, Owen 1 hour 5 minutes 45 seconds
+From view.
+Mullings, Owen 1 hour 5 minutes 47 seconds
+And the reason that, or the root cause that I found out was whenever I'm in a child firm and I'm loading this view, when it realises that it doesn't have a first name and last name and it goes to go get it, if the first name and last name is in my firm,
+Mullings, Owen 1 hour 6 minutes 8 seconds
+I'll see it. If the first name and last name is out of my firm like Nbin, it wasn't showing up.
+Mullings, Owen 1 hour 6 minutes 15 seconds
+So there are some things in the platform that's firm scope like that, and it causes issues if there's cross-firm activities. So.
+Mullings, Owen 1 hour 6 minutes 27 seconds
+I guess this is a kind of a catch-all exploration to figure out if there are any other cases where having cross-firm activity could lead to issues in the implementation of a parent firms/shovel advisor situation.
+Mullings, Owen 1 hour 6 minutes 45 seconds
+Um...
+Mullings, Owen 1 hour 6 minutes 48 seconds
+Let me know if that makes sense to you guys.
+Mullings, Owen 1 hour 6 minutes 53 seconds
+And Candi, do you know if that was fixed yet?
+Mullings, Owen 1 hour 6 minutes 59 seconds
+Or, Ali, are you familiar with the issue?
+
+Azizi, Ali
+1 hour 7 minutes 2 seconds1:07:02
+Azizi, Ali 1 hour 7 minutes 2 seconds
+No, to be honest, no. It's the first time I've heard, I've seen it.
+
+So, Candi
+1 hour 7 minutes 3 seconds1:07:03
+So, Candi 1 hour 7 minutes 3 seconds
+No.
+
+Azizi, Ali
+1 hour 7 minutes 10 seconds1:07:10
+Azizi, Ali 1 hour 7 minutes 10 seconds
+But I will, I will cheque with with the with Esther and Sasha.
+
+Mullings, Owen
+1 hour 7 minutes 19 seconds1:07:19
+Mullings, Owen 1 hour 7 minutes 19 seconds
+Okay.
+
+Azizi, Ali
+1 hour 7 minutes 20 seconds1:07:20
+Azizi, Ali 1 hour 7 minutes 20 seconds
+Yeah, thank you for bringing that up.
+
+Mullings, Owen
+1 hour 7 minutes 21 seconds1:07:21
+Mullings, Owen 1 hour 7 minutes 21 seconds
+Just double-checking.
+Mullings, Owen 1 hour 7 minutes 25 seconds
+Yeah, I guess given that that's a risk, like firm scoping could lead to these kind of issues, it might be worth doing a pass on our existing APIs to see if we're going to run into.
+
+
+
+Azizi, Ali
+1 hour 7 minutes 34 seconds1:07:34
+Azizi, Ali 1 hour 7 minutes 34 seconds
+Huu.
+
+Mullings, Owen
+1 hour 7 minutes 41 seconds1:07:41
+Mullings, Owen 1 hour 7 minutes 41 seconds
+Those bugs again.
+
+Azizi, Ali
+1 hour 7 minutes 43 seconds1:07:43
+Azizi, Ali 1 hour 7 minutes 43 seconds
+Sure.
+
+Mullings, Owen
+1 hour 7 minutes 43 seconds1:07:43
+Mullings, Owen 1 hour 7 minutes 43 seconds
+I was just looking through.
+
+Azizi, Ali
+1 hour 7 minutes 50 seconds1:07:50
+Azizi, Ali 1 hour 7 minutes 50 seconds
+Yep, thank you for bringing that.
+
+Mullings, Owen
+1 hour 7 minutes 51 seconds1:07:51
+Mullings, Owen 1 hour 7 minutes 51 seconds
+OK, here is.
+
+Azizi, Ali
+1 hour 7 minutes 55 seconds1:07:55
+Azizi, Ali 1 hour 7 minutes 55 seconds
+Huu.
+
+Mullings, Owen
+1 hour 7 minutes 56 seconds1:07:56
+Mullings, Owen 1 hour 7 minutes 56 seconds
+Yeah, so this is what the bug looks like in trading.
+Mullings, Owen 1 hour 7 minutes 59 seconds
+So, when you're in the Nbin firm, this admin all user is registered inside of Nbin. So, when you're in the Nbin and you look at this order, you can see both of the names. When you go down to log in as a user in a child firm, you try to look at that order because this user is in Nbin.
+Mullings, Owen 1 hour 8 minutes 19 seconds
+and not in the trial firm, it doesn't load. And there's a bunch of variations for that. Okay.
+
+Azizi, Ali
+1 hour 8 minutes 22 seconds1:08:22
+Azizi, Ali 1 hour 8 minutes 22 seconds
+Mhm.
+Azizi, Ali 1 hour 8 minutes 28 seconds
+Okay, I will record a ticket, a defect ticket for the team.
+
+Mullings, Owen
+1 hour 8 minutes 33 seconds1:08:33
+Mullings, Owen 1 hour 8 minutes 33 seconds
+The.
+
+Azizi, Ali
+1 hour 8 minutes 36 seconds1:08:36
+Azizi, Ali 1 hour 8 minutes 36 seconds
+Uh, yeah.
+
+Mullings, Owen
+1 hour 8 minutes 37 seconds1:08:37
+Mullings, Owen 1 hour 8 minutes 37 seconds
+I think it, I think it exists already.
+
+Azizi, Ali
+1 hour 8 minutes 42 seconds1:08:42
+Azizi, Ali 1 hour 8 minutes 42 seconds
+Ohh.
+
+Mullings, Owen
+1 hour 8 minutes 42 seconds1:08:42
+Mullings, Owen 1 hour 8 minutes 42 seconds
+Okay.
+Mullings, Owen 1 hour 8 minutes 44 seconds
+It happened a while ago, that's why I was wondering if it's already fixed. So then maybe that case is okay, but then there might be other ones.
+
+Azizi, Ali
+1 hour 8 minutes 53 seconds1:08:53
+Azizi, Ali 1 hour 8 minutes 53 seconds
+Yeah, there are two or three more bugs detected for the audit history already reported. Okay, if you know the ticket name, please pass it. Otherwise, I will search for it.
+
+Mullings, Owen
+1 hour 9 minutes 10 seconds1:09:10
+Mullings, Owen 1 hour 9 minutes 10 seconds
+Okay.
+
+Azizi, Ali
+1 hour 9 minutes 12 seconds1:09:12
+Azizi, Ali 1 hour 9 minutes 12 seconds
+Thank you.
+
+Mullings, Owen
+1 hour 9 minutes 14 seconds1:09:14
+Mullings, Owen 1 hour 9 minutes 14 seconds
+So for user management, I think that's all I had.
+Mullings, Owen 1 hour 9 minutes 22 seconds
+Well, outside of updating the each of our bulk endpoints.
+Mullings, Owen 1 hour 9 minutes 32 seconds
+So we have a bulk modification endpoint. We have a, if we introduce a peer in firm, we should be able to update those packages through the APIs there.
+Mullings, Owen 1 hour 9 minutes 47 seconds
+I don't know if this has, I'm assuming.
+Mullings, Owen 1 hour 9 minutes 53 seconds
+Sorry, I'm.
+Mullings, Owen 1 hour 9 minutes 55 seconds
+thinking of what else could that could get affected. I think it would have to be a custom project if we if we support external SSO.
+Mullings, Owen 1 hour 10 minutes 5 seconds
+on a parent firm. I don't know what the expectations would be.
+Mullings, Owen 1 hour 10 minutes 10 seconds
+Done.
+Mullings, Owen 1 hour 10 minutes 11 seconds
+But currently, IPW is in the parent firm, so nothing applies. But if we add new ones, I don't know if our current pattern works at the parent firm level. Is the expectation that they would single sign-on into the parent firm, they would have access to the child firms?
+Mullings, Owen 1 hour 10 minutes 27 seconds
+Oh.
+
+Azizi, Ali
+1 hour 10 minutes 28 seconds1:10:28
+Azizi, Ali 1 hour 10 minutes 28 seconds
+Mhm.
+Azizi, Ali 1 hour 10 minutes 29 seconds
+Uh, you mean they bring their own IDP?
+
+Mullings, Owen
+1 hour 10 minutes 33 seconds1:10:33
+Mullings, Owen 1 hour 10 minutes 33 seconds
+Yeah.
+
+Azizi, Ali
+1 hour 10 minutes 35 seconds1:10:35
+Azizi, Ali 1 hour 10 minutes 35 seconds
+Okta.
+
+Mullings, Owen
+1 hour 10 minutes 36 seconds1:10:36
+Mullings, Owen 1 hour 10 minutes 36 seconds
+I know that they wanted to do a whole bunch of...
+Mullings, Owen 1 hour 10 minutes 40 seconds
+SSO projects and it was being blocked by the SSO user ID fix that was scheduled as part of the Uar. The user management was too convoluted, so then we've been saying no to the custom projects to build as external IDP SSO projects, but then once that's fixed,
+
+Azizi, Ali
+1 hour 10 minutes 49 seconds1:10:49
+Azizi, Ali 1 hour 10 minutes 49 seconds
+Uh-huh.
+
+Mullings, Owen
+1 hour 11 minutes 2 seconds1:11:02
+Mullings, Owen 1 hour 11 minutes 2 seconds
+Um...
+Mullings, Owen 1 hour 11 minutes 3 seconds
+I think that was the only thing.
+
+
+Azizi, Ali
+1 hour 11 minutes 6 seconds1:11:06
+Azizi, Ali 1 hour 11 minutes 6 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 11 minutes 6 seconds1:11:06
+Mullings, Owen 1 hour 11 minutes 6 seconds
+Candi, do I have that right? I'm trying to remember.
+
+So, Candi
+1 hour 11 minutes 14 seconds1:11:14
+So, Candi 1 hour 11 minutes 14 seconds
+Ohh.
+So, Candi 1 hour 11 minutes 17 seconds
+I don't know.
+
+Mullings, Owen
+1 hour 11 minutes 17 seconds1:11:17
+Mullings, Owen 1 hour 11 minutes 17 seconds
+That was the main thing that was blocking adding like Sun Life and the other ones, right?
+
+So, Candi
+1 hour 11 minutes 20 seconds1:11:20
+So, Candi 1 hour 11 minutes 20 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 11 minutes 23 seconds1:11:23
+Mullings, Owen 1 hour 11 minutes 23 seconds
+Is this too painful to operate?
+
+So, Candi
+1 hour 11 minutes 23 seconds1:11:23
+So, Candi 1 hour 11 minutes 23 seconds
+I'm not sure.
+So, Candi 1 hour 11 minutes 26 seconds
+No, I'm not sure. Yeah, SSO firm has anything to do with firm firm.
+
+Mullings, Owen
+1 hour 11 minutes 36 seconds1:11:36
+Mullings, Owen 1 hour 11 minutes 36 seconds
+Ohh.
+
+Azizi, Ali
+1 hour 11 minutes 37 seconds1:11:37
+Azizi, Ali 1 hour 11 minutes 37 seconds
+Actually, Penny told me about this, bring your own IDP. When we talked about that, I remember there were some obstacles because every firm has its...
+
+So, Candi
+1 hour 11 minutes 38 seconds1:11:38
+So, Candi 1 hour 11 minutes 38 seconds
+Not sure.
+
+Azizi, Ali
+1 hour 11 minutes 56 seconds1:11:56
+Azizi, Ali 1 hour 11 minutes 56 seconds
+own architecture in terms of the human resource and organisation structure. But she concluded that there are, you know, two, three, four type of organisations that we can model that. And then
+Azizi, Ali 1 hour 12 minutes 16 seconds
+Based on that model, we can standardise our SSO and our integration model with those IDPs. I remember during those knowledge transfers, she mentioned that it's very important that we have our model established.
+Azizi, Ali 1 hour 12 minutes 38 seconds
+And then we can welcome those organisations to say, okay, we are ready to have it. We have to.
+Azizi, Ali 1 hour 12 minutes 46 seconds
+provide an SSO architecture that defines the hierarchies, and then we can go and talk to those organisations about this SSO integration.
+Azizi, Ali 1 hour 13 minutes 3 seconds
+This is this is what I talked before Penny left.
+
+Mullings, Owen
+1 hour 13 minutes 4 seconds1:13:04
+Mullings, Owen 1 hour 13 minutes 4 seconds
+Mm.
+Mullings, Owen 1 hour 13 minutes 5 seconds
+The.
+Mullings, Owen 1 hour 13 minutes 8 seconds
+Makes sense.
+Mullings, Owen 1 hour 13 minutes 11 seconds
+I think it might be fine. So I think Candi, the reason why I...
+Mullings, Owen 1 hour 13 minutes 18 seconds
+I brought this up is.
+Mullings, Owen 1 hour 13 minutes 21 seconds
+in the parent firm setting. I don't know if they would have to integrate with the parent in some cases and then the child in some cases.
+Mullings, Owen 1 hour 13 minutes 33 seconds
+because we get the, it's like a firm setting that has the IDP source.
+Mullings, Owen 1 hour 13 minutes 40 seconds
+RRIF.
+Mullings, Owen 1 hour 13 minutes 41 seconds
+So then if one of these parent firms wants to do SSO, and then their side, they have one system. For us, we have multiple firms. So then there'll be multiple of those.
+Mullings, Owen 1 hour 13 minutes 54 seconds
+Settings and.
+Mullings, Owen 1 hour 13 minutes 59 seconds
+I guess it'd end up in multiple firms, but...
+Mullings, Owen 1 hour 14 minutes 3 seconds
+You're right, it's not, it's a problem that you can solve when we do the SF Sso, but I think our current model kind of.
+Mullings, Owen 1 hour 14 minutes 12 seconds
+Let me see. I don't know if it assumes that there's one firm. I was thinking out loud.
+Mullings, Owen 1 hour 14 minutes 19 seconds
+But did you see why I brought it up? No, or do you still see it as a separate concern?
+
+So, Candi
+1 hour 14 minutes 23 seconds1:14:23
+So, Candi 1 hour 14 minutes 23 seconds
+Really.
+So, Candi 1 hour 14 minutes 25 seconds
+No, so far we've been talking about multi-firm, but basically the structure is still the one ID belongs to one firm.
+
+Mullings, Owen
+1 hour 14 minutes 31 seconds1:14:31
+Mullings, Owen 1 hour 14 minutes 31 seconds
+Oh.
+Mullings, Owen 1 hour 14 minutes 38 seconds
+But then.
+
+So, Candi
+1 hour 14 minutes 38 seconds1:14:38
+So, Candi 1 hour 14 minutes 38 seconds
+We, we, we're not separating the access profiles, yeah.
+
+Mullings, Owen
+1 hour 14 minutes 42 seconds1:14:42
+Mullings, Owen 1 hour 14 minutes 42 seconds
+An SSO may come from a parent firm organisation, but then on our side, some people in that organisation go in the parent firm, some people go into the child firms.
+
+So, Candi
+1 hour 14 minutes 48 seconds1:14:48
+So, Candi 1 hour 14 minutes 48 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 14 minutes 56 seconds1:14:56
+Mullings, Owen 1 hour 14 minutes 56 seconds
+And then do they have one integration or multiple? But maybe it's too complex. It seems.
+Mullings, Owen 1 hour 15 minutes 5 seconds
+Mm.
+
+So, Candi
+1 hour 15 minutes 8 seconds1:15:08
+So, Candi 1 hour 15 minutes 8 seconds
+Mm.
+
+Mullings, Owen
+1 hour 15 minutes 8 seconds1:15:08
+Mullings, Owen 1 hour 15 minutes 8 seconds
+But maybe I'll leave this one alone for now.
+
+So, Candi
+1 hour 15 minutes 11 seconds1:15:11
+So, Candi 1 hour 15 minutes 11 seconds
+No, no.
+
+Mullings, Owen
+1 hour 15 minutes 12 seconds1:15:12
+Mullings, Owen 1 hour 15 minutes 12 seconds
+Yeah.
+Mullings, Owen 1 hour 15 minutes 14 seconds
+So from the experience side of things.
+Mullings, Owen 1 hour 15 minutes 19 seconds
+There's a few things to call out.
+Mullings, Owen 1 hour 15 minutes 23 seconds
+Um...
+Mullings, Owen 1 hour 15 minutes 26 seconds
+I'm wondering if...
+Mullings, Owen 1 hour 15 minutes 29 seconds
+So, in somebody operating at a parent firm level, they would probably want to know which firm, which health firm different items come from. So, inside of, say, orders or even clients and accounts, we would start to add firm ID columns everywhere.
+Mullings, Owen 1 hour 15 minutes 50 seconds
+Uh...
+Mullings, Owen 1 hour 15 minutes 52 seconds
+But then I think that would mostly be driven by the, it would be a requirement that we make the feature teams aware of for them to make a determination.
+Mullings, Owen 1 hour 16 minutes 3 seconds
+Let me know if that makes sense to you guys.
+Mullings, Owen 1 hour 16 minutes 7 seconds
+So then they pull up orders.
+
+
+Azizi, Ali
+1 hour 16 minutes 7 seconds1:16:07
+Azizi, Ali 1 hour 16 minutes 7 seconds
+Feature, feature team? Sorry, feature team. What do you mean by feature team?
+
+Mullings, Owen
+1 hour 16 minutes 14 seconds1:16:14
+Mullings, Owen 1 hour 16 minutes 14 seconds
+So, we're the platform team, so we own the platform piece, but then when we introduce PIN Firms, what does the what does the feature teams have to do to support PIN Firms?
+
+Azizi, Ali
+1 hour 16 minutes 24 seconds1:16:24
+Azizi, Ali 1 hour 16 minutes 24 seconds
+Oh, okay, for example, trading, Servicing, accounting, okay.
+
+Mullings, Owen
+1 hour 16 minutes 30 seconds1:16:30
+Mullings, Owen 1 hour 16 minutes 30 seconds
+Yeah.
+
+Azizi, Ali
+1 hour 16 minutes 31 seconds1:16:31
+Azizi, Ali 1 hour 16 minutes 31 seconds
+Okay, okay.
+
+Mullings, Owen
+1 hour 16 minutes 33 seconds1:16:33
+Mullings, Owen 1 hour 16 minutes 33 seconds
+So, for instance, this will pull up trade allocations.
+Mullings, Owen 1 hour 16 minutes 40 seconds
+There's often 2 views of the list.
+Mullings, Owen 1 hour 16 minutes 44 seconds
+even for, even when a firm uses it versus Nbin uses it. So
+Mullings, Owen 1 hour 16 minutes 54 seconds
+This is what trade allocation looks like.
+Mullings, Owen 1 hour 16 minutes 58 seconds
+when a firm uses it.
+
+Azizi, Ali
+1 hour 17 minutes1:17:00
+Azizi, Ali 1 hour 17 minutes
+Hom.
+
+Mullings, Owen
+1 hour 17 minutes 1 second1:17:01
+Mullings, Owen 1 hour 17 minutes 1 second
+And then when Nbin uses it, we add the firm context in.
+Mullings, Owen 1 hour 17 minutes 10 seconds
+so that they can know which firm certain items came from, because they see an aggregate view.
+
+Azizi, Ali
+1 hour 17 minutes 17 seconds1:17:17
+Azizi, Ali 1 hour 17 minutes 17 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 17 minutes 17 seconds1:17:17
+Mullings, Owen 1 hour 17 minutes 17 seconds
+And, in this case, they have...
+Mullings, Owen 1 hour 17 minutes 22 seconds
+Let's see where that is.
+Mullings, Owen 1 hour 17 minutes 26 seconds
+And.
+Mullings, Owen 1 hour 17 minutes 36 seconds
+Oh, I think I need a new view here.
+Mullings, Owen 1 hour 17 minutes 41 seconds
+Where am I?
+Mullings, Owen 1 hour 17 minutes 46 seconds
+Oh, crap. Thank you.
+Mullings, Owen 1 hour 17 minutes 49 seconds
+I think I'm missing a screen or...
+Mullings, Owen 1 hour 17 minutes 52 seconds
+After I did the refactor, that screen kind of vanished.
+Mullings, Owen 1 hour 17 minutes 58 seconds
+Uhh...
+Mullings, Owen 1 hour 18 minutes 1 second
+So.
+Mullings, Owen 1 hour 18 minutes 3 seconds
+in trade allocations.
+Mullings, Owen 1 hour 18 minutes 7 seconds
+The.
+Mullings, Owen 1 hour 18 minutes 9 seconds
+Tradesupport team.
+Mullings, Owen 1 hour 18 minutes 12 seconds
+As part of supporting the Firms, they can upload files on behalf of the firm.
+Mullings, Owen 1 hour 18 minutes 19 seconds
+And then in order to do that, they have to pick what firm this file is for.
+Mullings, Owen 1 hour 18 minutes 27 seconds
+So they have to use the FNM APIs to pull the firm ID.
+Mullings, Owen 1 hour 18 minutes 31 seconds
+to populate it.
+Mullings, Owen 1 hour 18 minutes 34 seconds
+And if you're in a multi-firm scenario, then this feature would not just be for Nbin, it would also be for a peer and firm doing the same thing, because the firm ID is required for this to work.
+
+Azizi, Ali
+1 hour 18 minutes 51 seconds1:18:51
+Azizi, Ali 1 hour 18 minutes 51 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 18 minutes 51 seconds1:18:51
+Mullings, Owen 1 hour 18 minutes 51 seconds
+So there is an assessment to happen on each of the different modules.
+Mullings, Owen 1 hour 18 minutes 59 seconds
+with the feature team to say after we introduce Pierre and Firms, what is the impact?
+Mullings, Owen 1 hour 19 minutes 6 seconds
+And there's no central person designing everything. So they would have to, somebody would have to coordinate.
+
+Azizi, Ali
+1 hour 19 minutes 7 seconds1:19:07
+Azizi, Ali 1 hour 19 minutes 7 seconds
+Uh...
+Azizi, Ali 1 hour 19 minutes 14 seconds
+Okay, that's a good catch. Is there any other way, for example, ask Esther's team to see which modules can invoke the firm API?
+
+Mullings, Owen
+1 hour 19 minutes 32 seconds1:19:32
+Mullings, Owen 1 hour 19 minutes 32 seconds
+Yee.
+
+Azizi, Ali
+1 hour 19 minutes 32 seconds1:19:32
+Azizi, Ali 1 hour 19 minutes 32 seconds
+Is it something that could help?
+
+Mullings, Owen
+1 hour 19 minutes 34 seconds1:19:34
+Mullings, Owen 1 hour 19 minutes 34 seconds
+You could meet that assessment, but I don't know what that would tell you.
+Mullings, Owen 1 hour 19 minutes 39 seconds
+I think there's a business decision to see if this is required as well. So if...
+
+Azizi, Ali
+1 hour 19 minutes 45 seconds1:19:45
+Azizi, Ali 1 hour 19 minutes 45 seconds
+Yeah, I mean in terms of understanding the...
+
+Mullings, Owen
+1 hour 19 minutes 50 seconds1:19:50
+Mullings, Owen 1 hour 19 minutes 50 seconds
+It's.
+
+Azizi, Ali
+1 hour 19 minutes 50 seconds1:19:50
+Azizi, Ali 1 hour 19 minutes 50 seconds
+Source consumers.
+Azizi, Ali 1 hour 19 minutes 55 seconds
+Uh...
+Azizi, Ali 1 hour 19 minutes 56 seconds
+which are using and then drop an e-mail or invite them to a meeting to say, okay, this is the change coming to FNUM supporting multi-firm. Now we have discovered that you are using this and then yeah, this is gonna be the sense of the change and it will impact.
+
+
+Mullings, Owen
+1 hour 20 minutes 9 seconds1:20:09
+Mullings, Owen 1 hour 20 minutes 9 seconds
+I.
+
+Azizi, Ali
+1 hour 20 minutes 18 seconds1:20:18
+Azizi, Ali 1 hour 20 minutes 18 seconds
+David, that you are now rendering Firms, for example, here in the trade allocation or other places, but yeah, I understand. We try to figure out, figure it out. OK.
+Azizi, Ali 1 hour 20 minutes 33 seconds
+Checking it out, OK.
+
+Mullings, Owen
+1 hour 20 minutes 40 seconds1:20:40
+Mullings, Owen 1 hour 20 minutes 40 seconds
+Yeah, I don't know all of the cases, but I know that there's some cases where in order for a firm to service trial firms, they need to be aware of the firms and there might be other slight customizations.
+
+Azizi, Ali
+1 hour 20 minutes 54 seconds1:20:54
+Azizi, Ali 1 hour 20 minutes 54 seconds
+Hom.
+
+Mullings, Owen
+1 hour 20 minutes 55 seconds1:20:55
+Mullings, Owen 1 hour 20 minutes 55 seconds
+Yeah.
+
+Azizi, Ali
+1 hour 20 minutes 57 seconds1:20:57
+Azizi, Ali 1 hour 20 minutes 57 seconds
+Makes sense. Yeah. Thank you for bringing it up. It's very important.
+
+Mullings, Owen
+1 hour 20 minutes 58 seconds1:20:58
+Mullings, Owen 1 hour 20 minutes 58 seconds
+Huu.
+Mullings, Owen 1 hour 21 minutes 4 seconds
+Okay, what else? So we talked about context reports before.
+Mullings, Owen 1 hour 21 minutes 11 seconds
+Um...
+Mullings, Owen 1 hour 21 minutes 14 seconds
+The feature access.
+Mullings, Owen 1 hour 21 minutes 18 seconds
+So, I guess the implementation, I mean the implementation of access control.
+Mullings, Owen 1 hour 21 minutes 23 seconds
+I think we did talk about this using the examples inside of FNUM where in some cases we might have to cheque the firm assignment to determine within each child firm what feature they sh
+
+
+Azizi, Ali
+1 hour 21 minutes 41 seconds1:21:41
+Azizi, Ali 1 hour 21 minutes 41 seconds
+Mhm.
+Azizi, Ali 1 hour 21 minutes 43 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 21 minutes 46 seconds1:21:46
+Mullings, Owen 1 hour 21 minutes 46 seconds
+And.
+
+Azizi, Ali
+1 hour 21 minutes 47 seconds1:21:47
+Azizi, Ali 1 hour 21 minutes 47 seconds
+Yes.
+
+Mullings, Owen
+1 hour 21 minutes 54 seconds1:21:54
+Mullings, Owen 1 hour 21 minutes 54 seconds
+Okay.
+Mullings, Owen 1 hour 21 minutes 57 seconds
+So maybe I can...
+Mullings, Owen 1 hour 22 minutes
+Talk through.
+Mullings, Owen 1 hour 22 minutes 3 seconds
+This piece.
+Mullings, Owen 1 hour 22 minutes 6 seconds
+Yeah.
+Mullings, Owen 1 hour 22 minutes 8 seconds
+So.
+Mullings, Owen 1 hour 22 minutes 12 seconds
+The association between...
+Mullings, Owen 1 hour 22 minutes 16 seconds
+This is up in the air. I don't have a solution for this, but I just know, I'm just Trump summarising the problem.
+Mullings, Owen 1 hour 22 minutes 23 seconds
+Right now we have a person table that keeps track of all of the users that have the same e-mail address. In the case of somebody that has a supervisor account, that they'll eventually have two IDs. So they'll have a
+Mullings, Owen 1 hour 22 minutes 42 seconds
+Home firm account plus a supervisor account. In the backend, there is an association there.
+Mullings, Owen 1 hour 22 minutes 49 seconds
+in the front end, there isn't per se, they would, if we introduce.
+
+Azizi, Ali
+1 hour 22 minutes 56 seconds1:22:56
+Azizi, Ali 1 hour 22 minutes 56 seconds
+Atesh.
+
+Mullings, Owen
+1 hour 23 minutes1:23:00
+Mullings, Owen 1 hour 23 minutes
+Like would almost like in Chrome or something say that which account you want to use like a profile switcher.
+Mullings, Owen 1 hour 23 minutes 8 seconds
+But the...
+Mullings, Owen 1 hour 23 minutes 10 seconds
+Currently the only person that sees that it would be the user if we introduce it here.
+Mullings, Owen 1 hour 23 minutes 15 seconds
+Um, I don't think...
+Mullings, Owen 1 hour 23 minutes 19 seconds
+I guess it's a little bit inconvenient the way it is in...
+
+Azizi, Ali
+1 hour 23 minutes 24 seconds1:23:24
+Azizi, Ali 1 hour 23 minutes 24 seconds
+Can, can we sure?
+
+Mullings, Owen
+1 hour 23 minutes 24 seconds1:23:24
+Mullings, Owen 1 hour 23 minutes 24 seconds
+In here, because for the sick, yeah, go ahead.
+
+Azizi, Ali
+1 hour 23 minutes 27 seconds1:23:27
+Azizi, Ali 1 hour 23 minutes 27 seconds
+Can we introduce a column here as a profile and add?
+Azizi, Ali 1 hour 23 minutes 35 seconds
+Those profile, for example, if it's under harbour front, show the as a harbour front, plus if it's under, let's say...
+Azizi, Ali 1 hour 23 minutes 51 seconds
+I don't know what to say, K.J. Harrison, which is under Harbour Front, also plus K.J. Harrison. Do you think that's idea that idea can help?
+
+Mullings, Owen
+1 hour 24 minutes 4 seconds1:24:04
+Mullings, Owen 1 hour 24 minutes 4 seconds
+Mm.
+Mullings, Owen 1 hour 24 minutes 6 seconds
+So in this new future, Harbour Front, for instance,
+Mullings, Owen 1 hour 24 minutes 12 seconds
+whether you have access to six other firms or seven other firms or eight other firms, the idea is that they would get collapsed into one ID.
+
+Azizi, Ali
+1 hour 24 minutes 17 seconds1:24:17
+Azizi, Ali 1 hour 24 minutes 17 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 24 minutes 21 seconds1:24:21
+Mullings, Owen 1 hour 24 minutes 21 seconds
+So then I think the thing I was trying to highlight was we don't have this concept where there are user IDs that are linked.
+Mullings, Owen 1 hour 24 minutes 31 seconds
+I think we silently link them behind the scenes if the e-mail address is correct.
+Mullings, Owen 1 hour 24 minutes 39 seconds
+And we don't represent that relationship in the UI.
+
+Azizi, Ali
+1 hour 24 minutes 43 seconds1:24:43
+Azizi, Ali 1 hour 24 minutes 43 seconds
+Uh-huh.
+
+Mullings, Owen
+1 hour 24 minutes 44 seconds1:24:44
+Mullings, Owen 1 hour 24 minutes 44 seconds
+anywhere, and then for you to switch between the two profiles, you would need a way to know that you have these two IDs and then switch between them.
+Mullings, Owen 1 hour 24 minutes 54 seconds
+But I'm wondering if we, so to be able to switch between them 100%, we would need those two IDs here.
+Mullings, Owen 1 hour 25 minutes 4 seconds
+But then I'm wondering in other screens if it makes sense to have that relationship. So.
+Mullings, Owen 1 hour 25 minutes 12 seconds
+Let me refresh this.
+Mullings, Owen 1 hour 25 minutes 15 seconds
+So we have this ID column here.
+Mullings, Owen 1 hour 25 minutes 19 seconds
+that we show all of the linked IDs. When we finish Uar, we'll have all the other IDs for external systems where you have credentials. But maybe we can also show if they have another account.
+
+Azizi, Ali
+1 hour 25 minutes 23 seconds1:25:23
+Azizi, Ali 1 hour 25 minutes 23 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 25 minutes 34 seconds1:25:34
+Mullings, Owen 1 hour 25 minutes 34 seconds
+on their profile for self-advising purposes here. And then same thing in their profile.
+Mullings, Owen 1 hour 25 minutes 43 seconds
+When it comes to their IDs, we'll update this as well.
+
+Azizi, Ali
+1 hour 25 minutes 47 seconds1:25:47
+Azizi, Ali 1 hour 25 minutes 47 seconds
+Mhm.
+
+Mullings, Owen
+1 hour 25 minutes 47 seconds1:25:47
+Mullings, Owen 1 hour 25 minutes 47 seconds
+And then I think that might be enough. Or when creating a user, I think we tell them that you have another user, and then this will create another one.
+Mullings, Owen 1 hour 25 minutes 57 seconds
+So I think that's pretty well covered.
+Mullings, Owen 1 hour 26 minutes 2 seconds
+Some of these are details though. I don't know if these are...
+Mullings, Owen 1 hour 26 minutes 7 seconds
+Once you go into discovery and you work in all the details, it'll become critical.
+
+Azizi, Ali
+1 hour 26 minutes 13 seconds1:26:13
+Azizi, Ali 1 hour 26 minutes 13 seconds
+Yeah.
+
+Mullings, Owen
+1 hour 26 minutes 17 seconds1:26:17
+Mullings, Owen 1 hour 26 minutes 17 seconds
+And then I imagine that we have to update our authorization libraries. So we have a front end and a back end library to do access control. We'll have to introduce a feature to do a cheque on the firm level access stuff when you switch between firm contexts if we support that.
+Mullings, Owen 1 hour 26 minutes 38 seconds
+But, um...
+Mullings, Owen 1 hour 26 minutes 40 seconds
+We're out of time, plus those are all the major topics. I don't know if JP was taking a mental note to see if he had any last minute questions on any of this.
+Mullings, Owen 1 hour 27 minutes
+Do you appear around?
+Mullings, Owen 1 hour 27 minutes 6 seconds
+Okay, there's a recording. I'm sure we'll figure it. You guys will figure out what you need to do, but I think that is everything from an experience perspective. I don't know if we went into depth into everything, but at least you have a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

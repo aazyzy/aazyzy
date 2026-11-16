@@ -1,0 +1,2431 @@
+Date: Tue, 27 Oct 2026 16:44:08 -0400 (EDT)
+Message-ID: <1138515271.195382.1793133848221@ip-10-50-203-187.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_195381_1103604213.1793133848219"
+
+------=_Part_195381_1103604213.1793133848219
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Multi-Firm Use Cases</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body,
+    #full-height-container,
+    #main,
+    #page,
+    #content,
+    .has-personal-sidebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover,
+    a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, 'Courier New', monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Multi-Firm Use Cases</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"MultiFirmUseCases-3Systemsinscope">
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1793133848191 {padding: 0px;}
+div.rbtoc1793133848191 ul {margin-left: 0px;}
+div.rbtoc1793133848191 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+ <div class=3D"toc-macro rbtoc1793133848191">
+  <ul class=3D"toc-indentation">
+   <li><a href=3D"#MultiFirmUseCases-3Systemsinscope">Systems in scope</a><=
+/li>
+  </ul>
+  <li><a href=3D"#MultiFirmUseCases-ExpectedUserSetupStandards">Expected Us=
+er Setup Standards</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#MultiFirmUseCases-R2">R2</a></li>
+    <li><a href=3D"#MultiFirmUseCases-SecureZone">Secure Zone</a></li>
+    <li><a href=3D"#MultiFirmUseCases-NetRep">NetRep</a></li>
+   </ul></li>
+  <li><a href=3D"#MultiFirmUseCases-Edgecases">Edge cases</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#MultiFirmUseCases-Parent/Child">Parent/Child</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#MultiFirmUseCases-R2.1">R2</a></li>
+      <li><a href=3D"#MultiFirmUseCases-SecureZone-basedongdiusershavingacc=
+esstogic">Secure Zone - based on gdi users having access to gic</a></li>
+     </ul></li>
+    <li><a href=3D"#MultiFirmUseCases-Sub-advisor">Sub-advisor</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#MultiFirmUseCases-R2.2">R2</a></li>
+      <li><a href=3D"#MultiFirmUseCases-SecureZone.1">Secure Zone</a></li>
+     </ul></li>
+    <li><a href=3D"#MultiFirmUseCases-Miscellaneous">Miscellaneous</a>
+     <ul class=3D"toc-indentation">
+      <li><a href=3D"#MultiFirmUseCases-R2.3">R2</a></li>
+      <li><a href=3D"#MultiFirmUseCases-SecureZone.2">Secure Zone</a></li>
+      <li><a href=3D"#MultiFirmUseCases-NetRep.1">NetRep</a></li>
+     </ul></li>
+   </ul></li>
+ </div>
+ <span style=3D"font-size: 24.0px;font-weight: normal;letter-spacing: -0.01=
+em;">Systems in scope&nbsp;</span>
+</h3>
+<ul>
+ <li data-uuid=3D"7650f2b0-98f7-48e5-b3f8-120d2bfa5fef">R2 (Compass legacy)=
+</li>
+ <li data-uuid=3D"a656dcf9-ea7a-44ad-be47-06056a996779">Secure Zone</li>
+ <li data-uuid=3D"31197393-aa84-4703-84dd-5b3365e93e6f">NetRep</li>
+</ul>
+<p>
+ <br>
+</p>
+<h1 id=3D"MultiFirmUseCases-ExpectedUserSetupStandards">Expected User Setup=
+ Standards</h1>
+<p>This section outlines the way in which users&nbsp;<strong>should</strong=
+> be setup in the in scope systems to obtain access to their parent firm an=
+d/or sub-advisor RR codes/ranges</p>
+<h3 id=3D"MultiFirmUseCases-R2">R2</h3>
+<ul>
+ <li data-uuid=3D"8e85dff3-978c-4822-9e05-8c3e6ce91a1b"><span>Parent/Child =
+users have one user ID per FirmID</span></li>
+ <li data-uuid=3D"982969d8-c284-41db-b2ae-60ee8c2c1184"><span>Sub-advisors =
+users setup under their "primary" firm</span></li>
+ <li data-uuid=3D"c1f62f87-fff1-4a30-8912-05b2602035aa"><span>Only primary =
+firm RR codes should be present in the RR code field</span></li>
+ <li data-uuid=3D"be12528e-e798-433d-8f45-8da45778f5a5"><span>Only sub-advi=
+sor firm RR codes should be present in the sub-advisor RR code field</span>=
+</li>
+ <li data-uuid=3D"0527d58f-8653-4ca3-b168-09192d1b1cf4"><span>RR ranges can=
+not be specified</span></li>
+</ul>
+<h3 id=3D"MultiFirmUseCases-SecureZone">Secure Zone</h3>
+<ul>
+ <li data-uuid=3D"4c59357a-563e-4033-84ff-e68a5d0d2aa6"><span>Users are set=
+up under B#'s (which can be shared or standalone)</span></li>
+ <li data-uuid=3D"f539e4ce-2799-4b71-8216-97273515e66b"><span>Users are ass=
+ociated to 1 or many B#'s, giving them access to</span><span> all the firms=
+ they need (parent/child and sub-advisor)</span></li>
+ <li data-uuid=3D"e7710ebe-54eb-4b8e-ab8b-4c20fca6fab2">Within the associat=
+ed B#'s the user can have access to ALL or some of the RR codes of a partic=
+ular B#.</li>
+ <li data-uuid=3D"dab7a957-0d85-4a27-bed0-1971facda7a0">There is no FirmID =
+connection to the user</li>
+ <li data-uuid=3D"9eab09ae-4a0e-4f81-ad46-0a143fac7e95"><span>RR ranges can=
+not be specified. In the case of access to the full set of RR codes, it is =
+indicated as ALL.</span></li>
+</ul>
+<h3 id=3D"MultiFirmUseCases-NetRep">NetRep</h3>
+<ul>
+ <li data-uuid=3D"c6807b23-7a65-4643-a47c-754f325e15fb">User must be setup =
+in one of the 3 instances of NetRep, but can be setup in multiple&nbsp;
+  <ul>
+   <li data-uuid=3D"639e13d3-753b-4aa2-a6ae-547126fb0e69">HSW - Nextrep IA =
+(IAVM)</li>
+   <li data-uuid=3D"a96f96f4-411a-48fa-8771-9aa39b9a18e7">NPM - NetRep PM</=
+li>
+   <li data-uuid=3D"40741680-1456-428d-bb77-90f69b6bd698">NBC - NetRep 2.0<=
+/li>
+  </ul></li>
+ <li data-uuid=3D"0db2fcaa-e2dd-45e4-8519-dc25f0ba74e1">User is granted to =
+RR codes or Ranges (using the first 2 digits of the RR code)</li>
+ <li data-uuid=3D"67836639-9070-4421-9a77-41c49f03946d">Users obtain access=
+ to all the firms they need based on the assigned RR codes or ranges.&nbsp;=
+</li>
+ <li data-uuid=3D"bda5e2ab-21b4-4355-bd63-9af49850ce32">There is no associa=
+tion to a B# or FirmID</li>
+</ul>
+<h1 id=3D"MultiFirmUseCases-Edgecases">Edge cases</h1>
+<h2 id=3D"MultiFirmUseCases-Parent/Child">Parent/Child&nbsp;</h2>
+<h3 id=3D"MultiFirmUseCases-R2.1">R2</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Case</th>
+    <th scope=3D"col" class=3D"confluenceTh">Description</th>
+    <th scope=3D"col" class=3D"confluenceTh">
+     <p># of users/occurrences</p>
+    </th>
+    <th scope=3D"col" class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>1.&nbsp;Overlap Between Primary Firm RR Codes and Sub=E2=80=91Advis=
+or RR Codes</p>
+    </td>
+    <td class=3D"confluenceTd"><span style=3D"color:#333333;">Primary firm'=
+s RR codes present in sub-advisor RR codes</span></td>
+    <td class=3D"confluenceTd">
+     <p>10 users/records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>R2_USER_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>RR_CODES</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>Sub_Advisor_Code</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PRIMARY_FIRM_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PRIMARY_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>JANIS LEE</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>JANIS.LEE</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A44L</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A44L</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ICPMB_CDGNP</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cadogan Park Advisors Inc.</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ELINA NAM</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ELINA.NAM</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>C4TC</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>C4TC</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MERCH</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Newport Private Wealth Management</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>GABRIS JARO</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>GABRIS.JARO</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>C4MR</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>C4MR</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MERCH</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Newport Private Wealth Management</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>2. Access Limitation: User Linked to One Child Firm Only</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>User belongs to a parent firm that has multiple children, but only =
+has access to&nbsp;<span>one</span> of the children</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>3959 users, 4088 records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>R2_USER_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>COUNT_FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PRIMARY_PARENT</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>TOTAL_CHILD_COUNT_OF_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CHRIS GRANT</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CHRIS.GRANT</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ICPM_CELER</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Celernus Investment Partners</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>LILY HU</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>LILY.HU</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALTA</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ATB Securities Inc.</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">3</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CHRISTOPHER DRY</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CHRISTOPHER.DRY</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>PERON</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cumberland Private Wealth Management</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">4</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3. Access Limitation: User Linked to Some Ch=
+ildren, Not ALL</td>
+    <td class=3D"confluenceTd">
+     <p>User lacks full firm=E2=80=91level access; holds RR=E2=80=91specifi=
+c permissions across multiple children</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>306 users, 547 records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>R2_USER_D</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>COUNT_FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PRIMARY_PARENT</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>TOTAL_CHILD_COUNT_OF_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MATTHEW HO</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MATTHEW.HO, MATTHEW.HO1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>JENUS,&nbsp;ALTA</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ATB Securities Inc.</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">3</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>BRANDI ZHANG</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>BRANDI.ZHANG,&nbsp; BRANDI.ZHANG1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CWPC,&nbsp; ICPMB_MILAR</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Harbourfront Wealth Management Inc.</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">5</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>KATE VARIK</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>KATE.VARIK1, KATE.VARIK</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>PERON, CUMBE</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cumberland Private Wealth Management</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">4</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"MultiFirmUseCases-SecureZone-basedongdiusershavingaccesstogic">Se=
+cure Zone - based on gdi users having access to gic</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of users/occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">1. RR Codes issue</td>
+    <td class=3D"confluenceTd">
+     <p><span>Access to inactive firm's RR codes=20
+       <br>=20
+       <br></span></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p><span>90 users, 94 records</span></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>SZ_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>BROKER_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>RR_CODES</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>RR_CODES_IN_SCOPE</stron=
+g></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Can Alaluf</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALALUCAN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L67</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5DA,R3ZP</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5DA</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Sydney Hockey</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>HOCKESYD</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L67</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5K4,A5K5,R31X</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5K4,A5K5</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Karen Tsang</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>TSANGKA2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L67</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5GJ,R313</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>A5GJ</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2. Access Limitation: User Linked to One Chi=
+ld Firm Only</td>
+    <td class=3D"confluenceTd">User belongs to a parent firm that has multi=
+ple children, but only has access to&nbsp;<span>one</span> of the children<=
+/td>
+    <td class=3D"confluenceTd">
+     <p><span>4053&nbsp;users, 4145 records</span></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>SZ_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>COUNT_FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PARENT_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>TOTAL_CHILD_COUNT_OF_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cheryl Abbot</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ABBOTCHE</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>IAVM</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Industrielle Alliance</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Hana Adams</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ADAMSHAN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CWPC</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Harbourfront Wealth Management Inc</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">5</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Susanne Alexandor</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALEXASUS</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CUMBE</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cumberland Private Wealth Management</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">4</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3. Access Limitation: User Linked to Some Ch=
+ildren, Not ALL</td>
+    <td class=3D"confluenceTd">User lacks full firm=E2=80=91level access; h=
+olds RR=E2=80=91specific permissions across multiple children</td>
+    <td class=3D"confluenceTd">
+     <p><span>288&nbsp;users, 519 records</span></p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>SZ_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>FIRM_IDS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>COUNT_FIRM_IDS</strong><=
+/p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>PARENT_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p><strong>TOTAL_CHILD_COUNT_OF_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Said Bensaid</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>BENSASA2, BENSASAI</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALTA, JENUS</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Atb Securities Inc</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">3</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Emmanuel Adeniyi</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ADENIEM2, ADENIEM3</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CUMBE, ICPMC_CMBER</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">2</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Cumberland Private Wealth Management</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">4</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Wendy He</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>HEWEN, HEWEN2, HEWEN3</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>CWPC, ROTH, ICPMB_MILAR</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">3</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Harbourfront Wealth Management Inc</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">5</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<p><span style=3D"font-size: 16.0px;font-weight: bold;letter-spacing: -0.00=
+6em;">NetRep</span></p>
+<ul>
+ <li data-uuid=3D"b289a3d8-3041-418a-b27d-d577d7666b58">Population Scope (T=
+otal: 8,838 User IDs)
+  <ul>
+   <li>In-scope
+    <ul>
+     <li>8,546 User IDs&nbsp;</li>
+    </ul></li>
+   <li>Out-of-scope (Excluded)
+    <ul>
+     <li>Verified internal staff (263 User IDs)</li>
+     <li>Functional accounts: SGGG cohort (29 User IDs)&nbsp;</li>
+    </ul></li>
+  </ul></li>
+</ul>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 94=
+.9841%;">
+  <colgroup>
+   <col style=3D"width: 9.23213%;">
+   <col style=3D"width: 24.8197%;">
+   <col style=3D"width: 10.637%;">
+   <col style=3D"width: 55.3258%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>1. Multi-parents</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Multi=E2=80=91parent access ranges show substantial variation among=
+ users,&nbsp;
+      <br>
+      with MAX 31, MIN 2, AVG 38, and MED 37.</p>
+     <p>Parent counts are calculated as distinct parent IDs assigned to eac=
+h user.&nbsp;
+      <br>
+      Parents are only assigned for active client firm ID, so only these us=
+ers are included in the parent=E2=80=91count distribution.</p>
+     <p>Although internal employees were filtered out using the internal em=
+ployee list, it is still difficult to guarantee that all internal users hav=
+e been fully excluded.</p>
+     <p>
+      <br>
+     </p>
+    </td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">187</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody>
+        <tr>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>C=
+ount of Parent</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>C=
+ount of User ID</strong></td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">79</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">77</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">76</td>
+         <td class=3D"confluenceTd">3</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">62</td>
+         <td class=3D"confluenceTd">3</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">59</td>
+         <td class=3D"confluenceTd">4</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">58</td>
+         <td class=3D"confluenceTd">8</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">40</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">39</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">37</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">22</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">21</td>
+         <td class=3D"confluenceTd">1</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">17</td>
+         <td class=3D"confluenceTd">2</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">5</td>
+         <td class=3D"confluenceTd">2</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">4</td>
+         <td class=3D"confluenceTd">17</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">3</td>
+         <td class=3D"confluenceTd">25</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">2</td>
+         <td class=3D"confluenceTd">116</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">1</td>
+         <td class=3D"confluenceTd">8108</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">0</td>
+         <td class=3D"confluenceTd">251</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd"><strong>Total</strong></td>
+         <td class=3D"confluenceTd"><strong>8546</strong></td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2. High Parent count with stale login histor=
+y</td>
+    <td class=3D"confluenceTd">
+     <p>An observed pattern where accounts mapped to a highly elevated numb=
+er of&nbsp; Parent Firms(e.g., 15+) coincidently show little to no recent l=
+ogin activity.</p>
+     <p><strong>93%&nbsp;</strong>accounts have last access dates exceeding=
+ a year or lack a login history entirely.&nbsp;</p>
+    </td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">27</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody>
+        <tr>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>O=
+rigin</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>U=
+ser ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+amily_Name</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>G=
+iven_Name</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>C=
+reation Date</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>L=
+ast Access Date</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>C=
+ount of Parent</strong></td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">PRAVEEN</td>
+         <td class=3D"confluenceTd">PRODDUTURI - IBM</td>
+         <td class=3D"confluenceTd">PRAVEEN</td>
+         <td class=3D"confluenceTd">2020-06-19</td>
+         <td class=3D"confluenceTd">2025-12-15</td>
+         <td class=3D"confluenceTd">22</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NBACG</td>
+         <td class=3D"confluenceTd">BACHIR</td>
+         <td class=3D"confluenceTd">GEORGIA</td>
+         <td class=3D"confluenceTd">2025-06-03</td>
+         <td class=3D"confluenceTd">2025-08-29</td>
+         <td class=3D"confluenceTd">59</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">NB1NBHAN</td>
+         <td class=3D"confluenceTd">BHASKARANAND</td>
+         <td class=3D"confluenceTd">NICHOLAS</td>
+         <td class=3D"confluenceTd">2024-07-17</td>
+         <td class=3D"confluenceTd">2024-10-02</td>
+         <td class=3D"confluenceTd">62</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NMETA</td>
+         <td class=3D"confluenceTd">METHQAL</td>
+         <td class=3D"confluenceTd">ABDELAZIZ</td>
+         <td class=3D"confluenceTd">2023-12-22</td>
+         <td class=3D"confluenceTd">2024-09-23</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NGOO2</td>
+         <td class=3D"confluenceTd">GOONETILLEKE</td>
+         <td class=3D"confluenceTd">MANISHA</td>
+         <td class=3D"confluenceTd">2023-04-14</td>
+         <td class=3D"confluenceTd">2024-03-21</td>
+         <td class=3D"confluenceTd">59</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NBOUM</td>
+         <td class=3D"confluenceTd">BOULIANNE</td>
+         <td class=3D"confluenceTd">MANON</td>
+         <td class=3D"confluenceTd">2021-08-09</td>
+         <td class=3D"confluenceTd">2024-01-17</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">NB1NMISH</td>
+         <td class=3D"confluenceTd">MISHARA</td>
+         <td class=3D"confluenceTd">HIMANK</td>
+         <td class=3D"confluenceTd">2023-02-22</td>
+         <td class=3D"confluenceTd">2023-06-13</td>
+         <td class=3D"confluenceTd">77</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">SHAFIZA</td>
+         <td class=3D"confluenceTd">SHAFI</td>
+         <td class=3D"confluenceTd">ZACHARY</td>
+         <td class=3D"confluenceTd">2021-11-16</td>
+         <td class=3D"confluenceTd">2023-05-23</td>
+         <td class=3D"confluenceTd">62</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NHAJS</td>
+         <td class=3D"confluenceTd">HAJRI</td>
+         <td class=3D"confluenceTd">SARAH</td>
+         <td class=3D"confluenceTd">2023-01-18</td>
+         <td class=3D"confluenceTd">2023-04-19</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">MASCARMAR</td>
+         <td class=3D"confluenceTd">MARINA</td>
+         <td class=3D"confluenceTd">MASCARD</td>
+         <td class=3D"confluenceTd">2017-03-08</td>
+         <td class=3D"confluenceTd">2023-02-14</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">HAMPALAR</td>
+         <td class=3D"confluenceTd">HAMPARTZUM</td>
+         <td class=3D"confluenceTd">LARA</td>
+         <td class=3D"confluenceTd">2021-08-09</td>
+         <td class=3D"confluenceTd">2022-07-14</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">NB1NGULH</td>
+         <td class=3D"confluenceTd">GULATI</td>
+         <td class=3D"confluenceTd">HARMAN</td>
+         <td class=3D"confluenceTd">2021-02-08</td>
+         <td class=3D"confluenceTd">2021-03-23</td>
+         <td class=3D"confluenceTd">62</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">ARTAMALE</td>
+         <td class=3D"confluenceTd">ARTAMONOVA</td>
+         <td class=3D"confluenceTd">ALEXANDRA</td>
+         <td class=3D"confluenceTd">2020-04-03</td>
+         <td class=3D"confluenceTd">2020-11-24</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">KESHARR2</td>
+         <td class=3D"confluenceTd">KESHARIA</td>
+         <td class=3D"confluenceTd">RAHUL</td>
+         <td class=3D"confluenceTd">2019-06-06</td>
+         <td class=3D"confluenceTd">2020-08-11</td>
+         <td class=3D"confluenceTd">76</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">SUBRAINT</td>
+         <td class=3D"confluenceTd">SUBRAMANIAM</td>
+         <td class=3D"confluenceTd">INTHIRAI</td>
+         <td class=3D"confluenceTd">2017-05-31</td>
+         <td class=3D"confluenceTd">2020-08-05</td>
+         <td class=3D"confluenceTd">79</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">CRUZANN</td>
+         <td class=3D"confluenceTd">CRUZ</td>
+         <td class=3D"confluenceTd">ANNETTE</td>
+         <td class=3D"confluenceTd">2014-03-21</td>
+         <td class=3D"confluenceTd">2020-05-11</td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">TESTID3</td>
+         <td class=3D"confluenceTd">SOLUTIONS</td>
+         <td class=3D"confluenceTd">BUSINESS</td>
+         <td class=3D"confluenceTd">2013-12-20</td>
+         <td class=3D"confluenceTd">2019-04-24</td>
+         <td class=3D"confluenceTd">17</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">NB1NFALE</td>
+         <td class=3D"confluenceTd">FALBY</td>
+         <td class=3D"confluenceTd">ETHAN</td>
+         <td class=3D"confluenceTd">2023-04-20</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">76</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NFALE</td>
+         <td class=3D"confluenceTd">FALBY</td>
+         <td class=3D"confluenceTd">ETHAN</td>
+         <td class=3D"confluenceTd">2023-04-20</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">76</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NLARL</td>
+         <td class=3D"confluenceTd">LARAMEE</td>
+         <td class=3D"confluenceTd">LOUIS</td>
+         <td class=3D"confluenceTd">2023-02-20</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">59</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NMCCK</td>
+         <td class=3D"confluenceTd">MCCLAY</td>
+         <td class=3D"confluenceTd">KATHLEEN</td>
+         <td class=3D"confluenceTd">2023-04-20</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">59</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NKARY</td>
+         <td class=3D"confluenceTd">KARAKILIC</td>
+         <td class=3D"confluenceTd">YASIN</td>
+         <td class=3D"confluenceTd">2021-07-02</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">58</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NJOGA</td>
+         <td class=3D"confluenceTd">JOGALE</td>
+         <td class=3D"confluenceTd">AMIT</td>
+         <td class=3D"confluenceTd">2023-05-08</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">40</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep 2.0</td>
+         <td class=3D"confluenceTd">NB1NSHRB1</td>
+         <td class=3D"confluenceTd">BANERJEE</td>
+         <td class=3D"confluenceTd">SHREYA</td>
+         <td class=3D"confluenceTd">2025-09-02</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">39</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NGOOM</td>
+         <td class=3D"confluenceTd">GOONETILLEKE</td>
+         <td class=3D"confluenceTd">MANISHA</td>
+         <td class=3D"confluenceTd">2023-04-14</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">37</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">NetRep PM</td>
+         <td class=3D"confluenceTd">NB1NJOG2</td>
+         <td class=3D"confluenceTd">JOGALE</td>
+         <td class=3D"confluenceTd">AMIT</td>
+         <td class=3D"confluenceTd">2023-05-08</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+         <td class=3D"confluenceTd">21</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<hr>
+<h2 id=3D"MultiFirmUseCases-Sub-advisor">Sub-advisor</h2>
+<p><span>Based on the meeting on March 26th, 2026 with Aman G. from the Cli=
+ent Implementation team, the following outlines how Sub-advisor relationshi=
+ps are currently appeared across NetRep, R2 and CX using the sample Firm ID=
+ ICPMB_HIVFG. (SZ was included in the initial analysis but found to have mi=
+nimal connection/relevance to this workflow.)=20
+  <br>=20
+  <br></span></p>
+<ul>
+ <li><span>HIGHVIEW ASSET MGMT LTD.&nbsp; (ICPMB_HIVFG)&nbsp;&nbsp;</span>
+  <ul>
+   <li><span>Initially assigned 5 RR codes A48F, A48G, A48H, A48I, A48J in =
+September 2025.=20
+     <br></span></li>
+   <li data-uuid=3D"179d6ff1-e0db-4cc4-81a7-196aaecf2df4"><span><span style=
+=3D"color:#c9372c;">A48G, A48H, A48I</span> - 3 of these 5 codes are alloca=
+ted for Sub-Advisor use.</span></li>
+  </ul></li>
+</ul>
+<ul>
+ <li><span>Key Findings</span>
+  <ol>
+   <li data-uuid=3D"d195980a-780a-4e0f-9cdf-b1260c9d6333"><span>New Account=
+ Creation Under Target Firm -&nbsp;ICPMB_HIVFG=20
+     <br></span>
+    <p>When an external user acts as a sub-advisor for <strong>ICPMB_HIVFG<=
+/strong>, user IDs are created directly under the <strong>ICPMB_HIVFG</stro=
+ng> Firm ID across <strong>NetRep, CX, and R2</strong>.
+     <br>
+     <br></p></li>
+   <li data-uuid=3D"ed8f155f-8036-491e-b3e5-71bc6c8ffec4">
+    <p>In this scenario, a new user ID is created specifically for sub-advi=
+sing purposes, and it is <em>not</em> common practice to add sub-advisor RR=
+ codes to an existing user ID.</p>
+    <p>However, in <strong>R2</strong>, there are instances where existing =
+user IDs have sub-advisor RR codes populated in the <strong>Sub_Advisor_Cod=
+e</strong> column.</p>
+    <span>=20
+     <br>=20
+     <strong>R2</strong>=20
+     <br>=20
+    </span>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>FU=
+LL_NAME</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_USER_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_FIRM_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_CREATE_DATE</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_LAST_LOGIN</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_RR_CODE</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Su=
+b_Advisor_Firm_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Su=
+b_Advisor_Code</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_Email</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">PAUL QUACH</td>
+        <td class=3D"confluenceTd">PAUL.QUACH</td>
+        <td class=3D"confluenceTd">ICPMB_HIVFG</td>
+        <td class=3D"confluenceTd">2025-12-12</td>
+        <td class=3D"confluenceTd">
+         <br>
+        </td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">A48H,A48I=
+</span></td>
+        <td class=3D"confluenceTd">
+         <br>
+        </td>
+        <td class=3D"confluenceTd">
+         <br>
+        </td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:PQUACH@GUARDIANCAPITAL.COM" rel=3D"nofollow">PQUACH@GUARDIANCAPITAL.COM</=
+a></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">PAUL QUACH</td>
+        <td class=3D"confluenceTd">PAUL.QUACH1</td>
+        <td class=3D"confluenceTd">ICPMC_GUARD</td>
+        <td class=3D"confluenceTd">2025-12-22</td>
+        <td class=3D"confluenceTd">2026-03-08</td>
+        <td class=3D"confluenceTd">
+         <p>A63A,A63B,A63D,A63E,A63F,A63G,A63I,A63J,A63K,A63L,A63M,</p>
+         <p>A63N,A63O,A63Q,A63R,A63S,A63T,A63U,A63V,A63W,A63Y,A68A,A68B</p>
+        </td>
+        <td class=3D"confluenceTd">ICPMB_BNYML, ICPMB_HIVFG</td>
+        <td class=3D"confluenceTd">
+         <p>A3C1,A3C2,A3C9,A3CA,A3CB,A3CC,A3CD,A3CE,A3CF,A3CG,</p>
+         <p>A3CH,A3CI,A3CK,A3CM,A3CN,A3CO,<span style=3D"color:#c9372c;"> A=
+48H, A48I</span></p>
+        </td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:PQUACH@GUARDIANCAPITAL.COM" rel=3D"nofollow">PQUACH@GUARDIANCAPITAL.COM</=
+a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <span>=20
+     <br>=20
+    </span><span><strong>NetRep</strong>=20
+     <br></span>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_USER_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_FIRM_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_CREATE_DATE</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_RR_CODE</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">QUACHPAU</td>
+        <td class=3D"confluenceTd">ICPMB_HIVFG</td>
+        <td class=3D"confluenceTd">2025-12-12</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">A48H, A48=
+I</span></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">QUACHPA2</td>
+        <td class=3D"confluenceTd">ICPMC_GUARD, ICPMB_BNYML</td>
+        <td class=3D"confluenceTd">2025-12-23</td>
+        <td class=3D"confluenceTd">
+         <p>A63A, A63B, A63D, A63E, A63F, A63G, A63I, A63J, A63K, A63L, A63=
+M, A63N, A63O, A63Q, A63R, A63S, A63T, A63U, A63V, A63W,</p>
+         <p>A63Y, A68A, A68B, A3C1, A3C2, A3C9, A3CA, A3CB, A3CC, A3CD, A3C=
+E, A3CF, A3CG, A3CH, A3CI, A3CK, A3CM, A3CN, A3CO</p>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <span><strong>=20
+      <br>CX=20
+     </strong>=20
+     <br></span>
+    <div class=3D"table-wrap">
+     <table class=3D"relative-table wrapped confluenceTable" style=3D"width=
+: 56.2758%;">
+      <colgroup>
+       <col style=3D"width: 11.5303%;">
+       <col style=3D"width: 13.6268%;">
+       <col style=3D"width: 53.1449%;">
+       <col style=3D"width: 21.698%;">
+      </colgroup>
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>CX=
+_USER_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>CX=
+_FIRM_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>CX=
+_RR_CODE</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>CX=
+_Email</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">paul.quach</td>
+        <td class=3D"confluenceTd">ICPMB_HIVFG</td>
+        <td class=3D"confluenceTd"><span style=3D"color:#c9372c;">A48H, A48=
+I</span></td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:PQuach@guardiancapital.com" rel=3D"nofollow">PQuach@guardiancapital.com</=
+a></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">paul.quach1</td>
+        <td class=3D"confluenceTd">ICPMC_GUARD</td>
+        <td class=3D"confluenceTd">A63A, A63B, A63D, A63E, A63F, A63G, A63I=
+, A63J, A63K, A63L, A63M, A63N, A63O, A63Q, A63R, A63S, A63T, A63U, A63V, A=
+63W, A63Y, A68A, A68B</td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:pquach@guardiancapital.com" rel=3D"nofollow">pquach@guardiancapital.com</=
+a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <span>=20
+     <br>=20
+    </span><span>=20
+     <br>3. The pattern observed for <strong>ICPMB_HIVFG</strong> cannot be=
+ generalized across all firms. For example, despite having Sub_Advisor_Firm=
+_IDs, the user <strong>Martin Lalonde </strong>has a user ID only under <st=
+rong>QCPM_RIVEM</strong>, with no corresponding user ID created under the s=
+ub-advisor firm. The same approach is also observed in NetRep.=20
+     <br>&nbsp;=20
+     <br>=20
+     <strong>R2</strong>=20
+     <br>=20
+    </span>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>FU=
+LL_NAME</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_USER_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_FIRM_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>RR=
+_CODES</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Su=
+b_Advisor_Firm_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Su=
+b_Advisor_Code</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R2=
+_Email</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">RIVEMONT MARTINLALONDE</td>
+        <td class=3D"confluenceTd">MARTIN.LALONDE</td>
+        <td class=3D"confluenceTd">QCPM_RIVEM</td>
+        <td class=3D"confluenceTd">Q2F1,Q2F2,Q2FZ,Q2FV,Q2F3,Q2F4</td>
+        <td class=3D"confluenceTd">QCPM_MAJES, PMGRN_MJSFM,&nbsp;QCPM_CPCVF=
+</td>
+        <td class=3D"confluenceTd">Q1PB,R3Y2,Q2G5,Q2G6,Q2G9,Q2GN,Q2GO,Q2GP<=
+/td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:MARTIN.LALONDE@RIVEMONT.CA" rel=3D"nofollow">MARTIN.LALONDE@RIVEMONT.CA</=
+a></td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br>
+    <strong>NetRep</strong>
+    <br>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_USER_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Fu=
+ll_Name</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Ne=
+tRep_Firm_ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Cr=
+eation Date</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>NE=
+TREP_RR_CODE</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">LALONMAR</td>
+        <td class=3D"confluenceTd">MARTIN LALONDE</td>
+        <td class=3D"confluenceTd">QCPM_RIVEM, QCPM_MAJES, PMGRN_MJSFM</td>
+        <td class=3D"confluenceTd">2014-06-09</td>
+        <td class=3D"confluenceTd">Q2F2, Q2F1, Q2FZ, Q1PB, Q2FV, R3Y2, Q2F3=
+</td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br>
+    <strong>CX</strong>
+    <br>
+    <div class=3D"table-wrap">
+     <table class=3D"wrapped confluenceTable">
+      <tbody class=3D"">
+       <tr class=3D"">
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Us=
+er ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Fu=
+ll_Name</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Fi=
+rm</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>RR=
+ Code Assignment</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Em=
+ail Address</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>Se=
+cureZone ID</strong></td>
+        <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>CR=
+2 User ID</strong></td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">martin.lalonde1</td>
+        <td class=3D"confluenceTd">Martin Lalonde</td>
+        <td class=3D"confluenceTd">QCPM_MAJES</td>
+        <td class=3D"confluenceTd">Q1PB-Q1PB</td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:MARTIN.LALONDE.QCPM.MAJES@noemail.com" rel=3D"nofollow">MARTIN.LALONDE.QC=
+PM.MAJES@noemail.com</a></td>
+        <td class=3D"confluenceTd">LALONDMA</td>
+        <td class=3D"confluenceTd">
+         <br>
+        </td>
+       </tr>
+       <tr class=3D"">
+        <td class=3D"confluenceTd">MARTIN.LALONDE</td>
+        <td class=3D"confluenceTd">Martin Lalonde</td>
+        <td class=3D"confluenceTd">QCPM_RIVEM</td>
+        <td class=3D"confluenceTd">Q2FA-Q2F9</td>
+        <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailt=
+o:martin.lalonde@rivemont.ca" rel=3D"nofollow">martin.lalonde@rivemont.ca</=
+a></td>
+        <td class=3D"confluenceTd">LALONDMA</td>
+        <td class=3D"confluenceTd">MARTIN.LALONDE</td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </li>
+  </ol></li>
+</ul>
+<h3 id=3D"MultiFirmUseCases-R2.2">R2</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of users/occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">1. Variance Between Primary Firm IDs and RR =
+Code Firm IDs</td>
+    <td class=3D"confluenceTd">Primary Firm IDs differ from RR_Code derived=
+ Firm IDs</td>
+    <td class=3D"confluenceTd">
+     <p>22 users, 23 records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody class=3D"">
+        <tr class=3D"">
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+ULL_NAME</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R=
+2_USER_ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>P=
+RIMARY_FIRM_ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+IRM_ID_RR_CODE</strong></td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">TOBI WESEY</td>
+         <td class=3D"confluenceTd">TOBI.WESEY</td>
+         <td class=3D"confluenceTd">KIZEM</td>
+         <td class=3D"confluenceTd">KIZEM, ICPMB_WLNGT</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2. Primary Firm ID Exists Within Subadvisor =
+RR Firm IDs</td>
+    <td class=3D"confluenceTd">Firm IDs fetched using Subadvisor_RR_Codes i=
+nclude primary firm id (a firm can't sub advise to itself)</td>
+    <td class=3D"confluenceTd">
+     <p>34 users/records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody class=3D"">
+        <tr class=3D"">
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+ULL_NAME</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R=
+2_USER_ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>P=
+RIMARY_FIRM_ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+IRM_ID_SUB_ADVISOR</strong></td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">ALEXANDRA DOUGLAS</td>
+         <td class=3D"confluenceTd">ALEXANDRA.DOUGLAS</td>
+         <td class=3D"confluenceTd">ICPMC_BEUT</td>
+         <td class=3D"confluenceTd">ICPMC_MLSL, QCPM_BEUTE, ICPMC_BEUT</td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">FRANK SETTINO</td>
+         <td class=3D"confluenceTd">FRANK.SETTINO</td>
+         <td class=3D"confluenceTd">ICPMC_KERR</td>
+         <td class=3D"confluenceTd">ICPMC_KERR</td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">LAUREN RUDOLPH</td>
+         <td class=3D"confluenceTd">LAUREN.RUDOLPH</td>
+         <td class=3D"confluenceTd">ICPMC_KERR</td>
+         <td class=3D"confluenceTd">ICPMC_LBA, ICPMC_KERR</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3. Subadvisor RR_Codes Present in RR_Codes f=
+ield</td>
+    <td class=3D"confluenceTd">Subadvisor RR_Codes are present in RR_Codes =
+column (which should only contain codes of the primary firm ID)</td>
+    <td class=3D"confluenceTd">
+     <p>10 users/records</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody class=3D"">
+        <tr class=3D"">
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+ULL_NAME</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R=
+2_USER_ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>R=
+R_CODES</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>S=
+UB_ADVISOR_CODES</strong></td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">MARISSA GOCAL</td>
+         <td class=3D"confluenceTd">MARISSA.GOCAL</td>
+         <td class=3D"confluenceTd">
+          <p>A6GA,A6GC,A6GD,A6GE,A6GF,A6GH,</p>
+          <p>A6GI,A6GL,A6GN,A6GO,A6GR,A6GT,A6GM</p>
+         </td>
+         <td class=3D"confluenceTd">
+          <p>A6GJ,A6GM,A6GQ,A6GP,</p>
+          <p>A6GK,A6GG,A6GB,A6GS</p>
+         </td>
+        </tr>
+        <tr class=3D"">
+         <td class=3D"confluenceTd">ELINA NAM</td>
+         <td class=3D"confluenceTd">ELINA.NAM</td>
+         <td class=3D"confluenceTd">C4TC</td>
+         <td class=3D"confluenceTd">C4TC</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"MultiFirmUseCases-SecureZone.1">Secure Zone</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+<hr>
+<h2 id=3D"MultiFirmUseCases-Miscellaneous">Miscellaneous</h2>
+<h3 id=3D"MultiFirmUseCases-R2.3">R2</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 90=
+.0%;">
+  <colgroup>
+   <col style=3D"width: 11.0585%;">
+   <col style=3D"width: 10.9658%;">
+   <col style=3D"width: 15.0307%;">
+   <col style=3D"width: 62.9588%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of users/occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>1. Cross=E2=80=91Parent R2_ID Conflict</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>Same R2_User_ID associated to 2 diff. firm ids belonging to diff. p=
+arents (ideally, it should be 1 user id per firm id)</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <p>1 user</p>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>R2_USER_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>FIRM_ACCESS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>COUNT_FIRM_ACCESS</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;text-align: center;" class=3D"con=
+fluenceTd">
+          <p><strong>PRIMARY_PARENT</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MARK DAMELIN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MARK.DAMELIN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>HIGGINS</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Higgins Investment Group Inc.</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MARK DAMELIN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MARK.DAMELIN</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>MCLEAN ASSET MANAGEMENT</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;">1</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>McLean Asset Management</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h3 id=3D"MultiFirmUseCases-SecureZone.2">Secure Zone</h3>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of users/occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">1. RR Codes Ambiguity</td>
+    <td class=3D"confluenceTd">
+     <p>RR_CODES column has ALL (coming from a shared B#) + a set of codes<=
+/p>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>FULL_NAME</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>SZ_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>BROKER_ID</strong></p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>BROKER_ACCESS</strong></=
+p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p style=3D"text-align: center;"><strong>RR_CODES</strong></p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Michelle Henriques</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>HENRIMI3, HENRIMIC</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L64, L85</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L64, L67,L85,L91</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALL,A5SK,A5SL,A5SM,A5SN,A5SO,R3Y7</p>
+         </td>
+        </tr>
+        <tr>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>Kate Varik</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>VARIKKA3, VARIKKAT</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L64, L85</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>L64, L67,L85</p>
+         </td>
+         <td style=3D"vertical-align: top;" class=3D"confluenceTd">
+          <p>ALL,R30F,R30W,R3YF,R3Z1,R3Z8,R3ZT</p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<h3 id=3D"MultiFirmUseCases-NetRep.1"><span>NetRep</span></h3>
+<ul>
+ <li data-uuid=3D"1aeeb53c-c41f-4757-bb10-8c5dbc99c395">Population Scope (T=
+otal: 8,838 User IDs)
+  <ul>
+   <li>In-scope
+    <ul>
+     <li>8,546 User IDs&nbsp;</li>
+    </ul></li>
+   <li>Out-of-scope (Excluded)
+    <ul>
+     <li>Verified internal staff (263 User IDs)</li>
+     <li>Functional accounts: SGGG cohort (29 User IDs)&nbsp;</li>
+    </ul></li>
+  </ul></li>
+</ul>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped relative-table confluenceTable" style=3D"width: 86=
+.0906%;">
+  <colgroup>
+   <col style=3D"width: 11.1627%;">
+   <col style=3D"width: 23.4121%;">
+   <col style=3D"width: 17.5837%;">
+   <col style=3D"width: 47.8096%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Case</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">
+     <p># of occurrences</p>
+    </th>
+    <th class=3D"confluenceTh">Examples</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">1. Unresolved Firm IDs</td>
+    <td class=3D"confluenceTd">
+     <p>Assigned Access List Values do not exist in the RR Codes/RR Ranges =
+Table.</p>
+     <p>Applied 3 mapping logics -</p>
+     <ol>
+      <li data-uuid=3D"30d91ab5-4ade-4246-bacf-be987170f88a">Exact RR Codes=
+</li>
+      <li data-uuid=3D"df23c478-e148-4f13-82ff-e2c8bdbff2a2">Exact RR Range=
+</li>
+      <li data-uuid=3D"0429158a-1f34-4e15-a447-30ea3ced152a">Prefix 2 Chart=
+</li>
+     </ol>
+    </td>
+    <td style=3D"text-align: center;vertical-align: middle;" class=3D"confl=
+uenceTd">8</td>
+    <td style=3D"vertical-align: middle;" class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>U=
+ser ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>L=
+ast Access Date</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>A=
+ccess List</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+irm_ID</strong></td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">JOSEPMIC</td>
+         <td class=3D"confluenceTd">2024-09-03</td>
+         <td class=3D"confluenceTd">I7</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">MALLAHMO</td>
+         <td class=3D"confluenceTd">2020-03-12</td>
+         <td class=3D"confluenceTd">A2, A5, A7, A3, A6, A4</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">JIMTEST2</td>
+         <td class=3D"confluenceTd">2019-10-09</td>
+         <td class=3D"confluenceTd">N0</td>
+         <td class=3D"confluenceTd">
+          <br>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p>
+      <br>
+     </p>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">2. SGGG Users</td>
+    <td class=3D"confluenceTd">
+     <p>Active SGGG accounts were identified by the presence of =E2=80=98SG=
+GG=E2=80=99 in name fields.</p>
+     <p>Parent access ranges show wide variation: max 31, min 0, average 9,=
+ median 10.</p>
+    </td>
+    <td style=3D"text-align: center;vertical-align: middle;" class=3D"confl=
+uenceTd">29</td>
+    <td style=3D"vertical-align: middle;" class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <tbody>
+        <tr>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>U=
+ser ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+amily_Name</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>G=
+iven_Name</strong></td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">PREMAYAR</td>
+         <td class=3D"confluenceTd">SGGG - PREMACHANDRA</td>
+         <td class=3D"confluenceTd">YARLINI</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">3. Active Logins with Inactive Firm IDs</td>
+    <td class=3D"confluenceTd">Users show recent login activity with 2025 w=
+hile the firm status is Inactive in FirmTable 360.</td>
+    <td style=3D"text-align: center;vertical-align: middle;" class=3D"confl=
+uenceTd">4</td>
+    <td style=3D"vertical-align: middle;" class=3D"confluenceTd">
+     <div class=3D"table-wrap">
+      <table class=3D"wrapped confluenceTable" data-mce-resize=3D"false">
+       <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+       </colgroup>
+       <tbody>
+        <tr>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>U=
+ser ID</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>L=
+ast Access Date</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>A=
+ccess List</strong></td>
+         <td style=3D"text-align: center;" class=3D"confluenceTd"><strong>F=
+irm_ID</strong></td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">BANDOBR2</td>
+         <td class=3D"confluenceTd">2025-12-12</td>
+         <td class=3D"confluenceTd">FJ</td>
+         <td class=3D"confluenceTd">CWMSL</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">MARIEPH2</td>
+         <td class=3D"confluenceTd">2025-10-06</td>
+         <td class=3D"confluenceTd">Q2G7, Q2G8</td>
+         <td class=3D"confluenceTd">QCPM_KWJMF</td>
+        </tr>
+        <tr>
+         <td class=3D"confluenceTd">GOMESTHO</td>
+         <td class=3D"confluenceTd">2025-09-30</td>
+         <td class=3D"confluenceTd">A2BA</td>
+         <td class=3D"confluenceTd">ICPMB_LORIC</td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+    </div>
+</body>
+</html>
+------=_Part_195381_1103604213.1793133848219--

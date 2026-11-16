@@ -1,0 +1,171 @@
+From: Oyemade, Obaloluwa 
+Sent: October 28, 2026 2:53 PM
+To: Karatsu, Kevin <Kevin.Karatsu@nbc.ca>; Norris, Raymond <Ray.Norris@nbc.ca>
+Subject: RE: FUM Gaps, Impacts and Immediate Priorities
+
+Thank you, Kevin, for your effort in getting the clarification from our dear Mr. Eric.
+
+I will immediately communicate the business direction to the team to focus efforts on converging on a viable Multi-Firm solution that also addresses access management.
+
+Thank you once again.
+
+
+From: Karatsu, Kevin <Kevin.Karatsu@nbc.ca> 
+Sent: October 28, 2026 12:11 PM
+To: Norris, Raymond <Ray.Norris@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>
+Subject: Re: FUM Gaps, Impacts and Immediate Priorities
+
+Hey Ray and Oba,
+
+Ok, so I spoke with Eric and as suspected, since we made our Security Posture number for this year, we have time to get the SZ SSO done properly which could include us getting Multi-Firm done first to close out the multiple CX User id sharing SZ credential issues.  Just will need to figure out the logout issue and iMost, we can deal with the inconsistent timeout later in my opinion.
+
+Eric has security debt that I will update him on as we go, and he has offered to help where he can if we hit blocks.
+
+@Oyemade, Obaloluwa let's get organized, again, and plan out priorities to get multi firm going and try and see about the logout issue with the SZ team including JF as he is the one who stated we will need to keep iMost alive so would like to get him to assist.  
+
+Kev
+________________________________________
+From: Karatsu, Kevin <Kevin.Karatsu@nbc.ca>
+Sent: Tuesday, October 27, 2026 11:33 AM
+To: Norris, Raymond <Ray.Norris@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>
+Subject: Re: FUM Gaps, Impacts and Immediate Priorities
+ 
+Just wanted to get this organized before bothering everyone with creating the deck.  I think we can have a short discussion to assign people to these items and if we are good with the format, @Oyemade, Obaloluwa could you coordinate and get us started and in order?
+________________________________________
+From: Norris, Raymond <Ray.Norris@nbc.ca>
+Sent: Tuesday, October 27, 2026 11:28 AM
+To: Karatsu, Kevin <Kevin.Karatsu@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>
+Subject: RE: FUM Gaps, Impacts and Immediate Priorities
+ 
+Thanks kevin, great start.
+Are we in a position to assign owners to take decisions or takeaways or we need to discuss that?
+And sorry, not to sound like an a*s or anything, but were the others omitted on purpose?
+ray
+ 
+From: Karatsu, Kevin <Kevin.Karatsu@nbc.ca>
+Sent: Tuesday, October 27, 2026 9:11 AM
+To: Norris, Raymond <Ray.Norris@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>; Norris, Raymond <Ray.Norris@nbc.ca>
+Subject: Re: FUM Gaps, Impacts and Immediate Priorities
+ 
+Hi all, 
+ 
+We can use this as a starting point.  FUM_Issues_Decisions_Tracker_NBIN 1 - Copy.pptx
+ 
+Thanks,
+Kev
+ 
+________________________________________
+From: Norris, Raymond <Ray.Norris@nbc.ca>
+Sent: Tuesday, October 27, 2026 8:25 AM
+To: Sharma, Radhika <Radhika.Sharma@bnc.ca>; Karatsu, Kevin <Kevin.Karatsu@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>
+Cc: Azizi, Ali <ali.azizi@nbc.ca>; Khanna, Babita <babita.khanna@nbc.ca>
+Subject: RE: FUM Gaps, Impacts and Immediate Priorities
+ 
+Thanks, Radhika, for your notes. There is a lot here—perhaps a little too much for me to digest at once. First, can you help me understand what has changed in the last two weeks compared to the previous months or years? If something has recently broken or shifted, I’d like to understand that. I also recognize that my involvement may have slowed things down as we dig into the details, or possibly created some confusion.
+ 
+Oba, can we put these on a simple page, or deck or something:
+ 
+1.	Issue (maybe even a reference # as these seem to be coming up more and more)
+2.	Description
+3.	Owner (person, not team)
+4.	Priority
+5.	Decision required
+6.	Status
+7.	Etc.
+ 
+I think you get the idea.
+I would then like to review this on a weekly if not more frequent basis to move thru these.
+Good news is, we have the SZ call today so I assume we can dive into #2 below today
+Ray
+ 
+From: Sharma, Radhika <Radhika.Sharma@bnc.ca>
+Sent: Monday, October 26, 2026 8:31 PM
+To: Karatsu, Kevin <Kevin.Karatsu@nbc.ca>; Oyemade, Obaloluwa <obaloluwa.oyemade@nbc.ca>; Norris, Raymond <Ray.Norris@nbc.ca>
+Cc: Azizi, Ali <ali.azizi@nbc.ca>; Khanna, Babita <babita.khanna@nbc.ca>
+Subject: FUM Gaps, Impacts and Immediate Priorities
+ 
+Hi Kevin, Oba, Ray,
+ 
+Over the last 2 weeks or so I have observed several gaps relating to FUM initiatives. These include initiatives that are in the pipeline or ready to launch, as well as existing features on Compass. Although I’ve mentioned some of these to you previously, or you’ve been in meetings where they’ve been raised, I wanted to provide you with a consolidated view so that we can work together to determine who should take the lead on these and how they should be prioritised.
+ 
+While this email is long, I have tried to provide sufficient context on each gap, while keeping the details to a minimum. I am happy to dive into the details with you and provide additional context. For most of the gaps, I do have recommendations on how they can be addressed, and in other cases I believe a discussion is warranted to determine the course of action. I have also listed what I consider to be the immediate priorities.
+ 
+EMPLOYEE SSO
+1.      CX IIQ implementation
+Employee SSO was set to go live on November 3. End-to-end testing was not possible in lower environments due to IIQ limitations. Real testing started in production on October 22, after the IIQ implementation, but were quickly faced with multiple issues: 
+•	A key product requirement, which would allow activation to continue to manage unlaunched feature access was excluded in the solution. This would result in alpha, beta and pilot no longer being possible.
+•	IIQ was not correctly configured; certain features were still being assigned despite the matrix documenting they should not be.
+•	User modifications through IIQ did not work during testing.
+•	More comprehensive testing is required. After I asked, it was confirmed that we need to validate all request types coming from IIQ. This means 43 use cases across 3 scenarios, and due to the limited number of people we can test with, we may not have sufficient test coverage
+•	While FUM and IT are actively working on resolving the above, we have only until the end of the year to implement and go-live based on the Risk team. I am concerned we may not make this deadline.
+ 
+2.      Datawarehouse (DWH) user setup
+It was brought to my attention that Darwin’s team was unable to setup new users on DWH. This one is the result of previous discussions between Product Management and the Data Team.
+•	The ability to create DWH users was removed from CX prematurely. The data team has no way to turn on DWH access for users at present.
+•	This was done because an interim process was going to be implemented after Employee SSO was launched, that would allow the setup of DWH users to resume. 
+•	The interim process would require a user to request for CX access and then DWH via IIQ. Meaning all DWH users would need a CX profile. However, teams who are not configured as part of the CX IIQ, but require DWH access, will not be approved for CX profiles. Today there are ~250 users who have only DWH access but no CX.
+•	An agreement was in place for Darwin's team to decouple DWH from CX, which we learned is being prioritized for the end of the year. Until that is done some teams may not be able to get access to DWH.
+ 
+3.      Package Limitations for Operations teams
+CX user packages were designed to be finite, with specific feature bundling and permission levels each. They were intended to be used for both clients and employees. To support Employee SSO the matrix was constructed around these packages, to standardize the permissions across each package (through IIQ config not CX).
+•	Because of the way these packages were constructed, the limitations of IIQ and the Risk/Security guidelines for employees, we do not have sufficient packages to customize access for speciality teams or ops.
+•	To address this, we would need to create new packages for unique cases where some teams need very specific and limited access. This is not sustainable as we already have 27 packages to manage, so scaling with this FUM model is challenging.
+ 
+SECURE ZONE APPLICATIONS
+***What I have stated here was also part of the email exchange between Oba and Lamiae***
+The launch of SZ applications was intended to be in early December, however, with the gaps that have surfaced (resurfaced in some cases) this will need to be postponed.
+ 
+1.      Supporting Multi-Firm before Multi-Firm is available on CX
+In earlier discussions this year, when SZ app migration was prioritized over Multi-Firm it was decided that we would not do any clean-up on ID’s in CX or SZ. Specifically, that we would continue to allow users to have multiple SZ ID’s and those who have a single SZ ID it could be linked to multiple CX ID’s.
+•	Through testing being done by Professional Services, it was brought to my attention that linking of a single SZ ID to multiple CX profiles would not be supported. Later confirmed by Delivery and the SZ app migration project team.
+•	This meant we would need to either decouple the SZ ID’s based on Firm ID’s or advise clients that only one of their CX ID’s could be used for SZ apps (including Servicing & GIC Management).
+•	The three concerns with this are (1) having to force a new temporary behaviour onto clients; (2) recoupling the SZ ID’s once Multi-Firm is available on CX; (3) reassigning iMOST & Servicing recurring requests to the individual decoupled SZ IDs, only to recouple them later when Multi-Firm is available on CX.
+ 
+2.      Undefined End-to-End User Experience
+From a simple demo of the CX experience (post app migration), multiple items seemed to still be undefined:
+•	Session time-out inconsistency with CX of some apps.
+•	In-app menu options that conflict with the idea of single sign-on from CX (i.e. password reset, redirection to welcome page)
+•	Log-out & timeout behaviour (where is the client redirected).
+•	Experience if a client attempts to access SZ through the direct link.
+•	Welcome page behaviour, specifically if iMOST stays on SZ and is not migrated onto CX.
+Some, if not all of the above have been discussed in various sessions and meetings over the last year. I had provided feedback and most of the team agreed with my suggestions. It was a surprise to learn that these items remained undefined.
+ 
+PLATFORM NAVIGATION
+Any time a new feature is launched it needs to be added to the navigation. The current design does not support a consistent and intuitive experience across all feature groupings.
+•	Not all features with sub-feature grouping are treated the same.
+•	Onboarding is the most inconsistent, as the behaviour can vary whether a user has 1 or many features assigned within that group. If they have one, clicking Onboarding opens that one feature. If they have multiple, clicking Onboarding opens CRS FATCA and the sub-menu is expanded.
+•	The behaviour of “Servicing” when non-trade file uploads is introduced is unknown.
+•	Since Servicing is not available in the Employee tenant, it’s unclear how non-trade file uploads will be accessible by employees.
+•	This specific navigation gap impacts the following upcoming feature launches:
+o	CRS FATCA Submissions
+o	Estate Submissions
+o	File Uploads (non-trade)
+ 
+ACCESS REQUEST FORM UPDATES
+While holding off on the Unified Access Request (UAR) form on CX is essential to focus on Multi-Firm, to launch any new features (i.e. Estate Submissions and File Uploads) the existing user access forms need to be updated. My Request can easily be updated as required. The Unified Access Form on iMOST/Servicing is much harder to get updated, as the team who owns this does not wish to invest in it any further. We also committed to them that after GIC Management we would not request for future updates, anticipating we’d have UAR. While Kevin helped get the Unified Access Form updates prioritized in the past, it is unclear who needs to be creating the requirements and running with these updates. Without updating both these legacy forms, we are unable to launch new features and risk confusing Firm Security Stewards.
+ 
+LAUNCH AND RELEASE ACTIVATION
+This one is for awareness only, as I will be sending Sujith and Esther an email. This past weekend it took me 8 hours to enable Client Documents for 10K users, some requiring re-upload because the system timed out while the files were loading. This is a performance issue, which was already raised earlier this year. We were told that performance has improved and even requested to validate in pre-prod (where it appeared ok). We cannot continue to launch features without performance improvements and additional tools (i.e. Firm level activation not just user). 
+ 
+IMMEDIATE PRIORITIES
+Based on my understanding of the initiatives and the criticality of each, I suggest we focus on the following 3 as their impact is immediate and material.
+1.      Employee SSO - Datawarehouse (DWH) user setup
+2.      Secure Zone Applications
+3.      Platform Navigation – Onboarding behaviour of CRS FATCA
+ 
+I hope this has given you a broader view of the gaps I’ve observed. I suggest we set up time to go through these to align on significance, prioritization, and ownership of each.
+ 
+Thanks!
+ 
+ 
+  
+Radhika Sharma
+Senior Manager, Product Activation
+Tel.: 416-507-8051
+Cell.: 647-206-4891
+radhika.sharma@nbc.ca
+
+National Bank Independent Network
+130 King Street West, Suite 3000, Toronto, ON. M5X 1J9
+ 
+To contact us, visit nbin.ca.

@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Compass X · Multi-firm walkthrough</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --navy:#02324C; --red:#83181E; --red-dark:#6E1419; --blue:#1572C5; --blue-dark:#0F5A9C; --blue-tint:#E1F1FF; --navy-tint:#E6EDF3;
+  --green:#048037; --green-tint:#C3E7CC; --green-text:#0A4D22; --amber:#9A5200; --amber-tint:#FFF3D6; --amber-line:#E8A33A;
+  --ink:#2B2D31; --muted:#5F6B7A; --page:#F3F4F6; --surface:#FFFFFF; --chip:#E5E7EB; --line:#DFDFDF; --line2:#C7C9CB;
+  --nav-text:#E6EEF5; --shadow:0 2px 6px rgba(2,50,76,.12);
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ color-scheme:dark; --ink:#E8ECF1; --muted:#B4BDC7; --page:#0F1B24; --surface:#17262F; --chip:#223340; --line:#2C3E4B; --line2:#3B4E5C; --blue-tint:#13314A; --navy-tint:#132B3D; --green-tint:#17432A; --green-text:#BFE9CC; --amber:#F2B657; --amber-tint:#3D2E10; --shadow:0 2px 6px rgba(0,0,0,.4); }
+}
+:root[data-theme="dark"]{ color-scheme:dark; --ink:#E8ECF1; --muted:#B4BDC7; --page:#0F1B24; --surface:#17262F; --chip:#223340; --line:#2C3E4B; --line2:#3B4E5C; --blue-tint:#13314A; --navy-tint:#132B3D; --green-tint:#17432A; --green-text:#BFE9CC; --amber:#F2B657; --amber-tint:#3D2E10; --shadow:0 2px 6px rgba(0,0,0,.4); }
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+html,body{height:100%}
+*{box-sizing:border-box}
+body{margin:0;font-family:Quicksand,"Segoe UI",Roboto,Arial,sans-serif;font-size:14px;color:var(--ink);background:var(--page);line-height:1.45}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,h4,p{margin:0}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+/* shell */
+.app{display:grid;grid-template-rows:56px 1fr;grid-template-columns:240px 1fr;height:100%}
+.topbar{grid-column:1/3;display:flex;align-items:center;gap:12px;padding:0 16px;background:var(--surface);box-shadow:var(--shadow);position:relative;z-index:50}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy);letter-spacing:.08em;font-size:15px;white-space:nowrap}
+:root[data-theme="dark"] .brand{color:#E6EEF5}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .brand{color:#E6EEF5}}
+.roundel{width:28px;height:28px;border-radius:50%;background:var(--red);display:grid;place-items:center;color:#fff;font-size:13px;font-weight:700}
+.grow{flex:1}
+.persona{display:inline-flex;border:1px solid var(--navy);border-radius:999px;overflow:hidden}
+.persona button{border:0;background:var(--surface);padding:7px 14px;font-weight:600;color:var(--navy);cursor:pointer;white-space:nowrap}
+.persona button.on{background:var(--navy);color:#fff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .persona button:not(.on){color:#E6EEF5}}
+.circ{width:34px;height:34px;border-radius:50%;border:1px solid var(--line2);background:var(--surface);display:grid;place-items:center;color:var(--ink);cursor:pointer;font-weight:700}
+.userchip{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 12px 0 6px;border:1px solid var(--line2);border-radius:999px;font-weight:600;font-size:13px;white-space:nowrap;max-width:300px;overflow:hidden}
+.userchip .av{width:24px;height:24px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:10.5px;flex:none}
+.ver{white-space:nowrap}
+@media (max-width:1280px){.ver{display:none}}
+@media (max-width:1100px){.userchip{display:none}}
+.nav{background:var(--navy);color:var(--nav-text);padding:14px 12px;display:flex;flex-direction:column;gap:6px;overflow:auto}
+.firmhome{display:flex;align-items:center;gap:10px;font-weight:600;padding:4px 6px;margin-bottom:6px}
+.firmhome .arr{width:28px;height:28px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center}
+.firmcard{background:#fff;color:#2B2D31;border-radius:8px;padding:10px 12px;margin:4px 0 10px;cursor:pointer;position:relative}
+.firmcard.static{cursor:default}
+.firmcard .lbl{font-size:11px;color:#5F6B7A;display:flex;align-items:center;gap:4px}
+.firmcard .name{font-weight:700;color:#02324C;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.firmcard .name span:last-child{font-size:12px;color:#1572C5;white-space:nowrap}
+.firmcard .who{font-size:11.5px;color:#5F6B7A}
+.firmmenu{position:absolute;left:0;top:calc(100% + 4px);width:330px;background:#fff;color:#2B2D31;border-radius:8px;box-shadow:0 8px 24px rgba(2,50,76,.3);padding:6px;display:none;z-index:30;max-height:66vh;overflow:auto}
+.firmmenu.open{display:block}
+.firmmenu button{display:flex;width:100%;text-align:left;border:0;background:transparent;padding:7px 10px;border-radius:6px;cursor:pointer;align-items:center;gap:8px;color:#2B2D31}
+.firmmenu button:hover{background:#F3F4F6}
+.firmmenu .parent{font-weight:700;color:#02324C}
+.firmmenu .child{padding-left:26px}
+.firmmenu .t{margin-left:auto;font-size:11px;color:#5F6B7A;font-weight:500;white-space:nowrap}
+.firmmenu .mh{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:#5F6B7A;padding:8px 10px 2px;font-weight:700}
+.navitem{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:6px;border:0;background:transparent;color:var(--nav-text);text-align:left;cursor:pointer;font-weight:500;width:100%}
+.navitem:hover{background:rgba(255,255,255,.12)}
+.navitem.active{background:var(--red);color:#fff;font-weight:600}
+.navitem .nb{margin-left:auto;background:rgba(255,255,255,.2);border-radius:999px;font-size:11px;padding:1px 8px}
+.legend{display:flex;flex-direction:column;gap:6px;font-size:12px;color:#C9D7E2;padding:10px 8px 4px;margin-top:auto;border-top:1px solid rgba(255,255,255,.15)}
+.legend .sw{width:11px;height:11px;border-radius:3px;display:inline-block;margin-right:7px;vertical-align:-1px}
+.sw-agg{background:#AFA9EC}.sw-del{background:#EF9F27}
+.navnote{font-size:11px;color:#9FB3C2;padding:6px 8px 0}
+.main{overflow:auto;padding:22px 26px 120px}
+.pagehead{display:flex;align-items:flex-start;gap:16px;margin-bottom:12px}
+.pagehead h1{font-size:22px;font-weight:700;color:var(--navy)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pagehead h1, :root:not([data-theme="light"]) .sect h2{color:#E6EEF5}}
+:root[data-theme="dark"] .pagehead h1, :root[data-theme="dark"] .sect h2{color:#E6EEF5}
+.pagehead p{color:var(--muted);margin-top:2px}
+.pagehead .actions{margin-left:auto;display:flex;gap:8px}
+
+/* buttons, pills, tags */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:38px;padding:0 18px;border-radius:999px;border:1px solid var(--blue);background:var(--surface);color:var(--blue);font-weight:600;cursor:pointer;white-space:nowrap}
+.btn:hover{background:var(--blue-tint)}
+.btn-red{border:0;background:var(--red);color:#fff;padding:0 22px}.btn-red:hover{background:var(--red-dark)}
+.btn-primary{border:0;background:var(--blue);color:#fff;padding:0 22px}.btn-primary:hover{background:var(--blue-dark)}
+.btn.sm{height:32px;font-size:13px;padding:0 14px}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.pill{display:inline-flex;align-items:center;justify-content:center;min-width:86px;height:22px;padding:0 10px;border-radius:3px;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+.pill-green{background:var(--green);color:#fff}.pill-lgreen{background:var(--green-tint);color:var(--green-text)}.pill-grey{background:var(--chip);color:var(--muted)}.pill-amber{background:#E8730C;color:#fff}
+.tag{display:inline-flex;align-items:center;gap:6px;min-height:24px;padding:2px 10px;border-radius:999px;background:var(--chip);font-size:12px;font-weight:600;color:var(--ink);white-space:nowrap}
+.tag.agg{background:var(--navy);color:#fff}
+.tag.del{background:var(--amber-tint);color:var(--amber);border:1px solid var(--amber-line)}
+.tag.home{background:var(--blue-tint);color:var(--blue-dark)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tag.home{color:#9CCBFA}}
+:root[data-theme="dark"] .tag.home{color:#9CCBFA}
+.tag.outline{background:transparent;border:1px solid var(--line2);color:var(--muted)}
+.tag.click{cursor:pointer}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+
+/* captions, banners, help */
+.caption{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:8px;padding:10px 14px;margin-bottom:14px}
+.caption.agg{border-left-color:var(--navy)}
+.caption.del{border-left-color:var(--amber-line)}
+.caption.meaning{border-left-color:var(--green);margin:6px 0 0}
+.caption .ic{width:26px;height:26px;border-radius:50%;background:var(--blue-tint);color:var(--blue-dark);display:grid;place-items:center;font-weight:700;flex:none}
+.caption.meaning .ic{background:var(--green-tint);color:var(--green-text)}
+.banner{display:flex;gap:10px;align-items:flex-start;border-radius:8px;padding:9px 12px;margin:6px 0 10px;font-size:13.5px;background:var(--page);border-left:4px solid var(--line2)}
+.banner.agg{background:var(--navy-tint);border-left-color:var(--navy)}
+.banner.del{background:var(--amber-tint);border-left-color:var(--amber-line)}
+.dsteps{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.st{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;border:1px solid var(--line2);color:var(--muted);background:var(--surface)}
+.st.done{color:var(--amber);border-color:var(--amber-line);background:var(--surface)}
+.st.now{background:#B86E00;color:#fff;border-color:#B86E00}
+.help{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;font-size:11px;font-weight:700;cursor:help;position:relative;vertical-align:middle;margin-left:4px;flex:none;color:var(--blue-dark);background:transparent}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .help{color:#9CCBFA}}
+:root[data-theme="dark"] .help{color:#9CCBFA}
+.firmcard .help{color:#1572C5}
+.help .tip{display:none;position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%);width:260px;background:#02324C;color:#fff;font-size:12.5px;font-weight:500;line-height:1.4;padding:10px 12px;border-radius:8px;z-index:80;text-align:left;box-shadow:0 8px 24px rgba(0,0,0,.25);text-transform:none;letter-spacing:0;white-space:normal}
+.help:hover .tip,.help:focus-visible .tip,.help.open .tip{display:block}
+.help.right .tip{left:auto;right:-4px;transform:none}
+.how{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0 0 16px}
+.how.one{grid-template-columns:1fr}
+.howcard{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:10px;padding:12px 14px}
+.howcard.del{border-top-color:var(--amber-line)}
+.howcard .hh{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.flow{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
+.flow span{background:var(--page);border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-size:12.5px;font-weight:600}
+.flow i{font-style:normal;color:var(--muted)}
+
+/* tables */
+table{width:100%;border-collapse:collapse;background:var(--surface);border-radius:10px;overflow:hidden}
+th{text-align:left;color:var(--blue);font-weight:700;font-size:12.5px;padding:10px 12px;border-bottom:1px solid var(--line)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) th{color:#9CCBFA}}
+:root[data-theme="dark"] th{color:#9CCBFA}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:middle}
+tr.row{cursor:pointer}tr.row:hover td{background:var(--page)}
+.name{font-weight:700;color:var(--blue)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .name{color:#9CCBFA}}
+:root[data-theme="dark"] .name{color:#9CCBFA}
+.sub{color:var(--muted);font-size:12.5px}
+.rowbtns{display:flex;gap:6px;white-space:nowrap}
+.rowbtns .btn{height:28px;font-size:12px;padding:0 10px}
+.toolbar{display:flex;gap:12px;align-items:center;margin:0 0 10px;flex-wrap:wrap}
+.toolbar input{height:34px;border:1px solid var(--line2);border-radius:999px;padding:0 14px;width:260px;background:var(--surface)}
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.fchip{border:1px solid var(--line2);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:600;cursor:pointer;color:var(--ink)}
+.fchip.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.sect{margin:24px 0 8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.sect h2{font-size:16px;color:var(--navy)}
+.sect .actions{margin-left:auto}
+.reviewbar{display:flex;gap:10px;align-items:center;background:var(--amber-tint);border:1px solid var(--amber-line);border-radius:8px;padding:9px 12px;margin-bottom:12px;font-size:13.5px}
+.empty{padding:14px;color:var(--muted);background:var(--surface);border:1px dashed var(--line2);border-radius:10px}
+
+/* cards for relationships */
+.relcard{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--amber-line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.relcard.agg{border-left-color:var(--navy)}
+.relcard.ended{opacity:.7}
+.relcard .rh{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.relcard .rh b{font-size:14.5px}
+.relcard .meta{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin-top:6px}
+.relcard .acts{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.group{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--navy);border-radius:10px;padding:14px;display:flex;flex-direction:column}
+.group.out{border-top-color:var(--line2);background:repeating-linear-gradient(135deg,var(--surface),var(--surface) 10px,var(--page) 10px,var(--page) 20px)}
+.group h3{font-size:15px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.group .kind{font-size:12px;color:var(--muted);margin:2px 0 10px}
+.group .firm{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:6px}
+.group .firm:hover{background:var(--page)}
+.group .firm .t{margin-left:auto;font-size:11px;color:var(--muted);white-space:nowrap}
+.group .firm .lnk{border:0;background:transparent;color:var(--red);font-weight:600;cursor:pointer;font-size:12px;padding:2px 4px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .group .firm .lnk{color:#F09595}}
+:root[data-theme="dark"] .group .firm .lnk{color:#F09595}
+.group .acts{display:flex;gap:8px;margin-top:auto;padding-top:10px;flex-wrap:wrap}
+
+/* drawer */
+.scrim{position:fixed;inset:56px 0 0 0;background:rgba(2,50,76,.35);display:none;z-index:40}
+.scrim.open{display:block}
+.drawer{position:fixed;top:56px;right:0;bottom:0;width:min(640px,100%);background:var(--surface);box-shadow:-8px 0 32px rgba(0,0,0,.25);transform:translateX(100%);transition:transform .22s ease;z-index:45;display:flex;flex-direction:column}
+.drawer.open{transform:translateX(0)}
+.drawer header{padding:16px 22px 12px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+.drawer header h2{font-size:18px;color:var(--navy);font-weight:700}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .drawer header h2{color:#E6EEF5}}
+:root[data-theme="dark"] .drawer header h2{color:#E6EEF5}
+.drawer .body{padding:14px 22px;overflow:auto;flex:1}
+.drawer footer{padding:12px 22px;border-top:1px solid var(--line);background:var(--page);display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;align-items:center}
+.drawer footer .ro{margin-right:auto}
+.x{margin-left:auto;width:34px;height:34px;border-radius:50%;border:1px solid var(--line2);background:var(--surface);cursor:pointer;color:var(--ink);flex:none}
+.sec{margin:14px 0}
+.sec h3{font-size:13px;font-weight:700;margin-bottom:8px;display:flex;align-items:center}
+.kv{display:grid;grid-template-columns:140px 1fr;gap:6px 12px;font-size:13.5px}.kv .k{color:var(--muted)}
+.before{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.before .t{background:var(--page);border-radius:8px;padding:8px;text-align:center}
+.before .n{font-size:20px;font-weight:700;color:var(--red)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .before .n{color:#F09595}}
+:root[data-theme="dark"] .before .n{color:#F09595}
+.before .l{font-size:11.5px;color:var(--muted)}
+.after{display:flex;align-items:center;gap:10px;background:var(--green-tint);color:var(--green-text);border-radius:8px;padding:9px 12px;font-weight:600;margin-top:8px}
+.tree{background:var(--page);border-radius:8px;padding:10px}
+.tree .node{display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px}
+.tree .node.p{font-weight:700}.tree .node.c{margin-left:22px}
+.tree .node.hit{background:var(--navy-tint)}
+.tree .node .rr{margin-left:auto;font-size:12px;color:var(--muted)}
+.tree .dot{width:8px;height:8px;border-radius:50%;background:var(--line2);flex:none}.tree .hit .dot{background:var(--navy)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tree .hit .dot{background:#AFA9EC}}
+:root[data-theme="dark"] .tree .hit .dot{background:#AFA9EC}
+.profile{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin-bottom:8px}
+.profile.parent{border-left:4px solid var(--navy)}.profile.home,.profile.firm{border-left:4px solid var(--line2)}.profile.sa{border-left:4px solid var(--amber-line)}
+.profile .ph{display:flex;gap:8px;align-items:center;margin-bottom:6px;flex-wrap:wrap}
+.deleg{border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-bottom:6px;font-size:13px}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#02324C;color:#fff;padding:10px 16px;border-radius:999px;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:opacity .2s;z-index:90;max-width:80vw;text-align:center}
+.toast.show{opacity:1}
+
+/* forms */
+.seg{display:inline-flex;border:1px solid var(--navy);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:var(--surface);padding:6px 14px;font-weight:600;color:var(--navy);cursor:pointer}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .seg button:not(.on){color:#E6EEF5}}
+.seg button.on{background:var(--navy);color:#fff}
+.field{margin-bottom:12px}
+.field > label{display:flex;align-items:center;font-size:12.5px;font-weight:700;margin-bottom:5px}
+.input{width:100%;height:38px;border:1px solid var(--line2);border-radius:6px;padding:0 10px;background:var(--surface)}
+.radio{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin-bottom:6px;cursor:pointer}
+.radio.on{border-color:var(--blue);background:var(--blue-tint)}
+.radio.off{opacity:.6;cursor:not-allowed}
+.radio .r{width:16px;height:16px;border-radius:50%;border:2px solid var(--line2);margin-top:2px;flex:none}
+.radio.on .r{border-color:var(--blue);background:radial-gradient(var(--blue) 45%,transparent 50%)}
+.radio .rt{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.featgrp{background:var(--page);border-radius:8px;padding:8px 12px;margin-bottom:8px}
+.featgrp .g{font-weight:700;font-size:12.5px;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.featgrp .g .count{margin-left:auto;background:var(--navy);color:#fff;border-radius:999px;font-size:11px;padding:1px 8px}
+.feat{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;font-size:13.5px}
+.feat.off{opacity:.45;cursor:not-allowed}
+.feat .cb{width:16px;height:16px;border-radius:3px;border:1.5px solid var(--line2);display:grid;place-items:center;flex:none;background:var(--surface)}
+.feat.on .cb{background:var(--navy);border-color:var(--navy);color:#fff;font-size:11px}
+.feat .why{margin-left:auto;font-size:11.5px;color:var(--muted)}
+.ulist{border:1px solid var(--line2);border-radius:6px;max-height:170px;overflow:auto;background:var(--surface)}
+.ulist button{display:flex;width:100%;text-align:left;border:0;background:transparent;padding:8px 10px;cursor:pointer;gap:8px;align-items:center}
+.ulist button:hover{background:var(--page)}
+.ulist button.on{background:var(--blue-tint)}
+.check{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;margin-bottom:6px;cursor:pointer}
+.check.on{border-color:var(--green);background:var(--green-tint)}
+.check .cb{width:18px;height:18px;border-radius:4px;border:1.5px solid var(--line2);display:grid;place-items:center;background:var(--surface);flex:none}
+.check.on .cb{background:var(--green);border-color:var(--green);color:#fff;font-size:12px}
+.check .d{font-size:12px;color:var(--muted)}
+.timeline .node{display:flex;gap:10px;padding:5px 0;font-size:13.5px}
+.timeline .dot{width:10px;height:10px;border-radius:50%;background:var(--blue);margin-top:5px;flex:none}
+.cbline{display:flex;gap:8px;align-items:center;font-size:13.5px;cursor:pointer}
+
+/* guide */
+.guide{position:fixed;left:240px;right:0;bottom:0;background:#02324C;color:#fff;padding:12px 22px calc(12px + env(safe-area-inset-bottom,0px));display:none;gap:16px;align-items:center;z-index:46;box-shadow:0 -6px 20px rgba(0,0,0,.25)}
+.guide.open{display:flex}
+.guide .no{width:34px;height:34px;border-radius:50%;background:var(--red);display:grid;place-items:center;font-weight:700;flex:none}
+.guide .txt{flex:1}.guide .txt b{display:block;font-size:14px}.guide .txt span{font-size:13px;color:#C9D7E2}
+.guide .btn{border-color:#fff;color:#fff;background:transparent}.guide .btn-primary{background:#fff;color:#02324C;border:0}
+.guide .x{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+body.guideon .drawer{bottom:78px}
+.hl{box-shadow:0 0 0 3px #fff,0 0 0 6px var(--red) !important;animation:pulse 1.6s ease-in-out infinite;border-radius:8px}
+@keyframes pulse{50%{box-shadow:0 0 0 3px #fff,0 0 0 10px rgba(131,24,30,.35)}}
+@media (prefers-reduced-motion: reduce){*{transition:none !important;animation:none !important}}
+@media (max-width:860px){.app{grid-template-columns:1fr}.nav{display:none}.guide{left:0}.main{padding:14px 14px 140px}.how{grid-template-columns:1fr}.persona button{padding:7px 9px;font-size:12px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="brand"><span class="roundel">C</span>COMPASS <span style="color:var(--red)">X</span></div>
+    <span class="tag home ver">Prototype · multi-firm · v2.0</span>
+    <div class="grow"></div>
+    <div class="persona" role="tablist" aria-label="Journey">
+      <button data-act="persona" data-id="fss" id="pFSS" class="on">Firm Security Steward</button>
+      <button data-act="persona" data-id="saa" id="pSAA">SAA · ID Admin</button>
+      <button data-act="persona" data-id="act" id="pACT">Product Activation</button>
+    </div>
+    <button class="btn btn-red sm" data-act="guide" id="guideBtn">Guide</button>
+    <button class="circ" data-act="helpall" id="helpAll" title="Show all help tips" aria-label="Show all help tips">?</button>
+    <div class="userchip"><span class="av" id="avatar">S</span><span id="whoami"></span></div>
+  </div>
+  <nav class="nav" aria-label="Compass navigation">
+    <div class="firmhome"><span class="arr">←</span>Firm Home</div>
+    <div class="firmcard" id="firmcard" data-act="firmmenu" tabindex="0" role="button">
+      <div class="lbl"><span id="ctxLbl">Signed in as steward of</span><span class="help" tabindex="0" role="button" aria-label="Help"><span aria-hidden="true">?</span><span class="tip">Pick which steward you are. A group steward can act anywhere in the group; a child firm’s steward only in that firm; a standalone firm’s steward in that firm, and can delegate its accounts.</span></span></div>
+      <div class="name"><span id="ctxName"></span><span id="ctxChange">Change ▾</span></div>
+      <div class="who" id="ctxWho"></div>
+      <div class="firmmenu" id="firmmenu"></div>
+    </div>
+    <div id="navitems"></div>
+    <div class="legend"><span><i class="sw sw-agg"></i>Group · aggregation (one step, flows down)</span><span><i class="sw sw-del"></i>Delegation (two steps, flows across)</span></div>
+    <div class="navnote">Firms and cases are Penny’s examples: Harbourfront, Cumberland, Wellington-Altus, Guardian–Fiera, Tricert, Rae &amp; Lipsky. Lakeview is invented for the demo.</div>
+  </nav>
+  <main class="main" id="main"></main>
+</div>
+<div class="scrim" id="scrim" data-act="close"></div>
+<aside class="drawer" id="drawer" aria-hidden="true"></aside>
+<div class="toast" id="toast" role="status"></div>
+<div class="guide" id="guide"><div class="no" id="gNo">1</div><div class="txt"><b id="gT"></b><span id="gS"></span></div><button class="btn sm" data-act="gprev" id="gPrev">Back</button><button class="btn btn-primary sm" data-act="gnext" id="gNext">Next</button><button class="x" data-act="gclose" id="gClose" aria-label="Close guide">✕</button></div>
+
+<script>
+/* ===================== firms ===================== */
+const FIRMS = {
+  hfg:{name:'Harbourfront Group',type:'Parent group',group:true},
+  hfw:{name:'Harbourfront Wealth',type:'IB',parent:'hfg',rr:'HF'}, kjh:{name:'KJ Harrison',type:'IB',parent:'hfg',rr:'KJ'}, rot:{name:'Rothenberg',type:'IB',parent:'hfg',rr:'RB'}, wc:{name:'Wealth Council',type:'PM',parent:'hfg',rr:'WC'},
+  cmg:{name:'Cumberland Group',type:'Parent group',group:true,note:'Bought by Harbourfront in April 2026. Kept as its own group until operations and contracts merge — then NBIN moves its firms under Harbourfront.'},
+  cpw:{name:'Cumberland Private Wealth',type:'IB',parent:'cmg',rr:'CP'}, cic:{name:'Cumberland Investment Counsel',type:'PM',parent:'cmg',rr:'CI'}, cf:{name:'Cumberland Funds',type:'IFM',parent:'cmg',rr:'CF'}, cs:{name:'Cumberland Securities',type:'IB',parent:'cmg',rr:'CS'},
+  wag:{name:'Wellington-Altus',type:'Parent group',group:true,note:'One business with two arms: an IB firm that spun off a PM firm.'},
+  wapw:{name:'Wellington-Altus Private Wealth',type:'IB',parent:'wag',rr:'WA'}, wapc:{name:'Wellington-Altus Private Counsel',type:'PM',parent:'wag',rr:'WP'},
+  gcg:{name:'Guardian Capital',type:'Parent group',group:true,note:'Guardian’s majority stake in Rae & Lipsky is an ownership stake, not a parent relationship.'},
+  gp:{name:'Guardian Partners',type:'PM',parent:'gcg',rr:'GP'},
+  rlg:{name:'Rae & Lipsky Group',type:'Parent group',group:true,note:'A parent group in its own right. It cannot also sit under Guardian Capital — one level only.'},
+  rlw:{name:'Rae & Lipsky Wealth',type:'IB',parent:'rlg',rr:'RL'}, rlc:{name:'Rae & Lipsky Counsel',type:'PM',parent:'rlg',rr:'RC'}, rlf:{name:'Rae & Lipsky Funds',type:'IFM',parent:'rlg',rr:'RF'},
+  fiera:{name:'Fiera Capital',type:'PM',rr:'FI'}, kensel:{name:'Kensel',type:'PM',rr:'KN'}, dundee:{name:'Dundee',type:'PM',rr:'DN'},
+  tricert:{name:'Tricert',type:'PM',rr:'TC'}, lake:{name:'Lakeview Private Counsel',type:'PM',rr:'LV'},
+  maple:{name:'Maple PM + Maple IFM',type:'Reporting group',reporting:true,members:['Maple Portfolio Management','Maple Funds']},
+};
+const STEWARD_OF = {hfg:'Omar Haddad',hfw:'Paul Girard',kjh:'Sana Malik',rot:'Leo Brandt',wc:'Anika Shah',cmg:'Joanne Pike',cpw:'Iris Lund',cic:'Mark Ellison',cf:'Rosa Vidal',cs:'Ken Ito',wag:'Sara Whitfield',wapw:'Julie Fontaine',wapc:'Sam Okafor',gcg:'Sergio Vitale',gp:'Marco Ferri',rlg:'Carla Benoit',rlw:'Ahmed Saleh',rlc:'Tom Becker',rlf:'Ben Stone',fiera:'Nadia Moreau',kensel:'Laura Bennett',dundee:'Robert Hale',tricert:'Michael Doyle',lake:'Diane Mercer'};
+
+/* ===================== delegations (step ①, recorded) ===================== */
+const DELEG = [
+  {id:'d1',from:'fiera',to:'gp',type:'Sub-advisory',rr:'FI 2210–2240',agreement:'SAA-2024-017',status:'ACTIVE',since:'Mar 2024',confirmed:'Jul 2026'},
+  {id:'d2',from:'kensel',to:'gp',type:'Sub-advisory',rr:'KN 0400–0418',agreement:'SAA-2023-052',status:'ACTIVE',since:'Sep 2023',confirmed:'Jul 2026'},
+  {id:'d3',from:'dundee',to:'gp',type:'Sub-advisory',rr:'DN 1100–1106',agreement:'SAA-2025-009',status:'ACTIVE',since:'Feb 2025',confirmed:'Apr 2026'},
+  {id:'d4',from:'tricert',to:null,partner:'Northway CPAs',type:'Referral',rr:'TC 5100–5120',agreement:'REF-2025-004',status:'ACTIVE',since:'Jun 2025',confirmed:'Jul 2026'},
+];
+let nextDel = 5;
+let RELREQ = [
+  {id:'REL-201',from:'lake',to:'gp',partner:null,type:'Sub-advisory',rr:'LV 3000–3020',agreement:'SAA-2026-031',status:'SUBMITTED',checks:{agr:false,risk:false,rec:false},log:['Submitted by Diane Mercer (steward, Lakeview Private Counsel)']},
+];
+let nextRel = 202;
+
+/* ===================== today’s feature list ===================== */
+const FEATURES = [
+  {g:'Clients & accounts', items:[['acc','Accounts'],['cli','Client profile'],['docs','Account documents'],['onb','Onboarding (account opening)']]},
+  {g:'Trading', items:[['ord','Orders'],['alloc','Trade allocations'],['fi','Fixed income'],['opt','Options']]},
+  {g:'Servicing', items:[['svc','Servicing (money movement, plans)'],['xfer','Transfers'],['sys','Systematic plans']]},
+  {g:'Secured Zone apps', items:[['gic','GICs'],['ff','FundFacts'],['max','MaxLite']]},
+  {g:'Reports & tools', items:[['exp','Data export'],['pan','Web Panagon'],['res','Research'],['mpp','MyPortfolio+']]},
+];
+const FEAT = {}; FEATURES.forEach(g => g.items.forEach(([k,n]) => FEAT[k] = n));
+const TRADING_ONLY = ['acc','ord','alloc','fi','opt','gic','ff','max'];
+const VIEW_ONLY = ['acc','cli','docs'];
+const ROLEFEAT = { advisor:['acc','cli','docs','onb','ord','svc','xfer','gic','ff'], assistant:['acc','cli','docs','onb','svc'], pm:['acc','cli','docs','ord','alloc','fi','gic','ff','max','res'], ops:['acc','cli','docs','svc','xfer','sys','exp','pan'], compliance:['acc','cli','docs','exp','pan','res'], steward:['acc','cli','docs'], trader:['acc','ord','alloc','fi','opt'] };
+
+/* ===================== people ===================== */
+let seq = 1; const PEOPLE = [];
+function person(name, role){ const p = {id:'u'+(seq++), name, role, status:'ACTIVE', profiles:[], linked:{sz:[],r2:null}, before:{cx:1,nr:1,sz:1}}; PEOPLE.push(p); return p; }
+function addProfile(p, kind, firm, key, rr, extra){ p.profiles.push(Object.assign({kind, firm, features:[...(ROLEFEAT[key]||[])], rr}, extra||{})); return p; }
+function firmUsers(firm, rows){ rows.forEach(([n, role, key, num]) => { const p = person(n, role + ' · ' + FIRMS[firm].name); addProfile(p, 'firm', firm, key, {[firm]: FIRMS[firm].rr + ' ' + num}); p.linked = {sz:['SZ · '+FIRMS[firm].rr+' '+num], r2:'R2 · '+FIRMS[firm].rr+'-'+n.split(' ')[0].toUpperCase()}; }); }
+/* Harbourfront Group */
+const aaron = person('Aaron Chen','Back office · Harbourfront Group'); addProfile(aaron,'parent','hfg','ops',{hfw:'HF 1001–1040',kjh:'KJ 2001–2015',rot:'RB 3001–3012',wc:'WC 4001–4006'}); aaron.before={cx:7,nr:7,sz:7}; aaron.linked={sz:['SZ · HF 0021','SZ · KJ 0017','SZ · RB 0009','SZ · WC 0004'],r2:'R2 · HF-AARON'}; aaron.why='Penny’s example: Aaron exists seven times today because Compass can only put a person in one firm. With a group-wide profile he exists once and reaches the firms he works for.';
+const lena = person('Lena Ortiz','Compliance · Harbourfront Group'); addProfile(lena,'parent','hfg','compliance',{hfw:'HF 1001–1040',kjh:'KJ 2001–2015'}); lena.before={cx:2,nr:2,sz:3}; lena.linked={sz:['SZ · HF 0030','SZ · KJ 0022'],r2:'R2 · HF-LENA'}; lena.why='A group-wide profile does not have to reach every firm. Lena supervises two of the four.';
+const omar = person('Omar Haddad','Steward · Harbourfront Group'); addProfile(omar,'parent','hfg','steward',{hfw:'all',kjh:'all',rot:'all',wc:'all'}); omar.before={cx:4,nr:4,sz:4}; omar.linked={sz:['SZ · HF 0002'],r2:'R2 · HF-OMAR'}; omar.why='The group steward: sees everyone in the four firms and raises requests anywhere in the group.';
+firmUsers('hfw',[['Paul Girard','Steward','steward','1002'],['Marc Tremblay','Advisor','advisor','1012'],['Sofia Reyes','Advisor','advisor','1018'],['Daniel Wu','Assistant','assistant','1019'],['Grace Park','Advisor','advisor','1027'],['Ethan Cole','Operations','ops','1031']]);
+firmUsers('kjh',[['Sana Malik','Steward','steward','2001'],['Nadia Rahman','Advisor','advisor','2003'],['Liam Foster','Advisor','advisor','2005'],['Isabelle Roy','Assistant','assistant','2006'],['Victor Nguyen','Portfolio manager','pm','2011']]);
+firmUsers('rot',[['Leo Brandt','Steward','steward','3001'],['Hannah Levy','Advisor','advisor','3002'],['Jonas Berg','Advisor','advisor','3004'],['Maya Singh','Assistant','assistant','3005'],['Felix Moreau','Operations','ops','3010']]);
+firmUsers('wc',[['Anika Shah','Steward','steward','4002'],['Claire Dubois','Portfolio manager','pm','4001'],['Ravi Patel','Portfolio manager','pm','4003'],['Emma Lindqvist','Assistant','assistant','4004'],['Noah Adams','Trader','trader','4005']]);
+/* Cumberland Group */
+const joanne = person('Joanne Pike','Steward · Cumberland Group'); addProfile(joanne,'parent','cmg','steward',{cpw:'all',cic:'all',cf:'all',cs:'all'}); joanne.before={cx:4,nr:4,sz:4}; joanne.linked={sz:['SZ · CP 0012','SZ · CI 0005'],r2:'R2 · CM-JOANNE'}; joanne.why='Cumberland belongs to Harbourfront on paper but not yet in operations, so it stays its own group and Joanne is not visible under Harbourfront.';
+firmUsers('cpw',[['Iris Lund','Steward','steward','6002'],['Peter Galloway','Advisor','advisor','6001'],['Amira Said','Advisor','advisor','6004'],['Tom Ellis','Assistant','assistant','6005'],['Yuki Tanaka','Operations','ops','6011']]);
+firmUsers('cic',[['Mark Ellison','Steward','steward','6103'],['Helen Marsh','Portfolio manager','pm','6101'],['Carlos Mendes','Portfolio manager','pm','6102'],['Ingrid Olsen','Assistant','assistant','6104'],['Samuel Osei','Trader','trader','6105']]);
+firmUsers('cf',[['Rosa Vidal','Steward','steward','6205'],['Priscilla Lau','Fund operations','ops','6201'],['Bruno Costa','Fund operations','ops','6202'],['Alice Morin','Compliance','compliance','6203'],['Kwame Boateng','Assistant','assistant','6204']]);
+firmUsers('cs',[['Ken Ito','Steward','steward','6302'],['Rachel Stern','Advisor','advisor','6301'],['Diego Alvarez','Advisor','advisor','6303'],['Mia Johansson','Assistant','assistant','6304'],['Oliver Grant','Operations','ops','6309']]);
+/* Wellington-Altus */
+const devin = person('Devin Clarke','Operations · Wellington-Altus'); addProfile(devin,'parent','wag','ops',{wapw:'WA 8001–8120',wapc:'WP 8500–8530'}); devin.before={cx:2,nr:2,sz:2}; devin.linked={sz:['SZ · WA 0102','SZ · WP 0019'],r2:'R2 · WA-DEVIN'}; devin.why='The IB + PM case: one business, two registrations. Devin served both arms with two of everything.';
+const sara = person('Sara Whitfield','Steward · Wellington-Altus'); addProfile(sara,'parent','wag','steward',{wapw:'all',wapc:'all'}); sara.before={cx:2,nr:2,sz:2}; sara.linked={sz:['SZ · WA 0001'],r2:'R2 · WA-SARA'};
+firmUsers('wapw',[['Julie Fontaine','Steward','steward','8002'],['Ben Carter','Advisor','advisor','8010'],['Chloe Martin','Advisor','advisor','8014'],['Arjun Mehta','Assistant','assistant','8015'],['Zoe Fraser','Advisor','advisor','8022'],['Luc Gagnon','Operations','ops','8030']]);
+firmUsers('wapc',[['Sam Okafor','Steward','steward','8502'],['Nina Kowalski','Portfolio manager','pm','8501'],['Hugo Lefebvre','Portfolio manager','pm','8503'],['Tara Quinn','Assistant','assistant','8504'],['Idris Bello','Trader','trader','8506']]);
+/* Guardian Capital + Guardian Partners */
+const sergio = person('Sergio Vitale','Oversight & steward · Guardian Capital'); addProfile(sergio,'parent','gcg','compliance',{gp:'GP 7001–7030'}); sergio.before={cx:2,nr:1,sz:2}; sergio.linked={sz:['SZ · GC 0002','SZ · GP 0001'],r2:'R2 · GC-SERGIO'}; sergio.why='Two IDs just to oversee the child firm. A group-wide profile with view and reporting replaces them.';
+const nora = person('Nora Bianchi','Portfolio manager · Guardian Partners'); addProfile(nora,'home','gp','pm',{gp:'GP 7001–7030'}); addProfile(nora,'sa','gp','trader',{},{delegations:['d1','d2','d3'],features:[...TRADING_ONLY]}); nora.before={cx:4,nr:4,sz:4}; nora.linked={sz:['SZ · GP 0007','SZ · FI 0211','SZ · KN 0038','SZ · DN 0015'],r2:'R2 · GP-NORA'}; nora.why='Penny’s Fiera–Guardian example. Fiera owns the clients; Nora trades the accounts. Today she is created inside Fiera, Kensel and Dundee as if she worked there.';
+const theo = person('Theo Lambert','Portfolio manager · Guardian Partners'); addProfile(theo,'home','gp','pm',{gp:'GP 7001–7030'}); addProfile(theo,'sa','gp','trader',{},{delegations:['d1'],features:[...TRADING_ONLY]}); theo.before={cx:2,nr:2,sz:2}; theo.linked={sz:['SZ · GP 0011','SZ · FI 0219'],r2:'R2 · GP-THEO'}; theo.why='Trades for Fiera only. Same mechanism as Nora, one delegation.';
+firmUsers('gp',[['Marco Ferri','Steward','steward','7001'],['Elena Petrova','Portfolio manager','pm','7004'],['Jack Morrison','Trader','trader','7009'],['Aisha Khan','Assistant','assistant','7012']]);
+/* Rae & Lipsky Group */
+const carla = person('Carla Benoit','Steward · Rae & Lipsky Group'); addProfile(carla,'parent','rlg','steward',{rlw:'all',rlc:'all',rlf:'all'}); carla.before={cx:3,nr:3,sz:3}; carla.linked={sz:['SZ · RL 0001'],r2:'R2 · RL-CARLA'};
+firmUsers('rlw',[['Ahmed Saleh','Steward','steward','9001'],['Dana Wolfe','Advisor','advisor','9004'],['Peter Hsu','Advisor','advisor','9006'],['Lucy Moore','Assistant','assistant','9007']]);
+firmUsers('rlc',[['Tom Becker','Steward','steward','9101'],['Elise Martin','Portfolio manager','pm','9102'],['Jonah Weiss','Portfolio manager','pm','9104'],['Priyanka Das','Assistant','assistant','9105']]);
+firmUsers('rlf',[['Ben Stone','Steward','steward','9201'],['Wendy Cho','Fund operations','ops','9202'],['Raj Menon','Fund operations','ops','9203'],['Olga Ivanova','Compliance','compliance','9204']]);
+/* standalone firms */
+firmUsers('fiera',[['Nadia Moreau','Steward','steward','0001'],['Simon Baptiste','Portfolio manager','pm','2201'],['Olivia Chan','Advisor','advisor','2215'],['Pavel Novak','Operations','ops','2230']]);
+firmUsers('kensel',[['Laura Bennett','Steward','steward','0001'],['Mateo Ruiz','Portfolio manager','pm','0402'],['Kai Nakamura','Assistant','assistant','0405'],['Jade Thompson','Operations','ops','0410']]);
+firmUsers('dundee',[['Robert Hale','Steward','steward','0001'],['Ana Lima','Portfolio manager','pm','1102'],['George Fox','Advisor','advisor','1104'],['Leila Nasser','Assistant','assistant','1105']]);
+firmUsers('tricert',[['Michael Doyle','Steward','steward','0001'],['Sunita Rao','Portfolio manager','pm','5102'],['Adam Brooks','Portfolio manager','pm','5107'],['Fatima Zahra','Operations','ops','5115']]);
+firmUsers('lake',[['Diane Mercer','Steward','steward','0001'],['Tomás Rivera','Portfolio manager','pm','3001'],['Grace Lin','Advisor','advisor','3005'],['Noor Hamdan','Assistant','assistant','3007'],['Ian Walsh','Operations','ops','3012']]);
+const priya = person('Priya Nair','Referral partner · Northway CPAs'); addProfile(priya,'sa','tricert','steward',{},{delegations:['d4'],features:[...VIEW_ONLY],referral:true}); priya.before={cx:1,nr:0,sz:1}; priya.linked={sz:['SZ · TC 0066'],r2:null}; priya.why='Tricert’s accountant partners own the client relationship and need to see the accounts. A referral profile shows what they are and limits them to viewing.';
+const kevm = person('Kevin Marsh','Referral partner · Northway CPAs'); addProfile(kevm,'sa','tricert','steward',{},{delegations:['d4'],features:[...VIEW_ONLY],referral:true}); kevm.before={cx:1,nr:0,sz:1}; kevm.linked={sz:['SZ · TC 0067'],r2:null};
+
+/* ===================== access requests ===================== */
+const byName = n => PEOPLE.find(p => p.name === n);
+let REQ = [
+  {id:'R-10421',type:'Create',pid:aaron.id,ctx:'hfg',kindP:'parent',rr:{hfw:'HF 1001–1040',kjh:'KJ 2001–2015',rot:'RB 3001–3012',wc:'WC 4001–4006'},features:[...ROLEFEAT.ops],dels:[],status:'COMPLETE',by:'hfg',done:{cx:true,sz:true,r2:true,link:true},log:['Submitted by Omar Haddad (steward, Harbourfront Group)','Picked up by ID Admin','Compass profile created · group-wide','Secured Zone and R2 profiles configured','SZ and R2 IDs linked to the Compass profile','Completed · one-time credentials released'],applied:true},
+  {id:'R-10488',type:'Modify',pid:nora.id,ctx:'gp',kindP:'sa',rr:{},features:[...TRADING_ONLY],dels:['d1','d2','d3'],status:'UNDER REVIEW',by:'gp',done:{cx:true,sz:false,r2:false,link:false},log:['Submitted by Marco Ferri (steward, Guardian Partners) · delegations checked: SAA-2024-017, SAA-2023-052, SAA-2025-009','Picked up by ID Admin','Compass: delegated-accounts profile configured · done']},
+  {id:'R-10502',type:'Modify',pid:joanne.id,ctx:'cmg',kindP:'parent',rr:{cpw:'all',cic:'all',cf:'all',cs:'all'},features:[...ROLEFEAT.steward],dels:[],status:'SUBMITTED',by:'cmg',done:{cx:false,sz:false,r2:false,link:false},log:['Submitted by Joanne Pike (steward, Cumberland Group)']},
+  {id:'R-10510',type:'Deactivate',pid:byName('Felix Moreau').id,ctx:'rot',kindP:'firm',rr:{},features:[],dels:[],status:'SUBMITTED',by:'rot',done:{cx:false,sz:false,r2:false,link:false},log:['Submitted by Leo Brandt (steward, Rothenberg) · leaver, last day Oct 31']},
+];
+let nextReq = 10520;
+
+/* ===================== state & helpers ===================== */
+let persona = 'fss', me = 'hfg', screen = 'users', filter = 'all', search = '', guide = -1;
+let FORM = null, LEND = null, GC = null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fname = id => id && FIRMS[id] ? FIRMS[id].name : (id || '');
+const isGroup = f => !!(FIRMS[f] && FIRMS[f].group && !FIRMS[f].dissolved);
+const children = g => Object.keys(FIRMS).filter(k => FIRMS[k].parent === g);
+const groupOf = f => FIRMS[f] && FIRMS[f].parent ? FIRMS[f].parent : f;
+const scopeOf = f => isGroup(f) ? [f, ...children(f)] : [f];
+const byId = id => PEOPLE.find(p => p.id === id);
+const dl = id => DELEG.find(d => d.id === id);
+const stewardName = f => STEWARD_OF[f] || 'Steward';
+const mainProfile = p => p.profiles.find(x => x.kind !== 'sa') || p.profiles[0];
+const managedBy = p => { const mp = mainProfile(p); return mp ? mp.firm : null; };
+const canManage = p => persona === 'fss' && p.profiles.length > 0 && scopeOf(me).includes(managedBy(p));
+const help = (t, right) => `<span class="help${right ? ' right' : ''}" tabindex="0" role="button" aria-label="Help"><span aria-hidden="true">?</span><span class="tip">${esc(t)}</span></span>`;
+const PILL = {COMPLETE:'pill-green','UNDER REVIEW':'pill-lgreen',SUBMITTED:'pill-lgreen',REJECTED:'pill-amber',CANCELLED:'pill-grey',APPROVED:'pill-green',ACTIVE:'pill-green',ENDED:'pill-grey',INACTIVE:'pill-grey',INVITED:'pill-grey'};
+const pill = s => `<span class="pill ${PILL[s] || 'pill-grey'}">${esc(s)}</span>`;
+const uniq = a => [...new Set(a)];
+function toast(m){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.remove('show'), 3400); }
+function inList(p, f){ const sc = scopeOf(f); return p.profiles.some(pr => sc.includes(pr.firm) || (pr.rr && Object.keys(pr.rr).some(k => sc.includes(k)))); }
+function outgoing(f){ const sc = scopeOf(f); return DELEG.filter(d => sc.includes(d.from)); }
+function incoming(f){ const sc = scopeOf(f); return DELEG.filter(d => d.to && sc.includes(d.to)); }
+function usersOfDeleg(d){ return PEOPLE.filter(p => p.status !== 'INACTIVE' && p.profiles.some(pr => pr.kind === 'sa' && pr.delegations.includes(d.id))); }
+function reach(p){ const out = [], seen = new Set();
+  p.profiles.forEach(pr => {
+    if (pr.kind === 'sa') pr.delegations.forEach(id => { const d = dl(id); if (d && d.status === 'ACTIVE' && !seen.has(d.from)) { seen.add(d.from); out.push({f:d.from, via:'del'}); } });
+    else (pr.rr ? Object.keys(pr.rr) : [pr.firm]).forEach(k => { if (!seen.has(k)) { seen.add(k); out.push({f:k, via: pr.kind === 'parent' ? 'agg' : 'own'}); } });
+  }); return out; }
+function ptag(pr){
+  if (pr.kind === 'parent') return `<span class="tag agg">Group-wide · ${esc(fname(pr.firm))}</span>`;
+  if (pr.kind === 'sa') { const ds = pr.delegations.map(dl).filter(Boolean); return `<span class="tag del">${pr.referral ? 'Referral partner' : 'Delegated accounts'} · ${esc(pr.referral ? uniq(ds.map(d => d.partner)).join(', ') : uniq(ds.map(d => fname(d.from))).join(', ')) || 'none'}</span>`; }
+  if (pr.kind === 'home') return `<span class="tag home">Home · ${esc(fname(pr.firm))}</span>`;
+  return `<span class="tag">Firm · ${esc(fname(pr.firm))}</span>`;
+}
+const cap = (html, cls) => `<div class="caption ${cls || ''}"><div class="ic">i</div><div>${html}</div></div>`;
+function howPanel(only){
+  const agg = `<div class="howcard agg"><div class="hh"><span class="tag agg">Aggregation</span><b>One step · flows down</b></div><div class="flow"><span>Group steward</span><i>→</i><span>any firm in the group</span><i>→</i><span>SAA sets it up</span></div><div class="sub">A child firm’s steward can only set up people in their own firm. No other firm approves — the group owns its firms. NBIN Product Activation records a firm joining or leaving a group when the merger is final.</div></div>`;
+  const del = `<div class="howcard del"><div class="hh"><span class="tag del">Delegation</span><b>Two steps · flows across</b></div><div class="flow"><span>① owner delegates accounts</span><i>→</i><span>NBIN checks the agreement</span><i>→</i><span>② receiving firm picks its people</span></div><div class="sub">③ The owner can end it any time, and everything given through it disappears. The owner never creates the other firm’s people; the receiving firm can never take more than was delegated.</div></div>`;
+  return `<div class="how${only ? ' one' : ''}">${only === 'agg' ? agg : only === 'del' ? del : agg + del}</div>`;
+}
+
+/* ===================== persona, steward, nav ===================== */
+function setPersona(p){ persona = p; ['fss','saa','act'].forEach(k => $('#p' + k.toUpperCase()).classList.toggle('on', k === p));
+  const fc = $('#firmcard'); fc.classList.toggle('static', p !== 'fss');
+  if (p === 'fss') { screen = 'users'; } else if (p === 'saa') { screen = 'queue'; } else { screen = 'relq'; }
+  filter = 'all'; search = ''; closeDrawer(); render(); }
+function setMe(f){ me = f; filter = 'all'; search = ''; if (persona !== 'fss') return; screen = 'users'; closeDrawer(); render(); }
+function renderChrome(){
+  if (persona === 'fss') {
+    if (FIRMS[me] && FIRMS[me].dissolved) me = FIRMS[me].mergedInto || 'hfg';
+    $('#ctxLbl').textContent = 'Signed in as steward of'; $('#ctxName').textContent = fname(me); $('#ctxChange').textContent = 'Change ▾';
+    $('#ctxWho').textContent = stewardName(me) + (isGroup(me) ? ' · group steward' : groupOf(me) !== me ? ' · steward of a firm in ' + fname(groupOf(me)) : ' · standalone firm');
+    $('#avatar').textContent = stewardName(me).split(' ').map(x => x[0]).join('').slice(0, 2); $('#whoami').textContent = stewardName(me) + ' · ' + fname(me);
+  } else {
+    $('#ctxLbl').textContent = 'Scope'; $('#ctxName').textContent = 'All firms'; $('#ctxChange').textContent = '';
+    $('#ctxWho').textContent = persona === 'saa' ? 'NBIN · provisions access' : 'NBIN · records firm relationships';
+    $('#avatar').textContent = persona === 'saa' ? 'ID' : 'PA'; $('#whoami').textContent = persona === 'saa' ? 'ID Admin · NBIN' : 'Product Activation · NBIN';
+  }
+  renderFirmMenu(); renderNav();
+}
+function renderFirmMenu(){
+  let h = '<div class="mh">Groups</div>';
+  Object.keys(FIRMS).filter(isGroup).forEach(g => {
+    h += `<button class="parent" data-act="pickme" data-id="${g}"><span>🏢 ${esc(FIRMS[g].name)}</span><span class="t">${esc(stewardName(g))}</span></button>`;
+    children(g).forEach(c => h += `<button class="child" data-act="pickme" data-id="${c}"><span>${esc(FIRMS[c].name)}</span><span class="t">${esc(stewardName(c))}</span></button>`);
+  });
+  h += '<div class="mh">Standalone firms</div>';
+  Object.keys(FIRMS).filter(k => !FIRMS[k].group && !FIRMS[k].parent && !FIRMS[k].reporting).sort((a, b) => fname(a).localeCompare(fname(b))).forEach(f => h += `<button class="parent" data-act="pickme" data-id="${f}"><span>🏢 ${esc(FIRMS[f].name)}</span><span class="t">${esc(stewardName(f))}</span></button>`);
+  $('#firmmenu').innerHTML = h;
+}
+function renderNav(){
+  const items = persona === 'fss' ? [['users','👥','Users'],['requests','📨','My requests'],['relationships','🔗','Relationships']]
+    : persona === 'saa' ? [['queue','🗂️','Queue'],['allusers','👥','All users']]
+    : [['relq','📥','Relationship requests'],['groups','🏢','Groups'],['dels','🔁','Delegations']];
+  $('#navitems').innerHTML = items.map(([k,i,l]) => `<button class="navitem${screen === k ? ' active' : ''}" data-act="nav" data-id="${k}"><span>${i}</span>${l}<span class="nb" id="nb-${k}"></span></button>`).join('');
+  const set = (k, v) => { const e = $('#nb-' + k); if (e) e.textContent = v; };
+  if (persona === 'fss') { set('users', PEOPLE.filter(p => inList(p, me)).length); set('requests', myRequests().filter(r => r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW').length); set('relationships', outgoing(me).filter(d => d.status === 'ACTIVE').length + incoming(me).filter(d => d.status === 'ACTIVE').length); }
+  if (persona === 'saa') { set('queue', REQ.filter(r => r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW').length); set('allusers', PEOPLE.length); }
+  if (persona === 'act') { set('relq', RELREQ.filter(r => r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW').length); set('groups', Object.keys(FIRMS).filter(isGroup).length); set('dels', DELEG.filter(d => d.status === 'ACTIVE').length); }
+}
+function myRequests(){ const sc = scopeOf(me); return REQ.filter(r => sc.includes(r.by) || sc.includes(r.ctx)); }
+
+/* ===================== screens ===================== */
+function render(){ renderChrome(); const m = $('#main');
+  const fn = {users:scrUsers, requests:scrRequests, relationships:scrRel, queue:scrQueue, allusers:scrAllUsers, relq:scrRelq, groups:scrGroups, dels:scrDels}[screen] || scrUsers;
+  m.innerHTML = fn(); }
+function filteredList(){ let list = PEOPLE.filter(p => inList(p, me));
+  if (isGroup(me) && filter !== 'all') list = filter === 'group' ? list.filter(p => { const mp = mainProfile(p); return mp && mp.kind === 'parent'; }) : list.filter(p => p.profiles.some(pr => pr.firm === filter || (pr.rr && pr.rr[filter])));
+  const q = search.toLowerCase(); if (q) list = list.filter(p => p.name.toLowerCase().includes(q) || p.role.toLowerCase().includes(q) || reach(p).some(r => fname(r.f).toLowerCase().includes(q)));
+  return list; }
+function reachChips(p){ return reach(p).map(r => `<span class="tag ${r.via === 'del' ? 'del' : r.via === 'agg' ? 'outline' : ''}">${esc(fname(r.f))}</span>`).join(''); }
+function statusCell(p){ return p.needsReview ? '<span class="pill pill-amber">REVIEW</span>' : pill(p.status); }
+function userRows(list){
+  if (!list.length) return `<tr><td colspan="6" class="sub">No one matches. Try a firm name or a person.</td></tr>`;
+  return list.map(p => `<tr class="row" data-act="user" data-id="${p.id}" tabindex="0"><td><div class="name">${esc(p.name)}</div><div class="sub">${esc(p.role)}</div></td><td><div class="chips">${p.profiles.map(ptag).join('') || '<span class="sub">none</span>'}</div></td><td><div class="chips">${reachChips(p)}</div></td><td class="sub">${p.linked.sz.length} SZ${p.linked.r2 ? ' · 1 R2' : ''}</td><td>${statusCell(p)}</td><td>${canManage(p) ? (p.status === 'INACTIVE' ? '<span class="sub">inactive</span>' : `<div class="rowbtns"><button class="btn" data-act="modify" data-id="${p.id}">Modify</button><button class="btn btn-red" data-act="deact" data-id="${p.id}">Deactivate</button></div>`) : `<span class="sub">Managed by ${esc(fname(managedBy(p)))}</span>`}</td></tr>`).join('');
+}
+function scrUsers(){
+  const g = isGroup(me), grp = groupOf(me), inG = grp !== me && isGroup(grp);
+  const list = filteredList();
+  let capText;
+  if (g) capText = `<b>Aggregation.</b> You are the steward of <b>${esc(fname(me))}</b> and its ${children(me).length} firms. Everyone with a profile anywhere in the group is here, and you can raise requests for any of them. ${help('One step, flows down: the group owns its firms, so no other firm approves your requests. Each child firm also has its own steward, who can act only inside that firm.')}`;
+  else if (inG) capText = `<b>Aggregation.</b> You are the steward of <b>${esc(fname(me))}</b> only, a firm in <b>${esc(fname(grp))}</b>. You manage your firm’s people. People with a group-wide profile that reaches your firm are listed too, but only the ${esc(fname(grp))} steward can change them. ${help('A child firm’s steward cannot create group-wide profiles or touch a sister firm. That is the group steward’s job.')}`;
+  else capText = `You are the steward of <b>${esc(fname(me))}</b>, a standalone firm.${outgoing(me).some(d => d.status === 'ACTIVE') ? ' You also <b>delegate accounts</b> to other firms — the people who use them are listed below.' : ''}${incoming(me).some(d => d.status === 'ACTIVE') ? ' Other firms <b>delegate accounts to you</b>.' : ''}`;
+  const reviewN = PEOPLE.filter(p => p.needsReview && inList(p, me)).length;
+  const kids = g ? children(me) : [];
+  let h = `<div class="pagehead"><div><h1>Users</h1><p>${esc(fname(me))} · ${PEOPLE.filter(p => inList(p, me)).length} people</p></div><div class="actions"><button class="btn btn-red" data-act="newreq" id="newReq">New request</button></div></div>
+  ${cap(capText, g || inG ? 'agg' : '')}
+  ${reviewN ? `<div class="reviewbar"><span class="pill pill-amber">REVIEW</span><span>${reviewN} group-wide profile${reviewN > 1 ? 's' : ''} came in with a merger and need${reviewN > 1 ? '' : 's'} a decision. Open the person and use Modify to confirm or change where they work.</span></div>` : ''}
+  <div class="toolbar"><input id="search" placeholder="Search people or firms" value="${esc(search)}" aria-label="Search">
+  ${g ? `<div class="filters"><button class="fchip${filter === 'all' ? ' on' : ''}" data-act="filter" data-id="all">All</button><button class="fchip${filter === 'group' ? ' on' : ''}" data-act="filter" data-id="group">Group-wide only</button>${kids.map(c => `<button class="fchip${filter === c ? ' on' : ''}" data-act="filter" data-id="${c}">${esc(fname(c))}</button>`).join('')}</div>` : ''}</div>
+  <table><thead><tr><th>Person</th><th>Profiles ${help('One person can hold more than one profile: a group-wide profile that reaches several firms, or a home profile plus a profile on accounts another firm delegated. Today one ID holds one profile — the open design decision.')}</th><th>Reach ${help('Firms whose accounts this person can act on. Plain = own firm, outlined = through the group, amber = through a delegation.')}</th><th>Linked IDs</th><th>Status</th><th></th></tr></thead><tbody id="urows">${userRows(list)}</tbody></table>`;
+  const outs = outgoing(me).filter(d => d.type === 'Sub-advisory' && d.status === 'ACTIVE');
+  if (outs.length) {
+    const rows = outs.flatMap(d => usersOfDeleg(d).map(p => ({p, d})));
+    h += `<div class="sect" id="lenderSect"><span class="tag del">Delegation</span><h2>People from other firms using your accounts</h2>${help('You delegated these accounts (step ①). The receiving firm’s steward chose these people (step ②). You can see them but not change them; to stop it, end the delegation in Relationships (step ③).')}</div>
+    ${cap('These people work for other firms. You cannot change them — that is their own steward’s job. You decide whether the delegation continues.', 'del')}
+    ${rows.length ? `<table><thead><tr><th>Person</th><th>Works for</th><th>Your accounts they use</th><th>Agreement</th><th></th></tr></thead><tbody>${rows.map(({p, d}) => `<tr class="row" data-act="user" data-id="${p.id}"><td><div class="name">${esc(p.name)}</div><div class="sub">${esc(p.role)}</div></td><td>${esc(fname(d.to))}</td><td><span class="tag del">${esc(d.rr)}</span> <span class="sub">trading only</span></td><td class="sub">${esc(d.agreement)}</td><td><span class="sub">Managed by ${esc(fname(d.to))}</span></td></tr>`).join('')}</tbody></table>` : '<div class="empty">Nobody uses your delegated accounts yet. The receiving firm’s steward chooses who does.</div>'}`;
+  }
+  return h;
+}
+function scrAllUsers(){
+  const q = search.toLowerCase(); const list = PEOPLE.filter(p => !q || p.name.toLowerCase().includes(q) || p.role.toLowerCase().includes(q));
+  return `<div class="pagehead"><div><h1>All users</h1><p>All firms · ${PEOPLE.length} people</p></div></div>
+  ${cap('Every person on the platform, with their profiles and linked IDs. The SAA team works from the queue; this list is for lookup. Requests are raised by firm stewards only.')}
+  <div class="toolbar"><input id="search" placeholder="Search people" value="${esc(search)}" aria-label="Search"></div>
+  <table><thead><tr><th>Person</th><th>Profiles</th><th>Reach</th><th>Linked IDs</th><th>Status</th><th>Managed by</th></tr></thead><tbody id="urows">${list.map(p => `<tr class="row" data-act="user" data-id="${p.id}"><td><div class="name">${esc(p.name)}</div><div class="sub">${esc(p.role)}</div></td><td><div class="chips">${p.profiles.map(ptag).join('') || '<span class="sub">none</span>'}</div></td><td><div class="chips">${reachChips(p)}</div></td><td class="sub">${p.linked.sz.length} SZ${p.linked.r2 ? ' · 1 R2' : ''}</td><td>${statusCell(p)}</td><td class="sub">${esc(fname(managedBy(p)) || '—')}</td></tr>`).join('')}</tbody></table>`;
+}
+function reqKindTag(r){ return r.type === 'Clean-up' ? '<span class="tag outline">clean-up</span>' : r.kindP === 'parent' ? '<span class="tag agg">group-wide</span>' : r.kindP === 'sa' ? '<span class="tag del">delegated</span>' : r.kindP === 'ref' ? '<span class="tag del">referral</span>' : ''; }
+function reqRow(r){ const p = r.pid ? byId(r.pid) : null; return `<tr class="row" data-act="req" data-id="${r.id}" tabindex="0"><td class="name">${r.id}</td><td>${esc(r.type)}</td><td>${esc(p ? p.name : r.newName)}</td><td><div class="chips"><span class="tag">${esc(fname(r.ctx))}</span>${reqKindTag(r)}</div></td><td>${pill(r.status)}</td></tr>`; }
+function scrRequests(){ const list = myRequests();
+  return `<div class="pagehead"><div><h1>My requests</h1><p>${esc(fname(me))} · requests sent to the SAA team</p></div><div class="actions"><button class="btn btn-red" data-act="newreq" id="newReq">New request</button></div></div>
+  ${cap('One intake for create, modify and deactivate, for every kind of profile. The same request appears in the SAA queue — switch to the SAA journey at the top to process it. Clean-ups are raised automatically when a relationship change removes access.')}
+  <table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Where</th><th>Status</th></tr></thead><tbody>${list.length ? list.map(reqRow).join('') : '<tr><td colspan="5" class="sub">No requests yet. Start one with New request.</td></tr>'}</tbody></table>`; }
+function delCard(d, side){
+  const users = usersOfDeleg(d); const ended = d.status !== 'ACTIVE'; const to = d.to ? fname(d.to) : d.partner;
+  const acts = side === 'out' && !ended ? `<button class="btn sm" data-act="confirmdel" data-id="${d.id}">Confirm still valid</button><button class="btn btn-red sm" data-act="enddel" data-id="${d.id}">End delegation</button>${help('Confirming is your attestation of the relationship, not of the people. Ending it removes every access given through it, immediately.')}` : side === 'in' && !ended ? `<span class="sub">Only ${esc(fname(d.from))} can end this. To choose who uses these accounts, raise a request from Users.</span>` : '';
+  return `<div class="relcard${ended ? ' ended' : ''}" data-del="${d.id}"><div class="rh"><span class="tag del">${d.type === 'Referral' ? 'Delegation · referral' : 'Delegation · sub-advisory'}</span><b>${esc(fname(d.from))} → ${esc(to)}</b>${pill(d.status)}</div>
+    <div class="meta"><span>Accounts: <b>${esc(d.rr)}</b></span><span>${d.type === 'Referral' ? 'View only' : 'Trading only'}</span><span>Agreement ${esc(d.agreement)}</span><span>Since ${esc(d.since)}</span>${ended ? `<span>Ended ${esc(d.ended || '')}</span>` : `<span>Last confirmed ${esc(d.confirmed)}</span>`}</div>
+    <div class="meta"><span>${users.length ? 'Used by: ' + users.map(u => esc(u.name)).join(', ') : 'Nobody uses these accounts yet'}</span></div>
+    <div class="acts">${acts}</div></div>`;
+}
+function scrRel(){
+  const grp = groupOf(me); let h = `<div class="pagehead"><div><h1>Relationships</h1><p>${esc(fname(me))} · groups and delegations</p></div></div>${cap('How your firm is connected to others. Group membership is recorded by NBIN and you cannot change it. Delegations you can: you start step ① for accounts your firm owns, and you choose your people (step ②) for accounts delegated to you.')}${howPanel()}`;
+  h += `<div class="sect"><span class="tag agg">Aggregation</span><h2>Your group</h2>${help('Group membership is recorded by NBIN Product Activation when a merger or acquisition is final — operationally and contractually. Stewards cannot change it.')}</div>`;
+  if (isGroup(grp)) {
+    h += `<div class="relcard agg"><div class="tree"><div class="node p${grp === me ? ' hit' : ''}"><span class="dot"></span>${esc(fname(grp))}<span class="rr">${grp === me ? 'you are the group steward' : 'parent group · ' + esc(stewardName(grp))}</span></div>${children(grp).map(c => `<div class="node c${c === me ? ' hit' : ''}"><span class="dot"></span>${esc(fname(c))}<span class="rr">${c === me ? 'you are this firm’s steward' : FIRMS[c].type + ' · ' + esc(stewardName(c))}</span></div>`).join('')}</div><div class="sub" style="margin-top:6px">One level only. ${esc(FIRMS[grp].note || '')}</div></div>`;
+  } else h += `<div class="empty">${esc(fname(me))} is not part of a group.</div>`;
+  const outs = outgoing(me), pend = RELREQ.filter(r => scopeOf(me).includes(r.from) && (r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'));
+  h += `<div class="sect"><span class="tag del">Delegation</span><h2>Accounts you delegate</h2>${help('Step ① of delegation: your firm lends a slice of its accounts to another firm (sub-advisory, trading only) or to a referral partner (view only). NBIN records it after checking the signed agreement.')}<div class="actions"><button class="btn btn-red sm" data-act="lend" id="lendBtn">Delegate accounts</button></div></div>`;
+  h += pend.map(r => `<div class="relcard"><div class="rh"><span class="tag del">Delegation · ${r.type === 'Referral' ? 'referral' : 'sub-advisory'}</span><b>${esc(fname(r.from))} → ${esc(r.to ? fname(r.to) : r.partner)}</b>${pill(r.status)}</div><div class="meta"><span>Accounts: <b>${esc(r.rr)}</b></span><span>Agreement ${esc(r.agreement)}</span><span>${r.id} · waiting for NBIN to check the agreement</span></div></div>`).join('');
+  h += outs.length ? outs.map(d => delCard(d, 'out')).join('') : (pend.length ? '' : '<div class="empty">You don’t delegate any accounts. Use “Delegate accounts” to start step ①.</div>');
+  const ins = incoming(me);
+  h += `<div class="sect"><span class="tag del">Delegation</span><h2>Accounts delegated to you</h2>${help('Another firm lent you a slice of its accounts. You choose which of your people use them (step ②) by raising a request from Users. You can never take more than was delegated, and only the owner can end it.')}</div>`;
+  h += ins.length ? ins.map(d => delCard(d, 'in')).join('') : '<div class="empty">No other firm delegates accounts to you.</div>';
+  return h;
+}
+function scrQueue(){ const open = REQ.filter(r => r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'), done = REQ.filter(r => !(r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'));
+  return `<div class="pagehead"><div><h1>Queue</h1><p>Requests from firm stewards · ${open.length} open</p></div></div>
+  ${cap(`The SAA team picks up a request, provisions each system from its own instructions, links the legacy IDs and completes it. Group-wide and delegated requests look the same here — the relationship checks were done before the request was submitted. ${help('The light UAR: no registry screens, no system-integration configuration. The catalogue is seeded data; provisioning instructions stay with the SAA spreadsheets and Radhika’s macro.')}`)}
+  <table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Where</th><th>Status</th></tr></thead><tbody>${open.map(reqRow).join('') || '<tr><td colspan="5" class="sub">The queue is empty.</td></tr>'}</tbody></table>
+  <div class="sect"><h2>Recently closed</h2></div><table><thead><tr><th>Request</th><th>Type</th><th>Person</th><th>Where</th><th>Status</th></tr></thead><tbody>${done.map(reqRow).join('')}</tbody></table>`; }
+function scrRelq(){ const open = RELREQ.filter(r => r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'), done = RELREQ.filter(r => !(r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'));
+  const row = r => `<tr class="row" data-act="rel" data-id="${r.id}" tabindex="0"><td class="name">${r.id}</td><td><span class="tag del">Delegation · ${r.type === 'Referral' ? 'referral' : 'sub-advisory'}</span></td><td><b>${esc(fname(r.from))}</b> → ${esc(r.to ? fname(r.to) : r.partner)}</td><td class="sub">${esc(r.rr)}</td><td class="sub">${esc(r.agreement)}</td><td>${pill(r.status)}</td></tr>`;
+  return `<div class="pagehead"><div><h1>Relationship requests</h1><p>Step ① of delegation, waiting for NBIN · ${open.length} open</p></div></div>
+  ${howPanel('del')}
+  ${cap('A firm that owns accounts asks to delegate a slice of them. Product Activation checks the signed agreement and the Risk review, then records the delegation. From that moment the receiving firm’s steward can choose who uses the accounts.', 'del')}
+  <table><thead><tr><th>Request</th><th>Kind</th><th>From → to</th><th>Accounts</th><th>Agreement</th><th>Status</th></tr></thead><tbody>${open.map(row).join('') || '<tr><td colspan="6" class="sub">Nothing waiting.</td></tr>'}</tbody></table>
+  <div class="sect"><h2>Recently closed</h2></div><table><thead><tr><th>Request</th><th>Kind</th><th>From → to</th><th>Accounts</th><th>Agreement</th><th>Status</th></tr></thead><tbody>${done.map(row).join('') || '<tr><td colspan="6" class="sub">None yet.</td></tr>'}</tbody></table>`; }
+function scrGroups(){
+  const groups = Object.keys(FIRMS).filter(isGroup);
+  const card = g => `<div class="group" data-group="${g}"><h3>${esc(FIRMS[g].name)} <span class="tag agg">Group</span></h3><div class="kind">Steward ${esc(stewardName(g))} · ${PEOPLE.filter(p => inList(p, g)).length} people${FIRMS[g].note ? ' · ' + esc(FIRMS[g].note) : ''}</div>
+    ${children(g).map(c => `<div class="firm"><span>▸ ${esc(FIRMS[c].name)}</span><span class="t">${FIRMS[c].type} · ${PEOPLE.filter(p => inList(p, c)).length} people</span><button class="lnk" data-act="gremove" data-g="${g}" data-id="${c}">Remove</button></div>`).join('') || '<div class="sub">No firms.</div>'}
+    <div class="acts"><button class="btn sm" data-act="gadd" data-id="${g}">Add a firm</button><button class="btn sm" data-act="gmerge" data-id="${g}">Merge into another group</button></div></div>`;
+  return `<div class="pagehead"><div><h1>Groups</h1><p>Parent groups and their firms · one level only</p></div></div>
+  ${howPanel('agg')}
+  ${cap('Product Activation records a firm joining or leaving a group only when it is real — operationally and contractually. Every change shows its effect before you confirm it, and any access it removes goes to the SAA queue as a clean-up.', 'agg')}
+  <div class="grid">${groups.map(card).join('')}
+  <div class="group out"><h3>${esc(FIRMS.maple.name)} <span class="pill pill-grey">not a group</span></h3><div class="kind">A grouping NBIN created for P&amp;L reporting. No users, accounts or contract of its own — its two firms are treated as standalone, and nobody is ever set up here.</div><div class="sub">${FIRMS.maple.members.map(esc).join(' · ')}</div></div></div>`;
+}
+function scrDels(){
+  return `<div class="pagehead"><div><h1>Delegations</h1><p>Every delegation on the platform</p></div></div>
+  ${howPanel('del')}
+  ${cap('Recorded delegations, active and ended. The owning firm normally ends a delegation itself; Product Activation can end one on its behalf, for example when Risk terminates the agreement.', 'del')}
+  ${DELEG.map(d => { const c = delCard(d, 'act'); return d.status === 'ACTIVE' ? c.replace('<div class="acts"></div>', `<div class="acts"><button class="btn btn-red sm" data-act="enddel" data-id="${d.id}">End on behalf of ${esc(fname(d.from))}</button></div>`) : c; }).join('')}`;
+}
+
+/* ===================== drawer plumbing ===================== */
+function openDrawer(html){ const d = $('#drawer'); d.innerHTML = html; d.classList.add('open'); d.setAttribute('aria-hidden', 'false'); $('#scrim').classList.add('open'); }
+function closeDrawer(){ $('#drawer').classList.remove('open'); $('#drawer').setAttribute('aria-hidden', 'true'); $('#scrim').classList.remove('open'); }
+const head = (title, sub, right) => `<header><div><h2>${title}</h2><div class="sub">${sub}</div></div>${right || ''}<button class="x" data-act="close" aria-label="Close">✕</button></header>`;
+
+/* ===================== person drawer ===================== */
+function treeHtml(p){ const mp = p.profiles.find(x => x.kind !== 'sa'); if (!mp) return '<div class="sub">No firm profile — this person exists only through a delegation.</div>';
+  const g = groupOf(mp.firm); const held = mp.rr ? Object.keys(mp.rr) : [];
+  if (!isGroup(g)) return `<div class="tree"><div class="node p hit"><span class="dot"></span>${esc(fname(g))}<span class="rr">standalone firm · no group</span></div></div>`;
+  return `<div class="tree"><div class="node p${mp.kind === 'parent' ? ' hit' : ''}"><span class="dot"></span>${esc(fname(g))}<span class="rr">${mp.kind === 'parent' ? 'group-wide profile lives here' : 'parent group'}</span></div>${children(g).map(c => `<div class="node c${held.includes(c) || mp.firm === c ? ' hit' : ''}"><span class="dot"></span>${esc(fname(c))}<span class="rr">${held.includes(c) ? esc(mp.rr[c]) : mp.firm === c ? 'works here' : 'no access'}</span></div>`).join('')}</div>`;
+}
+const featChips = keys => keys.map(k => `<span class="tag">${esc(FEAT[k] || k)}</span>`).join('');
+function openPerson(id){
+  const p = byId(id); const b = p.before; const total = b.cx + b.nr + b.sz; const manage = canManage(p);
+  const prof = p.profiles.map(pr => {
+    if (pr.kind === 'sa') { const ds = pr.delegations.map(dl).filter(Boolean);
+      return `<div class="profile sa"><div class="ph">${ptag(pr)}<b>${pr.referral ? 'View only' : 'Trading only'}</b>${help(pr.referral ? 'A referral partner sees the client’s accounts and nothing else. Tricert sets them up because the partner has no firm on the platform.' : 'Profile on accounts other firms delegated. Its home is the receiving firm; each owner can end its part at any time.', true)}</div>
+      ${ds.map(d => `<div class="deleg"><div class="dsteps"><span class="st done">① ${esc(fname(d.from))} delegated ${esc(d.rr)}</span><span class="st done">② given by ${esc(fname(pr.firm))}’s steward</span><span class="st">③ ${esc(fname(d.from))} can end it</span></div><div class="sub" style="margin-top:4px">${esc(d.type)} · agreement ${esc(d.agreement)} · ${esc(d.status)}</div></div>`).join('')}
+      <div class="sub" style="margin:6px 0 4px">Features</div><div class="chips">${featChips(pr.features)}</div></div>`; }
+    return `<div class="profile ${pr.kind}"><div class="ph">${ptag(pr)}${pr.kind === 'parent' ? help('A group-wide profile (also called a parent profile) reaches the firms whose RR codes it holds. Its features can only be used where the account’s firm subscribed to them.', true) : ''}</div><div class="chips" style="margin-bottom:6px">${pr.rr ? Object.entries(pr.rr).map(([f, r]) => `<span class="tag ${pr.kind === 'parent' ? 'outline' : ''}">${esc(fname(f))} · ${esc(r)}</span>`).join('') : ''}</div><div class="sub" style="margin-bottom:4px">Features</div><div class="chips">${featChips(pr.features)}</div></div>`;
+  }).join('') || '<div class="sub">No active profile.</div>';
+  const mgr = managedBy(p);
+  openDrawer(`${head(esc(p.name), esc(p.role), `<span style="margin-top:4px">${statusCell(p)}</span>`)}
+  <div class="body">${p.why ? `<div class="caption"><div class="ic">★</div><div>${esc(p.why)}</div></div>` : ''}${p.needsReview ? `<div class="reviewbar"><span class="pill pill-amber">REVIEW</span><span>${esc(p.reviewNote || '')}</span></div>` : ''}
+    <div class="sec"><h3>Today ${help('One identity per firm per system — counted from the client discoveries and the SZ / NetRep / R2 analyses.')}</h3><div class="before"><div class="t"><div class="n">${b.cx}</div><div class="l">Compass IDs</div></div><div class="t"><div class="n">${b.nr}</div><div class="l">NetRep IDs</div></div><div class="t"><div class="n">${b.sz}</div><div class="l">Secured Zone IDs</div></div></div>${total > 3 ? `<div class="after">→ With multi-firm: 1 login, ${p.profiles.length} profile${p.profiles.length === 1 ? '' : 's'}, ${p.linked.sz.length} Secured Zone ID${p.linked.sz.length === 1 ? '' : 's'} linked behind it</div>` : '<div class="after">→ Unchanged: one firm, one profile</div>'}</div>
+    <div class="sec"><h3>Where this person sits ${help('The group, one level deep. Highlighted rows are the firms this person works in or reaches.')}</h3>${treeHtml(p)}</div>
+    <div class="sec"><h3>Profiles</h3>${prof}</div>
+    <div class="sec"><h3>Linked IDs ${help('Secured Zone and R2 stay separate systems until they retire. Their IDs are linked to the Compass profile, so one deactivation removes all of them.')}</h3><div class="chips">${p.linked.sz.map(s => `<span class="tag">${esc(s)}</span>`).join('')}${p.linked.r2 ? `<span class="tag">${esc(p.linked.r2)}</span>` : ''}${!p.linked.sz.length && !p.linked.r2 ? '<span class="sub">none</span>' : ''}</div></div>
+  </div>
+  <footer>${manage && p.status !== 'INACTIVE' ? `<button class="btn" data-act="close">Close</button><button class="btn btn-primary" data-act="modify" data-id="${p.id}">Modify</button><button class="btn btn-red" data-act="deact" data-id="${p.id}">Deactivate</button>` : `<span class="sub ro">${persona === 'fss' ? (mgr ? 'Managed by ' + esc(fname(mgr)) + '’s steward — view only for you.' : 'No active profile.') : 'View only — requests are raised by firm stewards.'}</span><button class="btn" data-act="close">Close</button>`}</footer>`);
+}
+
+/* ===================== request form (steward) ===================== */
+function contextsFor(f){ const L = [];
+  if (isGroup(f)) { L.push({id:f, kind:'parent', t:'Across the whole group — ' + fname(f), d:'One group-wide profile. Sees the accounts of the firms you tick below. For back office, compliance, oversight.'});
+    children(f).forEach(c => L.push({id:c, kind:'firm', t:'Only in ' + fname(c) + ' (' + FIRMS[c].type + ')', d:'A normal profile in this firm. Sees this firm’s accounts only.'})); }
+  else L.push({id:f, kind:'firm', t:'Only in ' + fname(f) + ' (' + FIRMS[f].type + ')', d:'A normal profile in your firm. Sees your firm’s accounts only.'});
+  const inc = incoming(f).filter(d => d.status === 'ACTIVE');
+  if (inc.length) L.push({id:'del', kind:'sa', t:'On accounts delegated to you — ' + uniq(inc.map(d => fname(d.from))).join(', '), d:'Trading only. Limited to what each firm delegated; each of them can end it at any time.', dels:inc});
+  outgoing(f).filter(d => d.status === 'ACTIVE' && d.type === 'Referral').forEach(d => L.push({id:'ref:' + d.id, kind:'ref', t:'Referral partner — ' + d.partner, d:'View only, on the accounts you delegated to this partner (' + d.rr + ').', dels:[d]}));
+  const outSA = outgoing(f).filter(d => d.status === 'ACTIVE' && d.type === 'Sub-advisory');
+  if (outSA.length) L.push({id:'x', kind:'off', off:true, t:'People who trade your delegated accounts', d:'Not here: ' + uniq(outSA.map(d => fname(d.to))).join(', ') + ' choose and set up their own people. You can see them in Users and end a delegation in Relationships.'});
+  return L; }
+function loadFormPerson(prefer){ const p = byId(FORM.pid); if (!p) return; const cx = contextsFor(me); const mp = p.profiles.find(x => x.kind !== 'sa'); const sa = p.profiles.find(x => x.kind === 'sa');
+  let want = prefer || (mp ? mp.firm : sa ? (sa.referral ? 'ref:' + sa.delegations[0] : 'del') : null);
+  if (!cx.some(c => c.id === want && !c.off)) want = cx.find(c => !c.off).id;
+  setFormCtx(want); }
+function setFormCtx(id){ const c = contextsFor(me).find(x => x.id === id); if (!c) return; FORM.ctx = id; const p = FORM.pid ? byId(FORM.pid) : null; const mp = p ? p.profiles.find(x => x.kind !== 'sa') : null; const sa = p ? p.profiles.find(x => x.kind === 'sa') : null;
+  FORM.dels = []; FORM.rr = {};
+  if (c.kind === 'sa') { const mine = sa && !sa.referral ? sa.delegations.filter(x => c.dels.some(d => d.id === x)) : []; FORM.dels = mine.length ? mine : c.dels.map(d => d.id); FORM.features = sa && !sa.referral ? sa.features.filter(k => TRADING_ONLY.includes(k)) : [...TRADING_ONLY]; }
+  else if (c.kind === 'ref') { FORM.dels = [c.dels[0].id]; FORM.features = [...VIEW_ONLY]; }
+  else { if (c.kind === 'parent') FORM.rr = (mp && mp.kind === 'parent' && mp.firm === id && mp.rr) ? Object.assign({}, mp.rr) : Object.fromEntries(children(id).map(k => [k, 'all']));
+    else FORM.rr = {[id]: (mp && mp.rr && mp.rr[id]) || 'all'};
+    FORM.features = mp ? [...mp.features] : []; } }
+function openReqForm(init){ FORM = {type:init.type || 'Create', pid:init.pid || null, newName:'', ctx:null, features:[], rr:{}, dels:[]}; if (FORM.pid) loadFormPerson(init.ctx); renderForm(); }
+function formBanner(c){ if (!c || !c.kind) return '';
+  if (c.kind === 'parent') return `<div class="banner agg"><span class="tag agg">Aggregation</span><div><b>One step.</b> ${esc(fname(c.id))} owns these firms, so you set this up directly — no other firm approves it.</div></div>`;
+  if (c.kind === 'firm') { const g = groupOf(c.id); if (isGroup(g)) return isGroup(me) ? `<div class="banner agg"><span class="tag agg">Aggregation</span><div><b>One step.</b> ${esc(fname(c.id))} belongs to your group.</div></div>` : `<div class="banner agg"><span class="tag agg">Aggregation</span><div>You are the steward of <b>${esc(fname(me))}</b> only. Group-wide profiles and sister firms are handled by the ${esc(fname(g))} steward.</div></div>`;
+    return `<div class="banner"><span class="tag">Your firm</span><div>No relationship involved.</div></div>`; }
+  if (c.kind === 'sa') return `<div class="banner del"><span class="tag del">Delegation</span><div><b>Two steps.</b><div class="dsteps"><span class="st done">① ${esc(uniq(c.dels.map(d => fname(d.from))).join(', '))} delegated accounts ✓</span><span class="st now">② you choose who uses them — this request</span><span class="st">③ they can end it any time</span></div></div></div>`;
+  if (c.kind === 'ref') { const d = c.dels[0]; return `<div class="banner del"><span class="tag del">Delegation · referral</span><div>You delegated view access on <b>${esc(d.rr)}</b> to <b>${esc(d.partner)}</b> (${esc(d.agreement)}). The partner has no firm on the platform, so you set up their people yourself — they never become ${esc(fname(me))} staff.</div></div>`; }
+  return ''; }
+function formMeaning(c, p){ if (FORM.type === 'Deactivate' || !c || !c.kind || c.off) return '';
+  let sees, lists, att;
+  if (c.kind === 'parent') { sees = Object.keys(FORM.rr).filter(k => FORM.rr[k]).map(fname).join(', ') || 'none yet — tick firms below'; lists = fname(c.id) + ' and each ticked firm'; att = 'the ' + fname(c.id) + ' steward'; }
+  else if (c.kind === 'firm') { const g = groupOf(c.id); sees = fname(c.id); lists = fname(c.id) + (isGroup(g) ? ' and the ' + fname(g) + ' list' : ''); att = 'the ' + fname(c.id) + ' steward'; }
+  else if (c.kind === 'sa') { const ds = FORM.dels.map(dl).filter(Boolean); sees = (ds.map(d => fname(d.from) + ' ' + d.rr).join(', ') || 'none yet — tick delegations below') + ' (trading only)'; const home = ds[0] ? ds[0].to : me; lists = fname(home) + '; read-only to ' + (uniq(ds.map(d => fname(d.from))).join(', ') || 'the owners'); att = 'the ' + fname(home) + ' steward; the owners confirm the delegation itself'; }
+  else { const d = c.dels[0]; sees = d.rr + ' (view only)'; lists = fname(d.from) + ', marked as a referral partner'; att = 'the ' + fname(d.from) + ' steward'; }
+  let note = '';
+  if (FORM.type === 'Modify' && p) { const mp = p.profiles.find(x => x.kind !== 'sa'); const sa = p.profiles.find(x => x.kind === 'sa'); const first = esc(p.name.split(' ')[0]);
+    if (c.kind === 'sa' || c.kind === 'ref') note = sa ? `You are changing ${first}’s ${c.kind === 'ref' ? 'referral' : 'delegated-accounts'} profile. Their other profile is untouched.` : `This adds a second profile for ${first}, on delegated accounts. ${first} keeps one login.`;
+    else if (mp && mp.firm !== c.id) note = `This moves ${first} from ${esc(fname(mp.firm))} to ${c.kind === 'parent' ? 'a group-wide profile' : esc(fname(c.id))}.`;
+    else if (mp) note = `${first} stays where they are — you are only changing accounts or features.`; }
+  return `<div class="caption meaning"><div class="ic">=</div><div><b>What this means</b><div class="sub" style="color:var(--ink)">Sees the accounts of: <b>${esc(sees)}</b><br>Appears in the user list of: <b>${esc(lists)}</b><br>Attested by: <b>${esc(att)}</b><br>Logins: <b>1</b></div>${note ? `<div class="sub" style="margin-top:6px;color:var(--amber)">${note}</div>` : ''}</div></div>`; }
+function renderForm(){ const F = FORM; const cx = contextsFor(me);
+  if (F.type !== 'Deactivate' && (!F.ctx || !cx.some(c => c.id === F.ctx && !c.off))) setFormCtx(cx.find(c => !c.off).id);
+  const cur = cx.find(c => c.id === F.ctx) || {}; const p = F.pid ? byId(F.pid) : null;
+  const allowed = cur.kind === 'sa' ? TRADING_ONLY : cur.kind === 'ref' ? VIEW_ONLY : null;
+  const dup = F.type === 'Create' && F.newName.trim().length > 2 && PEOPLE.some(x => x.name.toLowerCase() === F.newName.trim().toLowerCase());
+  const people = PEOPLE.filter(x => canManage(x) && x.status !== 'INACTIVE');
+  const personField = F.type === 'Create' ? `<input class="input" id="newName" placeholder="Full name" value="${esc(F.newName)}" aria-label="Full name">${dup ? '<div class="sub" style="color:var(--amber);margin-top:4px">A person with this name already exists — use Modify to add a profile instead of creating a second identity.</div>' : ''}`
+    : `<div class="ulist">${people.map(x => `<button class="${x.id === F.pid ? 'on' : ''}" data-act="pick" data-id="${x.id}"><b>${esc(x.name)}</b><span class="sub">${esc(x.role)}</span></button>`).join('')}</div>`;
+  let rr = '';
+  if (F.type !== 'Deactivate') {
+    let chips, hint = '';
+    if (cur.kind === 'parent') { chips = children(cur.id).map(k => `<span class="tag click ${F.rr[k] ? 'agg' : 'outline'}" data-act="rr" data-id="${k}">${F.rr[k] ? '✓ ' : ''}${esc(fname(k))} · ${esc(F.rr[k] || 'not included')}</span>`).join(''); hint = 'Click a firm to include it or leave it out.'; }
+    else if (cur.kind === 'sa') { chips = cur.dels.map(d => `<span class="tag click ${F.dels.includes(d.id) ? 'del' : 'outline'}" data-act="dl" data-id="${d.id}">${F.dels.includes(d.id) ? '✓ ' : ''}${esc(fname(d.from))} · ${esc(d.rr)}</span>`).join(''); hint = 'Only the slices each firm delegated. Click to include or leave out.'; }
+    else if (cur.kind === 'ref') chips = `<span class="tag del">${esc(cur.dels[0].rr)}</span>`;
+    else chips = `<span class="tag">${esc(fname(cur.id))} · ${esc(F.rr[cur.id] || 'all')}</span>`;
+    rr = `<div class="field"><label>Which accounts (RR codes) ${help('Eligible accounts come from the choice above: the group’s firms for a group-wide profile, the delegated slices for a delegated profile, the firm’s own range otherwise.')}</label><div class="chips">${chips}</div>${hint ? `<div class="sub" style="margin-top:4px">${hint}</div>` : ''}</div>`;
+  }
+  const feats = F.type === 'Deactivate' ? `<div class="caption" style="margin:0"><div class="ic">!</div><div>Deactivation removes ${p ? (p.profiles.length > 1 ? 'all ' + p.profiles.length + ' Compass profiles' : 'the Compass profile') : 'the Compass profile'} and every linked ID in one request.${p ? ' ' + p.linked.sz.length + ' Secured Zone ID' + (p.linked.sz.length === 1 ? '' : 's') + (p.linked.r2 ? ' and 1 R2 ID' : '') + ' will be disabled with it.' : ''}</div></div>`
+    : FEATURES.map(g => `<div class="featgrp"><div class="g">${esc(g.g)}<span class="count">${g.items.filter(([k]) => F.features.includes(k)).length}</span></div>${g.items.map(([k, n]) => { const off = allowed && !allowed.includes(k); return `<div class="feat${F.features.includes(k) ? ' on' : ''}${off ? ' off' : ''}" data-act="feat" data-id="${k}"><span class="cb">${F.features.includes(k) ? '✓' : ''}</span>${esc(n)}${off ? `<span class="why">not in the ${cur.kind === 'ref' ? 'referral' : 'trading'} bundle</span>` : ''}</div>`; }).join('')}</div>`).join('');
+  const mp = p ? p.profiles.find(x => x.kind !== 'sa') : null;
+  openDrawer(`${head(F.type === 'Create' ? 'New request' : F.type + ' user', (p ? esc(p.name) + (mp ? ' · currently in ' + esc(fname(mp.firm)) : '') + ' · ' : '') + 'raised by ' + esc(stewardName(me)) + ' · sent to the SAA team')}
+  <div class="body">
+    <div class="field"><label>Request type</label><div class="seg">${['Create','Modify','Deactivate'].map(t => `<button class="${F.type === t ? 'on' : ''}" data-act="ftype" data-id="${t}">${t}</button>`).join('')}</div></div>
+    <div class="field"><label>Who ${help(F.type === 'Create' ? 'If the person already exists, add a profile with Modify instead of creating a second identity.' : 'Only people you manage are listed. The form loads their current profile so you change only what you need.')}</label>${personField}</div>
+    ${F.type === 'Deactivate' ? '' : `<div class="field"><label>Where will this person work? ${help('Pick one. The options depend on which steward you are and on the relationships your firm has: your group, accounts delegated to you, or a referral partner you delegated to.')}</label>${cx.map(c => `<div class="radio${c.off ? ' off' : (c.id === F.ctx ? ' on' : '')}" data-act="fctx" data-id="${c.id}"><span class="r"></span><div><div class="rt"><b>${esc(c.t)}</b>${c.kind === 'parent' || (c.kind === 'firm' && isGroup(me)) ? '<span class="tag agg">Aggregation</span>' : c.kind === 'sa' || c.kind === 'ref' ? '<span class="tag del">Delegation</span>' : c.kind === 'firm' ? '<span class="tag outline">Your firm</span>' : ''}</div><div class="sub">${esc(c.d)}</div></div></div>`).join('')}${formBanner(cur)}${formMeaning(cur, p)}</div>`}
+    ${rr}
+    <div class="field"><label>${F.type === 'Deactivate' ? 'What happens' : 'What can they do (features)'} ${F.type === 'Deactivate' ? '' : help('Today’s feature list — the modules a profile can include. Tick what this person needs. A delegated profile is limited to trading, a referral profile to viewing.')}</label>${feats}</div>
+  </div>
+  <footer><button class="btn" data-act="close">Cancel</button><button class="btn btn-primary" data-act="fsubmit" id="submit">Submit ${F.type.toLowerCase()} request</button></footer>`);
+}
+function submitForm(){ const F = FORM; const cx = contextsFor(me); const c = cx.find(x => x.id === F.ctx) || {};
+  const dup = F.type === 'Create' && PEOPLE.some(x => x.name.toLowerCase() === F.newName.trim().toLowerCase());
+  if (F.type === 'Create' && F.newName.trim().length < 3) return toast('Enter the person’s name first.');
+  if (dup) return toast('That person already exists — switch to Modify to add a profile.');
+  if (F.type !== 'Create' && !F.pid) return toast('Pick a person first.');
+  if (F.type !== 'Deactivate') {
+    if (c.kind === 'parent' && !Object.keys(F.rr).length) return toast('Include at least one firm.');
+    if (c.kind === 'sa' && !F.dels.length) return toast('Include at least one delegation.');
+    if (!F.features.length) return toast('Tick at least one feature.');
+  }
+  const id = 'R-' + (nextReq++);
+  const kindP = F.type === 'Deactivate' ? 'firm' : c.kind;
+  const ctx = F.type === 'Deactivate' ? managedBy(byId(F.pid)) : c.kind === 'sa' ? (dl(F.dels[0]) || {}).to || me : c.kind === 'ref' ? c.dels[0].from : c.id;
+  const chk = (c.kind === 'sa' || c.kind === 'ref') && F.type !== 'Deactivate' ? ' · delegation' + (F.dels.length > 1 ? 's' : '') + ' checked: ' + F.dels.map(x => dl(x).agreement).join(', ') : '';
+  REQ.unshift({id, type:F.type, pid:F.pid, newName:F.newName.trim(), ctx, kindP, rr:Object.assign({}, F.rr), features:[...F.features], dels:[...F.dels], referral:c.kind === 'ref', status:'SUBMITTED', by:me, done:{cx:false,sz:false,r2:false,link:false}, log:[`Submitted by ${stewardName(me)} (steward, ${fname(me)})${chk}`]});
+  closeDrawer(); screen = 'requests'; render(); toast(`${id} submitted — it is now in the SAA queue. Switch to the SAA journey to process it.`); }
+
+/* ===================== request view (steward and SAA) ===================== */
+function checksFor(r, p){
+  if (r.type === 'Clean-up') return [['sz','Disable Secured Zone ID' + (r.ids.length === 1 ? '' : 's'), r.ids.join(', ')], ['link','Remove the links from the Compass profile','']];
+  if (r.type === 'Deactivate') return [['cx','Disable the Compass profile' + (p && p.profiles.length > 1 ? 's' : ''),''],['sz','Disable Secured Zone ID' + (p && p.linked.sz.length !== 1 ? 's' : ''), p ? p.linked.sz.join(', ') : ''],['r2','Disable the R2 ID', p && p.linked.r2 ? p.linked.r2 : 'none linked'],['link','Confirm nothing is left behind','NetRep and external apps follow the old process']];
+  return [['cx','Compass: profile and features','Create or update the profile exactly as requested'],['sz','Secured Zone: profile, apps, RR ranges', r.kindP === 'sa' ? 'One SZ profile per delegating firm' : 'From the SAA spreadsheets + Radhika’s macro'],['r2','R2: profile and RR ranges','Until R2 retires (Oct 2027)'],['link','Link SZ and R2 IDs to the Compass profile','Required before the request can be completed']];
+}
+function openReqView(id){ const r = REQ.find(x => x.id === id); const p = r.pid ? byId(r.pid) : null; const open = r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW';
+  const kv = `<div class="kv"><span class="k">Type</span><span>${esc(r.type)} ${reqKindTag(r)}</span><span class="k">Person</span><span>${esc(p ? p.name : r.newName)}</span><span class="k">Where</span><span>${esc(fname(r.ctx))}</span>${r.rr && Object.keys(r.rr).length ? `<span class="k">RR codes</span><span>${Object.entries(r.rr).map(([f, v]) => esc(fname(f)) + ' · ' + esc(v)).join(', ')}</span>` : ''}${r.dels && r.dels.length ? `<span class="k">Delegations</span><span>${r.dels.map(x => { const d = dl(x); return esc(fname(d.from)) + ' ' + esc(d.rr) + ' (' + esc(d.agreement) + ')'; }).join(', ')}</span>` : ''}${r.features && r.features.length ? `<span class="k">Features</span><span class="chips">${featChips(r.features)}</span>` : ''}${r.ids ? `<span class="k">IDs</span><span>${r.ids.map(esc).join(', ')}</span>` : ''}</div>`;
+  const checks = checksFor(r, p); const canComplete = checks.every(([k]) => r.done[k]);
+  openDrawer(`${head(r.id, esc(r.type) + ' · ' + esc(p ? p.name : r.newName) + ' · ' + esc(fname(r.ctx)), `<span style="margin-top:4px">${pill(r.status)}</span>`)}
+  <div class="body">${kv}
+    ${persona === 'saa' && open ? `<div class="sec"><h3>Provisioning checklist ${help('Instructions live with the SAA team, not in a registry. Each tick is a system done; the request cannot complete until everything is ticked.')}</h3>${checks.map(([k, t, d]) => `<div class="check${r.done[k] ? ' on' : ''}" data-act="chk" data-id="${k}" data-req="${r.id}"><span class="cb">${r.done[k] ? '✓' : ''}</span><div><b>${esc(t)}</b><div class="d">${esc(d)}</div></div></div>`).join('')}</div>` : ''}
+    <div class="sec"><h3>History</h3><div class="timeline">${r.log.map(l => `<div class="node"><span class="dot"></span><span>${esc(l)}</span></div>`).join('')}</div></div>
+    ${r.status === 'COMPLETE' && persona === 'fss' && (r.type === 'Create' || r.type === 'Modify') ? `<div class="after">One-time credentials are ready to collect for ${esc(p ? p.name : r.newName)}.</div>` : ''}
+  </div>
+  <footer><button class="btn" data-act="close">Close</button>${persona === 'fss' && open && r.by !== 'nbin' ? `<button class="btn btn-red" data-act="cancelreq" data-id="${r.id}" id="cancelReq">Cancel request</button>` : ''}${persona === 'saa' && r.status === 'SUBMITTED' ? `<button class="btn btn-primary" data-act="startreq" data-id="${r.id}" id="startReq">Start request</button>` : ''}${persona === 'saa' && open ? `<button class="btn btn-red" data-act="rejectreq" data-id="${r.id}" id="rejectReq">Reject</button><button class="btn btn-primary" data-act="completereq" data-id="${r.id}" id="completeReq" ${canComplete ? '' : 'disabled'}>Complete request</button>` : ''}</footer>`); }
+function toggleCheck(rid, k){ const r = REQ.find(x => x.id === rid); const checks = checksFor(r, r.pid ? byId(r.pid) : null);
+  if (r.status === 'SUBMITTED') { r.status = 'UNDER REVIEW'; r.log.push('Picked up by ID Admin'); }
+  r.done[k] = !r.done[k]; if (r.done[k]) r.log.push(checks.find(x => x[0] === k)[1] + ' · done'); openReqView(rid); renderNav(); }
+function applyReq(r){ if (r.applied) return; r.applied = true;
+  if (r.type === 'Clean-up') { const p = byId(r.pid); if (p) p.linked.sz = p.linked.sz.filter(s => !r.ids.includes(s)); return; }
+  if (r.type === 'Deactivate') { const p = byId(r.pid); if (p) p.status = 'INACTIVE'; return; }
+  if (r.type === 'Create') { const p = person(r.newName, (r.kindP === 'ref' ? 'Referral partner · ' + dl(r.dels[0]).partner : r.kindP === 'parent' ? 'Group-wide · ' : 'New user · ') + (r.kindP === 'ref' ? '' : fname(r.ctx))); p.before = {cx:0,nr:0,sz:0}; p.status = 'INVITED';
+    p.linked = {sz:r.kindP === 'sa' ? r.dels.map(x => 'SZ · ' + FIRMS[dl(x).from].rr + ' new') : ['SZ · ' + (FIRMS[r.ctx] && FIRMS[r.ctx].rr ? FIRMS[r.ctx].rr : 'GRP') + ' new'], r2:r.kindP === 'ref' ? null : 'R2 · new'};
+    if (r.kindP === 'sa' || r.kindP === 'ref') p.profiles.push({kind:'sa', firm:r.ctx, features:[...r.features], rr:{}, delegations:[...r.dels], referral:r.kindP === 'ref'});
+    else p.profiles.push({kind:r.kindP, firm:r.ctx, features:[...r.features], rr:Object.assign({}, r.rr)}); return; }
+  const p = byId(r.pid); if (!p) return;
+  if (r.kindP === 'sa' || r.kindP === 'ref') { let sa = p.profiles.find(x => x.kind === 'sa');
+    if (!sa) { sa = {kind:'sa', firm:r.ctx, features:[], rr:{}, delegations:[], referral:r.kindP === 'ref'}; p.profiles.push(sa); p.profiles.forEach(x => { if (x.kind === 'firm') x.kind = 'home'; }); }
+    sa.features = [...r.features]; sa.delegations = [...r.dels];
+    r.dels.forEach(x => { const id = 'SZ · ' + FIRMS[dl(x).from].rr + ' new'; if (r.kindP === 'sa' && !p.linked.sz.some(s => s.startsWith('SZ · ' + FIRMS[dl(x).from].rr + ' '))) p.linked.sz.push(id); });
+  } else { let mp = p.profiles.find(x => x.kind !== 'sa'); const hasSa = p.profiles.some(x => x.kind === 'sa');
+    if (!mp) { mp = {kind:'firm', firm:r.ctx, features:[], rr:{}}; p.profiles.unshift(mp); }
+    mp.firm = r.ctx; mp.rr = Object.assign({}, r.rr); mp.features = [...r.features]; mp.kind = r.kindP === 'parent' ? 'parent' : (hasSa ? 'home' : 'firm');
+    p.role = p.role.split(' · ')[0] + ' · ' + fname(r.ctx); }
+  p.needsReview = false; p.reviewNote = ''; if (p.status === 'INVITED') p.status = 'ACTIVE'; }
+function cleanupReq(p, ids, reason, ctx){ if (!ids.length) return; REQ.unshift({id:'R-' + (nextReq++), type:'Clean-up', pid:p.id, ctx:ctx || managedBy(p), kindP:'firm', ids:[...ids], rr:{}, features:[], dels:[], status:'SUBMITTED', by:'nbin', done:{sz:false,link:false}, log:['Created automatically: ' + reason]}); }
+
+/* ===================== delegation step ①: lend ===================== */
+function lendTargets(from){ const g = groupOf(from); return Object.keys(FIRMS).filter(k => !FIRMS[k].group && !FIRMS[k].reporting && k !== from && groupOf(k) !== g).sort((a, b) => fname(a).localeCompare(fname(b))); }
+function openLend(){ const froms = isGroup(me) ? children(me) : [me]; LEND = {from:froms[0], type:'Sub-advisory', to:'', partner:'', rr:'', agreement:'', signed:false}; renderLend(); }
+function renderLend(){ const L = LEND; const froms = isGroup(me) ? children(me) : [me]; const pre = FIRMS[L.from].rr;
+  const toField = L.type === 'Sub-advisory' ? `<select class="input" id="lendTo" data-lend="to" aria-label="Receiving firm"><option value="">Choose the receiving firm…</option>${lendTargets(L.from).map(k => `<option value="${k}"${L.to === k ? ' selected' : ''}>${esc(fname(k))} (${FIRMS[k].type})</option>`).join('')}</select>`
+    : `<input class="input" id="lendPartner" data-lend="partner" placeholder="Partner name, e.g. an accounting firm" value="${esc(L.partner)}" aria-label="Partner name">`;
+  const toName = L.type === 'Sub-advisory' ? (L.to ? fname(L.to) : 'the receiving firm') : (L.partner || 'the partner');
+  openDrawer(`${head('Delegate accounts', esc(fname(L.from)) + ' · step ① of delegation · goes to NBIN Product Activation')}
+  <div class="body">
+    <div class="banner del"><span class="tag del">Delegation</span><div><b>Step ① — you lend.</b><div class="dsteps"><span class="st now">① ${esc(fname(L.from))} delegates — this request</span><span class="st">NBIN checks the agreement</span><span class="st">② ${esc(toName)} chooses who uses them</span><span class="st">③ you can end it any time</span></div></div></div>
+    ${froms.length > 1 ? `<div class="field"><label>Which of your firms owns the accounts</label><div class="chips">${froms.map(f => `<span class="tag click ${L.from === f ? 'agg' : 'outline'}" data-act="lfrom" data-id="${f}">${esc(fname(f))}</span>`).join('')}</div></div>` : ''}
+    <div class="field"><label>Kind ${help('Sub-advisory: another firm’s portfolio managers trade these accounts. Referral: an outside partner, such as an accountant, only views them.')}</label><div class="seg"><button class="${L.type === 'Sub-advisory' ? 'on' : ''}" data-act="ltype" data-id="Sub-advisory">Sub-advisory · trading only</button><button class="${L.type === 'Referral' ? 'on' : ''}" data-act="ltype" data-id="Referral">Referral partner · view only</button></div></div>
+    <div class="field"><label>${L.type === 'Sub-advisory' ? 'To which firm' : 'To which partner'} ${help(L.type === 'Sub-advisory' ? 'Any firm outside your own group. Firms inside your group already reach each other through the group.' : 'Referral partners have no firm on the platform. After NBIN records this, you set up the partner’s people yourself.')}</label>${toField}</div>
+    <div class="field"><label>Which accounts (RR codes) ${help('Only accounts your firm owns. Ranges start with your firm’s prefix.')}</label><input class="input" id="lendRR" data-lend="rr" placeholder="${pre} 3000–3020" value="${esc(L.rr)}" aria-label="RR codes"><div class="sub" style="margin-top:4px">Must start with ${pre} — ${esc(fname(L.from))}’s accounts.</div></div>
+    <div class="field"><label>Agreement reference</label><input class="input" id="lendAgr" data-lend="agreement" placeholder="${L.type === 'Sub-advisory' ? 'SAA-2026-…' : 'REF-2026-…'}" value="${esc(L.agreement)}" aria-label="Agreement reference"></div>
+    <label class="cbline"><input type="checkbox" id="lendSigned" data-lend="signed"${L.signed ? ' checked' : ''}> The agreement is signed. Risk reviews it before NBIN records the delegation.</label>
+    <div class="caption meaning" style="margin-top:12px"><div class="ic">=</div><div><b>What happens next</b><div class="sub" style="color:var(--ink)">NBIN Product Activation checks the agreement and the Risk review, then records the delegation. ${esc(toName.charAt(0).toUpperCase() + toName.slice(1))}’s steward can then give ${L.type === 'Sub-advisory' ? 'trading-only' : 'view-only'} access on these accounts to their people — never more. You see who uses them, confirm the delegation at attestation, and can end it at any time.</div></div></div>
+  </div>
+  <footer><button class="btn" data-act="close">Cancel</button><button class="btn btn-primary" data-act="lsubmit" id="lendSubmit">Submit to NBIN</button></footer>`); }
+function submitLend(){ const L = LEND; const pre = FIRMS[L.from].rr;
+  if (L.type === 'Sub-advisory' && !L.to) return toast('Choose the receiving firm.');
+  if (L.type === 'Referral' && L.partner.trim().length < 3) return toast('Enter the partner’s name.');
+  if (!L.rr.trim().toUpperCase().startsWith(pre)) return toast(`Accounts must start with ${pre} — only ${fname(L.from)}’s own accounts can be delegated.`);
+  if (L.agreement.trim().length < 4) return toast('Enter the agreement reference.');
+  if (!L.signed) return toast('Confirm the agreement is signed.');
+  const same = x => x.from === L.from && x.type === L.type && (L.type === 'Sub-advisory' ? x.to === L.to : (x.partner || '').toLowerCase() === L.partner.trim().toLowerCase());
+  if (DELEG.some(d => d.status === 'ACTIVE' && same(d)) || RELREQ.some(r => (r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW') && same(r))) return toast('A delegation like this already exists or is waiting for NBIN.');
+  const id = 'REL-' + (nextRel++);
+  RELREQ.unshift({id, from:L.from, to:L.type === 'Sub-advisory' ? L.to : null, partner:L.type === 'Referral' ? L.partner.trim() : null, type:L.type, rr:L.rr.trim().toUpperCase(), agreement:L.agreement.trim(), status:'SUBMITTED', checks:{agr:false,risk:false,rec:false}, log:[`Submitted by ${stewardName(me)} (steward, ${fname(me)})`]});
+  closeDrawer(); screen = 'relationships'; render(); toast(`${id} sent to NBIN Product Activation. Switch to that journey to record it.`); }
+
+/* ===================== Product Activation: record a delegation ===================== */
+const RELCHECKS = [['agr','Signed agreement received'],['risk','Risk review of the counterparty done'],['rec','Delegation recorded in Compass']];
+function openRel(id){ const r = RELREQ.find(x => x.id === id); const open = r.status === 'SUBMITTED' || r.status === 'UNDER REVIEW'; const can = RELCHECKS.every(([k]) => r.checks[k]);
+  openDrawer(`${head(r.id, 'Delegation · ' + esc(fname(r.from)) + ' → ' + esc(r.to ? fname(r.to) : r.partner), `<span style="margin-top:4px">${pill(r.status)}</span>`)}
+  <div class="body"><div class="banner del"><span class="tag del">Delegation</span><div><b>Between step ① and step ②.</b> ${esc(fname(r.from))} asked to delegate. Once recorded, ${esc(r.to ? fname(r.to) + '’s steward' : fname(r.from) + '’s steward, for the partner')} can choose who uses the accounts.</div></div>
+    <div class="kv"><span class="k">Owner</span><span>${esc(fname(r.from))}</span><span class="k">Receiver</span><span>${esc(r.to ? fname(r.to) : r.partner + ' (referral partner)')}</span><span class="k">Kind</span><span>${esc(r.type)} · ${r.type === 'Referral' ? 'view only' : 'trading only'}</span><span class="k">Accounts</span><span>${esc(r.rr)}</span><span class="k">Agreement</span><span>${esc(r.agreement)}</span></div>
+    ${open ? `<div class="sec"><h3>Checks before recording</h3>${RELCHECKS.map(([k, t]) => `<div class="check${r.checks[k] ? ' on' : ''}" data-act="rchk" data-id="${k}" data-rel="${r.id}"><span class="cb">${r.checks[k] ? '✓' : ''}</span><div><b>${esc(t)}</b></div></div>`).join('')}</div>` : ''}
+    <div class="sec"><h3>History</h3><div class="timeline">${r.log.map(l => `<div class="node"><span class="dot"></span><span>${esc(l)}</span></div>`).join('')}</div></div></div>
+  <footer><button class="btn" data-act="close">Close</button>${open && persona === 'act' ? `<button class="btn btn-red" data-act="rreject" data-id="${r.id}" id="rejectRel">Reject</button><button class="btn btn-primary" data-act="rapprove" data-id="${r.id}" id="approveRel" ${can ? '' : 'disabled'}>Record delegation</button>` : ''}</footer>`); }
+function toggleRelCheck(rid, k){ const r = RELREQ.find(x => x.id === rid); if (r.status === 'SUBMITTED') { r.status = 'UNDER REVIEW'; r.log.push('Picked up by Product Activation'); } r.checks[k] = !r.checks[k]; if (r.checks[k]) r.log.push(RELCHECKS.find(x => x[0] === k)[1] + ' · done'); openRel(rid); renderNav(); }
+function approveRel(rid){ const r = RELREQ.find(x => x.id === rid); const d = {id:'d' + (nextDel++), from:r.from, to:r.to, partner:r.partner, type:r.type, rr:r.rr, agreement:r.agreement, status:'ACTIVE', since:'Oct 2026', confirmed:'Oct 2026'}; DELEG.push(d);
+  r.status = 'APPROVED'; r.log.push('Recorded as an active delegation'); closeDrawer(); render();
+  toast(r.to ? `Recorded. ${fname(r.to)}’s steward can now choose who uses ${fname(r.from)}’s accounts.` : `Recorded. ${fname(r.from)}’s steward can now set up people for ${r.partner}.`); }
+function rejectRel(rid){ const r = RELREQ.find(x => x.id === rid); r.status = 'REJECTED'; r.log.push('Rejected by Product Activation · reason sent to the steward'); closeDrawer(); render(); toast(`${r.id} rejected — ${fname(r.from)}’s steward sees the reason.`); }
+
+/* ===================== delegation step ③: end, and attest ===================== */
+function openEnd(did){ const d = dl(did); const users = usersOfDeleg(d); const pre = 'SZ · ' + FIRMS[d.from].rr + ' '; const sz = users.flatMap(p => p.linked.sz.filter(s => s.startsWith(pre)));
+  openDrawer(`${head('End delegation', esc(fname(d.from)) + ' → ' + esc(d.to ? fname(d.to) : d.partner) + ' · ' + esc(d.agreement))}
+  <div class="body"><div class="banner del"><span class="tag del">Delegation</span><div><b>Step ③ — the owner takes it back.</b> ${persona === 'act' ? 'You are ending it on ' + esc(fname(d.from)) + '’s behalf.' : 'Only the owning firm can do this.'}</div></div>
+    <div class="sec"><h3>What happens immediately</h3><div class="sub" style="color:var(--ink)">${users.length ? users.map(p => `• <b>${esc(p.name)}</b> (${esc(fname(managedBy(p)))}) loses ${esc(fname(d.from))}’s accounts ${esc(d.rr)}${p.profiles.filter(x => x.kind !== 'sa').length || p.profiles.some(x => x.kind === 'sa' && x.delegations.length > 1) ? ' — the rest of their access is unchanged.' : ' — this was their only access, so they become inactive.'}`).join('<br>') : 'Nobody uses these accounts, so no one loses access.'}</div></div>
+    <div class="sec"><h3>What goes to the SAA queue</h3><div class="sub" style="color:var(--ink)">${sz.length ? `A clean-up per person to disable ${sz.length} Secured Zone ID${sz.length === 1 ? '' : 's'}: ${sz.map(esc).join(', ')}.` : 'Nothing — no Secured Zone IDs are tied to this delegation.'}</div></div>
+    <div class="caption" style="margin-top:8px"><div class="ic">i</div><div>The delegation stays on record as ENDED for audit. Delegating again later means a new step ①.</div></div></div>
+  <footer><button class="btn" data-act="close">Cancel</button><button class="btn btn-red" data-act="endconfirm" data-id="${d.id}" id="confirmEnd">End delegation</button></footer>`); }
+function confirmEnd(did){ const d = dl(did); const users = usersOfDeleg(d); const pre = 'SZ · ' + FIRMS[d.from].rr + ' ';
+  d.status = 'ENDED'; d.ended = 'Oct 2026';
+  users.forEach(p => { p.profiles.forEach(pr => { if (pr.kind === 'sa') pr.delegations = pr.delegations.filter(x => x !== d.id); });
+    p.profiles = p.profiles.filter(pr => !(pr.kind === 'sa' && pr.delegations.length === 0));
+    if (!p.profiles.some(x => x.kind === 'sa')) p.profiles.forEach(x => { if (x.kind === 'home') x.kind = 'firm'; });
+    if (!p.profiles.length) p.status = 'INACTIVE';
+    cleanupReq(p, p.linked.sz.filter(s => s.startsWith(pre)), `${fname(d.from)} ended delegation ${d.agreement}`, d.to || d.from); });
+  closeDrawer(); render(); toast(`Delegation ended. ${users.length} ${users.length === 1 ? 'person' : 'people'} lost ${fname(d.from)}’s accounts immediately; Secured Zone clean-ups are in the SAA queue.`); }
+function confirmDel(did){ const d = dl(did); d.confirmed = 'Oct 2026'; render(); toast(`${fname(d.from)} confirmed the delegation to ${d.to ? fname(d.to) : d.partner} is still valid — that is the attestation of the relationship, not of the people.`); }
+
+/* ===================== Product Activation: group changes ===================== */
+function openGC(kind, g, c){ GC = {kind, g, c:c || null, sel:null}; renderGC(); }
+function gcImpact(){ const {kind, g, c, sel} = GC;
+  if (kind === 'remove') { const holders = PEOPLE.filter(p => p.profiles.some(pr => pr.kind === 'parent' && pr.firm === g && pr.rr && pr.rr[c])); const own = PEOPLE.filter(p => inList(p, c) && managedBy(p) === c).length;
+    return `<b>${esc(fname(c))}</b> becomes a standalone firm. Its own ${own} people keep their access.<br>${holders.length ? 'Group-wide profiles lose its accounts: ' + holders.map(p => `<b>${esc(p.name)}</b> (${esc(p.profiles.find(pr => pr.kind === 'parent').rr[c])})`).join(', ') + '. Their linked Secured Zone IDs for that firm go to the SAA queue as clean-ups.' : 'No group-wide profile reaches it.'}`; }
+  if (!sel) return 'Choose an option to see the effect.';
+  if (kind === 'add') return `<b>${esc(fname(sel))}</b> joins ${esc(fname(g))}. Its ${PEOPLE.filter(p => inList(p, sel)).length} people appear in the group steward’s list. Nobody gains access until a steward asks for it; ${esc(fname(sel))}’s own steward now acts only inside ${esc(fname(sel))}.`;
+  const holders = PEOPLE.filter(p => p.profiles.some(pr => pr.kind === 'parent' && pr.firm === g));
+  return `${esc(fname(g))}’s ${children(g).length} firms move under <b>${esc(fname(sel))}</b>, still one level. ${esc(fname(g))} is dissolved. Everyone in its firms keeps their access.${holders.length ? ' Group-wide profiles at ' + esc(fname(g)) + ' are flagged for review by ' + esc(fname(sel)) + '’s steward: ' + holders.map(p => '<b>' + esc(p.name) + '</b>').join(', ') + '.' : ''}`; }
+function renderGC(){ const {kind, g, c, sel} = GC;
+  let opts = '';
+  if (kind === 'add') { const cands = Object.keys(FIRMS).filter(k => !FIRMS[k].reporting && !FIRMS[k].dissolved && k !== g && !children(g).includes(k));
+    opts = cands.map(k => { const why = FIRMS[k].group ? 'is itself a parent group — one level only' : FIRMS[k].parent ? 'already belongs to ' + fname(FIRMS[k].parent) : null; return `<div class="radio${why ? ' off' : (sel === k ? ' on' : '')}" data-act="gcsel" data-id="${k}"><span class="r"></span><div><b>${esc(fname(k))}</b><div class="sub">${why ? esc(why) : esc(FIRMS[k].type) + ' · standalone firm'}</div></div></div>`; }).join('')
+      + `<div class="radio off"><span class="r"></span><div><b>${esc(FIRMS.maple.name)}</b><div class="sub">a reporting grouping, not a firm — never part of a group</div></div></div>`; }
+  if (kind === 'merge') opts = Object.keys(FIRMS).filter(k => isGroup(k) && k !== g).map(k => `<div class="radio${sel === k ? ' on' : ''}" data-act="gcsel" data-id="${k}"><span class="r"></span><div><b>${esc(fname(k))}</b><div class="sub">${children(k).length} firms today</div></div></div>`).join('');
+  const title = kind === 'add' ? 'Add a firm to ' + esc(fname(g)) : kind === 'remove' ? 'Remove ' + esc(fname(c)) + ' from ' + esc(fname(g)) : 'Merge ' + esc(fname(g)) + ' into another group';
+  const ok = kind === 'remove' || !!sel;
+  openDrawer(`${head(title, 'Product Activation · group change')}
+  <div class="body"><div class="banner agg"><span class="tag agg">Aggregation</span><div>Record this only when it is real — operationally and contractually. Groups are one level deep: a group can never sit inside another group.</div></div>
+    ${opts ? `<div class="field"><label>${kind === 'add' ? 'Which firm joins' : 'Into which group'}</label>${opts}</div>` : ''}
+    <div class="caption meaning"><div class="ic">=</div><div><b>Effect</b><div class="sub" style="color:var(--ink)">${gcImpact()}</div></div></div></div>
+  <footer><button class="btn" data-act="close">Cancel</button><button class="btn btn-primary" data-act="gcconfirm" id="confirmGroup" ${ok ? '' : 'disabled'}>${kind === 'remove' ? 'Remove firm' : kind === 'add' ? 'Add firm' : 'Merge groups'}</button></footer>`); }
+function confirmGC(){ const {kind, g, c, sel} = GC;
+  if (kind === 'add') { FIRMS[sel].parent = g; toast(`${fname(sel)} now belongs to ${fname(g)}.`); }
+  else if (kind === 'remove') { const holders = PEOPLE.filter(p => p.profiles.some(pr => pr.kind === 'parent' && pr.firm === g && pr.rr && pr.rr[c])); const pre = 'SZ · ' + FIRMS[c].rr + ' ';
+    delete FIRMS[c].parent; holders.forEach(p => { p.profiles.forEach(pr => { if (pr.kind === 'parent' && pr.firm === g && pr.rr) delete pr.rr[c]; }); cleanupReq(p, p.linked.sz.filter(s => s.startsWith(pre)), `${fname(c)} left ${fname(g)}`, g); });
+    toast(`${fname(c)} is now standalone. ${holders.length} group-wide profile${holders.length === 1 ? '' : 's'} lost its accounts.`); }
+  else { const kids = children(g); const holders = PEOPLE.filter(p => p.profiles.some(pr => pr.kind === 'parent' && pr.firm === g));
+    kids.forEach(k => FIRMS[k].parent = sel); FIRMS[g].dissolved = true; FIRMS[g].mergedInto = sel;
+    holders.forEach(p => { p.profiles.forEach(pr => { if (pr.kind === 'parent' && pr.firm === g) pr.firm = sel; }); p.needsReview = true; p.reviewNote = `Was group-wide at ${fname(g)}, which merged into ${fname(sel)}. The ${fname(sel)} steward decides where this person works now — use Modify.`; });
+    if (me === g) me = sel; toast(`${fname(g)} merged into ${fname(sel)}. ${holders.length} profile${holders.length === 1 ? '' : 's'} flagged for review.`); }
+  closeDrawer(); render(); }
+
+/* ===================== guide ===================== */
+function mark(sel){ document.querySelectorAll('.hl').forEach(e => e.classList.remove('hl')); const el = document.querySelector(sel); if (el) { el.classList.add('hl'); el.scrollIntoView({block:'center', behavior:'smooth'}); } }
+const guideDeleg = () => DELEG.find(d => d.status === 'ACTIVE' && d.type === 'Sub-advisory' && d.from === 'fiera' && usersOfDeleg(d).length) || DELEG.find(d => d.status === 'ACTIVE' && d.type === 'Sub-advisory' && usersOfDeleg(d).length) || DELEG.find(d => d.status === 'ACTIVE');
+const STEPS = [
+  {t:'Aggregation · the group steward sees the whole group', s:'Omar is the steward of Harbourfront Group. Everyone in its four firms is in one list, and he can raise requests anywhere in the group — one step, flowing down.', do:() => { setPersona('fss'); setMe('hfg'); setTimeout(() => mark('#firmcard'), 250); }},
+  {t:'Aggregation · a child firm’s steward sees only their firm', s:'Sana is the steward of KJ Harrison. Her request form offers KJ Harrison only — no group-wide profile, no sister firm.', do:() => { setPersona('fss'); setMe('kjh'); openReqForm({type:'Create'}); setTimeout(() => mark('#drawer .radio'), 300); }},
+  {t:'Every request lands in the same SAA queue', s:'The ID Admin works group-wide, firm and delegated requests the same way: tick each system, link the IDs, complete.', do:() => { setPersona('saa'); const r = REQ.find(x => x.status === 'SUBMITTED' || x.status === 'UNDER REVIEW') || REQ[0]; openReqView(r.id); setTimeout(() => mark('#drawer .check, #drawer .timeline'), 300); }},
+  {t:'Delegation ① · the owner delegates its accounts', s:'Lakeview’s steward asks to delegate a slice of Lakeview’s accounts to Guardian Partners, with the signed agreement.', do:() => { setPersona('fss'); setMe('lake'); screen = 'relationships'; render(); openLend(); setTimeout(() => mark('#drawer .banner'), 300); }},
+  {t:'NBIN records it after checking the agreement', s:'Product Activation ticks the agreement and the Risk review, then records the delegation. Nothing is given to anyone yet.', do:() => { setPersona('act'); const r = RELREQ.find(x => x.status === 'SUBMITTED' || x.status === 'UNDER REVIEW') || RELREQ[0]; openRel(r.id); setTimeout(() => mark('#drawer .sec'), 300); }},
+  {t:'Delegation ② · the receiving firm chooses who uses them', s:'Guardian Partners’ steward gives Nora trading-only access on the delegated slices. The form only offers what was delegated.', do:() => { setPersona('fss'); setMe('gp'); openReqForm({type:'Modify', pid:nora.id, ctx:'del'}); setTimeout(() => mark('#drawer .banner'), 300); }},
+  {t:'The owner sees who uses its accounts', s:'The owning firm cannot change the receiving firm’s people, but it sees exactly who trades its accounts.', do:() => { setPersona('fss'); const d = guideDeleg(); setMe(d ? d.from : 'fiera'); setTimeout(() => mark(document.querySelector('#lenderSect') ? '#lenderSect' : '.caption'), 300); }},
+  {t:'Delegation ③ · the owner can end it at any time', s:'Ending it removes every access given through it, immediately, and sends the Secured Zone clean-ups to the SAA. Preview only — nothing changes until you confirm.', do:() => { setPersona('fss'); const d = guideDeleg(); setMe(d ? d.from : 'fiera'); screen = 'relationships'; render(); if (d) openEnd(d.id); setTimeout(() => mark(d ? '#drawer .sec' : '.sect'), 300); }},
+  {t:'Group changes are recorded by NBIN · one level only', s:'When a merger is final, Activation moves the firms under the new parent — never two levels deep — and flags group-wide profiles for review. Preview only.', do:() => { setPersona('act'); screen = 'groups'; render(); const g = isGroup('cmg') ? 'cmg' : Object.keys(FIRMS).filter(isGroup).find(k => k !== 'hfg'); if (g) { openGC('merge', g); GC.sel = isGroup('hfg') && g !== 'hfg' ? 'hfg' : Object.keys(FIRMS).find(k => isGroup(k) && k !== g); renderGC(); } setTimeout(() => mark(g ? '#drawer .caption.meaning' : '.group'), 300); }},
+];
+function showStep(i){ guide = i; const st = STEPS[i]; $('#gNo').textContent = i + 1; $('#gT').textContent = st.t; $('#gS').textContent = st.s; $('#gPrev').disabled = i === 0; $('#gNext').textContent = i === STEPS.length - 1 ? 'Finish' : 'Next'; closeDrawer(); st.do(); }
+function endGuide(){ $('#guide').classList.remove('open'); document.body.classList.remove('guideon'); document.querySelectorAll('.hl').forEach(e => e.classList.remove('hl')); }
+
+/* ===================== events ===================== */
+const ACT = {
+  persona: id => setPersona(id), guide: () => { $('#guide').classList.add('open'); document.body.classList.add('guideon'); showStep(0); },
+  gnext: () => { if (guide >= STEPS.length - 1) { endGuide(); closeDrawer(); return; } showStep(guide + 1); }, gprev: () => { if (guide > 0) showStep(guide - 1); }, gclose: () => endGuide(),
+  helpall: () => { const all = document.querySelectorAll('.help'); const open = ![...all].some(h => h.classList.contains('open')); all.forEach(h => h.classList.toggle('open', open)); toast(open ? 'All help tips shown — click ? again to hide' : 'Help tips hidden'); },
+  firmmenu: () => { if (persona === 'fss') $('#firmmenu').classList.toggle('open'); },
+  pickme: id => { $('#firmmenu').classList.remove('open'); setMe(id); },
+  nav: id => { screen = id; search = ''; filter = 'all'; closeDrawer(); render(); }, filter: id => { filter = id; render(); },
+  user: id => openPerson(id), modify: id => openReqForm({type:'Modify', pid:id}), deact: id => openReqForm({type:'Deactivate', pid:id}), newreq: () => openReqForm({type:'Create'}),
+  req: id => openReqView(id), close: () => closeDrawer(),
+  ftype: id => { FORM.type = id; if (id === 'Create') { FORM.pid = null; FORM.ctx = null; FORM.features = []; FORM.rr = {}; FORM.dels = []; } renderForm(); },
+  pick: id => { FORM.pid = id; FORM.ctx = null; loadFormPerson(); renderForm(); },
+  fctx: (id, el) => { if (el.classList.contains('off')) { toast('The receiving firm sets up its own people. You can see them in Users and end the delegation in Relationships.'); return; } setFormCtx(id); renderForm(); },
+  rr: id => { if (FORM.rr[id]) delete FORM.rr[id]; else FORM.rr[id] = 'all'; renderForm(); },
+  dl: id => { const i = FORM.dels.indexOf(id); if (i >= 0) FORM.dels.splice(i, 1); else FORM.dels.push(id); renderForm(); },
+  feat: (id, el) => { if (el.classList.contains('off')) return; const i = FORM.features.indexOf(id); if (i >= 0) FORM.features.splice(i, 1); else FORM.features.push(id); renderForm(); },
+  fsubmit: () => submitForm(),
+  chk: (id, el) => toggleCheck(el.dataset.req, id),
+  startreq: id => { const r = REQ.find(x => x.id === id); r.status = 'UNDER REVIEW'; r.log.push('Picked up by ID Admin'); openReqView(id); render(); },
+  completereq: id => { const r = REQ.find(x => x.id === id); applyReq(r); r.status = 'COMPLETE'; r.log.push(r.type === 'Deactivate' ? 'Completed · all identities disabled' : r.type === 'Clean-up' ? 'Completed · IDs disabled and unlinked' : 'Completed · one-time credentials released to the steward'); closeDrawer(); render(); toast(`${r.id} completed.`); },
+  rejectreq: id => { const r = REQ.find(x => x.id === id); r.status = 'REJECTED'; r.log.push('Rejected by ID Admin · reason sent to the steward'); closeDrawer(); render(); toast(`${r.id} rejected — the steward sees the reason.`); },
+  cancelreq: id => { const r = REQ.find(x => x.id === id); r.status = 'CANCELLED'; r.log.push('Cancelled by the steward'); closeDrawer(); render(); toast(`${r.id} cancelled.`); },
+  lend: () => openLend(), lfrom: id => { LEND.from = id; LEND.to = ''; renderLend(); }, ltype: id => { LEND.type = id; renderLend(); }, lsubmit: () => submitLend(),
+  enddel: id => openEnd(id), endconfirm: id => confirmEnd(id), confirmdel: id => confirmDel(id),
+  rel: id => openRel(id), rchk: (id, el) => toggleRelCheck(el.dataset.rel, id), rapprove: id => approveRel(id), rreject: id => rejectRel(id),
+  gadd: id => openGC('add', id), gremove: (id, el) => openGC('remove', el.dataset.g, id), gmerge: id => openGC('merge', id),
+  gcsel: (id, el) => { if (el.classList.contains('off')) { toast('Not allowed: ' + el.querySelector('.sub').textContent + '.'); return; } GC.sel = id; renderGC(); }, gcconfirm: () => confirmGC(),
+};
+document.addEventListener('click', e => {
+  const h = e.target.closest('.help'); if (h) { e.preventDefault(); e.stopPropagation(); h.classList.toggle('open'); return; }
+  const el = e.target.closest('[data-act]');
+  if (!el || !['firmmenu','pickme'].includes(el.dataset.act)) $('#firmmenu').classList.remove('open');
+  if (!el) return;
+  if (el.tagName === 'INPUT') return;
+  const fn = ACT[el.dataset.act]; if (fn) fn(el.dataset.id, el, e);
+});
+document.addEventListener('input', e => { const t = e.target;
+  if (t.id === 'newName' && FORM) FORM.newName = t.value;
+  else if (t.dataset && t.dataset.lend && LEND) LEND[t.dataset.lend] = t.type === 'checkbox' ? t.checked : t.value;
+  else if (t.id === 'search') { search = t.value; const tb = $('#urows'); if (tb) { if (screen === 'allusers') { render(); const s = $('#search'); s.focus(); s.setSelectionRange(s.value.length, s.value.length); } else tb.innerHTML = userRows(filteredList()); } } });
+document.addEventListener('change', e => { const t = e.target;
+  if (t.id === 'newName' && FORM) renderForm();
+  else if (t.dataset && t.dataset.lend && LEND) { LEND[t.dataset.lend] = t.type === 'checkbox' ? t.checked : t.value; if (t.dataset.lend === 'to' || t.dataset.lend === 'partner') renderLend(); } });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrawer(); $('#firmmenu').classList.remove('open'); }
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.matches && e.target.matches('tr.row, .firmcard')) { e.preventDefault(); e.target.click(); } });
+
+setPersona('fss');
+</script>
+</body>
+</html>

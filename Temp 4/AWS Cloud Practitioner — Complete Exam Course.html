@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Certified Cloud Practitioner — Complete Exam Course</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#111c30;
+  --paper:#f1f5f3;
+  --surface:#ffffff;
+  --surface-2:#e7eeeb;
+  --text:#1b2739;
+  --muted:#57687e;
+  --line:rgba(17,28,48,.15);
+  --teal:#0e7c7b;
+  --teal-strong:#0a5c5b;
+  --teal-soft:#deefec;
+  --amber:#e39a2d;
+  --amber-strong:#8f5c0d;
+  --amber-soft:#faeeda;
+  --radius:14px;
+  --shadow:0 1px 2px rgba(17,28,48,.05), 0 10px 26px rgba(17,28,48,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#0c1524;
+    --paper:#0c1524;
+    --surface:#15223a;
+    --surface-2:#1d2c47;
+    --text:#e8eef6;
+    --muted:#9cadc4;
+    --line:rgba(232,238,246,.16);
+    --teal:#3ab4ae;
+    --teal-strong:#93ded7;
+    --teal-soft:rgba(58,180,174,.16);
+    --amber:#ecb25c;
+    --amber-strong:#f7d197;
+    --amber-soft:rgba(236,178,92,.15);
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 26px rgba(0,0,0,.25);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#0c1524;
+  --paper:#0c1524;
+  --surface:#15223a;
+  --surface-2:#1d2c47;
+  --text:#e8eef6;
+  --muted:#9cadc4;
+  --line:rgba(232,238,246,.16);
+  --teal:#3ab4ae;
+  --teal-strong:#93ded7;
+  --teal-soft:rgba(58,180,174,.16);
+  --amber:#ecb25c;
+  --amber-strong:#f7d197;
+  --amber-soft:rgba(236,178,92,.15);
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 26px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--text);
+  font-family:Inter,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.62;
+}
+.wrap{max-width:940px;margin:0 auto;padding:0 20px}
+h1,h2,.mnum{font-family:Fraunces,Georgia,"Times New Roman",serif}
+h1{font-size:clamp(2.1rem,5.4vw,3.4rem);font-weight:700;line-height:1.08;margin:.35em 0 .3em;letter-spacing:-.01em}
+h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:700;line-height:1.15;margin:0}
+h3{font-size:1.18rem;font-weight:700;margin:2.3em 0 .5em;letter-spacing:-.005em}
+h4{font-size:1rem;font-weight:600;margin:1.4em 0 .4em}
+p{margin:.65em 0}
+.prose p, .prose li{max-width:74ch}
+a{color:var(--teal-strong);text-decoration-color:var(--teal);text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:4px}
+strong{font-weight:600}
+code{background:var(--surface-2);padding:.1em .4em;border-radius:6px;font-size:.9em}
+
+/* ---------- hero ---------- */
+.hero{padding:56px 0 12px}
+.kicker{font-size:.92rem;font-weight:600;color:var(--teal-strong);margin:0}
+.lede{font-size:1.12rem;color:var(--muted);max-width:62ch;margin:.4em 0 1.2em}
+.facts{list-style:none;display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0 0 18px}
+.facts li{background:var(--surface);border:1px solid var(--line);padding:7px 14px;border-radius:999px;font-size:.88rem;font-weight:500}
+.facts li b{color:var(--teal-strong)}
+.howto{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:10px;padding:14px 18px;font-size:.95rem}
+.howto b{color:var(--amber-strong)}
+
+/* ---------- syllabus ---------- */
+.syllabus{margin:34px 0 10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.syllabus h2{font-family:Inter,sans-serif;font-size:1rem;font-weight:600;padding:14px 20px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.syllabus a{display:grid;grid-template-columns:42px 1fr auto;gap:12px;align-items:center;padding:12px 20px;text-decoration:none;color:var(--text);border-bottom:1px solid var(--line);font-size:.95rem}
+.syllabus a:last-child{border-bottom:none}
+.syllabus a:hover{background:var(--surface-2)}
+.syllabus .n{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.15rem;color:var(--teal-strong)}
+.syllabus .w{font-size:.82rem;color:var(--muted);font-weight:500;white-space:nowrap}
+
+/* ---------- modules ---------- */
+.module{margin:64px 0 8px}
+.mhead{display:grid;grid-template-columns:70px 1fr;gap:18px;align-items:start;padding:18px 0 14px;border-top:3px solid var(--line)}
+.mhead.acc-teal{border-top-color:var(--teal)}
+.mhead.acc-amber{border-top-color:var(--amber)}
+.mnum{font-size:2.7rem;font-weight:700;line-height:1;color:var(--teal-strong)}
+.acc-amber .mnum{color:var(--amber-strong)}
+.mkicker{font-size:.85rem;font-weight:600;color:var(--muted);margin:0 0 2px}
+.wbar{height:8px;max-width:320px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-top:10px}
+.wbar span{display:block;height:100%;background:var(--teal);border-radius:99px}
+.acc-amber .wbar span{background:var(--amber)}
+
+/* ---------- callouts ---------- */
+.note{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:10px;padding:13px 16px;margin:18px 0;font-size:.95rem}
+.note .tag{font-weight:700;color:var(--amber-strong)}
+.note.trap{border-left-color:var(--teal)}
+.note.trap .tag{color:var(--teal-strong)}
+.note p{margin:.3em 0}
+
+/* ---------- tables ---------- */
+.scroll{overflow-x:auto;margin:16px 0 22px;border:1px solid var(--line);border-radius:12px;background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:600px;font-size:.9rem}
+th{text-align:left;font-weight:600;background:var(--surface-2);padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td b{font-weight:600}
+.you,.aws{text-align:center;font-weight:600;white-space:nowrap}
+.you{background:var(--amber-soft);color:var(--amber-strong)}
+.aws{background:var(--teal-soft);color:var(--teal-strong)}
+.legend{display:flex;gap:16px;font-size:.85rem;color:var(--muted);margin:-12px 0 20px;flex-wrap:wrap}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.legend .li-you i{background:var(--amber-soft);border:1px solid var(--amber)}
+.legend .li-aws i{background:var(--teal-soft);border:1px solid var(--teal)}
+
+/* ---------- lists & cards ---------- */
+ol.adv{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px}
+ol.adv li{display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;max-width:74ch}
+ol.adv .n{width:28px;height:28px;border-radius:50%;background:var(--teal-soft);color:var(--teal-strong);font-weight:700;font-size:.9rem;display:grid;place-items:center;margin-top:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0 22px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+.card h4{margin:0 0 6px;font-size:.98rem}
+.card p{margin:0;font-size:.87rem;color:var(--muted)}
+.card .pn{color:var(--teal-strong);font-weight:700;margin-right:4px}
+
+/* ---------- domain bars ---------- */
+.bars{display:grid;gap:12px;margin:18px 0 6px}
+.bar{display:grid;grid-template-columns:minmax(190px,240px) 1fr 52px;gap:12px;align-items:center;font-size:.92rem}
+.bar .track{height:14px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.bar .track span{display:block;height:100%;border-radius:99px}
+.bar .pct{font-weight:700;text-align:right}
+.b-teal .track span{background:var(--teal)} .b-teal .pct{color:var(--teal-strong)}
+.b-amber .track span{background:var(--amber)} .b-amber .pct{color:var(--amber-strong)}
+@media (max-width:560px){.bar{grid-template-columns:1fr 44px}.bar .lbl{grid-column:1 / -1;margin-bottom:-6px}}
+
+/* ---------- diagrams ---------- */
+figure.diagram{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 14px 8px;margin:22px 0;box-shadow:var(--shadow)}
+figure.diagram svg{width:100%;height:auto;display:block}
+figcaption{font-size:.85rem;color:var(--muted);padding:10px 6px 6px;margin-top:10px;border-top:1px dashed var(--line)}
+svg text{font-family:Inter,-apple-system,"Segoe UI",sans-serif}
+.dh{font-size:17px;font-weight:700}
+.dt{font-size:13.5px;font-weight:600;fill:var(--text)}
+.ds{font-size:12px;fill:var(--muted)}
+.dn{font-size:12.5px;font-weight:500;fill:var(--muted)}
+
+/* ---------- practice questions ---------- */
+.q{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0;box-shadow:var(--shadow)}
+.q .dom{font-size:.78rem;font-weight:600;color:var(--muted);margin:0 0 4px}
+.q .qt{font-weight:600;margin:.1em 0 .6em}
+.opts{list-style:none;padding:0;margin:0 0 12px;display:grid;gap:5px;font-size:.93rem}
+.q details summary{cursor:pointer;font-weight:600;color:var(--teal-strong);font-size:.93rem}
+.q .why{margin-top:10px;padding:12px 14px;background:var(--teal-soft);border-radius:10px;font-size:.92rem}
+.q .why p{margin:.3em 0}
+
+/* ---------- checklist & footer ---------- */
+ul.check{list-style:none;padding:0;margin:14px 0;display:grid;gap:8px}
+ul.check li{padding-left:30px;position:relative;max-width:74ch}
+ul.check li::before{content:"";position:absolute;left:0;top:5px;width:16px;height:16px;border:2px solid var(--teal);border-radius:5px}
+footer{margin:70px 0 50px;padding-top:22px;border-top:3px solid var(--teal);font-size:.9rem;color:var(--muted)}
+footer .big{font-family:Fraunces,Georgia,serif;font-size:1.5rem;font-weight:700;color:var(--text);margin:0 0 8px}
+@media (max-width:640px){
+  .mhead{grid-template-columns:52px 1fr;gap:12px}
+  .mnum{font-size:2.1rem}
+  .hero{padding-top:40px}
+}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap prose">
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <p class="kicker">A complete self-study course for exam CLF-C02</p>
+  <h1>AWS Certified Cloud Practitioner</h1>
+  <p class="lede">Everything the exam draws from, explained in plain language first: the four domains, the services you must recognize on sight, the traps the question writers love, and a full practice set with explanations.</p>
+  <ul class="facts">
+    <li><b>65</b> questions (50 scored, 15 unscored)</li>
+    <li><b>90</b> minutes</li>
+    <li>Pass mark <b>700 / 1000</b></li>
+    <li><b>US$100</b></li>
+    <li>Valid <b>3 years</b></li>
+    <li>Test center or online proctored</li>
+  </ul>
+  <div class="howto">
+    <b>How to use this course:</b> read modules 0 through 4 in order (about 3–4 hours total), memorize the cheat sheet in module 5, then drill the 16 practice questions in module 6 until you get at least 13 right without looking. Module 7 gives you a 7-day plan and a final readiness checklist.
+  </div>
+</header>
+
+<!-- ================= SYLLABUS ================= -->
+<nav class="syllabus" aria-label="Course syllabus">
+  <h2>Syllabus</h2>
+  <a href="#m0"><span class="n">0</span><span>Exam blueprint — format, scoring, question types</span><span class="w">15 min</span></a>
+  <a href="#m1"><span class="n">1</span><span>Cloud concepts</span><span class="w">24% of exam</span></a>
+  <a href="#m2"><span class="n">2</span><span>Security and compliance</span><span class="w">30% of exam</span></a>
+  <a href="#m3"><span class="n">3</span><span>Cloud technology and services</span><span class="w">34% of exam</span></a>
+  <a href="#m4"><span class="n">4</span><span>Billing, pricing and support</span><span class="w">12% of exam</span></a>
+  <a href="#m5"><span class="n">5</span><span>Exam strategy and the keyword cheat sheet</span><span class="w">high yield</span></a>
+  <a href="#m6"><span class="n">6</span><span>Practice questions with explanations</span><span class="w">16 questions</span></a>
+  <a href="#m7"><span class="n">7</span><span>7-day study plan and final checklist</span><span class="w">wrap-up</span></a>
+</nav>
+
+<!-- ================= MODULE 0 ================= -->
+<section class="module" id="m0">
+  <header class="mhead acc-teal">
+    <div class="mnum">0</div>
+    <div>
+      <p class="mkicker">Before you study</p>
+      <h2>Exam blueprint</h2>
+    </div>
+  </header>
+
+  <p>The Cloud Practitioner exam tests whether you can <strong>recognize what AWS services do and when to use them</strong> — not whether you can configure them. You will never be asked to write code or read a console screenshot. Almost every question is a short scenario followed by "which service / option / plan fits?" That means the winning study strategy is breadth: know one clear sentence about many services, rather than deep detail about a few.</p>
+
+  <h3>The four domains and their weight</h3>
+  <div class="bars">
+    <div class="bar b-teal"><span class="lbl">Domain 1 — Cloud concepts</span><div class="track"><span style="width:24%"></span></div><span class="pct">24%</span></div>
+    <div class="bar b-amber"><span class="lbl">Domain 2 — Security and compliance</span><div class="track"><span style="width:30%"></span></div><span class="pct">30%</span></div>
+    <div class="bar b-teal"><span class="lbl">Domain 3 — Technology and services</span><div class="track"><span style="width:34%"></span></div><span class="pct">34%</span></div>
+    <div class="bar b-amber"><span class="lbl">Domain 4 — Billing, pricing, support</span><div class="track"><span style="width:12%"></span></div><span class="pct">12%</span></div>
+  </div>
+  <p>Domains 2 and 3 together are 64% of your score. If your time is short, spend it there — that is where this course spends most of its pages too.</p>
+
+  <h3>Format and scoring, in plain terms</h3>
+  <div class="scroll"><table>
+    <tr><th>Item</th><th>Detail</th><th>What it means for you</th></tr>
+    <tr><td><b>Questions</b></td><td>65 total; only 50 are scored, 15 are unscored trial questions (you can't tell which)</td><td>Never panic over one strange question — it may not even count</td></tr>
+    <tr><td><b>Question types</b></td><td>Multiple choice (pick 1 of 4) and multiple response (pick 2+ of 5+; the question states how many)</td><td>Read the "Select TWO" instruction carefully — partial credit is not given</td></tr>
+    <tr><td><b>Time</b></td><td>90 minutes</td><td>About 80 seconds per question; most take 30–40 seconds, so time is rarely the problem</td></tr>
+    <tr><td><b>Scoring</b></td><td>Scaled 100–1000; pass at 700. Compensatory model — no per-domain minimum</td><td>Roughly 70–75% correct passes; you can be weak in one domain and still pass overall</td></tr>
+    <tr><td><b>Wrong answers</b></td><td>No penalty for guessing</td><td>Never leave a question blank; flag it, guess, move on, return if time allows</td></tr>
+    <tr><td><b>Delivery</b></td><td>Pearson VUE test center, or online proctored from home</td><td>Online needs a quiet room, webcam, and cleared desk</td></tr>
+    <tr><td><b>Validity</b></td><td>3 years; AWS gives a 50%-off voucher toward recertification</td><td>Passing also gives you a half-price voucher for a harder cert (e.g. Solutions Architect Associate)</td></tr>
+  </table></div>
+
+  <div class="note"><span class="tag">Exam tip.</span> Questions use qualifier words that change the right answer: <strong>MOST cost-effective</strong>, <strong>LEAST operational overhead</strong>, <strong>HIGHLY available</strong>. Two options may both "work" — the qualifier decides. "Least operational overhead" almost always points to the serverless or fully managed option.</div>
+</section>
+
+<!-- ================= MODULE 1 ================= -->
+<section class="module" id="m1">
+  <header class="mhead acc-teal">
+    <div class="mnum">1</div>
+    <div>
+      <p class="mkicker">Domain 1 — 24% of scored content</p>
+      <h2>Cloud concepts</h2>
+      <div class="wbar"><span style="width:24%"></span></div>
+    </div>
+  </header>
+
+  <p>In plain language: cloud computing means <strong>renting IT resources over the internet and paying only for what you use</strong>, instead of buying and running your own servers. This domain tests the vocabulary and the "why" — why companies move to the cloud, what the different flavors are, and how AWS says you should design and migrate.</p>
+
+  <h3>1.1 The six advantages of cloud computing</h3>
+  <p>AWS's official list. Exam questions describe one of these in a scenario and ask you to name it — learn the exact phrases.</p>
+  <ol class="adv">
+    <li><span class="n">1</span><span><strong>Trade fixed expense for variable expense</strong> — no upfront capital purchase (CapEx); pay as you consume (OpEx). Trigger phrase: "no longer buys servers upfront."</span></li>
+    <li><span class="n">2</span><span><strong>Benefit from massive economies of scale</strong> — AWS buys hardware for millions of customers, so unit prices are lower than you could get alone.</span></li>
+    <li><span class="n">3</span><span><strong>Stop guessing capacity</strong> — scale up and down with actual demand instead of over-buying "just in case" or under-buying and failing.</span></li>
+    <li><span class="n">4</span><span><strong>Increase speed and agility</strong> — new resources are a click away, so teams experiment in minutes, not procurement cycles.</span></li>
+    <li><span class="n">5</span><span><strong>Stop spending money running and maintaining data centers</strong> — no racking, powering, cooling, or patching hardware.</span></li>
+    <li><span class="n">6</span><span><strong>Go global in minutes</strong> — deploy to Regions around the world for low latency to your users.</span></li>
+  </ol>
+
+  <h3>1.2 Cloud service models — who manages what</h3>
+  <p>The more managed the service, the less you operate yourself. The color grid below is worth memorizing: it also explains the shared responsibility model in module 2.</p>
+  <div class="scroll"><table>
+    <tr><th>Layer</th><th>On-premises</th><th>IaaS (e.g. EC2)</th><th>PaaS (e.g. Elastic Beanstalk, RDS)</th><th>SaaS (e.g. email service)</th></tr>
+    <tr><td>Your applications</td><td class="you">You</td><td class="you">You</td><td class="you">You</td><td class="aws">Provider</td></tr>
+    <tr><td>Your data and access</td><td class="you">You</td><td class="you">You</td><td class="you">You</td><td class="you">You</td></tr>
+    <tr><td>Runtime and middleware</td><td class="you">You</td><td class="you">You</td><td class="aws">AWS</td><td class="aws">Provider</td></tr>
+    <tr><td>Operating system</td><td class="you">You</td><td class="you">You</td><td class="aws">AWS</td><td class="aws">Provider</td></tr>
+    <tr><td>Virtualization</td><td class="you">You</td><td class="aws">AWS</td><td class="aws">AWS</td><td class="aws">Provider</td></tr>
+    <tr><td>Servers and storage</td><td class="you">You</td><td class="aws">AWS</td><td class="aws">AWS</td><td class="aws">Provider</td></tr>
+    <tr><td>Networking and facilities</td><td class="you">You</td><td class="aws">AWS</td><td class="aws">AWS</td><td class="aws">Provider</td></tr>
+  </table></div>
+  <div class="legend"><span class="li-you"><i></i>You manage</span><span class="li-aws"><i></i>AWS / provider manages</span></div>
+  <ul>
+    <li><strong>IaaS</strong> (Infrastructure as a Service): raw building blocks — compute, storage, network. Maximum control, maximum responsibility. Example: <strong>EC2</strong>.</li>
+    <li><strong>PaaS</strong> (Platform as a Service): you bring code and data; AWS runs the platform underneath. Examples: <strong>Elastic Beanstalk, RDS, Lambda</strong>.</li>
+    <li><strong>SaaS</strong> (Software as a Service): a finished product you just use. Examples: most third-party apps in <strong>AWS Marketplace</strong>.</li>
+  </ul>
+
+  <h3>1.3 Cloud deployment models</h3>
+  <div class="scroll"><table>
+    <tr><th>Model</th><th>Meaning</th><th>Exam trigger phrase</th></tr>
+    <tr><td><b>Cloud (public)</b></td><td>Everything runs in AWS</td><td>"fully migrate," "cloud-native"</td></tr>
+    <tr><td><b>Hybrid</b></td><td>Some workloads on-premises, some in AWS, connected together</td><td>"keep the legacy database on-premises while…" — services: Direct Connect, VPN, Outposts, Storage Gateway</td></tr>
+    <tr><td><b>On-premises (private cloud)</b></td><td>Cloud-style tooling on hardware you own</td><td>"data must stay in our own data center"</td></tr>
+  </table></div>
+
+  <h3>1.4 The vocabulary the exam actually tests</h3>
+  <div class="scroll"><table>
+    <tr><th>Term</th><th>Plain meaning</th><th>Don't confuse with</th></tr>
+    <tr><td><b>Scalability</b></td><td>Can grow to handle more load. <b>Vertical</b> = bigger instance (scale up). <b>Horizontal</b> = more instances (scale out).</td><td>Elasticity (which is automatic and two-way)</td></tr>
+    <tr><td><b>Elasticity</b></td><td>Automatically adds <em>and removes</em> resources to match demand — the "pay only for what you need" property. Service: EC2 Auto Scaling.</td><td>Plain scalability</td></tr>
+    <tr><td><b>Agility</b></td><td>Speed: provision in minutes, experiment cheaply, fail fast</td><td>Elasticity (agility is about people/time, not load)</td></tr>
+    <tr><td><b>High availability</b></td><td>Minimal downtime — run in multiple Availability Zones behind a load balancer</td><td>Fault tolerance (a stronger promise)</td></tr>
+    <tr><td><b>Fault tolerance</b></td><td>Keeps operating even while components fail — redundancy with no interruption</td><td>High availability (which allows brief disruption)</td></tr>
+    <tr><td><b>Durability</b></td><td>Your data survives — S3 is designed for 99.999999999% (11 nines) durability</td><td>Availability (can I reach it right now?)</td></tr>
+    <tr><td><b>Reliability</b></td><td>The system does what it promises, and recovers from failures</td><td>—</td></tr>
+    <tr><td><b>Disaster recovery</b></td><td>Plan for regional failure; measured by RTO (time to restore) and RPO (data-loss window)</td><td>Backups alone</td></tr>
+  </table></div>
+
+  <h3>1.5 The Well-Architected Framework — six pillars</h3>
+  <p>AWS's official design checklist. Memorize all six with the mnemonic <strong>"CROPS + Sustainability"</strong>. Questions quote a pillar's goal and ask you to name it.</p>
+  <div class="cards">
+    <div class="card"><h4><span class="pn">C</span>Cost optimization</h4><p>Deliver value at the lowest price: right-size, use the best pricing model, measure spend.</p></div>
+    <div class="card"><h4><span class="pn">R</span>Reliability</h4><p>Recover from failures and meet demand: multi-AZ, automatic recovery, tested backups.</p></div>
+    <div class="card"><h4><span class="pn">O</span>Operational excellence</h4><p>Run and improve: automate changes, operations as code, learn from failures.</p></div>
+    <div class="card"><h4><span class="pn">P</span>Performance efficiency</h4><p>Use resources efficiently: pick the right instance types, go serverless, experiment.</p></div>
+    <div class="card"><h4><span class="pn">S</span>Security</h4><p>Protect data and systems: least privilege, encrypt everywhere, traceability.</p></div>
+    <div class="card"><h4><span class="pn">+S</span>Sustainability</h4><p>Minimize environmental impact: maximize utilization, reduce waste.</p></div>
+  </div>
+  <div class="note"><span class="tag">Exam tip.</span> "Ability to recover quickly from disruption" = <strong>Reliability</strong>. "Using computing resources efficiently" = <strong>Performance efficiency</strong>. "Traceability / least privilege" = <strong>Security</strong>. The <strong>AWS Well-Architected Tool</strong> (free, in the console) reviews your workload against the pillars.</div>
+
+  <h3>1.6 Cloud economics</h3>
+  <ul>
+    <li><strong>CapEx vs OpEx:</strong> on-premises = capital expense up front; cloud = operational expense as you go.</li>
+    <li><strong>Total Cost of Ownership (TCO):</strong> when comparing on-prem to AWS, count everything you stop paying for — hardware, power, cooling, real estate, and the staff time to maintain it.</li>
+    <li><strong>Right-sizing:</strong> match instance size to real usage; the biggest lever for savings.</li>
+    <li><strong>Managed services save money indirectly:</strong> RDS costs more per hour than a self-run database on EC2, but eliminates patching, backup, and failover labor — total cost is usually lower.</li>
+    <li><strong>Estimate before you build</strong> with the <strong>AWS Pricing Calculator</strong> (module 4 covers all cost tools).</li>
+  </ul>
+
+  <h3>1.7 Migration: the CAF and the 7 Rs</h3>
+  <p>The <strong>AWS Cloud Adoption Framework (CAF)</strong> organizes migration advice into six perspectives — three about people, three about technology:</p>
+  <div class="scroll"><table>
+    <tr><th>Business capabilities</th><th>Technical capabilities</th></tr>
+    <tr><td><b>Business</b> — cloud investment ties to business outcomes</td><td><b>Platform</b> — build and modernize the infrastructure</td></tr>
+    <tr><td><b>People</b> — culture, skills, training</td><td><b>Security</b> — confidentiality, integrity, availability of data</td></tr>
+    <tr><td><b>Governance</b> — manage risk, measure benefits</td><td><b>Operations</b> — run workloads to meet business needs</td></tr>
+  </table></div>
+  <p>The <strong>7 Rs</strong> — migration strategies, from least to most change:</p>
+  <div class="scroll"><table>
+    <tr><th>Strategy</th><th>Plain meaning</th></tr>
+    <tr><td><b>Retire</b></td><td>Turn it off — nobody uses it</td></tr>
+    <tr><td><b>Retain</b></td><td>Leave it where it is (for now)</td></tr>
+    <tr><td><b>Rehost</b></td><td>"Lift and shift" — move as-is onto EC2, no code changes</td></tr>
+    <tr><td><b>Relocate</b></td><td>Move at the hypervisor level, e.g. VMware environment into AWS</td></tr>
+    <tr><td><b>Replatform</b></td><td>"Lift, tinker, and shift" — small upgrades on the way, e.g. self-run MySQL to RDS</td></tr>
+    <tr><td><b>Repurchase</b></td><td>Drop it and buy a SaaS product instead</td></tr>
+    <tr><td><b>Refactor</b></td><td>Re-architect for cloud-native (serverless, microservices) — most effort, most benefit</td></tr>
+  </table></div>
+</section>
+
+<!-- ================= MODULE 2 ================= -->
+<section class="module" id="m2">
+  <header class="mhead acc-amber">
+    <div class="mnum">2</div>
+    <div>
+      <p class="mkicker">Domain 2 — 30% of scored content</p>
+      <h2>Security and compliance</h2>
+      <div class="wbar"><span style="width:30%"></span></div>
+    </div>
+  </header>
+
+  <p>This is the second-largest domain, and half of it comes down to one picture: the <strong>Shared Responsibility Model</strong>. Expect 3–6 questions on it alone.</p>
+
+  <h3>2.1 The Shared Responsibility Model</h3>
+  <p>Plain version: <strong>AWS secures the cloud itself; you secure whatever you put in it.</strong></p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 760 470" role="img" aria-label="Shared responsibility model: customer is responsible for security in the cloud, AWS for security of the cloud">
+      <rect x="20" y="16" width="720" height="212" rx="16" fill="var(--amber-soft)" stroke="var(--amber)" stroke-width="1.5"/>
+      <text x="44" y="52" class="dh" fill="var(--amber-strong)">Customer — security IN the cloud</text>
+      <text x="44" y="76" class="ds">You configure and protect everything you put into AWS</text>
+      <rect x="44" y="99" width="10" height="10" rx="2" fill="var(--amber)"/>
+      <text x="64" y="109" class="dt">Your data — including client-side and server-side encryption choices</text>
+      <rect x="44" y="129" width="10" height="10" rx="2" fill="var(--amber)"/>
+      <text x="64" y="139" class="dt">Identity and access — IAM users, roles, policies, MFA</text>
+      <rect x="44" y="159" width="10" height="10" rx="2" fill="var(--amber)"/>
+      <text x="64" y="169" class="dt">Operating system, network and firewall configuration (e.g. patching EC2)</text>
+      <rect x="44" y="189" width="10" height="10" rx="2" fill="var(--amber)"/>
+      <text x="64" y="199" class="dt">Your applications and network traffic protection</text>
+      <text x="380" y="252" text-anchor="middle" class="dn">The line moves: with managed services (RDS, Lambda) AWS takes over the OS and runtime</text>
+      <rect x="20" y="268" width="720" height="182" rx="16" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="1.5"/>
+      <text x="44" y="304" class="dh" fill="var(--teal-strong)">AWS — security OF the cloud</text>
+      <text x="44" y="328" class="ds">AWS operates and protects the infrastructure that runs every service</text>
+      <rect x="44" y="351" width="10" height="10" rx="2" fill="var(--teal)"/>
+      <text x="64" y="361" class="dt">Software — compute, storage, database and networking services</text>
+      <rect x="44" y="381" width="10" height="10" rx="2" fill="var(--teal)"/>
+      <text x="64" y="391" class="dt">Hardware — physical servers, disks, physical security of facilities</text>
+      <rect x="44" y="411" width="10" height="10" rx="2" fill="var(--teal)"/>
+      <text x="64" y="421" class="dt">Global infrastructure — Regions, Availability Zones, Edge locations</text>
+    </svg>
+    <figcaption>Draw this from memory before exam day. Anything physical or "of the infrastructure" is AWS; anything you configure, upload, or grant access to is you.</figcaption>
+  </figure>
+
+  <div class="scroll"><table>
+    <tr><th>Scenario in the question</th><th>Whose job?</th><th>Why</th></tr>
+    <tr><td>Patching the guest operating system on an <b>EC2</b> instance</td><td class="you">You</td><td>IaaS — you control the OS</td></tr>
+    <tr><td>Patching the database engine in <b>RDS</b> or the runtime in <b>Lambda</b></td><td class="aws">AWS</td><td>Managed service — AWS runs the platform</td></tr>
+    <tr><td>Physical security of data centers; hypervisor; hardware disposal</td><td class="aws">AWS</td><td>Always AWS, for every service</td></tr>
+    <tr><td>Setting S3 bucket permissions; enabling encryption; IAM users and MFA</td><td class="you">You</td><td>Configuration of what you put in the cloud</td></tr>
+    <tr><td>Security group and firewall rules; your application code</td><td class="you">You</td><td>Your network and app choices</td></tr>
+    <tr><td><b>Shared</b>: patch management, configuration management, awareness and training</td><td class="you">Both</td><td>AWS patches infrastructure, you patch your OS and apps; AWS trains its staff, you train yours</td></tr>
+  </table></div>
+
+  <h3>2.2 IAM — who can do what</h3>
+  <p>Identity and Access Management (IAM) is free, global (not tied to a Region), and controls every action in your account.</p>
+  <div class="scroll"><table>
+    <tr><th>Building block</th><th>What it is</th><th>Remember</th></tr>
+    <tr><td><b>Root user</b></td><td>The identity that created the account; unrestricted power</td><td>Lock it away: enable MFA, delete its access keys, never use it for daily work. Only root can do a few account-level tasks (close the account, change the support plan)</td></tr>
+    <tr><td><b>IAM user</b></td><td>A person or application with long-term credentials (password / access keys)</td><td>One user per person — never share credentials</td></tr>
+    <tr><td><b>Group</b></td><td>A collection of users</td><td>Attach policies to groups, not individuals — easier to manage</td></tr>
+    <tr><td><b>Role</b></td><td>An identity with <em>temporary</em> credentials that users, apps, or AWS services assume</td><td>The answer whenever a question says "an EC2 instance needs to access S3" or "grant temporary / cross-account access" — never hard-code access keys</td></tr>
+    <tr><td><b>Policy</b></td><td>A JSON document that allows or denies actions on resources</td><td>Apply <b>least privilege</b>: grant only what's needed. An explicit Deny always wins</td></tr>
+    <tr><td><b>IAM Identity Center</b></td><td>Single sign-on for your workforce across many AWS accounts and apps</td><td>The modern answer for "employees log in once"</td></tr>
+  </table></div>
+  <div class="note"><span class="tag">Exam tip.</span> IAM best practices the exam loves: enable <strong>MFA</strong> (especially on root), grant <strong>least privilege</strong>, use <strong>roles</strong> for applications and services, use <strong>groups</strong> to assign permissions, rotate credentials, and never share access keys.</div>
+
+  <h3>2.3 The security service lineup</h3>
+  <p>Learn each one as a single sentence — the exam gives you the sentence and asks for the name.</p>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>AWS Shield</b></td><td>DDoS protection. Standard is free and automatic; Advanced is paid with 24/7 response team</td><td>"DDoS"</td></tr>
+    <tr><td><b>AWS WAF</b></td><td>Web application firewall — blocks SQL injection, cross-site scripting, and bad IPs on CloudFront, ALB, API Gateway</td><td>"SQL injection," "XSS," "web exploits"</td></tr>
+    <tr><td><b>Amazon GuardDuty</b></td><td>Intelligent threat detection — machine learning over your logs to spot compromised accounts and instances</td><td>"threat detection," "continuous monitoring for malicious activity"</td></tr>
+    <tr><td><b>Amazon Inspector</b></td><td>Automated vulnerability scanning of EC2 instances, container images, and Lambda</td><td>"vulnerabilities," "unintended network exposure"</td></tr>
+    <tr><td><b>Amazon Macie</b></td><td>Machine learning that finds sensitive data (PII) stored in S3</td><td>"PII," "sensitive data in S3"</td></tr>
+    <tr><td><b>AWS KMS</b></td><td>Create and manage encryption keys used across AWS services</td><td>"encryption keys," "encrypt at rest"</td></tr>
+    <tr><td><b>AWS CloudHSM</b></td><td>Dedicated hardware security modules when you must control keys yourself for compliance</td><td>"dedicated hardware," "FIPS 140-2 Level 3"</td></tr>
+    <tr><td><b>AWS Secrets Manager</b></td><td>Store and automatically rotate database passwords, API keys, and other secrets</td><td>"rotate credentials"</td></tr>
+    <tr><td><b>AWS Certificate Manager</b></td><td>Free public TLS/SSL certificates, auto-renewed</td><td>"HTTPS," "SSL certificate"</td></tr>
+    <tr><td><b>AWS Security Hub</b></td><td>One dashboard that aggregates findings from GuardDuty, Inspector, Macie and more</td><td>"central view of security posture"</td></tr>
+    <tr><td><b>Amazon Detective</b></td><td>Investigates and finds the root cause of a security finding</td><td>"investigate," "root cause"</td></tr>
+    <tr><td><b>AWS Firewall Manager</b></td><td>Manage WAF and firewall rules centrally across an entire organization</td><td>"rules across all accounts"</td></tr>
+  </table></div>
+
+  <h3>2.4 Security groups vs network ACLs</h3>
+  <div class="scroll"><table>
+    <tr><th></th><th>Security group</th><th>Network ACL</th></tr>
+    <tr><td>Protects</td><td>The <b>instance</b> (its network interface)</td><td>The <b>subnet</b></td></tr>
+    <tr><td>State</td><td><b>Stateful</b> — return traffic automatically allowed</td><td><b>Stateless</b> — return traffic needs its own rule</td></tr>
+    <tr><td>Rule types</td><td><b>Allow rules only</b></td><td>Allow <b>and deny</b> rules</td></tr>
+    <tr><td>Evaluation</td><td>All rules evaluated together</td><td>Rules processed in number order</td></tr>
+  </table></div>
+  <div class="note trap"><span class="tag">Common trap.</span> "Block a specific IP address" — a security group <em>cannot deny</em>; the answer is a <strong>network ACL</strong> (or WAF for web traffic).</div>
+
+  <h3>2.5 The audit trio — CloudTrail vs Config vs CloudWatch</h3>
+  <p>Three services with confusable names; the exam tests them constantly.</p>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>Question it answers</th><th>Example</th></tr>
+    <tr><td><b>AWS CloudTrail</b></td><td><b>WHO did WHAT, and WHEN?</b> Records every API call in the account</td><td>"Which user deleted that S3 bucket last Tuesday?"</td></tr>
+    <tr><td><b>AWS Config</b></td><td><b>WHAT does my setup look like, and HOW has it changed?</b> Tracks resource configuration history and checks it against rules</td><td>"Alert me if any security group ever opens port 22 to the world"</td></tr>
+    <tr><td><b>Amazon CloudWatch</b></td><td><b>HOW is it performing?</b> Metrics, logs, alarms, dashboards</td><td>"Alarm when CPU is over 80% for 5 minutes"</td></tr>
+  </table></div>
+
+  <h3>2.6 Compliance and data protection</h3>
+  <ul>
+    <li><strong>AWS Artifact</strong> — self-service portal to <strong>download AWS's own compliance reports</strong> (SOC, PCI DSS, ISO) and agreements. Free. The answer to any "our auditors need proof AWS is compliant" question.</li>
+    <li><strong>AWS Audit Manager</strong> — continuously collects evidence from <em>your</em> account for <em>your</em> audits.</li>
+    <li>Compliance is shared: AWS certifies the infrastructure; <strong>you are still responsible for your workload's compliance</strong> (e.g. how you handle customer data under GDPR or HIPAA).</li>
+    <li><strong>Encryption in transit</strong> = TLS/HTTPS (certificates from ACM). <strong>Encryption at rest</strong> = keys from KMS; available in S3, EBS, RDS, and virtually every storage service — but enabling and configuring it is your job.</li>
+    <li><strong>Data residency:</strong> your data stays in the Region you choose; AWS does not move it. Choosing a compliant Region is your decision.</li>
+  </ul>
+</section>
+
+<!-- ================= MODULE 3 ================= -->
+<section class="module" id="m3">
+  <header class="mhead acc-teal">
+    <div class="mnum">3</div>
+    <div>
+      <p class="mkicker">Domain 3 — 34% of scored content</p>
+      <h2>Cloud technology and services</h2>
+      <div class="wbar"><span style="width:34%"></span></div>
+    </div>
+  </header>
+
+  <p>The biggest domain, and the most learnable: it is almost entirely "match the scenario to the service." Learn every service below as one sentence plus a trigger phrase. If you can do that, you have already banked a third of the exam.</p>
+
+  <h3>3.1 Global infrastructure</h3>
+  <figure class="diagram">
+    <svg viewBox="0 0 760 340" role="img" aria-label="AWS global infrastructure: a Region contains multiple Availability Zones; Edge locations sit close to users">
+      <rect x="20" y="50" width="470" height="270" rx="16" fill="none" stroke="var(--teal)" stroke-width="2"/>
+      <text x="40" y="84" class="dh" fill="var(--teal-strong)">AWS Region</text>
+      <text x="40" y="106" class="ds">e.g. ca-central-1 — choose for compliance, latency, services, price</text>
+      <rect x="44" y="140" width="130" height="150" rx="12" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="109" y="176" text-anchor="middle" class="dt">Availability</text>
+      <text x="109" y="195" text-anchor="middle" class="dt">Zone A</text>
+      <rect x="79" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <rect x="113" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="109" y="272" text-anchor="middle" class="ds">1+ data centers</text>
+      <rect x="190" y="140" width="130" height="150" rx="12" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="255" y="176" text-anchor="middle" class="dt">Availability</text>
+      <text x="255" y="195" text-anchor="middle" class="dt">Zone B</text>
+      <rect x="225" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <rect x="259" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="255" y="272" text-anchor="middle" class="ds">1+ data centers</text>
+      <rect x="336" y="140" width="130" height="150" rx="12" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="401" y="176" text-anchor="middle" class="dt">Availability</text>
+      <text x="401" y="195" text-anchor="middle" class="dt">Zone C</text>
+      <rect x="371" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <rect x="405" y="220" width="26" height="22" rx="3" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="401" y="272" text-anchor="middle" class="ds">1+ data centers</text>
+      <line x1="174" y1="215" x2="190" y2="215" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <line x1="320" y1="215" x2="336" y2="215" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="255" y="309" text-anchor="middle" class="dn">Isolated from each other, linked by low-latency private fiber</text>
+      <line x1="492" y1="185" x2="514" y2="185" stroke="var(--muted)" stroke-width="1.5"/>
+      <polygon points="514,185 505,180 505,190" fill="var(--muted)"/>
+      <rect x="520" y="110" width="220" height="150" rx="16" fill="var(--amber-soft)" stroke="var(--amber)" stroke-width="1.5"/>
+      <text x="540" y="146" class="dh" fill="var(--amber-strong)">Edge locations</text>
+      <text x="540" y="170" class="ds">600+ sites worldwide</text>
+      <text x="540" y="190" class="ds">CloudFront and Route 53</text>
+      <circle cx="556" cy="224" r="4" fill="var(--amber)"/>
+      <circle cx="582" cy="214" r="4" fill="var(--amber)"/>
+      <circle cx="608" cy="229" r="4" fill="var(--amber)"/>
+      <circle cx="634" cy="216" r="4" fill="var(--amber)"/>
+      <circle cx="660" cy="226" r="4" fill="var(--amber)"/>
+      <text x="630" y="288" text-anchor="middle" class="dn">Cache content close to users</text>
+    </svg>
+    <figcaption>A Region is a geographic area with 3+ isolated Availability Zones. Running in 2+ AZs is how you get high availability. Edge locations are far more numerous and serve cached content.</figcaption>
+  </figure>
+  <div class="scroll"><table>
+    <tr><th>Piece</th><th>What it is</th><th>Exam angle</th></tr>
+    <tr><td><b>Region</b></td><td>A geographic area (e.g. ca-central-1) with multiple AZs. Most services and your data stay inside the Region you pick</td><td>Choose a Region for: <b>compliance / data residency, latency to users, service availability, price</b></td></tr>
+    <tr><td><b>Availability Zone</b></td><td>One or more data centers with independent power and networking, connected to sibling AZs by fast private links</td><td>Deploying across <b>2+ AZs</b> = high availability; the design answer for "survive a data center failure"</td></tr>
+    <tr><td><b>Edge location</b></td><td>Small sites in hundreds of cities running CloudFront and Route 53</td><td>"Deliver content with low latency to global users" = CloudFront at edge locations</td></tr>
+    <tr><td><b>Local Zones</b></td><td>AWS compute/storage extended into large metro areas</td><td>"Single-digit millisecond latency to users in a specific city"</td></tr>
+    <tr><td><b>AWS Outposts</b></td><td>AWS-managed racks physically installed in <em>your</em> data center</td><td>"Run AWS services on-premises" — the hybrid hardware answer</td></tr>
+    <tr><td><b>AWS Wavelength</b></td><td>AWS compute embedded in telecom 5G networks</td><td>"Ultra-low latency for 5G mobile devices"</td></tr>
+  </table></div>
+
+  <h3>3.2 Compute</h3>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon EC2</b></td><td>Virtual servers you fully control (choose OS, size, network)</td><td>"virtual machine," "lift and shift," "full control"</td></tr>
+    <tr><td><b>AWS Lambda</b></td><td>Run code without any servers; pay per request and per millisecond; max 15 minutes per run</td><td>"serverless," "run code only when triggered," "no infrastructure to manage"</td></tr>
+    <tr><td><b>Amazon ECS</b></td><td>AWS's own container orchestration service (runs Docker containers)</td><td>"containers," AWS-native</td></tr>
+    <tr><td><b>Amazon EKS</b></td><td>Managed <b>Kubernetes</b></td><td>the word "Kubernetes"</td></tr>
+    <tr><td><b>AWS Fargate</b></td><td>Serverless engine for ECS/EKS — containers with no servers to manage</td><td>"containers without managing servers"</td></tr>
+    <tr><td><b>Elastic Beanstalk</b></td><td>Upload your code; AWS provisions, load-balances, scales, and monitors — you keep visibility and control</td><td>"deploy a web app quickly without managing infrastructure" (PaaS)</td></tr>
+    <tr><td><b>Amazon Lightsail</b></td><td>Simple bundles (server + storage + IP) at a flat monthly price</td><td>"simplest way," "predictable low monthly price," beginners</td></tr>
+    <tr><td><b>AWS Batch</b></td><td>Runs large-scale batch computing jobs, provisioning compute for you</td><td>"hundreds of thousands of batch jobs"</td></tr>
+    <tr><td><b>EC2 Auto Scaling + ELB</b></td><td>Auto Scaling adds/removes instances with demand; Elastic Load Balancing spreads traffic across them (ALB for HTTP, NLB for TCP)</td><td>"elasticity," "distribute traffic across AZs"</td></tr>
+  </table></div>
+
+  <h4>EC2 purchase options — a guaranteed exam topic</h4>
+  <div class="scroll"><table>
+    <tr><th>Option</th><th>Discount</th><th>Commitment</th><th>Best for</th></tr>
+    <tr><td><b>On-Demand</b></td><td>None (baseline)</td><td>None</td><td>Unpredictable, spiky, short-term workloads; first-time testing</td></tr>
+    <tr><td><b>Reserved Instances</b></td><td>Up to ~72%</td><td>1 or 3 years, specific instance family/Region</td><td>Steady-state workloads you know will run (e.g. a database, 24/7)</td></tr>
+    <tr><td><b>Savings Plans</b></td><td>Up to ~72%</td><td>1 or 3 years of $/hour spend, flexible across instance types and even Fargate/Lambda</td><td>Steady spend, but you want flexibility to change instance types</td></tr>
+    <tr><td><b>Spot Instances</b></td><td>Up to ~90%</td><td>None — but AWS can reclaim with a 2-minute warning</td><td>Fault-tolerant, interruptible work: batch, rendering, analytics. Never for anything that can't stop</td></tr>
+    <tr><td><b>Dedicated Hosts</b></td><td>—</td><td>A whole physical server for you</td><td>Bring-your-own server licenses; strict compliance ("no shared hardware")</td></tr>
+  </table></div>
+  <div class="note"><span class="tag">Exam tip.</span> Map the qualifier: <strong>cheapest + interruptible = Spot</strong>; <strong>steady 24/7 = Reserved or Savings Plans</strong>; <strong>unpredictable = On-Demand</strong>; <strong>licensing/compliance = Dedicated Host</strong>.</div>
+
+  <h3>3.3 Storage</h3>
+  <p>Three shapes of storage: <strong>object</strong> (files as complete objects — S3), <strong>block</strong> (raw disk for one server — EBS), <strong>file</strong> (shared network drive — EFS). Most storage questions are just "which shape?"</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 760 190" role="img" aria-label="S3 storage classes from hot to cold: Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, Glacier Instant Retrieval, Glacier Flexible Retrieval, Glacier Deep Archive">
+      <defs>
+        <linearGradient id="s3g" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="var(--teal)"/>
+          <stop offset="1" stop-color="var(--amber)"/>
+        </linearGradient>
+      </defs>
+      <text x="30" y="40" class="dt" fill="var(--teal-strong)">Hot — frequent access, no retrieval fee</text>
+      <text x="730" y="40" text-anchor="end" class="dt" fill="var(--amber-strong)">Cold — cheapest storage, retrieval fee + wait</text>
+      <rect x="30" y="58" width="684" height="14" rx="7" fill="url(#s3g)"/>
+      <polygon points="714,50 748,65 714,80" fill="var(--amber)"/>
+      <line x1="60" y1="72" x2="60" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="167" y1="72" x2="167" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="273" y1="72" x2="273" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="380" y1="72" x2="380" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="487" y1="72" x2="487" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="593" y1="72" x2="593" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <line x1="700" y1="72" x2="700" y2="90" stroke="var(--muted)" stroke-width="1.5"/>
+      <text x="60" y="108" text-anchor="middle" class="ds">S3</text>
+      <text x="60" y="124" text-anchor="middle" class="ds">Standard</text>
+      <text x="167" y="108" text-anchor="middle" class="ds">Intelligent-</text>
+      <text x="167" y="124" text-anchor="middle" class="ds">Tiering</text>
+      <text x="273" y="116" text-anchor="middle" class="ds">Standard-IA</text>
+      <text x="380" y="116" text-anchor="middle" class="ds">One Zone-IA</text>
+      <text x="487" y="108" text-anchor="middle" class="ds">Glacier Instant</text>
+      <text x="487" y="124" text-anchor="middle" class="ds">Retrieval</text>
+      <text x="593" y="108" text-anchor="middle" class="ds">Glacier</text>
+      <text x="593" y="124" text-anchor="middle" class="ds">Flexible</text>
+      <text x="700" y="108" text-anchor="middle" class="ds">Glacier Deep</text>
+      <text x="700" y="124" text-anchor="middle" class="ds">Archive</text>
+      <text x="380" y="160" text-anchor="middle" class="dn">All classes: 99.999999999% (11 nines) durability — price and retrieval speed differ</text>
+    </svg>
+    <figcaption>Move objects rightward automatically with lifecycle policies. Intelligent-Tiering moves them for you when access patterns are unknown. Deep Archive: cheapest, retrieval takes hours (~12).</figcaption>
+  </figure>
+
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon S3</b></td><td>Infinitely scalable object storage; globally unique bucket names; versioning; static website hosting</td><td>"object storage," "data lake," "static website," "backups"</td></tr>
+    <tr><td><b>Amazon EBS</b></td><td>Block storage volume (a virtual disk) attached to one EC2 instance in one AZ; snapshot to S3 for backup</td><td>"persistent disk for an EC2 instance"</td></tr>
+    <tr><td><b>Instance store</b></td><td>Physically attached disk — fastest, but data is lost when the instance stops</td><td>"temporary," "ephemeral"</td></tr>
+    <tr><td><b>Amazon EFS</b></td><td>Elastic shared file system (NFS) that many Linux instances mount at once, across AZs</td><td>"shared file storage for multiple instances"</td></tr>
+    <tr><td><b>Amazon FSx</b></td><td>Managed third-party file systems: FSx for Windows (SMB/Active Directory), FSx for Lustre (high-performance computing)</td><td>"Windows file share," "HPC"</td></tr>
+    <tr><td><b>Storage Gateway</b></td><td>Bridges on-premises apps to cloud storage — hybrid storage</td><td>"on-premises apps need cloud storage," hybrid</td></tr>
+    <tr><td><b>Snow family</b></td><td>Physical devices shipped to you for offline data transfer (and edge computing): Snowcone (small), Snowball Edge (up to ~80 TB each)</td><td>"petabytes," "limited / slow internet connection," "migrate data offline"</td></tr>
+    <tr><td><b>AWS Backup</b></td><td>One place to automate backups across EBS, RDS, DynamoDB, EFS and more</td><td>"centralize backup policies"</td></tr>
+  </table></div>
+  <div class="note trap"><span class="tag">Common trap.</span> EBS attaches to <strong>one instance</strong>; EFS is <strong>shared by many</strong>; S3 is not a disk at all — you access objects over the network. "Many EC2 instances need the same files" is never EBS.</div>
+
+  <h3>3.4 Networking and content delivery</h3>
+  <figure class="diagram">
+    <svg viewBox="0 0 760 430" role="img" aria-label="A VPC with a public subnet containing a web server and NAT gateway, and a private subnet containing an app server and database">
+      <ellipse cx="220" cy="40" rx="75" ry="26" fill="var(--surface-2)" stroke="var(--muted)"/>
+      <text x="220" y="45" text-anchor="middle" class="dt">Internet</text>
+      <line x1="220" y1="66" x2="220" y2="96" stroke="var(--muted)" stroke-width="1.5"/>
+      <rect x="150" y="96" width="140" height="34" rx="8" fill="var(--amber-soft)" stroke="var(--amber)"/>
+      <text x="220" y="118" text-anchor="middle" class="dt">Internet gateway</text>
+      <line x1="220" y1="130" x2="220" y2="200" stroke="var(--amber)" stroke-width="2"/>
+      <polygon points="220,200 215,191 225,191" fill="var(--amber)"/>
+      <polygon points="220,130 215,139 225,139" fill="var(--amber)"/>
+      <rect x="30" y="150" width="700" height="260" rx="16" fill="none" stroke="var(--teal)" stroke-width="2"/>
+      <text x="708" y="182" text-anchor="end" class="dh" fill="var(--teal-strong)">VPC — 10.0.0.0/16</text>
+      <rect x="60" y="200" width="300" height="180" rx="12" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="76" y="226" class="dt">Public subnet — 10.0.1.0/24</text>
+      <rect x="84" y="246" width="110" height="56" rx="8" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="139" y="268" text-anchor="middle" class="dt">EC2</text>
+      <text x="139" y="288" text-anchor="middle" class="ds">web server</text>
+      <rect x="224" y="246" width="110" height="56" rx="8" fill="var(--amber-soft)" stroke="var(--amber)"/>
+      <text x="279" y="268" text-anchor="middle" class="dt">NAT</text>
+      <text x="279" y="288" text-anchor="middle" class="ds">gateway</text>
+      <rect x="400" y="200" width="300" height="180" rx="12" fill="var(--surface-2)" stroke="var(--muted)"/>
+      <text x="416" y="226" class="dt">Private subnet — 10.0.2.0/24</text>
+      <rect x="424" y="246" width="110" height="56" rx="8" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="479" y="268" text-anchor="middle" class="dt">EC2</text>
+      <text x="479" y="288" text-anchor="middle" class="ds">app server</text>
+      <rect x="564" y="246" width="110" height="56" rx="8" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <text x="619" y="268" text-anchor="middle" class="dt">RDS</text>
+      <text x="619" y="288" text-anchor="middle" class="ds">database</text>
+      <line x1="424" y1="274" x2="344" y2="274" stroke="var(--amber)" stroke-width="2" stroke-dasharray="6 4"/>
+      <polygon points="340,274 350,269 350,279" fill="var(--amber)"/>
+      <text x="380" y="400" text-anchor="middle" class="dn">The private subnet reaches the internet outbound-only, through the NAT gateway; nothing can connect in</text>
+    </svg>
+    <figcaption>The classic exam architecture: web tier in a public subnet (reachable via the internet gateway), app and database in a private subnet. Security groups guard each instance; network ACLs guard each subnet.</figcaption>
+  </figure>
+
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon VPC</b></td><td>Your own isolated network inside AWS, split into public and private subnets</td><td>"isolated network," "define IP ranges"</td></tr>
+    <tr><td><b>Internet gateway / NAT gateway</b></td><td>IGW connects the VPC to the internet; NAT lets <em>private</em> subnets make outbound calls without accepting inbound</td><td>"private instances need to download updates" = NAT</td></tr>
+    <tr><td><b>VPC endpoints / PrivateLink</b></td><td>Reach AWS services privately without touching the public internet</td><td>"traffic must not traverse the internet"</td></tr>
+    <tr><td><b>VPC peering / Transit Gateway</b></td><td>Peering privately connects two VPCs; Transit Gateway is a hub connecting many VPCs and on-premises networks</td><td>"connect thousands of VPCs" = Transit Gateway</td></tr>
+    <tr><td><b>Amazon Route 53</b></td><td>DNS: translate names to addresses, register domains, health checks, smart routing policies</td><td>"DNS," "domain," "route users to the closest healthy endpoint"</td></tr>
+    <tr><td><b>Amazon CloudFront</b></td><td>CDN — caches your content at edge locations worldwide, integrates with Shield and WAF</td><td>"low latency for global users," "cache static content"</td></tr>
+    <tr><td><b>AWS Global Accelerator</b></td><td>Improves global performance by routing traffic onto the AWS backbone via static anycast IPs (no caching)</td><td>"improve availability and performance of the app itself," gaming/VoIP</td></tr>
+    <tr><td><b>AWS Direct Connect</b></td><td>A dedicated physical fiber line from your data center into AWS — consistent, private bandwidth (takes weeks to set up)</td><td>"dedicated private connection," "consistent network performance"</td></tr>
+    <tr><td><b>Site-to-Site VPN</b></td><td>Encrypted tunnel from your network to AWS over the public internet — quick and cheap to set up</td><td>"encrypted connection over the internet," "set up in hours"</td></tr>
+  </table></div>
+  <div class="note trap"><span class="tag">Common trap.</span> Direct Connect vs VPN: <strong>Direct Connect</strong> = private dedicated line, consistent performance, slow to provision, not encrypted by default. <strong>VPN</strong> = encrypted, over the internet, ready today. CloudFront vs Global Accelerator: CloudFront <strong>caches content</strong>; Global Accelerator <strong>speeds up the network path</strong>.</div>
+
+  <h3>3.5 Databases</h3>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon RDS</b></td><td>Managed relational databases (MySQL, PostgreSQL, MariaDB, Oracle, SQL Server) — AWS handles patching, backups, failover</td><td>"managed SQL database"</td></tr>
+    <tr><td><b>Amazon Aurora</b></td><td>AWS-built relational engine, MySQL- and PostgreSQL-compatible, up to 5x faster, with a serverless option</td><td>"high-performance MySQL/PostgreSQL-compatible"</td></tr>
+    <tr><td><b>Amazon DynamoDB</b></td><td>Serverless NoSQL key-value database with single-digit-millisecond performance at any scale</td><td>"NoSQL," "key-value," "millisecond at massive scale," "serverless database"</td></tr>
+    <tr><td><b>Amazon ElastiCache</b></td><td>Managed in-memory cache (Redis / Memcached) to take read pressure off databases</td><td>"in-memory," "cache," "microsecond reads"</td></tr>
+    <tr><td><b>Amazon Redshift</b></td><td>Petabyte-scale data <b>warehouse</b> for analytics and BI (OLAP)</td><td>"data warehouse," "analyze years of data"</td></tr>
+    <tr><td><b>Amazon Neptune</b></td><td>Graph database — relationships between things</td><td>"social network," "fraud rings," "recommendation graph"</td></tr>
+    <tr><td><b>Amazon DocumentDB</b></td><td>Managed document database, MongoDB-compatible</td><td>"MongoDB"</td></tr>
+    <tr><td><b>AWS DMS</b></td><td>Database Migration Service — move databases to AWS with minimal downtime, same or different engine</td><td>"migrate the database while it stays live"</td></tr>
+  </table></div>
+  <div class="note"><span class="tag">Exam tip.</span> RDS <strong>Multi-AZ</strong> = a standby copy in another AZ for <strong>availability</strong> (failover). RDS <strong>read replicas</strong> = extra read-only copies for <strong>performance</strong>. Transactions (OLTP) = RDS/Aurora; analytics (OLAP) = Redshift.</div>
+
+  <h3>3.6 Application integration — decoupling</h3>
+  <figure class="diagram">
+    <svg viewBox="0 0 760 305" role="img" aria-label="SQS is a pull-based queue between a producer and one consumer; SNS pushes one message to many subscribers">
+      <rect x="40" y="50" width="120" height="46" rx="10" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="100" y="78" text-anchor="middle" class="dt">Producer</text>
+      <line x1="160" y1="73" x2="240" y2="73" stroke="var(--teal)" stroke-width="2"/>
+      <polygon points="250,73 240,68 240,78" fill="var(--teal)"/>
+      <rect x="252" y="50" width="170" height="46" rx="10" fill="var(--teal-soft)" stroke="var(--teal)"/>
+      <rect x="268" y="62" width="22" height="22" rx="4" fill="var(--surface)" stroke="var(--muted)"/>
+      <rect x="298" y="62" width="22" height="22" rx="4" fill="var(--surface)" stroke="var(--muted)"/>
+      <rect x="328" y="62" width="22" height="22" rx="4" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="337" y="112" text-anchor="middle" class="ds">SQS queue</text>
+      <line x1="422" y1="73" x2="502" y2="73" stroke="var(--teal)" stroke-width="2"/>
+      <polygon points="512,73 502,68 502,78" fill="var(--teal)"/>
+      <rect x="514" y="50" width="160" height="46" rx="10" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="594" y="70" text-anchor="middle" class="dt">Consumer</text>
+      <text x="594" y="87" text-anchor="middle" class="ds">polls the queue</text>
+      <text x="40" y="140" class="dn">SQS — pull. Messages wait in a queue; each message is processed by one consumer.</text>
+      <rect x="40" y="185" width="120" height="46" rx="10" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="100" y="213" text-anchor="middle" class="dt">Publisher</text>
+      <line x1="160" y1="208" x2="240" y2="208" stroke="var(--amber)" stroke-width="2"/>
+      <polygon points="250,208 240,203 240,213" fill="var(--amber)"/>
+      <circle cx="286" cy="208" r="36" fill="var(--amber-soft)" stroke="var(--amber)"/>
+      <text x="286" y="205" text-anchor="middle" class="dt">SNS</text>
+      <text x="286" y="222" text-anchor="middle" class="ds">topic</text>
+      <line x1="320" y1="196" x2="480" y2="172" stroke="var(--amber)" stroke-width="2"/>
+      <polygon points="490,172 480,167 480,177" fill="var(--amber)"/>
+      <line x1="322" y1="208" x2="480" y2="208" stroke="var(--amber)" stroke-width="2"/>
+      <polygon points="490,208 480,203 480,213" fill="var(--amber)"/>
+      <line x1="320" y1="220" x2="480" y2="244" stroke="var(--amber)" stroke-width="2"/>
+      <polygon points="490,244 480,239 480,249" fill="var(--amber)"/>
+      <rect x="490" y="155" width="210" height="34" rx="8" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="595" y="177" text-anchor="middle" class="dt">Email subscriber</text>
+      <rect x="490" y="191" width="210" height="34" rx="8" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="595" y="213" text-anchor="middle" class="dt">Lambda function</text>
+      <rect x="490" y="227" width="210" height="34" rx="8" fill="var(--surface)" stroke="var(--muted)"/>
+      <text x="595" y="249" text-anchor="middle" class="dt">SQS queue (fan-out)</text>
+      <text x="40" y="295" class="dn">SNS — push. One published message fans out to every subscriber at the same time.</text>
+    </svg>
+    <figcaption>"Decoupling" means components talk through a middleman, so one can fail or scale without breaking the other. Queue = SQS. Notifications to many = SNS.</figcaption>
+  </figure>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon SQS</b></td><td>Message queue — decouple components; messages persist until one consumer processes them</td><td>"decouple," "queue," "buffer requests," "process exactly once"</td></tr>
+    <tr><td><b>Amazon SNS</b></td><td>Pub/sub notifications — push one message to many subscribers (email, SMS, Lambda, SQS)</td><td>"notify," "fan out," "push to many"</td></tr>
+    <tr><td><b>Amazon EventBridge</b></td><td>Event bus that routes events between AWS services and SaaS apps based on rules</td><td>"react to events," "schedule," SaaS integration</td></tr>
+    <tr><td><b>AWS Step Functions</b></td><td>Visual workflows that orchestrate multi-step processes across services</td><td>"orchestrate," "workflow with retries and branching"</td></tr>
+    <tr><td><b>Amazon SES</b></td><td>Send bulk and transactional email</td><td>"send marketing emails"</td></tr>
+  </table></div>
+
+  <h3>3.7 Analytics</h3>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon Athena</b></td><td>Serverless SQL queries directly against files sitting in S3; pay per query</td><td>"query data in S3 with SQL, no infrastructure"</td></tr>
+    <tr><td><b>AWS Glue</b></td><td>Serverless ETL — extract, transform, load data for analytics; includes a data catalog</td><td>"prepare / transform data," "ETL"</td></tr>
+    <tr><td><b>Amazon Kinesis</b></td><td>Collect and process <b>real-time streaming</b> data (clickstreams, IoT, logs)</td><td>"real time," "streaming"</td></tr>
+    <tr><td><b>Amazon QuickSight</b></td><td>Serverless BI dashboards and visualizations</td><td>"dashboards," "business intelligence"</td></tr>
+    <tr><td><b>Amazon EMR</b></td><td>Managed big-data clusters (Hadoop, Spark)</td><td>"big data," "Spark/Hadoop"</td></tr>
+    <tr><td><b>Amazon OpenSearch</b></td><td>Search and analyze log data interactively</td><td>"search logs"</td></tr>
+  </table></div>
+
+  <h3>3.8 AI and machine learning</h3>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Remember it as</th></tr>
+    <tr><td><b>Amazon SageMaker</b></td><td>Build, train, and deploy your own ML models</td><td>the ML workbench</td></tr>
+    <tr><td><b>Amazon Rekognition</b></td><td>Detect objects, faces, text, and unsafe content in images and video</td><td>sees</td></tr>
+    <tr><td><b>Amazon Polly</b></td><td>Text to lifelike speech</td><td>speaks</td></tr>
+    <tr><td><b>Amazon Transcribe</b></td><td>Speech to text</td><td>listens</td></tr>
+    <tr><td><b>Amazon Translate</b></td><td>Translate between languages</td><td>translates</td></tr>
+    <tr><td><b>Amazon Comprehend</b></td><td>Natural-language processing — sentiment, entities, key phrases in text</td><td>understands text</td></tr>
+    <tr><td><b>Amazon Lex</b></td><td>Build conversational chatbots (the tech behind Alexa)</td><td>chats</td></tr>
+    <tr><td><b>Amazon Kendra</b></td><td>Intelligent search across your documents, in natural language</td><td>finds answers</td></tr>
+    <tr><td><b>Amazon Personalize</b></td><td>Product/content recommendations</td><td>recommends</td></tr>
+    <tr><td><b>Amazon Textract</b></td><td>Extract text, tables, and form fields from scanned documents</td><td>reads documents</td></tr>
+    <tr><td><b>Amazon Bedrock</b></td><td>Access generative-AI foundation models through an API</td><td>generative AI (newer; light exam coverage)</td></tr>
+  </table></div>
+
+  <h3>3.9 Management, monitoring and governance</h3>
+  <div class="scroll"><table>
+    <tr><th>Service</th><th>One-sentence job</th><th>Trigger words</th></tr>
+    <tr><td><b>Amazon CloudWatch</b></td><td>Metrics, logs, alarms, dashboards — operational monitoring</td><td>"monitor CPU," "alarm," "collect logs"</td></tr>
+    <tr><td><b>AWS CloudTrail</b></td><td>Records every API call: who, what, when, from where</td><td>"audit," "who did this"</td></tr>
+    <tr><td><b>AWS Config</b></td><td>Tracks resource configurations over time and evaluates them against rules</td><td>"configuration compliance," "what changed"</td></tr>
+    <tr><td><b>AWS Trusted Advisor</b></td><td>Automated best-practice checks in cost optimization, performance, security, fault tolerance, service limits, operational excellence</td><td>"recommendations," "idle resources," "open security groups." Full checks need Business support or higher</td></tr>
+    <tr><td><b>AWS Systems Manager</b></td><td>Operate your fleet: patch instances, run commands, connect via Session Manager (no SSH keys)</td><td>"patch hundreds of instances," "no open SSH ports"</td></tr>
+    <tr><td><b>AWS CloudFormation</b></td><td>Infrastructure as code — describe resources in a JSON/YAML template and deploy repeatably (free; pay only for the resources)</td><td>"template," "repeatable environments," "infrastructure as code"</td></tr>
+    <tr><td><b>AWS CDK</b></td><td>Define CloudFormation infrastructure using real programming languages</td><td>"IaC in Python/TypeScript"</td></tr>
+    <tr><td><b>AWS Health Dashboard</b></td><td>Alerts about AWS events that affect <em>your</em> account and resources (plus general service status)</td><td>"is AWS having an outage that affects us"</td></tr>
+    <tr><td><b>AWS Compute Optimizer</b></td><td>ML recommendations to right-size instances</td><td>"right-size"</td></tr>
+    <tr><td><b>AWS Service Catalog</b></td><td>A curated menu of IT-approved products employees can self-serve</td><td>"approved templates for teams"</td></tr>
+    <tr><td><b>AWS Control Tower</b></td><td>Sets up and governs a secure multi-account environment with guardrails, on top of Organizations</td><td>"landing zone," "govern many new accounts"</td></tr>
+  </table></div>
+
+  <h3>3.10 Ways to work with AWS</h3>
+  <ul>
+    <li><strong>Management Console</strong> — the web UI; good for learning and one-off tasks.</li>
+    <li><strong>CLI</strong> — scriptable commands from your terminal.</li>
+    <li><strong>SDKs</strong> — call AWS from code (Python, JavaScript, Java…).</li>
+    <li><strong>Infrastructure as code</strong> — CloudFormation / CDK for anything repeatable.</li>
+    <li><strong>CloudShell</strong> — a terminal in the browser with the CLI pre-installed.</li>
+  </ul>
+  <div class="note"><span class="tag">Exam tip.</span> "Least operational overhead / no servers to manage" points to the serverless family: <strong>Lambda, Fargate, DynamoDB, Aurora Serverless, S3, Athena, Glue, SQS, SNS</strong>.</div>
+</section>
+
+<!-- ================= MODULE 4 ================= -->
+<section class="module" id="m4">
+  <header class="mhead acc-amber">
+    <div class="mnum">4</div>
+    <div>
+      <p class="mkicker">Domain 4 — 12% of scored content</p>
+      <h2>Billing, pricing and support</h2>
+      <div class="wbar"><span style="width:12%"></span></div>
+    </div>
+  </header>
+
+  <h3>4.1 How AWS pricing works</h3>
+  <ul>
+    <li><strong>Pay as you go</strong> — per second/hour/request/GB, no contracts required.</li>
+    <li><strong>Pay less when you commit</strong> — Reserved Instances and Savings Plans.</li>
+    <li><strong>Pay less with volume</strong> — tiered pricing: the more S3 you store, the cheaper each GB.</li>
+    <li><strong>Data transfer:</strong> traffic <strong>into</strong> AWS is free; traffic <strong>out</strong> to the internet is charged; traffic between Regions and between AZs also costs money.</li>
+  </ul>
+
+  <h3>4.2 The Free Tier — three kinds</h3>
+  <div class="scroll"><table>
+    <tr><th>Type</th><th>Meaning</th><th>Examples</th></tr>
+    <tr><td><b>Always free</b></td><td>Never expires</td><td>Lambda: 1M requests/month; DynamoDB: 25 GB</td></tr>
+    <tr><td><b>12 months free</b></td><td>From account creation</td><td>750 hrs/month of a micro EC2 instance; 5 GB S3</td></tr>
+    <tr><td><b>Trials</b></td><td>Short-term, starts when you activate the service</td><td>Varies by service</td></tr>
+  </table></div>
+
+  <h3>4.3 The cost toolbox — before, during, after</h3>
+  <div class="scroll"><table>
+    <tr><th>Tool</th><th>When</th><th>One-sentence job</th></tr>
+    <tr><td><b>AWS Pricing Calculator</b></td><td>Before</td><td>Estimate the monthly cost of an architecture you haven't built yet</td></tr>
+    <tr><td><b>AWS Budgets</b></td><td>During</td><td>Set a cost or usage threshold and get alerted when actual or forecasted spend crosses it</td></tr>
+    <tr><td><b>AWS Cost Explorer</b></td><td>After (and forecast)</td><td>Visualize and analyze past spend by service, account, or tag; forecast ahead</td></tr>
+    <tr><td><b>Cost and Usage Report</b></td><td>After</td><td>The most detailed line-item export of everything, delivered to S3</td></tr>
+    <tr><td><b>Cost allocation tags</b></td><td>Always</td><td>Label resources (team, project) so costs can be split in reports</td></tr>
+    <tr><td><b>Billing dashboard</b></td><td>Always</td><td>Current month-to-date bill at a glance</td></tr>
+  </table></div>
+  <div class="note"><span class="tag">Exam tip.</span> Match the verb: <strong>estimate = Pricing Calculator</strong>, <strong>alert = Budgets</strong>, <strong>analyze/visualize = Cost Explorer</strong>, <strong>line-item detail = Cost and Usage Report</strong>.</div>
+
+  <h3>4.4 AWS Organizations — many accounts, one bill</h3>
+  <ul>
+    <li>A <strong>management account</strong> governs many <strong>member accounts</strong>, grouped into organizational units (OUs).</li>
+    <li><strong>Consolidated billing:</strong> one invoice for all accounts, usage pooled so everyone benefits from volume-tier discounts, and Reserved Instance / Savings Plan discounts are shared across accounts.</li>
+    <li><strong>Service control policies (SCPs)</strong> set the <em>maximum</em> permissions for member accounts — guardrails that even a member account's admins can't exceed (e.g. "no one may leave the approved Regions").</li>
+    <li><strong>AWS Control Tower</strong> automates setting up a well-governed multi-account environment on top of Organizations.</li>
+  </ul>
+
+  <h3>4.5 Support plans — memorize this table</h3>
+  <div class="scroll"><table>
+    <tr><th></th><th>Basic</th><th>Developer</th><th>Business</th><th>Enterprise On-Ramp</th><th>Enterprise</th></tr>
+    <tr><td><b>Price</b></td><td>Free</td><td>From $29/mo</td><td>From $100/mo</td><td>From $5,500/mo</td><td>From $15,000/mo</td></tr>
+    <tr><td><b>Access</b></td><td>Docs, forums, Health Dashboard</td><td>Email, business hours, 1 contact</td><td>24/7 phone, chat, email</td><td>24/7</td><td>24/7</td></tr>
+    <tr><td><b>Trusted Advisor</b></td><td>Core checks only</td><td>Core checks only</td><td><b>All checks</b></td><td>All checks</td><td>All checks</td></tr>
+    <tr><td><b>Production system down</b></td><td>—</td><td>—</td><td>&lt; 1 hour</td><td>&lt; 1 hour</td><td>&lt; 1 hour</td></tr>
+    <tr><td><b>Business-critical down</b></td><td>—</td><td>—</td><td>—</td><td>&lt; 30 minutes</td><td><b>&lt; 15 minutes</b></td></tr>
+    <tr><td><b>Technical Account Manager</b></td><td>—</td><td>—</td><td>—</td><td>Pool of TAMs</td><td><b>Designated TAM</b> + Concierge team</td></tr>
+  </table></div>
+  <div class="note trap"><span class="tag">Common trap.</span> "24/7 phone support at the lowest cost" = <strong>Business</strong> (Developer is email-only, business hours). "Designated TAM" = <strong>Enterprise</strong> only. Every account, even Basic, gets the Health Dashboard and core Trusted Advisor checks free.</div>
+
+  <h3>4.6 The wider help ecosystem</h3>
+  <div class="scroll"><table>
+    <tr><th>Resource</th><th>One-sentence job</th></tr>
+    <tr><td><b>AWS Marketplace</b></td><td>Buy third-party software (already licensed, billed through your AWS invoice)</td></tr>
+    <tr><td><b>AWS Partner Network (APN)</b></td><td>Certified consulting and technology partners who build and migrate for customers</td></tr>
+    <tr><td><b>AWS Professional Services</b></td><td>AWS's own consultants for large enterprise engagements</td></tr>
+    <tr><td><b>AWS re:Post</b></td><td>The official community Q&amp;A forum</td></tr>
+    <tr><td><b>AWS Quick Starts</b></td><td>Ready-made CloudFormation reference deployments</td></tr>
+  </table></div>
+</section>
+
+<!-- ================= MODULE 5 ================= -->
+<section class="module" id="m5">
+  <header class="mhead acc-teal">
+    <div class="mnum">5</div>
+    <div>
+      <p class="mkicker">Highest-yield pages in the course</p>
+      <h2>Exam strategy and the keyword cheat sheet</h2>
+    </div>
+  </header>
+
+  <h3>5.1 How to take the exam</h3>
+  <ul>
+    <li><strong>Eliminate first.</strong> Two options are usually obviously wrong; you're choosing between the last two.</li>
+    <li><strong>Obey the qualifier.</strong> MOST cost-effective, LEAST effort, HIGHLY available — when two answers both "work," the qualifier picks the winner. Managed and serverless beat self-managed for "least effort"; Spot beats everything for "cheapest interruptible."</li>
+    <li><strong>Multiple-response questions state the count</strong> ("Select TWO") — pick exactly that many; no partial credit.</li>
+    <li><strong>Never leave blanks.</strong> There is no penalty for guessing. Flag, guess, move on.</li>
+    <li><strong>Watch scope words.</strong> "Global" services: IAM, Route 53, CloudFront, Organizations. Most everything else is Regional; EBS volumes and subnets are per-AZ.</li>
+    <li><strong>Pace:</strong> 80 seconds per question on average. First pass everything, then revisit flagged ones.</li>
+  </ul>
+
+  <h3>5.2 The keyword cheat sheet</h3>
+  <p>The single most valuable revision asset. Cover the right column and quiz yourself until it's automatic.</p>
+  <div class="scroll"><table>
+    <tr><th>When the question says…</th><th>Answer</th></tr>
+    <tr><td>Run code without managing servers</td><td><b>Lambda</b></td></tr>
+    <tr><td>Containers without managing servers</td><td><b>Fargate</b></td></tr>
+    <tr><td>Kubernetes</td><td><b>EKS</b></td></tr>
+    <tr><td>Deploy a web app fast; AWS handles the infrastructure</td><td><b>Elastic Beanstalk</b></td></tr>
+    <tr><td>Simple bundle, predictable monthly price</td><td><b>Lightsail</b></td></tr>
+    <tr><td>Cheapest compute for interruptible jobs</td><td><b>Spot Instances</b></td></tr>
+    <tr><td>Steady 24/7 workload, biggest committed discount</td><td><b>Reserved Instances / Savings Plans</b></td></tr>
+    <tr><td>Object storage, static website, data lake</td><td><b>S3</b></td></tr>
+    <tr><td>Cheapest archive; retrieval can take hours</td><td><b>S3 Glacier Deep Archive</b></td></tr>
+    <tr><td>Disk for one EC2 instance</td><td><b>EBS</b></td></tr>
+    <tr><td>Shared file system for many Linux instances</td><td><b>EFS</b></td></tr>
+    <tr><td>Petabytes over a slow connection; offline transfer</td><td><b>Snowball Edge</b></td></tr>
+    <tr><td>AWS hardware inside your own data center</td><td><b>Outposts</b></td></tr>
+    <tr><td>Hybrid: on-prem apps using cloud storage</td><td><b>Storage Gateway</b></td></tr>
+    <tr><td>Dedicated private network line to AWS</td><td><b>Direct Connect</b></td></tr>
+    <tr><td>Encrypted connection over the internet, ready today</td><td><b>Site-to-Site VPN</b></td></tr>
+    <tr><td>DNS, domain registration, routing policies</td><td><b>Route 53</b></td></tr>
+    <tr><td>Cache content near global users (CDN)</td><td><b>CloudFront</b></td></tr>
+    <tr><td>DDoS protection</td><td><b>Shield</b></td></tr>
+    <tr><td>Block SQL injection / cross-site scripting</td><td><b>WAF</b></td></tr>
+    <tr><td>Intelligent threat detection across the account</td><td><b>GuardDuty</b></td></tr>
+    <tr><td>Scan instances for vulnerabilities</td><td><b>Inspector</b></td></tr>
+    <tr><td>Find sensitive data / PII in S3</td><td><b>Macie</b></td></tr>
+    <tr><td>Manage encryption keys</td><td><b>KMS</b></td></tr>
+    <tr><td>Store and rotate database passwords</td><td><b>Secrets Manager</b></td></tr>
+    <tr><td>Download AWS compliance reports (SOC, PCI, ISO)</td><td><b>Artifact</b></td></tr>
+    <tr><td>Who made this API call?</td><td><b>CloudTrail</b></td></tr>
+    <tr><td>Track configuration changes; compliance rules</td><td><b>Config</b></td></tr>
+    <tr><td>Metrics, alarms, dashboards, logs</td><td><b>CloudWatch</b></td></tr>
+    <tr><td>Best-practice checks (cost, security, limits)</td><td><b>Trusted Advisor</b></td></tr>
+    <tr><td>Patch a fleet; connect without SSH keys</td><td><b>Systems Manager</b></td></tr>
+    <tr><td>Decouple with a message queue</td><td><b>SQS</b></td></tr>
+    <tr><td>Push one message to many subscribers</td><td><b>SNS</b></td></tr>
+    <tr><td>Multi-step workflow orchestration</td><td><b>Step Functions</b></td></tr>
+    <tr><td>SQL directly on files in S3</td><td><b>Athena</b></td></tr>
+    <tr><td>Data warehouse for analytics</td><td><b>Redshift</b></td></tr>
+    <tr><td>Real-time streaming data</td><td><b>Kinesis</b></td></tr>
+    <tr><td>BI dashboards</td><td><b>QuickSight</b></td></tr>
+    <tr><td>Serverless NoSQL key-value, milliseconds at scale</td><td><b>DynamoDB</b></td></tr>
+    <tr><td>In-memory cache</td><td><b>ElastiCache</b></td></tr>
+    <tr><td>Migrate a live database with minimal downtime</td><td><b>DMS</b></td></tr>
+    <tr><td>Infrastructure as code templates</td><td><b>CloudFormation</b></td></tr>
+    <tr><td>Many accounts, one bill, shared discounts, guardrails</td><td><b>Organizations (SCPs)</b></td></tr>
+    <tr><td>Set up a governed multi-account environment</td><td><b>Control Tower</b></td></tr>
+    <tr><td>Estimate costs before building</td><td><b>Pricing Calculator</b></td></tr>
+    <tr><td>Alert me when spend crosses a threshold</td><td><b>Budgets</b></td></tr>
+    <tr><td>Analyze and forecast spend</td><td><b>Cost Explorer</b></td></tr>
+    <tr><td>Virtual desktops for remote staff</td><td><b>WorkSpaces</b></td></tr>
+    <tr><td>Text to speech / speech to text / chatbot</td><td><b>Polly / Transcribe / Lex</b></td></tr>
+    <tr><td>Extract text from scanned documents</td><td><b>Textract</b></td></tr>
+  </table></div>
+</section>
+
+<!-- ================= MODULE 6 ================= -->
+<section class="module" id="m6">
+  <header class="mhead acc-amber">
+    <div class="mnum">6</div>
+    <div>
+      <p class="mkicker">Target: 13 of 16 before booking</p>
+      <h2>Practice questions</h2>
+    </div>
+  </header>
+  <p>Written in the real exam's style. Answer before opening the explanation; anything you miss, re-read that module section.</p>
+
+  <div class="q"><p class="dom">Domain 1 — Cloud concepts</p>
+    <p class="qt">1. A company closes its data center and stops buying servers upfront, paying instead for compute as it is consumed. Which advantage of cloud computing does this describe?</p>
+    <ul class="opts"><li>A. Massive economies of scale</li><li>B. Trade fixed expense for variable expense</li><li>C. Go global in minutes</li><li>D. Increased deployment speed</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> Upfront capital purchases (fixed/CapEx) replaced by pay-per-use (variable/OpEx) is the textbook phrase. Economies of scale (A) is about AWS's bulk purchasing lowering prices, not your payment model.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 1 — Cloud concepts</p>
+    <p class="qt">2. Which Well-Architected Framework pillar focuses on the ability of a workload to recover from infrastructure disruptions?</p>
+    <ul class="opts"><li>A. Performance efficiency</li><li>B. Operational excellence</li><li>C. Reliability</li><li>D. Cost optimization</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>C.</strong> Reliability = recover from failures and meet demand. Operational excellence (B) is about running and improving processes, a common distractor.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 1 — Cloud concepts</p>
+    <p class="qt">3. Which statement best describes elasticity?</p>
+    <ul class="opts"><li>A. Deploying resources in multiple Regions</li><li>B. Automatically acquiring and releasing resources as demand changes</li><li>C. Replacing servers with larger ones</li><li>D. Running workloads on redundant hardware</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> Elasticity is automatic and two-directional — grow with demand, shrink when it falls, and pay accordingly. C describes vertical scaling; D describes fault tolerance.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 2 — Security and compliance</p>
+    <p class="qt">4. Under the shared responsibility model, which task is the customer's responsibility for an application running on Amazon EC2?</p>
+    <ul class="opts"><li>A. Patching the guest operating system</li><li>B. Physical security of the data center</li><li>C. Maintaining the virtualization hypervisor</li><li>D. Disposing of decommissioned disk drives</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>A.</strong> On EC2 you control the OS, so you patch it. Everything physical or at the hypervisor layer (B, C, D) is AWS — security OF the cloud.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 2 — Security and compliance</p>
+    <p class="qt">5. A company must discover personally identifiable information (PII) stored across its S3 buckets. Which service should it use?</p>
+    <ul class="opts"><li>A. Amazon GuardDuty</li><li>B. Amazon Inspector</li><li>C. AWS Shield</li><li>D. Amazon Macie</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>D.</strong> Macie = ML that finds sensitive data in S3. GuardDuty detects threats, Inspector finds vulnerabilities, Shield stops DDoS — all common distractors here.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 2 — Security and compliance</p>
+    <p class="qt">6. A web application behind an Application Load Balancer must be protected from SQL injection attacks. Which service should be used?</p>
+    <ul class="opts"><li>A. AWS Shield</li><li>B. AWS WAF</li><li>C. Amazon GuardDuty</li><li>D. Network ACLs</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> WAF filters web requests for exploit patterns like SQL injection and XSS. Shield (A) is specifically DDoS; NACLs (D) filter by IP/port, not request content.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 2 — Security and compliance</p>
+    <p class="qt">7. Which TWO are AWS Identity and Access Management best practices? (Select TWO)</p>
+    <ul class="opts"><li>A. Enable multi-factor authentication on the root user</li><li>B. Share one set of access keys across the team</li><li>C. Grant permissions following least privilege</li><li>D. Use the root user for daily administration</li><li>E. Embed access keys in application code</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>A and C.</strong> MFA on root and least privilege are the two canonical practices. B, D, and E are each the exact opposite of a best practice (use individual users, lock root away, use roles instead of embedded keys).</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">8. A nightly analytics batch job can tolerate interruptions and restarts. Which EC2 purchasing option costs the least?</p>
+    <ul class="opts"><li>A. On-Demand Instances</li><li>B. Reserved Instances</li><li>C. Spot Instances</li><li>D. Dedicated Hosts</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>C.</strong> "Tolerates interruption" + "least cost" is the Spot signature (up to ~90% off). Reserved (B) suits steady always-on workloads; Dedicated Hosts (D) are the most expensive option.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">9. Multiple Linux EC2 instances in different Availability Zones must read and write the same set of files at once. Which storage service fits?</p>
+    <ul class="opts"><li>A. Amazon EBS</li><li>B. Amazon EFS</li><li>C. EC2 instance store</li><li>D. Amazon S3 Glacier</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> EFS is the shared, multi-AZ file system. EBS (A) attaches to a single instance in a single AZ; instance store (C) is temporary; Glacier (D) is archive, not a mountable file system.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">10. An analyst wants to run standard SQL queries against CSV files already stored in Amazon S3, without provisioning any infrastructure. Which service should they use?</p>
+    <ul class="opts"><li>A. Amazon Redshift</li><li>B. Amazon RDS</li><li>C. Amazon Athena</li><li>D. Amazon EMR</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>C.</strong> Athena = serverless SQL directly on S3, pay per query. Redshift (A) is a provisioned data warehouse you'd load data into; EMR (D) means managing a big-data cluster.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">11. An e-commerce app must decouple order intake from order processing so each order is stored durably and processed once, even if the processor is temporarily down. Which service fits?</p>
+    <ul class="opts"><li>A. Amazon SNS</li><li>B. Amazon SQS</li><li>C. Amazon SES</li><li>D. Amazon Kinesis</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> A queue holds messages until a consumer processes them — the definition of decoupling with durability. SNS (A) pushes to whoever is subscribed right now; Kinesis (D) is for real-time streaming analytics.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">12. A company wants its Amazon RDS database to keep running if one Availability Zone fails. What should it enable?</p>
+    <ul class="opts"><li>A. Read replicas</li><li>B. Automated snapshots</li><li>C. A larger instance class</li><li>D. Multi-AZ deployment</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>D.</strong> Multi-AZ keeps a synchronized standby in another AZ and fails over automatically = availability. Read replicas (A) improve read performance; snapshots (B) are backups, not failover.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 3 — Technology and services</p>
+    <p class="qt">13. Security auditors need a record of every API call made in the AWS account, including who made it and when. Which service provides this?</p>
+    <ul class="opts"><li>A. Amazon CloudWatch</li><li>B. AWS CloudTrail</li><li>C. AWS Config</li><li>D. Amazon Inspector</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> CloudTrail = who did what, when (API audit log). CloudWatch (A) is performance metrics; Config (C) is resource configuration history — the two classic distractors.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 4 — Billing, pricing and support</p>
+    <p class="qt">14. Which is the lowest-cost AWS Support plan that includes 24/7 phone access to cloud support engineers and the full set of Trusted Advisor checks?</p>
+    <ul class="opts"><li>A. Basic</li><li>B. Developer</li><li>C. Business</li><li>D. Enterprise</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>C.</strong> Business is the first tier with 24/7 phone/chat and full Trusted Advisor. Developer (B) is business-hours email only; Enterprise (D) also qualifies but is not the lowest cost.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 4 — Billing, pricing and support</p>
+    <p class="qt">15. A company runs 40 AWS accounts and wants a single invoice with usage combined so all accounts benefit from volume discounts. What should it use?</p>
+    <ul class="opts"><li>A. AWS Cost Explorer</li><li>B. Consolidated billing in AWS Organizations</li><li>C. AWS Budgets</li><li>D. A Compute Savings Plan</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> Consolidated billing = one bill, pooled usage tiers, shared RI/Savings Plan discounts. Cost Explorer and Budgets analyze and alert — they don't combine invoices.</p></div></details>
+  </div>
+
+  <div class="q"><p class="dom">Domain 4 — Billing, pricing and support</p>
+    <p class="qt">16. Before migrating, a team must estimate the monthly cost of a planned three-tier architecture. Which tool should they use?</p>
+    <ul class="opts"><li>A. AWS Cost Explorer</li><li>B. AWS Pricing Calculator</li><li>C. Cost and Usage Report</li><li>D. AWS Budgets</li></ul>
+    <details><summary>Show answer</summary><div class="why"><p><strong>B.</strong> Pricing Calculator estimates costs for things you haven't built yet. Cost Explorer (A) and the Cost and Usage Report (C) analyze spend that has already happened; Budgets (D) alerts on thresholds.</p></div></details>
+  </div>
+</section>
+
+<!-- ================= MODULE 7 ================= -->
+<section class="module" id="m7">
+  <header class="mhead acc-teal">
+    <div class="mnum">7</div>
+    <div>
+      <p class="mkicker">From here to a pass</p>
+      <h2>7-day study plan and final checklist</h2>
+    </div>
+  </header>
+
+  <h3>7.1 The plan — about 1 to 1.5 hours a day</h3>
+  <div class="scroll"><table>
+    <tr><th>Day</th><th>Study</th><th>Then do</th></tr>
+    <tr><td><b>1</b></td><td>Modules 0 and 1</td><td>Recite the 6 advantages and the 6 pillars from memory</td></tr>
+    <tr><td><b>2</b></td><td>Module 2</td><td>Draw the shared responsibility diagram on paper without looking</td></tr>
+    <tr><td><b>3</b></td><td>Module 3.1–3.3 (infrastructure, compute, storage)</td><td>Recite EC2 purchase options and the S3 class order</td></tr>
+    <tr><td><b>4</b></td><td>Module 3.4–3.6 (networking, databases, integration)</td><td>Explain SQS vs SNS and Multi-AZ vs read replicas out loud</td></tr>
+    <tr><td><b>5</b></td><td>Module 3.7–3.10 and Module 4</td><td>Recite the support plan table and the cost toolbox</td></tr>
+    <tr><td><b>6</b></td><td>Module 5 cheat sheet</td><td>Cover the answer column and quiz yourself twice through</td></tr>
+    <tr><td><b>7</b></td><td>Module 6 practice set</td><td>Score 13+/16, then take AWS's free official practice set on Skill Builder. Re-read any weak section</td></tr>
+  </table></div>
+
+  <h3>7.2 Final readiness checklist</h3>
+  <p>Book the exam when you can honestly tick every box.</p>
+  <ul class="check">
+    <li>I can draw the shared responsibility model and place any scenario on the right side of the line</li>
+    <li>I can recite the six advantages of cloud computing and the six Well-Architected pillars</li>
+    <li>I know the difference between security groups and network ACLs</li>
+    <li>I can separate CloudTrail (who), Config (what changed), and CloudWatch (how it's performing)</li>
+    <li>I know the S3 storage classes in order from hot to cold</li>
+    <li>I can match all five EC2 purchase options to their scenarios</li>
+    <li>I know Multi-AZ = availability and read replicas = read performance</li>
+    <li>I know SQS = queue/pull and SNS = fan-out/push</li>
+    <li>I can recite the support plan table, especially Business vs Enterprise</li>
+    <li>I know which cost tool to use before, during, and after spending</li>
+    <li>I scored at least 13/16 on module 6 without peeking</li>
+  </ul>
+
+  <h3>7.3 Booking and exam day</h3>
+  <ul>
+    <li>Book at the AWS certification portal (aws.amazon.com/certification) — choose a Pearson VUE test center or online proctoring. If English is your second language, request the free 30-minute ESL accommodation <em>before</em> booking.</li>
+    <li>Bring two IDs to a test center; for online, prepare a quiet room, a clear desk, and a webcam check 30 minutes early.</li>
+    <li>Results: pass/fail on screen shortly after finishing; the detailed score report follows within a few days.</li>
+  </ul>
+</section>
+
+<footer>
+  <p class="big">You're ready when module 6 feels easy.</p>
+  <p>This course covers exam version CLF-C02. Before booking, skim the official exam guide on the AWS certification site to confirm the version hasn't changed. Good luck — go pass it.</p>
+</footer>
+
+</div>
+</body>
+</html>

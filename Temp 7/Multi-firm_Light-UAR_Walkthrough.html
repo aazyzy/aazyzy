@@ -1,0 +1,1485 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Multi-firm + light UAR — clickable walkthrough</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root { color-scheme: light; --bg:#F4F6F9; --card:#FFFFFF; --ink:#1A2433; --muted:#5A6878; --line:#D8DEE6; --navy:#152A4A; --red:#D52B1E; --blue:#1F5FBF;
+        --new-bg:#EEF4FC; --new-ln:#BFD3F2; --amber-bg:#FFF7E6; --amber-ln:#F2D9A6; --amber-tx:#5C3D00; --grey-bg:#EEF0F3; --side:#FFFFFF;
+        box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --bg:#0F1623; --card:#182236; --ink:#E6EBF2; --muted:#A7B3C4; --line:#2C3A52; --side:#131C2E;
+        --new-bg:#1A2A44; --new-ln:#2E4A78; --amber-bg:#3A2E12; --amber-ln:#6B5420; --amber-tx:#F2D9A6; --grey-bg:#24304A; } }
+:root[data-theme="dark"] { color-scheme: dark; --bg:#0F1623; --card:#182236; --ink:#E6EBF2; --muted:#A7B3C4; --line:#2C3A52; --side:#131C2E;
+        --new-bg:#1A2A44; --new-ln:#2E4A78; --amber-bg:#3A2E12; --amber-ln:#6B5420; --amber-tx:#F2D9A6; --grey-bg:#24304A; }
+html { scroll-padding-top: env(safe-area-inset-top,0px); }
+body { margin:0; background:var(--bg); color:var(--ink); font-family: Quicksand, system-ui, -apple-system, "Segoe UI", sans-serif; font-size:14px; line-height:1.45; }
+.top { position:sticky; top:0; z-index:5; background:var(--navy); color:#fff; display:flex; align-items:center; gap:14px; padding:10px 16px; padding-top:calc(10px + env(safe-area-inset-top,0px)); flex-wrap:wrap; }
+body::before { content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); background:var(--navy); z-index:10; }
+.top h1 { margin:0; font-size:15px; font-weight:700; }
+.top .where { color:#C9D3E2; font-size:12px; }
+.top .grow { flex:1 1 auto; }
+.btn { height:36px; padding:0 14px; border-radius:6px; border:1px solid #C9D3E2; background:transparent; color:#fff; font:inherit; font-weight:700; cursor:pointer; }
+.btn.primary { background:var(--red); border-color:var(--red); }
+.btn[disabled] { opacity:.4; cursor:default; }
+.toggle { display:inline-flex; align-items:center; gap:6px; font-size:12px; color:#C9D3E2; cursor:pointer; }
+.layout { display:flex; flex-wrap:wrap; align-items:flex-start; }
+.side { flex:0 0 240px; background:var(--side); border-right:1px solid var(--line); padding:14px 10px; min-height:0; }
+.side h2 { font-size:11px; letter-spacing:.5px; text-transform:uppercase; color:var(--muted); margin:8px 8px 6px; }
+.jb { display:block; width:100%; text-align:left; border:0; background:transparent; color:var(--ink); font:inherit; padding:8px 10px; border-radius:8px; cursor:pointer; }
+.jb strong { display:block; font-weight:700; }
+.jb span { display:block; color:var(--muted); font-size:12px; }
+.jb.active { background:var(--new-bg); outline:1px solid var(--new-ln); }
+.steps { margin:0 0 8px 18px; padding:0; list-style:none; }
+.steps button { display:block; width:100%; text-align:left; border:0; background:transparent; color:var(--ink); font:inherit; font-size:13px; padding:5px 10px; border-radius:6px; cursor:pointer; }
+.steps button.active { background:var(--grey-bg); font-weight:700; }
+.stage { flex:999 1 560px; min-width:0; padding:16px; }
+.notes { flex:1 1 300px; max-width:360px; padding:16px 16px 16px 0; }
+@media (max-width: 1100px) { .notes { max-width:none; padding:0 16px 16px; } }
+.scene { display:none; }
+.scene.on { display:block; }
+.frame { border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#F4F6F9; color:#1A2433; }
+.frame .mock { color-scheme: light; }
+.frame .mock select, .frame .mock input, .frame .mock textarea { color-scheme: light; }
+.scene-head { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:0 0 10px; }
+.scene-head h2 { margin:0; font-size:18px; }
+.scene-head .pill { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.5px; background:var(--navy); color:#fff; padding:3px 8px; border-radius:4px; }
+.scene-head .crumb { color:var(--muted); font-size:12px; }
+.co { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:50%; background:#D52B1E; color:#FFFFFF; font-weight:700; font-size:12px; line-height:1; margin-left:8px; vertical-align:middle; border:2px solid #FFFFFF; box-shadow:0 0 0 1.5px #D52B1E; flex:0 0 auto; }
+body.nocallouts .co { display:none; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:12px; }
+.card h3 { margin:0 0 8px; font-size:13px; }
+.card p { margin:0; font-size:13px; }
+.cl { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+.cl li { display:flex; gap:8px; align-items:flex-start; font-size:13px; }
+.cl .n { flex:0 0 auto; width:20px; height:20px; border-radius:50%; background:#D52B1E; color:#fff; font-weight:700; font-size:11px; display:inline-flex; align-items:center; justify-content:center; margin-top:1px; }
+.box { border-radius:8px; padding:10px 12px; font-size:13px; margin-bottom:8px; }
+.box.new { background:var(--new-bg); border:1px solid var(--new-ln); }
+.box.dec { background:var(--amber-bg); border:1px solid var(--amber-ln); color:var(--amber-tx); }
+.box.keep { background:var(--grey-bg); border:1px solid var(--line); }
+.box.try { background:var(--card); border:1px dashed var(--line); color:var(--muted); }
+.doc { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px 24px; max-width:1100px; }
+.doc h2 { margin:0 0 8px; font-size:20px; }
+.doc h3 { margin:14px 0 4px; font-size:14px; }
+.doc p, .doc li { font-size:14px; }
+.doc .cols { display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:20px; }
+.doc .quote { font-weight:700; font-size:15px; }
+.tbl { width:100%; border-collapse:collapse; font-size:13px; margin:6px 0 14px; }
+.tbl th, .tbl td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+.tbl th { font-size:11px; text-transform:uppercase; letter-spacing:.4px; color:var(--muted); }
+.seqwrap { background:#FFFFFF; border:1px solid var(--line); border-radius:10px; padding:12px; overflow-x:auto; }
+.seqwrap svg { min-width: 1180px; display:block; }
+</style></head><body>
+<header class="top"><h1>Multi-firm + light UAR</h1><span class="where" id="where"></span><span class="grow"></span><label class="toggle"><input type="checkbox" id="callouts" checked> Callouts</label><label class="toggle"><input type="checkbox" id="shownotes" checked> Notes</label><button class="btn" id="prev" type="button">Previous</button><button class="btn primary" id="next" type="button">Next</button></header>
+<div class="layout"><nav class="side"><h2>Journeys</h2>
+<button class="jb" type="button" data-j="0"><strong>Start here</strong><span>What this proposes</span></button>
+<button class="jb" type="button" data-j="1"><strong>1 · Group steward</strong><span>Consolidate a person into one Compass ID</span></button>
+<ul class="steps"><li><button type="button" data-scene="users">Users across the group</button></li><li><button type="button" data-scene="request">New access request</button></li><li><button type="button" data-scene="status">Access requests and status</button></li></ul>
+<button class="jb" type="button" data-j="2"><strong>2 · ID Admin (SAA)</strong><span>Fulfil the request from the matrix</span></button>
+<button class="jb" type="button" data-j="3"><strong>3 · Product Activation</strong><span>Set up a parent group, once</span></button>
+<button class="jb" type="button" data-j="4"><strong>4 · End to end</strong><span>The 30-step sequence in three parts</span></button>
+<ul class="steps"><li><button type="button" data-scene="seq1">Sequence 1 of 3 — setup and request (steps 1 to 13)</button></li><li><button type="button" data-scene="seq2">Sequence 2 of 3 — fulfil from the matrix (steps 14 to 22)</button></li><li><button type="button" data-scene="seq3">Sequence 3 of 3 — first sign-in and retire old IDs (steps 23 to 30)</button></li></ul>
+<button class="jb" type="button" data-j="5"><strong>5 · Decisions</strong><span>What the room needs to settle</span></button>
+</nav><main class="stage" id="stage">
+<section class="scene" data-scene="overview"><div class="scene-head"><h2>What this proposes, in one page</h2><span class="pill">All groups</span><span class="crumb"></span></div>
+<div class="doc">
+  <h2>Keep today’s architecture, add two things</h2>
+  <p>Keep the 27 packages, the matrix, ID Admin provisioning by hand, Secured Zone IDs and R2 IDs. Add a parent group that a Compass user can belong to, and one request form inside Compass that carries firm context. No feature registry, no system integration layer, no automated provisioning. Sub-advisory access follows with trading.</p>
+  <div class="cols">
+    <div>
+      <h3>Why</h3>
+      <p>Multi-firm firms cannot launch without a way to request access under the new model. The registry and system integration were the largest part of the six-month estimate and are not needed to request or provision a parent group user. Everything else is form, status and checklist work on top of screens and tools that already exist.</p>
+      <h3>In scope for v1</h3>
+      <p>Parent group firm type and child-firm list · request form (create, update, deactivate) with firm scope, package-first access, RR codes per firm, system checkboxes · steward status page · ID Admin queue with Firm360 check and matrix-linked checklist · one-time credential · retire after first sign-in · one row per person in the steward’s user list.</p>
+      <h3>Out of scope for v1</h3>
+      <p>Feature registry, system integration registry, machine-generated instructions, automated provisioning, sub-advisory access (phase 2 with trading), self-serve user management, attestation, the R2 decommission slice (second half of 2027).</p>
+    </div>
+    <div>
+      <h3>How to use this walkthrough</h3>
+      <ol>
+        <li>Pick a journey on the left; use Next and Previous, or click the buttons inside the screens.</li>
+        <li>Red numbered badges on a screen match the callouts in the notes panel.</li>
+        <li>Blue = new here · amber = decision needed · grey = unchanged today.</li>
+        <li>Journey 4 is the end-to-end sequence; journey 5 lists the decisions with owners.</li>
+      </ol>
+      <h3>Sample data</h3>
+      <p>Harbourview Wealth Group stands in for a real parent group. Names, firms, IDs and RR codes are illustrative.</p>
+      <h3>The one sentence for the room</h3>
+      <p class="quote">The steward tells Compass which firms the person works across, ID Admin provisions it the way they do today, and Compass keeps the record.</p>
+    </div>
+  </div>
+</div></section>
+<section class="scene" data-scene="users"><div class="scene-head"><h2>Users across the group</h2><span class="pill">Group steward</span><span class="crumb">Firm settings › Users</span></div><div class="frame"><div class="mock">
+
+<div style="display: flex; flex-direction: column; background: #F4F6F9; color: #1A2433; font-family: Quicksand, system-ui, sans-serif; font-size: 14px; line-height: 1.45">
+
+<header style="background: #152A4A; color: #FFFFFF; display: flex; align-items: center; gap: 28px; padding: 0 32px; min-height: 60px; flex-wrap: wrap">
+  <a href="#users" data-go="users" style="color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: 0.4px">Compass X</a>
+  <nav style="display: flex; gap: 4px; align-items: stretch; flex-wrap: wrap; min-height: 60px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Dashboard</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Accounts</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Orders</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Servicing</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Reports</a>
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; padding: 0 14px; color: #FFFFFF; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Firm settings</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: 12px">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2">
+      <span style="font-weight: 700; font-size: 13px">Marcus Bell</span>
+      <span style="font-size: 12px; color: #C9D3E2">Security steward · Harbourview Wealth Group</span>
+    </div>
+    <span style="width: 36px; height: 36px; border-radius: 50%; background: #D52B1E; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">MB</span>
+  </div>
+</header>
+
+<div style="background: #FFFFFF; border-bottom: 1px solid #D8DEE6">
+  <div style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 0 32px; box-sizing: border-box; display: flex; gap: 4px; flex-wrap: wrap">
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #152A4A; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Users</a>
+    <a href="#status" data-go="status" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Access requests</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Firm profile</a>
+  </div>
+</div>
+
+<main  style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 24px 32px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <h1 style="margin: 0; font-size: 26px; font-weight: 700">Users</h1>
+      <p style="margin: 0; color: #5A6878">Everyone with Compass access in the firms you steward. One row per person, whichever firms they work across.</p>
+    </div>
+    <a href="#request" data-go="request" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 20px; background: #D52B1E; color: #FFFFFF; border-radius: 6px; font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      New access request
+    <span class="co">6</span></a>
+  </div>
+
+  <div style="display: flex; gap: 12px; align-items: flex-start; background: #FFF7E6; border: 1px solid #F2D9A6; border-radius: 8px; padding: 12px 14px; flex-wrap: wrap">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M12 3 2.5 20h19L12 3z"></path><line x1="12" y1="10" x2="12" y2="14"></line><line x1="12" y1="17" x2="12" y2="17"></line></svg>
+    <div style="display: flex; flex-direction: column; gap: 4px; flex: 1 1 420px">
+      <span style="font-weight: 700; color: #5C3D00">9 people in your group still hold more than one Compass ID<span class="co">2</span></span>
+      <span style="color: #5C3D00">Submit an update request with "Parent group user" scope to keep one ID per person. The other IDs are retired by the ID Admin team after the switch.</span>
+    </div>
+    <a href="#request" data-go="request" style="display: inline-flex; align-items: center; justify-content: center; height: 40px; padding: 0 16px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font-weight: 700; text-decoration: none; align-self: center">Review the 9 people</a>
+  </div>
+
+  <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end">
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 260px">
+      <label for="firm" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Firm<span class="co">1</span></label>
+      <select id="firm" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+        <option>All firms in Harbourview Wealth Group (4)</option>
+        <option>Harbourview Wealth Inc.</option>
+        <option>Harbourview Private Wealth</option>
+        <option>Northgate Private Wealth</option>
+        <option>Perrin &amp; Co.</option>
+      </select>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px">
+      <label for="status" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Status</label>
+      <select id="status" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+        <option>All statuses</option>
+        <option>Active</option>
+        <option>Invited</option>
+        <option>Inactive</option>
+      </select>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 2 1 280px">
+      <label for="q" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Search</label>
+      <input id="q" type="search" placeholder="Name, email or RR code" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+    </div>
+    <label style="display: inline-flex; align-items: center; gap: 8px; height: 40px; font-weight: 600"><input type="checkbox" style="accent-color: #1F5FBF; width: 18px; height: 18px"> Only people with multiple IDs</label>
+  </div>
+
+  <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; overflow-x: auto">
+    <table style="width: 100%; min-width: 1080px; border-collapse: collapse; font-size: 13px">
+      <thead>
+        <tr style="background: #F7F8FA; text-align: left">
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Person</th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Firms<span class="co">3</span></th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Package</th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Systems</th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Compass IDs<span class="co">4</span></th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Status<span class="co">5</span></th>
+          <th style="padding: 12px 16px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">Jane Doe</span><span style="color: #5A6878">jane.doe@harbourview.ca</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Harbourview Wealth Inc.</span><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Northgate</span><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Perrin &amp; Co.</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Operations – Processing</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Secured Zone, R2</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">3 IDs</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top; white-space: nowrap"><a href="#request" data-go="request" style="font-weight: 700; text-decoration: none; color: #1F5FBF">Consolidate</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">Priya Nair</span><span style="color: #5A6878">priya.nair@harbourview.ca</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #E3F4EA; border: 1px solid #BFE3CB; font-size: 12px; font-weight: 700; color: #1E6B3A">Parent group · 4 firms</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Compliance – Control</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Secured Zone</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">1</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top; white-space: nowrap"><a href="#request" data-go="request" style="font-weight: 700; text-decoration: none; color: #1F5FBF">Update</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">Amir Khan</span><span style="color: #5A6878">amir.khan@harbourview.ca</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Harbourview Private Wealth</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Advisor – Manage</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Secured Zone, NetRep</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">1</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top; white-space: nowrap"><a href="#request" data-go="request" style="font-weight: 700; text-decoration: none; color: #1F5FBF">Update</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">Tom Reilly</span><span style="color: #5A6878">tom.reilly@northgatepw.ca</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Northgate</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Advisor – View</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">—</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">1</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">Invited</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top; white-space: nowrap"><a href="#status" data-go="status" style="font-weight: 700; text-decoration: none; color: #1F5FBF">View request</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">Elena Sousa</span><span style="color: #5A6878">elena.sousa@perrinco.ca</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Perrin &amp; Co.</span><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Harbourview Wealth Inc.</span></div></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Operations – Manage</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top">Secured Zone, R2</td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">2 IDs</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          <td style="padding: 12px 16px; border-bottom: 1px solid #E6EAF0; vertical-align: top; white-space: nowrap"><a href="#request" data-go="request" style="font-weight: 700; text-decoration: none; color: #1F5FBF">Consolidate</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 12px 16px; vertical-align: top"><div style="display: flex; flex-direction: column"><span style="font-weight: 700">David Chen</span><span style="color: #5A6878">david.chen@harbourview.ca</span></div></td>
+          <td style="padding: 12px 16px; vertical-align: top"><div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">Harbourview Wealth Inc.</span></div></td>
+          <td style="padding: 12px 16px; vertical-align: top">Advisor – Manage</td>
+          <td style="padding: 12px 16px; vertical-align: top">Secured Zone, NetRep, R2</td>
+          <td style="padding: 12px 16px; vertical-align: top">1</td>
+          <td style="padding: 12px 16px; vertical-align: top"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #4A5560">Inactive</span></td>
+          <td style="padding: 12px 16px; vertical-align: top; white-space: nowrap"><a href="#request" data-go="request" style="font-weight: 700; text-decoration: none; color: #1F5FBF">Reactivate</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; color: #5A6878; font-size: 13px">
+    <span>Showing 6 of 148 people · 4 firms</span>
+    <div style="display: flex; gap: 8px">
+      <button type="button" style="height: 36px; padding: 0 14px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Previous</button>
+      <button type="button" style="height: 36px; padding: 0 14px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Next</button>
+    </div>
+  </div>
+</main>
+</div>
+</div></div></section>
+<section class="scene" data-scene="request"><div class="scene-head"><h2>New access request</h2><span class="pill">Group steward</span><span class="crumb">Firm settings › Access requests › New request</span></div><div class="frame"><div class="mock">
+
+<div style="display: flex; flex-direction: column; background: #F4F6F9; color: #1A2433; font-family: Quicksand, system-ui, sans-serif; font-size: 14px; line-height: 1.45">
+
+<header style="background: #152A4A; color: #FFFFFF; display: flex; align-items: center; gap: 28px; padding: 0 32px; min-height: 60px; flex-wrap: wrap">
+  <a href="#users" data-go="users" style="color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: 0.4px">Compass X</a>
+  <nav style="display: flex; gap: 4px; align-items: stretch; flex-wrap: wrap; min-height: 60px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Dashboard</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Accounts</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Orders</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Servicing</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Reports</a>
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; padding: 0 14px; color: #FFFFFF; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Firm settings</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: 12px">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2">
+      <span style="font-weight: 700; font-size: 13px">Marcus Bell</span>
+      <span style="font-size: 12px; color: #C9D3E2">Security steward · Harbourview Wealth Group</span>
+    </div>
+    <span style="width: 36px; height: 36px; border-radius: 50%; background: #D52B1E; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">MB</span>
+  </div>
+</header>
+
+<div style="background: #FFFFFF; border-bottom: 1px solid #D8DEE6">
+  <div style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 0 32px; box-sizing: border-box; display: flex; gap: 4px; flex-wrap: wrap">
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Users</a>
+    <a href="#status" data-go="status" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #152A4A; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Access requests</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Firm profile</a>
+  </div>
+</div>
+
+<main  style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 24px 32px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; color: #5A6878; font-weight: 600"><a href="#status" data-go="status" style="color: #5A6878; text-decoration: none">Access requests</a> &nbsp;›&nbsp; New request</div>
+    <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap">
+      <h1 style="margin: 0; font-size: 26px; font-weight: 700">New access request</h1>
+      <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #3D4B5C">Draft</span>
+    </div>
+    <p style="margin: 0; color: #5A6878; max-width: 760px">One request covers Compass, Secured Zone apps and NetRep. The ID Admin team provisions each system and you track progress here.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+
+    <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">1</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Request type and person<span class="co">1</span></h2>
+        </div>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap">
+          <label style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600"><input type="radio" name="rtype" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"> Create new user</label>
+          <label style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600"><input type="radio" name="rtype" style="accent-color: #1F5FBF; width: 18px; height: 18px"> Update existing user</label>
+          <label style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600"><input type="radio" name="rtype" style="accent-color: #1F5FBF; width: 18px; height: 18px"> Deactivate user</label>
+        </div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap">
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px">
+            <label for="fn" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">First name</label>
+            <input id="fn" type="text" value="Jane" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px">
+            <label for="ln" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Last name</label>
+            <input id="ln" type="text" value="Doe" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 2 1 260px">
+            <label for="em" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Work email</label>
+            <input id="em" type="email" value="jane.doe@harbourview.ca" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+          </div>
+        </div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap">
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 2 1 260px">
+            <label for="jt" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Job title</label>
+            <input id="jt" type="text" value="Head office operations" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px">
+            <label for="sd" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Access needed from</label>
+            <input id="sd" type="date" value="2026-11-16" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+          </div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start; background: #EEF4FC; border: 1px solid #BFD3F2; border-radius: 8px; padding: 12px 14px">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1F5FBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 1px"><circle cx="12" cy="12" r="9"></circle><line x1="12" y1="11" x2="12" y2="16"></line><line x1="12" y1="8" x2="12" y2="8"></line></svg>
+          <div style="display: flex; flex-direction: column; gap: 4px">
+            <span style="font-weight: 700">3 existing Compass IDs match this email<span class="co">2</span></span>
+            <span style="color: #3D4B5C">jdoe (Harbourview Wealth Inc.), jdoe2 (Northgate Private Wealth), jdoe3 (Perrin &amp; Co.). When this request is completed the ID Admin team keeps one ID and retires the other two.</span>
+          </div>
+        </div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">2</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Firm scope<span class="co">3</span></h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px">
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #B9C2CE; border-radius: 8px; padding: 14px; cursor: pointer; background: #FFFFFF">
+            <input type="radio" name="scope" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <span style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 700">Single firm</span><span style="color: #5A6878; font-size: 13px">Harbourview Wealth Inc. only</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 2px solid #1F5FBF; border-radius: 8px; padding: 13px; cursor: pointer; background: #F3F7FD">
+            <input type="radio" name="scope" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <span style="display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 700">Parent group user</span><span style="color: #5A6878; font-size: 13px">One Compass ID across the firms you select below</span></span>
+          </label>
+          <label style="display: flex; gap: 10px; align-items: flex-start; border: 1px solid #D8DEE6; border-radius: 8px; padding: 14px; background: #F7F8FA; opacity: 0.75">
+            <input type="radio" name="scope" disabled="disabled" style="width: 18px; height: 18px; margin-top: 2px">
+            <span style="display: flex; flex-direction: column; gap: 6px"><span style="font-weight: 700">Sub-advisory access</span><span style="display: inline-block; align-self: flex-start; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #3D4B5C">Phase 2 · with trading</span></span>
+          </label>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px">
+            <span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Firms in Harbourview Wealth Group<span class="co">4</span></span>
+            <span style="font-size: 12px; color: #5A6878">Source: Firm360 · parent code HVWG · synced today 06:10</span>
+          </div>
+          <div style="display: flex; flex-direction: column; border: 1px solid #D8DEE6; border-radius: 8px; overflow: hidden">
+            <label style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer">
+              <input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px">
+              <span style="flex: 1 1 auto; font-weight: 600">Harbourview Wealth Inc.</span>
+              <span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">IB</span>
+              <span style="color: #5A6878; font-size: 13px; width: 150px; text-align: right">RR range HV01–HV60</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer">
+              <input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px">
+              <span style="flex: 1 1 auto; font-weight: 600">Harbourview Private Wealth</span>
+              <span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">PM</span>
+              <span style="color: #5A6878; font-size: 13px; width: 150px; text-align: right">RR range HP01–HP20</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer">
+              <input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px">
+              <span style="flex: 1 1 auto; font-weight: 600">Northgate Private Wealth</span>
+              <span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">PM</span>
+              <span style="color: #5A6878; font-size: 13px; width: 150px; text-align: right">RR range NG01–NG35</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; cursor: pointer">
+              <input type="checkbox" style="accent-color: #1F5FBF; width: 18px; height: 18px">
+              <span style="flex: 1 1 auto; font-weight: 600">Perrin &amp; Co.</span>
+              <span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">IB</span>
+              <span style="color: #5A6878; font-size: 13px; width: 150px; text-align: right">RR range PC01–PC15</span>
+            </label>
+          </div>
+          <span style="font-size: 13px; color: #5A6878">A firm missing from this list is not yet linked to your group in Firm360. Ask Product Activation to update it.</span>
+        </div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">3</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Compass access<span class="co">5</span></h2>
+        </div>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-end">
+          <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 320px">
+            <label for="pkg" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Access package</label>
+            <select id="pkg" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+              <option>Operations – Processing</option>
+              <option>Operations – Manage</option>
+              <option>Advisor – Manage</option>
+              <option>Advisor – View</option>
+              <option>Compliance – Control</option>
+            </select>
+          </div>
+          <span style="flex: 1 1 260px; font-size: 13px; color: #5A6878; padding-bottom: 10px">Packages are the same ones the ID Admin team provisions today. Only add-ons valid for this package and scope are shown.</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Add-ons</span>
+          <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+            <label style="display: flex; gap: 10px; align-items: center; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="font-weight: 600">Bulk reports upload</span></label>
+            <label style="display: flex; gap: 10px; align-items: center; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px; cursor: pointer"><input type="checkbox" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="font-weight: 600">CRS submissions</span></label>
+            <label style="display: flex; gap: 10px; align-items: center; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="font-weight: 600">Servicing approvals</span></label>
+            <label style="display: flex; gap: 10px; align-items: center; border: 1px solid #E6EAF0; border-radius: 6px; padding: 10px 12px; background: #F7F8FA; color: #5A6878"><input type="checkbox" disabled="disabled" style="width: 18px; height: 18px"><span style="display: flex; flex-direction: column"><span style="font-weight: 600">Trade administration upload<span class="co">6</span></span><span style="font-size: 12px">Child-firm users only — not available to parent group users</span></span></label>
+          </div>
+        </div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">4</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Data access (RR / IA codes)<span class="co">7</span></h2>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px">
+            <span style="font-weight: 600; width: 220px">Harbourview Wealth Inc.</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">HV01</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">HV02</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">HV07</span>
+            <label for="rr1" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Add RR code for Harbourview Wealth Inc.</label>
+            <input id="rr1" type="text" placeholder="Add code or range" style="height: 32px; border: 1px dashed #B9C2CE; border-radius: 6px; padding: 0 10px; font: inherit; color: #1A2433; background: #FFFFFF; width: 160px">
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px">
+            <span style="font-weight: 600; width: 220px">Harbourview Private Wealth</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">HP01–HP20 (all)</span>
+            <label for="rr2" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Add RR code for Harbourview Private Wealth</label>
+            <input id="rr2" type="text" placeholder="Add code or range" style="height: 32px; border: 1px dashed #B9C2CE; border-radius: 6px; padding: 0 10px; font: inherit; color: #1A2433; background: #FFFFFF; width: 160px">
+          </div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border: 1px solid #D8DEE6; border-radius: 6px; padding: 10px 12px">
+            <span style="font-weight: 600; width: 220px">Northgate Private Wealth</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; background: #EEF2F7; border: 1px solid #D8DEE6; font-size: 12px; font-weight: 600">NG10–NG18</span>
+            <label for="rr3" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Add RR code for Northgate Private Wealth</label>
+            <input id="rr3" type="text" placeholder="Add code or range" style="height: 32px; border: 1px dashed #B9C2CE; border-radius: 6px; padding: 0 10px; font: inherit; color: #1A2433; background: #FFFFFF; width: 160px">
+          </div>
+          <div style="display: flex; gap: 8px; align-items: center; color: #1E6B3A; font-weight: 600; font-size: 13px">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1E6B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            All codes are inside the selected firms' ranges.
+          </div>
+        </div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">5</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Other systems</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+          <div style="border: 1px solid #D8DEE6; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 10px">
+            <label style="display: flex; gap: 10px; align-items: center; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="font-weight: 700">Secured Zone apps<span class="co">8</span></span></label>
+            <span style="font-size: 13px; color: #5A6878">Uses the existing Secured Zone ID for this person (one ID already covers all group firms).</span>
+            <div style="display: flex; flex-direction: column; gap: 6px; padding-left: 28px">
+              <label style="display: flex; gap: 8px; align-items: center"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 16px; height: 16px"> Servicing (iMOST)</label>
+              <label style="display: flex; gap: 8px; align-items: center"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 16px; height: 16px"> GICs</label>
+              <label style="display: flex; gap: 8px; align-items: center"><input type="checkbox" style="accent-color: #1F5FBF; width: 16px; height: 16px"> FundFacts</label>
+              <label style="display: flex; gap: 8px; align-items: center"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 16px; height: 16px"> Web Panagon</label>
+              <label style="display: flex; gap: 8px; align-items: center"><input type="checkbox" style="accent-color: #1F5FBF; width: 16px; height: 16px"> MaxLite</label>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 12px">
+            <div style="border: 1px solid #D8DEE6; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+              <label style="display: flex; gap: 10px; align-items: center; cursor: pointer"><input type="checkbox" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="font-weight: 700">NetRep (orders)<span class="co">9</span></span></label>
+              <span style="font-size: 13px; color: #5A6878">The ID Admin team raises the NetRep request for you and adds the ID to this request.</span>
+            </div>
+            <div style="border: 1px solid #D8DEE6; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; background: #F7F8FA">
+              <span style="font-weight: 700; color: #3D4B5C">R2 (legacy Compass)</span>
+              <span style="font-size: 13px; color: #5A6878">No change. R2 IDs stay per firm until the remaining R2 functions move to Compass.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 20px 24px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <span style="width: 28px; height: 28px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">6</span>
+          <h2 style="margin: 0; font-size: 17px; font-weight: 700">Authorization and notes<span class="co">10</span></h2>
+        </div>
+        <label style="display: flex; gap: 10px; align-items: flex-start; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 1px"><span>I am the designated security steward for every firm selected in this request, and the access requested is required for this person's role.</span></label>
+        <div style="display: flex; flex-direction: column; gap: 6px">
+          <label for="notes" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Notes for the ID Admin team (optional)</label>
+          <textarea id="notes" rows="3" style="border: 1px solid #B9C2CE; border-radius: 6px; padding: 10px 12px; font: inherit; color: #1A2433; background: #FFFFFF; resize: vertical">Replaces jdoe2 and jdoe3 — Jane now supports Northgate and Harbourview Private Wealth from head office.</textarea>
+        </div>
+      </section>
+
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: center">
+        <a href="#status" data-go="status" style="display: inline-flex; align-items: center; justify-content: center; height: 44px; padding: 0 22px; background: #D52B1E; color: #FFFFFF; border-radius: 6px; font-weight: 700; text-decoration: none">Submit request</a>
+        <button type="button" style="height: 44px; padding: 0 20px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Save draft</button>
+        <a href="#status" data-go="status" style="color: #5A6878; font-weight: 600; text-decoration: none; margin-left: 4px">Cancel</a>
+      </div>
+
+    </div>
+
+    <aside style="flex: 1 1 300px; display: flex; flex-direction: column; gap: 16px">
+      <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px">
+        <h2 style="margin: 0; font-size: 15px; font-weight: 700">What the ID Admin team receives<span class="co">11</span></h2>
+        <div style="display: flex; flex-direction: column; gap: 10px; font-size: 13px">
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">Type</span><span style="font-weight: 600; text-align: right">Create user</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">Person</span><span style="font-weight: 600; text-align: right">Jane Doe</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">Scope</span><span style="font-weight: 600; text-align: right">Parent group · 3 of 4 firms</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">Package</span><span style="font-weight: 600; text-align: right">Operations – Processing<br>+ 2 add-ons</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">RR codes</span><span style="font-weight: 600; text-align: right">32 codes across 3 firms</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #E6EAF0; padding-bottom: 8px"><span style="color: #5A6878">Systems</span><span style="font-weight: 600; text-align: right">Compass, Secured Zone (4 apps)</span></div>
+          <div style="display: flex; justify-content: space-between; gap: 12px"><span style="color: #5A6878">IDs to retire</span><span style="font-weight: 600; text-align: right">jdoe2, jdoe3</span></div>
+        </div>
+      </div>
+      <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px">
+        <h2 style="margin: 0; font-size: 15px; font-weight: 700">What happens next<span class="co">12</span></h2>
+        <ol style="margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #3D4B5C">
+          <li>Request is checked against Firm360 group membership.</li>
+          <li>ID Admin provisions Compass, then each system you selected.</li>
+          <li>You get the temporary password once, here, under Access requests.</li>
+          <li>Retired IDs are deactivated after the person signs in with the kept one.</li>
+        </ol>
+        <span style="font-size: 13px; color: #5A6878">Target turnaround: 2 business days.</span>
+      </div>
+    </aside>
+
+  </div>
+</main>
+</div>
+</div></div></section>
+<section class="scene" data-scene="status"><div class="scene-head"><h2>Access requests and status</h2><span class="pill">Group steward</span><span class="crumb">Firm settings › Access requests</span></div><div class="frame"><div class="mock">
+
+<div style="display: flex; flex-direction: column; background: #F4F6F9; color: #1A2433; font-family: Quicksand, system-ui, sans-serif; font-size: 14px; line-height: 1.45">
+
+<header style="background: #152A4A; color: #FFFFFF; display: flex; align-items: center; gap: 28px; padding: 0 32px; min-height: 60px; flex-wrap: wrap">
+  <a href="#users" data-go="users" style="color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: 0.4px">Compass X</a>
+  <nav style="display: flex; gap: 4px; align-items: stretch; flex-wrap: wrap; min-height: 60px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Dashboard</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Accounts</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Orders</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Servicing</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Reports</a>
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; padding: 0 14px; color: #FFFFFF; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Firm settings</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: 12px">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2">
+      <span style="font-weight: 700; font-size: 13px">Marcus Bell</span>
+      <span style="font-size: 12px; color: #C9D3E2">Security steward · Harbourview Wealth Group</span>
+    </div>
+    <span style="width: 36px; height: 36px; border-radius: 50%; background: #D52B1E; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">MB</span>
+  </div>
+</header>
+
+<div style="background: #FFFFFF; border-bottom: 1px solid #D8DEE6">
+  <div style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 0 32px; box-sizing: border-box; display: flex; gap: 4px; flex-wrap: wrap">
+    <a href="#users" data-go="users" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Users</a>
+    <a href="#status" data-go="status" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #152A4A; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Access requests</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 48px; padding: 0 16px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Firm profile</a>
+  </div>
+</div>
+
+<main  style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 24px 32px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+
+  <div style="display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <h1 style="margin: 0; font-size: 26px; font-weight: 700">Access requests</h1>
+      <p style="margin: 0; color: #5A6878">Every request your firms have made, with progress per system.</p>
+    </div>
+    <a href="#request" data-go="request" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 44px; padding: 0 20px; background: #D52B1E; color: #FFFFFF; border-radius: 6px; font-weight: 700; text-decoration: none">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+      New access request
+    </a>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+
+    <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end">
+        <div style="display: flex; flex-direction: column; gap: 6px; flex: 1 1 200px">
+          <label for="st" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Status</label>
+          <select id="st" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+            <option>All open and recent</option>
+            <option>Submitted</option>
+            <option>In progress</option>
+            <option>Needs info</option>
+            <option>Completed</option>
+          </select>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; flex: 2 1 260px">
+          <label for="q" style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Search</label>
+          <input id="q" type="search" placeholder="Request ID or person" style="height: 40px; border: 1px solid #B9C2CE; border-radius: 6px; padding: 0 12px; font: inherit; color: #1A2433; background: #FFFFFF">
+        </div>
+      </div>
+
+      <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; overflow-x: auto">
+        <table style="width: 100%; min-width: 700px; border-collapse: collapse; font-size: 13px">
+          <thead>
+            <tr style="background: #F7F8FA; text-align: left">
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Request</th>
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Person</th>
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Type</th>
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Scope</th>
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Submitted</th>
+              <th style="padding: 12px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Status<span class="co">1</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: #F3F7FD">
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid #1F5FBF; font-weight: 700">CUR-2026-0147</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Jane Doe</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Create</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Parent group · 3 firms</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Nov 3</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">In progress</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; font-weight: 700">CUR-2026-0146</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Tom Reilly</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Create</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Northgate Private Wealth</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Nov 2</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">Submitted</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; font-weight: 700">CUR-2026-0145</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Elena Sousa</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Update · consolidate IDs</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Parent group · 2 firms</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Oct 30</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FDE8E6; color: #9B1C14">Needs info</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; font-weight: 700">CUR-2026-0141</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Priya Nair</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Update</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Parent group · 4 firms</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0">Oct 24</td>
+              <td style="padding: 12px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Completed</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 14px; border-left: 3px solid transparent; font-weight: 700">CUR-2026-0138</td>
+              <td style="padding: 12px 14px">Sam Oduya</td>
+              <td style="padding: 12px 14px">Deactivate</td>
+              <td style="padding: 12px 14px">Harbourview Wealth Inc.</td>
+              <td style="padding: 12px 14px">Oct 20</td>
+              <td style="padding: 12px 14px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <aside style="flex: 1 1 380px; background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; display: flex; flex-direction: column">
+      <div style="padding: 18px 20px; border-bottom: 1px solid #E6EAF0; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+          <span style="font-weight: 700; font-size: 16px">CUR-2026-0147<span class="co">2</span></span>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">In progress</span>
+        </div>
+        <span style="color: #3D4B5C">Create user · Jane Doe · Parent group (Harbourview Wealth Inc., Harbourview Private Wealth, Northgate)</span>
+        <span style="font-size: 13px; color: #5A6878">Submitted Nov 3, 09:12 by Marcus Bell · target completion Nov 5</span>
+      </div>
+
+      <div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 14px">
+        <span style="font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Progress by system<span class="co">3</span></span>
+
+        <div style="display: flex; gap: 12px; align-items: flex-start">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><circle cx="12" cy="12" r="10"></circle><polyline points="8 12.5 11 15.5 16 9.5"></polyline></svg>
+          <div style="display: flex; flex-direction: column"><span style="font-weight: 700">Checked against Firm360</span><span style="font-size: 13px; color: #5A6878">3 firms confirmed in Harbourview Wealth Group · Nov 3, 09:14</span></div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><circle cx="12" cy="12" r="10"></circle><polyline points="8 12.5 11 15.5 16 9.5"></polyline></svg>
+          <div style="display: flex; flex-direction: column"><span style="font-weight: 700">Compass user created</span><span style="font-size: 13px; color: #5A6878">ID jdoe kept · Operations – Processing + 2 add-ons · 32 RR codes · Nov 4, 11:40</span></div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E6B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><circle cx="12" cy="12" r="10"></circle><polyline points="8 12.5 11 15.5 16 9.5"></polyline></svg>
+          <div style="display: flex; flex-direction: column"><span style="font-weight: 700">Secured Zone apps</span><span style="font-size: 13px; color: #5A6878">Existing ID linked · Servicing, GICs, Web Panagon added · Nov 4, 14:05</span></div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A5A00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><circle cx="12" cy="12" r="10"></circle><polyline points="12 7 12 12 15.5 14"></polyline></svg>
+          <div style="display: flex; flex-direction: column"><span style="font-weight: 700">Retire jdoe2 and jdoe3<span class="co">4</span></span><span style="font-size: 13px; color: #5A6878">Scheduled after Jane's first sign-in with jdoe</span></div>
+        </div>
+        <div style="display: flex; gap: 12px; align-items: flex-start">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A94A3" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+          <div style="display: flex; flex-direction: column"><span style="font-weight: 700; color: #5A6878">NetRep</span><span style="font-size: 13px; color: #5A6878">Not requested</span></div>
+        </div>
+      </div>
+
+      <div style="margin: 0 20px 18px; padding: 14px 16px; background: #F3F7FD; border: 1px solid #BFD3F2; border-radius: 8px; display: flex; flex-direction: column; gap: 10px">
+        <span style="font-weight: 700">Temporary password<span class="co">5</span></span>
+        <span style="font-size: 13px; color: #3D4B5C">Shown once, to you only. Share it with Jane in person or by phone, never by email.</span>
+        <button type="button" style="align-self: flex-start; height: 40px; padding: 0 16px; background: #1F5FBF; color: #FFFFFF; border: 0; border-radius: 6px; font: inherit; font-weight: 700; cursor: pointer">Reveal password</button>
+      </div>
+
+      <div style="padding: 0 20px 20px; display: flex; gap: 10px; flex-wrap: wrap">
+        <button type="button" style="height: 40px; padding: 0 16px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Message ID Admin<span class="co">6</span></button>
+        <button type="button" style="height: 40px; padding: 0 16px; background: #FFFFFF; color: #9B1C14; border: 1px solid #E5B4B0; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Withdraw request</button>
+      </div>
+    </aside>
+
+  </div>
+</main>
+</div>
+</div></div></section>
+<section class="scene" data-scene="saa"><div class="scene-head"><h2>Process request</h2><span class="pill">ID Admin (SAA)</span><span class="crumb">Access requests › queue › CUR-2026-0147</span></div><div class="frame"><div class="mock">
+
+<div style="display: flex; flex-direction: column; background: #F4F6F9; color: #1A2433; font-family: Quicksand, system-ui, sans-serif; font-size: 14px; line-height: 1.45">
+
+<header style="background: #152A4A; color: #FFFFFF; display: flex; align-items: center; gap: 28px; padding: 0 32px; min-height: 60px; flex-wrap: wrap">
+  <a href="#saa" data-go="saa" style="color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: 0.4px">Compass X</a>
+  <nav style="display: flex; gap: 4px; align-items: stretch; flex-wrap: wrap; min-height: 60px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Dashboard</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Firms</a>
+    <a href="#saa" data-go="saa" style="display: inline-flex; align-items: center; padding: 0 14px; color: #FFFFFF; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Access requests</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">User management</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: 12px">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2">
+      <span style="font-weight: 700; font-size: 13px">Ravi Desai</span>
+      <span style="font-size: 12px; color: #C9D3E2">ID Admin · NBIN Internal</span>
+    </div>
+    <span style="width: 36px; height: 36px; border-radius: 50%; background: #1F5FBF; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">RD</span>
+  </div>
+</header>
+
+<main  style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 24px 32px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <h1 style="margin: 0; font-size: 26px; font-weight: 700">Request queue</h1>
+    <p style="margin: 0; color: #5A6878">Structured requests from firm security stewards. Provision each system from the matrix, tick it off, and the steward sees progress.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+
+    <aside style="flex: 1 1 300px; background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; display: flex; flex-direction: column; overflow: hidden">
+      <div style="padding: 14px 16px; border-bottom: 1px solid #E6EAF0; display: flex; justify-content: space-between; align-items: center; gap: 8px">
+        <span style="font-weight: 700">Open requests<span class="co">1</span></span>
+        <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #3D4B5C">14</span>
+      </div>
+      <a href="#" data-noop="1" style="display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid #1F5FBF; background: #F3F7FD; text-decoration: none; color: #1A2433">
+        <span style="display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">CUR-2026-0147</span><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">In progress</span></span>
+        <span>Jane Doe · Create · Parent group</span>
+        <span style="font-size: 12px; color: #5A6878">Harbourview Wealth Group · due Nov 5</span>
+      </a>
+      <a href="#" data-noop="1" style="display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; text-decoration: none; color: #1A2433">
+        <span style="display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">CUR-2026-0146</span><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">Submitted</span></span>
+        <span>Tom Reilly · Create · Single firm</span>
+        <span style="font-size: 12px; color: #5A6878">Northgate Private Wealth · due Nov 4</span>
+      </a>
+      <a href="#" data-noop="1" style="display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; text-decoration: none; color: #1A2433">
+        <span style="display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">CUR-2026-0145</span><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FDE8E6; color: #9B1C14">Needs info</span></span>
+        <span>Elena Sousa · Update · Consolidate IDs</span>
+        <span style="font-size: 12px; color: #5A6878">Harbourview Wealth Group · waiting on steward</span>
+      </a>
+      <a href="#" data-noop="1" style="display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-bottom: 1px solid #E6EAF0; border-left: 3px solid transparent; text-decoration: none; color: #1A2433">
+        <span style="display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">CUR-2026-0144</span><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">Submitted</span></span>
+        <span>Li Wen · Deactivate · Single firm</span>
+        <span style="font-size: 12px; color: #5A6878">Crestline Capital · due Nov 4</span>
+      </a>
+      <a href="#" data-noop="1" style="display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-left: 3px solid transparent; text-decoration: none; color: #1A2433">
+        <span style="display: flex; justify-content: space-between; gap: 8px"><span style="font-weight: 700">CUR-2026-0143</span><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">Submitted</span></span>
+        <span>Omar Haddad · Create · Single firm</span>
+        <span style="font-size: 12px; color: #5A6878">Crestline Capital · due Nov 3</span>
+      </a>
+    </aside>
+
+    <div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+      <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap">
+        <div style="display: flex; flex-direction: column; gap: 6px">
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap">
+            <span style="font-weight: 700; font-size: 18px">CUR-2026-0147</span>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">In progress</span>
+          </div>
+          <span style="color: #3D4B5C">Create user · Jane Doe · Parent group user · Harbourview Wealth Group</span>
+          <span style="font-size: 13px; color: #5A6878">Submitted Nov 3, 09:12 by Marcus Bell (designated group steward) · target Nov 5 · assigned to Ravi Desai</span>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap">
+          <button type="button" style="height: 40px; padding: 0 16px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Needs info</button>
+          <button type="button" style="height: 40px; padding: 0 16px; background: #FFFFFF; color: #9B1C14; border: 1px solid #E5B4B0; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Reject</button>
+          <button type="button" style="height: 40px; padding: 0 18px; background: #1F5FBF; color: #FFFFFF; border: 0; border-radius: 6px; font: inherit; font-weight: 700; cursor: pointer" data-go="status">Mark complete</button>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: flex-start; background: #E3F4EA; border: 1px solid #BFE3CB; border-radius: 8px; padding: 12px 14px">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E6B3A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 1px"><circle cx="12" cy="12" r="10"></circle><polyline points="8 12.5 11 15.5 16 9.5"></polyline></svg>
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <span style="font-weight: 700; color: #184F2C">Firm360 check passed<span class="co">2</span></span>
+          <span style="color: #184F2C">Parent code HVWG · the 3 requested firms are children of Harbourview Wealth Group · Marcus Bell is the designated steward for the group.</span>
+        </div>
+      </div>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-size: 16px; font-weight: 700">Request as submitted<span class="co">3</span></h2>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; font-size: 13px">
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Person</span><span style="font-weight: 600">Jane Doe · jane.doe@harbourview.ca · Head office operations</span></div>
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Access needed from</span><span style="font-weight: 600">Nov 16, 2026</span></div>
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Scope</span><span style="font-weight: 600">Parent group · Harbourview Wealth Inc., Harbourview Private Wealth, Northgate Private Wealth</span></div>
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Package and add-ons</span><span style="font-weight: 600">Operations – Processing · Bulk reports upload · Servicing approvals</span></div>
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">RR codes</span><span style="font-weight: 600">HV01, HV02, HV07 · HP01–HP20 · NG10–NG18 (32 codes)</span></div>
+          <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Other systems</span><span style="font-weight: 600">Secured Zone: Servicing, GICs, Web Panagon · NetRep: no · R2: no change</span></div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px; font-size: 13px"><span style="font-size: 12px; font-weight: 600; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px">Steward notes</span><span>Replaces jdoe2 and jdoe3 — Jane now supports Northgate and Harbourview Private Wealth from head office.</span></div>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px">
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+          <h2 style="margin: 0; font-size: 16px; font-weight: 700">Existing Compass IDs for this person<span class="co">4</span></h2>
+          <span style="font-size: 13px; color: #5A6878">Matched on email across all firms</span>
+        </div>
+        <div style="border: 1px solid #D8DEE6; border-radius: 8px; overflow-x: auto">
+          <table style="width: 100%; min-width: 560px; border-collapse: collapse; font-size: 13px">
+            <thead>
+              <tr style="background: #F7F8FA; text-align: left">
+                <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Keep</th>
+                <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">ID</th>
+                <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Firm today</th>
+                <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Linked IDs</th>
+                <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><input type="radio" name="keep" checked="checked" aria-label="Keep jdoe" style="accent-color: #1F5FBF; width: 18px; height: 18px"></td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0; font-weight: 700">jdoe</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">Harbourview Wealth Inc.</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">SZ S-004512 · R2 HV-1182</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><input type="radio" name="keep" aria-label="Keep jdoe2" style="accent-color: #1F5FBF; width: 18px; height: 18px"></td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0; font-weight: 700">jdoe2</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">Northgate Private Wealth</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">SZ S-004512 · R2 NG-0417</td>
+                <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">Retire after sign-in</span></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 14px"><input type="radio" name="keep" aria-label="Keep jdoe3" style="accent-color: #1F5FBF; width: 18px; height: 18px"></td>
+                <td style="padding: 10px 14px; font-weight: 700">jdoe3</td>
+                <td style="padding: 10px 14px">Perrin &amp; Co.</td>
+                <td style="padding: 10px 14px">R2 PC-0092</td>
+                <td style="padding: 10px 14px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">Retire after sign-in</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <span style="font-size: 13px; color: #5A6878">R2 IDs are not merged. They stay linked to the kept Compass ID for audit and keep working for R2-only functions.</span>
+      </section>
+
+      <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 12px">
+        <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+          <h2 style="margin: 0; font-size: 16px; font-weight: 700">Provisioning checklist<span class="co">5</span></h2>
+          <a href="#" data-noop="1" style="font-size: 13px; font-weight: 700; text-decoration: none; color: #1F5FBF">Matrix row M-14 · Operations – Processing · parent group<span class="co">6</span></a>
+        </div>
+        <div style="display: flex; flex-direction: column; border: 1px solid #D8DEE6; border-radius: 8px; overflow: hidden">
+          <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-bottom: 1px solid #E6EAF0">
+            <input type="checkbox" checked="checked" aria-label="Compass user done" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto"><span style="font-weight: 700">Compass — create or update user jdoe under Harbourview Wealth Group (parent)</span><span style="font-size: 13px; color: #5A6878">User package PRC-OPS + Bulk reports upload + Servicing approvals · 32 RR codes across 3 child firms · done Nov 4, 11:40</span></div>
+            <a href="#" data-noop="1" style="font-size: 13px; font-weight: 700; text-decoration: none; color: #1F5FBF; white-space: nowrap">Open user management<span class="co">7</span></a>
+          </div>
+          <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-bottom: 1px solid #E6EAF0">
+            <input type="checkbox" checked="checked" aria-label="Secured Zone done" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto"><span style="font-weight: 700">Secured Zone — link existing ID S-004512 to jdoe; add Servicing, GICs, Web Panagon</span><span style="font-size: 13px; color: #5A6878">Security App profile already spans the group's firms · done Nov 4, 14:05</span></div>
+            <a href="#" data-noop="1" style="font-size: 13px; font-weight: 700; text-decoration: none; color: #1F5FBF; white-space: nowrap">Open Security App</a>
+          </div>
+          <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-bottom: 1px solid #E6EAF0">
+            <input type="checkbox" aria-label="Retire IDs" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto"><span style="font-weight: 700">Retire jdoe2 and jdoe3</span><span style="font-size: 13px; color: #5A6878">After Jane's first sign-in with jdoe · deactivate, keep audit history</span></div>
+            <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">Waiting</span>
+          </div>
+          <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-bottom: 1px solid #E6EAF0">
+            <input type="checkbox" checked="checked" aria-label="Password shared" style="accent-color: #1F5FBF; width: 18px; height: 18px; margin-top: 2px">
+            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto"><span style="font-weight: 700">Temporary password released to the steward (one time, inside the request)</span><span style="font-size: 13px; color: #5A6878">Not sent by email · done Nov 4, 14:10</span></div>
+          </div>
+          <div style="display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; background: #F7F8FA">
+            <input type="checkbox" disabled="disabled" aria-label="NetRep not requested" style="width: 18px; height: 18px; margin-top: 2px">
+            <div style="display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto"><span style="font-weight: 700; color: #5A6878">NetRep — not requested · R2 — no change<span class="co">8</span></span></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+</div>
+</div></div></section>
+<section class="scene" data-scene="firm"><div class="scene-head"><h2>Parent group firm settings</h2><span class="pill">Product Activation</span><span class="crumb">Firms › Harbourview Wealth Group</span></div><div class="frame"><div class="mock">
+
+<div style="display: flex; flex-direction: column; background: #F4F6F9; color: #1A2433; font-family: Quicksand, system-ui, sans-serif; font-size: 14px; line-height: 1.45">
+
+<header style="background: #152A4A; color: #FFFFFF; display: flex; align-items: center; gap: 28px; padding: 0 32px; min-height: 60px; flex-wrap: wrap">
+  <a href="#firm" data-go="firm" style="color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: 0.4px">Compass X</a>
+  <nav style="display: flex; gap: 4px; align-items: stretch; flex-wrap: wrap; min-height: 60px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Dashboard</a>
+    <a href="#firm" data-go="firm" style="display: inline-flex; align-items: center; padding: 0 14px; color: #FFFFFF; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Firms</a>
+    <a href="#saa" data-go="saa" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Access requests</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; padding: 0 14px; color: #D6DEEA; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">User management</a>
+  </nav>
+  <div style="margin-left: auto; display: flex; align-items: center; gap: 12px">
+    <div style="display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2">
+      <span style="font-weight: 700; font-size: 13px">Dana Whitfield</span>
+      <span style="font-size: 12px; color: #C9D3E2">Product Activation · NBIN Internal</span>
+    </div>
+    <span style="width: 36px; height: 36px; border-radius: 50%; background: #1F5FBF; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px" aria-hidden="true">DW</span>
+  </div>
+</header>
+
+<main  style="width: 100%; max-width: 1296px; margin: 0 auto; padding: 24px 32px 48px; box-sizing: border-box; display: flex; flex-direction: column; gap: 20px">
+
+  <div style="display: flex; flex-direction: column; gap: 6px">
+    <div style="font-size: 12px; color: #5A6878; font-weight: 600"><a href="#" data-noop="1" style="color: #5A6878; text-decoration: none">Firms</a> &nbsp;›&nbsp; Harbourview Wealth Group</div>
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap">
+      <div style="display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap">
+          <h1 style="margin: 0; font-size: 26px; font-weight: 700">Harbourview Wealth Group<span class="co">1</span></h1>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Parent group</span>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span>
+        </div>
+        <span style="color: #5A6878">Firm360 parent code HVWG · 4 child firms · created in Compass Nov 2, 2026 · firm package: Parent group – all features</span>
+      </div>
+      <button type="button" style="height: 40px; padding: 0 18px; background: #1F5FBF; color: #FFFFFF; border: 0; border-radius: 6px; font: inherit; font-weight: 700; cursor: pointer">Edit firm</button>
+    </div>
+  </div>
+
+  <div style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; display: flex; gap: 4px; flex-wrap: wrap; padding: 0 12px">
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 46px; padding: 0 14px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Overview</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 46px; padding: 0 14px; color: #152A4A; text-decoration: none; font-weight: 700; border-bottom: 3px solid #D52B1E">Child firms</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 46px; padding: 0 14px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Package and modules</a>
+    <a href="#" data-noop="1" style="display: inline-flex; align-items: center; height: 46px; padding: 0 14px; color: #3D4B5C; text-decoration: none; font-weight: 600; border-bottom: 3px solid transparent">Security stewards</a>
+  </div>
+
+  <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px">
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <h2 style="margin: 0; font-size: 16px; font-weight: 700">Child firms<span class="co">2</span></h2>
+        <span style="font-size: 13px; color: #5A6878">Source of truth is Firm360 (Parent_Code). Synced nightly · last sync today 06:10. Manual rows are for firms the feed does not carry yet and are flagged until Firm360 confirms them.</span>
+      </div>
+      <button type="button" style="height: 40px; padding: 0 16px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Add child firm (manual)</button>
+    </div>
+    <div style="border: 1px solid #D8DEE6; border-radius: 8px; overflow-x: auto">
+      <table style="width: 100%; min-width: 820px; border-collapse: collapse; font-size: 13px">
+        <thead>
+          <tr style="background: #F7F8FA; text-align: left">
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Firm</th>
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Type</th>
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Firm ID</th>
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">RR range</th>
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Relationship source</th>
+            <th style="padding: 10px 14px; font-size: 12px; font-weight: 700; color: #5A6878; text-transform: uppercase; letter-spacing: 0.4px; border-bottom: 1px solid #D8DEE6">Compass status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0; font-weight: 700">Harbourview Wealth Inc.</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">IB</span></td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">HV01</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">HV01–HV60</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">Firm360</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0; font-weight: 700">Harbourview Private Wealth</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">PM</span></td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">HP01</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">HP01–HP20</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">Firm360</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0; font-weight: 700">Northgate Private Wealth</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">PM</span></td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">NG01</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">NG01–NG35</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0">Firm360</td>
+            <td style="padding: 10px 14px; border-bottom: 1px solid #E6EAF0"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 14px; font-weight: 700">Perrin &amp; Co.</td>
+            <td style="padding: 10px 14px"><span style="display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E8EEF7; color: #1F4E99">IB</span></td>
+            <td style="padding: 10px 14px">PC01</td>
+            <td style="padding: 10px 14px">PC01–PC15</td>
+            <td style="padding: 10px 14px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #FFF3DC; color: #8A5A00">Manual · awaiting Firm360<span class="co">3</span></span></td>
+            <td style="padding: 10px 14px"><span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Active</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px">
+
+    <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <h2 style="margin: 0; font-size: 16px; font-weight: 700">Parent group package<span class="co">4</span></h2>
+        <span style="font-size: 13px; color: #5A6878">One global package for every parent group. Modules that cannot run across firms stay available to child-firm users only.</span>
+      </div>
+      <div style="display: flex; flex-direction: column; border: 1px solid #D8DEE6; border-radius: 8px; overflow: hidden">
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Accounts</span><span style="font-size: 12px; color: #5A6878">All child firms, RR-scoped</span></label>
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Orders</span><span style="font-size: 12px; color: #5A6878">View and manage</span></label>
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Servicing</span><span style="font-size: 12px; color: #5A6878">Group-level approvals</span></label>
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-bottom: 1px solid #E6EAF0; cursor: pointer"><input type="checkbox" checked="checked" style="accent-color: #1F5FBF; width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Reports</span><span style="font-size: 12px; color: #5A6878">Per firm, switchable</span></label>
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-bottom: 1px solid #E6EAF0; background: #F7F8FA; color: #5A6878"><input type="checkbox" disabled="disabled" style="width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Trade administration upload<span class="co">5</span></span><span style="font-size: 12px">Child firms only · validates by firm type</span></label>
+        <label style="display: flex; align-items: center; gap: 12px; padding: 11px 14px; background: #F7F8FA; color: #5A6878"><input type="checkbox" disabled="disabled" style="width: 18px; height: 18px"><span style="flex: 1 1 auto; font-weight: 600">Tools (Infinite modules)</span><span style="font-size: 12px">Pending firm-context confirmation</span></label>
+      </div>
+    </section>
+
+    <section style="background: #FFFFFF; border: 1px solid #D8DEE6; border-radius: 8px; padding: 18px 20px; display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap">
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <h2 style="margin: 0; font-size: 16px; font-weight: 700">Security stewards<span class="co">6</span></h2>
+          <span style="font-size: 13px; color: #5A6878">Who may request access for which firms. A group steward can request parent group users.</span>
+        </div>
+        <button type="button" style="height: 36px; padding: 0 14px; background: #FFFFFF; color: #152A4A; border: 1px solid #B9C2CE; border-radius: 6px; font: inherit; font-weight: 600; cursor: pointer">Designate steward</button>
+      </div>
+      <div style="display: flex; flex-direction: column; border: 1px solid #D8DEE6; border-radius: 8px; overflow: hidden">
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #E6EAF0; flex-wrap: wrap">
+          <span style="width: 32px; height: 32px; border-radius: 50%; background: #D52B1E; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12px" aria-hidden="true">MB</span>
+          <div style="display: flex; flex-direction: column; flex: 1 1 200px"><span style="font-weight: 700">Marcus Bell</span><span style="font-size: 12px; color: #5A6878">marcus.bell@harbourview.ca</span></div>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #E3F4EA; color: #1E6B3A">Group steward · 4 firms<span class="co">7</span></span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-bottom: 1px solid #E6EAF0; flex-wrap: wrap">
+          <span style="width: 32px; height: 32px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12px" aria-hidden="true">AR</span>
+          <div style="display: flex; flex-direction: column; flex: 1 1 200px"><span style="font-weight: 700">Anita Rao</span><span style="font-size: 12px; color: #5A6878">anita.rao@northgatepw.ca</span></div>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #3D4B5C">Northgate only</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; flex-wrap: wrap">
+          <span style="width: 32px; height: 32px; border-radius: 50%; background: #152A4A; color: #FFFFFF; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 12px" aria-hidden="true">GL</span>
+          <div style="display: flex; flex-direction: column; flex: 1 1 200px"><span style="font-weight: 700">Grace Lee</span><span style="font-size: 12px; color: #5A6878">grace.lee@perrinco.ca</span></div>
+          <span style="display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; background: #EEF0F3; color: #3D4B5C">Perrin &amp; Co. only</span>
+        </div>
+      </div>
+      <span style="font-size: 13px; color: #5A6878">Designation is recorded here from the signed steward form. Until the group steward is designated, parent group requests are routed to the ID Admin team with a flag.</span>
+    </section>
+
+  </div>
+</main>
+</div>
+</div></div></section>
+<section class="scene" data-scene="seq1"><div class="scene-head"><h2>Sequence 1 of 3 — setup and request (steps 1 to 13)</h2><span class="pill">All groups</span><span class="crumb">Firm360 → Product Activation → steward → Compass</span></div><div class="seqwrap"><svg viewBox="0 0 1180 602" width="100%" role="img" aria-label="Sequence diagram" style="font-family: Quicksand, system-ui, sans-serif">
+<rect x="0" y="62" width="1180" height="119" fill="#EEF4FC"/>
+<text x="10" y="79" font-size="12" font-weight="700" fill="#152A4A">Phase 0 — one-time setup per parent group</text>
+<rect x="0" y="181" width="1180" height="407" fill="#FDF1F0"/>
+<text x="10" y="198" font-size="12" font-weight="700" fill="#152A4A">Phase 1 — request</text>
+<line x1="65.6" y1="46" x2="65.6" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="196.7" y1="46" x2="196.7" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="327.8" y1="46" x2="327.8" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="458.9" y1="46" x2="458.9" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="590.0" y1="46" x2="590.0" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="721.1" y1="46" x2="721.1" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="852.2" y1="46" x2="852.2" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="983.3" y1="46" x2="983.3" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="1114.4" y1="46" x2="1114.4" y2="592" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<rect x="1.6" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="65.6" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">Product Activation</text>
+<text x="65.6" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="132.7" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="196.7" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Firm360</text>
+<text x="196.7" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">source of firm relationships</text>
+<rect x="263.8" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="327.8" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Marcus Bell</text>
+<text x="327.8" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">group security steward (client)</text>
+<rect x="394.9" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="458.9" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Access Requests</text>
+<text x="458.9" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">light UAR - new module</text>
+<rect x="526.0" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="590.0" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Firm and User Mgmt</text>
+<text x="590.0" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">existing user admin</text>
+<rect x="657.1" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="721.1" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">ID Admin (SAA)</text>
+<text x="721.1" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="788.2" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="852.2" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Secured Zone</text>
+<text x="852.2" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">Security App, bank-owned</text>
+<rect x="919.3" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="983.3" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">NetRep</text>
+<text x="983.3" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">legacy request form</text>
+<rect x="1050.4" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="1114.4" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Jane Doe</text>
+<text x="1114.4" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">the user (client)</text>
+<line x1="196.7" y1="110" x2="582.0" y2="110" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,110 581.0,106 581.0,114" fill="#1A2433"/>
+<rect x="215.1" y="94" width="356.5" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="104" text-anchor="middle" font-size="11" fill="#1A2433">Nightly feed - Parent_Code HVWG, child firms, RR ranges</text>
+<circle cx="209.7" cy="110" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="209.7" y="113" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">1</text>
+<line x1="65.6" y1="141" x2="582.0" y2="141" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,141 581.0,137 581.0,145" fill="#1A2433"/>
+<rect x="152.7" y="125" width="350.2" height="13" fill="#FFFFFF"/>
+<text x="327.8" y="135" text-anchor="middle" font-size="11" fill="#1A2433">Create parent group firm, assign global parent package</text>
+<circle cx="78.6" cy="141" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="78.6" y="144" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">2</text>
+<line x1="65.6" y1="172" x2="582.0" y2="172" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,172 581.0,168 581.0,176" fill="#1A2433"/>
+<rect x="196.8" y="156" width="262.0" height="13" fill="#FFFFFF"/>
+<text x="327.8" y="166" text-anchor="middle" font-size="11" fill="#1A2433">Record designated group steward (Marcus)</text>
+<circle cx="78.6" cy="172" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="78.6" y="175" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">3</text>
+<line x1="327.8" y1="242" x2="450.9" y2="242" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,242 449.9,238 449.9,246" fill="#1A2433"/>
+<rect x="306.4" y="226" width="173.8" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="236" text-anchor="middle" font-size="11" fill="#1A2433">parent group, 3 of 4 firms</text>
+<rect x="274.9" y="213" width="236.8" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="223" text-anchor="middle" font-size="11" fill="#1A2433">New request - create Jane Doe, scope</text>
+<circle cx="340.8" cy="242" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="340.8" y="245" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">4</text>
+<line x1="458.9" y1="273" x2="582.0" y2="273" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,273 581.0,269 581.0,277" fill="#1A2433"/>
+<rect x="402.9" y="257" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="267" text-anchor="middle" font-size="11" fill="#1A2433">Look up existing Compass IDs by email</text>
+<circle cx="471.9" cy="273" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="471.9" y="276" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">5</text>
+<line x1="590.0" y1="304" x2="466.9" y2="304" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="458.9,304 467.9,300 467.9,308" fill="#5A6878"/>
+<rect x="443.8" y="288" width="161.2" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="298" text-anchor="middle" font-size="11" fill="#1A2433">jdoe, jdoe2, jdoe3 found</text>
+<circle cx="577.0" cy="304" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="577.0" y="307" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">6</text>
+<line x1="458.9" y1="348" x2="335.8" y2="348" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="327.8,348 336.8,344 336.8,352" fill="#5A6878"/>
+<rect x="363.1" y="332" width="60.4" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="342" text-anchor="middle" font-size="11" fill="#1A2433">into one</text>
+<rect x="278.1" y="319" width="230.5" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="329" text-anchor="middle" font-size="11" fill="#1A2433">Banner - 3 IDs will be consolidated</text>
+<circle cx="445.9" cy="348" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="445.9" y="351" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">7</text>
+<line x1="327.8" y1="392" x2="450.9" y2="392" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,392 449.9,388 449.9,396" fill="#1A2433"/>
+<rect x="306.4" y="376" width="173.8" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="386" text-anchor="middle" font-size="11" fill="#1A2433">firm, SZ apps, attestation</text>
+<rect x="271.8" y="363" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="373" text-anchor="middle" font-size="11" fill="#1A2433">Package + valid add-ons, RR codes per</text>
+<circle cx="340.8" cy="392" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="340.8" y="395" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">8</text>
+<line x1="458.9" y1="436" x2="582.0" y2="436" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,436 581.0,432 581.0,440" fill="#1A2433"/>
+<rect x="418.6" y="420" width="211.6" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="430" text-anchor="middle" font-size="11" fill="#1A2433">child ranges, steward designated</text>
+<rect x="399.7" y="407" width="249.4" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="417" text-anchor="middle" font-size="11" fill="#1A2433">Validate - firms in group, RR codes in</text>
+<circle cx="471.9" cy="436" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="471.9" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">9</text>
+<line x1="590.0" y1="467" x2="466.9" y2="467" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="458.9,467 467.9,463 467.9,471" fill="#5A6878"/>
+<rect x="418.6" y="451" width="211.6" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="461" text-anchor="middle" font-size="11" fill="#1A2433">OK (Firm360 data as last synced)</text>
+<circle cx="577.0" cy="467" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="577.0" y="470" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">10</text>
+<line x1="327.8" y1="498" x2="450.9" y2="498" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,498 449.9,494 449.9,502" fill="#1A2433"/>
+<rect x="369.4" y="482" width="47.8" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="492" text-anchor="middle" font-size="11" fill="#1A2433">Submit</text>
+<circle cx="340.8" cy="498" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="340.8" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">11</text>
+<line x1="458.9" y1="542" x2="335.8" y2="542" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="327.8,542 336.8,538 336.8,546" fill="#5A6878"/>
+<rect x="347.4" y="526" width="91.9" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="536" text-anchor="middle" font-size="11" fill="#1A2433">business days</text>
+<rect x="284.4" y="513" width="217.9" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="523" text-anchor="middle" font-size="11" fill="#1A2433">CUR-2026-0147 SUBMITTED, target 2</text>
+<circle cx="445.9" cy="542" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="445.9" y="545" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">12</text>
+<line x1="458.9" y1="573" x2="713.1" y2="573" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="721.1,573 712.1,569 712.1,577" fill="#5A6878"/>
+<rect x="522.0" y="557" width="136.0" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="567" text-anchor="middle" font-size="11" fill="#1A2433">New request in queue</text>
+<circle cx="471.9" cy="573" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="471.9" y="576" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">13</text>
+</svg></div><p style="color:var(--muted);font-size:13px;margin:10px 0 0">Solid arrows are actions, dashed arrows are responses or status updates. Everything inside phase 2 is a person following the matrix.</p></section>
+<section class="scene" data-scene="seq2"><div class="scene-head"><h2>Sequence 2 of 3 — fulfil from the matrix (steps 14 to 22)</h2><span class="pill">ID Admin</span><span class="crumb">ID Admin → Compass → Secured Zone → NetRep</span></div><div class="seqwrap"><svg viewBox="0 0 1180 567" width="100%" role="img" aria-label="Sequence diagram" style="font-family: Quicksand, system-ui, sans-serif">
+<rect x="0" y="62" width="1180" height="491" fill="#EEF4FC"/>
+<text x="10" y="79" font-size="12" font-weight="700" fill="#152A4A">Phase 2 — fulfil from the matrix (manual)</text>
+<rect x="651" y="308" width="402" height="147" fill="none" stroke="#8A94A3" stroke-width="1"/>
+<rect x="651" y="308" width="30" height="16" fill="#EEF0F3" stroke="#8A94A3" stroke-width="1"/>
+<text x="657" y="320" font-size="10" font-weight="700" fill="#1A2433">alt</text>
+<text x="689" y="320" font-size="10" fill="#1A2433">[NetRep requested]</text>
+<line x1="651" y1="407" x2="1053" y2="407" stroke="#8A94A3" stroke-dasharray="4 3"/>
+<text x="659" y="419" font-size="10" fill="#1A2433">[not requested]</text>
+<line x1="65.6" y1="46" x2="65.6" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="196.7" y1="46" x2="196.7" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="327.8" y1="46" x2="327.8" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="458.9" y1="46" x2="458.9" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="590.0" y1="46" x2="590.0" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="721.1" y1="46" x2="721.1" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="852.2" y1="46" x2="852.2" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="983.3" y1="46" x2="983.3" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="1114.4" y1="46" x2="1114.4" y2="557" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<rect x="1.6" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="65.6" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">Product Activation</text>
+<text x="65.6" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="132.7" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="196.7" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Firm360</text>
+<text x="196.7" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">source of firm relationships</text>
+<rect x="263.8" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="327.8" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Marcus Bell</text>
+<text x="327.8" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">group security steward (client)</text>
+<rect x="394.9" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="458.9" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Access Requests</text>
+<text x="458.9" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">light UAR - new module</text>
+<rect x="526.0" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="590.0" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Firm and User Mgmt</text>
+<text x="590.0" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">existing user admin</text>
+<rect x="657.1" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="721.1" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">ID Admin (SAA)</text>
+<text x="721.1" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="788.2" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="852.2" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Secured Zone</text>
+<text x="852.2" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">Security App, bank-owned</text>
+<rect x="919.3" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="983.3" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">NetRep</text>
+<text x="983.3" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">legacy request form</text>
+<rect x="1050.4" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="1114.4" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Jane Doe</text>
+<text x="1114.4" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">the user (client)</text>
+<line x1="721.1" y1="123" x2="466.9" y2="123" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,123 467.9,119 467.9,127" fill="#1A2433"/>
+<rect x="572.4" y="107" width="35.2" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="117" text-anchor="middle" font-size="11" fill="#1A2433">M-14</text>
+<rect x="471.6" y="94" width="236.8" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="104" text-anchor="middle" font-size="11" fill="#1A2433">Start - IN PROGRESS, open matrix row</text>
+<circle cx="708.1" cy="123" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="708.1" y="126" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">14</text>
+<line x1="721.1" y1="180" x2="598.0" y2="180" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,180 599.0,176 599.0,184" fill="#1A2433"/>
+<rect x="625.4" y="164" width="60.4" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="174" text-anchor="middle" font-size="11" fill="#1A2433">RR codes</text>
+<rect x="534.0" y="151" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="161" text-anchor="middle" font-size="11" fill="#1A2433">group - package PRC-OPS + add-ons, 32</text>
+<rect x="530.9" y="138" width="249.4" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="148" text-anchor="middle" font-size="11" fill="#1A2433">Create or update jdoe under the parent</text>
+<circle cx="708.1" cy="180" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="708.1" y="183" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">15</text>
+<line x1="590.0" y1="224" x2="713.1" y2="224" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="721.1,224 712.1,220 712.1,228" fill="#5A6878"/>
+<rect x="625.4" y="208" width="60.4" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="218" text-anchor="middle" font-size="11" fill="#1A2433">password</text>
+<rect x="537.2" y="195" width="236.8" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="205" text-anchor="middle" font-size="11" fill="#1A2433">User saved, Okta identity, temporary</text>
+<circle cx="603.0" cy="224" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="603.0" y="227" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">16</text>
+<line x1="721.1" y1="268" x2="844.2" y2="268" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="852.2,268 843.2,264 843.2,272" fill="#1A2433"/>
+<rect x="680.9" y="252" width="211.6" height="13" fill="#FFFFFF"/>
+<text x="786.7" y="262" text-anchor="middle" font-size="11" fill="#1A2433">add Servicing, GICs, Web Panagon</text>
+<rect x="665.1" y="239" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="786.7" y="249" text-anchor="middle" font-size="11" fill="#1A2433">Link existing SZ ID S-004512 to jdoe,</text>
+<circle cx="734.1" cy="268" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="734.1" y="271" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">17</text>
+<line x1="852.2" y1="299" x2="729.1" y2="299" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="721.1,299 730.1,295 730.1,303" fill="#5A6878"/>
+<rect x="734.4" y="283" width="104.5" height="13" fill="#FFFFFF"/>
+<text x="786.7" y="293" text-anchor="middle" font-size="11" fill="#1A2433">Profile updated</text>
+<circle cx="839.2" cy="299" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="839.2" y="302" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">18</text>
+<line x1="721.1" y1="363" x2="975.3" y2="363" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="983.3,363 974.3,359 974.3,367" fill="#1A2433"/>
+<rect x="781.1" y="347" width="142.3" height="13" fill="#FFFFFF"/>
+<text x="852.2" y="357" text-anchor="middle" font-size="11" fill="#1A2433">if NetRep was ticked)</text>
+<rect x="730.7" y="334" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="852.2" y="344" text-anchor="middle" font-size="11" fill="#1A2433">Raise the legacy NetRep request (only</text>
+<circle cx="734.1" cy="363" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="734.1" y="366" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">19</text>
+<line x1="983.3" y1="394" x2="729.1" y2="394" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="721.1,394 730.1,390 730.1,398" fill="#5A6878"/>
+<rect x="740.1" y="378" width="224.2" height="13" fill="#FFFFFF"/>
+<text x="852.2" y="388" text-anchor="middle" font-size="11" fill="#1A2433">NetRep ID, recorded on the request</text>
+<circle cx="970.3" cy="394" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="970.3" y="397" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">20</text>
+<rect x="737.2" y="423" width="230" height="18" fill="#FFF7E6" stroke="#E3C47A"/>
+<text x="852.2" y="436" text-anchor="middle" font-size="10.5" fill="#5C3D00">Skip — R2 IDs unchanged</text>
+<line x1="721.1" y1="494" x2="466.9" y2="494" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,494 467.9,490 467.9,498" fill="#1A2433"/>
+<rect x="512.5" y="478" width="154.9" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="488" text-anchor="middle" font-size="11" fill="#1A2433">temporary password once</text>
+<rect x="493.6" y="465" width="192.7" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="475" text-anchor="middle" font-size="11" fill="#1A2433">Tick checklist items, release</text>
+<circle cx="708.1" cy="494" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="708.1" y="497" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">21</text>
+<line x1="458.9" y1="538" x2="335.8" y2="538" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="327.8,538 336.8,534 336.8,542" fill="#5A6878"/>
+<rect x="300.1" y="522" width="186.4" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="532" text-anchor="middle" font-size="11" fill="#1A2433">available once, not by email</text>
+<rect x="297.0" y="509" width="192.7" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="519" text-anchor="middle" font-size="11" fill="#1A2433">Progress per system, password</text>
+<circle cx="445.9" cy="538" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="445.9" y="541" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">22</text>
+</svg></div><p style="color:var(--muted);font-size:13px;margin:10px 0 0">Solid arrows are actions, dashed arrows are responses or status updates. Everything inside phase 2 is a person following the matrix.</p></section>
+<section class="scene" data-scene="seq3"><div class="scene-head"><h2>Sequence 3 of 3 — first sign-in and retire old IDs (steps 23 to 30)</h2><span class="pill">Steward and user</span><span class="crumb">User → Compass → ID Admin</span></div><div class="seqwrap"><svg viewBox="0 0 1180 382" width="100%" role="img" aria-label="Sequence diagram" style="font-family: Quicksand, system-ui, sans-serif">
+<rect x="0" y="62" width="1180" height="306" fill="#E9F5EE"/>
+<text x="10" y="79" font-size="12" font-weight="700" fill="#152A4A">Phase 3 — first sign-in and retire old IDs</text>
+<line x1="65.6" y1="46" x2="65.6" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="196.7" y1="46" x2="196.7" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="327.8" y1="46" x2="327.8" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="458.9" y1="46" x2="458.9" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="590.0" y1="46" x2="590.0" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="721.1" y1="46" x2="721.1" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="852.2" y1="46" x2="852.2" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="983.3" y1="46" x2="983.3" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<line x1="1114.4" y1="46" x2="1114.4" y2="372" stroke="#B9C2CE" stroke-dasharray="4 4"/>
+<rect x="1.6" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="65.6" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">Product Activation</text>
+<text x="65.6" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="132.7" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="196.7" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Firm360</text>
+<text x="196.7" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">source of firm relationships</text>
+<rect x="263.8" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="327.8" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Marcus Bell</text>
+<text x="327.8" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">group security steward (client)</text>
+<rect x="394.9" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="458.9" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Access Requests</text>
+<text x="458.9" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">light UAR - new module</text>
+<rect x="526.0" y="2" width="128" height="42" rx="5" fill="#E8EEF7" stroke="#1F5FBF"/>
+<text x="590.0" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">CX Firm and User Mgmt</text>
+<text x="590.0" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">existing user admin</text>
+<rect x="657.1" y="2" width="128" height="42" rx="5" fill="#152A4A" stroke="#152A4A"/>
+<text x="721.1" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">ID Admin (SAA)</text>
+<text x="721.1" y="35" text-anchor="middle" font-size="8.5" fill="#FFFFFF">NBIN internal team</text>
+<rect x="788.2" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="852.2" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Secured Zone</text>
+<text x="852.2" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">Security App, bank-owned</text>
+<rect x="919.3" y="2" width="128" height="42" rx="5" fill="#EEF0F3" stroke="#8A94A3"/>
+<text x="983.3" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">NetRep</text>
+<text x="983.3" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">legacy request form</text>
+<rect x="1050.4" y="2" width="128" height="42" rx="5" fill="#FBE9E7" stroke="#D52B1E"/>
+<text x="1114.4" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2433">Jane Doe</text>
+<text x="1114.4" y="35" text-anchor="middle" font-size="8.5" fill="#1A2433">the user (client)</text>
+<line x1="327.8" y1="110" x2="1106.4" y2="110" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="1114.4,110 1105.4,106 1105.4,114" fill="#1A2433"/>
+<rect x="571.2" y="94" width="299.8" height="13" fill="#FFFFFF"/>
+<text x="721.1" y="104" text-anchor="middle" font-size="11" fill="#1A2433">Share temporary password in person or by phone</text>
+<circle cx="340.8" cy="110" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="340.8" y="113" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">23</text>
+<line x1="1114.4" y1="141" x2="598.0" y2="141" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,141 599.0,137 599.0,145" fill="#1A2433"/>
+<rect x="730.7" y="125" width="243.1" height="13" fill="#FFFFFF"/>
+<text x="852.2" y="135" text-anchor="middle" font-size="11" fill="#1A2433">Sign in with jdoe, set a new password</text>
+<circle cx="1101.4" cy="141" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="1101.4" y="144" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">24</text>
+<line x1="590.0" y1="172" x2="1106.4" y2="172" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="1114.4,172 1105.4,168 1105.4,176" fill="#5A6878"/>
+<rect x="667.7" y="156" width="369.1" height="13" fill="#FFFFFF"/>
+<text x="852.2" y="166" text-anchor="middle" font-size="11" fill="#1A2433">Accounts, Orders, Servicing across the 3 firms, RR-scoped</text>
+<circle cx="603.0" cy="172" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="603.0" y="175" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">25</text>
+<line x1="590.0" y1="203" x2="466.9" y2="203" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="458.9,203 467.9,199 467.9,207" fill="#5A6878"/>
+<rect x="450.1" y="187" width="148.6" height="13" fill="#FFFFFF"/>
+<text x="524.4" y="197" text-anchor="middle" font-size="11" fill="#1A2433">First sign-in recorded</text>
+<circle cx="577.0" cy="203" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="577.0" y="206" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">26</text>
+<line x1="458.9" y1="234" x2="713.1" y2="234" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="721.1,234 712.1,230 712.1,238" fill="#5A6878"/>
+<rect x="518.9" y="218" width="142.3" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="228" text-anchor="middle" font-size="11" fill="#1A2433">Retire task unblocked</text>
+<circle cx="471.9" cy="234" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="471.9" y="237" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">27</text>
+<line x1="721.1" y1="278" x2="598.0" y2="278" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="590.0,278 599.0,274 599.0,282" fill="#1A2433"/>
+<rect x="543.5" y="262" width="224.2" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="272" text-anchor="middle" font-size="11" fill="#1A2433">bulk tool, keep R2 links for audit</text>
+<rect x="540.3" y="249" width="230.5" height="13" fill="#FFFFFF"/>
+<text x="655.6" y="259" text-anchor="middle" font-size="11" fill="#1A2433">Deactivate jdoe2 and jdoe3 with the</text>
+<circle cx="708.1" cy="278" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="708.1" y="281" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">28</text>
+<line x1="721.1" y1="309" x2="466.9" y2="309" stroke="#1A2433" stroke-width="1.3"/>
+<polygon points="458.9,309 467.9,305 467.9,313" fill="#1A2433"/>
+<rect x="544.0" y="293" width="91.9" height="13" fill="#FFFFFF"/>
+<text x="590.0" y="303" text-anchor="middle" font-size="11" fill="#1A2433">Mark complete</text>
+<circle cx="708.1" cy="309" r="8" fill="#152A4A" stroke="#FFFFFF"/>
+<text x="708.1" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">29</text>
+<line x1="458.9" y1="353" x2="335.8" y2="353" stroke="#5A6878" stroke-width="1.3" stroke-dasharray="5 3"/>
+<polygon points="327.8,353 336.8,349 336.8,357" fill="#5A6878"/>
+<rect x="344.2" y="337" width="98.2" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="347" text-anchor="middle" font-size="11" fill="#1A2433">one Compass ID</text>
+<rect x="274.9" y="324" width="236.8" height="13" fill="#FFFFFF"/>
+<text x="393.3" y="334" text-anchor="middle" font-size="11" fill="#1A2433">COMPLETED - user list shows one row,</text>
+<circle cx="445.9" cy="353" r="8" fill="#5A6878" stroke="#FFFFFF"/>
+<text x="445.9" y="356" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">30</text>
+</svg></div><p style="color:var(--muted);font-size:13px;margin:10px 0 0">Solid arrows are actions, dashed arrows are responses or status updates. Everything inside phase 2 is a person following the matrix.</p></section>
+<section class="scene" data-scene="decisions"><div class="scene-head"><h2>Decisions this proposal depends on</h2><span class="pill">All groups</span><span class="crumb"></span></div>
+<div class="doc">
+  <h2>Decisions this proposal depends on</h2>
+  <table class="tbl"><thead><tr><th>Question</th><th>Who answers</th><th>Where it shows</th></tr></thead><tbody><tr><td>Steward sees package names, or only business-level choices with ID Admin picking the package?</td><td>Owen, Radhika</td><td>Request form</td></tr><tr><td>Parent group scope: steward picks child firms, or always all children?</td><td>Candi, Ray</td><td>Request form, firm settings</td></tr><tr><td>RR codes typed by the steward as today, or picked from Firm360 ranges?</td><td>Radhika</td><td>Request form</td></tr><tr><td>Secured Zone apps and NetRep inside the v1 form, or left on today’s forms?</td><td>Candi</td><td>Request form, ID Admin</td></tr><tr><td>Who designates the group steward and where is it recorded?</td><td>Ray, Ed</td><td>Firm settings</td></tr><tr><td>Child firms for the pilot: wait for the Firm360 feed or allow the manual row?</td><td>Ray, JP</td><td>Firm settings</td></tr><tr><td>Which modules are parent-eligible on day one?</td><td>JP, Owen</td><td>Firm settings</td></tr><tr><td>Does validation read Firm360 live or the nightly copy in Compass?</td><td>JP</td><td>Sequence, steps 9–10</td></tr></tbody></table>
+  <h2>Prompts for each group</h2>
+  <table class="tbl"><thead><tr><th>Group</th><th>Ask them</th></tr></thead><tbody><tr><td><strong>Design (Owen, Candi)</strong></td><td>Can the form render from the package list and the firm data without the registry? Which screens from the UAR Figma survive as is?</td></tr><tr><td><strong>Architecture (JP)</strong></td><td>Effort band for the parent firm type and the RR union rule. Which modules filter by firm ID versus RR code. Cost of the first-sign-in event.</td></tr><tr><td><strong>Operations (Radhika, Maisha)</strong></td><td>Does the ID Admin checklist match the matrix flow? What is the exception path for non-standard profiles? Change management per firm, inside the launch windows.</td></tr><tr><td><strong>Business (Ray, Kevin)</strong></td><td>Which parent group pilots first. A blackout exception for one firm. The Firm360 loader date.</td></tr></tbody></table>
+  <h2>What must change, and what stays</h2>
+  <div class="cols">
+    <div class="box new"><strong>Must change</strong><ol>
+      <li>Parent group as a firm type with a child-firms list (Firm360 Parent_Code; manual row until the loader carries it).</li>
+      <li>A user may belong to a parent firm; RR validation uses the union of child ranges.</li>
+      <li>One global parent package; modules that cannot run across firms stay child-only.</li>
+      <li>Steward designation stored on the firm.</li>
+      <li>Access Requests module: form, status list, ID Admin queue, checklist, one-time credential.</li>
+      <li>Duplicate-ID lookup by email at intake.</li>
+      <li>First-sign-in event used to unblock the retire step.</li>
+      <li>Request screens placed in an FSS-assignable package (Product Activation task).</li></ol></div>
+    <div class="box keep"><strong>Stays exactly as today</strong><ul>
+      <li>The 27 user packages and the firm-package intersection rule.</li>
+      <li>Radhika’s matrix and ID Admin provisioning by hand.</li>
+      <li>Compass user management screens and the bulk upload tool.</li>
+      <li>Okta identity model.</li>
+      <li>Secured Zone Security App and existing SZ IDs — nothing decoupled.</li>
+      <li>NetRep legacy request form.</li>
+      <li>R2 IDs per firm, linked for audit, until R2 functions move to Compass.</li>
+      <li>No feature registry, no system integration layer, no machine-generated instructions.</li></ul></div>
+  </div>
+</div></section>
+</main><aside class="notes" id="notespanel"></aside></div>
+<script>
+const JOURNEYS = [{"id": "overview", "title": "Start here", "sub": "What this proposes", "steps": ["overview"]}, {"id": "steward", "title": "1 \u00b7 Group steward", "sub": "Consolidate a person into one Compass ID", "steps": ["users", "request", "status"]}, {"id": "idadmin", "title": "2 \u00b7 ID Admin (SAA)", "sub": "Fulfil the request from the matrix", "steps": ["saa"]}, {"id": "activation", "title": "3 \u00b7 Product Activation", "sub": "Set up a parent group, once", "steps": ["firm"]}, {"id": "sequence", "title": "4 \u00b7 End to end", "sub": "The 30-step sequence in three parts", "steps": ["seq1", "seq2", "seq3"]}, {"id": "decide", "title": "5 \u00b7 Decisions", "sub": "What the room needs to settle", "steps": ["decisions"]}];
+const NOTES = {"users": {"what": "One row per person across the whole group. Today a steward sees one firm\u2019s users per ID, so the same person appears several times under different logins.", "callouts": [[1, "Firm filter: the whole group or one child firm."], [2, "Consolidation banner: how many people still hold several IDs, with one click to start the update request."], [3, "Firms column: chips show which child firms the person works across; \u201cParent group\u201d marks a group user."], [4, "Compass IDs column flags the cleanup backlog. The target is one everywhere."], [5, "Status pills are today\u2019s lifecycle: Active, Invited, Inactive."], [6, "New access request is the only way in. There is no catalog screen behind it."]], "new": "Group-wide view keyed by person; multiple-ID flag; consolidation entry point.", "decision": "Should \u201cConsolidate\u201d pre-fill the update request with the person\u2019s existing IDs, firms and RR codes?", "unchanged": "User statuses, deactivate-as-freeze semantics, user admin screens.", "try": "Click \u201cNew access request\u201d or \u201cConsolidate\u201d on Jane Doe\u2019s row to open the form."}, "request": {"what": "The steward\u2019s single form for Compass, Secured Zone and NetRep access: who the person is, which firms they work across, which package, which RR codes, which other systems.", "callouts": [[1, "Create, update and deactivate in one form. v1 can ship create-first if needed."], [2, "Duplicate-ID lookup by email at intake. It tells the steward which IDs will be retired."], [3, "Firm scope: single firm, parent group, or sub-advisory \u2014 greyed out until trading."], [4, "Child firms come from Firm360 with the parent code shown. A missing firm is a Firm360 fix, not a form fix."], [5, "Package first \u2014 the same packages ID Admin provisions today. No \u00e0 la carte menu."], [6, "Options that cannot apply are locked with the reason, so an invalid combination is never submitted."], [7, "RR / IA codes per firm, checked against the union of the selected firms\u2019 ranges. Today a code must sit inside one firm."], [8, "Secured Zone apps reuse the person\u2019s existing SZ ID. Nothing is decoupled or re-created."], [9, "NetRep is a checkbox that ID Admin actions on today\u2019s form. R2 says \u201cno change\u201d on purpose."], [10, "Attestation and notes replace the signature on the paper form for this request type."], [11, "The structured record ID Admin receives, exactly as it appears in their queue."], [12, "What happens next and the two-business-day target, stated up front."]], "new": "The form itself; firm scope as a first-class field; the duplicate check; locked invalid options; RR validation across child firms.", "decision": "Does the steward see package names, or business-level choices that ID Admin maps to a package? Pick child firms, or always all children? Secured Zone apps and NetRep inside v1, or on today\u2019s forms?", "unchanged": "The 27 packages, the matrix, ID Admin provisioning by hand, Security App profiles, the NetRep form, R2 IDs per firm.", "try": "Scroll to the bottom and click \u201cSubmit request\u201d to see the status page."}, "status": {"what": "Every request the group has made, with progress per system. The detail panel is the same record ID Admin works from, so both sides see one truth.", "callouts": [[1, "Status lifecycle: Submitted, In progress, Needs info, Completed. Visible without asking anyone."], [2, "Request detail with scope and target date."], [3, "Progress per system: Firm360 check, Compass, Secured Zone, NetRep if requested."], [4, "Old IDs are retired only after the kept ID has been used."], [5, "Temporary password revealed once, inside the request, never emailed."], [6, "Message ID Admin and withdraw, so questions stay attached to the request."]], "new": "Request as a tracked object; per-system progress; retire-after-first-sign-in rule; one-time credential.", "decision": "Is the one-time credential in v1, or does today\u2019s phone and email channel stay for now?", "unchanged": "Password policy, Okta, the ID Admin team doing the work.", "try": "Use \u201cNext\u201d to switch to the ID Admin side of the same request."}, "saa": {"what": "The ID Admin view. Structured intake replaces email and forms, the matrix stays the instruction source, and the actual provisioning still happens in today\u2019s screens.", "callouts": [[1, "Queue with due dates replaces email and form intake."], [2, "Firm360 check: group membership and steward designation confirmed before work starts."], [3, "Request as submitted: structured fields, nothing to interpret."], [4, "Existing IDs: keep one, retire the rest after sign-in. R2 IDs are not merged."], [5, "Provisioning checklist: a tick list, not generated instructions."], [6, "Matrix row link opens Radhika\u2019s row for this package and scope."], [7, "\u201cOpen user management\u201d is today\u2019s screen doing the real work."], [8, "NetRep and R2 rows: today\u2019s process, unchanged."]], "new": "Queue, Firm360 check, structured request, keep-one-ID step, checklist.", "decision": "Does ID Admin create the user from the request (pre-filled), or by hand in user management as now? Who owns the exception path for non-standard profiles?", "unchanged": "The matrix, user management, Security App, NetRep form, bulk upload tool.", "try": "Click \u201cMark complete\u201d to jump back to the steward\u2019s status page."}, "firm": {"what": "The internal setup that makes a parent group exist in Compass. This is the data the form validates against and the package a group user receives.", "callouts": [[1, "Parent group as a firm of its own type, carrying the Firm360 parent code."], [2, "Child firms from the Firm360 nightly feed; the relationship never lives only in Compass."], [3, "A manual row is flagged until Firm360 confirms it \u2014 a pilot-only bridge while the loader is built."], [4, "One global parent package for every parent group."], [5, "Locked modules: child-firm-only features and Infinite tools pending firm-context confirmation."], [6, "Security stewards: who may request for which firms."], [7, "Group steward designation is required before parent group requests are accepted."]], "new": "Parent firm type, child-firm list, global parent package, steward designation.", "decision": "Firm360 feed date versus manual rows for the pilot. Which modules are parent-eligible on day one. Who designates the group steward and where it is recorded.", "unchanged": "Firm packages by firm type, firm settings overrides, the nightly firm loader.", "try": "This is the setup that happens once per group, before any request. Use \u201cNext\u201d for the end-to-end sequence."}};
+const META = {"overview": ["What this proposes, in one page", "All groups", ""], "seq1": ["Sequence 1 of 3 \u2014 setup and request (steps 1 to 13)", "All groups", "Firm360 \u2192 Product Activation \u2192 steward \u2192 Compass"], "seq2": ["Sequence 2 of 3 \u2014 fulfil from the matrix (steps 14 to 22)", "ID Admin", "ID Admin \u2192 Compass \u2192 Secured Zone \u2192 NetRep"], "seq3": ["Sequence 3 of 3 \u2014 first sign-in and retire old IDs (steps 23 to 30)", "Steward and user", "User \u2192 Compass \u2192 ID Admin"], "decisions": ["Decisions this proposal depends on", "All groups", ""], "users": ["Users across the group", "Group steward", "Firm settings \u203a Users"], "request": ["New access request", "Group steward", "Firm settings \u203a Access requests \u203a New request"], "status": ["Access requests and status", "Group steward", "Firm settings \u203a Access requests"], "saa": ["Process request", "ID Admin (SAA)", "Access requests \u203a queue \u203a CUR-2026-0147"], "firm": ["Parent group firm settings", "Product Activation", "Firms \u203a Harbourview Wealth Group"]};
+let cur = { j: 0, i: 0 };
+function sceneOf(j, i) { return JOURNEYS[j].steps[i]; }
+function findScene(id) { for (let j = 0; j < JOURNEYS.length; j++) { const i = JOURNEYS[j].steps.indexOf(id); if (i >= 0) return { j, i }; } return null; }
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function renderNotes(id) {
+  const n = NOTES[id]; const el = document.getElementById('notespanel');
+  if (!n) { el.innerHTML = ''; el.style.display = 'none'; return; }
+  el.style.display = document.getElementById('shownotes').checked ? '' : 'none';
+  let h = '<div class="card"><h3>What you are looking at</h3><p>' + esc(n.what) + '</p></div>';
+  h += '<div class="card"><h3>Callouts</h3><ul class="cl">' + n.callouts.map(c => '<li><span class="n">' + c[0] + '</span><span>' + esc(c[1]) + '</span></li>').join('') + '</ul></div>';
+  h += '<div class="box new"><strong>New here:</strong> ' + esc(n.new) + '</div>';
+  h += '<div class="box dec"><strong>Decision needed:</strong> ' + esc(n.decision) + '</div>';
+  h += '<div class="box keep"><strong>Unchanged today:</strong> ' + esc(n.unchanged) + '</div>';
+  if (n.try) h += '<div class="box try"><strong>Try it:</strong> ' + esc(n.try) + '</div>';
+  el.innerHTML = h;
+}
+function show(j, i, push) {
+  cur = { j, i }; const id = sceneOf(j, i);
+  document.querySelectorAll('.scene').forEach(s => s.classList.toggle('on', s.dataset.scene === id));
+  document.querySelectorAll('.jb').forEach(b => b.classList.toggle('active', b.dataset.j == j));
+  document.querySelectorAll('.steps button').forEach(b => b.classList.toggle('active', b.dataset.scene === id));
+  const m = META[id];
+  document.getElementById('where').textContent = JOURNEYS[j].title + ' · step ' + (i + 1) + ' of ' + JOURNEYS[j].steps.length + ' · ' + m[0];
+  document.getElementById('prev').disabled = (j === 0 && i === 0);
+  document.getElementById('next').disabled = (j === JOURNEYS.length - 1 && i === JOURNEYS[j].steps.length - 1);
+  renderNotes(id);
+  const stage = document.getElementById('stage'); stage.scrollTop = 0; window.scrollTo(0, 0);
+  if (push !== false) { try { history.replaceState(null, '', '#' + id); } catch (e) {} }
+}
+function go(id) { const p = findScene(id); if (p) show(p.j, p.i); }
+function step(d) {
+  let { j, i } = cur; i += d;
+  if (i < 0) { if (j > 0) { j -= 1; i = JOURNEYS[j].steps.length - 1; } else i = 0; }
+  if (i >= JOURNEYS[j].steps.length) { if (j < JOURNEYS.length - 1) { j += 1; i = 0; } else i = JOURNEYS[j].steps.length - 1; }
+  show(j, i);
+}
+document.addEventListener('click', e => {
+  const g = e.target.closest('[data-go]'); if (g) { e.preventDefault(); go(g.dataset.go); return; }
+  const n = e.target.closest('[data-noop]'); if (n) { e.preventDefault(); }
+});
+document.getElementById('prev').addEventListener('click', () => step(-1));
+document.getElementById('next').addEventListener('click', () => step(1));
+document.getElementById('callouts').addEventListener('change', e => document.body.classList.toggle('nocallouts', !e.target.checked));
+document.getElementById('shownotes').addEventListener('change', e => { document.getElementById('notespanel').style.display = e.target.checked ? '' : 'none'; });
+document.querySelectorAll('.jb').forEach(b => b.addEventListener('click', () => show(+b.dataset.j, 0)));
+document.querySelectorAll('.steps button').forEach(b => b.addEventListener('click', () => go(b.dataset.scene)));
+let start = null; try { start = (location.hash || '').replace('#', ''); } catch (e) {}
+const p = start ? findScene(start) : null;
+if (p) show(p.j, p.i, false); else show(0, 0, false);
+</script></body></html>

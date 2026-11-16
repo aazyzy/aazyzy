@@ -1,0 +1,2984 @@
+WEBVTT
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/5-0
+00:00:03.522 --> 00:00:05.282
+<v Sharma, Radhika>with my profile as it is.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/9-0
+00:00:07.562 --> 00:00:11.029
+<v Sharma, Radhika>When I click on Onboarding,
+nothing happens, right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/9-1
+00:00:11.029 --> 00:00:14.162
+<v Sharma, Radhika>Except that it expands and collapses the
+menu.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/10-0
+00:00:15.122 --> 00:00:15.602
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/11-0
+00:00:16.722 --> 00:00:19.442
+<v Sharma, Radhika>You can see I have form-based and I have
+paper uploaded.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/12-0
+00:00:20.402 --> 00:00:20.802
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/13-0
+00:00:20.522 --> 00:00:23.574
+<v Sharma, Radhika>To me, this is an acceptable behavior.
+That's fine.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/13-1
+00:00:23.574 --> 00:00:26.802
+<v Sharma, Radhika>I'm going to go in and I'm going to
+change my profile.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/21-0
+00:00:36.802 --> 00:00:38.802
+<v Sharma, Radhika>And I'm going to remove...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/22-0
+00:00:41.602 --> 00:00:42.642
+<v Sharma, Radhika>Paper upload.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/23-0
+00:00:44.762 --> 00:00:47.322
+<v Sharma, Radhika>And I'm gonna keep form applications.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/24-0
+00:00:48.082 --> 00:00:48.562
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/25-0
+00:00:48.922 --> 00:00:50.002
+<v Sharma, Radhika>No updates.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/33-0
+00:01:02.722 --> 00:01:04.962
+<v Sharma, Radhika>Now, I don't have a drop-down anymore.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/34-0
+00:01:06.282 --> 00:01:06.642
+<v Azizi, Ali>Mm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/35-0
+00:01:07.202 --> 00:01:08.402
+<v Sharma, Radhika>When I click this...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/41-0
+00:01:09.562 --> 00:01:14.036
+<v Sharma, Radhika>it's going to take me straight to
+form-based Onboarding.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/38-0
+00:01:12.882 --> 00:01:13.442
+<v Azizi, Ali>No.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/41-1
+00:01:14.036 --> 00:01:15.762
+<v Sharma, Radhika>So that's problem one.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/42-0
+00:01:16.882 --> 00:01:17.522
+<v Sharma, Radhika>Is.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/43-0
+00:01:16.962 --> 00:01:17.602
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/46-0
+00:01:18.722 --> 00:01:23.202
+<v Sharma, Radhika>The client doesn't actually know the
+feature that they're clicking on.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/49-0
+00:01:24.722 --> 00:01:27.351
+<v Sharma, Radhika>Now,
+those that only know that they have</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/49-1
+00:01:27.351 --> 00:01:31.006
+<v Sharma, Radhika>form-based onboarding, for them,
+they might think, okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/49-2
+00:01:31.006 --> 00:01:35.942
+<v Sharma, Radhika>form-based onboarding equals onboarding.
+That's fine. That's my only option.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/49-3
+00:01:35.942 --> 00:01:40.110
+<v Sharma, Radhika>That makes sense. Now,
+where operationally that has a little bit</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/49-4
+00:01:40.110 --> 00:01:42.482
+<v Sharma, Radhika>of an issue is say we have an outage.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/51-0
+00:01:43.602 --> 00:01:47.008
+<v Sharma, Radhika>or there's an incident related to
+form-based applications.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/51-1
+00:01:47.008 --> 00:01:51.453
+<v Sharma, Radhika>When our digital support team sends out
+an alert to say there's an outage or</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/51-2
+00:01:51.453 --> 00:01:54.859
+<v Sharma, Radhika>there's an incident,
+they don't say there's a problem with</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/51-3
+00:01:54.859 --> 00:01:57.804
+<v Sharma, Radhika>onboarding.
+They're going to say there's a problem</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/51-4
+00:01:57.804 --> 00:01:59.362
+<v Sharma, Radhika>with form-based onboarding.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/50-0
+00:01:59.762 --> 00:02:00.482
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/52-0
+00:02:00.322 --> 00:02:02.986
+<v Sharma, Radhika>So I think from a perception and
+perspective,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/52-1
+00:02:02.986 --> 00:02:07.213
+<v Sharma, Radhika>it's important that the client can
+associate any kinds of those kinds of</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/52-2
+00:02:07.213 --> 00:02:11.672
+<v Sharma, Radhika>messages or even product communication
+and associate it to the features that</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/52-3
+00:02:11.672 --> 00:02:12.482
+<v Sharma, Radhika>they're using.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/53-0
+00:02:13.842 --> 00:02:15.282
+<v Sharma, Radhika>So, that's the first issue.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/57-0
+00:02:15.922 --> 00:02:21.753
+<v Azizi, Ali>Yeah, actually,
+this notification is the consequence of</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/54-0
+00:02:16.642 --> 00:02:17.202
+<v Sharma, Radhika>Then the.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/57-1
+00:02:21.753 --> 00:02:27.480
+<v Azizi, Ali>the bad action. But again, the problem,
+as you showed,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/57-2
+00:02:27.480 --> 00:02:35.602
+<v Azizi, Ali>it shouldn't just redirect you to the
+form upload. It should again show that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/60-0
+00:02:37.442 --> 00:02:40.784
+<v Azizi, Ali>you know, expand the menu,
+only show the form upload,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/58-0
+00:02:37.602 --> 00:02:37.762
+<v Sharma, Radhika>The.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/60-1
+00:02:40.784 --> 00:02:45.362
+<v Azizi, Ali>and then if the user wants to click on
+that, then navigate through there.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/62-0
+00:02:45.682 --> 00:02:47.935
+<v Sharma, Radhika>Yeah,
+and I'll show you like the orders</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/62-1
+00:02:47.935 --> 00:02:50.919
+<v Sharma, Radhika>actually works properly.
+It's not working right now,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/62-2
+00:02:50.919 --> 00:02:55.423
+<v Sharma, Radhika>but I'll show you what I mean in a second.
+So right now the issue that we have,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/61-0
+00:02:52.322 --> 00:02:52.562
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/62-3
+00:02:55.423 --> 00:02:59.984
+<v Sharma, Radhika>that's a lie that needs to be addressed
+is I'm going to go and update my profile</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/62-4
+00:02:59.984 --> 00:03:00.322
+<v Sharma, Radhika>again.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/68-0
+00:03:05.602 --> 00:03:10.079
+<v Sharma, Radhika>And what we know right now is there's
+three different features that are nested</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/68-1
+00:03:10.079 --> 00:03:13.082
+<v Sharma, Radhika>on your Onboarding.
+So one is the form applications.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/67-0
+00:03:11.322 --> 00:03:11.922
+<v Azizi, Ali>Mm-hmm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/71-0
+00:03:13.922 --> 00:03:16.082
+<v Sharma, Radhika>Paper upload, so I'll turn that back on.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/72-0
+00:03:16.682 --> 00:03:17.282
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/73-0
+00:03:17.282 --> 00:03:18.882
+<v Sharma, Radhika>And then CRS fatca.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/74-0
+00:03:19.522 --> 00:03:20.082
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/77-0
+00:03:19.842 --> 00:03:23.885
+<v Sharma, Radhika>That's the new one that was added.
+So I'll add both of it. This is the view.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/77-1
+00:03:23.885 --> 00:03:24.882
+<v Sharma, Radhika>This is the manage.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/80-0
+00:03:25.562 --> 00:03:26.242
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/81-0
+00:03:26.242 --> 00:03:28.769
+<v Sharma, Radhika>And while I'm doing that,
+I'm just going to make another change</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/81-1
+00:03:28.769 --> 00:03:29.282
+<v Sharma, Radhika>here quickly.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/84-0
+00:03:34.922 --> 00:03:37.522
+<v Sharma, Radhika>That's so I can show you the orders case.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/89-0
+00:03:43.002 --> 00:03:46.042
+<v Sharma, Radhika>So now I'll go back and refresh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/93-0
+00:03:48.722 --> 00:03:53.819
+<v Sharma, Radhika>So now we see the menu again. Okay.
+Now when I click on this now that I've</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/92-0
+00:03:51.522 --> 00:03:52.002
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/93-1
+00:03:53.819 --> 00:03:55.042
+<v Sharma, Radhika>enabled CRS fatca.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/96-0
+00:03:56.322 --> 00:03:57.922
+<v Sharma, Radhika>It opens Sierra's fatca.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/97-0
+00:03:58.882 --> 00:03:59.842
+<v Azizi, Ali>As a default.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/98-0
+00:03:59.122 --> 00:04:01.922
+<v Sharma, Radhika>The drop and the drop-down expands.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/99-0
+00:04:03.282 --> 00:04:06.482
+<v Sharma, Radhika>And Sierra said because red meaning that
+is where I am right now.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/100-0
+00:04:08.242 --> 00:04:08.962
+<v Azizi, Ali>Mm-hmm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/105-0
+00:04:08.562 --> 00:04:12.156
+<v Sharma, Radhika>There is a little bit of history to this
+though, Ali.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/105-1
+00:04:12.156 --> 00:04:15.085
+<v Sharma, Radhika>So the history to this one is that we
+have,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/105-2
+00:04:15.085 --> 00:04:20.010
+<v Sharma, Radhika>Evert was working on a new onboarding
+solution, account opening solution.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/105-3
+00:04:20.010 --> 00:04:24.802
+<v Sharma, Radhika>I don't know if you heard about NIST or
+questionnaire based onboarding.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/103-0
+00:04:23.682 --> 00:04:24.082
+<v Azizi, Ali>Other.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/104-0
+00:04:25.282 --> 00:04:26.282
+<v Azizi, Ali>Yeah, I have a...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/107-0
+00:04:26.322 --> 00:04:30.882
+<v Sharma, Radhika>We stepped away from that relationship
+and that product, so it's de-implemented.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/106-0
+00:04:29.522 --> 00:04:30.002
+<v Azizi, Ali>OK.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/109-0
+00:04:32.002 --> 00:04:36.944
+<v Sharma, Radhika>That product was supposed to be our
+primary onboarding solution for our</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/109-1
+00:04:36.944 --> 00:04:40.239
+<v Sharma, Radhika>clients. When we launched Compass,
+we had that,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/108-0
+00:04:38.122 --> 00:04:38.602
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/109-2
+00:04:40.239 --> 00:04:43.602
+<v Sharma, Radhika>and the idea was when you clicked on
+Onboarding.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/110-0
+00:04:45.042 --> 00:04:46.802
+<v Sharma, Radhika>Questionnaire-based Onboarding would open.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/111-0
+00:04:48.242 --> 00:04:48.882
+<v Azizi, Ali>Hom.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/112-0
+00:04:48.482 --> 00:04:53.202
+<v Sharma, Radhika>That made sense because that is your
+primary Onboarding solution.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/114-0
+00:04:54.802 --> 00:05:00.202
+<v Sharma, Radhika>But now that we don't have that,
+we can consider form-based our, you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/114-1
+00:05:00.202 --> 00:05:05.242
+<v Sharma, Radhika>our default. But certainly,
+certainly it shouldn't land on CRS FATCA.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/113-0
+00:05:01.602 --> 00:05:02.242
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/119-0
+00:05:06.962 --> 00:05:10.252
+<v Sharma, Radhika>Because the same behavior that we saw for
+onboarding,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/119-1
+00:05:10.252 --> 00:05:14.517
+<v Sharma, Radhika>because CRS FATCA is not an account
+opening solution, right? It is a,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/119-2
+00:05:14.517 --> 00:05:19.025
+<v Sharma, Radhika>after I've opened the accounts,
+I need to submit a declaration and I have</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/119-3
+00:05:19.025 --> 00:05:22.437
+<v Sharma, Radhika>to use that tool.
+So now if I were to remove everything</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/119-4
+00:05:22.437 --> 00:05:24.082
+<v Sharma, Radhika>else, form and paper again,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/126-0
+00:05:28.802 --> 00:05:31.981
+<v Sharma, Radhika>This is rare,
+like this is not really going to happen,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/126-1
+00:05:31.981 --> 00:05:35.681
+<v Sharma, Radhika>this case where somebody only has CRS
+FATCA. But now, you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/126-2
+00:05:35.681 --> 00:05:39.842
+<v Sharma, Radhika>it doesn't open in a new window because
+CRS FATCA is native to Compass.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/128-0
+00:05:40.962 --> 00:05:47.042
+<v Azizi, Ali>Oh, and it doesn't show, okay,
+it doesn't show underlying menu, okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/127-0
+00:05:41.442 --> 00:05:41.922
+<v Sharma, Radhika>So.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/133-0
+00:05:46.802 --> 00:05:50.434
+<v Sharma, Radhika>Exactly.
+So there is something here where when</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/129-0
+00:05:48.322 --> 00:05:49.202
+<v Azizi, Ali>Nothing.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/133-1
+00:05:50.434 --> 00:05:55.147
+<v Sharma, Radhika>something is either native or integrated
+fully with Compass,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/133-2
+00:05:55.147 --> 00:05:58.856
+<v Sharma, Radhika>the top level menu is treating it as,
+you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/133-3
+00:05:58.856 --> 00:06:02.642
+<v Sharma, Radhika>your primary destination when you click
+on that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/132-0
+00:06:03.762 --> 00:06:04.242
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/134-0
+00:06:03.842 --> 00:06:07.890
+<v Sharma, Radhika>Now, see, for orders,
+that's what's expected, like, for orders,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/134-1
+00:06:07.890 --> 00:06:11.052
+<v Sharma, Radhika>what's happening makes sense to me.
+So right now,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/134-2
+00:06:11.052 --> 00:06:13.202
+<v Sharma, Radhika>we haven't launched orders at all.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/135-0
+00:06:14.122 --> 00:06:14.642
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/136-0
+00:06:14.402 --> 00:06:17.522
+<v Sharma, Radhika>Except for GIC, which is part of trading.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/138-0
+00:06:19.442 --> 00:06:22.528
+<v Sharma, Radhika>So right now,
+when a user clicks on orders,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/138-1
+00:06:22.528 --> 00:06:25.122
+<v Sharma, Radhika>nothing happens when I click on this.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/137-0
+00:06:23.602 --> 00:06:24.162
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/139-0
+00:06:26.562 --> 00:06:27.842
+<v Sharma, Radhika>I can open GIC.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/143-0
+00:06:29.962 --> 00:06:33.382
+<v Sharma, Radhika>And there's one menu option, right?
+There's just one.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/143-1
+00:06:33.382 --> 00:06:36.802
+<v Sharma, Radhika>So why can't that same behavior exist for
+Onboarding?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/142-0
+00:06:33.442 --> 00:06:33.842
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/148-0
+00:06:37.922 --> 00:06:41.465
+<v Sharma, Radhika>The thing with orders is eventually when
+you click on orders,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/148-1
+00:06:41.465 --> 00:06:45.979
+<v Sharma, Radhika>it actually is going to do something
+because we have a dedicated module called</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/148-2
+00:06:45.979 --> 00:06:49.522
+<v Sharma, Radhika>the orders. It's called orders,
+which is the order dashboard.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/153-0
+00:06:51.762 --> 00:06:56.450
+<v Sharma, Radhika>So that will be permanent and it's well
+thought out because that's exactly what</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/153-1
+00:06:56.450 --> 00:07:00.082
+<v Sharma, Radhika>we want. So when I turn on orders here,
+just turn this on to.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/154-0
+00:07:00.962 --> 00:07:01.522
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/159-0
+00:07:08.322 --> 00:07:10.802
+<v Sharma, Radhika>Now, when I click on orders, refresh that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/164-0
+00:07:15.762 --> 00:07:19.945
+<v Sharma, Radhika>Now when I click on orders,
+it presents the order dashboard.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/164-1
+00:07:19.945 --> 00:07:23.031
+<v Sharma, Radhika>That's okay,
+because this is its own module.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/164-2
+00:07:23.031 --> 00:07:25.842
+<v Sharma, Radhika>Whereas Onboarding is not its own module.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/162-0
+00:07:23.282 --> 00:07:23.762
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/163-0
+00:07:26.562 --> 00:07:27.042
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/165-0
+00:07:28.482 --> 00:07:28.882
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/166-0
+00:07:28.562 --> 00:07:29.202
+<v Sharma, Radhika>So.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/169-0
+00:07:30.162 --> 00:07:32.162
+<v Sharma, Radhika>This, this was the, this was the issue.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/172-0
+00:07:30.322 --> 00:07:35.842
+<v Azizi, Ali>The problem is only for the orders or
+other menus have the same issue.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/179-0
+00:07:37.282 --> 00:07:41.303
+<v Sharma, Radhika>Trade allocations is okay also,
+but I think maybe we need to go back and</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/175-0
+00:07:39.842 --> 00:07:40.482
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/179-1
+00:07:41.303 --> 00:07:45.047
+<v Sharma, Radhika>look at the Figma design.
+Is there anything else that's going to be</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/179-2
+00:07:45.047 --> 00:07:47.526
+<v Sharma, Radhika>under trade allocations?
+Because we do have,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/179-3
+00:07:47.526 --> 00:07:51.546
+<v Sharma, Radhika>right now I don't see a problem with this
+if it stands alone on its own,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/179-4
+00:07:51.546 --> 00:07:52.482
+<v Sharma, Radhika>like orders does.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/176-0
+00:07:52.122 --> 00:07:52.642
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/180-0
+00:07:53.762 --> 00:07:55.922
+<v Sharma, Radhika>But I'm Servicing, I'm worried about.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/183-0
+00:07:57.522 --> 00:08:02.124
+<v Sharma, Radhika>So right now,
+Servicing and approvals are integrated</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/183-1
+00:08:02.124 --> 00:08:04.642
+<v Sharma, Radhika>modules from the start train.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/184-0
+00:08:05.882 --> 00:08:06.402
+<v Azizi, Ali>Mmh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/187-0
+00:08:06.642 --> 00:08:11.738
+<v Sharma, Radhika>And file uploads is a new feature that
+we're going to add. We don't have it here,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/187-1
+00:08:11.738 --> 00:08:16.025
+<v Sharma, Radhika>so I can't show it to you.
+But file upload is going to be integrated</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/187-2
+00:08:16.025 --> 00:08:20.002
+<v Sharma, Radhika>right into here. IIS is building that,
+and it'll be added here.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/188-0
+00:08:20.962 --> 00:08:22.722
+<v Sharma, Radhika>I don't know what's gonna happen.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/190-0
+00:08:23.842 --> 00:08:27.631
+<v Sharma, Radhika>If we introduce that and somebody doesn't
+have access to Servicing,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/190-1
+00:08:27.631 --> 00:08:30.863
+<v Sharma, Radhika>like what happens?
+Is it going to be the same behavior as</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/190-2
+00:08:30.863 --> 00:08:33.482
+<v Sharma, Radhika>orders?
+Is it going to be the same behavior as</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/190-3
+00:08:33.482 --> 00:08:36.045
+<v Sharma, Radhika>Onboarding where the label will be
+Servicing,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/190-4
+00:08:36.045 --> 00:08:38.162
+<v Sharma, Radhika>but you're going to go to file upload?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/189-0
+00:08:36.882 --> 00:08:37.282
+<v Azizi, Ali>Mm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/191-0
+00:08:40.162 --> 00:08:46.882
+<v Azizi, Ali>Okay,
+do you already got all you looking for?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/192-0
+00:08:48.482 --> 00:08:58.650
+<v Azizi, Ali>permanent rule and policy for navigating
+through the menus, left navigation menus,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/192-1
+00:08:58.650 --> 00:09:06.122
+<v Azizi, Ali>or you want a custom behavior per each
+menu. What type of...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/193-0
+00:09:07.202 --> 00:09:09.122
+<v Azizi, Ali>Behavior you're looking for.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/195-0
+00:09:09.762 --> 00:09:14.799
+<v Sharma, Radhika>I think standardizing the behavior.
+But even in the standard,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/194-0
+00:09:12.482 --> 00:09:13.842
+<v Azizi, Ali>Stan Norris, OK.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/195-1
+00:09:14.799 --> 00:09:19.755
+<v Sharma, Radhika>I think you can have two options,
+depending on the grouping,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/195-2
+00:09:19.755 --> 00:09:24.060
+<v Sharma, Radhika>the type of grouping that you have.
+Like for orders,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/195-3
+00:09:24.060 --> 00:09:28.122
+<v Sharma, Radhika>I think the two options are if you have a
+module.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/196-0
+00:09:29.922 --> 00:09:31.762
+<v Sharma, Radhika>That is this top menu.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/197-0
+00:09:32.322 --> 00:09:32.802
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/198-0
+00:09:33.202 --> 00:09:34.402
+<v Sharma, Radhika>It's okay for it to open.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/201-0
+00:09:35.602 --> 00:09:39.602
+<v Sharma, Radhika>Because orders is what I'm looking at
+here. I'm looking at the orders dashboard.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/204-0
+00:09:41.362 --> 00:09:44.322
+<v Sharma, Radhika>But if I'm clicking on here and...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/207-0
+00:09:43.522 --> 00:09:48.162
+<v Azizi, Ali>And Onboarding doesn't have any native
+function.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/208-0
+00:09:49.322 --> 00:09:51.442
+<v Azizi, Ali>Uh, Sso, okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/210-0
+00:09:50.002 --> 00:09:52.710
+<v Sharma, Radhika>Exactly.
+But see something weird just happened.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/210-1
+00:09:52.710 --> 00:09:56.714
+<v Sharma, Radhika>Remember before when I clicked on this,
+it didn't show Sierra's fatca.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/210-2
+00:09:56.714 --> 00:09:57.842
+<v Sharma, Radhika>Now it's showing it.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/209-0
+00:09:58.122 --> 00:09:58.722
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/211-0
+00:09:59.042 --> 00:10:01.122
+<v Sharma, Radhika>I'm going to refresh and see what happens.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/216-0
+00:10:09.122 --> 00:10:12.497
+<v Sharma, Radhika>Normally this doesn't show up.
+Like I think if I log out and log back in,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/216-1
+00:10:12.497 --> 00:10:13.682
+<v Sharma, Radhika>it's not going to show up.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/219-0
+00:10:14.242 --> 00:10:14.722
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/224-0
+00:10:15.922 --> 00:10:19.860
+<v Sharma, Radhika>But you get the idea, right?
+Like there's an inconsistency in the</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/220-0
+00:10:18.082 --> 00:10:19.762
+<v Azizi, Ali>Yes, yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/224-1
+00:10:19.860 --> 00:10:22.725
+<v Sharma, Radhika>behavior.
+I have ideas of how I think it should</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/224-2
+00:10:22.725 --> 00:10:25.589
+<v Sharma, Radhika>work,
+but I think we can talk about it and come</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/224-3
+00:10:25.589 --> 00:10:29.646
+<v Sharma, Radhika>to a common standard, right?
+Because right now when the tech titans</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/224-4
+00:10:29.646 --> 00:10:34.002
+<v Sharma, Radhika>are building something, you know,
+they're building it native on Compass.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/223-0
+00:10:34.882 --> 00:10:35.442
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/225-0
+00:10:34.962 --> 00:10:37.282
+<v Sharma, Radhika>They might start putting things in the
+wrong place.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/226-0
+00:10:39.522 --> 00:10:41.762
+<v Sharma, Radhika>if we don't give them the right guidance,
+right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/232-0
+00:10:42.242 --> 00:10:48.442
+<v Azizi, Ali>Yeah, yeah, makes sense. Makes sense.
+Okay, I will come up with a...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/229-0
+00:10:43.482 --> 00:10:43.922
+<v Sharma, Radhika>Home.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/241-0
+00:10:49.602 --> 00:10:57.087
+<v Azizi, Ali>standard policy, okay, with some examples.
+I will provide a draft and then I will</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/236-0
+00:10:55.202 --> 00:10:55.762
+<v Sharma, Radhika>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/241-1
+00:10:57.087 --> 00:11:02.472
+<v Azizi, Ali>review with you and if you think anybody
+else is required,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/241-2
+00:11:02.472 --> 00:11:07.583
+<v Azizi, Ali>we can review with them as well.
+But then if it's fine,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/241-3
+00:11:07.583 --> 00:11:09.682
+<v Azizi, Ali>then I will ask Esther.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/244-0
+00:11:09.762 --> 00:11:14.214
+<v Azizi, Ali>To, you know,
+to help with what we implement,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/244-1
+00:11:14.214 --> 00:11:19.537
+<v Azizi, Ali>and also we can have this standard as
+part of our FOP.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/244-2
+00:11:19.537 --> 00:11:24.279
+<v Azizi, Ali>I don't know whether it's related to FOP
+or not,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/244-3
+00:11:24.279 --> 00:11:29.602
+<v Azizi, Ali>because people usually ask about
+resources in the FOP.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/247-0
+00:11:30.642 --> 00:11:36.976
+<v Azizi, Ali>Are should they concerned about left
+navigation rules or not? I think yes,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/247-1
+00:11:36.976 --> 00:11:38.242
+<v Azizi, Ali>they should be.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/248-0
+00:11:37.282 --> 00:11:41.454
+<v Sharma, Radhika>No, because I think that for now,
+all the navigation rules have been</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/248-1
+00:11:41.454 --> 00:11:42.482
+<v Sharma, Radhika>provided by Owen.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/251-0
+00:11:43.362 --> 00:11:46.624
+<v Sharma, Radhika>they're not provided during the feature
+onboarding.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/251-1
+00:11:46.624 --> 00:11:50.826
+<v Sharma, Radhika>So they're more in the integration and
+platform level discussions,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/251-2
+00:11:50.826 --> 00:11:55.844
+<v Sharma, Radhika>which have normally been with Candi and
+Owen to take to either Sonika's team or</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/251-3
+00:11:55.844 --> 00:11:56.722
+<v Sharma, Radhika>Esther's team.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/250-0
+00:11:57.642 --> 00:11:58.162
+<v Azizi, Ali>Uh-huh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/252-0
+00:11:57.682 --> 00:11:58.722
+<v Sharma, Radhika>Or IIS.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/253-0
+00:12:00.562 --> 00:12:01.282
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/254-0
+00:12:02.282 --> 00:12:03.922
+<v Sharma, Radhika>But see how the behavior changed again.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/255-0
+00:12:04.882 --> 00:12:06.402
+<v Sharma, Radhika>Now I don't see CRS again.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/256-0
+00:12:07.242 --> 00:12:07.522
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/258-0
+00:12:08.642 --> 00:12:12.734
+<v Sharma, Radhika>So I don't know, it's unpredictable.
+It's a little strange.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/257-0
+00:12:12.402 --> 00:12:14.722
+<v Azizi, Ali>Yes, yes, that it's.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/258-1
+00:12:12.734 --> 00:12:16.962
+<v Sharma, Radhika>But it could just be cache memory from my
+browser, who knows.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/259-0
+00:12:17.362 --> 00:12:23.712
+<v Azizi, Ali>It's recorded, it's recorded.
+I will bring those examples in my, yeah,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/259-1
+00:12:23.712 --> 00:12:29.794
+<v Azizi, Ali>in my proposal. Okay, got it, got it.
+Yeah, and you need to fix it.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/259-2
+00:12:29.794 --> 00:12:36.322
+<v Azizi, Ali>It really impacts the user experience for
+the firms that are using that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/260-0
+00:12:36.962 --> 00:12:40.602
+<v Azizi, Ali>Actually, they they're laughing us,
+to be honest.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/261-0
+00:12:40.242 --> 00:12:44.659
+<v Sharma, Radhika>Yeah, to them it's, and like,
+we're trying to make things easier,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/261-1
+00:12:44.659 --> 00:12:48.874
+<v Sharma, Radhika>but we're actually making it harder.
+And we're about to, like,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/261-2
+00:12:48.874 --> 00:12:52.822
+<v Sharma, Radhika>Kevin and Devendra want to implement
+system health events.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/261-3
+00:12:52.822 --> 00:12:54.562
+<v Sharma, Radhika>Have you heard about that?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/262-0
+00:12:54.962 --> 00:12:58.918
+<v Azizi, Ali>Yes,
+Devendra talked to me a few weeks ago</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/262-1
+00:12:58.918 --> 00:13:00.482
+<v Azizi, Ali>about that, yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/263-0
+00:13:00.642 --> 00:13:03.392
+<v Sharma, Radhika>Yeah,
+so when we implement system health events,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/263-1
+00:13:03.392 --> 00:13:07.152
+<v Sharma, Radhika>we want to call the feature,
+like every feature will be registered</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/263-2
+00:13:07.152 --> 00:13:08.162
+<v Sharma, Radhika>with its own name.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/264-0
+00:13:08.802 --> 00:13:09.442
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/265-0
+00:13:09.362 --> 00:13:13.344
+<v Sharma, Radhika>And that name needs to match what's on
+the left navigation for it to make sense</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/265-1
+00:13:13.344 --> 00:13:13.842
+<v Sharma, Radhika>to people.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/266-0
+00:13:14.642 --> 00:13:15.242
+<v Azizi, Ali>Mm-hmm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/267-0
+00:13:15.362 --> 00:13:20.516
+<v Sharma, Radhika>So we can't accommodate that notification
+based on all the different names that</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/267-1
+00:13:20.516 --> 00:13:25.282
+<v Sharma, Radhika>somebody might see because of the
+navigation and how it's behaving today.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/268-0
+00:13:26.402 --> 00:13:29.692
+<v Sharma, Radhika>So I think it's worth noting that,
+you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/268-1
+00:13:29.692 --> 00:13:35.612
+<v Sharma, Radhika>when he wants to go live with this in
+January, well, I think we need to address,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/268-2
+00:13:35.612 --> 00:13:39.340
+<v Sharma, Radhika>you know,
+at least onboarding before that so that,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/268-3
+00:13:39.340 --> 00:13:40.802
+<v Sharma, Radhika>you know, we have...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/269-0
+00:13:42.642 --> 00:13:45.202
+<v Sharma, Radhika>There's no miscommunication to clients.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/270-0
+00:13:46.242 --> 00:13:51.139
+<v Azizi, Ali>Yes, yes, that makes sense. Yeah, yeah,
+absolutely. Okay, okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/270-1
+00:13:51.139 --> 00:13:57.106
+<v Azizi, Ali>I will come up with a proposal with maybe
+tomorrow or the day after tomorrow,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/270-2
+00:13:57.106 --> 00:14:02.002
+<v Azizi, Ali>and we can review that, okay? And then,
+yeah, talk to the team.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/272-0
+00:14:03.282 --> 00:14:06.322
+<v Sharma, Radhika>Sorry, one more thing,
+this might come up again.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/271-0
+00:14:04.962 --> 00:14:05.202
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/274-0
+00:14:08.762 --> 00:14:13.195
+<v Sharma, Radhika>when we are talking about the secured
+zone apps. So tomorrow there's a demo.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/273-0
+00:14:11.762 --> 00:14:12.242
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/274-1
+00:14:13.195 --> 00:14:17.282
+<v Sharma, Radhika>I don't know if you've been invited to
+that for the secured zone apps.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/275-0
+00:14:17.202 --> 00:14:19.362
+<v Azizi, Ali>4 to 5 Pm I think.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/277-0
+00:14:21.922 --> 00:14:26.162
+<v Sharma, Radhika>Yeah, so there we should see the.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/276-0
+00:14:23.122 --> 00:14:24.162
+<v Azizi, Ali>Yeah, yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/279-0
+00:14:27.922 --> 00:14:31.724
+<v Sharma, Radhika>the different new categories,
+because there's going to be new options</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/279-1
+00:14:31.724 --> 00:14:35.472
+<v Sharma, Radhika>in the left navigation now.
+So it could be a good opportunity for us</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/278-0
+00:14:33.282 --> 00:14:33.842
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/279-2
+00:14:35.472 --> 00:14:39.002
+<v Sharma, Radhika>to vet the behavior of those also,
+just to see if it looks okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/280-0
+00:14:39.442 --> 00:14:43.606
+<v Azizi, Ali>OK,
+this menu is this this demo is going to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/280-1
+00:14:43.606 --> 00:14:47.202
+<v Azizi, Ali>be take place by IIS team or internal.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/281-0
+00:14:47.122 --> 00:14:48.482
+<v Sharma, Radhika>Esther, Esther's team.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/282-0
+00:14:48.402 --> 00:14:49.682
+<v Azizi, Ali>Oh, it's Thursday, OK.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/283-0
+00:14:50.882 --> 00:14:54.875
+<v Azizi, Ali>Okay, okay,
+I will try to provide something by</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/283-1
+00:14:54.875 --> 00:14:59.208
+<v Azizi, Ali>tomorrow.
+I always try to share it with you to get</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/283-2
+00:14:59.208 --> 00:15:04.135
+<v Azizi, Ali>prepared. But yeah,
+I could understand what's behind your</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/283-3
+00:15:04.135 --> 00:15:10.082
+<v Azizi, Ali>idea. It's the standardization and yeah,
+help the user to understand.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/286-0
+00:15:11.042 --> 00:15:18.610
+<v Azizi, Ali>with what's in the feature permissions
+against the user and what's again what's</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/286-1
+00:15:18.610 --> 00:15:26.082
+<v Azizi, Ali>going to be in the left nav and something
+doesn't get invisible or on the fly.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/284-0
+00:15:22.162 --> 00:15:22.562
+<v Sharma, Radhika>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/285-0
+00:15:27.122 --> 00:15:27.922
+<v Sharma, Radhika>Yeah, yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/287-0
+00:15:28.402 --> 00:15:34.002
+<v Azizi, Ali>Okay, that's great. Okay,
+regarding multi-firm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/288-0
+00:15:35.922 --> 00:15:42.081
+<v Azizi, Ali>To be honest, yesterday I got a bit,
+I don't know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/288-1
+00:15:42.081 --> 00:15:52.103
+<v Azizi, Ali>confused or misunderstanding about having
+two IDs when it comes to the delegation.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/288-2
+00:15:52.103 --> 00:15:55.122
+<v Azizi, Ali>So it means that still...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/289-0
+00:15:55.362 --> 00:16:01.351
+<v Azizi, Ali>The user needs to have,
+if there is a delegated permission,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/289-1
+00:16:01.351 --> 00:16:09.635
+<v Azizi, Ali>then they need 2 credentials. Otherwise,
+it's going to be solved with one user for</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/289-2
+00:16:09.635 --> 00:16:16.322
+<v Azizi, Ali>aggregation, and through that aggregation,
+they can see the whole.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/290-0
+00:16:16.642 --> 00:16:21.202
+<v Azizi, Ali>Access or codes for the old child firms
+and so forth.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/291-0
+00:16:23.922 --> 00:16:29.057
+<v Azizi, Ali>That's good, but still, when it come,
+you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/291-1
+00:16:29.057 --> 00:16:36.223
+<v Azizi, Ali>I hate when we when we don't when we
+can't do it to one single ID.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/291-2
+00:16:36.223 --> 00:16:42.962
+<v Azizi, Ali>To be honest, it's again,
+user says why I should have two IDs.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/292-0
+00:16:43.282 --> 00:16:45.282
+<v Azizi, Ali>Okay, Ai.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-0
+00:16:43.762 --> 00:16:46.672
+<v Sharma, Radhika>Yeah, so I don't disagree with you.
+I don't.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-1
+00:16:46.672 --> 00:16:50.164
+<v Sharma, Radhika>The reason that was explained to me,
+and sub-advisor,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-2
+00:16:50.164 --> 00:16:53.979
+<v Sharma, Radhika>which is the delegation I think that
+you're talking about,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-3
+00:16:53.979 --> 00:16:56.824
+<v Sharma, Radhika>is not something I'm totally familiar
+with.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-4
+00:16:56.824 --> 00:17:01.609
+<v Sharma, Radhika>And it's great that we have Ray now
+because he can help us confirm if the</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/293-5
+00:17:01.609 --> 00:17:05.682
+<v Sharma, Radhika>thought process that Owen and JP were
+running with is correct.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/294-0
+00:17:06.402 --> 00:17:10.000
+<v Sharma, Radhika>It sounded like he didn't have questions
+on it yesterday,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/294-1
+00:17:10.000 --> 00:17:13.411
+<v Sharma, Radhika>but I think he's going to process that.
+So the reason,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/294-2
+00:17:13.411 --> 00:17:17.442
+<v Sharma, Radhika>and I made it more simple diagram for
+myself that I'll show you.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/303-0
+00:17:23.442 --> 00:17:26.968
+<v Sharma, Radhika>I'll share this page.
+This is my cleanup page on like the data</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/303-1
+00:17:26.968 --> 00:17:29.431
+<v Sharma, Radhika>cleanup,
+access cleanup that we have to do.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/303-2
+00:17:29.431 --> 00:17:32.453
+<v Sharma, Radhika>So just for my team's sake,
+I created these diagrams.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/303-3
+00:17:32.453 --> 00:17:36.427
+<v Sharma, Radhika>So this is our current state.
+And then down here I have what would our</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/303-4
+00:17:36.427 --> 00:17:37.602
+<v Sharma, Radhika>future state be with.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/306-0
+00:17:40.322 --> 00:17:44.961
+<v Sharma, Radhika>with the different IDs. Now,
+I might actually, based on your question,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/306-1
+00:17:44.961 --> 00:17:49.926
+<v Sharma, Radhika>and even just for my team's benefit,
+I'm going to update this to take it to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/306-2
+00:17:49.926 --> 00:17:55.217
+<v Sharma, Radhika>the level that explains the difference
+and why as a sub-advisor and parent-child</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/306-3
+00:17:55.217 --> 00:17:59.202
+<v Sharma, Radhika>relationship or the delegation,
+do you need two Compass IDs?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/307-0
+00:18:00.002 --> 00:18:05.522
+<v Sharma, Radhika>because it's missing from here.
+The core reason is that when you are</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/307-1
+00:18:05.522 --> 00:18:08.162
+<v Sharma, Radhika>operating under your parent firm,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/309-0
+00:18:09.242 --> 00:18:13.938
+<v Sharma, Radhika>You're allowed to do a lot more, you know,
+perform a lot more actions and service</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/309-1
+00:18:13.938 --> 00:18:17.661
+<v Sharma, Radhika>your client in many ways.
+You're allowed to open their accounts.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/309-2
+00:18:17.661 --> 00:18:22.128
+<v Sharma, Radhika>You are allowed to fund their accounts.
+You are allowed to send them payments</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/309-3
+00:18:22.128 --> 00:18:25.621
+<v Sharma, Radhika>from their accounts.
+There's a lot more that you can do when</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/309-4
+00:18:25.621 --> 00:18:27.282
+<v Sharma, Radhika>you operate under the parent.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/308-0
+00:18:27.762 --> 00:18:28.402
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/311-0
+00:18:29.042 --> 00:18:33.366
+<v Sharma, Radhika>But as a sub-advisor,
+and this is the part that I'm not 100%</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/311-1
+00:18:33.366 --> 00:18:36.910
+<v Sharma, Radhika>clear on,
+is as a sub-advisor from what Penny and</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/311-2
+00:18:36.910 --> 00:18:40.879
+<v Sharma, Radhika>Owen have shared,
+you should only be limited to perform</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/310-0
+00:18:37.202 --> 00:18:37.362
+<v Azizi, Ali>And...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/311-3
+00:18:40.879 --> 00:18:42.722
+<v Sharma, Radhika>trading related functions.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/312-0
+00:18:45.362 --> 00:18:50.825
+<v Sharma, Radhika>So the idea is that you need to kind of
+create two separate types of user</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/312-1
+00:18:50.825 --> 00:18:54.442
+<v Sharma, Radhika>personas.
+You need to have a type of persona who</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/312-2
+00:18:54.442 --> 00:18:59.757
+<v Sharma, Radhika>can service a client in every way.
+And then you need a persona that can</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/312-3
+00:18:59.757 --> 00:19:02.562
+<v Sharma, Radhika>service clients in only specific ways.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/313-0
+00:19:04.002 --> 00:19:08.162
+<v Sharma, Radhika>And because the feature access is tied to
+your ID.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/314-0
+00:19:09.322 --> 00:19:14.802
+<v Sharma, Radhika>If I give you feature access here to do
+service a client in every way.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/315-0
+00:19:16.722 --> 00:19:21.024
+<v Sharma, Radhika>and we just attach your sub-advisor R
+codes to this profile,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/315-1
+00:19:21.024 --> 00:19:24.480
+<v Sharma, Radhika>you can now perform those actions for
+everybody,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/315-2
+00:19:24.480 --> 00:19:29.557
+<v Sharma, Radhika>not just your home firm clients,
+but also those that you sub-advise to.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/315-3
+00:19:29.557 --> 00:19:34.706
+<v Sharma, Radhika>It might not even be a real case.
+I'm doubtful that you're going to have</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/315-4
+00:19:34.706 --> 00:19:36.962
+<v Sharma, Radhika>people who belong here and here.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/317-0
+00:19:37.842 --> 00:19:41.611
+<v Sharma, Radhika>I think you might just have people that
+belong here alone.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/316-0
+00:19:41.282 --> 00:19:41.842
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/317-1
+00:19:41.611 --> 00:19:45.253
+<v Sharma, Radhika>But because I guess from the architecture
+or the design,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/317-2
+00:19:45.253 --> 00:19:49.597
+<v Sharma, Radhika>it's not possible to create a division in
+one ID to separate, okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/317-3
+00:19:49.597 --> 00:19:52.408
+<v Sharma, Radhika>these are our codes,
+you can do everything.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/317-4
+00:19:52.408 --> 00:19:55.602
+<v Sharma, Radhika>These are our codes,
+you can only do some things.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/318-0
+00:19:57.282 --> 00:20:00.482
+<v Sharma, Radhika>But I'll be honest with you,
+that already exists in Compass Legacy.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/319-0
+00:20:02.802 --> 00:20:04.562
+<v Sharma, Radhika>Have you seen that part of Compass Legacy?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/320-0
+00:20:07.842 --> 00:20:13.442
+<v Azizi, Ali>Not with this visibility, but yeah,
+I would be happy to see that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/321-0
+00:20:17.122 --> 00:20:17.362
+<v Azizi, Ali>Faq.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/324-0
+00:20:17.442 --> 00:20:21.682
+<v Sharma, Radhika>Control your feature access for two
+different R ranges.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/322-0
+00:20:19.842 --> 00:20:20.482
+<v Azizi, Ali>I think...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/323-0
+00:20:21.922 --> 00:20:23.122
+<v Azizi, Ali>Yes, that it.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/328-0
+00:20:24.082 --> 00:20:31.430
+<v Azizi, Ali>Let's say this is today restriction,
+but it's not a law. You know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/328-1
+00:20:31.430 --> 00:20:40.641
+<v Azizi, Ali>I am saying that it can it can be changed
+because there is a there is, for example,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/328-2
+00:20:40.641 --> 00:20:43.602
+<v Azizi, Ali>let's say there is someone.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/335-0
+00:20:43.682 --> 00:20:49.338
+<v Azizi, Ali>In the child of the Harvard Front,
+now there are three,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/335-1
+00:20:49.338 --> 00:20:55.802
+<v Azizi, Ali>there are three firms,
+and someone from the parent wants to see</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/335-2
+00:20:55.802 --> 00:20:59.842
+<v Azizi, Ali>the oracles, all of the three firms, OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/343-0
+00:21:00.962 --> 00:21:06.424
+<v Azizi, Ali>That's fine. Now, someone from the,
+let's say,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/336-0
+00:21:02.002 --> 00:21:02.242
+<v Sharma, Radhika>Uh-huh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/343-1
+00:21:06.424 --> 00:21:15.024
+<v Azizi, Ali>from the child firm needs to trade as
+behalf of another child firm in the</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/343-2
+00:21:15.024 --> 00:21:20.602
+<v Azizi, Ali>harbor firm,
+which is which is some which is a.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/344-0
+00:21:20.682 --> 00:21:23.602
+<v Azizi, Ali>Form of the delegation, OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/350-0
+00:21:24.882 --> 00:21:32.241
+<v Azizi, Ali>So in that case,
+maybe not only it needs to have access to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/350-1
+00:21:32.241 --> 00:21:39.350
+<v Azizi, Ali>its own R code,
+but also needs to access to the firm B R</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/350-2
+00:21:39.350 --> 00:21:44.962
+<v Azizi, Ali>codes as well.
+Then it changed the equation.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/347-0
+00:21:39.362 --> 00:21:39.842
+<v Sharma, Radhika>Alright.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/351-0
+00:21:45.042 --> 00:21:45.442
+<v Azizi, Ali>Oh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/352-0
+00:21:46.482 --> 00:21:47.922
+<v Sharma, Radhika>It does, yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/355-0
+00:21:47.362 --> 00:21:50.663
+<v Azizi, Ali>Yes,
+and actually I have a solution for that,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/355-1
+00:21:50.663 --> 00:21:55.900
+<v Azizi, Ali>but we need to talk a little bit.
+Let's see here first about what you're</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/355-2
+00:21:55.900 --> 00:21:56.402
+<v Azizi, Ali>saying.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/358-0
+00:21:59.762 --> 00:22:02.562
+<v Sharma, Radhika>So this person,
+we lucked out with found one.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/359-0
+00:22:04.242 --> 00:22:06.162
+<v Sharma, Radhika>This person on Compass Legacy.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/360-0
+00:22:07.122 --> 00:22:08.082
+<v Sharma, Radhika>has this ID.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/362-0
+00:22:09.682 --> 00:22:11.122
+<v Azizi, Ali>Oh, Arafan, okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/363-0
+00:22:11.922 --> 00:22:14.642
+<v Sharma, Radhika>These are his primary RR codes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/364-0
+00:22:15.042 --> 00:22:15.762
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/368-0
+00:22:15.602 --> 00:22:19.084
+<v Sharma, Radhika>This means for these clients,
+he can do anything on Compass Legacy.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/368-1
+00:22:19.084 --> 00:22:23.282
+<v Sharma, Radhika>Pretty much anything he has permission to
+do, right, based on his access control.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/367-0
+00:22:23.602 --> 00:22:24.082
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/371-0
+00:22:25.122 --> 00:22:28.069
+<v Sharma, Radhika>In Compass Legacy,
+we have something else called a PM sub</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/371-1
+00:22:28.069 --> 00:22:28.882
+<v Sharma, Radhika>advisor RR code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/373-0
+00:22:31.082 --> 00:22:33.042
+<v Sharma, Radhika>For these three R codes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/372-0
+00:22:31.162 --> 00:22:31.762
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/374-0
+00:22:34.002 --> 00:22:35.842
+<v Sharma, Radhika>Airin is allowed to do other things.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/378-0
+00:22:37.522 --> 00:22:42.514
+<v Sharma, Radhika>I don't know specifically what they are,
+but it could be like the trade file,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/375-0
+00:22:37.682 --> 00:22:38.242
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/378-1
+00:22:42.514 --> 00:22:45.458
+<v Sharma, Radhika>the mutual fund upload,
+trade advice uploads,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/378-2
+00:22:45.458 --> 00:22:48.658
+<v Sharma, Radhika>those types of functions,
+maybe systematic plans,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/378-3
+00:22:48.658 --> 00:22:52.498
+<v Sharma, Radhika>I'm not quite sure.
+So R2 is already built with a framework</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/378-4
+00:22:52.498 --> 00:22:54.162
+<v Sharma, Radhika>that you only need one ID,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/379-0
+00:22:55.602 --> 00:23:00.259
+<v Sharma, Radhika>R2 can separate and distinguish between
+this are our codes to give you full</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/379-1
+00:23:00.259 --> 00:23:04.242
+<v Sharma, Radhika>access to features and this one to only
+give you access to some.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/380-0
+00:23:05.762 --> 00:23:09.732
+<v Azizi, Ali>Yeah,
+but we don't know these R codes belong to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/380-1
+00:23:09.732 --> 00:23:10.642
+<v Azizi, Ali>which firm?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/382-0
+00:23:11.362 --> 00:23:16.179
+<v Sharma, Radhika>Well, we can trace it back, but I mean,
+the system does, right? Because,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/381-0
+00:23:13.962 --> 00:23:15.642
+<v Azizi, Ali>But, yeah, yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/382-1
+00:23:16.179 --> 00:23:20.402
+<v Sharma, Radhika>so in Compass Legacy,
+or the way that our firms are structured,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/383-0
+00:23:22.402 --> 00:23:22.962
+<v Sharma, Radhika>Um...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/384-0
+00:23:25.922 --> 00:23:28.482
+<v Sharma, Radhika>Let me just see if I have it here.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/387-0
+00:23:31.282 --> 00:23:34.701
+<v Sharma, Radhika>I was supposed to send you that document,
+and now I'm realizing I should have sent</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/387-1
+00:23:34.701 --> 00:23:35.442
+<v Sharma, Radhika>it to you earlier.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/390-0
+00:23:36.162 --> 00:23:37.842
+<v Azizi, Ali>No worries, no worries.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/391-0
+00:23:37.362 --> 00:23:41.922
+<v Sharma, Radhika>This is a representation of some of the
+relationships that we have in our systems.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/394-0
+00:23:44.482 --> 00:23:45.442
+<v Azizi, Ali>Ohh, great.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/397-0
+00:23:50.402 --> 00:23:52.962
+<v Sharma, Radhika>I don't know if it's reflected here
+properly.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/400-0
+00:23:54.842 --> 00:23:55.722
+<v Sharma, Radhika>No, I have a...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/405-0
+00:23:59.762 --> 00:24:04.409
+<v Sharma, Radhika>I have another diagram I'll find,
+but I'll try to explain it right now.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/405-1
+00:24:04.409 --> 00:24:07.442
+<v Sharma, Radhika>But our firms, they all have a firm ID,
+right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/406-0
+00:24:07.762 --> 00:24:09.362
+<v Azizi, Ali>Yes, yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/407-0
+00:24:08.962 --> 00:24:09.522
+<v Sharma, Radhika>Now.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/410-0
+00:24:10.722 --> 00:24:18.402
+<v Sharma, Radhika>There are a few firms where you'll see
+here, the ICPM, ICPMB, ICPMC.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/411-0
+00:24:19.482 --> 00:24:22.162
+<v Sharma, Radhika>We call these our.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/412-0
+00:24:24.722 --> 00:24:25.682
+<v Sharma, Radhika>Generic.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/414-0
+00:24:26.482 --> 00:24:28.962
+<v Sharma, Radhika>PM Brokered codes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/416-0
+00:24:30.922 --> 00:24:32.002
+<v Azizi, Ali>What does that mean?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/418-0
+00:24:32.402 --> 00:24:35.962
+<v Sharma, Radhika>So I'll try to use this diagram here.
+Maybe it will help.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/417-0
+00:24:32.802 --> 00:24:33.522
+<v Azizi, Ali>January.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/421-0
+00:24:38.402 --> 00:24:43.549
+<v Sharma, Radhika>I don't know if it'll actually,
+I think I can spend some more time and</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/421-1
+00:24:43.549 --> 00:24:49.202
+<v Sharma, Radhika>walk you through it. But firm IDs,
+the concept of a firm ID only exists in...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/422-0
+00:24:50.562 --> 00:24:52.402
+<v Sharma, Radhika>Come in Firm 360.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/423-0
+00:24:52.482 --> 00:24:54.162
+<v Azizi, Ali>Yes, Infirm 360.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/424-0
+00:24:54.322 --> 00:24:56.322
+<v Sharma, Radhika>Now, how is that ID constructed?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/425-0
+00:24:58.002 --> 00:25:01.273
+<v Sharma, Radhika>So let me open up Firm 360 and give you
+that example.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/425-1
+00:25:01.273 --> 00:25:05.755
+<v Sharma, Radhika>I know we only have a few minutes,
+but I will think this is important for</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/425-2
+00:25:05.755 --> 00:25:06.482
+<v Sharma, Radhika>you to know.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/426-0
+00:25:06.962 --> 00:25:08.962
+<v Azizi, Ali>Yeah, thank you. Yeah, yeah, for sure.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/433-0
+00:25:09.362 --> 00:25:12.919
+<v Sharma, Radhika>And I'm proud to say I was involved with
+Firms 360 in the beginning,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/433-1
+00:25:12.919 --> 00:25:17.042
+<v Sharma, Radhika>but they've made it so much better and
+they've done so much with it since then.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/434-0
+00:25:20.802 --> 00:25:25.442
+<v Sharma, Radhika>But if you look at,
+let's look at this first one, OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/437-0
+00:25:29.042 --> 00:25:32.082
+<v Sharma, Radhika>So, you can see that the firm ID.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/438-0
+00:25:32.522 --> 00:25:33.002
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/445-0
+00:25:41.362 --> 00:25:45.042
+<v Sharma, Radhika>Well, this is the firm ID. ICPMB 18 AM.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/446-0
+00:25:46.242 --> 00:25:46.562
+<v Sharma, Radhika>Ray.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/449-0
+00:25:47.722 --> 00:25:50.962
+<v Sharma, Radhika>The firm ID is made-up of the broker code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/450-0
+00:25:52.242 --> 00:25:53.282
+<v Sharma, Radhika>And a branch code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/451-0
+00:25:54.562 --> 00:25:57.122
+<v Azizi, Ali>Oh, great. Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/452-0
+00:25:57.042 --> 00:26:00.082
+<v Sharma, Radhika>In some cases,
+you don't have a branch code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/455-0
+00:26:02.002 --> 00:26:03.002
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/460-0
+00:26:07.362 --> 00:26:10.322
+<v Sharma, Radhika>And it's usually our brokers, our PMs.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/461-0
+00:26:11.682 --> 00:26:14.002
+<v Sharma, Radhika>A lot of them were in the shared
+environment.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/464-0
+00:26:14.962 --> 00:26:17.682
+<v Sharma, Radhika>You'll see that they have a branch code.
+This is a this is an IP.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/465-0
+00:26:18.642 --> 00:26:19.282
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/467-0
+00:26:19.442 --> 00:26:24.635
+<v Sharma, Radhika>The IBs only have a broker code.
+So your firm ID can either be a broker</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/466-0
+00:26:22.802 --> 00:26:23.362
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/467-1
+00:26:24.635 --> 00:26:28.962
+<v Sharma, Radhika>code or it can be your broker code under
+score branch code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/468-0
+00:26:29.962 --> 00:26:30.722
+<v Azizi, Ali>Okay, great.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/475-0
+00:26:30.442 --> 00:26:35.381
+<v Sharma, Radhika>So going back to your question about how
+do you know whose RR codes these are,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/475-1
+00:26:35.381 --> 00:26:39.882
+<v Sharma, Radhika>especially because here right now I'm
+under core net investment, right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/475-2
+00:26:39.882 --> 00:26:44.446
+<v Sharma, Radhika>This doesn't tell me which client because
+ICPMB is a shared broker code.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/475-3
+00:26:44.446 --> 00:26:49.134
+<v Sharma, Radhika>The branch codes is what helps us
+identify the individual client under the</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/471-0
+00:26:45.082 --> 00:26:45.562
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/475-4
+00:26:49.134 --> 00:26:50.322
+<v Sharma, Radhika>shared environment.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/474-0
+00:26:51.202 --> 00:26:51.842
+<v Azizi, Ali>Mm-hmm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/477-0
+00:26:51.522 --> 00:26:57.414
+<v Sharma, Radhika>Here is the client code. So branch code,
+client code, division code,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/477-1
+00:26:57.414 --> 00:27:02.537
+<v Sharma, Radhika>these are all synonyms for that
+second-half of the firm ID.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/477-2
+00:27:02.537 --> 00:27:06.550
+<v Sharma, Radhika>And in this case,
+we're looking at Bellwether.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/477-3
+00:27:06.550 --> 00:27:09.282
+<v Sharma, Radhika>So this RR codes are for Bell W.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/476-0
+00:27:10.482 --> 00:27:11.922
+<v Azizi, Ali>Okay, got it.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/478-0
+00:27:11.522 --> 00:27:15.122
+<v Sharma, Radhika>If I look,
+if I look up one of these in Firms 360.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/482-0
+00:27:32.242 --> 00:27:33.042
+<v Sharma, Radhika>Slow.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/485-0
+00:27:37.442 --> 00:27:37.762
+<v Sharma, Radhika>No.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/491-0
+00:27:48.882 --> 00:27:52.642
+<v Sharma, Radhika>It tells you that it's for IP, this one,
+Td.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/490-0
+00:27:50.482 --> 00:27:51.122
+<v Azizi, Ali>Bell.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/497-0
+00:27:54.482 --> 00:27:58.627
+<v Sharma, Radhika>So on new Compass,
+this client belongs under this firm ID,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/497-1
+00:27:58.627 --> 00:28:02.560
+<v Sharma, Radhika>this under score this.
+So our systems are smart enough,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/497-2
+00:28:02.560 --> 00:28:06.915
+<v Sharma, Radhika>they know that these are our codes belong
+to a specific firm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/497-3
+00:28:06.915 --> 00:28:11.762
+<v Sharma, Radhika>And Compass already knows that because
+it's reading off of Firm 360.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/496-0
+00:28:12.722 --> 00:28:13.282
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/500-0
+00:28:14.402 --> 00:28:19.335
+<v Sharma, Radhika>That's how even today we're able to
+assign and control what are our codes are</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/500-1
+00:28:19.335 --> 00:28:21.042
+<v Sharma, Radhika>available under which firm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/501-0
+00:28:22.242 --> 00:28:24.722
+<v Sharma, Radhika>Because Compass is reading from 360 data.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/502-0
+00:28:25.842 --> 00:28:29.842
+<v Azizi, Ali>You mean Legacy Compass, not this,
+not the new compass?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/505-0
+00:28:28.962 --> 00:28:35.442
+<v Sharma, Radhika>No, no, New Compass as well.
+So New Compass uses firm 360 data.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/506-0
+00:28:36.482 --> 00:28:38.802
+<v Azizi, Ali>Up to API or?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/507-0
+00:28:39.922 --> 00:28:44.602
+<v Sharma, Radhika>I'm not sure. I think it's a daily,
+it's a daily job that refreshes it. Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/508-0
+00:28:42.642 --> 00:28:45.882
+<v Azizi, Ali>Ohh, daily sync, OKOK.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/511-0
+00:28:46.722 --> 00:28:50.454
+<v Sharma, Radhika>So conceptually,
+Compass Legacy is already doing</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/509-0
+00:28:47.042 --> 00:28:47.522
+<v Azizi, Ali>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/511-1
+00:28:50.454 --> 00:28:54.490
+<v Sharma, Radhika>multi-firm,
+but it's on a much smaller scale because</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/511-2
+00:28:54.490 --> 00:29:00.048
+<v Sharma, Radhika>there's still some limitations, right?
+Your limitations, so for example,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/510-0
+00:28:54.562 --> 00:28:55.042
+<v Azizi, Ali>Mhm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/511-3
+00:29:00.048 --> 00:29:00.962
+<v Sharma, Radhika>Harborfront.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/514-0
+00:29:05.082 --> 00:29:06.962
+<v Sharma, Radhika>Harborfront cannot.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/517-0
+00:29:08.642 --> 00:29:13.602
+<v Sharma, Radhika>Like Compass Legacy has the concept of
+multi firms specific to sub advisor.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/522-0
+00:29:15.682 --> 00:29:19.833
+<v Sharma, Radhika>not multi-firm parent child.
+That doesn't work in Compass Legacy.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/518-0
+00:29:18.882 --> 00:29:19.442
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/522-1
+00:29:19.833 --> 00:29:24.298
+<v Sharma, Radhika>Because Harborfront here has,
+you could see there's no field for me to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/519-0
+00:29:21.042 --> 00:29:21.362
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/522-2
+00:29:24.298 --> 00:29:26.562
+<v Sharma, Radhika>enter another set of our codes here.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/523-0
+00:29:27.522 --> 00:29:30.962
+<v Sharma, Radhika>So I have to create multiple IDs in
+Compass Legacy also.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/524-0
+00:29:32.162 --> 00:29:33.522
+<v Sharma, Radhika>for Harborfront users.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/525-0
+00:29:34.802 --> 00:29:37.442
+<v Azizi, Ali>Got it. Got it. Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/526-0
+00:29:36.882 --> 00:29:38.402
+<v Sharma, Radhika>But the concept is there.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/537-0
+00:29:40.162 --> 00:29:47.818
+<v Azizi, Ali>Okay, in favor of time,
+let me share my screen because I want to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/537-1
+00:29:47.818 --> 00:29:54.767
+<v Azizi, Ali>show you something.
+Maybe it maps some of your things that</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/537-2
+00:29:54.767 --> 00:29:57.122
+<v Azizi, Ali>you already told me.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/538-0
+00:30:00.002 --> 00:30:00.882
+<v Azizi, Ali>It's a...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/541-0
+00:30:02.242 --> 00:30:06.482
+<v Azizi, Ali>This is just a mockup. It's just,
+it's not going to be.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/543-0
+00:30:05.682 --> 00:30:09.367
+<v Sharma, Radhika>I'm really impressed by these mock-ups
+that you do though, I have to say.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/543-1
+00:30:09.367 --> 00:30:10.562
+<v Sharma, Radhika>They're very impressive.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/542-0
+00:30:09.442 --> 00:30:10.002
+<v Azizi, Ali>No worries.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/546-0
+00:30:11.682 --> 00:30:15.296
+<v Azizi, Ali>Yeah, just my understanding. I try to,
+you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/546-1
+00:30:15.296 --> 00:30:20.976
+<v Azizi, Ali>I try to get it more visualized and get
+it more understandable to see if for</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/546-2
+00:30:20.976 --> 00:30:26.802
+<v Azizi, Ali>myself to understand whether I am on the
+right track or not, to be honest. But</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/550-0
+00:30:26.842 --> 00:30:29.720
+<v Sharma, Radhika>Honestly,
+like it's so much easier to provide</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/550-1
+00:30:29.720 --> 00:30:34.536
+<v Sharma, Radhika>feedback even with a conceptual like
+workflow because oftentimes feedback is</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/550-2
+00:30:34.536 --> 00:30:39.602
+<v Sharma, Radhika>requested reading a page and you just
+can't picture it. So this is very helpful.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/549-0
+00:30:37.922 --> 00:30:38.642
+<v Azizi, Ali>Exactly.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/552-0
+00:30:40.002 --> 00:30:45.020
+<v Azizi, Ali>Yeah, yeah, yeah. Okay, actually,
+this is the, this is the,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/552-1
+00:30:45.020 --> 00:30:51.040
+<v Azizi, Ali>this is for the firm security Stewart.
+It's the number, it's the users.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/552-2
+00:30:51.040 --> 00:30:57.730
+<v Azizi, Ali>As you see, I have provided all the firms.
+If, for example, Harbor Front Group,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/552-3
+00:30:57.730 --> 00:31:02.162
+<v Azizi, Ali>I have provided all the child firms
+underlying that.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/557-0
+00:31:02.442 --> 00:31:08.900
+<v Azizi, Ali>For example, for Cumberland, Wellington,
+Altus, and so forth. OK,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/557-1
+00:31:08.900 --> 00:31:16.727
+<v Azizi, Ali>now I am assuming that these data are
+coming from Firm 360 via API or via daily</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/557-2
+00:31:16.727 --> 00:31:22.402
+<v Azizi, Ali>sync, whatever,
+but I can I can build this hierarchy, OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/560-0
+00:31:22.962 --> 00:31:28.496
+<v Sharma, Radhika>One quick comment,
+today we are not consuming or any parent</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/560-1
+00:31:28.496 --> 00:31:29.602
+<v Sharma, Radhika>information.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/561-0
+00:31:30.482 --> 00:31:30.802
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/564-0
+00:31:31.282 --> 00:31:33.988
+<v Sharma, Radhika>Yeah,
+that's the part that Ray was talking</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/562-0
+00:31:32.162 --> 00:31:32.482
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/564-1
+00:31:33.988 --> 00:31:36.882
+<v Sharma, Radhika>about,
+but he needs to get Darwin to support.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/565-0
+00:31:37.522 --> 00:31:42.292
+<v Azizi, Ali>Yeah, we could, we can, for the start,
+we can do it, you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/565-1
+00:31:42.292 --> 00:31:47.818
+<v Azizi, Ali>static with a file or whatever,
+but then we can build it out and make it</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/565-2
+00:31:47.818 --> 00:31:51.906
+<v Azizi, Ali>through API.
+But I think it's going to be more better</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/565-3
+00:31:51.906 --> 00:31:55.842
+<v Azizi, Ali>to understand all the relationship,
+because here...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/574-0
+00:31:56.002 --> 00:32:03.279
+<v Azizi, Ali>I provided all the relationships through,
+you know, through, sorry, here, I think,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/574-1
+00:32:03.279 --> 00:32:07.137
+<v Azizi, Ali>yeah, groups.
+These are the groups that are</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/574-2
+00:32:07.137 --> 00:32:11.871
+<v Azizi, Ali>parent-child. You see, for example,
+I can add a firm,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/574-3
+00:32:11.871 --> 00:32:15.202
+<v Azizi, Ali>I can see number of the users, it's...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/577-0
+00:32:15.362 --> 00:32:19.842
+<v Azizi, Ali>PM, IB, you know, or whatever, okay?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/580-0
+00:32:21.242 --> 00:32:24.402
+<v Azizi, Ali>And say, OK, what what Firms are?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/583-0
+00:32:25.442 --> 00:32:33.904
+<v Azizi, Ali>are underlying the Harborfront group. So,
+for example, KJ Harrison, Rodenberg,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/583-1
+00:32:33.904 --> 00:32:40.652
+<v Azizi, Ali>or whatever. And, but back to the firm,
+so I have these users,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/583-2
+00:32:40.652 --> 00:32:44.722
+<v Azizi, Ali>so each user can have a profile, okay?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/590-0
+00:32:45.362 --> 00:32:51.472
+<v Azizi, Ali>And in that profile,
+I can define where it can reach.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/590-1
+00:32:51.472 --> 00:33:00.862
+<v Azizi, Ali>For example, for Aaron Chan, if I modify,
+if I right now, I can say, okay, it can,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/590-2
+00:33:00.862 --> 00:33:04.482
+<v Azizi, Ali>if I click on modify, I can say.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/597-0
+00:33:04.642 --> 00:33:13.141
+<v Azizi, Ali>It can see the whole Harbor Front group.
+OK, or I can say, OK, not the whole,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/597-1
+00:33:13.141 --> 00:33:22.402
+<v Azizi, Ali>I can select one by one, or I can say, OK,
+only two of them. OK, let's say it's now.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/602-0
+00:33:23.682 --> 00:33:30.233
+<v Azizi, Ali>Only K.J. Harrison and Velkans,
+that's all, and the underlying R codes,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/602-1
+00:33:30.233 --> 00:33:35.146
+<v Azizi, Ali>as you see,
+has been defined here as well when I when</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/602-2
+00:33:35.146 --> 00:33:37.602
+<v Azizi, Ali>I create the relationships.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/603-0
+00:33:39.042 --> 00:33:39.682
+<v Azizi, Ali>And.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/606-0
+00:33:40.162 --> 00:33:44.482
+<v Sharma, Radhika>That's the full range or that specific R
+codes for this user.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/609-0
+00:33:45.442 --> 00:33:48.922
+<v Azizi, Ali>That's the full range for this firm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/610-0
+00:33:49.602 --> 00:33:50.082
+<v Sharma, Radhika>Okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/613-0
+00:33:51.122 --> 00:33:55.528
+<v Azizi, Ali>Okay,
+so this user is going to get access to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/613-1
+00:33:55.528 --> 00:33:59.836
+<v Azizi, Ali>the full range of the wealth console,
+okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/613-2
+00:33:59.836 --> 00:34:05.808
+<v Azizi, Ali>which is defined from the firm
+relationship and KJ Harrison,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/613-3
+00:34:05.808 --> 00:34:11.682
+<v Azizi, Ali>but if you think it should be customized,
+it should not be.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/614-0
+00:34:11.762 --> 00:34:17.362
+<v Azizi, Ali>have access to the full range of the firm,
+please let me know if this is a business</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/614-1
+00:34:17.362 --> 00:34:18.162
+<v Azizi, Ali>requirement.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/615-0
+00:34:18.602 --> 00:34:19.602
+<v Sharma, Radhika>It is, yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/624-0
+00:34:19.762 --> 00:34:27.548
+<v Azizi, Ali>Okay, okay, now I got it. Okay,
+so it's not like that they can, okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/624-1
+00:34:27.548 --> 00:34:34.778
+<v Azizi, Ali>they should be able to customize this
+range per each firm. Okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/624-2
+00:34:34.778 --> 00:34:40.562
+<v Azizi, Ali>that's a good feedback.
+And then about the feature,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/633-0
+00:34:40.722 --> 00:34:46.998
+<v Azizi, Ali>I keep it as it is, okay?
+I can add or I can select more,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/633-1
+00:34:46.998 --> 00:34:54.139
+<v Azizi, Ali>or you know, I can remove or add whatever,
+okay? So, for example,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/633-2
+00:34:54.139 --> 00:35:00.522
+<v Azizi, Ali>for this orange chain,
+now I have changed the access to K.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/640-0
+00:35:00.642 --> 00:35:05.527
+<v Azizi, Ali>K.J. Harrison,
+and only access to client and account,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/640-1
+00:35:05.527 --> 00:35:11.046
+<v Azizi, Ali>and I can submit the request,
+and then if I go to SAA admin,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/640-2
+00:35:11.046 --> 00:35:17.922
+<v Azizi, Ali>I will see one request over here,
+which is has been, and then if I want to,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/640-3
+00:35:17.922 --> 00:35:20.002
+<v Azizi, Ali>I can reject, and if...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/645-0
+00:35:20.082 --> 00:35:25.796
+<v Azizi, Ali>I want to say all the things are good.
+I click on all of them and accept as a</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/645-1
+00:35:25.796 --> 00:35:31.069
+<v Azizi, Ali>security store, sorry, as I say,
+and saying complete request and that's</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/645-2
+00:35:31.069 --> 00:35:31.362
+<v Azizi, Ali>all.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/646-0
+00:35:35.602 --> 00:35:41.122
+<v Azizi, Ali>That's the whole concept, but...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/652-0
+00:35:40.402 --> 00:35:44.703
+<v Sharma, Radhika>I think just one bit of feedback,
+if we go back to the firm security</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/652-1
+00:35:44.703 --> 00:35:47.758
+<v Sharma, Radhika>steward page,
+we wouldn't want the firm security</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/649-0
+00:35:45.522 --> 00:35:46.002
+<v Azizi, Ali>Yeah?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/652-2
+00:35:47.758 --> 00:35:51.124
+<v Sharma, Radhika>steward page,
+or I think it was in the relationships.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/652-3
+00:35:51.124 --> 00:35:55.362
+<v Sharma, Radhika>We don't want the firm security steward
+defining the relationships.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/655-0
+00:35:56.642 --> 00:36:00.954
+<v Sharma, Radhika>The relationships should be inherited
+from Firm 360. Right now, though,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/655-1
+00:36:00.954 --> 00:36:04.548
+<v Sharma, Radhika>as we had discussed,
+Firm 360 doesn't have the sub-advisor,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/655-2
+00:36:04.548 --> 00:36:07.362
+<v Sharma, Radhika>but it has the parent and child
+relationships.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/659-0
+00:36:08.762 --> 00:36:13.494
+<v Sharma, Radhika>Because those are contractual, right?
+A security steward may or may not be</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/656-0
+00:36:11.362 --> 00:36:11.522
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/659-1
+00:36:13.494 --> 00:36:17.091
+<v Sharma, Radhika>aware of those contracts.
+Those are established with us.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/659-2
+00:36:17.091 --> 00:36:21.634
+<v Sharma, Radhika>And then we would implement those
+relationships on Firm 360 and Compass</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/659-3
+00:36:21.634 --> 00:36:23.842
+<v Sharma, Radhika>should inherit those relationships.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/668-0
+00:36:23.722 --> 00:36:27.947
+<v Azizi, Ali>Yeah,
+firm security cannot have any control on</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/668-1
+00:36:27.947 --> 00:36:33.161
+<v Azizi, Ali>that, okay? In this page,
+they cannot do anything regard.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/660-0
+00:36:30.882 --> 00:36:31.042
+<v Sharma, Radhika>Hom.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/668-2
+00:36:33.161 --> 00:36:40.532
+<v Azizi, Ali>They inherit whatever has been, actually,
+I name it in Product Activation. Maybe,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/668-3
+00:36:40.532 --> 00:36:47.453
+<v Azizi, Ali>again, yeah, you see the user here,
+I can define groups, okay? I can define,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/665-0
+00:36:47.042 --> 00:36:47.442
+<v Sharma, Radhika>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/668-4
+00:36:47.453 --> 00:36:48.442
+<v Azizi, Ali>add a firm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/671-0
+00:36:48.442 --> 00:36:51.844
+<v Azizi, Ali>Firm merge, whatever, or the delegation.
+Okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/671-1
+00:36:51.844 --> 00:36:57.706
+<v Azizi, Ali>I can provide the delegation as well,
+and create the delegation profile as well.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/671-2
+00:36:57.706 --> 00:37:01.252
+<v Azizi, Ali>What it's under,
+let's say I provide the product</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/671-3
+00:37:01.252 --> 00:37:02.482
+<v Azizi, Ali>activation, okay?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/674-0
+00:37:01.522 --> 00:37:04.545
+<v Sharma, Radhika>Yeah.
+I think here we have an opportunity if we</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/674-1
+00:37:04.545 --> 00:37:07.442
+<v Sharma, Radhika>can get all of this information in Firms
+360.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/675-0
+00:37:08.002 --> 00:37:08.722
+<v Azizi, Ali>Yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/676-0
+00:37:08.642 --> 00:37:12.882
+<v Sharma, Radhika>And let Firm 360 manage the delegations,
+manage the grouping.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/685-0
+00:37:12.402 --> 00:37:18.334
+<v Azizi, Ali>Exactly, exactly, exactly. And then,
+and then here again,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/685-1
+00:37:18.334 --> 00:37:26.618
+<v Azizi, Ali>if I change to to Guardian Capital here,
+for example, there is a delegation. OK,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/685-2
+00:37:26.618 --> 00:37:32.242
+<v Azizi, Ali>now for Nora,
+I can provide the delegation to say, OK,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/688-0
+00:37:32.962 --> 00:37:38.237
+<v Azizi, Ali>This is the delegation that has been
+created by Production Activation,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/688-1
+00:37:38.237 --> 00:37:44.254
+<v Azizi, Ali>and I am showing up here as an example.
+So, if I want to assign this delegation,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/688-2
+00:37:44.254 --> 00:37:47.819
+<v Azizi, Ali>I need to create that.
+I need to click on that,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/688-3
+00:37:47.819 --> 00:37:52.722
+<v Azizi, Ali>and in this delegation,
+it provides the detail of the delegation.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/690-0
+00:37:52.962 --> 00:38:01.143
+<v Azizi, Ali>That is going to delegate the accounts of
+these three firms to to Nora to manage,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/690-1
+00:38:01.143 --> 00:38:01.442
+<v Azizi, Ali>OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/700-0
+00:38:02.642 --> 00:38:11.543
+<v Azizi, Ali>And then I, if I, and you see the other,
+the other is is disabled, nothing can be,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/694-0
+00:38:09.802 --> 00:38:10.402
+<v Sharma, Radhika>Alright.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/700-1
+00:38:11.543 --> 00:38:17.762
+<v Azizi, Ali>nothing can be added or or changed.
+Now I can submit, OK?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/697-0
+00:38:15.522 --> 00:38:16.322
+<v Sharma, Radhika>I see you.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/701-0
+00:38:17.762 --> 00:38:21.816
+<v Sharma, Radhika>So you've added the feature level control
+based on the fact that the access</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/701-1
+00:38:21.816 --> 00:38:24.002
+<v Sharma, Radhika>assignment is being done on a delegation.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/706-0
+00:38:24.682 --> 00:38:29.975
+<v Azizi, Ali>Yes, yes,
+but if there is a requirement to change</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/706-1
+00:38:29.975 --> 00:38:36.962
+<v Azizi, Ali>and help them to modify, it's possible.
+OK, this the whole the...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/713-0
+00:38:36.002 --> 00:38:39.453
+<v Sharma, Radhika>Now, sorry,
+the same requirement on the RR codes</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/713-1
+00:38:39.453 --> 00:38:44.522
+<v Sharma, Radhika>would exist here too. In fact,
+more strongly here, right? At any point,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/709-0
+00:38:40.642 --> 00:38:43.602
+<v Azizi, Ali>Oh, oh, okay, okay. Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/713-2
+00:38:44.522 --> 00:38:50.015
+<v Sharma, Radhika>a user should be able to select whether
+they have access to the full range or</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/712-0
+00:38:49.162 --> 00:38:49.762
+<v Azizi, Ali>Uh-huh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/713-3
+00:38:50.015 --> 00:38:51.282
+<v Sharma, Radhika>specific RR codes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/720-0
+00:38:51.362 --> 00:38:57.833
+<v Azizi, Ali>Good feedback. Okay, yeah, yeah, yeah,
+that's noted. Okay, yeah, again, again,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/720-1
+00:38:57.833 --> 00:39:03.566
+<v Azizi, Ali>I can modify, even with that delegation,
+I can modify, say, okay, no,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/720-2
+00:39:03.566 --> 00:39:07.743
+<v Azizi, Ali>Nora can see only Fiona and Dandy,
+not the cancel.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/720-3
+00:39:07.743 --> 00:39:10.282
+<v Azizi, Ali>So I deselect it and then stop.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/721-0
+00:39:10.402 --> 00:39:13.602
+<v Azizi, Ali>Meet, and then it goes to the to the.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/724-0
+00:39:12.882 --> 00:39:17.367
+<v Sharma, Radhika>Can Nora have access to,
+so you can customize Nora's access to</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/724-1
+00:39:17.367 --> 00:39:20.642
+<v Sharma, Radhika>Guardian and her delegation at the same
+time?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/725-0
+00:39:20.882 --> 00:39:22.562
+<v Azizi, Ali>Yes, yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/726-0
+00:39:22.322 --> 00:39:24.642
+<v Sharma, Radhika>And her feature access would be different.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/735-0
+00:39:27.442 --> 00:39:32.394
+<v Azizi, Ali>That's a good question. Yes, actually,
+right now,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/735-1
+00:39:32.394 --> 00:39:39.127
+<v Azizi, Ali>the feature access remains the same,
+actually, because, as you see,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/735-2
+00:39:39.127 --> 00:39:44.574
+<v Azizi, Ali>as you could see,
+I don't have this visibility or this</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/735-3
+00:39:44.574 --> 00:39:45.762
+<v Azizi, Ali>access to...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/741-0
+00:39:46.002 --> 00:39:53.592
+<v Azizi, Ali>change the features as you see. I can,
+I can, as you see, I cannot deselect or,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/741-1
+00:39:53.592 --> 00:39:56.722
+<v Azizi, Ali>oh yeah, I can deselect. I think.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/738-0
+00:39:54.642 --> 00:39:54.802
+<v Sharma, Radhika>Mm.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/749-0
+00:39:56.242 --> 00:40:01.468
+<v Sharma, Radhika>But only the ones that are within that
+group, right? Like for her, for her,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/742-0
+00:39:58.242 --> 00:40:00.322
+<v Azizi, Ali>Yes, yes, yes, yes.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/749-1
+00:40:01.468 --> 00:40:05.593
+<v Sharma, Radhika>for her access to Guardian,
+she might want to be able to do</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/749-2
+00:40:05.593 --> 00:40:08.962
+<v Sharma, Radhika>onboarding,
+which you cannot select or unselect.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/747-0
+00:40:09.682 --> 00:40:10.882
+<v Azizi, Ali>Oh, okay.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/755-0
+00:40:10.642 --> 00:40:14.409
+<v Sharma, Radhika>Right?
+So this is the reason why Owen has</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/755-1
+00:40:14.409 --> 00:40:21.762
+<v Sharma, Radhika>separated the identity between your home
+firm and your delegation or sub advisor.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/758-0
+00:40:24.122 --> 00:40:28.795
+<v Azizi, Ali>OK, but, but it can be changed, you know,
+it can be changed. It's not,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/758-1
+00:40:28.795 --> 00:40:32.677
+<v Azizi, Ali>it's not a big deal, you know,
+it's just a mock-up. I can,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/758-2
+00:40:32.677 --> 00:40:34.322
+<v Azizi, Ali>I can change it, and I...</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/766-0
+00:40:34.362 --> 00:40:39.087
+<v Sharma, Radhika>So just from a requirement perspective,
+I love where you're going with this.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/759-0
+00:40:35.842 --> 00:40:36.242
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/766-1
+00:40:39.087 --> 00:40:43.874
+<v Sharma, Radhika>And I even like what Ray had brought up
+the other day around toggling, right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/762-0
+00:40:42.882 --> 00:40:43.202
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/766-2
+00:40:43.874 --> 00:40:48.292
+<v Sharma, Radhika>Like even if you have one identity of a
+person, you can have, you know,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/766-3
+00:40:48.292 --> 00:40:50.562
+<v Sharma, Radhika>two sections, one for its delegation.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/765-0
+00:40:51.122 --> 00:40:51.602
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/770-0
+00:40:51.682 --> 00:40:58.120
+<v Sharma, Radhika>R and feature access and one for its home
+firm prime like access,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/770-1
+00:40:58.120 --> 00:41:02.802
+<v Sharma, Radhika>as long as the user can toggle between
+the two.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/771-0
+00:41:04.482 --> 00:41:08.082
+<v Sharma, Radhika>The the the requirement is met, right?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/773-0
+00:41:09.282 --> 00:41:12.242
+<v Sharma, Radhika>As in, can I toggle between 2 profiles?</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/772-0
+00:41:09.762 --> 00:41:10.082
+<v Azizi, Ali>Yeah.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/781-0
+00:41:12.722 --> 00:41:18.774
+<v Azizi, Ali>Yes, yes, they can, they can, they can.
+So yeah, that's the whole thing.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/781-1
+00:41:18.774 --> 00:41:23.997
+<v Azizi, Ali>I could see that possible.
+The whole reason I provided is that</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/781-2
+00:41:23.997 --> 00:41:28.557
+<v Azizi, Ali>because yesterday,
+some people in the room said, okay,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/781-3
+00:41:28.557 --> 00:41:33.282
+<v Azizi, Ali>it may take three months to go through
+design discovery.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/785-0
+00:41:33.522 --> 00:41:39.360
+<v Azizi, Ali>And I really got ****** ***, to be honest.
+You know, I think it's two weeks. For me,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/782-0
+00:41:37.122 --> 00:41:37.442
+<v Sharma, Radhika>Oh.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/785-1
+00:41:39.360 --> 00:41:44.922
+<v Azizi, Ali>if you are on the other side of the table,
+maybe Esther on the other side of it,</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/785-2
+00:41:44.922 --> 00:41:48.562
+<v Azizi, Ali>it shouldn't take more than two weeks,
+to be honest.</v>
+
+737d47cd-1e8e-4148-b74e-073a8c0cf481/786-0
+00:41:50.322 --> 00:41:52.722
+<v Azizi, Ali>to do the whole design and discover it.</v>

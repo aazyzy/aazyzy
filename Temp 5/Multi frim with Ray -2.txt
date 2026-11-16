@@ -1,0 +1,1010 @@
+Azizi , Ali
+0 minutes 3 seconds0:03
+Norris, Raymond 0 minutes 3 seconds
+to bring some high-level requirements that has been recorded with Penny and Candy so far. It's been through different discoveries and user interviews with some of our firms.
+Norris, Raymond 0 minutes 23 seconds
+And there are numbers in this slide, you can see that 40% of our firms are active in the multi-firm scope.
+Norris, Raymond 0 minutes 36 seconds
+which is a huge number. And if you want to segmentize them into a parent-child and self-advisory, if you see 85 out of 100, 84 is parent-child and
+Norris, Raymond 0 minutes 57 seconds
+maybe this number 35 out of 45 is sub-advisory or delegation. Also, there has been a practise or there has been a practise that there have been discovered more than 28 IDs, for example, in harbour fronts that have had several
+Norris, Raymond 1 minute 17 seconds
+associated credentials for CompassX, Netrep, and security. So I have provided the resource of these numbers in the presentation as part of the user discovery, but I want to.
+Norris, Raymond 1 minute 36 seconds
+Go to the to the next slide and talk about the what has a firm told us. For example, this is this is this has been extracted through.
+Norris, Raymond 1 minute 56 seconds
+Different interviews with Harbour Front, Guardian, Fiona, Arafan Croft, and others. So if you want to double click on each, again, they fall into two different categories: parent, child, or aggregation, and
+Norris, Raymond 2 minutes 14 seconds
+a sub-advisory or delegation. So, for example, Hoverfront, on top of the list is that they are saying, hey, guys, we have multiple credentials per person. They have to go to different platforms. You don't have a single pane of.
+Norris, Raymond 2 minutes 33 seconds
+Glass for them to enter as a gateway and they don't and not go through different platforms because it's really frustrating.
+Norris, Raymond 2 minutes 45 seconds
+And as you see, they have to switch environment based on their credential, domain, and probably each person have a matrix to know where each credential where to go, to be honest, is not a good practise.
+Norris, Raymond 3 minutes 4 seconds
+error prone. And if we go to see, for example, if a Stuart on their side to want to the attestation, there are some problems on the attestation as well. And one thing which is very
+Norris, Raymond 3 minutes 23 seconds
+You know, dangerous is that sometimes they are going to over-provisioning to get rid of getting more access, and as a result, they provide more RR access to a user, which is.
+Norris, Raymond 3 minutes 43 seconds
+Yeah, except the security in terms of the legal and you know, regulatory is not a good and it's not up to the user to change it, it's up to the platform to provide accessibility.
+Norris, Raymond 4 minutes 1 second
+To, you know, to omit this bad user experience.
+Norris, Raymond 4 minutes 10 seconds
+As you see, there are similar complaints and pain points with the Guardian, Pereira, and RCraft. For example, you see with the Guardian, they are asking that how we can
+Norris, Raymond 4 minutes 29 seconds
+or see all the setup of the parent child in one view, okay? Because right now they don't have this in Firm 360 to see something like this. And also in Firm 360, they have it from the firm perspective, but in terms of the users, they don't have it in the CompassX.
+Norris, Raymond 4 minutes 54 seconds
+And again, the attestation is a problem, and...
+Norris, Raymond 4 minutes 59 seconds
+And the same the same issues with with the sub advisor that the R codes can cannot be both IDs and still can see can see the IMF IFM accounts. If I go, if you if I go.
+Norris, Raymond 5 minutes 22 seconds
+incrementally to write, you see FIRA also has the same day, but they say it with different wordings. For example, say, I have to go to for some of my firms, I should go to R2 for and for the FIRA, I should go to my request for security.
+Norris, Raymond 5 minutes 46 seconds
+Your zone, so they are saying the same problem with different warning.
+Norris, Raymond 5 minutes 52 seconds
+And also, for example, there is an issue, for example, about the temporary password. Actually, it is not really related to multi-frame. This is something, yeah, this is a general issue, but yeah, it's been captured during the user discovery.
+Norris, Raymond 6 minutes 12 seconds
+And, and if we see the, we see with the R and Croft.
+Norris, Raymond 6 minutes 22 seconds
+You see the same, for example, people receive more access than they asked for. So again, the same problem, attestation is the same problem. And you know, again, they are saying the top one is that they want to keep 3 IDs rather than repaper for ticket.
+Norris, Raymond 6 minutes 44 seconds
+For other clients, so...
+Norris, Raymond 6 minutes 48 seconds
+These are the top interviews, but if you want to break it down...
+Norris, Raymond 6 minutes 56 seconds
+Again, if someone has any question, please chime in, or any feedback, please chime in. If we want to break it down and categorise them, I try to make categorise them into, let's say, 12.
+Norris, Raymond 7 minutes 15 seconds
+three different headlines. Maybe we find some similarities, but I will try to explain them. So as the top point is that, okay, many logins for one person. So one identity per firm, per system.
+Norris, Raymond 7 minutes 35 seconds
+And Harbour Front says that my back office user can hold up to 28 credentials for seven Compass, 7 Netrep, 7 secure zone, and you know, that's not going to keep.
+Norris, Raymond 7 minutes 53 seconds
+And, for example, for a user that has been onboarded to their firm, let's say John Du, you have to create all of these credentials. Again, no single view of the group, so head office cannot see.
+Norris, Raymond 8 minutes 11 seconds
+That head office is a is can we can consider that as a holding. OK, not not that, for example, not an IBM entity or PM entity. This is a holding brand that holds all the IB firms, PM firms under one holding.
+Norris, Raymond 8 minutes 30 seconds
+So, for example, in terms of the guardians, guardians or, you know, oversight and keeps 2 IDs to watch, child firms still cannot see the IMF IFM accounts.
+Norris, Raymond 8 minutes 47 seconds
+And also, this is the same for Harbour Front. The other, the other area, the other pane is that you see set up as someone else employee, so it's the more delegation issue, so sub advisors created inside every firm.
+Norris, Raymond 9 minutes 6 seconds
+that delegates to it. So that's another type of the issue that has been communicated with us.
+Norris, Raymond 9 minutes 20 seconds
+Uh...
+Norris, Raymond 9 minutes 23 seconds
+Double Onboarding. So, it's been a request per child firm on two different roads. So, with it, maybe you say, okay, what's the difference between this and many logins one person? The difference is that
+Norris, Raymond 9 minutes 43 seconds
+With the passing time, when a user, when, for example, an advisor wants to get more access or more R codes, so for the first day, he has 28 credit shows. Now, for getting more access, they need to get...
+Norris, Raymond 10 minutes 2 seconds
+After six months, they need to file a request to us and say, okay, I need this set of R codes, and this set of R codes need to be cascaded down to all the rest of the grid, yeah, and takes time on top of that, so...
+Norris, Raymond 10 minutes 17 seconds
+That's another pain point. Created in a wrong firm. So today it can be possible, but the thing is that there is no way to move an identity between firms.
+Norris, Raymond 10 minutes 38 seconds
+Now, it's very casual and it's something that can happen and there is no way to move those ID between firms.
+Norris, Raymond 10 minutes 52 seconds
+And, and yeah, and and switching all the day, that's the same. They have they have to have a metrics on their desktop or some maybe printed somewhere to see how I can log in to secure zone six or other.
+Norris, Raymond 11 minutes 11 seconds
+firms, the other platforms.
+Norris, Raymond 11 minutes 15 seconds
+And yeah, if I move to the next slide, these are the rest of the pain points.
+Norris, Raymond 11 minutes 28 seconds
+So, sometimes, as a result of all these challenges, operations do the advisors work, or so, what does it look like when our access is missing in the right ID? OK, no, they don't want to.
+Norris, Raymond 11 minutes 47 seconds
+do another extra effort to, you know, to provision a new idea. So they say, okay, I can pass it to my colleague to do the, you know, to do the advisor of work and attestation in the is the is a reconciliation.
+Norris, Raymond 12 minutes 11 seconds
+Or, and you know...
+Norris, Raymond 12 minutes 14 seconds
+Again, there is a 2D attestation is a big Excel file, which we know, and someone needs to go through each line to identify the wrong access and then provide a comment.
+Norris, Raymond 12 minutes 33 seconds
+or click on that, there is a macro which they say, okay, delete or stay as it is. And you know, sometimes I heard that that SF PTP sometimes is not stable. So, that's a horrible lie. It's not, just kidding, sorry. Okay, sorry, just like, I mean, no, I was being a *******. Sorry, go on.
+Norris, Raymond 12 minutes 57 seconds
+Okay.
+Norris, Raymond 13 minutes
+Okay.
+Norris, Raymond 13 minutes 3 seconds
+So consider one of these users that have 28 credentials wants to depart from the organisation. Now someone has to remember every single credentials ID. So consider, it's not like...
+Norris, Raymond 13 minutes 23 seconds
+All of them are not reached to take Microsoft, you know, Azure AD. They don't rely on that. So it's not like that. And they have to communicate and imagine what happens in the attestation. So it's the same before attestation. They have to communicate all these IDs that needs to be deprovisioned.
+Norris, Raymond 13 minutes 47 seconds
+So, it's another pain point.
+
+
+So there is a case that access is improvised and nobody can prove that it's legitimate. So it's that today can also can happen, okay? But we need to find a way
+Norris, Raymond 14 minutes 14 seconds
+to see how we can make sure that the R codes that have been provisioned are exactly based on the legal contracts that that firm has signed with us. So that's another part of the...
+Norris, Raymond 14 minutes 34 seconds
+pain points that we have. Partners look like staff that's maybe this title should be changed to referral agents, because referral agents today still today exist, but they are not distinguishable.
+Norris, Raymond 14 minutes 54 seconds
+from employees. So right now, they can provision as an employee, but they say it can be temporary because that agent can say goodbye in one year, two year. And we want a way, a process to recognise that.
+Norris, Raymond 15 minutes 14 seconds
+not as an employee, but as a referral agent or as a partner. And then it helps us to have an accurate and good attestation report as well.
+Norris, Raymond 15 minutes 26 seconds
+So, buying a feature in the wrong place, so there are cases that, for example, for example, I think I had a use case for that, but yes, there is a parent that has...
+Norris, Raymond 15 minutes 46 seconds
+To child now, one of the child has subscribed for Croesus, and one of the child have subscribed for, for, let's say, digit, yeah, thank you.
+Norris, Raymond 16 minutes 5 seconds
+How it should be, how the parent firm should take advantage of the both subscriptions?
+Norris, Raymond 16 minutes 15 seconds
+That's one of the things that also has been mentioned. And yeah, the other part, the final part is the stock on the legacy for trading, which is more for some advisor and delegations. So consider that for a solution for
+Norris, Raymond 16 minutes 35 seconds
+For A Guardian Capital, who has delegated firms, so a user under under Guardian Capital as a as a PM firm, for example, NORA.
+Norris, Raymond 16 minutes 50 seconds
+Already have access to Guardian partners own accounts, but if they have a delegate partners like Fiona Capital or Kensa or Dundee, now Nora gets into problem to get access to them, so...
+Norris, Raymond 17 minutes 9 seconds
+there should be a relationship direction that could be established in Firm 360 and CompassX to distinguish this relationship and can be, and the users also inherit that relationship. So I tried to categorise them into 12 to 13.
+Norris, Raymond 17 minutes 31 seconds
+The cap points, but if we if we go to see where the risk sits today, there are, you know, let's say 5.
+Norris, Raymond 17 minutes 47 seconds
+Five controller, which is firm boundary, record of authorization, attestation, of wording, and data quality, and yeah, this categorization is just for having a good understanding where the risk.
+Norris, Raymond 18 minutes 7 seconds
+Uh, comes from, and uh, I...
+Norris, Raymond 18 minutes 13 seconds
+You know, the rest of this presentation is going to talk about some of the solutioning, but I'm going to cut it here and I will pass it to Oba. But if you have any question, I would be glad to answer that.
+Norris, Raymond 18 minutes 34 seconds
+Thank you, Ali. Any question? No, I don't have a question. Thank you, Ali. That was really good. The one thing I would remind everyone that, let's not forget that we are a small piece of every IB and every PM's ecosystem. So while they have 28 ideas with us, they probably have another five increases.
+Norris, Raymond 18 minutes 53 seconds
+another five at some other system, another five at Salesforce. So that one individual who has 28 at Harborfront may have 40 in total, right? Because we're a small part of their world. So if you think about how much better we can make their day by limiting that sheer number, because they are playing in other systems that
+Norris, Raymond 19 minutes 13 seconds
+don't even talk to us. So as bad as it looks, remember, it's actually worse to the user because they absolutely have other systems completely away from us and probably have the same challenges. Sorry, this part, when you say to the other system, these other systems have been integrated with us, no. And when you say.
+Norris, Raymond 19 minutes 33 seconds
+We think about solving the problem that those systems are not integrated.
+Norris, Raymond 19 minutes 40 seconds
+You mean that? I'm not solving, I'm not saying to solve the problem for the systems aren't integrated. I'm just trying to say that from a user experience that when we had the when we had the discovery sessions, they were solely focused on Compass, but I bet no one turned to them and say, "What other systems they'd use that aren't MBIS?" And Lord knows if they're a PM.
+Norris, Raymond 20 minutes
+They have Fidelity and Canaccord and Avisa and maybe a Salesforce for every instance. So they probably have an Excel file that's massive with all these passwords. And we can't solve all those. But when you think about from a user experience and you think about if we can make their life better, particularly in the PM space, and they can drive more business to us because they don't got to hop through the other.
+Norris, Raymond 20 minutes 19 seconds
+things, right? So, that's all. It is a big problem, and if we can shrink down our challenges that we provide to them, I think it really helps them from a user experience perspective. That's all. We can't solve them, but as bad as this looks, remember, it's probably only 70% of their actual world.
+Norris, Raymond 20 minutes 37 seconds
+OK, so if we solve the problem for CompassX, it's like the earplug to, I think, I think at least have a less noise. Now they have, now they have their other systems to deal with, but we make it infinitely better for sure. OK, that's always calling up, and we can't solve those, no. Sounds good.
+Norris, Raymond 20 minutes 54 seconds
+Candi, or JP, anything you want to quickly add in less than a minute?
+
+
+So, Candi
+21 minutes 5 seconds21:05
+So, Candi 21 minutes 5 seconds
+No, these are the pain points and risks for now. Yeah.
+
+Norris, Raymond
+21 minutes 5 seconds21:05
+Norris, Raymond 21 minutes 5 seconds
+Yeah.
+Norris, Raymond 21 minutes 12 seconds
+That was good. Thank you, Ellie. Over to you, Jenny.
+Norris, Raymond 21 minutes 16 seconds
+Show us the diagram.
+Norris, Raymond 21 minutes 19 seconds
+Where was the boxes?
+
+Pierre, Joseph-Pascal
+21 minutes 20 seconds21:20
+Pierre, Joseph-Pascal 21 minutes 20 seconds
+Huu.
+Pierre, Joseph-Pascal 21 minutes 22 seconds
+I'll go easy on you guys, so we'll present, I'll present.
+Pierre, Joseph-Pascal 21 minutes 31 seconds
+A summarised view of where we are at, when we stopped working on that mid-year, earlier this year, to focus on Uar. So at least you have a good understanding of what has been solved and what remains.
+Pierre, Joseph-Pascal 21 minutes 52 seconds
+So in here, I'll send you the link if ever you want to refer back to this page.
+Pierre, Joseph-Pascal 21 minutes 59 seconds
+Although...
+Pierre, Joseph-Pascal 22 minutes 1 second
+There's many hidden details I would say. So I'll put it in the chat.
+Pierre, Joseph-Pascal 22 minutes 11 seconds
+Weekly.
+Pierre, Joseph-Pascal 22 minutes 15 seconds
+Oops.
+Pierre, Joseph-Pascal 22 minutes 23 seconds
+Huu.
+Pierre, Joseph-Pascal 22 minutes 24 seconds
+Sorry.
+Pierre, Joseph-Pascal 22 minutes 28 seconds
+It's a funny.
+Pierre, Joseph-Pascal 22 minutes 38 seconds
+Hold on.
+
+Norris, Raymond
+22 minutes 48 seconds22:48
+Norris, Raymond 22 minutes 48 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+22 minutes 49 seconds22:49
+Pierre, Joseph-Pascal 22 minutes 49 seconds
+Okay, well, maybe I'll do it later. I don't know why it doesn't pick up.
+Pierre, Joseph-Pascal 22 minutes 56 seconds
+I, oh, there it is. Okay.
+Pierre, Joseph-Pascal 23 minutes 1 second
+So going back here, so essentially just to give you a quick overview for the ones who are not familiar, on the NBIN architecture page, from there you have on the page 3 products and services in which you have Compass, CPR architecture.
+Pierre, Joseph-Pascal 23 minutes 20 seconds
+place some third party apps and then you have a platform access ecosystem. So in there, in the platform access ecosystem, you have FUM and the other new companies that we intended to implement for Uar. But we'll focus now on FUM.
+Pierre, Joseph-Pascal 23 minutes 40 seconds
+because it's mostly, the multi-firm is mostly a FUM topic, at least at the root of it. So in FUM, navigating from there to platform access ecosystem, FUM, and we understand here why FUM is separated from CompassX, it's because FUM.
+Pierre, Joseph-Pascal 24 minutes 1 second
+Initially, yes, was designed and part of CompassX, but as it evolved, it became more of a separate, like a side component, a side application of its own, we could say, where its objective is to manage user access, access accesses, right, from its user accesses.
+Pierre, Joseph-Pascal 24 minutes 25 seconds
+Mostly user accesses.
+Pierre, Joseph-Pascal 24 minutes 29 seconds
+So, in there, we could have also from 360, which is another platform access ecosystem, we could say, in some sort, but so FQM is there separated from Compass, and you have in there FQM product capabilities.
+Pierre, Joseph-Pascal 24 minutes 46 seconds
+Under it, you have one capability between being access management, right? And in there, you have the manage access. So, and off you see the manage users, so those are separate functions. I either manage the different users that exist in my system.
+Pierre, Joseph-Pascal 25 minutes 6 seconds
+or I manage their accesses. So multi-firm is first and foremost a manage user function.
+Pierre, Joseph-Pascal 25 minutes 17 seconds
+So in there I have an identity model. So how do I, will I model and tie everybody together so that I can support for one given user, multi-firm assignments, being a parent firm, child firm, sub-advisory firm. Okay.
+Pierre, Joseph-Pascal 25 minutes 37 seconds
+So that's what I'm going to dive into and try to explain it in a simple manner. So I'll skip that first page. On the third page, I admit something simpler for you guys to understand.
+Pierre, Joseph-Pascal 25 minutes 50 seconds
+And then if you have more questions, maybe I'll bring up more detail. So in here, I have my current state. So initially, I have, is it too small for you or you, it's okay?
+
+Norris, Raymond
+26 minutes 8 seconds26:08
+Norris, Raymond 26 minutes 8 seconds
+Okay. Yeah.
+
+
+Pierre, Joseph-Pascal
+26 minutes 8 seconds26:08
+Pierre, Joseph-Pascal 26 minutes 8 seconds
+You're good. OK, good. So you have the NBIN firm user, right? And then you have several different firms. It may be a single firm that has no child, no parent. You have a parent firm with several child children. So let's say here I put three of them and then you have maybe a sub advisory firm from the perspective of this user.
+Pierre, Joseph-Pascal 26 minutes 32 seconds
+So the current state is, focusing on this diagram first, for that single guy.
+Pierre, Joseph-Pascal 26 minutes 42 seconds
+He needs to have several IDs, and we understand that this was done simply to enable multi-firm and then some advisory. So, it initially was intended to be temporary. Now, temporary usually means long as well, so I guess it last it last two years.
+Pierre, Joseph-Pascal 27 minutes 3 seconds
+too long already, but the point is this guy has several IDs, one ID to connect to each firm.
+Pierre, Joseph-Pascal 27 minutes 12 seconds
+So be it a parent firm, a child firm, a single firm, or a sub-advisory firm, we didn't care. We simply provided.
+Pierre, Joseph-Pascal 27 minutes 22 seconds
+A ID specific to that firm. Along with it, there's also, or there may be also a separate secure zone ID. It's not always the case necessarily because secure zone is not tied to a firm, but let's say by extension you would have a secure zone ID.
+Pierre, Joseph-Pascal 27 minutes 43 seconds
+per given firm. OK, but it's more complex than that. I'm just simplifying the picture. So that's the current state. And once again, it was intended to be temporary and just to make it work with the current model.
+Pierre, Joseph-Pascal 28 minutes 1 second
+No.
+Pierre, Joseph-Pascal 28 minutes 3 seconds
+Another view of this, and stop me anytime you have a question, is you have in, as part of the user access management, so that's within FUM, you have the concept of a user which has a user ID, a CX ID, okay, so that's how he logs in.
+Pierre, Joseph-Pascal 28 minutes 23 seconds
+Okay, you have the concept of assignments. So to which firm it belongs, which can only be one today. In the current model, you can only assign one firm per CX ID, meaning
+Pierre, Joseph-Pascal 28 minutes 37 seconds
+Going to the left, this guy here can only be associated to one firm.
+Pierre, Joseph-Pascal 28 minutes 43 seconds
+So if he needs another firm, he needs another ID.
+Pierre, Joseph-Pascal 28 minutes 47 seconds
+Okay, so one CXID can be associated to one firm.
+Pierre, Joseph-Pascal 28 minutes 53 seconds
+And then it can be associated to, I think even here, it's only one package, just a little correction here, and several resources within that package, and several R codes associated to, you know.
+Pierre, Joseph-Pascal 29 minutes 13 seconds
+The user slash different, whatever.
+Pierre, Joseph-Pascal 29 minutes 15 seconds
+So far, so good.
+Pierre, Joseph-Pascal 29 minutes 18 seconds
+So that's the current state, which obviously leads to issues, because this doesn't definitely support multi-firm with a single login. Okay, on the other side, you have the seeker zone. So seeker zone, as I said, is a bit more complex than that simplified view on the left.
+
+Norris, Raymond
+29 minutes 18 seconds29:18
+Norris, Raymond 29 minutes 18 seconds
+Yep.
+
+
+Pierre, Joseph-Pascal
+29 minutes 39 seconds29:39
+Pierre, Joseph-Pascal 29 minutes 39 seconds
+But the point is, it's technically a one-to-many on both sides. One sex ID may have several secure zone IDs, and one secure zone IDs sometimes is used by several different people. But down there, you have the different applications, so the secure zone apps that get the secure zone IDs.
+Pierre, Joseph-Pascal 30 minutes
+Um, associated to to to someone logging in, and um...
+Pierre, Joseph-Pascal 30 minutes 7 seconds
+From there, you know the user can can do can perform certain actions. You have CompassX, which is decoupled from the secret zone that does its own stuff with FUM, with the help of FUM. So FUM does the access control. It talks to its database, collects the...
+Pierre, Joseph-Pascal 30 minutes 26 seconds
+assignments, be it feature assignments or code assignments, perform some logic to say yes, he is authorised or no, he is not authorised to perform this or to view this. So that's the current state simplified version.
+Pierre, Joseph-Pascal 30 minutes 40 seconds
+So far, so good.
+Pierre, Joseph-Pascal 30 minutes 42 seconds
+OK, moving on now, the multifirm.
+Pierre, Joseph-Pascal 30 minutes 47 seconds
+So, we had to 1st understand, you know, what was currently a provision and set up, so that we know.
+Pierre, Joseph-Pascal 30 minutes 56 seconds
+Once again, the objective wasn't to change FUM completely. Yes, we have a FUM 2.0 design, but we understood that, you know, if we want to get quickly a value out of CompassX, we needed
+Pierre, Joseph-Pascal 31 minutes 15 seconds
+to make surgical changes to FUN, to enable multi firm, to enable sub advisory. So once again, we're playing with FUN 1.0 and making little changes, quote unquote, little changes, so that it
+Pierre, Joseph-Pascal 31 minutes 36 seconds
+ports better on new use cases.
+Pierre, Joseph-Pascal 31 minutes 39 seconds
+So first change is same guy, but now instead of having several IDs.
+Pierre, Joseph-Pascal 31 minutes 47 seconds
+for each of the firms, he only has one per group of firms. So if ever it's a single firm, then he has a separate ID for that single firm. If ever it's about a parent firm and some children, you would have only one.
+Pierre, Joseph-Pascal 32 minutes 6 seconds
+One ID to connect to all, okay? And then finally, if it's about a sub-advisory, he would have a separate ID to connect to the sub-advisory firm and perform actions against that sub-advisory firm. Okay, but behind the scene in our system, we would...
+Pierre, Joseph-Pascal 32 minutes 26 seconds
+All attach these IDs to a single individual. OK, where actually it makes me think here I made it simple, but in fact.
+Pierre, Joseph-Pascal 32 minutes 39 seconds
+It's one guy, yes, but it's duplicated. So as many, you could say, oops, sorry, as many, yeah, that's actually a good, you could say that this should be duplicated.
+Pierre, Joseph-Pascal 32 minutes 56 seconds
+Per ID.
+Pierre, Joseph-Pascal 32 minutes 58 seconds
+So, in the database currently.
+Pierre, Joseph-Pascal 33 minutes 1 second
+This guy doesn't exist once, he exists as many times that he has IDs here. Okay, I simplified it this way, but just to, so that's one change coming up is centralising.
+Pierre, Joseph-Pascal 33 minutes 19 seconds
+the identity of the person, and then having several different logins, depending on the use case. So here is, yes, in the end, going to be really one person registered.
+Pierre, Joseph-Pascal 33 minutes 36 seconds
+And then different IDs depending on the firm associated.
+Pierre, Joseph-Pascal 33 minutes 45 seconds
+Okay, so that's one change.
+
+Norris, Raymond
+33 minutes 46 seconds33:46
+Norris, Raymond 33 minutes 46 seconds
+Okay, thanks.
+Norris, Raymond 33 minutes 48 seconds
+Can I ask you a question? And sorry, I'm going too deep here. So.
+
+Pierre, Joseph-Pascal
+33 minutes 49 seconds33:49
+Pierre, Joseph-Pascal 33 minutes 49 seconds
+Yes.
+
+Norris, Raymond
+33 minutes 54 seconds33:54
+Norris, Raymond 33 minutes 54 seconds
+And just tell me to shut up, it's for another meeting. So does that mean that Ray Norris, MBI infirm user, logs in once, call it Ray dot Norris at MVC dot TA, but then when I land, I have like a primary ID and then I can toggle between my other multiple IDs in the system? Or do I inherit all these IDs and it's just...
+Norris, Raymond 34 minutes 14 seconds
+and I can navigate wherever I want because I have these six or three IDs in this example on the back end.
+Norris, Raymond 34 minutes 21 seconds
+Understand what I'm asking?
+
+Pierre, Joseph-Pascal
+34 minutes 23 seconds34:23
+Pierre, Joseph-Pascal 34 minutes 23 seconds
+No, no, it's a good question. I can start.
+
+Norris, Raymond
+34 minutes 27 seconds34:27
+Norris, Raymond 34 minutes 27 seconds
+If we're not there.
+
+Mullings, Owen
+34 minutes 27 seconds34:27
+Mullings, Owen 34 minutes 27 seconds
+You want me to do this?
+
+Pierre, Joseph-Pascal
+34 minutes 29 seconds34:29
+Pierre, Joseph-Pascal 34 minutes 29 seconds
+Yeah, sure.
+
+Norris, Raymond
+34 minutes 30 seconds34:30
+Norris, Raymond 34 minutes 30 seconds
+So.
+
+Mullings, Owen
+34 minutes 32 seconds34:32
+Mullings, Owen 34 minutes 32 seconds
+So I think we have two scenarios and we discussed about how to automate this. But the first scenario is if you're a parent firm user, you would likely have one ID. If you are a parent firm user plus a sub-advisor, or if you're a regular firm user plus a sub-advisor,
+Mullings, Owen 34 minutes 53 seconds
+You could have two IDs. That's max in the final state if everything works out. And then we did talk about having potentially a profile switcher between your primary ID plus your sub-advisor ID. And then that will control the profile.
+
+Norris, Raymond
+35 minutes 4 seconds35:04
+Norris, Raymond 35 minutes 4 seconds
+Yeah.
+
+Mullings, Owen
+35 minutes 13 seconds35:13
+Mullings, Owen 35 minutes 13 seconds
+But I think here JP is showing all possible scenarios, but that person wouldn't have all three of these.
+Mullings, Owen 35 minutes 20 seconds
+Does that answer your question?
+
+Norris, Raymond
+35 minutes 23 seconds35:23
+Norris, Raymond 35 minutes 23 seconds
+A little bit, but but that's fine. I I understand. OK, that's fine. I good more. I got more detail. Thank you, Owen. Radhika has a question. I'm sorry, I didn't hear that. Sorry. So, JP, for the sub-advisor access, is this representing a single?
+
+
+Pierre, Joseph-Pascal
+35 minutes 40 seconds35:40
+Pierre, Joseph-Pascal 35 minutes 40 seconds
+Yep.
+
+Norris, Raymond
+35 minutes 42 seconds35:42
+Norris, Raymond 35 minutes 42 seconds
+ID that then gives you access to all of the firms to which you sub advise, or is it one ID per firm?
+
+Pierre, Joseph-Pascal
+35 minutes 48 seconds35:48
+Pierre, Joseph-Pascal 35 minutes 48 seconds
+Yes.
+Pierre, Joseph-Pascal 35 minutes 52 seconds
+Good point. It's actually too several. And correct me if I'm wrong, Owen, but I believe that's what we had decided. Let me go back to my super view here, double checking subadvisory, one too many, that's it. So we had that, you know, it's so one login.
+Pierre, Joseph-Pascal 36 minutes 13 seconds
+To several sub-advisory firms.
+Pierre, Joseph-Pascal 36 minutes 18 seconds
+So, here, yeah.
+
+Mullings, Owen
+36 minutes 18 seconds36:18
+Mullings, Owen 36 minutes 18 seconds
+So the setup, the setup for sub advisors, so the limitation that we have is that feature access is per ID. So we would need a feature access that represents what a sub advisor should be able to do.
+Mullings, Owen 36 minutes 33 seconds
+and that user would be enrolled in the sub-advisor home firm.
+Mullings, Owen 36 minutes 38 seconds
+And then the delegated R codes to be sub-advised from those other firms would form the relationship between the firms. And the home firm security steward is the one that would assign access to that sub-advisor user.
+Mullings, Owen 36 minutes 54 seconds
+So, ultimately, the sub-advisor user would have a context in which they have all of the articles that they would sub-advise for.
+Mullings, Owen 37 minutes 4 seconds
+Across rooms.
+
+Norris, Raymond
+37 minutes 6 seconds37:06
+Norris, Raymond 37 minutes 6 seconds
+But in that case, the firms that the user is sub-advising to, so the three that we see there now, are you saying, Owen, that the security steward at those sub-advisory firms needs to set up that
+
+Pierre, Joseph-Pascal
+37 minutes 16 seconds37:16
+Pierre, Joseph-Pascal 37 minutes 16 seconds
+Huu.
+
+Norris, Raymond
+37 minutes 22 seconds37:22
+Norris, Raymond 37 minutes 22 seconds
+individual who may belong to another firm that's sub-advising to them.
+
+Mullings, Owen
+37 minutes 28 seconds37:28
+Mullings, Owen 37 minutes 28 seconds
+So, what we had settled on at the time, the management of that user is at the home firm. The relationship is between the firms and the security, the home firm security steward is the one that would assign access to those other firms to sub advise.
+Mullings, Owen 37 minutes 46 seconds
+on those R codes. It was up in the air whether or not in the firms that are being sub-advised, whether or not that user would show up or show up as read-only, etc. But the management of the user would be in the home firm.
+Mullings, Owen 38 minutes 2 seconds
+Does that make sense?
+
+Norris, Raymond
+38 minutes 6 seconds38:06
+Norris, Raymond 38 minutes 6 seconds
+It does, but I think that the definition of a Hom firm maybe.
+
+Mullings, Owen
+38 minutes 7 seconds38:07
+Mullings, Owen 38 minutes 7 seconds
+S.
+
+Norris, Raymond
+38 minutes 11 seconds38:11
+Norris, Raymond 38 minutes 11 seconds
+forgotten since we last looked at this because what I had understood from the initial takeaway is that
+Norris, Raymond 38 minutes 21 seconds
+At any given point in time, a user can have a user will need up to two IDs.
+Norris, Raymond 38 minutes 28 seconds
+You'll have the simple cases where you have parent and child, and I know GPU separated single firm versus parent and child. There's always a parent. Sometimes the parent is just synonymous with the firm under it.
+
+Pierre, Joseph-Pascal
+38 minutes 35 seconds38:35
+Pierre, Joseph-Pascal 38 minutes 35 seconds
+Mhm.
+Pierre, Joseph-Pascal 38 minutes 41 seconds
+Yes.
+
+Norris, Raymond
+38 minutes 41 seconds38:41
+Norris, Raymond 38 minutes 41 seconds
+and it's just one. So in theory, you will always only need one ID when you're accessing the parent and child relationships.
+
+Pierre, Joseph-Pascal
+38 minutes 43 seconds38:43
+Pierre, Joseph-Pascal 38 minutes 43 seconds
+Mhm.
+Pierre, Joseph-Pascal 38 minutes 52 seconds
+Yes.
+
+Norris, Raymond
+38 minutes 53 seconds38:53
+Norris, Raymond 38 minutes 53 seconds
+For sub-advisor cases, you can have an individual who may belong to a, I don't know if this is in reality, Ray, but you can have a sub-advisor who may be employed by a specific firm. Let's call that their parent firm.
+Norris, Raymond 39 minutes 8 seconds
+they may need access to that parent firm. So they have at least one ID for that parent firm access.
+Norris, Raymond 39 minutes 14 seconds
+Then if they're sub-advising to other firms, then they're going to need only one additional ID that gives them the access to all the firms to which they sub-advise.
+
+Pierre, Joseph-Pascal
+39 minutes 21 seconds39:21
+Pierre, Joseph-Pascal 39 minutes 21 seconds
+That's great.
+Pierre, Joseph-Pascal 39 minutes 25 seconds
+Yes.
+
+Norris, Raymond
+39 minutes 26 seconds39:26
+Norris, Raymond 39 minutes 26 seconds
+Okay.
+Norris, Raymond 39 minutes 28 seconds
+Is that also what you said, Owen?
+
+Mullings, Owen
+39 minutes 31 seconds39:31
+Mullings, Owen 39 minutes 31 seconds
+Yeah.
+
+Norris, Raymond
+39 minutes 32 seconds39:32
+Norris, Raymond 39 minutes 32 seconds
+Okay, then I think, yeah, I'm good. I just wanted to clarify.
+
+Pierre, Joseph-Pascal
+39 minutes 36 seconds39:36
+Pierre, Joseph-Pascal 39 minutes 36 seconds
+But I think, and I don't, I think also what you referred to is the administration, so, or maybe it's additional detail is from from 360, at least that's.
+Pierre, Joseph-Pascal 39 minutes 55 seconds
+It's not a conclusion, but we felt also that maybe it might be the best place to do it. Someone from the, how can I say, actually it's the opposite.
+Pierre, Joseph-Pascal 40 minutes 10 seconds
+Someone from the sub-advisory firm.
+Pierre, Joseph-Pascal 40 minutes 15 seconds
+Needs to allow.
+Pierre, Joseph-Pascal 40 minutes 18 seconds
+That firm here, so let's call it the parent firm.
+Pierre, Joseph-Pascal 40 minutes 23 seconds
+that it doesn't have to be apparent from. It needs to allow this, their users, to sub-advise.
+
+Norris, Raymond
+40 minutes 30 seconds40:30
+Norris, Raymond 40 minutes 30 seconds
+Yeah.
+
+
+Pierre, Joseph-Pascal
+40 minutes 30 seconds40:30
+Pierre, Joseph-Pascal 40 minutes 30 seconds
+So, that's a first setup.
+Pierre, Joseph-Pascal 40 minutes 32 seconds
+Then once it's allowed, so you have that permission that has been granted to your firm to go and pick and select some of your firm users to be assigned to that sub-advisory firm.
+Pierre, Joseph-Pascal 40 minutes 47 seconds
+So that's one management aspect. And then, you know, that's the second management level, which is okay, pick and select users from within that firm here that will have that, you know, separate ID to connect to the sub-advisory firm and perform the different actions allowed.
+Pierre, Joseph-Pascal 41 minutes 8 seconds
+So I don't know if you were also referring to that, Owen. If not, anyway, that's an additional detail, but we'll get into that later.
+
+Norris, Raymond
+41 minutes 22 seconds41:22
+Norris, Raymond 41 minutes 22 seconds
+I think right now, operationally, it's a little unclear. I can go back and dig up what we found, but who is the person who is supposed to give access to this person we're calling a sub-advisor? Is it the firm that they sub-advise to, or is it their home firm that
+
+Pierre, Joseph-Pascal
+41 minutes 28 seconds41:28
+Pierre, Joseph-Pascal 41 minutes 28 seconds
+Mhm.
+Pierre, Joseph-Pascal 41 minutes 40 seconds
+That's it, so, so, so that's what we we started to untangle. Yes, go on.
+
+Mullings, Owen
+41 minutes 42 seconds41:42
+Mullings, Owen 41 minutes 42 seconds
+Yeah, just to clarify, just to clarify, Radhika, I think the model that I understood when we talked to the implementation team is essentially the peer firm will get our codes delegated to them to manage.
+Mullings, Owen 41 minutes 58 seconds
+So that's the firm relationship, but then the user management is in the parent firm. So then the parent firm sub advisor will have access to these R codes in these other firms to assign to the user.
+
+Pierre, Joseph-Pascal
+42 minutes 13 seconds42:13
+Pierre, Joseph-Pascal 42 minutes 13 seconds
+Mmh.
+
+Mullings, Owen
+42 minutes 16 seconds42:16
+Mullings, Owen 42 minutes 16 seconds
+That's the setup that we talked about. Is that clear?
+
+Norris, Raymond
+42 minutes 20 seconds42:20
+Norris, Raymond 42 minutes 20 seconds
+Yeah, I'm trying to map out the operational process in my head, but I think I'm too far ahead. I have a question. I have an idea. No, I'm not going to say what. Sorry. What is the constraint or restriction of that?
+Norris, Raymond 42 minutes 39 seconds
+avoids us to have one single ID instead of two, because you are saying in terms of the self-advisory, we need to have two IDs. I want to understand, is it call or is it business? What's the restriction?
+
+Mullings, Owen
+42 minutes 51 seconds42:51
+Mullings, Owen 42 minutes 51 seconds
+Yeah, the the the feature.
+Mullings, Owen 42 minutes 59 seconds
+This technical, the subadvisors feature access is limited to trading functions and then the regular ID has client management and personal information and stuff.
+
+Pierre, Joseph-Pascal
+43 minutes 1 second43:01
+Pierre, Joseph-Pascal 43 minutes 1 second
+Et.
+
+Mullings, Owen
+43 minutes 13 seconds43:13
+Mullings, Owen 43 minutes 13 seconds
+And we don't currently have the ability to have a user with multiple feature accesses in different contexts.
+Mullings, Owen 43 minutes 20 seconds
+So the way that we separate them is by IDs.
+
+Norris, Raymond
+43 minutes 25 seconds43:25
+Norris, Raymond 43 minutes 25 seconds
+I think basically there's, I think maybe it's technical and because of, I guess business reasons, that you have a sub-advisor who's not allowed to perform all of the functions to support that investor. Yes. Which like account opening or whatever that is. So we want to be able to limit the features to which this individual needs access to.
+Norris, Raymond 43 minutes 46 seconds
+Yeah, right now that feature access is governed at the ID level, right? So your ID.
+
+Pierre, Joseph-Pascal
+43 minutes 54 seconds43:54
+Pierre, Joseph-Pascal 43 minutes 54 seconds
+Yeah.
+
+Norris, Raymond
+43 minutes 54 seconds43:54
+Norris, Raymond 43 minutes 54 seconds
+The access is based on your ID.
+Norris, Raymond 43 minutes 57 seconds
+to limit what you can have access to in the sub advisor world, you actually need another ID. Because in your home firm, you might actually be operating as a regular advisor. The challenge you're going to have is you're going to try to move it. Like, imagine you have your home firm, RR code, and then you have your sub advisor RR code. You want to do persona by RR code.
+Norris, Raymond 44 minutes 18 seconds
+We just have a form concept, that's really what you're talking about, yes, 'cause there's another way to identify what accounts you're subdivising on.
+Norris, Raymond 44 minutes 25 seconds
+Yeah, and it was okay.
+Norris, Raymond 44 minutes 29 seconds
+And to change this behaviour is going to be a big cost for us, or there is no need to change it in the sake of having one single ID for a firm that also has a self-advisor.
+Norris, Raymond 44 minutes 49 seconds
+Is it? Does it work?
+
+
+Pierre, Joseph-Pascal
+44 minutes 51 seconds44:51
+Pierre, Joseph-Pascal 44 minutes 51 seconds
+But maybe it's something we should take on the side for now, that solutioning, you know, at this point. It's something we did consider, you know, how complicated would it be, you know, to try to have only one, or is it better to have two? So it is concessions that needs to be made.
+Pierre, Joseph-Pascal 45 minutes 10 seconds
+which is, you know, so at this point I would say this is maybe going too much into the technicalities.
+
+Norris, Raymond
+45 minutes 21 seconds45:21
+Norris, Raymond 45 minutes 21 seconds
+Plus, we have only 9 minutes.
+
+Pierre, Joseph-Pascal
+45 minutes 25 seconds45:25
+Pierre, Joseph-Pascal 45 minutes 25 seconds
+Oh, man. Okay. But is there any other question, important question for me to answer or I can move on? Actually, almost done. So at least that's a good additional detail. I added the arrow, which is sub advisory, you know, that needs to grant.
+
+Norris, Raymond
+45 minutes 26 seconds45:26
+Norris, Raymond 45 minutes 26 seconds
+Was it?
+
+Pierre, Joseph-Pascal
+45 minutes 45 seconds45:45
+Pierre, Joseph-Pascal 45 minutes 45 seconds
+right, to the parent firm or whichever firm, you know, so that later on its user, right, can be given a ID to connect in and perform actions. Okay, so that's one detail. Now,
+Pierre, Joseph-Pascal 46 minutes 4 seconds
+On this side, many new components appear before you have FGDA, and then some other details, but essentially what we have is, you know, there's that FGDA project that's going on, okay? Basically, it's taking off the Oracle code assignments.
+
+Norris, Raymond
+46 minutes 7 seconds46:07
+Norris, Raymond 46 minutes 7 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+46 minutes 23 seconds46:23
+Pierre, Joseph-Pascal 46 minutes 23 seconds
+Instead of us having to manage that, you know, wealth management or putting in place is putting in place a GDA platform. So they are taking this over and therefore we'll have to integrate with them to get the Oracle assignments instead of looking into our own database. So that's one change, you know. But I put it in there because it's very important. It has to be taken into account.
+Pierre, Joseph-Pascal 46 minutes 48 seconds
+for multi-firm. Now, but that's internal mechanics we could say, right? So it might not initially be the case, so we might initially still read our database, but eventually we'll have to switch over to FGDA. So that's ongoing. Then there's that secure zone SSO. SSO is also ongoing project.
+Pierre, Joseph-Pascal 47 minutes 7 seconds
+Another integration that needs to be made, how special is it? It's because the CompassX application would pass down a secure zone context. So one user may have several secure zone IDs. So here, that's another change. We want to limit the number of IDs.
+Pierre, Joseph-Pascal 47 minutes 26 seconds
+You know, so a secure zone ID should belong to only one individual, so there's some cleanup being done, but one CompassX user may have several secure zone IDs, especially because he may be serving different firms, right, like sub advisories, which would have their own secure zone IDs separate from.
+Pierre, Joseph-Pascal 47 minutes 46 seconds
+His own firm, so that mapping would exist in Seeker Zone side, but then when a user connects to CompassX and switches over to Seeker Zone app, we may tell Seeker Zone application, hey, this guy logging in.
+Pierre, Joseph-Pascal 48 minutes 7 seconds
+To your system, he's working off this context, so we would pass down the secure zone context, which secure zone ID should he be using? OK, because otherwise the secure zone app.
+Pierre, Joseph-Pascal 48 minutes 20 seconds
+may pick and choose any of the secure zone IDs, you know, so he might want to limit the scope of his work to a specific ID. Okay, so that's one additional change that comes would come along with the secure zone SSO project. And then finally, the FUM has that notion of firm context.
+Pierre, Joseph-Pascal 48 minutes 41 seconds
+where we would get the feature assignments as per the firm, the currently worked on firm. Is it the parent firm? Is it a child firm? Is it a sub-othervisory firm, right? And the Oracle assignments, same thing, you know, so take into consideration the context. And then finally, the firm itself.
+Pierre, Joseph-Pascal 49 minutes 4 seconds
+If coming from from 360, which is where we we we all leading, but it would be synced down to SUM to have that relationship between a child firm and and and its parent, right? So that's a change into our database that associates parent.
+
+Norris, Raymond
+49 minutes 5 seconds49:05
+Norris, Raymond 49 minutes 5 seconds
+Yeah.
+
+
+Pierre, Joseph-Pascal
+49 minutes 23 seconds49:23
+Pierre, Joseph-Pascal 49 minutes 23 seconds
+and children together.
+Pierre, Joseph-Pascal 49 minutes 26 seconds
+So that when we look up, you know, assignments per firm context, we actually know where we're at, at which level. And then finally, here the user will be allowed to be assigned to several firms.
+Pierre, Joseph-Pascal 49 minutes 42 seconds
+So that's the change before here, it was only one and only, one firm only can be assigned. Now we're going to enable that so that several firms can be assigned to a single user.
+Pierre, Joseph-Pascal 49 minutes 56 seconds
+So, and then finally, one last level of detail is a secure zone. So as I said, there would be some cleanup performed, so a less secure zone to be provisioned. But still, because a sub-advisory firm would have its own CompassX ID, it would need also its own secure zone ID. I think I mentioned that earlier.
+Pierre, Joseph-Pascal 50 minutes 19 seconds
+Um, but here at this...
+Pierre, Joseph-Pascal 50 minutes 23 seconds
+parent and child firm. Here I simply put one secure zone ID. If ever there's a need to have several secure zone ID, we can still do it. Anyway, the secure zone context would be passed down. So we would still have a control over if ever we want to be very specific and say, okay, out of the, I don't know, 3 secure zone ID that this guy has.
+Pierre, Joseph-Pascal 50 minutes 46 seconds
+you know, please only use this one. Okay, whenever the user switches over. So, that's it. Four minutes.
+
+Norris, Raymond
+50 minutes 57 seconds50:57
+Norris, Raymond 50 minutes 57 seconds
+Great, if you want to talk about what that secure zone cleanup looks like, that was with my team. Happy to walk you about another day. Well, it's more of the security zone cleanup. We have to do the firm use cleanup too. Of course, yeah, that's all been factored.
+
+Pierre, Joseph-Pascal
+51 minutes 2 seconds51:02
+Pierre, Joseph-Pascal 51 minutes 2 seconds
+Yes, yeah.
+Pierre, Joseph-Pascal 51 minutes 10 seconds
+Yep.
+
+Norris, Raymond
+51 minutes 12 seconds51:12
+Norris, Raymond 51 minutes 12 seconds
+So.
+
+Pierre, Joseph-Pascal
+51 minutes 13 seconds51:13
+Pierre, Joseph-Pascal 51 minutes 13 seconds
+Any question? Yep.
+
+Norris, Raymond
+51 minutes 15 seconds51:15
+Norris, Raymond 51 minutes 15 seconds
+Lots of questions. We've got 3 minutes left. I guess my one question overall is, so thank you, Owen and JP and Ali for walking me through this. I appreciate it. It's much clearer to me now. What is this scope of work been estimated at to do?
+
+Pierre, Joseph-Pascal
+51 minutes 17 seconds51:17
+Pierre, Joseph-Pascal 51 minutes 17 seconds
+Ohh.
+Pierre, Joseph-Pascal 51 minutes 18 seconds
+Yeah.
+Pierre, Joseph-Pascal 51 minutes 29 seconds
+Yeah.
+
+Norris, Raymond
+51 minutes 34 seconds51:34
+Norris, Raymond 51 minutes 34 seconds
+or we not even got there yet.
+Norris, Raymond 51 minutes 37 seconds
+Testa.
+Norris, Raymond 51 minutes 39 seconds
+Is where we know, if you, we don't know, we don't know, I don't want to, I don't, I if we don't know, we don't know, it's fine.
+
+Pierre, Joseph-Pascal
+51 minutes 42 seconds51:42
+Pierre, Joseph-Pascal 51 minutes 42 seconds
+No, but.
+Pierre, Joseph-Pascal 51 minutes 46 seconds
+A...
+Pierre, Joseph-Pascal 51 minutes 47 seconds
+No, I said, don't throw Esther down the bus.
+
+Norris, Raymond
+51 minutes 49 seconds51:49
+Norris, Raymond 51 minutes 49 seconds
+Okay.
+
+Ullattil, Sujith Muraleedharan
+51 minutes 52 seconds51:52
+Ullattil, Sujith Muraleedharan 51 minutes 52 seconds
+Yeah, she had to step away, but I don't think we had all the requirements like logged in, right? Yeah, so yeah.
+
+Pierre, Joseph-Pascal
+51 minutes 55 seconds51:55
+Pierre, Joseph-Pascal 51 minutes 55 seconds
+Ah, luckily.
+
+Norris, Raymond
+51 minutes 57 seconds51:57
+Norris, Raymond 51 minutes 57 seconds
+Yep. Okay.
+
+Pierre, Joseph-Pascal
+51 minutes 58 seconds51:58
+Pierre, Joseph-Pascal 51 minutes 58 seconds
+No, it haven't been handed over because as I said, we started that work, it wasn't finished, and then we switched to Uar.
+
+Ullattil, Sujith Muraleedharan
+52 minutes 2 seconds52:02
+Ullattil, Sujith Muraleedharan 52 minutes 2 seconds
+Yeah.
+Ullattil, Sujith Muraleedharan 52 minutes 7 seconds
+Correct.
+
+Norris, Raymond
+52 minutes 7 seconds52:07
+Norris, Raymond 52 minutes 7 seconds
+End.
+
+Pierre, Joseph-Pascal
+52 minutes 9 seconds52:09
+Pierre, Joseph-Pascal 52 minutes 9 seconds
+But as you see, there's lots of, maybe it doesn't show, but there's lots of design done, okay, and thinking and analysis. We're towards the end, I would say. Hence, we'll believe that by year end, if we're focusing on this,
+Pierre, Joseph-Pascal 52 minutes 30 seconds
+you know, if that's a decision, we think we can complete, you know, the design and, you know, all the details, technical stuff, okay? So that it can be handed over.
+Pierre, Joseph-Pascal 52 minutes 45 seconds
+Now we see there's the Radhika side of it, you know, there's all of this that needs to be all collected and put together and see if it makes sense. But I know Radhika participated in many sessions. So we don't have an estimate per se. But I think it's going to be the same game as Uar is okay.
+
+Ullattil, Sujith Muraleedharan
+52 minutes 56 seconds52:56
+Ullattil, Sujith Muraleedharan 52 minutes 56 seconds
+Yeah.
+
+Norris, Raymond
+52 minutes 59 seconds52:59
+Norris, Raymond 52 minutes 59 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+53 minutes 5 seconds53:05
+Pierre, Joseph-Pascal 53 minutes 5 seconds
+how much time you allow us to work on this, you know, so that we can make the design choices so it fits in.
+Pierre, Joseph-Pascal 53 minutes 15 seconds
+You know.
+
+Norris, Raymond
+53 minutes 18 seconds53:18
+Norris, Raymond 53 minutes 18 seconds
+I think, um...
+Norris, Raymond 53 minutes 20 seconds
+I think we need to take it away. I don't know who does this, but I'll take it back with the business side. But like, I'd like to understand what the detailed requirements are from 360. I can make that happen, but Darwin's planned nothing. So that's a key enabler here. I need to understand where we are with SSO with the cleanup.
+
+
+Pierre, Joseph-Pascal
+53 minutes 36 seconds53:36
+Pierre, Joseph-Pascal 53 minutes 36 seconds
+Mm.
+Pierre, Joseph-Pascal 53 minutes 37 seconds
+Definitely.
+Pierre, Joseph-Pascal 53 minutes 41 seconds
+Mhm.
+
+Norris, Raymond
+53 minutes 41 seconds53:41
+Norris, Raymond 53 minutes 41 seconds
+because I could snap my fingers and say I want this done in two months or three months, but if we don't have Firm 360 ready and SSO is not there, we don't have a plan to clean up these users, it doesn't make sense. And I see a few times now where we've built something, but operationally we haven't really thought it through, so we've got these things. So I'd really like to take the time now.
+Norris, Raymond 53 minutes 59 seconds
+I mean, this plan makes sense to me, JP. It looks good, but there's auxiliary stuff that maybe you're not accountable for, but other people in this room are that we got to say, when is this happening? Because if I can't get firm a user, or sorry, I can't firm get firm 360 figured out till 2028, then what's the point? Let's come up with plan B.
+
+Pierre, Joseph-Pascal
+53 minutes 59 seconds53:59
+Pierre, Joseph-Pascal 53 minutes 59 seconds
+Yes.
+Pierre, Joseph-Pascal 54 minutes 7 seconds
+Mm.
+Pierre, Joseph-Pascal 54 minutes 16 seconds
+Yeah.
+Pierre, Joseph-Pascal 54 minutes 17 seconds
+True.
+
+Norris, Raymond
+54 minutes 17 seconds54:17
+Norris, Raymond 54 minutes 17 seconds
+So I think I think Rad, maybe Kevin will take this back and say, in this design, what are the two or three things that we need to adjust roadmaps on? And luckily, I own that that firm 361, but what else is there?
+
+Pierre, Joseph-Pascal
+54 minutes 32 seconds54:32
+Pierre, Joseph-Pascal 54 minutes 32 seconds
+So I'll add it here into the picture so we...
+Pierre, Joseph-Pascal 54 minutes 35 seconds
+never lose sight of it. And definitely, yes, it feeds this table and maybe more. And then that there's that event, you know, that how do I say here, you know, granting, you know, how is it going to happen?
+
+Norris, Raymond
+54 minutes 45 seconds54:45
+Norris, Raymond 54 minutes 45 seconds
+Yeah.
+
+Pierre, Joseph-Pascal
+54 minutes 54 seconds54:54
+Pierre, Joseph-Pascal 54 minutes 54 seconds
+you know, does it have to be reflected in FUM? This type of detail. So that was the last, among the last things we needed to look.
+Pierre, Joseph-Pascal 55 minutes 5 seconds
+to come with a final design, a complete design, I would say.
+
+Norris, Raymond
+55 minutes 11 seconds55:11
+Norris, Raymond 55 minutes 11 seconds
+Looks good, we just gotta get our **** together and fix some other things, so...
+Norris, Raymond 55 minutes 16 seconds
+Oss.
+Norris, Raymond 55 minutes 28 seconds
+Mhm.
+
+Mullings, Owen
+55 minutes 29 seconds55:29
+Mullings, Owen 55 minutes 29 seconds
+I think that's the part that has the times and problem is to, on the secure zones end, I think we negotiated everything we needed for having that handover work for Servicing and all of the secure zone apps. For R2, I imagine we just have to make the right R2 ID.
+Mullings, Owen 55 minutes 48 seconds
+But yeah, that's where those changes I think would, if we can do it centrally, it would be best because FBN owns the data access APIs and the feature access APIs. So we could centralise a lot of that. But then for the other apps, we just have to pass the right ID and the right context to those apps on the integration side.
+Mullings, Owen 56 minutes 9 seconds
+But that that's gonna take some time to.
+Mullings, Owen 56 minutes 12 seconds
+And that's, I don't think that's presented here. It's the data structure is here, but then the work you have to do to implement and enforce isn't here yet.
+
+Norris, Raymond
+56 minutes 12 seconds56:12
+Norris, Raymond 56 minutes 12 seconds
+True.
+
+Pierre, Joseph-Pascal
+56 minutes 22 seconds56:22
+Pierre, Joseph-Pascal 56 minutes 22 seconds
+Mm.
+
+Norris, Raymond
+56 minutes 25 seconds56:25
+Norris, Raymond 56 minutes 25 seconds
+Thank you. Thank you all for the insights.
+Norris, Raymond 56 minutes 28 seconds
+And if it's worth it, I just need to mention that at the portfolio level, we aligned this direction with the secure zone team and the AGI team. So the secure zone team, we've implemented some sort of this, and that's what we're testing.
+Norris, Raymond 56 minutes 47 seconds
+What they said that they're waiting for the packing on from that to, and also the LGDA team, they've implemented it based on this high level, and they are actually waiting on us to start the to implement it on our side and we start testing. So, that's the box of yes.
+
+Pierre, Joseph-Pascal
+56 minutes 57 seconds56:57
+Pierre, Joseph-Pascal 56 minutes 57 seconds
+Mhm.
+Pierre, Joseph-Pascal 57 minutes
+Yeah.
+Pierre, Joseph-Pascal 57 minutes 5 seconds
+Yes.
+
+Norris, Raymond
+57 minutes 8 seconds57:08
+Norris, Raymond 57 minutes 8 seconds
+I know, I, I know about that.
+
+Pierre, Joseph-Pascal
+57 minutes 11 seconds57:11
+Pierre, Joseph-Pascal 57 minutes 11 seconds
+Good.
+
+Norris, Raymond
+57 minutes 14 seconds57:14
+Norris, Raymond 57 minutes 14 seconds
+OK, that was that was good. I appreciate it, guys. I do have to run to another meeting, and then...
+Norris, Raymond 57 minutes 20 seconds
+Yeah, I don't know. Gotta get my next steps, but we gotta, I want to look at the broader implications of what else we gotta do. Sorry, I know I keep digging in further, but I really gotta understand this. I get this though. This is really good. Thank you, JP and everyone else. This walkthrough would make complete sense for me, so thank you. But let's talk about Run 360 and the security zone cleanup and all the other.
+
+Pierre, Joseph-Pascal
+57 minutes 32 seconds57:32
+Pierre, Joseph-Pascal 57 minutes 32 seconds
+Cool.
+Pierre, Joseph-Pascal 57 minutes 38 seconds
+Yes.
+
+Norris, Raymond
+57 minutes 41 seconds57:41
+Norris, Raymond 57 minutes 41 seconds
+Stuff.
+
+Pierre, Joseph-Pascal
+57 minutes 43 seconds57:43
+Pierre, Joseph-Pascal 57 minutes 43 seconds
+Anytime.
+
+Norris, Raymond
+57 minutes 43 seconds57:43
+Norris, Raymond 57 minutes 43 seconds
+OK, thanks guys. Have a good afternoon, everybody. Thank you, guys.
+
+Ullattil, Sujith Muraleedharan
+57 minutes 45 seconds57:45
+Ullattil, Sujith Muraleedharan 57 minutes 45 seconds
+Yes.
+
+Pierre, Joseph-Pascal
+57 minutes 46 seconds57:46
+Pierre, Joseph-Pascal 57 minutes 46 seconds
+Good day tonight.
+
+Ullattil, Sujith Muraleedharan
+57 minutes 46 seconds57:46
+Ullattil, Sujith Muraleedharan 57 minutes 46 seconds
+Thank you. Bye.
+
+
+
+
+
+
+
+
+
+

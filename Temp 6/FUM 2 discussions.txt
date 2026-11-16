@@ -1,0 +1,858 @@
+Sharma, Radhika  0:03
+Fortunately or unfortunately, the issues with resources are particularly problematic when it comes to employees right now.
+So with employees, we're using the same user packages that have been established. The intention with those were that they should be usable by employees and clients at the same time. But with many of the features that were actually...
+almost basically ready to go live with, like I'll use a state submission and CRS fatca as an example. With both of those, we're introducing new internal teams.
+who need to support the platform or those features and clients. And the current packages that we have and the resources within them doesn't really allow us the flexibility.
+sorry, between the packages and resources and how employee SSO is going to be working, plus the limitations imposed to us by our risk teams, we actually can't accommodate access for these new teams unless we create new packages, which is going to take us down a really messy Rd.
+where anytime we have a team who needs a very niche set of access, we're going to have to create new roles for them.
+And that is where I feel like it's very concerning. And then also for clients, every time when we do the feature onboarding, we have to make a pretty critical decision. Where are we adding those resources? What level of control are we providing under each package?
+it's becoming extremely complicated. And we're not able to stick to the standards that Penny's asked us to stick to because it's so rigid, it doesn't give us a lot of flexibility. So what you showed us this week, JP, was interesting to me. Like I was like,
+pretty impressed and I think it's the same concept that Candi's been talking about for a while, where you move away from having specific packages to maybe more of a user group style provisioning.
+But I don't know what it takes for us to get there. Right? I think you said like initially it was a six months.
+to even consider implementing that, but does that still, is that still true today? And would what you show us actually help eliminate some of the problems that I've described now?
+
+
+Pierre, Joseph-Pascal  2:56
+Hey.
+Candi.
+I know you have a...
+a better understanding than me of the business side. So what Radhika explained. I can speak to the technicality of the new model, Azure 2.0. I can also maybe speak to the estimate.
+or what can be done maybe to cut further more and accelerate or have something delivered faster, let's say. But definitely, I would say the estimate is a year old.
+And since then, you know, there's been new tools, AI tools, you know, that we've been using. So I would definitely have that estimate revisited.
+But there was also a big part of it was also change management. You know, all the migration, the data, you know, structured, the data that needs to be moved to the new structure, you know, all of that. So that also is a big part of the estimate. So it's not to be neglected.
+But, Candi, do you want to speak a little to what Radhika I am?
+Explain at least her worry, and then I'll add the, if need be, technical aspect.
+
+So, Candi  4:25
+I think what you shared earlier, it's the hints of assigning a user to multiple user groups and maybe also multiple Firms.
+So then, that's the in-between solution if we are not ready to go all the way to Toronto. So I think that's what's been discussed, and we thought that it would be workable, but it would come with...
+because we're checking or overhauling the foundation and not just FNUM, but also there might be some work to be done in all the downstream systems. So I think that was the worry and we didn't.
+take that path because of that. Yeah, I think, yeah, you understand well, and yeah, Radhika pick up on the multiple user group, because if you can be assigned to multiple user group, then you can be assigned to multiple resources across packages.
+So, that's the idea, right?
+
+Sharma, Radhika  5:49
+Sorry, Obaloluwa.
+
+
+Oyemade, Obaloluwa  5:52
+So, Radhika, Ali, since both of you are the decision making parties here, I think we need direction on how
+on how you want us to solve this. Do you want us to get the estimate on FEM 2.0? Because it seems to get out to a lot of problems. I mean, we don't need to have two CX IDs for parent child.
+and some advisors, or do we continue solving only for multiple still using the current infrastructure, which is FP 1.0, and which will not lead to a transitional state of FP 1.X.
+Or do we just go for long of 2.0? What do you need to make that decision? Because I think it's going to help our direction going forward.
+
+Sharma, Radhika  7:02
+So for me to make a decision as to whether, actually, before I answer the question,
+I'll ask one: Is Furman User 2.0?
+strictly the user group side of it that was that we talked about. What else is there to firm a user 2.0?
+
+Pierre, Joseph-Pascal  7:22
+No.
+Okay, so.
+Maybe I can issue you more details, because you never saw the...
+the detailed version of 2.0. So we have, I don't want to take too long. Yeah, yes.
+
+Sharma, Radhika  7:36
+Yeah.
+So while you bring that up, the reason I'm asking is because it's difficult to make a decision on Furman User 2.0.
+What I'm only talking about, Obaloluwa, I feel like is just one component of it. And I don't know if Furman User 2.0 exists the way that we've been talking about it, right? There's certain capabilities that we need to.
+
+Pierre, Joseph-Pascal  7:50
+Mhm.
+
+Sharma, Radhika  8:00
+Create a stable and scalable FNUM model.
+Some of it may be necessary immediately to make everything work. Other things we might be able to put aside, but it really depends on how it all works together. And I'm sure we can get you a decision, you guys a decision on what the scope is. And that's exactly what I want to speak to Ali about.
+right? I know the prototype is purely focused right now on multi-firm, but we do need to look at the bigger picture. And I want to be able to create somewhat of a plan that we can present in front of Ray to say, based on all the stuff that we have to complete to get to that stable and scalable model,
+These are all the things we have to do, and this is the logical sequence in which we believe it needs to be done. And we want to avoid throwaway work. To be honest, right now, without having the resources updated, I'm leaning towards firm and user manage, sorry, multi-firm, if we just do it as is, is going to be throwaway.
+So, JP, you can maybe share a little bit more of the details and then I can give you a bigger perspective on it.
+
+
+Pierre, Joseph-Pascal  9:22
+Oh, but just quickly, when you say throw away.
+What do you mean to throw in the sense that...
+We're gonna move to 2.0, thanks.
+
+Sharma, Radhika  9:33
+If, if we, if we decided to proceed without 2.0, just implementing...
+
+Pierre, Joseph-Pascal  9:37
+Mhm.
+
+Sharma, Radhika  9:41
+the scope of multi-firm in terms of what we've looked at this week. In my mind, some of that will all need to be reworked once we get to firm and user 2.0. But that's only because of my limited view of what firm and user 2.0 is.
+
+Pierre, Joseph-Pascal  9:54
+Okay, yeah.
+Yeah, understood. But if you never go there.
+Thinh.
+It's not that it's not true, it's just that it's gonna stick longer.
+
+Sharma, Radhika  10:10
+If we never go there, then we don't, I believe we don't have a stable and scalable model.
+
+Pierre, Joseph-Pascal  10:15
+Ah, OK, OK, in that sense, yeah, but we know exactly, so we know already that FP 1.0 is not scalable.
+
+Sharma, Radhika  10:15
+That's my worry.
+
+Pierre, Joseph-Pascal  10:24
+It's every time and that is why two years ago when I joined, two or three years ago after that,
+At one point, every change that was asked is so heavy. I didn't have that perspective, but everybody I was talking to was like, ah, it's complicated, it's complicated. And that's where I got interested into understanding what's FUM, how is it, why is it complicated? And then trying to address those problems and make it.
+finally scalable. So that was definitely the objective of F1 2.0 is to make it scalable, at least a good foundation so that...
+Most, you know, we can we can never predict the future, but at least it gives it puts us in a better posture position for other business requirements, you know, our business needs. So,
+That's what I presented on Tuesday, but if I look at 2.0.
+So that was the high level view. Before I get into the detail, I try to be quick, 10 minutes top. I talked about policies. So policies is basically, so a 2.0 is a policy base where 1.0 is assignment base, right? So assignment base, meaning you have different assignment tables.
+Just like, just like here, I have my user assignment table, and then I need to assign things. I need to assign our codes, packages, resource, user groups, you know, and even firm. So that's the assignment-based model. So that's 1.0. 2.0, I said policy-based. Now, it's not that you're not assigning anything. You do assign, but it's just that...
+It's all within a policy file. So you would end up with many policy files or many policies. It can all live into one single file, but the point is you have separate policies and each policy states what you're allowed to, you know, who is allowed against what.
+Against you know which organization, so is it a parent, a child, and what are the packages if you need some, which resources, and the permissions against each, okay? And then, conditionally, some conditions, but you don't have to apply this because it's just...
+additional complexity can come later. But the point is, I define this, you're allowed on this, you deny this. So I'm not relying on a package that has been, let's say, built for a space.
+Pacific audience and anybody that.
+Needs, can you say?
+That divert from that, you know, is in trouble because that's what you expressed. You have some users, it's not, you know, they have specific special needs. You would have to create a package for them, but then it involves, you know, changes in Oct.
+
+Sharma, Radhika  13:22
+Mhm.
+
+
+Pierre, Joseph-Pascal  13:34
+Tat changes in user groups, et cetera, so it's lots of things.
+That needs to change. Now, here packages still exist. We still bundle things up. Just that if ever on top of the package or besides the package, you need more or less things, I can define it as a resource if it's more, or I can define it as a second.
+statement, you know, just below this one, so let's say another policy file that says you're deny.
+You're denied from within this package these resources, for instance, or I don't need any package, I simply assign you direct resources with permissions against each. So, in that sense, I can more easily tailor your access profile.
+through this format, you know, so that's the flexibility that I'm gaining, you know, so it's beyond, yes, user group, it's more into, okay, I have someone that needs to have a policy, I need to build his access policy, not policy, access profile.
+and I build it in the form or format of a policy or many policies. So, that's the foundation of FUN 2.0 policy-based model. Now, user group doesn't go away. As I said, packages doesn't go away, but user group also, they don't go away.
+And scopes don't go away, but where do I?
+Once again, the driving, one of the driving principle was, well, not the same principle, but...
+requirement, let's say, is scalability.
+flexibility and one thing that in my analysis that I've done with Candi, when there was even, what's his name?
+Oh, I forgot his name. He left two years ago. Anyway, I have Ali in my mind, but it was someone else.
+
+Oyemade, Obaloluwa  15:39
+Jason Webset.
+
+Pierre, Joseph-Pascal  15:42
+No, not he was a developer.
+
+Oyemade, Obaloluwa  15:45
+Ohh.
+
+Pierre, Joseph-Pascal  15:46
+That's before Est time he left. Anyway, I have his name somewhere.
+
+So, Candi  15:54
+Ana.
+
+Pierre, Joseph-Pascal  15:55
+Yes, Anon. Yeah, it was very good. So.
+
+Oyemade, Obaloluwa  15:56
+I know, and Huu.
+
+
+Pierre, Joseph-Pascal  16:01
+The one constraint we had is how SUM was tied to Okta.
+So any change you make to the package, if I go back to 1.0.
+Any change I make to the package, I need to make a change in the user group in Okta and make a change to the scopes and permissions in Okta. It was too tight. I make changes to resources. I have a package and I add a new resource. Another issue I had is...
+I have to go find every users that have this package and apply the change to them because why? They got that, not only they got that package assigned, but they got the resources assigned. And then there's a new resource, so there's one less resource. So I have to go find all of them that had that package assigned and go and...
+Add the resource, the new resource, add it to the package, or remove the resource from the package.
+You know, so it took time just to make an update. I had to look at everybody.
+that had those assigned to make the changes accordingly.
+So that was a big hurdle. And I had to go and coordinate with Okta to update their definition over there so that everything works together.
+So to me, and at least not only me, but through the analysis, we understood that, okay, this is big scalability issue. You know, I won't be able to, as you said, you know, dynamically you have new users, new roles, new specificities that comes and go, you know. So you need to be able to make changes almost
+daily, you know, it has to be applied in the hour. You will never get that SLA from Okta team. Impossible.
+
+Sharma, Radhika  17:56
+Mhm.
+
+Pierre, Joseph-Pascal  17:58
+So I said, I need to cut this, not necessarily cut it completely, that relationship, but make it decoupled, less dependent. And still, yes, leveraging their services because we're part of the bank. It's an essential platform for securing things.
+But I don't have to put that this dependency, this is not necessary. So 2.0 also aim to achieve that. So here you see I didn't put a direct relationship between user group event scope with my policies. I could have.
+But I didn't because it was intentional. I said the user group should be left to a role.
+Okay, and maybe your new guys, it's a new role, or maybe not, maybe it's the same role, it's just that they have a different policy, a different access profile that doesn't change the role itself in a high perspective, a high perspective, right? But in the detail.
+
+
+
+Sharma, Radhika  18:52
+Mhm.
+
+Pierre, Joseph-Pascal  19:03
+It does, so their policy statement will be different from another guy that has the same role, but you know, but less or different access rights. And the scope is the same scope, I said, instead of them being permissions necessarily, I said, it's going to be simply capabilities like.
+And that refers to, I don't have it here, but the KYP, I don't want to add one minute left, I promised less than 10 minutes, but we have this, this is very, very summarized and reduced, but if you go to a much more...
+Love, this is Penny.
+And that's a PowerPoint.
+And.
+
+Sharma, Radhika  19:54
+I remember there was a capability mapping that she had shared with us. Yeah.
+
+Pierre, Joseph-Pascal  19:54
+I'm looking for...
+Yeah, exactly.
+Yeah, so it's somewhere there. But the point is, to me, Okta should stay at that level because it doesn't change much, right? You're not introducing overnight a capability and expect it to be into the system. It takes some time.
+So, if my scope is about, okay, you have access to this capability, this other capability, et cetera, and you have a role, even the role, they should not change, so it's slowly changing dimensions, then...
+By decoupling myself to Okta, then I'm gaining flexibility and scalability. So, that's the two-point objective. Now, for the last minute, the one minute left, the detail of this is...
+Under that page, you have an access model, and that only describes the two point oh, yeah, I said two point X, one point X, I didn't detail it because it wasn't the focus, but the point skip this.
+I try to find what's the best you.
+So, you said, is it beyond user group? Yes, it is.
+As I said, it's about the access. I'm trying to find the best diagram for you.
+I think the best is, it's maybe on the...
+Oops.
+Many juices.
+Ah, it's still in the manage access. Okay, this diagram. There you go. Do not have to navigate down. You stay on this page that I provided on the other meeting, right? But then you have a second page here. So that's a detail that explains beyond
+
+Sharma, Radhika  22:06
+Yeah.
+
+Pierre, Joseph-Pascal  22:12
+the policy. And the policy in this diagram, if ever you want to refer to it, is, look, it's not detailed, but you see this is a token. And in the token, you have the scopes, you have the R codes, you could have the R codes, you have OSSID, let's say secure zone IDs.
+
+Sharma, Radhika  22:26
+Mhm.
+
+
+Pierre, Joseph-Pascal  22:34
+Today, you have scopes, groups, and secure zone IDs. The rest you don't necessarily have. So I'm adding more. Oracle, maybe it's no longer relevant for now, but policies, this would come. So this here in the token,
+Would be what you know I displayed here, you know, allow which user, parent or child, package, feature, and the permissions, so...
+And why is it better than before? Because today we still have scopes, right? We still have groups. Just that this statement...
+Doesn't come from Okta per se. It is added to Okta token, but Okta fetch it from FUM.
+You know, dynamically. So, when I, from a few more from Compassx, go and I say, "Hey, this user's log in, give me a token." So, I go and I query Okta, I said, "Get me a token for this guy." Okta goes has a logic, he has his, let's say, user group, which is more of a role thing, scope, which is would be now just about capability, so it's slowly changing things. OK, fine.
+
+Sharma, Radhika  23:25
+Okay.
+
+Pierre, Joseph-Pascal  23:46
+And he says, you know what, the additional details, so the faster changing things, let me go and get that information from FUM.
+And I have no idea what it is, but I just know that I am programmed to fetch that enrichment data from FUN. They don't need to sync it with me anymore. I just fetch it from them.
+
+Sharma, Radhika  24:14
+Mhm.
+
+Pierre, Joseph-Pascal  24:15
+And this is where I would get the policies. So FUM would host it, would enable the editing of these policies, et cetera. And then whenever Okta needs it, it just sends it back. And Okta doesn't do anything with it but add it to the token, and that's it. And then it's returned to FUM slash Compassx.
+And then we perform the access control. So yes, it's beyond the user group.
+But you see the mechanic now is I'm still leveraging Okta, it's just that Okta becomes just a shell.
+But that complexity is not handled anymore by Okta. It is handled by us and us alone. So hence, we gain scalability in many aspects. So if we want to introduce more complexities, let's say, in the access profile,
+we have more liberty to do so, right? The other aspect is how things gonna get assigned, you know? So there's all that user interface that need to be provided so you can write up policies in an easy manner, right? So this is where Alex would come into play, provide a user-friendly interface, you know, to do so.
+This is how things are going to get controlled. So that's the policy engine. So he needs to, yes, he's going to receive a token. And that token will contain a policy, right? So it gets into the API or it gets into FUM. FUM needs to be able to handle it. So it needs to go and say, okay, you have a policy. Okay, let me extract that piece.
+out of the token and let me interpret what it means. So I need a policy engine. So there's that integration as well. I have an engine that knows how to read the policy the way it has been formatted for our purposes. So that's the other aspects.
+I don't have time to dive further more, but I hope it gives you a better, broader perspective.
+
+Sharma, Radhika  26:17
+Yeah, it definitely does, and it increases my level of interest in this. Now, just about the policies themselves, are they, I guess, that the purpose of doing it this way is that there's a level of flexibility in terms of how a policy is constructed.
+
+Pierre, Joseph-Pascal  26:26
+Mhm.
+
+Sharma, Radhika  26:36
+right? Because in theory, you could construct the policies exactly how we construct the packages today. But there's also other ways to look at it now, perhaps.
+
+
+Pierre, Joseph-Pascal  26:37
+Yes.
+
+Oyemade, Obaloluwa  26:46
+I need it if I can help it so.
+
+Sharma, Radhika  26:50
+Okay. And then, so, I mean, just looking at this, I know, Candi, you said there's downstream impacts, of course. The one for me that comes at the top of my head is employee SSO, right? All of that would have had, would need to be reworked. Would there be anything else that kind of comes to mind, Candi?
+in terms of downstream impacts or upstream impacts.
+
+So, Candi  27:15
+Should we let Oba say something first? He raised his hand. Okay. Yeah, this is different. So what I was saying, multiple user group, it's, as I said, is in between 1.0 and 2.0, just to make sure that we can assign.
+
+Oyemade, Obaloluwa  27:19
+No, no, no, go ahead, go ahead, go ahead, Candi.
+
+Pierre, Joseph-Pascal  27:20
+Okay.
+
+So, Candi  27:35
+The multiple user group is still based on the Okta user group, but then the 2.0 is policy driven, and this one would be a bigger impact because, yeah, yeah, JP just mentioned about that, so...
+So those are very different. And I think the compromise or the cut down solution is what we call the one point X, is make sure that it's still user packages or user groups, but then we allow a person to be assigned to one.
+Multiple, and the biggest take away or checkpoint I see is to make sure that all the downstream they realize now the relationship between user and package or user and group could be multiple, so you have to be able to grab all.
+or grab whatever you need. So I think that's the regression and the code refactoring we have to do. But the 2.0 is evolution. So you changing the way, I know JP said is still user packages.
+But then the way you write into, you don't directly assign a person to a package, you assign them to the policy. And that's why we can control and cut down, scale it up more easily.
+And also keep making sure that the response wouldn't be too bad. So 2 concepts, similar approach, but then yeah, the 2.0 is a evolution, but the 1.x would be something can be.
+be scaled up better, but then also have the impact on the downstream. So yeah, correct me if I'm wrong, JP, but I think fundamentally different, even though it looks like the 1.x already can achieve some benefits for us.
+
+
+Pierre, Joseph-Pascal  29:51
+Yeah, it's fundamentally different.
+You talked about, Radhika, you asked about the SSO, employee SSO. So SSO in a sense, it won't change, right? SSO is, you're connecting to the bank's network, your identity is recognized by the application. You don't have to enter a second.
+login, you know, a second time. It's automatically supported. It understands that you've been connected by VPN or you're in the office or you're in the network and we know who you are digitally, digitally, I mean. IQ also, there won't be any change to IQ. IQ will still have, you know, that sync, you know, of
+profiles, you know, between them and us. That aspect won't change. The real thing that changes is how the policy is saved, or not the policy, how the access rights are saved. Today, it is saved. You know, I still had that, you see it in gray here, but
+
+Sharma, Radhika  31:01
+Yeah.
+
+Pierre, Joseph-Pascal  31:02
+I still have IQ talking to FUM. That doesn't change. And he talks through an API. And that's fine. Now, where is that saved? You know, all the accesses that I returned to IQ, where is it saved? Tomorrow it won't be saved the same way. Today it is saving the database in a certain format in tables.
+I just get fetch that information, collect it, save it into our format, and return it to IQ. Tomorrow, I can do this exact same thing into the same format. I send it back to IQ. So, to his perspective, no change, as long as he gets the data that he wants, right? But then, his hide...
+Ended up saving it.
+It would be in a policy store and no longer in tables, in separate tables. I would have in a file the complete view of an access profile for a given user. I don't have, it's not spread into 5 tables that I have resource assignment, firm assignments.
+Package assignments, you know, it's no longer separated this way. It's just all written down in a file format. So it's more of that aspect that gets changed, which to me is...
+It doesn't impact IQ, doesn't impact employee SSO, doesn't even impact the firm SSO, temporary SSO like Iis or some life, you know, with their own IDP. No change there.
+
+
+Sharma, Radhika  32:30
+Well, no, I think the reason that I'm saying is because I think you said that, like that sync between IQ and FUM, from how I understand it works a very amateur way, is IQ is actually sending information to FUM.
+
+Pierre, Joseph-Pascal  32:32
+Right.
+Mhm.
+
+Sharma, Radhika  32:48
+to say this is how you set up the user.
+
+Pierre, Joseph-Pascal  32:49
+Yes.
+True, so that's the matrix right that we worked with them.
+
+Sharma, Radhika  32:56
+Yeah, so if we, if converting to this policy-based model.
+Changes and.
+
+Pierre, Joseph-Pascal  33:05
+No, it doesn't change it, but image okay, okay.
+
+Sharma, Radhika  33:06
+It wouldn't change it because then because then I don't think this addresses the issues that I'm talking about.
+
+Pierre, Joseph-Pascal  33:12
+Then, then, then maybe maybe it changes because the access matrix what you you just talked about, right? It's we built that access matrix, right? And then we give it to IQ.
+
+Sharma, Radhika  33:22
+And it was built based on the packages.
+
+Pierre, Joseph-Pascal  33:24
+True, true. Now, if you end up playing with the packages differently, you would change that access matrix, right? So a voice would get assigned new things differently, right? So yes, there would be some rework required on IQ.
+But that's it's not directly because of F1 2.0, it's just it's more because you would change the packages, right? Which, yes.
+Because you have a new tool, a new toy in-house, you change the way you do things, and therefore IQ gets impacted by that indirectly, right? So in that perspective, yes. So is that what you want? Because it's going to simplify your life, at least on the IQ side.
+If so, okay, fine, I understand. But you understand that FUN 2.0 wasn't built and designed for IQ per se, but it was for the whole platform and give flexibility. So basically you would gain flexibility.
+
+Sharma, Radhika  34:20
+Mhm.
+
+Pierre, Joseph-Pascal  34:30
+into the way you package things up and who you assign it to. And therefore, yes, IQ would have to change a little bit what he does. But in his interaction with us, it could more or less be the same payload.
+You know, it's just that it got packaged differently, that's it.
+
+Sharma, Radhika  34:54
+Tel.
+
+Pierre, Joseph-Pascal  34:56
+But our point is the bulk of the changes or the work of efficient 2.0 is hidden from IQ, I would say, and those other parties. It's more within us, the mechanic of how we save the access profiles.
+and how we leverage the access rights and profiles into controlling the accesses. So these new components that comes into play to be able to...
+enterprise what's written in the policies. But yes, front-end wise.
+There will be changes, as, as a, as a, how do you say?
+And.
+Not entirely, but anyway, there will be changes, you understand, because you, you, you, in the backend, you do things differently.
+
+
+Sharma, Radhika  35:56
+Yeah. So I know that the way we interact with IAQ won't change, right? That won't change. But what information needs to be exchanged if we move away and redo our matrix to align with the policies, then...
+
+Pierre, Joseph-Pascal  36:01
+Mgmt.
+
+Sharma, Radhika  36:15
+there's work. And I guess the reason I'm calling it out as a dependency is, is that now something that needs to be considered as additional work to be able to implement from a user 2.0.
+
+Pierre, Joseph-Pascal  36:27
+No, because you see here, right? This is the get OK, get employee endpoint, but it's the same as.
+It's a boast.
+So, so it's them calling us, right? They want to create a new employee access profile. OK, so that's me who designed that. No, I didn't design it necessarily for 2.0, but I designed it at least from their perspective.
+But not coupled in or too much coupled in how we do things internally.
+So they provide first name, last name, e-mail, et cetera, then profile, short ID, and then some assignment. Okay, this feels like I feel 1.0 because it's assignment based. But what they provide in terms of information is generic.
+
+Sharma, Radhika  37:18
+It's the package part of it, JP. If we get rid of the packages in their current context.
+
+Pierre, Joseph-Pascal  37:19
+Each firm.
+Yeah.
+Mmh.
+
+Sharma, Radhika  37:26
+that's going to require us to work with IIQ to make some changes on their side. It's not the model that I'm saying is going to change or the interactions. I'm saying that there's going to be some work that we have to do with IIQ if we choose to go down this path. And that could just mean what information is exchanged, not how and any of that.
+
+
+Pierre, Joseph-Pascal  37:35
+Mhm.
+Okay, because...
+
+Oyemade, Obaloluwa  37:45
+Bharishi Gulbini Mukhi.
+
+Pierre, Joseph-Pascal  37:51
+Yep, this time.
+
+Sharma, Radhika  37:51
+If we change the packages, well, it needs to be reconfigured on the IdentityIQ side. So it's just from a, from a, I'm trying to figure out the bigger picture and how much effort we want to spend on this.
+
+Pierre, Joseph-Pascal  37:56
+Yeah.
+
+Sharma, Radhika  38:05
+considering we're still waiting for employees and so to work out properly.
+
+Pierre, Joseph-Pascal  38:05
+I understand.
+It's too bad I don't have the matrix. I thought I had that reference. We could have looked, but I think I understand because indeed you had, I think, 9 columns or 7, but anyway, a certain number of columns and combinations, right?
+
+Oyemade, Obaloluwa  38:11
+Posted.
+
+Sharma, Radhika  38:22
+Because that's my problem. My problem is I have to pick from the existing packages and every package has to be configured identically. Where I'm saying is I can't do that when I want to add a new team who can't conform to any of the 27 packages that we have. So it.
+
+Pierre, Joseph-Pascal  38:29
+Yes.
+
+Oyemade, Obaloluwa  38:31
+Sort of.
+
+Pierre, Joseph-Pascal  38:31
+Yes, yes.
+
+Oyemade, Obaloluwa  38:35
+I hope.
+
+Pierre, Joseph-Pascal  38:38
+Sure, sure, sure.
+
+Sharma, Radhika  38:41
+I think there's, again, I don't think the architecture changes, but I do think there's configuration changes we'd have to consider.
+
+Pierre, Joseph-Pascal  38:49
+I think that new matrix, let's say, that would work better with SG1 2.0, you're right. You need to have a good understanding of 2.0 to design that new matrix.
+
+Oyemade, Obaloluwa  38:50
+right now, one on those things.
+Filter anyways, click on the postage here.
+I do the link to Hossein.
+
+Pierre, Joseph-Pascal  39:04
+It's going to simplify your life, for sure, but still you need to have, yes, I agree, a good understanding of 2.0 so that you, and maybe that's going to be the selling point. You're going to say, hey, Ray, man, if I got this 2.0, here's how the matrix is going to look like. It's
+
+Sharma, Radhika  39:07
+Mhm.
+
+Oyemade, Obaloluwa  39:07
+No, no, we're very broad.
+No, Man.
+Don't have me.
+
+Pierre, Joseph-Pascal  39:24
+100 times better, faster, whatever. I'm getting this much. And then maybe he's going to say, OK, man.
+You got it?
+So I don't.
+
+
+Oyemade, Obaloluwa  39:36
+Will we?
+
+Sharma, Radhika  39:36
+Yeah.
+It's okay, we'll just call it out as maybe potential work on that side.
+
+Oyemade, Obaloluwa  39:43
+Okay.
+
+Sharma, Radhika  39:44
+as we evaluate whether we want to pivot over to 2.0.
+
+Pierre, Joseph-Pascal  39:49
+Yeah, and maybe that's the aspect I was mentioning, you know, this beyond the technical stuff to put in place in that six months estimate, you know, there was all that migration of data, so access metric would fall into that, you know, so I still need to revisit the estimate, and definitely in there you have a big...
+
+Oyemade, Obaloluwa  39:49
+Very.
+So now...
+
+Sharma, Radhika  40:02
+Mhm.
+
+Pierre, Joseph-Pascal  40:09
+Big part, you know, to play.
+
+Oyemade, Obaloluwa  40:13
+Whatever, whatever's on the actual account. Yes, sir. Thank you. So, just to also help in selling whatever decision, whatever approach you want to.
+
+Pierre, Joseph-Pascal  40:17
+Obaloluwa.
+
+Oyemade, Obaloluwa  40:32
+Um, Paula.
+We know that discovery for architectural design, if you're going to go from FM 1.0 to FM 1.X.
+
+Pierre, Joseph-Pascal  40:34
+Okay.
+
+Oyemade, Obaloluwa  40:44
+We have a target of this Friday.
+And design, initial UI design, review, refinement, a lot of those. We want to target another two weeks so that by the end of November, first week of December, we'll have something ready to share with the delivery team.
+If you want to...
+
+Pierre, Joseph-Pascal  41:07
+No deli video.
+To stakeholder.
+
+Oyemade, Obaloluwa  41:11
+to stakeholders and if they are okay with it, that means we can be ready to hand over.
+
+Pierre, Joseph-Pascal  41:19
+which would be January.
+
+Oyemade, Obaloluwa  41:19
+Technicon.
+Yes, okay.
+If we go the route of FP 1.0 to 2.0, based on what we currently have today, and JP, I know we've had several discussions and there are several designs or architectural drawings that we have to support it. How much discovery, how much?
+Time do you think we'll still meet?
+to arrive at a design.
+Architectural design.
+
+
+Pierre, Joseph-Pascal  41:58
+And...
+
+Oyemade, Obaloluwa  42:02
+This will also help Radhika and Ali, you know, with their decision.
+
+Pierre, Joseph-Pascal  42:02
+You know, it's, yeah, yeah.
+I'll make a joke, but you, you know, sometimes in politics, there are questions you should never answer. That's one. That's one of the... But I'm not a politician, so I'll say this much. Architecture was...
+
+Sharma, Radhika  42:14
+This is one of them.
+Yeah.
+
+Pierre, Joseph-Pascal  42:27
+was pretty much done. Okay. More or less like multi-frame, you know, it was pretty much done. I simply added a couple of details, make some choices, you know, so that implementation is achievable in the given time. So the 2.0 was well, well, well advanced.
+So not much on my side. Now with Radhika's comment, definitely access matrix, it would be important to revisit it. Okay, how it's because if let's say it complexify the access matrix, I doubt, but let's say it does. It's definitely a killer. You know, it's not going to be in support of.
+Two point O, so there's definitely something there to be done, so that I can't estimate, you know, the effort there, but at least the 2.0, the model itself, and all the technical details is already there, so...
+I can present it.
+So that the matrix can be estimated how much time it will take. OK, then there is the UX.
+
+Oyemade, Obaloluwa  43:37
+Ohh.
+
+Pierre, Joseph-Pascal  43:37
+That, that also wasn't done.
+So, that would fall on the Ali and Alex. So, once again, I can present the two point O, the back end stuff, the mechanic, how it would work, how I envision things, or at least I know how also, I don't know if you did mockups.
+
+Oyemade, Obaloluwa  43:44
+Mhm.
+He wants to be done and he wants him to go down.
+
+Pierre, Joseph-Pascal  44:02
+But anyway, we did discuss things, you know, so I can present this.
+And then it would be also that piece to be estimated by you guys. But my part, my part truly, it's almost done. I just have to present it maybe furthermore to Azizi, but it's more to cater to the wealth management.
+
+Oyemade, Obaloluwa  44:13
+So for FM 2.
+Oh.
+
+
+
+
+Pierre, Joseph-Pascal  44:27
+Aspect, then, then, and then NBIN alone, right? So, I don't know if you agree, Candi.
+
+Oyemade, Obaloluwa  44:40
+So, so before I let Candi speak, so sorry, just to help you understand, before a few more points X,
+We still need to do some design, architecture design, and then that will need to UI design, and then stakeholders review. But with that, we don't need access metrics rework.
+
+Pierre, Joseph-Pascal  45:08
+No, 1.x, no, no, this is just the 2.x, the 2.0.
+
+Oyemade, Obaloluwa  45:10
+What? Okay.
+So with 2.0 architecture is done.
+
+Pierre, Joseph-Pascal  45:15
+Mhm.
+
+Oyemade, Obaloluwa  45:19
+We just need almost done.
+
+Pierre, Joseph-Pascal  45:19
+Imost.
+
+Oyemade, Obaloluwa  45:23
+We just need Ali to understand the full concept of it, come up with a mock-up, start working with Alex, and then we also need Radhika to understand it so that she can know how to develop the access or repurpose or...
+Use the access metrics. I will not need the estimate from I.I.Q. on how to implement that.
+
+Pierre, Joseph-Pascal  45:44
+Mhm.
+
+Oyemade, Obaloluwa  45:51
+and also an estimate from our team on how to implement FP and 2.0.
+
+Pierre, Joseph-Pascal  45:57
+Mhm.
+
+Oyemade, Obaloluwa  45:59
+So outside of that, is there any other dependency? Do we need something from Darwin's team?
+
+Pierre, Joseph-Pascal  46:08
+For 2.0? No.
+
+Oyemade, Obaloluwa  46:10
+Yeah, for 2.0.
+
+Sharma, Radhika  46:12
+No, Darwin's team, we need Darwin for multi-firm.
+
+
+
+Pierre, Joseph-Pascal  46:12
+No.
+
+Oyemade, Obaloluwa  46:12
+Okay.
+
+Pierre, Joseph-Pascal  46:16
+Mhm, yes, for multi-frame, yes.
+
+Sharma, Radhika  46:17
+And that that converse both of these things need to this is why I'm saying it's we can't look at FNU 1.x 2.0 in isolation. We've got to look at.
+
+Oyemade, Obaloluwa  46:28
+Basically.
+
+Sharma, Radhika  46:31
+everything that needs to get done, including the multi-firm pieces in it. So let me and Ali take this away for now. We'll have a chat this afternoon to figure out, okay, what makes the most sense, and we'll probably, of course, from my side, you're going to get more of a business lens. Ali, I'll lean on you a little bit on the technical side of it, and Candi will bring you in.
+
+Oyemade, Obaloluwa  46:32
+Yeah.
+Mhm.
+Iis.
+Here's.
+
+Sharma, Radhika  46:53
+Just to understand some of the mechanics of how some of this might work, I'd like to come up with a solid plan. I don't like the idea of us piecemealing, looking at one thing at a time here and there to figure out our overall FNUM approach, let's say for the next, you know, 6 to 12 months.
+
+Oyemade, Obaloluwa  47:02
+Relax.
+Oss.
+Mhm.
+
+Sharma, Radhika  47:11
+we need to come up with something that is like more manageable and understanding the risks that come with every aspect of it. So I think I understand a lot of what you've shared now, JP. I'll probably consult, you know, yourself, Ali and Candi on any of the technicalities if I still am confused, but let us take it away for now, Oba. And
+will kind of process all this information and determine, you know, which direction we need to go in, because it's the same resources, it's the same, you know, impacts. There's just a lot to look at and we can't make decisions in isolation. So I'm not going to say we're pivoting to anything right now until I've seen the whole plan.
+
+
+
+
+Oyemade, Obaloluwa  47:39
+Listen, Sonika.
+Mhm.
+Yeah.
+Sounds good. So for tomorrow, for Discovery tomorrow, we still continue with as though we are working towards 1.X. We still engage that Wednesday. Tomorrow is going to be joining us at 1pm. But how long do you need to get back to us, Radhika?
+
+Sharma, Radhika  48:13
+We'll let you know by the end of the day after I chat with Ali. I'll let you know when I can have a decision for you by the end of the day.
+
+Oyemade, Obaloluwa  48:15
+Oh, fantastic.
+Fantastic, thank you so much.
+Okay.
+I think you have a plan.
+
+Pierre, Joseph-Pascal  48:28
+Huu.
+Oss.
+
+Oyemade, Obaloluwa  48:31
+Are we going to review the resources tomorrow as well? Assuming we're still solving for one point X?
+
+Pierre, Joseph-Pascal  48:39
+Resources for Marika's issue.
+
+Oyemade, Obaloluwa  48:45
+Radhika, yes, just to set the agenda for tomorrow.
+
+Pierre, Joseph-Pascal  48:47
+We can see, yeah, we should. If Darwin joins, maybe we can take 45 minutes with him. Top, you know, I don't think he needs an hour and a half. And then the rest, we can focus on the resource. See what, yeah. Okay.
+
+Sharma, Radhika  48:48
+And.
+
+Oyemade, Obaloluwa  48:57
+Mhm.
+Mhm.
+Okay, by resources, okay.
+
+Sharma, Radhika  49:05
+The one thing maybe I'll just ask is the definition and what a policy should include.
+
+Oyemade, Obaloluwa  49:06
+Alright.
+
+Sharma, Radhika  49:14
+Whose accountability is that or is it a shared accountability amongst all of us?
+Like, who decides how we use the policy?
+
+Pierre, Joseph-Pascal  49:24
+Who decides how or who decides what gets into who assigns?
+
+Sharma, Radhika  49:28
+Well, it gets into it.
+Yeah.
+
+Pierre, Joseph-Pascal  49:31
+So the only thing that, for instance, me, you know, I have no power, right? So the only thing, I'm just putting the structure is use the format. What gets in, I have no control. But at least you saw the template.
+
+
+harma, Radhika  49:38
+OK.
+
+Pierre, Joseph-Pascal  49:46
+That's the that's my responsibility, definitely. Where is it again?
+
+Sharma, Radhika  49:51
+Yeah, no, I remember what you showed there.
+
+Pierre, Joseph-Pascal  49:53
+Right, so, so, so that's it, but after that...
+Ahh.
+You know, he would decide what gets in.
+
+Sharma, Radhika  50:03
+Because I think that...
+
+Pierre, Joseph-Pascal  50:03
+Unless you say that you're missing some aspect here.
+
+Sharma, Radhika  50:08
+No, I think, I don't think so, but I also think it's too early for me to say anything there. The reason I'm saying this is because I think that affects any conversations we have about resources. Right, again, my commentary around problems with the packages and resources today is because of the package model that we have.
+And I understand packages are still part of the policy model, but the policy gives us more flexibility to choose whether we want to use that or not.
+
+Pierre, Joseph-Pascal  50:27
+Yeah, so...
+Exactly. So you're no longer bound because today you're bound, you're forced, you know, it has to fit, you know. If it doesn't fit, it's not supported anymore, right? So that's your issue. Where here is if you have a package that suits your needs for this user, fine, you assign it. You don't have to go resource by resource. But if you don't have, or you have additional,
+
+Sharma, Radhika  50:38
+Exactly.
+Yeah.
+
+Pierre, Joseph-Pascal  51:00
+then you can easily do it. Where today, you cannot, he has to fit in, you know. So this is why you're not, if you want to get rid of all packages, fine. I don't care, right? This doesn't have to be filled in.
+But the point is, if you have packages and let's say 80% of the people fit in.
+Fine, you have that. The other 20%?
+You do almost whatever you want here. You can simply list out resources if you want.
+Or I do a mix of both.
+
+Sharma, Radhika  51:39
+Okay. So then maybe for tomorrow's discussion, if we are going to talk about it, maybe this is what I'd like to unpack a little bit. And Candi, I don't know if you guys went down this enough already before, but if you did start thinking about what a package, how it would actually be, sorry, a policy would actually be constructed.
+Maybe even just going through an example of that and its outcome. And Candi, if you have anything that you've already looked at, then I think that would be part of what we can discuss tomorrow. Otherwise, we can try to figure it out together. Because I just, in my mind, I want to figure out, because part of it is making a decision of what that policy is going to contain.
+And that's also extra work and effort before we can commit to any decision or path.
+
+
+
+So, Candi  52:30
+No, we didn't specify anything on that, but I think JP, we can pull up, you know, you have the low fidelity mockup of how we can assign access. Yeah, yeah, that would be easy to understand. Yeah.
+
+Pierre, Joseph-Pascal  52:42
+Yeah, yeah, yeah.
+
+Sharma, Radhika  52:47
+Okay, so maybe we do that tomorrow.
+
+Pierre, Joseph-Pascal  52:48
+Where is some you talk about this?
+
+So, Candi  52:48
+Mhm.
+Yes, beautiful.
+
+Pierre, Joseph-Pascal  52:52
+Yeah.
+But there's a big warning for simply help visualize how policy would work out. You know, a disclaimer, you know, I'm not.
+
+So, Candi  53:04
+Not a true desire, sure, yeah.
+
+Sharma, Radhika  53:06
+Yeah, no, just the concept, that's fine.
+
+Pierre, Joseph-Pascal  53:06
+Yeah, exactly, exactly.
+
+So, Candi  53:08
+Yeah, but yeah, I know, yeah, just throw in my thoughts. Whatever we design in here, Radhika, we still need a way for client to request access. Now, we're not doing Uar, we need a replacement because we are decommissioning my request soon.
+
+Sharma, Radhika  53:09
+Okta.
+Exactly, yeah.
+
+So, Candi  53:30
+So I understand we want to pivot the priority and put aside the UAM, but then how do we assign that to people? I think that's one of the trace back, that's one of the reason why we move UAM above.
+multi firm. And then when I came back from vacation, I thought maybe we can do a slight version or light version of parent firm support the parent firm use case, and then some continue on the UAM work. So then we would have a wait for some advisor to subscribe.
+
+Pierre, Joseph-Pascal  53:51
+Mhm.
+
+So, Candi  54:10
+the need later on. So I think that's something I talk about in two weeks ago, but if we're doing the full French, moving on to the 2.0, even the 2.0, like last time we provide an estimate, six months. I know maybe we can cut it down.
+half by three months, but then still a concern of time to market and which one is a priority, uh, prerequisites to to which one, right?
+
+
+Sharma, Radhika  54:42
+Yeah, no, that's exactly it, Candi. And that's why I wanted to take that step back and look at all aspects of things that we need to solve for, recognizing that we can't do it all at once. But there's almost like a minimum version of everything that needs to come together for us to start working towards that
+scalable model. But in my head right now, I don't know what that is. So again, Ali and I will have a conversation. Candi will pull you in if we need to dive into anything deeper. And then hopefully by the end of the day, we have some, you know, based on, we might just need more discussions, Oba, but we hopefully can say,
+
+Pierre, Joseph-Pascal  55:04
+Yeah.
+
+Sharma, Radhika  55:21
+Okay, this is how much time we need to come to a decision and what we need to get there.
+
+Pierre, Joseph-Pascal  55:25
+Yeah.
+That's good thinking, Radhika. If you need my help, I'm always free, so reach out. Otherwise, Candi knows more. That's for sure, you know, and...
+
+Oyemade, Obaloluwa  55:30
+Hom.
+
+Sharma, Radhika  55:37
+Yeah, I just don't want to spin. I don't want us to make any assumptions in decision making if things are not clear. So we'll pull you guys in.
+
+Pierre, Joseph-Pascal  55:46
+Yeah.
+
+Oyemade, Obaloluwa  55:47
+Sounds good.
+Thank you, everyone. Enjoy your lunch.
+
+Sharma, Radhika  55:50
+Okay.
+Thank you. Talk to you guys later. Bye.
+
+Pierre, Joseph-Pascal  55:51
+Thank you.
+Bye.
+
+Oyemade, Obaloluwa  55:54
+Oh, Wahab.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

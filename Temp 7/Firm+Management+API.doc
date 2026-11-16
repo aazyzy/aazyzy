@@ -1,0 +1,984 @@
+Date: Wed, 9 Sep 2026 12:25:29 -0400 (EDT)
+Message-ID: <1893918037.16703.1788971129016@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16702_1168256826.1788971129016"
+
+------=_Part_16702_1168256826.1788971129016
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Firm Management API</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Firm Management API</h1>
+    <div class=3D"Section1">
+        <p>
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788971129002 {padding: 0px;}
+div.rbtoc1788971129002 ul {margin-left: 0px;}
+div.rbtoc1788971129002 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1788971129002">
+ <ul class=3D"toc-indentation">
+  <li><a href=3D"#FirmManagementAPI-APIOverview">API Overview</a></li>
+  <li><a href=3D"#FirmManagementAPI-Scope">Scope</a></li>
+  <li><a href=3D"#FirmManagementAPI-Personas">Personas</a></li>
+  <li><a href=3D"#FirmManagementAPI-Resources">Resources</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#FirmManagementAPI-StateTransition">State Transition</a>=
+</li>
+    <li><a href=3D"#FirmManagementAPI-FM1">FM1</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM2">FM2</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM3">FM3</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM4">FM4</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM5">FM5</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM6">FM6</a></li>
+    <li><a href=3D"#FirmManagementAPI-FM7">FM7</a></li>
+   </ul></li>
+  <li><a href=3D"#FirmManagementAPI-ErrorHandling-DetailsforAPIErrorHandlin=
+g">Error Handling - Details for API Error Handling</a></li>
+  <li><a href=3D"#FirmManagementAPI-Non-FunctionalRequirements">Non-Functio=
+nal Requirements</a>
+   <ul class=3D"toc-indentation">
+    <li><a href=3D"#FirmManagementAPI-ExpectedVolumes">Expected Volumes</a>=
+</li>
+    <li><a href=3D"#FirmManagementAPI-Performance">Performance</a></li>
+    <li><a href=3D"#FirmManagementAPI-Caching">Caching</a></li>
+    <li><a href=3D"#FirmManagementAPI-Logging">Logging</a></li>
+   </ul></li>
+  <li><a href=3D"#FirmManagementAPI-Namespaces">Namespaces</a></li>
+  <li><a href=3D"#FirmManagementAPI-LinkstoArchitectureDocs">Links to Archi=
+tecture Docs</a></li>
+  <li><a href=3D"#FirmManagementAPI-OpenAPISwagger">OpenAPI Swagger</a></li=
+>
+ </ul>
+</div>
+<p></p>
+<h2 id=3D"FirmManagementAPI-APIOverview">API Overview</h2>
+<div class=3D"plugin-tabmeta-details">
+ <div class=3D"table-wrap">
+  <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 4=
+1.3832%;">
+   <colgroup>
+    <col style=3D"width: 15.7738%;">
+    <col style=3D"width: 16.9872%;">
+    <col style=3D"width: 28.312%;">
+    <col style=3D"width: 22.9192%;">
+    <col style=3D"width: 31.8172%;">
+    <col style=3D"width: 35.3225%;">
+    <col style=3D"width: 31.0083%;">
+    <col style=3D"width: 33.9743%;">
+    <col style=3D"width: 17.9309%;">
+   </colgroup>
+   <tbody>
+    <tr>
+     <th class=3D"confluenceTh">API</th>
+     <th class=3D"confluenceTh">BCM</th>
+     <th class=3D"confluenceTh">Functions</th>
+     <th class=3D"confluenceTh">Version</th>
+     <th class=3D"confluenceTh">Description</th>
+     <th class=3D"confluenceTh">Status</th>
+     <th class=3D"confluenceTh">Consumers</th>
+     <th class=3D"confluenceTh">Books of Record (BoR)</th>
+     <th class=3D"confluenceTh">Git Repo</th>
+    </tr>
+    <tr>
+     <td class=3D"confluenceTd">Firm API</td>
+     <td class=3D"confluenceTd"><br></td>
+     <td class=3D"confluenceTd">
+      <ul>
+       <li>Get firm data</li>
+       <li>Add/ Modify firm data</li>
+      </ul></td>
+     <td class=3D"confluenceTd">1.14.x</td>
+     <td class=3D"confluenceTd">Business API to retrieve and maintain firm =
+and firm hierarchy information.</td>
+     <td class=3D"confluenceTd">
+      <div class=3D"content-wrapper">
+       <p><span class=3D"status-macro aui-lozenge aui-lozenge-success">IN P=
+ROD</span></p>
+      </div></td>
+     <td class=3D"confluenceTd">NBIN</td>
+     <td class=3D"confluenceTd">Firm360</td>
+     <td class=3D"confluenceTd"><a class=3D"external-link" href=3D"https://=
+git.bnc.ca/projects/APP6900/repos/firm-management-api/browse" rel=3D"nofoll=
+ow">https://git.bnc.ca/projects/APP6900/repos/firm-management-api/browse</a=
+></td>
+    </tr>
+   </tbody>
+  </table>
+ </div>
+</div>
+<h2 id=3D"FirmManagementAPI-Scope">Scope</h2>
+<ul>
+ <li>TBD</li>
+</ul>
+<h2 id=3D"FirmManagementAPI-Personas">Personas</h2>
+<ul>
+ <li>TBD</li>
+</ul>
+<h2 id=3D"FirmManagementAPI-Resources">Resources</h2>
+<div role=3D"region" aria-label=3D"Info" class=3D"confluence-information-ma=
+cro  confluence-information-macro-information">
+ <p class=3D"title conf-macro-render">Base Path</p><span role=3D"presentati=
+on" class=3D"aui-icon aui-icon-small aui-iconfont-info-filled confluence-in=
+formation-macro-icon"></span>
+ <div class=3D"confluence-information-macro-body">
+  <p><span style=3D"color:#172b4d;">/partner-customer-information</span></p=
+>
+ </div>
+</div>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable">
+  <colgroup>
+   <col style=3D"width: 47.0px;">
+   <col style=3D"width: 221.0px;">
+   <col style=3D"width: 221.0px;">
+   <col style=3D"width: 74.0px;">
+   <col style=3D"width: 232.0px;">
+   <col style=3D"width: 253.0px;">
+   <col style=3D"width: 253.0px;">
+   <col style=3D"width: 206.0px;">
+   <col style=3D"width: 206.0px;">
+   <col style=3D"width: 139.0px;">
+   <col style=3D"width: 139.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">API Ref</th>
+    <th class=3D"confluenceTh">Implemented<br>
+      :tick:, :warning: or :cross:</th>
+    <th class=3D"confluenceTh">Title</th>
+    <th class=3D"confluenceTh">Method</th>
+    <th class=3D"confluenceTh">Resource (not specific to language)</th>
+    <th class=3D"confluenceTh">Input(s)</th>
+    <th class=3D"confluenceTh">Output</th>
+    <th class=3D"confluenceTh">Description (include business logic)</th>
+    <th class=3D"confluenceTh">
+     <h4 id=3D"FirmManagementAPI-StateTransition">State Transition</h4></th=
+>
+    <th class=3D"highlight-#deebff confluenceTh" data-highlight-colour=3D"#=
+deebff" title=3D"Background color : Light blue 35%">Permission</th>
+    <th style=3D"text-align: center;" class=3D"confluenceTh">System Token<b=
+r>
+      ()</th>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM1">FM1</h4></td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">Onboarding</td>
+    <td class=3D"confluenceTd">POST</td>
+    <td class=3D"confluenceTd">/firms</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+       <div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+        <b class=3D"code-title"></b><span class=3D"collapse-source expand-c=
+ontrol" style=3D"display:none;"><span class=3D"expand-control-icon icon">&n=
+bsp;</span><span class=3D"expand-control-text">Expand source</span></span><=
+span class=3D"collapse-spinner-wrapper"></span>
+       </div>
+       <div class=3D"codeContent panelContent pdl hide-toolbar">
+        <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=
+=3D"brush: js; gutter: false; collapse: true">{
+  "firmId" : "",
+  "brokerCode" : "",
+  "bNumber" : "",
+  "dealerCode" : "",
+  "legalEntityIdentifier" : "",
+  "name" : "",
+  "type" : "",
+  "description" : "",
+  "parentFirmId" : "",
+  "preferredLanguage" : "",
+  "rr-ranges" : [
+    {
+      "from-rr-code" : "",
+      "to-rr-code" : ""
+    }
+  ],
+  "feature-package" : {
+    "packageTemplateId" : 1,
+    "assignments" : [
+      {
+        "assignmentId" : 2,
+        "selected" : true
+      }
+    ]
+  }
+}</pre>
+       </div>
+      </div>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <ul style=3D"list-style-type: square;">
+      <li>firm id</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>The firm will be added as state=3Donboarded and active=3Dfalse</p>
+     <p>State Transition -&nbsp;<a href=3D"/spaces/NA/pages/1336995931/Mana=
+ge+Firm#ManageFirm-1">Manage Firm#1</a></p></td>
+    <td class=3D"confluenceTd">pcm:edit_firm</td>
+    <td style=3D"text-align: center;" class=3D"confluenceTd">:tick:</td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM2">FM2</h4></td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">Update</td>
+    <td class=3D"confluenceTd">PUT</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+       <div class=3D"codeHeader panelHeader pdl hide-border-bottom">
+        <b class=3D"code-title"></b><span class=3D"collapse-source expand-c=
+ontrol" style=3D"display:none;"><span class=3D"expand-control-icon icon">&n=
+bsp;</span><span class=3D"expand-control-text">Expand source</span></span><=
+span class=3D"collapse-spinner-wrapper"></span>
+       </div>
+       <div class=3D"codeContent panelContent pdl hide-toolbar">
+        <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=
+=3D"brush: js; gutter: false; collapse: true">{
+  "brokerCode" : "",
+  "bNumber" : "",
+  "dealerCode" : "",
+  "legalEntityIdentifier" : "",
+  "name" : "",
+  "type" : "",
+  "description" : "",
+  "parentFirmId" : "",
+  "preferredLanguage" : "",
+  "rr-ranges" : [
+    {
+      "from-rr-code" : "",
+      "to-rr-code" : ""
+    }
+  ],
+  "feature-package" : {
+    "packageTemplateId" : 1,
+    "assignments" : [
+      {
+        "assignmentId" : 2,
+        "selected" : true
+      }
+    ]
+  }
+}</pre>
+       </div>
+      </div>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <p>If state =3D decommissioned then 410</p>
+     <p>else 204 OK</p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">If the firm has a feature package and state=
+=3Donboarded then&nbsp;<br>
+      update as per State Transition - <a href=3D"/spaces/NA/pages/13369959=
+31/Manage+Firm#ManageFirm-2">Manage Firm#2</a></td>
+    <td class=3D"confluenceTd">pcm:edit_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM3">FM3</h4></td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">Get firm info by firm ID</td>
+    <td class=3D"confluenceTd">GET</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}?hierarchy=3Dtrue</td>
+    <td class=3D"confluenceTd">
+     <ul title=3D"">
+      <li>access-token</li>
+      <li>firm-id</li>
+      <li>hierarchy - defaulted to false</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <ul>
+       <li>Firm</li>
+      </ul>
+      <p>If state =3D decommissioned then 410</p>
+      <p>else 200 OK</p>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p>How to inherit access by parent firm type and/or role :question:&n=
+bsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">pcm:view_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"FirmManagementAPI-FM4">FM4</h4></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Search</td>
+    <td class=3D"confluenceTd">POST</td>
+    <td class=3D"confluenceTd">/firms/search</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p><a href=3D"/spaces/NA/pages/1448453732/Search+Sorting+and+Filterin=
+g">Search, Sorting and Filtering</a></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p><a href=3D"/spaces/NA/pages/1448453732/Search+Sorting+and+Filterin=
+g">Search, Sorting and Filtering</a></p>
+     </div></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">pcm:view_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM5">FM5</h4></td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">Activate/Deactivate<br>
+      Partial update</td>
+    <td class=3D"confluenceTd">PATCH</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}</td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper">
+      <p>request&nbsp; body</p>
+      <div class=3D"code panel pdl" style=3D"border-width: 1px;">
+       <div class=3D"codeContent panelContent pdl">
+        <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=
+=3D"brush: java; gutter: false">{ "status": "active / inactive"
+}</pre>
+       </div>
+      </div>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">if status =3D inactive, mark the firm and it=
+'s RR ranges as active =3D false. Refer firm's state transition.</td>
+    <td class=3D"confluenceTd">
+     <p>update as per State Transition -</p>
+     <p>activation - <a href=3D"/spaces/NA/pages/1336995931/Manage+Firm#Man=
+ageFirm-3">Manage Firm#3</a></p>
+     <p>de-activation - <a href=3D"/spaces/NA/pages/1336995931/Manage+Firm#=
+ManageFirm-4">Manage Firm#4</a></p></td>
+    <td class=3D"confluenceTd">pcm:edit_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM6">FM6</h4></td>
+    <td class=3D"confluenceTd">:tick:</td>
+    <td class=3D"confluenceTd">Off-boarding</td>
+    <td class=3D"confluenceTd">DELETE</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>firm-id</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>200 OK if the status is inactive</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <p><s>if state=3Dinactive and status_last_updated is more than 7 years=
+, delete the firm, RR ranges and all it's associations.</s></p></td>
+    <td class=3D"confluenceTd">
+     <p>update as per State Transition - <a href=3D"/spaces/NA/pages/133699=
+5931/Manage+Firm#ManageFirm-7">Manage Firm#7</a></p></td>
+    <td class=3D"confluenceTd">pcm:edit_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"highlight-#e3fcef confluenceTd" data-highlight-colour=3D"#=
+e3fcef" title=3D"Background color : Light green 35%">
+     <h4 id=3D"FirmManagementAPI-FM7">FM7</h4></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Get archived firm info by firm ID</td>
+    <td class=3D"confluenceTd">GET</td>
+    <td class=3D"confluenceTd">/firms/archive/{firm-id}?hierarchy=3Dtrue</t=
+d>
+    <td class=3D"confluenceTd">
+     <ul title=3D"">
+      <li>access-token</li>
+      <li>firm-id</li>
+      <li>hierarchy - defaulted to false</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <ul>
+       <li>Firm</li>
+      </ul>
+      <p>If state =3D decommissioned</p>
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p>How to inherit access by parent firm type and/or role :question:&n=
+bsp;</p>
+     </div></td>
+    <td class=3D"confluenceTd">
+     <div class=3D"content-wrapper" title=3D"">
+      <p><br></p>
+     </div></td>
+    <td class=3D"confluenceTd">pcm:manage_firm</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Get branches of a firm</td>
+    <td class=3D"confluenceTd">GET</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}/branches</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>firm-id</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>List of FirmBranch</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Get details of a branch id at a given firm</=
+td>
+    <td class=3D"confluenceTd">GET</td>
+    <td class=3D"confluenceTd">/firms/{firm-id}/{branch-id}</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>firm-id</li>
+      <li>branch-id</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>FirmBranch</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Search for a branch</td>
+    <td class=3D"confluenceTd">POST</td>
+    <td class=3D"confluenceTd">&nbsp;/firms/branches/search</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>Search payload=20
+       <p style=3D"text-align: left;"><br></p>
+       <p style=3D"text-align: left;">{</p>
+       <p style=3D"text-align: left;">&nbsp; &nbsp; &nbsp;// TBD</p>
+       <p style=3D"text-align: left;">}</p></li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>List of FirmBranch</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">:cross:</td>
+    <td class=3D"confluenceTd">Delete a branch</td>
+    <td class=3D"confluenceTd">DELETE</td>
+    <td class=3D"confluenceTd">&nbsp;/firms/{firm-id}/{branch-id}</td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>firm-id</li>
+      <li>branch-id</li>
+     </ul></td>
+    <td class=3D"confluenceTd">
+     <ul>
+      <li>200 OK / non-200 for failure</li>
+     </ul></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"FirmManagementAPI-ErrorHandling-DetailsforAPIErrorHandling">Error=
+ Handling -&nbsp;<a href=3D"/spaces/NBINDM/pages/2254868269/API+Error+Handl=
+ing">Details for API Error Handling</a></h2>
+<p></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 53=
+.9676%;">
+  <colgroup>
+   <col style=3D"width: 15.935%;">
+   <col style=3D"width: 16.4228%;">
+   <col style=3D"width: 14.5528%;">
+   <col style=3D"width: 41.2195%;">
+   <col style=3D"width: 11.8699%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Title</th>
+    <th class=3D"confluenceTh">Response Code</th>
+    <th colspan=3D"1" class=3D"confluenceTh">Error Code</th>
+    <th colspan=3D"1" class=3D"confluenceTh">Error Message (EN)</th>
+    <th colspan=3D"1" class=3D"confluenceTh">Error Message (FR)</th>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Bad Request</td>
+    <td colspan=3D"1" class=3D"confluenceTd">400</td>
+    <td colspan=3D"1" class=3D"confluenceTd">
+     <p>see error code table&nbsp;</p></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color:#172b4d;"=
+>Bad Request</span></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Access Denied</td>
+    <td class=3D"confluenceTd">401</td>
+    <td colspan=3D"1" class=3D"confluenceTd">401</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color:#172b4d;"=
+>You are unauthorized to access this resource. Please log in</span></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Forbidden</td>
+    <td colspan=3D"1" class=3D"confluenceTd">403</td>
+    <td colspan=3D"1" class=3D"confluenceTd">403</td>
+    <td colspan=3D"1" class=3D"confluenceTd">User/account is not authorized=
+</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Resource not found</td>
+    <td colspan=3D"1" class=3D"confluenceTd">404</td>
+    <td colspan=3D"1" class=3D"confluenceTd">404</td>
+    <td colspan=3D"1" class=3D"confluenceTd">The url of the endpoint does n=
+ot exist</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Method not allowed</td>
+    <td colspan=3D"1" class=3D"confluenceTd">405</td>
+    <td colspan=3D"1" class=3D"confluenceTd">405</td>
+    <td colspan=3D"1" class=3D"confluenceTd">The requested method is not su=
+pported by target resource</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Not Acceptable</td>
+    <td colspan=3D"1" class=3D"confluenceTd">406</td>
+    <td colspan=3D"1" class=3D"confluenceTd">406</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Validation error</td>
+    <td class=3D"confluenceTd">422</td>
+    <td colspan=3D"1" class=3D"confluenceTd">see error code table</td>
+    <td colspan=3D"1" class=3D"confluenceTd">&lt;Display validation message=
+&gt;</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Unexpected server error</td>
+    <td class=3D"confluenceTd">500</td>
+    <td colspan=3D"1" class=3D"confluenceTd">500</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color:#172b4d;"=
+>Internal Sever Error</span></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">Service unavailable</td>
+    <td colspan=3D"1" class=3D"confluenceTd">503</td>
+    <td colspan=3D"1" class=3D"confluenceTd">503</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color:#172b4d;"=
+>Service Unavailable</span></td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p></p>
+<p><br></p>
+<h2 id=3D"FirmManagementAPI-Non-FunctionalRequirements">Non-Functional Requ=
+irements</h2>
+<div id=3D"expander-1011033117" class=3D"expand-container">
+ <div id=3D"expander-control-1011033117" class=3D"expand-control">
+  <button type=3D"button" id=3D"expand-button-1011033117" class=3D"aui-butt=
+on aui-button-link aui-button-link-icon-text" aria-expanded=3D"true" aria-c=
+ontrols=3D"expander-content-1011033117"><span class=3D"expand-icon aui-icon=
+ aui-icon-small aui-iconfont-chevron-down" aria-hidden=3D"true"></span><spa=
+n class=3D"expand-control-text conf-macro-render">NFRs</span></button>
+ </div>
+ <div role=3D"region" id=3D"expander-content-1011033117" class=3D"expand-co=
+ntent" aria-labelledby=3D"expand-button-1011033117">
+  <h3 id=3D"FirmManagementAPI-ExpectedVolumes"><strong>Expected Volumes</st=
+rong></h3>
+  <p><br></p>
+  <h3 id=3D"FirmManagementAPI-Performance"><strong>Performance</strong></h3=
+>
+  <p><br></p>
+  <h3 id=3D"FirmManagementAPI-Caching"><strong>Caching</strong></h3>
+  <p><br></p>
+  <h3 id=3D"FirmManagementAPI-Logging"><strong>Logging</strong></h3>
+ </div>
+</div>
+<p><br></p>
+<h2 id=3D"FirmManagementAPI-Namespaces">Namespaces</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">Environment</th>
+    <th class=3D"confluenceTh">Swagger URL</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">DEV</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">QA</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">UAT</td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td colspan=3D"1" class=3D"confluenceTd">PROD</td>
+    <td colspan=3D"1" class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"FirmManagementAPI-LinkstoArchitectureDocs">Links to Architecture =
+Docs</h2>
+<p><a href=3D"/spaces/NA/pages/1097763182/Firm+and+User+Management+FUM">Fir=
+m and User Management (FUM)</a></p>
+<h2 id=3D"FirmManagementAPI-OpenAPISwagger">OpenAPI Swagger</h2>(Open API d=
+ocumentation is only available to view online)=20
+<p><br></p>
+<p><br></p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_16702_1168256826.1788971129016--

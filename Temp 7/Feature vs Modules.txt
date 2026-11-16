@@ -1,0 +1,52 @@
+Feature vs Modules - what is the difference? why are each needed?
+ 
+ 
+A Module is a logical functional area within a software platform that supports a specific job to be done for a user. Modules represent reusable business capabilities that can be implemented consistently across one or more systems, products, or channels. A module defines what business outcome is being achieved, independent of how it is implemented.
+Characteristics
+Business-oriented and technology-agnostic
+Represents a segment of a broader capability
+Organized around a user job to be done
+Can have multiple implementations across systems
+Often contains one or more related features
+Example
+Capability: Client Lifecycle Management
+Module: Onboarding
+Job to be Done: Create and activate a new client relationship
+Feature
+A Feature is a specific implementation of a module within a particular application, product, or system. Features define how the module is delivered to users and include the workflows, interfaces, rules, and functionality required to perform the underlying job to be done.
+Characteristics
+System-specific implementation
+User-facing functionality
+May vary between products while supporting the same module
+Delivers one or more use cases within a module
+Can be enabled, licensed, or managed independently
+Example
+Module: Onboarding
+Feature: Intelligent Form-Based Onboarding
+System: Compass CX
+Description: A guided onboarding workflow that collects client information through dynamic forms, validates data in real time, and submits the account for processing.
+Relationship
+ 
+Capability
+
+    └── Module
+
+            └── Feature
+ 
+Example Hierarchy
+ 
+Client Lifecycle Management (Capability)
+
+    └── Onboarding (Module)
+
+            ├── Intelligent Form-Based Onboarding (Feature)
+
+            ├── Bulk Import Onboarding (Feature)
+
+            └── Advisor-Assisted Onboarding (Feature)
+ 
+Concise Definitions
+Module: A reusable business function within a platform that enables users to complete a specific job to be done as part of a broader capability.
+Feature: A system-specific implementation of a module that provides the workflows, functionality, and user experience required to perform that job within a particular application.
+ 
+In the UAR a user requests a module that includes all the features but the firm settings determines which feature they get.

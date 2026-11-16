@@ -1,0 +1,659 @@
+Date: Wed, 9 Sep 2026 12:26:34 -0400 (EDT)
+Message-ID: <381118971.17267.1788971194302@ip-10-50-203-243.ca-central-1.compute.internal>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_17266_137539087.1788971194302"
+
+------=_Part_17266_137539087.1788971194302
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Bulk Management API</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Bulk Management API</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"BulkManagementAPI-/*<![CDATA[*/div.rbtoc1788971194295{pad=
+ding:0px;}div.rbtoc1788971194295ul{margin-left:0px;}div.rbtoc1788971194295l=
+i{margin-left:0px;padding-left:0px;}/*]]>*/#BulkManagementAPI-APIOverview#B=
+ulkManagementAPI-APIOverviewDatabaseschema#BulkM">
+ <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1788971194295 {padding: 0px;}
+div.rbtoc1788971194295 ul {margin-left: 0px;}
+div.rbtoc1788971194295 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+ <div class=3D"toc-macro rbtoc1788971194295">
+  <ul class=3D"toc-indentation">
+   <li><a href=3D"#BulkManagementAPI-"></a></li>
+   <li><a href=3D"#BulkManagementAPI-APIOverview">API Overview</a></li>
+   <li><a href=3D"#BulkManagementAPI-Databaseschema">Database schema</a></l=
+i>
+   <li><a href=3D"#BulkManagementAPI-Resources">Resources</a>
+    <ul class=3D"toc-indentation">
+     <li><a href=3D"#BulkManagementAPI-BMA1">BMA1</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA2">BMA2</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA3">BMA3</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA4">BMA4</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA5">BMA5</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA6">BMA6</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA7">BMA7</a></li>
+     <li><a href=3D"#BulkManagementAPI-BMA8">BMA8</a></li>
+    </ul></li>
+  </ul>
+ </div></h2>
+<h2 id=3D"BulkManagementAPI-APIOverview">API Overview</h2>
+<p><a class=3D"external-link" href=3D"https://nbin.wealth-tu.apis.bnc.ca/bu=
+lk-management-api/swagger-ui/index.html" rel=3D"nofollow">https://nbin.weal=
+th-tu.apis.bnc.ca/bulk-management-api/swagger-ui/index.html</a></p>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 12=
+29.11px;">
+  <colgroup>
+   <col style=3D"width: 106.953px;">
+   <col style=3D"width: 105.32px;">
+   <col style=3D"width: 120.75px;">
+   <col style=3D"width: 77.9688px;">
+   <col style=3D"width: 106.953px;">
+   <col style=3D"width: 107.0px;">
+   <col style=3D"width: 104.516px;">
+   <col style=3D"width: 110.445px;">
+   <col style=3D"width: 388.203px;">
+  </colgroup>
+  <thead>
+   <tr>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+    <th style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Th">
+     <p><br></p></th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Bulk Management API</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><span style=3D"text-decoration: none;color:#172b4d;">Access Control</sp=
+an></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <ul>
+      <li>Support the bulk creation of user profiles in compassX</li>
+      <li>Bulk Update system settings</li>
+      <li>Export Users</li>
+     </ul></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td"><br></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">Application API to support the bulk creation of user profiles in compas=
+sX</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <div class=3D"content-wrapper">
+      <p><br></p>
+     </div></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">NBIN</td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>NBIN IAM DB (PostGreSQL)</p></td>
+    <td style=3D"text-align: left;vertical-align: top;" class=3D"confluence=
+Td">
+     <p>This api is expected to service the requirements to store and retri=
+eve files in a database or S3 store.</p>
+     <p>It will send Kafka requests as well&nbsp;</p>
+     <p><br></p></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<h2 id=3D"BulkManagementAPI-Databaseschema">Database schema</h2>
+<p><br></p>
+<div class=3D"rwui_expandable_item ">
+ <button class=3D"rwui_expandable_item_title rwui_expand" role=3D"button" o=
+nclick=3D"RWUI.toggleExpandItem(this, event);" id=3D"rwui_expand-DBSchema" =
+data-hash=3D"expand-DBSchema" aria-expanded=3D"false">
+  <div class=3D"rwui_item_icon rw_external_icon_plus"></div> DB Schema</but=
+ton>
+ <div class=3D"rwui_expandable_item_body rwui_body">
+  <div class=3D"table-wrap">
+   <table class=3D"wrapped confluenceTable">
+    <colgroup>
+     <col>
+     <col>
+     <col>
+    </colgroup>
+    <tbody>
+     <tr>
+      <th class=3D"confluenceTh"><span style=3D"color:#172b4d;">BULK_UPLOAD=
+</span></th>
+      <th class=3D"confluenceTh"><span style=3D"color:#172b4d;">BULK_UPLOAD=
+_DETAILS</span></th>
+      <th class=3D"confluenceTh"><span style=3D"color:#172b4d;">BULK_UPLOAD=
+_TEMPLATE</span></th>
+     </tr>
+     <tr>
+      <td class=3D"confluenceTd">
+       <ul style=3D"text-align: left;">
+        <li>bulk_upload_id</li>
+        <li>batch_id</li>
+        <li>bulk_upload_template_id</li>
+        <li>document_id</li>
+        <li>status</li>
+        <li>total_records</li>
+        <li>total_success</li>
+        <li>total_failed</li>
+        <li>total_pending</li>
+        <li>created_date</li>
+        <li>created_by</li>
+        <li>updated_date</li>
+        <li>updated_by</li>
+        <li>generated_audit_id</li>
+       </ul></td>
+      <td class=3D"confluenceTd">
+       <ul style=3D"text-align: left;">
+        <li>bulk_upload_details_id</li>
+        <li>bulk_upload_id</li>
+        <li>status</li>
+        <li>request</li>
+        <li>response</li>
+        <li>created_by</li>
+        <li>created_date</li>
+        <li>updated_by</li>
+        <li>updated_date</li>
+       </ul></td>
+      <td class=3D"confluenceTd">
+       <ul style=3D"text-align: left;">
+        <li>bulk_upload_template_id</li>
+        <li>template_name</li>
+        <li>document_id</li>
+        <li>config_json</li>
+        <li>created_date</li>
+        <li>created_by</li>
+        <li>updated_date</li>
+        <li>updated_by</li>
+        <li>plugin_url</li>
+       </ul></td>
+     </tr>
+    </tbody>
+   </table>
+  </div>&nbsp;
+ </div>
+</div>
+<p><br></p>
+<h2 id=3D"BulkManagementAPI-Resources">Resources</h2>
+<p><br></p>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 98=
+.2466%;">
+  <colgroup>
+   <col style=3D"width: 4.34289%;">
+   <col style=3D"width: 17.3037%;">
+   <col style=3D"width: 20.1537%;">
+   <col style=3D"width: 22.0538%;">
+   <col style=3D"width: 19.2037%;">
+   <col style=3D"width: 7.87149%;">
+   <col style=3D"width: 9.02508%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <th class=3D"confluenceTh">REF</th>
+    <th class=3D"confluenceTh">Endpoint</th>
+    <th class=3D"confluenceTh">Description</th>
+    <th class=3D"confluenceTh">Request</th>
+    <th class=3D"confluenceTh">Response</th>
+    <th class=3D"confluenceTh">Access control(User)</th>
+    <th class=3D"confluenceTh">Access control(system)</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA1">BMA1</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">GET /bulk-management-api/templates/{=
+name}/file</span></p>
+     <p><span style=3D"color:#172b4d;">name<span style=3D"color:#172b4d;"><=
+br>
+         is one of TEMPLATE_NAME in BULK_UPLOAD_TEMPLATE table</span></span=
+></p></td>
+    <td class=3D"confluenceTd">
+     <p>Download template endpoint</p>
+     <p>Returns a template file<br><br></p>
+     <ol style=3D"text-align: left;">
+      <li>Find record in "IAM_V2"."BULK_UPLOAD_TEMPLATE" where "TEMPLATE_NA=
+ME" =3D {name}. Return 404 error if not found.</li>
+      <li>Read "CONFIG_JSON" column</li>
+      <li>Use "fileFormat" and "headerNames"<br>
+        &nbsp;to generate and send file back</li>
+      <li>Filename in content disposition: {name} + "." + fileFormat&nbsp;<=
+/li>
+     </ol></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json</code></pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type: text/csv/json<br><br>{name} + "=
+." + fileFormat<br><br>404 If name is not found<br><br><br></pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA2">BMA2</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">POST /bulk-management-api/files/{tem=
+plate-name}?firmId=3Dbla</span></p>
+     <p><span style=3D"color:#172b4d;">template-name<span style=3D"color:#1=
+72b4d;"><br>
+         is one of TEMPLATE_NAME in BULK_UPLOAD_TEMPLATE table<br><br>
+         firmId is firm the file uploaded for</span></span></p></td>
+    <td class=3D"confluenceTd">
+     <p>Uploads File for bulk management</p>
+     <p>template-name: <span style=3D"color:#172b4d;">USER-UPDATE-NBIN</spa=
+n></p></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type: multipart/form-data<br><br>file=
+</pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type: text/plain<br><br>(generated ba=
+tch-id)</pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA3">BMA3</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">POST /bulk-management-api/batches/se=
+arch</span></p></td>
+    <td class=3D"confluenceTd">
+     <p>Returns a list of records from BULK_UPLOAD table by <br>
+       batch type and a list of template names</p>
+     <p>if list of template names is not provided - return all</p></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json<br><br>{<br>&nbsp; &nbsp; "batch-type" : "UPLOAD",<br>&=
+nbsp; &nbsp; "template-names" : [<br>&nbsp; &nbsp; &nbsp; &nbsp; "USER-UPDA=
+TE-NBIN"<br>&nbsp; &nbsp; ]<br>}<br></code></pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type: <code class=3D"hljs language-ba=
+sh">application/json<br><br></code></pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA4">BMA4</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">GET /bulk-management-api/batches/{ba=
+tch-id}/status?details=3Dfalse</span></p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>Return batch status</p>
+     <p><br>
+       Returns a record from BULK_UPLOAD table by batch id</p>
+     <p><br></p>
+     <p>If details=3Dtrue add details from BULK_UPLOAD_DETAIL</p></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json<br><br><br></code></pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type: <code class=3D"hljs language-ba=
+sh">application/json</code></pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA5">BMA5</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">GET /bulk-management-api/batches/{ba=
+tch-id}/file</span></p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>Returns an original file uploaded by user</p>
+     <p>Returns a file from AUDIT table by AUDIT_ID BULK_UPLOAD table</p></=
+td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json<br><br><br></code></pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">404 If batch-id is not found<br><br>200 Conte=
+nt-Type: text/csv/json<br>(content of the original file)</pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA6">BMA6</h4></td>
+    <td class=3D"confluenceTd">
+     <p><span style=3D"color:#172b4d;">GET /bulk-management-api/batches/{ba=
+tch-id}/results</span></p>
+     <p><br></p></td>
+    <td class=3D"confluenceTd">
+     <p>Returns a status report - result</p>
+     <p>Returns a file with the details from AUDIT table by GENERATED_AUDIT=
+_ID from BULK_UPLOAD table</p></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json<br><br><br></code></pre></td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">404 If batch-id is not found<br><br>200 Conte=
+nt-Type: text/csv/json<br>(content of the report)</pre></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:editor</p>
+     <p>access-control:post-bulk-upload</p></td>
+    <td class=3D"confluenceTd">
+     <p>wealth:cx-user-conf:access</p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA7">BMA7</h4></td>
+    <td class=3D"confluenceTd">POST<br>
+      /bulk-management-api/batches/trigger/{batch-id}</td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <h4 id=3D"BulkManagementAPI-BMA8">BMA8</h4></td>
+    <td class=3D"confluenceTd">POST<br>
+      /bulk-management-api/batches/trigger/export/{template-name}</td>
+    <td class=3D"confluenceTd">should we implement NBIN as parent?</td>
+    <td class=3D"confluenceTd">
+     <pre class=3D"code-java">Content-Type:<code class=3D"hljs language-bas=
+h">application/json<br><br>{<br>  &nbsp; "firm-id" : [<br>         "item1",=
+<br>         "item2"<br>     ],<br>     "filter" : {<br>         refer to u=
+ser config search<br>      },<br>     "search" : "some text"<br>}</code></p=
+re></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd">
+     <p><br></p></td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+    <td class=3D"confluenceTd"><br></td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_17266_137539087.1788971194302--

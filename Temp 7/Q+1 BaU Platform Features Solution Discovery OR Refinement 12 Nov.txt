@@ -1,0 +1,1009 @@
+Pascual, Darwin  0:03
+If it's, if it's saying on the UI, we can say this is the range and it does permanent, the whole range gets assigned to it on on on on to the firm or advisor, but on the back end level, it's gonna be individual. I think Radhika had a question or a comment.
+
+Pierre, Joseph-Pascal  0:12
+Mhm.
+
+Pascual, Darwin  0:24
+Sorry, go ahead.
+
+Pierre, Joseph-Pascal  0:25
+Mhm.
+
+Sharma, Radhika  0:27
+Yeah, so Darwin, my team's done a little bit of research this year around sub-advisory. So one of the things that we need to work with you on is sharing all of our findings so that you guys can figure out how you would even set them up in Firm 360, like the associations and relationships across the firm.
+
+Pascual, Darwin  0:37
+Yeah.
+Yep.
+Yeah.
+Good, yeah.
+
+Sharma, Radhika  0:47
+And I can try to answer your question there. Generally speaking, it's not the full range of the firm's RR codes that gets assigned. It's generally one or two RR codes within the firm.
+
+Pascual, Darwin  0:52
+Yes.
+Yeah, that's what we prefer, actually, from a design level, to be honest. And yeah, I know I heard about that because I had a really good, like, a five-cell 10-minute conversation with Yash, so he seems to have a good grasp of the things. So, you know, I think we can we can work together on this.
+
+Sharma, Radhika  0:58
+That they're sub-advising too.
+
+Pascual, Darwin  1:17
+Erotica.
+Okay, cool.
+
+Pierre, Joseph-Pascal  1:25
+Okay, okay. So, discrete, but today, anyway, for our firm, when you send the information, how is it sent? Is it arranged or it's discrete?
+
+Pascual, Darwin  1:26
+Gee.
+I can't remember, to be honest with you, that data set is pretty big. I could have one of the guys check that what's being sent to you guys. I do not know, to be honest. Yeah.
+
+Pierre, Joseph-Pascal  1:51
+Okay.
+Okay, but anyway, in the end, us range or discrete or codes, it's fine. As long as you provide the information, we would save it and associate it to the delegated firm. So to me, you see the arrows in red, it goes all together.
+
+Pascual, Darwin  2:00
+Yeah.
+
+Pierre, Joseph-Pascal  2:14
+This guy delegates this guy over these R codes. So that's what I expect to get. And then so that in my database, I would have a firm.
+
+Pascual, Darwin  2:20
+Got it.
+
+Pierre, Joseph-Pascal  2:28
+be it a child firm meaning it has a parent ID specified, okay, with a firm delegation table that states this firm delegated me, let's say, right, over these OR codes, so these is just a range or discrete OR codes.
+that I would say on the side. So I know this is technically my contract, you know, that I would have with you, with you being the firm delegating, right? So that's, although it's a data that lives technically in Firm 360, I would have a...
+
+
+Pascual, Darwin  3:04
+Yeah.
+
+Pierre, Joseph-Pascal  3:06
+Copy of it, so that I can perform my access control properly.
+
+Pascual, Darwin  3:08
+That.
+Got it. So this is going to be part of FUNM, right? Okay, so is, and I don't want to solutionize it, right? So is real-time data critical since it's FUNM, right? So I'm only asking because I think you only get...
+
+Pierre, Joseph-Pascal  3:16
+Yes.
+
+Pascual, Darwin  3:32
+this on a daily basis, right? And so, and then maybe that's fine, right? So, because I think when you're like eventually from a UX standpoint, we would do this on firm 360. I don't know who's going to be in charge, maybe Radhika's team, I'm not sure who's actually going to assign the firm to a sub advisor.
+If it happens in the middle of the day, do you have expectation for FUNM to work in real time or are you okay to wait like 1 full day?
+
+Pierre, Joseph-Pascal  3:58
+Mhm.
+So far, I would I would maintain it as is, you know, the SAD, I think, is one day for even the firm, you know, so I don't think it's going to be more frequent, but we'll market then if Frey wants it more frequent.
+
+Pascual, Darwin  4:10
+Okay.
+Okay.
+Understood.
+Persis.
+
+Pierre, Joseph-Pascal  4:26
+You know, we'll let you know, but Candi.
+
+So, Candi  4:32
+Uh, yes, and oh, um...
+The update to the firm 360 is only the first step, that one, because then they will have to update S400 as well. So anyway, the AS400 update would be t + 1. So I don't think, yeah, unless we're updating S400.
+
+Pascual, Darwin  4:55
+Yeah.
+
+So, Candi  4:56
+Yeah, much more. Otherwise, it's always the next day. That day would happen the next day, yeah.
+
+Pascual, Darwin  4:57
+Yeah.
+Right.
+Oh, and part of my ignorance, because I'm not familiar with the process here. So, sub advisory is also defined on OSS. Are they the main source here? Or maybe I'm not following.
+
+Pierre, Joseph-Pascal  5:04
+Mhm.
+
+Sharma, Radhika  5:20
+No, there is no main source. The main source for the sub-advisor relationship should come from Firm 360. The assignment of the RR code should be done in FUM.
+
+
+Pascual, Darwin  5:20
+Rached up.
+Yeah.
+Yeah.
+Okay.
+That's what I thought.
+
+Sharma, Radhika  5:34
+I think what Candi is referring to is the whole setup process, right? If a new RR code gets set up for a sub advisor, you know, you got to go through the works, you got to get it set up on AS 400. But I think the exact SLA that we have today with the refresh of the information coming from Firm 360 daily is more than sufficient.
+
+Pascual, Darwin  5:43
+Right.
+Right.
+Okay, but there could be an existing ORAO code. Could there be an existing ORAO code assigned to a sub advisor as well? Was that another use case?
+
+Sharma, Radhika  6:04
+An existing.
+
+Pascual, Darwin  6:06
+Like there was an R code or is an R subadvisor always going to be a new R code? Is that what you're saying?
+
+Sharma, Radhika  6:13
+I don't know that. It's possible that it could be the same. It's going to exist within the range of the firm. That is what we know. So if a firm has an established range, when they have somebody sub-advising to them, the RR code is either already in use there or a new one is created within that.
+
+So, Candi  6:13
+Yeah.
+
+Pascual, Darwin  6:15
+Yeah.
+Got it.
+Mhm.
+
+Sharma, Radhika  6:31
+Range.
+
+Pascual, Darwin  6:33
+Got it. Okay.
+
+Pierre, Joseph-Pascal  6:35
+But makes me think.
+So this, let's say this, this Oracle, OK, it has been dedicated to this firm.
+As so this firm, right, AB would have, let's say, a user, one of its user, granted sub-advisory role, okay? So that means he would have a user provision for him and be assigned these article, okay?
+one or several of them.
+Is it possible that under firm B is also, I could say, hold on.
+A another user.
+That has, that is not a subadvisor, you know, he's like, what can I say, R1, let's say, okay?
+It's not a subadvisor, it's a firm B user.
+So.
+Ikuse.
+And then this guy.
+Okay, and then this guy.
+is also assigned this oracle. Is it possible?
+
+Sharma, Radhika  8:04
+So, the firm that the...
+Client lives under right, so whoever the end client is.
+They have that one RR code assigned to them. That RR code can be used by both their primary advisor, who does all their account opening, which is the firm that they have a relationship with, direct relationship, and then the sub-advisor can also have access to that same RR code to perform very specific trading duties.
+
+Pierre, Joseph-Pascal  8:18
+Mhm.
+Mhm.
+Mhm.
+
+Sharma, Radhika  8:34
+So, yes, you can have a sub, you can have an R code assigned to two different advisors, one in the firm that the account exists in, and the other advisor being from the sub advising firm.
+
+Pierre, Joseph-Pascal  8:49
+And today, there's no limitation to have two people or even more assigned to the same Oracle.
+
+Sharma, Radhika  8:55
+No.
+No, you can have shared or closed.
+
+Pierre, Joseph-Pascal  8:58
+Okay.
+
+Sharma, Radhika  9:01
+Generally, it's within the same.
+
+Pierre, Joseph-Pascal  9:01
+It's only the secure zone ID, because I know secure zone ID, they, yeah, go on.
+
+
+
+Sharma, Radhika  9:04
+Yeah, with our codes generally, sorry, with our codes generally, they're shared within the same firm. So some of our PM firms, they can have advisors sharing the code. Brokers, they tend to have individual codes. But in this, this is a unique case where you have an ORAO code
+
+Pierre, Joseph-Pascal  9:13
+Mhm.
+
+Sharma, Radhika  9:22
+that is being shared by advisors from two different firms, one for the purposes of general relationship and the other for the purposes of sub-advising.
+
+Pierre, Joseph-Pascal  9:27
+Mhm.
+Okay.
+
+Sharma, Radhika  9:35
+An ORAO code isn't the same as a secure zone ID in that sense, right? Because this, yeah.
+
+Pierre, Joseph-Pascal  9:39
+Yes.
+OK, just making sure, because you, you, I think you participated in the, yes, yes, you did. You know, the call about FGDA, you know, how they want to set up, you know, a firm and then our codes and then the users, their accesses, you know, all that's going to be mapped.
+in what they call a spice DB.
+So I just wanted to, because eventually this that I'm mapping here, that I'm illustrating, this actually is going to land and live in FGDA and not in FUM eventually. So I want to make sure that this use case having two users, one from the, as a sub-advisor from another firm.
+And someone from the local firm, both being assigned the same Oracle to the same Oracle, that me, I have no problem supporting this, but when I'll have to migrate this information into FGDA, I want to make sure that they also can support it. We didn't put any constraints.
+Saying, ORAO code can only be assigned to 1 user.
+So you're saying no, I'll double check that on their side they haven't put such constraint.
+So that we have no surprise when the migration comes.
+Khin.
+So that's good. So that's one example. But by the way, here, you see here from BA has, let's say, these four R codes. Can our R code, if our R code can be assigned to two or multiple users,
+It's only one firm that owns it. Is that true?
+Meaning this or could this one here, which is for firm BB. Is it possible firm B?
+
+Sharma, Radhika  11:32
+Yes.
+Yeah, the R codes always belong to a range, right? That belongs to a firm. So there's always an association back to a specific firm ID that that range is associated to. That is managed in Firms 360, right, Darwin? You guys are the ones that figure out those and establish those relationships.
+
+
+
+Pierre, Joseph-Pascal  11:45
+Mhm.
+
+Pascual, Darwin  11:55
+Correct, yeah, we never, we don't, we don't crisscross 'cause that would be really, really tricky in terms of things, so no, it's...
+
+Pierre, Joseph-Pascal  11:59
+Yeah, exactly.
+
+Sharma, Radhika  11:59
+Yeah.
+
+Pierre, Joseph-Pascal  12:01
+So this, this is not possible, what I'm drawing here.
+
+Sharma, Radhika  12:02
+And...
+
+Pierre, Joseph-Pascal  12:06
+It's either firm BB or firm BA that owns it, never to OK.
+So that's good. That's good.
+What else? What else? What else? What else?
+Saving.
+So we talk about delegation. So that's the contract.
+Do you have another question? Oh, yeah.
+Parent Firms, I'm just reading my note.
+A non-operating, I have no B number, I don't exist as 400.
+Cannot be assigned, you answered that.
+Cannot be assigned any R codes.
+You said, if, if you we acquire a firm.
+All the children would be on to the new parent.
+Assignments will follow.
+OK, it looks.
+Okay, I believe. Candi, I forget something.
+Andy, no, I can do first.
+
+So, Candi  13:32
+No, no, I think we're good.
+
+Pierre, Joseph-Pascal  13:37
+Yeah, so all we're missing is the contract, basically just formalizing how you would be sending the information, but other than that, I think you got you understand what we're expecting, right, Darwin?
+
+Azizi, Ali  13:37
+Um, uh.
+
+Pascual, Darwin  13:54
+Yeah, pretty much. Just one question. If I'm understanding correctly, an advisor could be either another kind of entity that has a relationship with NBIN or nothing at all, correct?
+
+Pierre, Joseph-Pascal  13:57
+Mmh.
+
+Pascual, Darwin  14:10
+Maybe it's a question for Radhika.
+Good, just trying to like, so how would how would you define an advisor like as an entity by itself, like when when it come in when in terms of relationship with NBIN?
+
+Pierre, Joseph-Pascal  14:13
+What do you mean?
+
+Pascual, Darwin  14:26
+You know what I mean?
+
+Sharma, Radhika  14:26
+So that's a really good point. Generally speaking, the relationships exist within our own clients, one with the other. But I think there are a few edge cases where there are sub-advising services provided by firms that are not NBIN clients. But I can dig that up a little bit more with Susanne, who has all that information.
+
+Pierre, Joseph-Pascal  14:26
+Mm.
+
+Pascual, Darwin  14:32
+I see.
+Yeah.
+Mm.
+Okay.
+PAB.
+
+Sharma, Radhika  14:49
+And maybe we circle back with the whole group because I think that does affect other things on our side, JP.
+
+
+Pascual, Darwin  14:52
+Yeah.
+Sure, OK. Thanks.
+
+Pierre, Joseph-Pascal  14:59
+Okay, sure.
+
+So, Candi  15:00
+Yeah, maybe just chime on that. So currently, this type of user, they are not our client, but they are Servicing for our client. The user account will be created in the firm because they don't have a home firm. So we will create an account for
+the firm that's advising for. And we called this out when we had the earlier discussion. And I think that point was saying, because we don't deal with the firm to firm relationship is for the two firms to deal with that. And they have to accept that.
+relationship will be code. That person will be created on them and then they will and test the user account going forward. This was the earlier take when we had that discussion. Yeah.
+
+Sharma, Radhika  15:54
+So there's a very unique case and I don't know all the details. It's with SGGG. So SGGG is a firm that provides some services to our clients and they need access specific to trading, but SGGG is not a client of ours. And I get what you're saying, Candi. The actual profile would be set up under the client who is ours.
+But.
+they would be sub-advising to multiple of our clients. So how would we solve for that in multi-firm without giving them multiple IDs across all of the firms that they sub-advise to? But let me look at the data again and just reconfirm how real that scenario is.
+And I can bring it back to the table.
+
+Pierre, Joseph-Pascal  16:45
+But.
+It's a good question.
+Just going to give the hand to Ali and maybe I'll come back to this.
+
+Azizi, Ali  16:58
+Thank you. I have a question from Darwin and Radhika, probably. Let me just take the screen share, if you don't mind, to show something. With checking the Firm 360 data,
+Our famous harbor front, as you see, the hierarchy in the firm 360 is like this. Okay, and one thing I am seeing that...
+In the data of the firm 360, the firm ID of these child, okay, with the same name are different, but the name is the same. But the firm ID...
+As you see, is different, OK?
+And also in terms of the Oracle code range is different, accounts is different, and the one thing is that they are individual brokers. If we come down, we see the same situation for the PMs as well. The same company name but different firm ID.
+and also different range of R codes. One thing that makes it a bit challenging is that about the rendering and representation in our Compass X when we want to
+
+Pascual, Darwin  18:16
+Yeah.
+
+Azizi, Ali  18:36
+For the SA user to.
+to create a new user, to understand, okay, what's, they can see this hierarchy, okay, but they need to understand that they are going to create user under this one or this one. But the only thing that can.
+Distinguish them is the firm ID.
+My question is that, is there something more meaningful and more human readable in Firms 360 to distinguish them, or this data can should be intact?
+
+
+
+Pascual, Darwin  19:21
+Yeah.
+Yeah, so a couple of notes first, right? So the firm name here, we don't touch it because it's firm, it's the original name for from AS 400, so we don't we don't we don't generally edit anything that's coming from AS 400 except for the for the firm types, right? So, so that's that we preserve that.
+
+Azizi, Ali  19:41
+Mhm.
+
+Pascual, Darwin  19:43
+Right. So, because it's, you know, this is a lot of them are like older firms that, you know, and again, general safe practice. We don't touch anything from AS40. It's read only. Now, that's why we decided might have been a couple of years ago to have a field name called display name. Right. So I don't know if you're receiving that today. And if you go to general information, that's what we have.
+
+Azizi, Ali  20:02
+Mhm.
+
+Pascual, Darwin  20:07
+That is the more editable portion of it. And if you want a more consistent naming convention of each firm, that's probably the way to go, right? So we don't want to touch firms under score names coming from AS400 and slash Oss, so we don't touch that. So if you want something that you want to display on Compass,
+
+Azizi, Ali  20:18
+Mmh.
+
+Pascual, Darwin  20:29
+on the new Compass, then I would go with the, if you go to general info today, sorry, go back to Firm 360, go to general info, we have a thing called display name and that's supposed to be the ones that are, even there's something, there's a French name as well, so we, so when it's requested, we...
+
+Azizi, Ali  20:33
+Okay. Okay. Okay.
+
+Pascual, Darwin  20:48
+We put that in there, or our Babita team, edit that out, and we put the put the name itself - that's the more editable one, yeah.
+
+Azizi, Ali  20:54
+Okay, so it means that if I search for this display name between these three, do you say it's Shane?
+
+Pascual, Darwin  21:01
+It should be, it should be generally the same. So, you know, I could be wrong, but you know, that's something we probably need to correct if that's not the case, because a lot of the display names were, I believe, entered manually in the beginning. So,
+
+Azizi, Ali  21:05
+Okay.
+Okay, yeah, as is.
+
+Sharma, Radhika  21:18
+One thing to, sorry, one thing to take note of, Ali, so the names that come from AS400 are used for multiple purposes, right, even on like client statements. So usually this is when we work with the client and they have an M&A and we decide we're not actually merging them under one firm ID or broker code.
+We're keeping them separated. There's usually a decision made whether the names should be the same across the board. Because there's other firms that are multi-firm where the names are still different. The good thing is that our clients are actually familiar with firm IDs. This is not an unfamiliar concept to them. So that
+
+
+Azizi, Ali  21:57
+Okay.
+
+Sharma, Radhika  21:59
+I would say that that still needs to be retained because a lot of the reporting that we provide our firms includes those firm IDs as well.
+
+Azizi, Ali  22:08
+Okay, okay. Yeah, I just wanted to understand if we have, if you say this is familiar, something, because in terms of the UI, it's a bit, you know, you know, harder to distinguish, but yeah, if we can distinguish that, then.
+No issue.
+The other thing is that I have found some overlap between our codes.
+These are my findings. Are these normal?
+For example, these are two different firms, but there are codes somehow overlap, as you see.
+
+Pascual, Darwin  23:02
+I think, oh, it's okay, correct me if I'm wrong, Radhika. I think there's internal firms are mainly used for internal operational stuff. So I think it might be okay, but again, I'm not the expert.
+
+Azizi, Ali  23:04
+Is it something?
+
+Sharma, Radhika  23:16
+Yeah, I was going to say the same thing. Most of the ones that you have here are internal firms. Some of them look like they're client firms. But a range isn't necessarily always precisely defined with the start and end, right? RPMs, for example, we have a massive range and they share that range.
+that within the massive range, the shared ranges, is what Firm 360 maintains. In this case, though, that example that you shared, they looked different to me, but I'll leave it. Let's take this offline and we can go through it in a little more detail.
+
+Azizi, Ali  23:49
+Okay.
+Okay, okay, no issue, no issue. Then, yeah, in terms of checking from 360 data, seems that we are in a good state. And one more thing, I was talking with Penny before she...
+lives organization is about having a contractual relationship between the firms. For example, when we say parent-child, or we know that there is a contract, for example, there's
+that they have gone through the M&A. About the delegation, do we have the same contract in place? It comes from risk perspective, okay? And I know that I am not going to check the contract
+you know, in terms of validation in Compass X, but in terms of the firm 360 and keep our whole platform regulated and not and not face any issue in future. I want to know that in terms of the sub advisory and delegation in future,
+Are we going checking the contracts as well, or we just rely on the data that are coming from a source? I don't know what is that source, but we are not going to check the corresponding contracts.
+
+Sharma, Radhika  25:27
+So I'll take a stab at that first, and Darwin, feel free to jump in. We do, in theory, have contracts in place for those sub-advisor relationships, but literally, there's no paper trail. So this is part of the initiative that Susanne has been working on this summer to figure out what all those relationships are and who the people.
+
+
+Azizi, Ali  25:40
+Yeah.
+
+Sharma, Radhika  25:47
+people are. What we are going to do is we're going to provide those requirements over to Darwin. Darwin's going to work his magic and figure out how to get that structure into Firm 360 so that we can consume it on our side. And from there, we're going to have to implement a BAU process similar to some of the other processes in Firm 360.
+
+Azizi, Ali  25:54
+Mhm.
+
+Sharma, Radhika  26:08
+where relationship managers or implementation teams are going to be responsible.
+for updating from 360 when.
+a new relationship is established. So we won't manage the contracts. That's for the relationship management teams to do. They have to keep Firm 360 updated, and that's our source of truth. But Darwin, jump in.
+
+Azizi, Ali  26:23
+Exactly.
+Yeah.
+
+Pascual, Darwin  26:33
+Yeah, no, same thing, same kind of opinion there. It's so I, we I had a similar conversation with with Ray and Pat on this, like we could do a lot of the attributes on Firms 360 and put it all in there for the features in terms of contracts, I think we have confirm contracts as well, right? So.
+The biggest thing here, I think kind of Radhika alluded to, is the owner of it. Like we need data ownership because otherwise the thing gets stale, right? So we'll have blank contracts and things like that, right? So I think part of the Firm 360 revamp next year is the data ownership and we need to kind of define that.
+If it's the onboarding team, if it's the service team, I'm not sure, or the RVPs, we need to have a matrix for that because that's where it gets kind of tricky when after a while. So yeah, we can definitely put that as a fixed, not the fixed, sorry, an attribute when.
+When adding an advisor, like the contract itself is going to be a required field, but who's going to maintain it is probably the key question moving forward. So.
+
+Azizi, Ali  27:49
+Okay, thank you. No more question from my side. Thank you, Darwin. Thank you, Radhika.
+
+Pascual, Darwin  27:55
+No problem.
+
+Pierre, Joseph-Pascal  27:59
+Okay, so I think that's it, Darwin. That's an easy one.
+
+Pascual, Darwin  28:05
+Awesome.
+Yeah.
+
+Pierre, Joseph-Pascal  28:07
+Easy one, so when do you think?
+
+Pascual, Darwin  28:09
+Shiv.
+
+Pierre, Joseph-Pascal  28:11
+You can formalize, you know, how the information is going to be structured and sent.
+
+Pascual, Darwin  28:19
+Yeah, yeah. So I am going to have to assign a BSA on this. So if within the next couple of weeks, we'll probably do a kickoff of this. And then I guess I'm guessing our Radhika team is just me for this.
+
+Pierre, Joseph-Pascal  28:31
+Mhm.
+
+Pascual, Darwin  28:38
+One or two guys, or like BSAs, will be reaching out to kind of gather the requirements, and then from there, once we have the requirements, we we're gonna try and create the model and and then and then show it to you guys or to JP or whatever the case may be, so...
+
+Pierre, Joseph-Pascal  28:54
+Okay, but I guess it's going to follow the same format through Excel daily, daily extract, right?
+
+
+Pascual, Darwin  28:55
+So some, yeah.
+Ideally, yes, yes, if that's what you want. The reason why I'm asking is there's a bit of a demand for Firms 360, and I don't know, and just kind of thinking out loud, should we continue with a data set or an API, that kind of stuff, right? I, I'm still leaning that a data set.
+
+Pierre, Joseph-Pascal  29:18
+Mm.
+
+Pascual, Darwin  29:21
+like a data dump, a regulated file at this point, but there's a need for this for another project, right? Which I'm kind of like rethinking some of the ways we send the data to you guys, right? So.
+
+Pierre, Joseph-Pascal  29:23
+Yeah, yeah.
+Yeah.
+For now, you know, if you want to, we don't want to break the process, right? So.
+
+Pascual, Darwin  29:36
+Yeah.
+No, I don't want to need to. Yeah, yeah, yeah, for sure.
+
+Pierre, Joseph-Pascal  29:43
+You know, same thing is is fine with us.
+But.
+
+Pascual, Darwin  29:47
+Okay.
+
+Pierre, Joseph-Pascal  29:49
+Whenever, you know, whenever, however, you let us know. I think the aim for us is to, not to put pressure, but we wanted to start the implementation in January. So after vacation, the holidays, to kick start it.
+
+Pascual, Darwin  30:06
+Yep.
+Mm.
+Yeah.
+
+Pierre, Joseph-Pascal  30:20
+Whatever you're going to send us, we'll figure it out afterward how to plug things into our tables. So we can start building. But as you can see, it's pretty much simple. And I think it's simply going to follow what you already have in place for the firms and their parents, right? So just additional info about delegation, right? So instead of a parent code, maybe you have a...
+
+Pascual, Darwin  30:26
+Yeah.
+Yeah.
+
+Pierre, Joseph-Pascal  30:43
+I don't know, a delegation code or ID or whatever, right? So.
+
+Pascual, Darwin  30:45
+Ohh, yeah, well, you have one, yeah, we're gonna have to figure out something yet.
+
+Pierre, Joseph-Pascal  30:51
+So I think at least at this point, we're still decoupled. You can go at your own pace, but you can't come back in April, though. It's just going to be too late for us. But if you come back early next year, it's fine.
+
+Pascual, Darwin  30:58
+Yeah.
+Yeah, yeah, so yeah.
+Yeah, we're targeting, yeah, we're targeting startup development within the next few weeks. I don't know what that weeks entails, because we have some other stuff as well, like, you know, Candi gnosis, like the coupling and all that kind of stuff, right? And so, yeah, it's gonna be, we're still targeting Q1.
+
+
+Pierre, Joseph-Pascal  31:18
+Hey.
+Thanks.
+
+Pascual, Darwin  31:30
+Next year, regular QI, not fiscal year QI. And then, but if you're getting behind, we'll definitely let you know.
+Rup.
+
+Pierre, Joseph-Pascal  31:41
+Good stuff. Thanks, Darwin. It was a pleasure.
+
+Pascual, Darwin  31:43
+All right, okay. Thanks guys. Have a good one. Bye-bye.
+
+Pierre, Joseph-Pascal  31:46
+Yes, too, right?
+
+Azizi, Ali  31:47
+Thank you, Darby.
+
+Pascual, Darwin  31:48
+Bye.
+
+Oyemade, Obaloluwa  31:49
+Thanks, Darwin.
+
+Pierre, Joseph-Pascal  31:53
+So I hope I didn't forget to ask him something, but...
+Seems to be quite simple. Oh yeah, Radhika, your question you ask.
+That, that edge case.
+A firm that is not represented, that is not our client, that would self advise to many firms. Okay. Technically, indeed,
+The way we talk.
+
+Azizi, Ali  32:25
+She is not JP, she is no, she said be right back.
+
+Pierre, Joseph-Pascal  32:27
+She's not in, she dropped.
+Okay, well.
+Soon you will come back.
+Let me know, because I don't see everybody.
+Yeah.
+Let me put a note.
+Tat.
+
+Sharma, Radhika  32:48
+I'm back.
+
+Pierre, Joseph-Pascal  32:49
+Oh, you're back. Oh, nice. Okay. I was just addressing the point you raised, that edge case of firms not represented that are sub-advisors for some of our clients.
+So currently, just so you know how it works is a sub advisor, like the user itself, is always attached to a firm.
+
+Sharma, Radhika  33:05
+Yeah.
+
+Pierre, Joseph-Pascal  33:14
+And then he's being assigned supervisory role against another firm. And then he has our code assigned. So.
+If Evert comes, you know that edge case.
+Where?
+that the firm is technically working for is not our client.
+Today, it means we will need to have it defined still.
+Because all the, say the access control, because I understand it's not our client, but you still gotta need to access our systems.
+Right.
+And if so, we need to access control the guy.
+So, so that means, as things work, he, you know, he needs to be assigned to a firm, which is not the delegating firm, it's to his own home firm, although it's not a client of ours, and then he can be assigned to the different ORAO codes and to how many ORAO codes he wants, no problem. He's always going to use the same ID anyway, so that's not an issue.
+The only issue is that his firm that is not in our books would still need to exist in F1.
+today, as of today. If you come back to me and say, no, no, it's just not possible. We can't have them created in our system, then we'll find a way. But for now, if we don't want to change too much the backend code, his firm would need to exist.
+
+
+Sharma, Radhika  34:50
+Mhm.
+Yeah, so we'll take a look at that as part of the...
+requirements that we have to give to Darwin. Because we typically only say sub advisor, but through the discovery that we've done, there are other reasons why somebody needs access to another firm's data. Even accountants are like needing that information. So Susanne actually has it all documented in terms of all of the known relationships.
+
+Pierre, Joseph-Pascal  35:13
+Mhm.
+
+Sharma, Radhika  35:22
+whether they're sub-advisor, consulting services, or some other reason. I think many of them are resolved anyways because they have to be created under the firm that they're representing.
+
+Pierre, Joseph-Pascal  35:22
+Mhm.
+Mhm.
+Mhm.
+
+Sharma, Radhika  35:35
+But I'm going to revisit those, what we found, and we'll start down the path of making sure that all those firms are coming to us from Firm 360 if we need to do that. Because I think, if I recall from my past life, there is a way for Darwin to accommodate that on his side.
+
+Pierre, Joseph-Pascal  35:53
+Okay.
+
+Sharma, Radhika  35:55
+So, we'll take that angle first. If all else fails, then we'll come back to you and see if there's something that needs to be done.
+
+Pierre, Joseph-Pascal  36:05
+Guo.
+So last time we said we're gonna talk about resource assignment. I think that's where you wanted to dig deeper. But at the same time yesterday, I think you had a, I hope you had that meeting with Ali and potentially Candi to talk about Azure 2.0.
+You reach to a conclusion or not, not yet?
+
+Sharma, Radhika  36:31
+We have not reached a conclusion, but Ali and I had a quick, good discussion on where we need to go. So, Ali's focus obviously is getting all the designs and everything ready. What I'm trying to put together for Ali and for all of you is what is our...
+What's our ultimate goal here? What are all the pieces that we need to solve for? And what is my preferred increments of delivery in the context of value to clients? How can, what would that look like? So first, I'll review that with Ali and Candi.
+And then we can bring you in. But if we need to optimize on time, I can share with all of you. I'm going to work on that today. Unfortunately, I wanted to use my friend Copilot yesterday and it wasn't working. So I was, I couldn't get very far. But I'll try my best to do something for Monday. Again, I would like to run it by Ali first.
+
+Pierre, Joseph-Pascal  37:21
+Huu.
+Yeah.
+
+Sharma, Radhika  37:32
+make sure him and I are aligned on it, and then we can share it with the group. So, Oba, I might ask you to maybe shift around the Monday meeting if we don't come out of here needing to talk, and then spend that time with Ali in the morning to try to finalize that scope.
+And then that that'll result in the decision that I'll share with Ali.
+
+Pierre, Joseph-Pascal  38:00
+OK, so.
+We have 40 minutes left, so I think we're on time. Said the second-half of the meeting would be on the resource assignment, but then...
+Since it's Friday 13th, I can't remember.
+Why again? What was left for us to look?
+
+Sharma, Radhika  38:21
+You were going to give us the Candi recommended you show us the example that you have from something.
+And you said, I'm going to give you my political answer or something. I don't treat this like the real design. That's with Alex. That we were going to just go through what it would look like. Yeah, 2.0.
+
+Pierre, Joseph-Pascal  38:30
+Ohh.
+The estimate.
+Ah, yeah, yeah. Okay, so it wasn't 1.0. Okay, fine. Oh, thank God. Still there.
+Still using your head on like me? Man, it's crazy. Too many things.
+
+Sharma, Radhika  38:56
+This is a good time for me. We can't do meetings. This is a good time. Up to about 2:00, I'm still good. But anytime after 2.30, yeah. Like the other day, Oba, that secure zone demo, my brain was not raining. It was too late in the day.
+
+
+Pierre, Joseph-Pascal  38:59
+You said?
+Haha.
+Yeah.
+Atesh.
+Ssn.
+
+Oyemade, Obaloluwa  39:16
+So how about the demo this afternoon after this call?
+
+Sharma, Radhika  39:20
+I'll be okay for that one. I'm excited for that one.
+
+Oyemade, Obaloluwa  39:22
+Okay.
+
+Pierre, Joseph-Pascal  39:27
+So, she went to.
+How should we? So, what would you like to see?
+I would look into the format, this thing.
+
+Sharma, Radhika  39:43
+We wanted to see kind of like, yeah, how would the policy literally be in place? So Candi, I don't remember what the example was that you recommended JP go through with this.
+
+So, Candi  39:58
+Yeah, I think you want to understand what's a policy. So we're saying, yeah, we're not, it's not the package concept, but to a certain extent, you're building the policy and how does policy look like. And is it flexible? Is it more complicated? So
+
+Sharma, Radhika  40:02
+Yeah.
+
+So, Candi  40:17
+JP, I thought we could show them some the markup you have and how do you choose, maybe from user management perspective, how do you allocate access or how do you provision a user and what's the policy look like?
+Yeah, thanks.
+
+Pierre, Joseph-Pascal  40:39
+And...
+That's a long time mock-up I did.
+Just to reiterate once again, that's, but here what I had is, you know...
+Something I actually explained to Alex yesterday, I think. So far, you know, in FG1
+See if I'm gonna create you, you, you, when you're landing to SUM, you, you're landing to if...
+As soon as you log in.
+You have a fum?
+that is associated to you.
+And this is that menu.
+And so our left nav.
+And then you have your top nav.
+And then you have in here.
+Let's say whatever page you selected. So let's say here, it's your administration page.
+Right, so...
+And the first thing that we need to tackle, so top nav here.
+Then here's your, you could say user profile, user admin.
+So that means the first thing is this tier. So far, FUM or Compassx is always firm based. So when you lend, you lend in a firm. So you have a default firm or home firm you selected to you. But with the policy or FUM 2.0,
+What we're saying is it should no longer be firm base necessarily or it's not that it should no longer, it's a user can be assigned multiple firms. So if I go into the user admin page and I have my name, right? First name, last name.
+You know, displayed.
+To me here, I'm kind of...
+Not really.
+Care about, hold on, feel.
+Put it in black.
+I don't know, I no longer, I would no longer care so much about under which firm am I.
+It's I'm editing the user as a user, as a person first, right? That has a first name, last name, and then an e-mail, which to me is outside of a firm. Well, at least maybe e-mail is tied to a firm, but first name, last name is my first name, my last name, okay?
+But then I have a section called the Access Profile.
+And I'll do that section.
+So that's what I was trying to explain. So here is the user itself.
+OK, and.
+And then you have the access profile. So the access profile technically should be the third section where you would consider a firm.
+So.
+She would have a fum.
+Which you, you, you will have to select, right?
+Just trying to make things.
+From ABC, right?
+But then you could be assigned several firms. So that means...
+I should be from that same page, not having, because today you have multiple IDs. So you would, if you want to edit the access profile for a second firm, you need to log out, log back in using that second firm user ID. And then you get into the user admin page and then you edit.
+the packages, the resources, whatever, you know. In the 1.5, as well as in the 2.0, we're saying, no, no, no, you have only one ID, let's say. It's just that 2.0 goes to the extent that you have one ID for everything. One ID that represents you as a user, first name, last name, you know, whatever.
+But you have multiple access profiles, so here it's the S, and what makes it multiple is...
+Yes, it would still be per firm.
+Um...
+But you don't have to leave. So that's top left or top top corner, top left corner.
+I don't know, design-wise, how is it going to be solved, but it shouldn't be limited to a firm. Because when you're going to edit the user.
+It's going to be across all the firms he's eligible to. OK, so you have that first concept. Second.
+is under that firm, if you select firm ABC, firm ABC would have been assigned certain packages because he's maybe an IB firm, a PA firm, whatever. He has purchased or subscribed to a bunch of packages. So the second section displayed under the access profile is the packages.
+So you have the packages listed.
+And you would have also the different resource to outcome to that later. And then finally, the permissions. OK.
+So the packages that you would see here listed.
+Would be as per the selected firm.
+So, and then I can come to this wizard.
+I have myself. And then I would have that policy editor, so that's the section which describes the access profiles. So I would have to choose the organization, meaning the firm. So this is a dropdown. So you could select
+all the firms that myself is assigned to. So upon that selection, that list of packages that would be displayed would differ because it's per the selected firm up there. So I would pick and select whatever package that I want to assign. Yes, APW, let's say I'd subscribe to package A&B.
+But it doesn't mean that I need to assign both of them or one of them or everything under each to myself. I can pick and select which package I want and which feature within the package I want to assign to myself. So.
+So that's the first thing you know about packages. It's no longer about all or nothing or me playing a role. It's just that I would end up selecting yes, affirm. You know, I'm assigning JP to IPW.
+I'm showing below, here's the different packages that IPW have subscribed to. Which one do you want to pick and assign to JP? It would go ahead and pick and select it. And then within the package, it would list the different resources that it contains, it is composed of.
+
+So if you want it all, you simply leave everything checked off, checked on.
+But if you, some of the features you don't want, because it doesn't apply to GP and GP only, you check it off.
+KYP and the result of that.
+It would.
+Be displayed here.
+where you have a statement that says JP.
+Is allowed access to a WAAC organization.
+with package B, the one that I selected up there, right? Package B.
+But it says everything, right?
+Let's keep this section resource in action for now. OK, let's focus on only this. So I say it says JP has access to package B as a whole, but then you notice that I unchecked one of the resource.
+So I have a second statement that says, but on top of that, JP is denied access still for IAPW to this resource. This resource is exactly the one that I've unchecked.
+And this is specific to me, right? So in my access profile, where I am named,
+For that given firm.
+I'm told, or I'm told that it said that I have access to package B.
+All, except for this resource.
+Over this permission.
+So that's how it's going to look into the access profile. And then if I want to give more packages or more resources, same thing, you know, I would check off, check on the packages, check off certain resources within, it would resolve the same way. I would have a second package listed next to this guy.
+And then whatever resource that I would have checked off would come up as a deny in a deny statement.
+Any questions so far?
+
+Sharma, Radhika  50:25
+Nope.
+
+
+Pierre, Joseph-Pascal  50:26
+Okay, no.
+Obviously, there's some things don't fit in a package, or maybe because a package technically has been designed and built with a role in mind, you know, saying, okay, IB firms, typically they do this, they typically need, under this role, they typically need these resources, so let's bundle them together.
+And let's name it package AB. That's it. Okay. So you had a role in mind. Now, as per your example the other day, you have employees supporting a bunch of firms. They actually don't abide by any of the rules predefined.
+So, therefore, the packages that exist, they don't quite...
+fit for them. So here, it wouldn't be an issue in the sense that, okay, maybe it fits for 70% of it to you, you assign it to the person, to the employee. You uncheck certain resources that don't apply to their position, specific position or a special position. And on top of that, you may need.
+additional resources to be assigned. So that's the second section of what I described here, the resources, right? So I would have the resources by different categories, okay? And then it's listed.
+So that section is, you could say, add on.
+features if you want.
+Sep.
+Tat.
+Is maybe...
+You know, the add-on features where you would discreetly pick and select.
+Firms, not firms, resources.
+To assign in on top, you know, or in addition to the packages, if ever you had packages assigned as well, so you would go going back here.
+Check a couple of resources. Now, it's not necessarily all of the resources, there's too many of them, but...
+That's why I categorize them, you know, the ones related to orders or trading and Servicing and whatnot. So you have different separate sections which would regroup to resources. These are all their trading resources. You can select the one you want.
+And technically outside of what we already have in packages, but you go and you pick and select it. Maybe it's all of them.
+Maybe some of them already exist in the package, just that you didn't want to pick the package.
+You rather wanted to tweak some resources and have them assigned. Same thing here. No matter how many resources you would have selected in the statement, it would come as a separate section. You had that package section.
+Right, but then you would have the resource section which would list everything that would you would have checked on.
+And then...
+This class piece action is in relationship to the resource, so here.
+For any given resource that you check, you would have to pick and select which permission you want to give to the person.
+Typically, by the name, you would understand that this permission is actually for this resource. So you would check the right permission for the different resources that which you would have checked out there. And that combination of the two
+would be reflected here, where you would have the resources, as many as you have selected, and all the permission related to those resources.
+Any question?
+
+Sharma, Radhika  54:39
+No, but I do like what I'm seeing.
+
+
+But here is mostly analysis and not serious solution per se. OK, but out of that, then we got the mandate to provide a solution. And the result of that exercise is what you were shown, you know,
+that FUN 2.0. So that's why in FUN 2.0, we didn't want to.
+To be limited.
+If I go and assign a package and I want to customize, quote un quote, the package to even to the user, I should not unpack everybody else. It should be specific to the user. So yes, I can assign package B and remove a resource of that package when I assign it to JP.
+Package B is still package B, but it's still composed of all of these. It's just two JP is given package B except for this. And this is what I need to document in a format, which is this.
+And this is what gets saved, you know? And therefore, I want to make changes. I can simply go to that file, make the change, save it only for GP, and it doesn't impact anybody else. So that's the flexibility that we wanted after.
+Having understood the limitation of the Azure 1.0.
+So essentially, that's, you could say, FUM 2.0, but at least the administration part.
+The second-half, and I think we need to dive into that, is how is it, how is this file being read and how is it being interpreted so that it performs a proper access control. But at this point, as you can see, you read it, you already understand.
+JP is allowed these things and JP is denied these other things under the context of this firm.
+You know, so you can apply that same format to, let's say, a firm. It's no longer a person, it's a firm. So the principal would be a firm.
+for itself is being assigned these packages and these resources.
+Or deny this and that, you know, so you can, yeah, you can apply to a system for a given firm. So the principle would be, I don't know, system ABC for IPWU, and these are the packages that this system or AI agent, whatever, is being granted access to.
+So it's flexible in that sense. And so I don't need to create a table because it's a system or it's an AI agent and not a person. I can still follow the same text format, which by the way, as I said, I didn't invent this. You know, it's just a copycat from AWS.
+which became actually a standard across the industry. So, to service what I am leveraging.
+So I don't know if this is what you wanted to see closer, Radhika. Yeah? Okay.
+
+
+That's right, yeah. So if you must ask me again, my only worry is the same story. We will start on that and then because we couldn't deliver anything visible or generate business value and then we got unplugged again because these things stand up.
+pretty. They work in the behind the scene. You would not, even if it's a deliver, you will not feel its existence. Yeah, only when it doesn't exist and you feel the inconvenience. So I think the hard part is somehow, how...
+Some to persist some, some resist the temptation to unplug it, and yeah, I, I don't see any problem, I mean, yeah.
+with the design.
+
+Sharma, Radhika  1:03:42
+Yeah, that's great. And I guess...
+This isn't something that could be done in.
+increments, right? It's got to be an all or nothing situation.
+
+Pierre, Joseph-Pascal  1:03:59
+Yee.
+We have, I'm just trying to find. Yesterday I had the same issue with Alex. Oh, there it is. A word breakdown structure.
+So.
+Although we said it's six months, we tried to separate it in two phases. So we said, okay, how can we, how do I say?
+Prove value as soon as possible.
+So we said, okay, we can do a centralized enforcement, then move to a centralized management, then distribute it. But okay, these are fancy terms, but essentially what it means is we said, if I go back, just trying to remind myself.
+Just give me one second.
+I'm loading my memory.
+
+Sharma, Radhika  1:05:02
+Triple.
+
+Pierre, Joseph-Pascal  1:05:02
+OK, so the centralized enforcement.
+What it means is out of the many components, we said, okay, what's the minimum that I need to put in place to prove that it works?
+So we say, oh, okay, I need a policy store because I need to save my policies.
+I need some API, policy and package API, and then policy engine. So I need to be able to, let me see, wait, this, yeah, I need to, I need an API because if I have my store, let's see, that's the bucket, that's my policy store, so I can save it.
+I need to be able to write to it and I need to read it, right? So, so that's my API and and then both this one, the intake, you know, so I have my my my user interface, I tweak it a little bit, I'm able to...
+You can select, you know what I want, and boom, it gets saved into my policy store, but the thing is, I know that I still need to support the old model, so I cannot get rid of the old model, so I would do some kind of a processing in between, which would format.
+to the old and the new schema. So I have both saves, always the new, the old format continue to be working, and then the new format. But then I have a policy API that is exposed against the new format only, and that would be leveraged by up there a policy engine.
+Okay, so this is the one live doing the access control. So I said, if I can put these three pieces together, going back to the work breakdown structure.
+I'm kind of able to prove to the business that, hey, it works. It works and it's efficient.
+And this, I think, was estimated to a month or something like that. Okay, so I can go focus, boom, boom, boom, we work, let's say in less than a month, we have this in place. It goes even to, I don't know if it was to go to production, but it goes to an environment where I can...
+stress tested against so many things. Why? Because I have both systems, the old and the new, living next to the other or something like that. Then once that's proven, so I have to go to the second phase where I start to formalize things. I put more things around.
+
+
+So, that's the centralized management of the call, so the resource management, you know, the packages, you know how to build them, you know, I need to formally have some interface to build the packages, so it that goes beyond essentially my.
+The bulk of my work would have been done here in the sense of policy.
+Here is just the administration aspect, right? I need the screens to handle the resources, the packages, the user access management, etc. You know, all of that. It's more or less cosmetic, but it's in support for what I would have proven earlier. And then finally, the last step.
+Is me going fancy?
+Um...
+but it's, you know, make it a bit more, how can I say, applied across the board.
+You know, so here I see access by the same package, set that API, we clean, I know, OK, so here...
+is you see policy and general integration. So I go module by module. So initially, I would have just focused maybe 1 module, one area. It's very limited, but at least I have enough to test with. Where the last piece is, since I've
+proven again a small set, now I can scale it and apply it across the board. So I go to many different Cx modules, IIS, Data Warehouse. You know, we talk about these, but we said I don't need to bug them initially. Let me prove it among, let's say, just FUM.
+And once it is proven, and the test is sophisticated enough, then I'm confident I know the recipe, I just have to execute it. So I go at each door, say, Tat, ta, ta, it's me. You know, I have two weeks of work with you guys.
+Focus group, boom, put everything in place, next, repeat the same recipe. So that's what that last piece is about, is putting it formally in place across the board. And in the end, it's the cleanup and decommissioning, et cetera. So no, you don't have to do it all at once. It's just that
+You could technically stop after step 4.
+You do this, and the result is not convincing.
+So at least we haven't spent that much money. She said, okay, it was a good experience. Thanks, but no thanks. Fine.
+But as soon as you pass step 4, that's where you start really.
+You know, with the heavy tools, you know, and...
+making changes all over. So that's how we structured, you know, the implementation.
+I don't know if it answers your question.
+
+Sharma, Radhika  1:10:55
+No, it does, it does, yeah.
+
+Pierre, Joseph-Pascal  1:10:58
+Okay, but it's more detailed here. It's very summarized. It was more detailed, I think. Even Candi, did we had Jira stories or whatever?
+
+Sharma, Radhika  1:11:01
+Mhm.
+
+Pierre, Joseph-Pascal  1:11:09
+Anyway, we started interacting with Esther's team. Sasha was, you know, started to look into the technicality of things, you know, so I don't know if that's documented somewhere, but this was just to summarize you when.
+Were initially working on this, and this is the some all the pieces put together.
+And.
+And then so that we can easily say, okay, I'm implementing this piece and that piece down below. So.
+Bunch of, yeah.
+
+So, Candi  1:11:51
+Yeah, I think that, yeah, that that's also not a good timing, because when you're doing this, we, you, you're not supposed to change the existing features, the packages, so, and then we we got some...
+
+
+Which I think it's access control, so on the access control.
+Non that I have 5 pages. Each page, if I zoom in, is...
+A address is a use case, so let's do with you.
+You have the Cx external access. OK, you have Cx employee access.
+And then you have IIS access. So if to answer your question about Iis is how is Iis going to be impacted?
+So here is, we said, okay, that's the current state. How, so say it's us interviewing, we interviewed Iis just to understand how they are wired today against our stuff. And then last page is how.
+It would work with the new, the new S.U.N. 2.0. OK, so...
+It's something that we, as I said, we met with them, we exchanged. I don't know how many meetings we had, but essentially that would be how it would work. The difference between the two is
+They have their own access management, their apps, and they have some things they copy manually, but anyway, they have a local copy of things, you know, our codes and a bunch of other things right there, database, and they make calls to our authorization API or user configure API to.
+fetch the information that you would save locally. That's how they work, right? Where tomorrow, what we say is, I have my policy store. They don't have a policy store, they don't need to have one.
+Okta is the one that would get the policies.
+and they would put it inside their token, as I explained yesterday. So the token would navigate and land into Iis environment. So everything they need to know would exist in the token. Now, the policy engine, they have a policy engine, whatever.
+Today, but it's theirs, and it works with their database.
+It would be replaced by our policy engine, so we would package it.
+Give it to them, and that policy and then that we would have package ourselves would know how to read what's in the token and perform the access control, so I'm not changing too much of their stuff, whatever they say in their database, it's for them to keep.
+Using if they want, but at least we would give them a policy engine already packaged and ready to to.
+to read the policies out of the token and perform the access control. So in the...
+In the assessment here, first page, the work breakdown structure, we talk about policy engine here, number 12, library implementation.
+So we want to make it a library, so we can go and give it to Iis, or give it to data warehouse, or give it to some Cx module, if ever they don't want to use that centralized policy engine.
+So we would have a distributed one where, okay, choose the library, use it.
+Or otherwise, if you don't have the funding, it's too complicated for you to put in place. There is a centralized service. Same thing, same implementation. It's just, it's behind a API. It's managed by us. You simply have to call this endpoint and it performs the access control for you. So that was a...
+The strategy.
+Does it answer partly your question?
+
+
+Pierre, Joseph-Pascal  1:18:43
+It's by use case. Data warehouse, they don't use packages. So I don't need to specify any package. I can simply work with resources. So resources is there apps that say, does the user have access to this app, this app, this app, and which permission. So if I extend, it's actually time, but.
+
+Azizi, Ali  1:18:47
+Okay.
+
+Pierre, Joseph-Pascal  1:19:03
+Just quickly, very quickly.
+Is that thing here in this list?
+Is it?
+Package management.
+And I think it needs to be distributed, resource management, okay, distributed. What we say is each and every module and application, they are the one who knows what are the resources they are making available. I think Data will also as an example.
+is I don't know how many like a dozen apps. Okay, I don't know them. They know them.
+And they know what are the permissions for each of those apps. So they should be the one telling me, here's the list of services that I'm providing, and here's the associated permission for each.
+
+Azizi, Ali  1:19:58
+Mhm.
+
+Pierre, Joseph-Pascal  1:20:00
+We also designed it with this in mind, saying, okay, they would have, they would manage it, they would feed us with the information. So that when it comes to FUM, the information that we read to know what to put into the.
+this thing, you know, the here would come up, would come off that team, the data warehouse team, because they would be the one telling us these are the different applications or resources. So on our screen, we would read.
+whatever they would have sent us. Is it a centralized database? Is it their database? It's to be decided. But the point is, my policy here is as per the data that they would have been providing me in terms of resources and permissions for each.
+And this is what would go in here. So I'm just providing a skeleton and I'm providing the tools to feed, you know, the files and to do the access control. What data, what's to, you know, Compassx would have its own resource, you know, catalog.
+
+Azizi, Ali  1:21:04
+Yeah.
+
+Pierre, Joseph-Pascal  1:21:18
+Right, which would, yes, leverage packages, but data don't have to use it, data is same thing, you know.
+
+Azizi, Ali  1:21:24
+Yeah.
+
+Pierre, Joseph-Pascal  1:21:31
+Iis.
+
+Azizi, Ali  1:21:31
+Be helpful, thank you.
+
+Pierre, Joseph-Pascal  1:21:35
+So, uh, that's it.
+
+Oyemade, Obaloluwa  1:21:36
+Yeah.
+
+Azizi, Ali  1:21:38
+Yeah, thank you.
+
+Sharma, Radhika  1:21:38
+Yeah, I have a little bit of an outrageous idea. I'm going to work it out and then I'll share it with you guys. You can tell me that I'm insane. Okay? Okay. All right. Thank you. Bye.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

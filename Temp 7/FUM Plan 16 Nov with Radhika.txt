@@ -1,0 +1,912 @@
+Sharma, Radhika  0:20
+I think you have a solid grasp of what multi-firm needs to do. We have to maybe make a few adjustments and we'll review based on the discussions we've had. But down here is where I think that there's going to be a change.
+
+Azizi, Ali  0:29
+Okay.
+Okay.
+
+Sharma, Radhika  0:34
+Right? So right now these are the different types of packages. You have examples here.
+
+Azizi, Ali  0:38
+Yah.
+
+Sharma, Radhika  0:40
+In today's world, it wouldn't make sense to assign these packages, multiple of these packages to a single user.
+It wouldn't make sense to.
+
+Azizi, Ali  0:50
+Okay.
+Mhm.
+
+Sharma, Radhika  0:53
+So we would have to change what a package actually means.
+And I feel like there's a few options that we can explore.
+Option.
+So, so before I get to the options, so if if this is gonna change.
+Maybe you can still build out the top layer of Multi firm. Once we, if we lock that down, then they can start working on that.
+
+Azizi, Ali  1:18
+What?
+
+Sharma, Radhika  1:23
+But then for us to get the best deliverable out for March, which could include a UAR as well, a version, not the full UAR, but a version of the UAR, this needs to change.
+
+Azizi, Ali  1:32
+Mhm.
+Yah.
+
+Sharma, Radhika  1:43
+and it needs to change the package model.
+where we have packages either based on different capabilities. So it's kind of like the step, it could be a stepping stone to what JP shared the other day. Let me just grab it from his chat.
+
+Azizi, Ali  2:02
+Mm-hmm.
+
+Sharma, Radhika  2:10
+Do you remember the chat or the meeting? I think it was Friday's meeting where he talked about...
+He has so many pages I got lost in here.
+
+Azizi, Ali  2:54
+I think.
+
+Sharma, Radhika  2:57
+You know the example that you were showing up?
+
+Azizi, Ali  3:02
+This, I think he shared this page in terms of a feature management.
+I shared it in the chat.
+
+Sharma, Radhika  3:27
+That was the page where he had the example, but it's okay, so...
+
+Azizi, Ali  3:31
+Ohh, yeah, with the with the UX, he provided some U, okay, okay, got it, got it, yeah, okay.
+
+Sharma, Radhika  3:34
+Yah, yeah.
+Right, so in that in that example.
+He had packages that were based on the capabilities. That was his example, right? Package one had all of Onboarding. Package 2 had all of trading. And then you could also assign the resources. Now that is the full 2.0. I'm not suggesting we go full 2.0.
+
+Azizi, Ali  3:48
+Yah.
+Yah.
+Yah.
+Oh, okay. Okay.
+
+Sharma, Radhika  4:00
+If in the back we have the mechanism to assign multiple packages already, then what we have to do is adjust what a package means.
+
+Azizi, Ali  4:05
+Okay.
+
+Sharma, Radhika  4:11
+And a package could mean either by capability, so I started writing this out, but I didn't finish, but...
+we have different ways that we can look at packages, right? You either look at a package based on different capabilities. So say we had a package called Onboarding.
+
+Azizi, Ali  4:35
+Mhm.
+
+Sharma, Radhika  4:35
+Right, and within Onboarding, you have different options.
+You have FBO, just form-based, you have paper.
+Upload.
+And I haven't completed my thought process, so I'm kind of going through it with you.
+I've got this one here, and then you might have CRS fatca.
+So maybe this is an option where you have...
+A package.
+That's based on that capability.
+And then these are the...
+Resources here.
+This I feel is too complicated because it gives it presents a risk.
+
+
+Azizi, Ali  5:36
+Yah.
+
+Sharma, Radhika  5:42
+If you assign this package to somebody.
+And then the capabilities within it have multiple resources of varying degrees of control.
+You run the risk of if somebody doesn't assign the correct resource, you might.
+accidentally over-provisioning loser.
+So that's where I was bringing in this concept up here.
+Because we have some pretty standardized roles, and I would want to run this by Ray just to make sure that I'm correct here. But I think we have some pretty standardized roles across our different firm types, like in terms of the people that they employ.
+So they have administrators and assistants and advisors and portfolio managers, right? So this is what actually be advisor like this.
+
+Azizi, Ali  6:37
+Mmh.
+
+Sharma, Radhika  6:45
+And we can apply some conditions. This, I think, is a new layer.
+
+Azizi, Ali  6:51
+Mhm.
+
+Sharma, Radhika  6:51
+It doesn't exist today, but it could be, I'm pretty sure it could be included. Think of it like a little bit of a filter somewhere in the system, right?
+
+Azizi, Ali  6:59
+Yah, yeah, yeah.
+
+Sharma, Radhika  7:00
+Where, if...
+For IBs, for example, they are allowed to have.
+View.
+They're allowed to have manage for FBU. They're allowed to have control, and they're allowed to have process.
+Sorry, not the administrators.
+The administrators are allowed to have the view and manage.
+An advisor is allowed to have view and message.
+Head office compliance is allowed to have control. A head office operations is allowed to likely have all four.
+So now, if we build this layer on top of the package.
+you reduce the risk of accidentally assigned over-provisioning for some user groups.
+
+Azizi, Ali  7:55
+Mm.
+
+Sharma, Radhika  7:56
+So this is more like a user group.
+And these are the different packages.
+
+Azizi, Ali  8:02
+Yes.
+
+Sharma, Radhika  8:04
+This is where I'm thinking we go.
+With the with what we right, and then eventually we can have the whole policy and all that stuff.
+
+Azizi, Ali  8:08
+That's brilliant. That's.
+Yeah, and and did please go ahead, go ahead, go ahead, come. Yeah, so we did this is brilliant and it's fine. Two things: first thing is that when the SAA sees this render, it it should be rendered.
+
+Sharma, Radhika  8:16
+But, yeah.
+No, no, I'm done. Go ahead.
+
+Azizi, Ali  8:34
+OK, now with, for example, advisor as a role.
+I should provide a default set of permissions for, for example, Onboarding, Servicing, you know, all of those role, all of those permissions.
+And on top of that, I should allow to the SAA to tick and untick. Is that right? Or is it solid? Okay, that's good. So it means that I provide a default full field of permissions per.
+
+Sharma, Radhika  9:01
+Yes.
+
+Azizi, Ali  9:12
+User roles.
+And then allow to modify.
+The second thing is that...
+How I render it? I should render it per.
+As a global, as a global matrix.
+Or it should be rendered per user or firm.
+
+Sharma, Radhika  9:43
+Uhh...
+Which part?
+
+Azizi, Ali  9:47
+the Excel, yeah, this one, this matrix that you are showing. For example, in the previous screen, you were showing Aaron Chen, okay? Now, Aaron Chen should see this one, this Excel,
+As a like this, with the with some of the field permissions per onboarding, file based onboarding, and etcetera.
+Based on the firm package or based on based on a global rule, what what what's the what's the rule for filling these permissions for Aaron Chain?
+
+Sharma, Radhika  10:37
+So the workflow as I see it is at a firm level because we can identify the firms.
+We would need to set this concept at the firm level. So if a firm is an IB.
+These are the different rules. So it might actually be another box in here. Maybe rules is this now.
+
+Azizi, Ali  10:59
+Yes, that's true.
+
+Sharma, Radhika  11:01
+And then there's another.
+From there, yes, so this this becomes the roles become these literal roles.
+
+Azizi, Ali  11:10
+Yah.
+
+Sharma, Radhika  11:10
+And then below that sits kind of like the old UAR, but not so crazy.
+
+Azizi, Ali  11:17
+Mm.
+
+Sharma, Radhika  11:17
+Um...
+each of the different packages. So imagine you have Onboarding sits somewhere over here. Within Onboarding, you have these capabilities and...
+
+Azizi, Ali  11:44
+Norris.
+
+Sharma, Radhika  11:45
+to say is you have a box, you have a section here for onboarding. That section for onboarding is going to contain based on the role, so if I were to select advisor from this.
+
+Azizi, Ali  11:45
+See.
+Uh-huh, uh-huh.
+
+Sharma, Radhika  11:57
+I'll see Onboarding.
+
+Azizi, Ali  11:58
+Yes.
+
+Sharma, Radhika  11:59
+Under Onboarding, I should only see, you know, I'll see these options.
+
+Azizi, Ali  12:05
+Uh-huh.
+
+Sharma, Radhika  12:06
+Right, and then whatever the equivalent is down here, right?
+
+Azizi, Ali  12:10
+OK.
+
+Sharma, Radhika  12:13
+LCFBO paper upload.
+Diarra fatca, and I'll only see the view option. Now, if I then selected head office.
+
+Azizi, Ali  12:16
+Okay.
+
+Sharma, Radhika  12:23
+compliance, my only option should be control and maybe view, right? Maybe we give them a view also.
+
+Azizi, Ali  12:32
+Mmh.
+Body.
+
+Sharma, Radhika  12:34
+Right? So that, that's how it would we would build on it, and then each capability package, so trading will have its own set.
+Right, whatever they are based on the feature registry.
+We can figure out how we group them, right? I'm not so crazy about the way the feature registry is right now.
+Uh, I think I have a copy of it here, right? Like, it's...
+The groupings are a little bit off, but you know, we could treat this as a product group, right? So client management can be all the stuff related to Onboarding and other things, or we could bring it down to client.
+like the product group. No, these names are terrible. Product group? No, bring it down to the product, right? So, and in some cases there will be no options, right? Like for accounts, for example.
+
+Azizi, Ali  13:15
+Mhm.
+Yeah.
+
+Sharma, Radhika  13:26
+Maybe in our first version, we don't overcomplicate it because what Owen had was he had it a little bit more complicated because he was trying to solve a lot of problems in the UAR. But if it's that the model that we just discussed is how we are going to show it here. You've basically created the UAR.
+
+Azizi, Ali  13:36
+Yeah, yeah.
+Mhm.
+
+Sharma, Radhika  13:46
+If you think about it.
+Right.
+
+Azizi, Ali  13:49
+I totally understood your idea, okay? And I will bring up the mock-up by end of today. I will send a draft for you today, okay? With showing the left, what you're showing in the left Excel file, bring it into the right.
+
+Sharma, Radhika  14:06
+Yah.
+
+Azizi, Ali  14:08
+Under access control. OK, let me do that, but I will send you a new version by end of today. OK, because...
+
+Sharma, Radhika  14:15
+Okay, I'll send you this, but I'll add a couple more examples, right? So that you have something to work with.
+
+Azizi, Ali  14:19
+Yes, yes, that would be that would be really helpful. That would be really helpful because it makes more sense. And I got my answer from you when I am rendering this access control based on that Excel file. So I will have
+default roles and default resources per each role that are ticked, okay? And that would be my default. And my validation behind that would be based on this matrix, which is great.
+
+Sharma, Radhika  14:54
+Okay.
+But they can still be unchecked if required.
+
+Azizi, Ali  15:00
+For sure, for sure, yeah, it can be modifiable. The next thing is that...
+The other layer of the validation I'm looking for that if SAA can, for example, untick all of them, okay? And just put view for FBO.
+under Onboarding for administrator and assistant.
+Should I, should I allow this behavior or not? Because administrator, ohh, I should allow.
+
+
+Sharma, Radhika  15:30
+Mhm.
+Yes.
+Yes.
+
+Azizi, Ali  15:39
+OK, so OK.
+
+Sharma, Radhika  15:40
+As long as there is an independent resource in the back end, each of these permissions can be assigned.
+Almost in isolation, but...
+
+Azizi, Ali  15:49
+Yeah, but business point of view is the OK, no.
+
+Sharma, Radhika  15:53
+Yeah, it's okay. Because an advisor could have a couple of different administrators and assistants working in their office, right? Maybe he doesn't want all of them to perform account opening function, but maybe he needs some of them to just view them. So yes, he can have view.
+
+Azizi, Ali  16:00
+Hom.
+
+Sharma, Radhika  16:12
+just without manage and that that can be allowed here.
+
+Azizi, Ali  16:17
+Let me ask my question like this. Is there any role?
+Data.
+I am not allowed to modify that. For example, if I check head office compliance, there are certain, you know, capabilities and resources which I am not allowed to take it out. Is there some...
+Is there is there a rule like that?
+
+Sharma, Radhika  16:50
+I don't think so, but I think what we're going to, what I'll have to do is I'll have to look at each of the capabilities because there could be a unique case like that. The only one that comes to mind for me right now maybe is trading. So in trading,
+
+Azizi, Ali  16:52
+Okay.
+
+Sharma, Radhika  17:08
+Right, so say we have trading here.
+And you have orders.
+And then you have mutual funds.
+Um...
+
+Azizi, Ali  17:21
+Mm.
+
+Sharma, Radhika  17:24
+QI.
+So here you can have...
+This, the view can be on its own.
+This one.
+But if I select this...
+Because this is sorry, let me be more clear here.
+You can't have these two without this.
+
+Azizi, Ali  17:58
+Okay.
+
+Sharma, Radhika  17:58
+So it's a slightly different variation of what you're saying. So if you uncheck this, you can't have these two.
+
+Azizi, Ali  18:03
+Ofeke.
+
+Sharma, Radhika  18:06
+But if you just check this, that's okay.
+
+Azizi, Ali  18:07
+Yah.
+Yeah, that's what I'm looking for. Is there, if there is a minimum rule, I will, for example, like the left nav, do you remember the Servicing when I, you know, when I take out one of those underneath menus?
+
+Sharma, Radhika  18:22
+Yah.
+
+Azizi, Ali  18:32
+So nothing to show. So I just want to make sure that if I am going, because you are saying it can be modifiable, but modifiable to what, to what amount, you know, because it, because so for some rule.
+some roles, it cannot be modified everything. If you take out all the permissions, that ends unmeaningful. Again, it's not a big issue. I think for today that we are talking, it can be done later. Just wanted to understand in terms of the business. So we have this business rule.
+for some specific roles that we should have some minimum permissions.
+
+
+Sharma, Radhika  19:20
+Yeah, now what I just told you about this is it's a business, but it's also technical.
+because we don't want to change how they've designed the existing features. And the way that they've designed the existing features is, see even here you have it. If I give this person orders up here.
+
+Azizi, Ali  19:31
+Uh-huh, okay. Okay.
+
+Sharma, Radhika  19:44
+That's fine, but I can't give him these ones unless I have orders. Nothing happens if I check these off.
+You have to give trading orders also.
+
+Azizi, Ali  19:52
+Ohh.
+Okay.
+
+Sharma, Radhika  19:56
+But see, right now it's all separated.
+
+Azizi, Ali  19:59
+There is no validation behind that as well.
+
+Sharma, Radhika  20:02
+No, there is, there is. So if I were to just, I believe today, if I check this, you won't even see orders on your left nav. Because you have to have this on top of it.
+
+Azizi, Ali  20:15
+No, I mean the validation when I click on Update User, something prevents me or warning me. That's the kind of validation I'm looking for, you know. Yeah, yeah, because our purpose is to reduce the errors of SAA.
+
+Sharma, Radhika  20:18
+Oh, no, no, no, there's no, there's nothing like that.
+I see, yeah, no, that would be good.
+
+Azizi, Ali  20:35
+Okay, and errors of SAA should be prevented in this form, because after that, that's something that should be, you know, be fixed through another support ticket, something like that. But we need to provide a flexible validation.
+
+Sharma, Radhika  20:41
+Yah.
+Yah.
+
+Azizi, Ali  20:54
+To help S.A.A. to allocate the right, you know, allocate right permissions to the right rules.
+
+Sharma, Radhika  21:02
+Mm-hmm.
+
+Azizi, Ali  21:04
+So, it's very good. Okay, I could understand.
+
+Sharma, Radhika  21:08
+What I'm basically, because there's two things we have to do, right? So you can start working on this.
+But what we need to take back to the team before any requirements is the plan.
+And the plan that I'm suggesting is by the end of March, this FUM 1.0 is basically this, right? We need to be able to implement something like this. We need to have multi-firm, and then we need to have a UAR MVP.
+
+Azizi, Ali  21:31
+Mmh.
+Mmh.
+
+Sharma, Radhika  21:38
+Right, and that is to help accommodate for this new structure, right? And...
+It'll help us replace components of the existing forms.
+So we'd be able to provision access for new Compass, for Compass Legacy and Secure Zone applications.
+in the first version of the UAR. There will be some residual other things like, you know, Netrep and digit increases and all those, but we can continue to get clients to request for access there. Or when we get to the UAR, we could just have, you know, a comments box or something like that.
+
+Azizi, Ali  22:16
+Yeah, yeah, we can we can increment that. So, can you walk through UAR, you know, simple UAR as well, because maybe I can deliver you something this afternoon with that as well, okay? Because we want to be more, should be fast.
+in terms of consolidating our requirement. I want to, if you have any idea that how, I think we talked about that, okay, but it was very brief. If you can help me to understand what you mean with the simple UAR, then.
+
+
+Sharma, Radhika  22:35
+No.
+
+Azizi, Ali  22:56
+I know that, let me tell you what I understood from the other day meeting we had. So with the new UAR, you said that.
+We need to have a, because as a result of that today, in the my request and secure zone form, we don't support multi-firm. I had a meeting today with Maisha and I went through those forms. I could see that how those forms look like.
+
+Sharma, Radhika  23:23
+Mhm.
+
+Azizi, Ali  23:26
+And I totally understand. Of course, in the secure zone, we have some boxes for having multiple R codes, but it's totally static and it's not good.
+
+Sharma, Radhika  23:38
+Yah.
+
+Azizi, Ali  23:40
+Now, based on this problem, problem statement, we need to provide a gateway for firms to state their request for multi-firm through us.
+
+Sharma, Radhika  23:56
+Mhm.
+
+Azizi, Ali  23:57
+So it means that we need to have something that covers this left Excel file, because this is gonna impact the simple UAR. And on top of that, also multi firm.
+
+Sharma, Radhika  24:07
+Yah.
+
+Azizi, Ali  24:15
+Our code ranges as well.
+This is for SAA. Now, sorry, this is for the firm. Now, when the firm initiate their request, it should become to a portal, or I mean the portal, I mean the same CX Compass export platform. When SAA logs in, can see.
+the firm request and can fulfill that request properly.
+
+Sharma, Radhika  24:42
+Mm.
+
+Azizi, Ali  24:48
+So, this is the user personas that are involved. This is a very simple explanation of the problem statement and expectation, but if I have missed something, please help me.
+and also please walk me through that what are the angles I need to see.
+
+Sharma, Radhika  25:15
+For the UAR.
+
+Azizi, Ali  25:17
+Yes, for the simple UAR, yes.
+
+Sharma, Radhika  25:20
+So in my mind, the UAR is going to have to be modeled against this page.
+
+Azizi, Ali  25:28
+Yes.
+
+Sharma, Radhika  25:29
+However, this evolves.
+Whatever you see on here, a user needs to be able to specify.
+I don't, I guess, you know, I haven't thought about the multi-firm context of this, but however we discussed the bottom here.
+I believe the UAR looks almost identical to this. You select a role up here.
+
+
+Azizi, Ali  25:58
+Mm-hmm.
+
+Sharma, Radhika  25:59
+You're presented with the different.
+Capabilities.
+
+Azizi, Ali  26:04
+Mmh.
+
+Sharma, Radhika  26:06
+and you're told what it comes with.
+So if you remember Owen's.
+UAR.
+
+Azizi, Ali  26:16
+Yes, yeah.
+There was.
+
+Sharma, Radhika  26:23
+It's kind of, it's kind of taking some inspiration from what he did.
+Right.
+We have so many piles, so I don't know if this is the right one, but...
+
+Azizi, Ali  26:54
+I'm trying to load it on my site.
+
+Sharma, Radhika  27:04
+I was trying to look for it, honestly, I couldn't find it yesterday. But anyways, I'll speak to it in concept because you've seen that already. So if you remember his version of the UAR, it had, just like I'm suggesting, it has sections for each of these capabilities, right? So you had a, it was client lifecycle management.
+
+Azizi, Ali  27:17
+Yes.
+Yah.
+
+Sharma, Radhika  27:26
+Trading and all those different buckets, the same concept, we all have all those will show the same grouping at the at the capability level.
+
+Azizi, Ali  27:28
+Yes.
+
+Sharma, Radhika  27:35
+We'll frame it in the terminology that clients are going to understand and try to match it with the left navigation. Because that's not what he really had. So if our left navigation is grouping things under onboarding, the first section is going to be onboard. Within that, you're going to see that you're getting a selected advisor.
+I'm gonna see form-based Onboarding and its view and manage.
+
+Azizi, Ali  28:00
+Just.
+
+Sharma, Radhika  28:00
+I can check and uncheck it, depending on what I want to design.
+
+Azizi, Ali  28:02
+Let me share my screen. Let me share my screen. I think this is what you're looking for, yeah?
+
+Sharma, Radhika  28:10
+Yes, exactly.
+So it doesn't need to be as heavy. Like, I'll be honest, his form felt very heavy to me.
+
+Azizi, Ali  28:19
+Yes, yes, yes.
+
+Sharma, Radhika  28:22
+It doesn't need to be that heavy, but the concept is okay, right? Where you display each of the different capabilities in its own box.
+and you state whether it's what it's coming with. Now the layer that we've put on top of this, which helps filter the list out, like the view out further, which he didn't have before, is the rule.
+
+Azizi, Ali  28:46
+Yah.
+
+Sharma, Radhika  28:46
+When you layer, when you layer the role on top of the feature access.
+If they select advisor under where it's saying client administration, the second gray box, that's equal to my onboarding on the spreadsheet.
+
+Azizi, Ali  29:03
+Yes.
+
+Sharma, Radhika  29:04
+So if they select advisor and then they come down to that client administration or Onboarding box, they're going to see, okay, I get FBO, I get CRS FATCA, I get paper upload, and I'm getting view and manage for each of these.
+I had now had the option to turn off.
+Whatever I want to turn off, but this is what the user is getting.
+
+Azizi, Ali  29:29
+Okay, I'm not going to go through control and process for this version. That's right. This control and process are going to be a major change, to be honest.
+
+Sharma, Radhika  29:42
+Why? It's also tied to a rope.
+
+Azizi, Ali  29:49
+Because if I go today, we don't have control and process in in current Compassx, is that right?
+
+Sharma, Radhika  29:55
+We do, we do.
+
+Azizi, Ali  29:57
+Which one?
+
+Sharma, Radhika  29:57
+We do, we just don't display it that way. It's transparent to SAA and it's transparent to a user if they saw that information. It's based on the resources. So paper upload, for example, sorry, form-based onboarding.
+You're right to the extent that for FBO, we're not really enforcing that rule.
+because FBO is controlled within Compass Legacy. But if I take a real example, so CRS FATCA, CRS FATCA has view, manage, and process. It doesn't have control, but it has process. There's a resource.
+linked to that feature that dictates if you are able to control, or sorry, process.
+So if I selected a role, if I selected the compliance role, for example.
+Then in this box, the only things I should see is view and control.
+Now, we can change the word control, right? But functionally, that capability of control and process is...
+
+Azizi, Ali  31:02
+Okay.
+
+Sharma, Radhika  31:10
+embedded in Compass and it's specific to different features.
+Not every feature has control. Not every feature has process. Every feature has a version of at least view plus manage. Almost everyone.
+
+Azizi, Ali  31:21
+Block.
+Got it.
+Got it, got it. Okay, so thank you. So this control and process is, there is a respective resource and packages in the background. So per these two, I am not going to add Compassx in terms of...
+I don't know, having an extra user flow.
+in Compass X. It's just a permission assignment. That's all.
+
+
+Sharma, Radhika  32:00
+Correct, yes. Yeah, it's just like view and manage, just a permission, yeah.
+
+Azizi, Ali  32:04
+Okay, okay, fine. That's fine. No worries. Got it.
+
+Sharma, Radhika  32:08
+So here I feel this to me is overly complicated, right? With making the selections on the top, then figuring out what features you have. Because if you remember one of the feedback we gave to Owen was...
+Because not everything has control.
+If they were to select control under client administration, if you look at the bottom where it says optional permissions and special entitlements, that concept is so confusing to a client. No, within that same gray box.
+If you go to the same gray box.
+Right. Yeah. So at the top, you're selecting for all the features under client administration, everything.
+
+Azizi, Ali  32:52
+Mhm.
+
+Sharma, Radhika  32:52
+I want control. That's what you've selected based on this example.
+
+Azizi, Ali  32:56
+Okay.
+
+Sharma, Radhika  32:57
+You're getting form-based and paper upload.
+And at the bottom of that gray box, it says, well, you can do some manage things, too.
+So for a user, it's not intuitive for them to know, what am I managing, what am I viewing, what am I controlling?
+
+Azizi, Ali  33:15
+Mhm.
+
+Sharma, Radhika  33:16
+So, instead of having it by...
+Capability.
+we actually bring it back down to the feature level.
+
+Azizi, Ali  33:27
+Ha.
+
+Sharma, Radhika  33:27
+So just like we're going to have in the Compass user management form.
+We're going to have Onboarding, you're going to say FBO, CRS, fatca, paper upload, and for each of those, it's a view and a manage.
+
+Azizi, Ali  33:38
+Mhm.
+Maintenance, okay.
+Wonderful. Okay, one of those hierarchies will be cut in the feature registry.
+
+Sharma, Radhika  33:50
+I think so, yeah.
+
+Azizi, Ali  33:52
+Yeah. Okay, can you help me just if you had time to populate that Excel file as many as possible, okay? Don't bother yourself, okay? But as many as possible. And then I will come to you.
+
+Sharma, Radhika  34:03
+Yah.
+
+Azizi, Ali  34:11
+I'm not going to promising to have the UAR this afternoon, because, yeah, but...
+
+Sharma, Radhika  34:16
+No, and that's okay. That's okay, because I think if you get if you get the main user management page, we use that as inspiration to build the UAR. And from a plan perspective, I think I mentioned this to you, what I want to propose.
+
+Azizi, Ali  34:21
+Yes.
+Yah, yeah.
+
+Sharma, Radhika  34:35
+Or I want.
+kind of make that decision with the group is.
+We have, we split the delivery.
+Our Compass team fills out.
+FNUM, they change what the packages mean. And I don't think that we need to complete and we can have like coexist, right? So we can have these packages that we have right now.
+And we can add on the additional packages. And there's one new concept, which is the rule. So that's FNUM 1.0, right? We have to add the concept of the rule, and we have to temporarily create new packages that are composed of capability, by capability, and then the multi-firm work that you're giving them.
+
+Azizi, Ali  35:10
+Mhm.
+Mhm.
+
+Sharma, Radhika  35:29
+The UAR.
+Once we've figured out FNUM 1.X and a Multi Firms requirements, it'll be quick to put these requirements together. And I'm suggesting, I'm going to be talking to Ray a little bit later today to get Iis to build this in parallel.
+
+Azizi, Ali  35:50
+I have one.
+Thing to tell you in terms of it's more.
+I'm very new to this organization, but in terms of the psychological of the behaviors or relationship in this organization, I feel that maybe Esther.
+
+Sharma, Radhika  36:07
+Mhm.
+
+Azizi, Ali  36:13
+You know, we we we can help Esther team and maybe Esther and Sujith to build up their confidence that they can do all of things at once.
+You know, this is this is my, you know, hunch feeling, and I'm not saying that we cannot do that, but let's, it's just a suggestion that let's bring it first to Esther and ask her.
+whether she has capacity to do all of this or not. Okay?
+
+Sharma, Radhika  36:56
+We can, we, we can do that, yeah, we can do that.
+
+Azizi, Ali  36:57
+And then.
+Yeah, and then if she says, yeah, I don't have enough capacity, help me. She says, help me, okay?
+Then you can say, okay, I can bring in help to the table with Iis. I don't want to, you know, interfere with, you know, all the things better than me, just in terms of good technical teams. Usually they want to have their confidence and if they.
+You know, usually I use a competitor when they are incapable.
+But Esther told me she has added two or three more person to the team.
+
+Sharma, Radhika  37:44
+Okay.
+
+Azizi, Ali  37:45
+So, so it means that they have larger capacity.
+And and also when we took UAR that.
+that open design, they said, it's not two PI. We can do it on one PI three months. Give us many works, you know.
+
+Sharma, Radhika  38:06
+Mmh.
+
+Azizi, Ali  38:07
+So they are saying that we have confidence to do as many as you want.
+This.
+
+Sharma, Radhika  38:14
+We'll have a chat; I'm gonna, I'm gonna plant the bug and raise your phone.
+
+Azizi, Ali  38:16
+Give it, give it to as a side note, okay?
+
+Sharma, Radhika  38:19
+Yeah, yeah. The only concern that I have is...
+The quality of work that they produce.
+I don't want to put the blame on them because I can't. I didn't work with them to build what they did. I had to deal with what came out of it. And maybe they were just working off of bad requirements.
+So, I'll give them that benefit of the doubt that maybe they got bad requirements, that's why what they delivered wasn't what worked for us.
+If Esther sees everything that we want to accomplish by March and says I can do it, and because we're going to model the UAR based on the user management screen as much as we can,
+It's possible that they can do it all. So let's have that conversation. Once you have, you know, the prototype ready, let's share it with her. Let's see what she thinks. And then I'm still going to have, I'm just going to plant the bug in Ray's ear just to let him know that, you know, we are going to, we're going to try to push Esther's team.
+
+
+Azizi, Ali  39:12
+Yah, yeah.
+Yes.
+For sure.
+
+Sharma, Radhika  39:28
+But if we don't feel the confidence, let them feel it, but if we don't feel confident that they're going to be able to deliver everything on time, then we would like to consider bringing in IIS. He just, I just want to know from him if he's even interested in entertaining that idea. I know initially he had some concerns about bringing IIS into anything related to FNUM.
+
+Azizi, Ali  39:46
+Yes.
+Mhm.
+
+Sharma, Radhika  39:52
+because FNUM has to sit on the core platform.
+If we, if Iis builds out the UAR, we can't do any automation.
+
+Azizi, Ali  40:05
+Yeah.
+
+Sharma, Radhika  40:05
+If, if, if, if Esther can do it, then Ali, I think that our user setup will be almost 100% automated. You won't even need SAA.
+For version one.
+You'll just need them for a small portion of it, if at all. So I agree with you. Let's try to encourage Esther. Let's see if we have her feedback. If she's able to do it, wonderful. Otherwise, I'll just let Ray know that this is the consideration. We might come to you and say we want IIS to work on this.
+
+Azizi, Ali  40:41
+Okay, that's great.
+
+Sharma, Radhika  40:41
+and if he's okay with it.
+
+Azizi, Ali  40:44
+Okay.
+
+Sharma, Radhika  40:44
+So just before we wrap up, there was, I'm going to clean this up a little bit, but I want to create a little bit of a roadmap for everybody from basically now until the end of 2027. I don't think I have enough context to build the whole thing, but maybe I can build it in increments.
+
+Azizi, Ali  40:52
+Mhm, mhm.
+
+Sharma, Radhika  41:03
+But I know the big picture. If you remember, the target state we want to get at. So we know that there's some other things we have to do. So I don't like this view. Copilot messed it up, but I'm going to create another view that kind of helps us figure out what we need to do by the end of the year. Now, the one critical thing here, which I love that you're so enthusiastic and you want to jump on this,
+
+Azizi, Ali  41:06
+Yes.
+
+Sharma, Radhika  41:25
+because I think that you and me, we must for this first iteration of what we want to do, FNUM 1.0, Multi Firm and UAR, we have to lock down the requirements.
+
+Azizi, Ali  41:36
+Yes.
+
+Sharma, Radhika  41:37
+by the end of Novemebr.
+Two weeks.
+
+Azizi, Ali  41:39
+Yes, yes.
+
+Sharma, Radhika  41:40
+We can do that.
+Then December, January, February, March, delivery teams are just delivering.
+
+Azizi, Ali  41:49
+Yes, yes, you're right. If you see, you know, right now with the Multi firm, last Friday, we closed the requirement. OK, but we know that there is a gap, as you said, with if you want the first row and the
+Third row, which is third row is actually very, very mandatory, but yeah, and I the only concern is that when I build, I try to build both of them by tomorrow, okay, because I'll, yeah.
+
+Sharma, Radhika  42:23
+Yeah, yeah, don't rush today. Take your time for tomorrow. I'll make some time. And then Thursday, Ali, if your calendar is free, I want to book the whole day with you, or half the day with you, so that we can firm up more.
+
+
+Azizi, Ali  42:27
+Uh...
+Yeah, I want to be prepared for Wednesday. You know, I want to be prepared. If you have don't have time for Wednesday, then that's fine, but...
+
+Sharma, Radhika  42:46
+No, no, I, I'll make time, I'll make time.
+
+Azizi, Ali  42:49
+Okay, I will be prepared for Wednesday, okay? And by Wednesday, I will keep both of this, but before that, maybe today afternoon, I give you FUM1, the UX1, just as an initial to say that I am on the right track or not.
+And then yeah, we can move further. And then my concern is that if we go to those design meetings with a JP, maybe it takes more than November. Let's see. Yeah, maybe I can, after I completed the design and...
+
+Sharma, Radhika  43:24
+Mhm.
+
+Azizi, Ali  43:30
+get your green light to say that the design fits 90%, then I take it to Esther and ask her about her estimation.
+
+Sharma, Radhika  43:41
+Yeah.
+
+Azizi, Ali  43:44
+Does it does it sound good or not?
+
+Sharma, Radhika  43:46
+Yeah, no, it sounds great. I will, just so that my calendar doesn't get booked, and in case we need to talk, I'm going to set up time with you tomorrow in the afternoon.
+
+Azizi, Ali  43:48
+Ohh.
+Okay.
+
+Sharma, Radhika  44:00
+Let's say, I'll just block the calendar for us from 3 to 5. Are you available?
+
+Azizi, Ali  44:06
+Yeah, yeah, yeah, if I'm not, I will make it free, you know, because there is there is nothing important than this.
+
+Sharma, Radhika  44:11
+And then...
+
+Azizi, Ali  44:15
+Ohh.
+
+Sharma, Radhika  44:16
+Okay, so then we can regroup tomorrow from 3 to 5. You have the rest of today and tomorrow to build out the requirements. I'll send you the file shortly with some examples.
+
+Azizi, Ali  44:20
+Yes.
+Yah.
+Okay, great, great. Thank you. Thank you, Radhika. Thank you for helping. Sorry, before we jump, there is an e-mail from Candi, which I don't know, you know, how to respond, to be honest.
+
+Sharma, Radhika  44:33
+Thank you, Ali. All right.
+Yeah, yeah.
+That's okay. That's okay. Leave that with me. It's not even for us to respond to. There's another team who should be providing that support.
+
+Azizi, Ali  44:55
+Okay.
+
+Sharma, Radhika  44:55
+So, uh, leave that with me, I'll take care of that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

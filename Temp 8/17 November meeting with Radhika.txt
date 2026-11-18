@@ -1,0 +1,758 @@
+Azizi, Ali  0:03
+Uh...
+Okay, actually, based on what you already told me about this Excel file, which was a kind of matrix with having two levels, capability and features, and granular.
+of the permissions per row. So permissions is interpreted as resources. OK? And the roles that we have here.
+With the granular attributes per each, you know, feature and capability, so I try to interpret it into how we gonna show it to the SAA for provisioning the access.
+Okay.
+Let me see.
+So, not at.
+So.
+Actually, I provided 2 models, which you already told me that you like it this one. Well, it's, you know, in terms of the look and feel. So I don't dislike the other one. I don't know if there's a way to blend them, but this one to me felt really clean.
+Yeah, yeah, very straightforward. Yeah, it's the other one looked fancier, more modern, but it it was just very heavy, like it was, yeah, it's actually you told me about the...
+But you did capture kind of what was in my head. Yes, yes. So I think it's the same. I have too many urges. But yeah, it's actually inspired by...
+you know, open design. Yeah. Okay. Just wanted to show you to trade off, okay? But I have the same feeling as you have. It's more straightforward and it's very similar we see in the enterprise platforms, mainly in Azure or even in Google.
+AWS is not something like that. But in Azure, mainly in Azure and GCP, the look and feel is very similar. Okay. Honestly, the simpler the better. And this is simple. Yeah. The other thing is that I provided extra UI warning.
+If it's ticked, if I remove it, it will be highlighted. If I add something extra, you know, it says it's extra. Okay? Just, you know, it's better for it. But in terms of the concept, so...
+I'm going to load the packages of the firm and the user, okay, and categorize them as the features, okay, as a capability, okay, which is here, here, and here, okay?
+and then underlying features, okay? And per featured, it can be view, manage, control process. Now.
+My question is that, because you today, it came to my mind within the meeting with Infinite.
+that now that Maisha is working on that because I think when we go to deliver it, it's final. But before delivery, I want to make sure that it's going to be comprehensive and long lasting.
+For Maisha, for having the interview with the product managers to say, okay, when you talk, because they maybe they don't have any idea about the capabilities, okay, or have less information, but about the features.
+Yes, they know. But about the view manage control process, is this something understandable by them? Relatively, yes. Yeah. She does. Not Maisha. No, she does. Interviewing by the third parties, like, for example, me, you know, Caroline.
+Uh, Demenagementmai, you know, they they they understand the concept.
+So we usually have to remind them of what it is. And that's usually because our conversation with them.
+Turns into a technical discussion when we want to focus on the business side with them, but they do they do understand this because when they're building their product.
+They are building it based on these controls and the capability. They should know the capability too, like onboarding and whatever it is. The names.
+I'm using different names than what you know Penny is established for us, but yeah, they do understand. The names, which names do you mean? The capability, right? Like, oh, the capability. Here, we put one morning, but if you were to look at Owens, it would say client lifecycle, client administrator. Like, there's so many different names for it. We can establish what that is, but they understand the concept. They understand that there is a capability.
+And within that capability, there's a group of features. And each feature needs to have levels of control. And in fact, when they're designing the product, they might not be using these words, but...
+Based on what they tell us, they tell us view only is something that they understand. They know, okay, my product has the capability to have view only. My product allows people to input something equals manage. My product has an approval stage in the workflow control. Somebody actually takes that information.
+Submits it into the system; there's a process, so they use slightly different words, maybe, but it all comes back down to this, and now I think they understand it. Okay, okay, and in terms of view manage control process, because this is another question.
+Is there any free view is the list of the permissions? OK, this is my understanding, because if you don't have view, you cannot have control or manage, or it's no, that's the technical.
+dependency when the business lens of view means.
+I can, I have view only. Okay, meaning I can see the data, I can see the transaction, I can't do anything with it. That's what it means to me. That's what it means to the product manager from a business lens. But the way that FBN has been designed is they've almost tiered and layered all of the controls.
+And view is the minimum. Yes. And if you ever need manage, you must have view together. Yes. That's not something that from a business perspective means anything, but technically, yes. Okay. Yeah, that's the least privilege. Yeah. And then.
+Manage for my understanding is that mostly a write permission, a submit permission, is something that you want to modify or create. Okay? Yeah.
+Now, in terms of the control and process, okay, with the control and process, does the user on that module will change? For example, a user in the firm has view and manage, but another user...
+cannot have manage but can have view and control. That can happen, but you can also have somebody who has view, manage, and control. Yes, yeah. Okay.
+And control if we simplify the terminology and I'm not fond of the word. Okay. But I think I want to interview the product managers to see if they interpret control the same way I do. I see control.
+mostly as an approve function. So you have somebody at the firm or here at NBIN or operations that performs the job of approving what was managed or submitted. And that's traditionally we've called it approvals. Okay. Control, I think the reason they went with that word.
+is.
+because there could be cases where you're not, you might not be approving something. Honestly, I'm not even sure. I think it's because you have an operational function to approve something. Some of our firms have compliance teams that are looking at the risk of something that's been input.
+But at the end of the day, it all leads to a button that they press that allows them to say this thing that was submitted is allowed to proceed to the next stage, which is process.
+Oh, okay.
+And...
+And if you look at on the UI, the representation for the user, we never use the word control. So trade allocations, for example, that Zhang is building, that has all four levels. It has a view, it has a managed control and process. The label.
+On the UI is approvals.
+
+
+Is it the right time to change this caption or? I think so. Okay. I have been thinking about it a lot. I think it would be worth it maybe to have a quick chat with Kevin or the product managers to say.
+Is there, is there a function beyond approvals?
+that isn't classified as a submission or processing a request? Is there another action somewhere in there in the middle of that?
+that cannot be interpreted as an approval. And if not, if it could be something else, then maybe control is appropriate, or maybe there's a different word that can describe a set of functions that isn't managing and isn't processing. Okay, is it fine to socialize it in the new product team group chat?
+Yeah. Oh, just to take the feedbacks and you know, because I don't think we need one hour meeting, something like that too. No, if Kevin frees himself up, we can just ask him now, because he should know.
+Yeah, let me call him for one second. OK, thank you. Now, I like to make quick decisions. Yah, thank you.
+Okay, no, that's great.
+But process should remain as it is today. Yeah, I think that is intuitive, right? Terminology that we display for a user should be intuitive. It shouldn't require you to open a user guide to figure out what this word means. Exactly. I think process is, it makes sense. Because why I am...
+you know, emphasizing here, because if I'm going to replicate it for the security steward, I want to make sure that they have the same interpretation as we do. Yeah. That's the reason I am hearing, yeah, challenging the board is to make sure. Yeah, well, SAA, I think it's easier, because SAA just actions, but maybe it's more appropriate for the security steward.
+at the firm. So the security, the SSO or security steward, security signing officer, different names for somebody at the firm who submits the request on behalf of the users. They have their own access administrators at the firm. Those are the teams that are going to fill in the UAR form. Yeah.
+If we want to keep it consistent from person to person to person, you want to use the same terminology. Yeah. Yeah. Okay. Sounds good.
+Now, the second question is that...
+Do we have any kind of O.K.? Hey, hey, trying to do Stan's job, sorry, sorry, we're about to just working on F.U.M. obviously, what is that, and we still haven't rebranded it 'cause Ray has asked us to rebrand it, not yet. E. despised.
+Um, what uh, what Ali has been been working on, I'll let him explain, but...
+We're trying to explain something to you quickly.
+trying to consolidate a set of goals that we need to achieve by March. Three things. We need to have multi-firm, we need to have a form or workflow that supports that. And in the back end, while we're at it, because it affects these two, is we want to simplify the user access management controls. Because...
+JP showed us something that none of us had ever seen before and we're like, oh, okay, this is cool. Let's go down this path. And it eventually takes, sets us up to get to FBN 2.0 if we ever want to go there, which is policy based stuff.
+So Ali's come up with a bit of a prototype, but we have a very specific question for you. We're not going to give you the whole preview today, but you can go ahead and ask. Maybe I should have this. Yeah, first of all, Ali, can I ask, is she treating you OK?
+Are you sure? Because if there's any problems, you let me know, right? You can tell, don't worry. Well, I gotta have that sphere with me. Yeah, you're all nice guys. Thank you. Actually, when we were discussing about this metrics provided by Radhika. Let me, I'll just give him the explanation, just a tad bit.
+
+
+So you know how today we have 95,000 different words. Yes, also one of Ray's favorite things in the way. Yeah, so I want to get rid of that nonsense. We still want to have a concept of roles, but we're going to take from inspiration we've taken from legacy. Make roles that actually make sense. OK. So if you want to just scroll to this side.
+Let's actually have roles based on what people do. Okay. Yeah. So this would be a, this would replace the current roles that we have. And how we would permission somebody isn't that you have extremely, like, you still have finite roles now, but they're more, they make more sense. Okay.
+And what we would do is we would have all of our capabilities grouped together, kind of like Owen's UAR design. And with that, you have all the features. They're not listed here properly, but column A, call it capability. The second one is the feature, and then you've got your resources or your controls for it. For each of the different roles that we have.
+We can pretty confidently standardize to say, you know, for a large majority of the time, assistant advisors are viewing and managing things. So operations teams are viewing, managing, controlling, and sometimes processing if you're an IP, depending on the feature. So that's where we become finite to say, okay.
+As an advisor, you're never actually going to, you know, approve an account opening request or a Servicing request. So what we do is we have a role, and for each of our capabilities, keeping the existing resources, we say, okay, for let's use CRS FATCA, for example, we have a view for CRS FATCA as an.
+assistant and advisor, well you can view and manage it, that's what gets assigned to that role. And then you've got, I don't know, figure out compliance, but you've got head office ops, they can process. Or not, whatever it is. So this would be the new concept of how we would manage people's access. From this.
+Ali has created what it would look like on the user management screen. Okay.
+Yeah, thank you, Radhika. And you know, for me, view and manage makes sense, but control.
+It was off the chart, you know, it was something that I couldn't see in the standard enterprise, you know, solutions to find a synonym or similar permission. That's why I asked Radhika, and she said that today...
+Well, for example, in trading, we have trade allocation, trade allocation, we call it approve or approval instead of control. Okay, so that's the equivalent in servicing as approval. Yes, so what we're trying to figure out here is this is literally the label that's sitting on the screen.
+This is going to become inspiration for what the new form is going to look like for security stewards. The word control is not intuitive. It doesn't make sense. The question is, you have a workflow. A workflow has a manage, you submit something, and approve, and a process. In that middle stage, is there anything else apart from an approval that could happen?
+across all of our known features that we're rebuilding right now, that wouldn't be classified as approval. And that's why we have to choose this label called control.
+But I don't know why, like the real decision why we chose control.
+
+
+But like even compliance, when compliance comes in and does something, they're doing an approval.
+I cannot think of anything that would be approval. Right. Or that would be completely mistitled by the word approval. Yeah. Whereas control is like... Control doesn't mean anything to me. Yeah. Okay. Because this is our decision point to change that label to something more meaningful.
+And process kind of makes sense, like it's... Yeah, so any Onboarding stuff, someone would be approving the application.
+Any Servicing you're approving a request, any trade application you're approving a spreadsheet transfer, does it have an intervention?
+It could, but it's an approval. Okay. Because we also used to use the word intervention. That's a legacy term, but it also doesn't make any sense. No, I don't. Because an intervention could also be processing, right? Okay.
+So approval is more sensible for you instead of control. I would say. In fact, I don't like the word manage either, I'll be honest with you. But I think I don't think the word manage, like we can get by with manage. But if I was somebody who had no knowledge, again, the goal is you shouldn't have to open a user guide to interpret this. Exactly.
+So, to me, it's you're submitting something, you're requesting something, inputting, inputting, like it's something along those lines, yeah, right, that manage should be, yeah, managing isn't as off-putting as control, yes, yeah, so if we, if we, so I'm okay with the change in the control to approval manage.
+I, you know, I don't know if it's worth you bothering that one because you're gonna have to come up with something to stand right now and everyone uses manage today here. Well, we don't have to change our technical implementation of these words, right? Because then that's within our group. We'll have to understand that control means approve and manage means whatever.
+It's more about what we want to show users. To firms. Yeah, to firms. Because somehow what we see here, we are going to replicate for the stewards in the firms. And we want to make sure that it's going to be straightforward. As you said.
+into it using, don't need to open up something else along with it to, you know, to break their, you know, into half one matrix, the other half to show it is. So, yeah, we want to make it as straightforward as possible.
+I think I still think manage is probably okay. Yeah, because it's not always just inputting a request or creating a request. You could be updating a request, which means now you're managing a request. Yeah, you're editing something, you're managing it, something.
+
+
+
+OK, so yeah, I'm not like, so yeah, against it, but control, yeah, let's change control to to approve, approve. OK, OK, that's a crazy question then.
+How much work is there going to be to change everything to this format? We are going to be sharing this with the team soon to get estimates, but I did have a chat with Ray, and he was really fond of Firm and User 2.0, and he's like...
+If we got to slow down, I'm okay, as long as we don't have to go back and rework everything again. This, in my mind.
+We might not even need policy if we have this. Policy will only address our issues with Oxana. But this can, I think this is sustainable and scalable over time. I don't think, I mean, and there's another proposal that we have on the table, which...
+Ali would like to empower our IT teams, right, to be able to deliver all of this. But if they cannot deliver all of this, then we get them to work on multi firm.
+revising this because it has to be done on Compass, but then we get infinite to do UAR. And I did speak to Ray yesterday and he's cool with that if that's the approach we want to take.
+So, we're going to get estimates, but I don't think that this is a lot of work. You don't think that it should be? Yeah, to be, you have four months, yeah, to do it. To be honest, this is the full database of FBN we are talking. We are talking totally about, you know, 8 to 10 tables.
+Some of them already support multi-frame. For example, parent ID, we have it in the firm table. So I checked all the database. It's very straightforward. So. And even with this new model, I think one of the heavier lifts on our side is defining those new packages. So what we would do is we would maybe create an additional 8 packages.
+that become our permanent packages and then get rid of the other 27 eventually. Yeah, you know, here the packages, you said about the packages. So this is all the 27 packages. So when we do assignment, they take one of these packages from here and they go through, you know, assign a new between package and user groups and permissions.
+Very, yeah, you know, and actually it solves employee access too. Do you mind going to the spreadsheet for a second? Yeah, yes. So employee, initially I was like, damn, are we gonna have to set up a bunch of different packages for employees? And I don't think so, because...
+I was told that there's a specific limitation with employee SSO where all the packages we have today, if you use one for one employee job role, it has to be configured exactly the same for every single job role. Through testing, I've learned that that's not true. IIQ has the flexibility to take a job role on their side.
+and say it gets this, this, this, and this. It doesn't need to be confined to our packages. So what I was gonna, what I'm suggesting here is we're gonna have one package that's called internal one.
+Then if you go to the internal matrix tab, this was just like 5 minutes where I started playing around with it, where now we would have all of our features and capabilities listed across here, and then specify for each job role what they get. Meaning you can continuously add new teams. We would just assign what they need. So it's a new job role config with what features they need. Yeah, let's really stay away from...
+Anything like this will, you're locked in. This was the problem with Secure Zone for the longest time, remember? Secure Zone had a role if you had to change what they had access to. Every person in that role gets messed up. Yeah. So I still want to run this by Esther.
+
+
+
+Because the people who told me what the limitation was, I think were ill-informed, because that's why we ended up where we are today. But if we can do it this way, it's going to simplify everything. Or at best, maybe we have two or three internals, right? We might have to have one specifically for like SAA or something like that.
+But.
+Whatever we're working on now fixes so many problems across the board. So I think even a little bit of extra time that it's going to take to do it, the value we're going to get out of it is huge. And 2 things we need to touch, because here you see it's singular. So I need to select one row. Is there?
+Any case that I can select multiple roles? No, that's where we're going to create a clear definition. This is different from what JP shared, right? Because this is considered a package.
+JP's model of FBN 2.0 is you can assign multiple packages and you can assign multiple roles. That only makes sense if our packages are capability grouped. Yeah. But I think that comes with risk, which is the risk I was explaining to you. So if you go back to the spreadsheet, you can validate if I'm...
+wrong here to the packages tab.
+So if we didn't have those up at the top, right, get rid of, ignore that. And instead we had packages grouped by capability.
+or we had a package for every feature. You're still now looking at a slew of packages across the board.
+The other alternative that JP said is okay, don't have packages at all. Just have resources.
+So that could be something that we do, right? Eventually. We could eliminate all of this and say, you just have roles, which means you don't have, sorry, you just have features. So we would remove that role layer and just have the bottom half of your prototype there, where you're just picking features that you need.
+The problem that I have with that is we run the risk of over-provisioning. Accidentally, an advisor can get control permissions. So that's why I think this is a safety net.
+But let's take into consideration the small, long pop shops where the advisor is the admin and the assistant and everything like that. So we can work with the terminology here, but I would see them grouped under head office.
+operations. Because we're seeing here, head office ops can almost, head office ops has the ability to enable almost everything.
+You can choose what you want.
+So it puts the control in the firm's hands to say your head office people are getting a lot of, they're eligible for a lot of access.
+It is up to you to control it on your side to make the right selection.
+Yes, but you know why I am asking? Because right now, with this allow or deny, we are stepping in the policy-based world. Okay? We are touching, but still we are on the RBAC model.
+So, our concept is RBAC, but technical is policy-based. OK, why I am saying that is that in the future, or even today, please let's think about it. I that someone needs to have...
+be at the same time advisor and also head office compliance. Okay, and consider I can choose both of them and it provides a mix of permissions which I can edit them. Yes. Okay.
+So if we have this flexibility to provide.
+You know, do not restrict yourself to, you know, whatever is JP or staff said. JP has that full flexibility. Yeah, yeah. But I think that there's certain, so when it comes to our accountability as a firm, okay, for our PMs, we are responsible for access. We are accountable.
+on audits and all of that for access. For IBs, we don't care. Do whatever the hell you want.
+
+
+
+So for PMs, we need to have some governance and some rules. Yes. That's why I think that we need to have that layer. But you're right. This, between the role up there and this down here, we can have that flexibility.
+If later we decide that you can have more than one role, maybe today we have to think about what we call those roles, because eventually it might be something that's more transparent to the user. Now, but to answer your question, today in legacy, those small shops, RPMs, right? They're still picking a role. So what are they picking today?
+If they're not picking a head office role, then how are they doing everything?
+So we can look into the data to see what it says. They probably are picking a head office rule and then selectively picking the features, which is exactly what we're allowing them to do here now.
+So, in fact, even from a change management perspective, for at least our PMs, this isn't going to change the model too much. Now, this is not the full extent of the roles. I just picked a few samples. Yeah, yeah, it's we have to actually go through it, no, we figure out if these labels still make sense, and if you go back to the spreadsheet.
+And right at the top, I don't know if you've got filters on, but if we go right to the 2nd row there, the composition of a role for an IB is different than a PM. Yes. Yeah, I remember Penny talk about the stuff. Because you can't, a PM will never have control functions, even if you're a head office user.
+It does an advisor who does everything. But an IB may have that. But that's not going to be something that the user has to decide. We have to tie that to which firm it is. If your firm is an IB, your role means these things. If you're a PM, your role means these things. That's why we actually have to have.
+whatever that is, like 10 packages.
+And the terminology there, right? Like, I think for IBs, we call them advisor, here we'll call them portfolio manager. I don't know if assistant and administrator are different in those worlds, but the idea kind of...
+That layer just gives us extra control on governance on the access, which I think, 'cause we're gonna have to probably run this by our risk team, but yeah, you think this makes more sense? Yeah, okay, so we've got the input on the control thing, so we'll, yeah, okay, thank you, that.
+One more thing I think you told me is that provide this possibility to the user to tick or untick. I hear you see I have disabled that. And that's fine because you're applying like governance. Yeah, that's what I tried, but.
+Yesterday you told me that let's have it to control to help them to select or unselect. They still have to select and unselect within the boundaries of the role. Okay, it's okay, within the boundary. Okay. So the bound, when you select a role.
+everything that comes with that role can be automatically checked. The security steward needs to go in when they look at the form, or SAA needs to go in and say, this is what the security steward said. Now I'm going to check, uncheck based on what they said. Okay, that's fine. And as I mentioned, if I remove, it's going to be highlighted.
+The other thing is this side note, okay, because it's under multi-firm. So just provide a context for Kevin is that now when we are going to walk into the multi-firm board, so we are going to provide the hierarchy based on the data that we receive from firm 360. Makes sense. Yep.
+Okay, now firm 360 is going to provide what is the parent firm and what is the child firm. For example, in terms of the harbor front, we have seven children. Okay, and now here I can select this, select the parent firm, and I can see all the children under the.
+parents. Okay, now, our chain, as a parent user, has access to all these firms. And now, also based on the radical feedback, maybe we need to restrict the Oracle code access for even for the child firm. There is no need to have the full range of the Oracle code. So
+we can specify. Makes sense. Yeah. Now, here as a head office operation, when I am going to delegate these permissions per role.
+I am going to provide a side note as a validation to say, okay, this is not subscribed to these firms, okay, for five out of seven firms. So just a side note, okay, maybe this side note is not necessary.
+Or maybe can be changed with the more, you know, uh, it is that because those firms cannot be subscribed to, yeah, those specific features, exactly, exactly, and so you identify, yes, so I think it's good to have a note in there somewhere.
+
+
+
+Because the assumption may be, as me, you know, setting up a parent user, they're gonna have access to every tool for every child, but some way it may not be the case, so it's probably, yeah, they can check it here.
+Yes, we're saying here that you are not.
+You're selecting this access.
+But you don't have access to these. Yeah, so for form based onboarding, I cannot on those two firms. It's not specific to firm and future. Like future and firm are not specific. So it's not like, okay, for this firm I have this and for that firm I have this. Capability. Yeah, yeah. It's the same. Whatever you select here applies to all firms that you have access to.
+So what's in the note? No, it's here. So some of the firms, okay, may not have form-based onboarding. Okay. Oh, I see what you're saying. So you're looking at the firm package. Yes. I am trying to provide a validation, a combination of the validation.
+user package and firm package. Okay? Because after I am going to create, I am delegating and or modifying, so I want to provide what are the impact of creating or modifying a user. Like IFMs for example. Yeah.
+I think maybe we do it the other way then. Yeah, just, yeah, please help me. Subscribe to, saying which firms you actually...
+Have access to that feature of work. OK, OK, thanks. Yeah, you, it's just, yeah, I think it it it.
+OK, it confirms what they're doing as opposed to confirm what they're not doing, right? Because that's the purpose of the form. It's to confirm what you want, right?
+And do you think this should be replicated for security steward as well? In the in the in fact, this is more appropriate for the security steward. It means nothing for SA. Oh, it's oh, OK. I so this this is probably more appropriate for the UAR than it is for SA, because again, SA doesn't care. SA is just going to action.
+The request.
+They don't care, which means that they they don't, they don't. I'm gonna demean them for a second. They don't actually apply any logical reasoning to setting up access for a user. They get an instruction and they follow that instruction. To them, it doesn't matter if the user has access to certain features, but a security steward.
+If they're trying to confirm what features a user has access to and then which firms do they apply to, it's more meaningful for them because they'll make the assessment on their side. Okay. And then if somebody complains to them, why don't I have form-based onboarding for one of these other firms?
+Then they can submit an inquiry about that, and OK, makes sense, makes sense.
+And one more thing, I don't like this, you know, I just wanted to, because yesterday we talked about the other features that don't have view managed control, you know, for example, Netrep, you know, you know, other things that. No, we're gonna, we're gonna bundle these into one thing.
+at the top of the form that you can't change. And it's going to say, if at all. So you want to bring it here? No, so it'll still list them on the left, right? Because as a security, as a SA team member, I still have to enable it. Yes. So I still have to turn it on.
+Um, and...
+We still need to list them there. Sorry, you can you can go through. Sure, yeah, yeah, but if you want to stay more than to stay, you said you didn't want me to see it, so we'll show you when it's all done, and then you can be like, "Yay, I'm already happy, Kristin. OK, good. Thank you. So, yeah, so...
+Let's look at the different personas, right? Right now, what we're looking at is the SAA persona. Yes. The page needs to include everything that SAA needs to turn on or off. Exactly.
+So we have to still include all of these here. Yeah. If we switch to the persona before this step, which is security steward.
+We might not need to...
+allow them to select these because you have to have some of them. You have to have Client and accounts, otherwise you cannot have Compass. Right? You don't have to have data export. You don't have to have tools. You should probably have statements, tax documents, and trade confirms. But if we ultimately decide, no, you have to have those.
+then we might just put, you could put something on the UAR.
+to say this is default permissions, right?
+
+
+that you're getting.
+So by virtue of requesting access to Compass, you automatically get clients and accounts. You don't need to select that.
+Now the reason Owen had it in his design as something you have to select is because he was accommodating for anybody who wants to submit a request to get access to some product that's not Compass. So because he was trying to create something that solves all of our problems.
+If we launched this UAR.
+And my proposal to you was we don't try to figure out a way to solve for Netrep access or digit access or crisis access. Let them continue where they are today. Meaning this is only going to solve. Or scope of the compass. Compass and secure zones. So both compasses and secure zones.
+Meaning.
+We don't want you to have access to Compass Legacy independently anymore. You have to request new Compass for it. So.
+They still need to choose whether they want Compass Legacy or not, unfortunately, because not all of their users are going to need it. So yes, that needs to be on the UAR. Client and accounts doesn't need to be on the UAR because you're requesting Compass Access. You got to get that, otherwise you can't have the platform. Data export is an optional. Tools is an optional.
+right? So you can put them as, they don't need to have all the view, manage, control, and process, but you still have to find a way to fit them on the UAR and on this page for SAA to enable and disable.
+Mm.
+OK, got it, got it, like, so.
+Good includes, and when I eventually give you the full list of all of the capabilities and features, some of these things are going to be grouped into other things. Like data export is going to be grouped into something called reporting. It'll have data export under it. It's going to have web panagon. It's going to have...
+other firm reports, client reports, and all of them have the same level of control. They're only view. Oh, okay. So when you start bucketing them, you'll see that you have one option. Okay. And the capability is, it will.
+Be the same, or, for example, you want to have a general capability? It'll be, it'll be a general capability that says reporting. OK, and then the features will be web panel on data export, so it'll still follow the same thing, except you're not going to have multiple rows for those; you're going to have one, one that says gear. OK.
+Great, thank you. Very informative for me, and...
+It's very hopeful.
+No.
+What I have not covered.
+From your ideal world.
+So, I mean, I have feedback on some of the wording, the terminology, but I'm reserving that because it's just concept, unless you want that feedback.
+What I want you to look at is the fact that, because this form I think looks good to me. For each for SAA, again, persona is SA. This looks good. UAR comes tomorrow, okay? Yeah, yeah, no problem. But this makes sense to me. I think it's...
+it does what we need it to do. I do want to talk about multi-firm for a second. Oh yeah. Because if you look at the spreadsheet, I actually added a role that's called sub-advisor.
+Here. So this is where your concept of applying 2 packages to a singular person applies. Okay.
+And I don't know, because you've been focusing on parent and child and not sub-advisor. Yes. I want to include sub-advisor in our scope for March.
+Because otherwise we can't launch trading unless we say it. Yeah, trading is for... We're going to do a pilot in May. May, so... Which I don't want to tell everybody else because everybody else thinks it's in March. But you and me, it's going to happen in May. Yeah, Ray told us May, yeah. So, which means by May...
+we'll have a pilot. Now, are we going to have subadvisors in our pilot? It's unlikely, which means...
+In reality, we need sub-advisor by the full.
+So if you tell me that it's too much scope right now.
+Let's read it, but I want you to think about the impacts.
+Of that to this model.
+Is it fundamentally going to need to change anything here?
+Especially if for now I've treated sub-advisor as another role.
+Is it going to change your design significantly? Is it going to change the behavior significantly? You don't have to solve for it, but you just need to think about conceptually.
+It's not actually not significantly. It's going to add more, okay? Not change significantly because I have treated it as a new user, new user flow, okay? So it's not going to change significantly, but...
+
+
+For example, having it, so if it's sub-advisory, you are saying that I am going to have multi-role select. That's an option if we want to go down. Yeah, again, it's not going to change significantly. Why? Because today...
+It's, I am, I will give a heads up, okay, to the team that today is gonna be one single role and you know, multiple, you know, user packages, okay, multiple, yeah, user reference packages, but maybe in future.
+I have multiple role versus multiple user packages. OK, so again, it's not going to change drastically, but...
+It comes to this question that...
+Because right now I have a I have some questions for you in terms of the UAR and I need to provide a good scope to understand the scope because it also helps us to know that where we are going pivoting. But if you if you tell me that.
+The current model is scalable to include sub-advisor. Then let's stay with our scope of parent-child.
+Targeting our next increment is gonna be sub-advisor. Yes, yes, that's what that's what I am communicating. You see, every day that we are going to the meetings. You see, that's what I am. It is not that we're not going sub-advisor. No, sub-advisor is the next phase, phase one, phase two, phase one. It's just because when I build out my plan.
+I want to be clear about that. Instead of calling it multi-firm, we're going to say multi-firm part one, which is parent and child. Yes. Part 2 happens after. Exactly. Yeah, yeah, yeah. As long as you're confident that your current approach is scalable to include it, I'm good. Yeah, yeah, yeah, scalable. It's not.
+It's not that hard. So the thing is that for the UAR, okay.
+Uh, if you see, uh, you know, this...
+Flow, I think flow is not very, you know, very important. So, actually, what I am looking at, let me just draw it quickly to make sure that we are on the same page. We can erase all of that. It was from mean, Yash, on time.
+Can I can raise it? Yeah, it's OK.
+Or maybe not. Do you want the spray? It smells really bad, but I have it. Oh, wait, oh, leave it.
+Iis.
+Yah.
+One.
+quickly talk about. So, previously, we were talking in the UAR that Owen was working, was that
+When the security steward is going to, you know, to initiate the request, OK?
+Then, when it comes to S.A.A.A.
+As soon as submit, OK.
+It's gonna be auto-provisioned.
+Okay.
+Now, what I am looking for is that...
+Stay, this one will be the same. OK, SAA would be here, but the provisioning is going to be manual.
+What does it mean? It means that he has to come to this forum.
+Yes, and create, and then after that, the user needs to go to the UAR, sorry, to the UAR form.
+And.
+Acknowledge is complete, you know, or reject.
+It's just the statement, okay? Just the information. And they need to provide credentials, the user ID and password. Oh, yeah, that's what, that's what I actually, it was one of the questions. In some cases, not all cases. Yeah.
+How takes place today?
+So if do you have Compass here, I'll show you, I think, yeah, actually.
+Scotland, so I don't have the access to.
+The uh, secure zone form, but I can show you.
+Yeah.
+This is covered when you looked at it with Maisha.
+I could see the secure zone form, which is for, I think, 30 years ago. See, our, yeah, our view of the secure zone form is slightly different than what clients see, but we don't have access to their workflow, right? So you don't get to see the interaction between the users, but...
+I did submit a request on the Unified Access Form, and I can show you that, but let's look at this first. Can you share your screen as well? Ohh, no, yeah.
+So from here, if I go to the request dashboard.
+New.
+
+
+
+So, let's go to a completed request.
+So if we open this request.
+What SA does is they have this section down here.
+As soon as they get the credentials for the different systems that they set a user up on, they put in the system the user ID and temporary password. Now, it's not very secure.
+which is why Owen had.
+try to put in some controls where once you provide the password, it's hashed and you can't see it anymore.
+But only the person on the other side can do it.
+And it's a one-time that you generate. So this is how it is today. And I'm pretty sure on the unified access form, there's something similar to this. It's probably even more simple where it's a comment box where they say this is the user ID and password for the user.
+So we need to find a way to do the same thing where they need to take the credentials that get generated from creating a Compass profile and sharing it back. Now, I don't know what the banks, we might need to consult with security. I don't know if to what extent OWIN has done that. We have a risk team here, we can talk to them.
+And we have a cybersecurity team, you can speak to them. But we do need to have a path for them to go back. Maybe it has a expiry date where it's shown for a certain period of time and then it goes away.
+Um...
+Or maybe we try to implement what Owen had, where once this SA team.
+They provide that information, they can no longer see it, but the security steward can see the credentials. Depends on how sophisticated we want to get down that path. But you have to have a method for them to share those credentials.
+Okay, this in Owen's design.
+You know, the reason I am trying to make it simple is that I don't want to go to the trap of having...
+User flops.
+Because having user flows.
+Bigger scope, yeah, and there is something there is something we have to touch on, right, because...
+We need to, there is a workflow you still need to account for, which is your first arrow.
+that UAR needs to go to SA in some shape or form. And they need to be able to...
+action their request. Now with this new model, it's going to be a lot easier for them. They don't have to think.
+It could just be this is what the user submitted. You open it, and then the other side, you set up the user. Yes, but...
+Think about this request form, okay?
+So.
+Both security steward and SAA.
+Both should see this. OK, one with, you know, with limited access, the other one with broader access.
+But I am thinking how to distinguish it when the user, when the SAA user.
+What is going to view it? What kind of user packages, you know, you need to consider for use for viewing this or controlling or approving? We already have those. You already have those? Yes. This is where I was saying maybe we can retain one of those packages.
+Today, no, no, sorry, do we? Yes, yes, we do. We have, we have package already for SA. That package right now lands them on the user management screen.
+Whatever we create, so we create a module for UAR, we have to add it to their package. Now, I understand where you're going with this, and the workflow is confusing, because you also have to think about SAA's user experience. Yes. They're going to have to have two windows of Compass open, one that shows them the UAR, and one where they're actually doing the setup.
+So if you just wanted to have a place where somebody requests and you have like this, right? It's just, it's a simple dashboard that includes all of your, all of the requests that get submitted. And the clients can see this and SA can see this. This is how it is today. So as soon as it's submitted, they come in here every day. They click on new requests.
+They action it here, right?
+They do what they got to do. They hit submit, and then the user on the other side sees the same thing. It's just not editable for them. It's literally the same page that the security steward sees here. They just don't, they can't edit this. They just view this. So you mean...
+Security Stewart is happy, SAA is happy, NBIN you, Kevin Ray is happy with this attitude.
+I mean, it does. I want to know that where the these arrangements come from. I want to know that if you are all happy, so I I can't, I wasn't in, so maybe you can check with Candi, or she she has the recordings, because they interviewed the SWE team.
+
+
+to figure out, I don't know if they interviewed them to get their feedback or if they interviewed them just to get.
+Understand the current flow, but there was.
+Or I can arrange a call for you and we could sit down with the SA team quickly again and say,
+Does this make sense? Now, if you ask me...
+It does the job.
+But it's not.
+Efficient.
+Yes, but who will yell? Who will scream? Does it? Someone who will make someone to scream?
+It's a trick for as a product manager for you know, I want to know that if someone says, I don't like it, it's fine for it. But if someone screams, I want to understand why. I don't think anybody would scream about this part of it.
+Screaming comes from.
+Being able to interpret the request.
+and submitting the request, right? Those are the major pain points is what is the user's experience right now? I don't think that security stewards are happy with this right now because this is not.
+There's no structure to this form. Even though it looks like there is, it's not very cohesive. But if you think about it, we're kind of building the same thing, right? On Compass. You have your capabilities and you have the accesses within those capabilities. We are replicating this model.
+But we're organizing it in a way that it makes more sense. So I think that's a win.
+For SAA.
+Today?
+I don't think it's easy to always interpret this, especially for Compass, new Compass. So SA opens this ticket.
+They see this is what the person wants and then there's some stuff in the comments. So they go and they set up all these accesses, right? So this is for Compass Legacy. For new Compass, we give them some small instructions up here. It's not very clear for them. Then down here, they're telling them, I need Imost or SecureZone, I need Netrep and WebPanagon.
+So this is why the security steward, or sorry, this SAA member created, so I'll tell you this much. When a user submits this request, the legacy Compass ID is automatically created. That's why you don't see those user ID and password. They get those right away. In fact, it's right here.
+in the comments.
+This ticket was submitted yesterday at 938, roughly. As soon as that user hit submit, within about a few minutes, they got the user ID and password immediately for Compass Legacy. So they didn't have to wait for the security steward to do much. The security steward then, sorry, SA then picked up this ticket.
+Some of the legacy accesses are auto-provisioned. Some, they have to go in and manually do. So they read this.
+They open up the, they go to the comp, the new, the legacy Compass profile, they'll add anything that the system didn't add.
+Then they're going to go to New Compass. They're going to set up the profile.
+Using this information and my other matrix to create the new Compass profile, put the user ID and password in here. They go to secure zone, set up the Imost. Compass profile, you mean create user under the firm? In new Compass area. Yes, okay. So they are doing that today. Okay.
+So I would say.
+The form that you've created for SAA today.
+is going to make it easier for them to create new Compass access.
+Um...
+For Compass Legacy, we might need to make some.
+adjustments because everything you can do on new Compass, you can pretty much do on Compass Legacy. So for example, if they select Onboarding.
+SBO.
+Form based on group form based Onboarding form based on.
+You in new Compass, you just have to check a box.
+It's in legacy that you have to go into the profile.
+and set up the user.
+So.
+
+
+
+Maybe I should give you a full walk end to end of this.
+Only for form-based onboarding, you need to go, but it is security, ohh, security store, it's security store, it's going to, no, no, so our IB firms, yeah, they do this by themselves, they just my request, yeah, yeah, but our PM firms.
+They'll submit the request through my request. Oh, okay. And then they come in here.
+Um, and...
+If our new form says, okay, you have onboarding, you have form-based onboarding.
+SA to enable that feature needs to do two things. They need to check the box on new Compass, and then they need to come here and turn it on over here.
+So they select this box and they select the corresponding role. Okay, for FEO. Yes.
+Paper upload on the other hand, you don't have to do anything here. So it's totally fragmented and disconnected. Yes, yes it is. So even there is no...
+Link, you know, someone should have very technology to speak to Candi. They had plans to sync new Compass and Legacy Compass.
+to automatically do all this. Our new model is going to make that easier to do.
+At if we ever want to go to auto-provisioning, what you're building now is going to be the foundation, because, but I'm not going to auto-provision today, no, for this scope, I am not going to, no, that, no, the only way you can do that, and think about this is if we actually get...
+If we don't get infinite to build the UAR and you get our team to do it.
+And your prototype is basically the UAR.
+in theory.
+you can deliver self-serve. You have to expose that page to the firms. Yes. And then you've cut SA out of the picture for just one, for one portion, for the new Compass portion. They still need to do some things on secured zone and from.
+legacy. So you're still going to need to have a workflow, but you've put some control in the hands of our firms. But let's part that. I think I think you're getting yourself ready to do that.
+You're not going to get away from having a workflow.
+because you have to have communication going both ways.
+No, no, it's fine, it's fine, as you.
+Thank you for sharing the workflow. As long as no one screams, it's fine to both serve in one page to see the data, to change the data. Okay? It's fine. This is what I am trying to understand.
+and also provide a flexible and dynamic.
+Page for both that could be meaningful and also serve the security concerns and make sure that the all request, all the you know, all the requests that is security stored is going to initiate will be covered.
+coverable with this new form. Now the form is going to come with a dashboard.
+What do you mean by dashboard?
+Ohh, yeah, yeah, yeah, request, yes, yes, that's that's another angle too, because it's...
+Owen called it monitoring, you know, user monitoring, request monitoring, whatever. But yeah, it's...
+I need to think about it because...
+I'm trying to provide something to, you know, get rid of us all those, you know, data design processes as well, you know, because if I, I'm pretty sure after our meetings when we go to to show them all of them screen, yeah, they're.
+But anyway, yeah, I, I don't, don't let them distract you, I'll do it, yeah, yeah, yeah, I'll, I'll, I'm trying to, yeah, to do something meaningful. OK, I understood, I understood, I will try to provide you for tomorrow.
+Two user to two user experience: one is for S.A.A. for security to work to fight the request.
+The other one is for SAA to see the request and response to the request. OK, and...
+In parallel, security steward can see the update of, you know, this request type maybe should be the same for both of them, but security steward see fewer records. SAA sees.
+all of the reports. Now one of the things that...
+Yeah, so security steward should.
+Should see anything submitted.
+Through their.
+Firm, because they generally have firm level, yes, yes, and SAACs request across all, exactly. That's why I want to make it, you know, as much as consolidated, but at the same time workable, just...
+The.
+Okay, so far so good.
+all those filters, export things, these functions will come with that. It's not a big deal. And oh, one thing in terms of the SAA.
+Because it is, is it important that?
+We have the audit log for the SAA on this form, because I want to know that.
+We are not going to have one SA. We have multiple SA use. So whoever logs in and pick up the first row.
+And so says that reads and do the cut. I want to know that I should block the row.
+For everyone who has picked it up until it's completed and submit, or...
+Or anyone who comes here, pick it up, and you know, you know, because if you say the first one, then it's... It's operational, but I think that it can lock, but we have to have the ability to unlock because say somebody started a request. Yes. And then they leave on vacation or they have a family emergency. Exactly. Somebody else needs to come in, unlock, and open it.
+Now, the way that R2 handles this is the moment that, so if you look at...
+the new requests.
+That haven't been actioned yet.
+The owner.
+Is user access.
+So there's routing rules and groups in here. There's a group that we've configured that's called user access. That's SAA.
+The moment that somebody in SA picks up a request.
+Um...
+
+
+Or maybe it's when they complete it. When they complete it.
+It changes it to the actual person who completed it. Yeah. Now what they're expected to do.
+when they've initially picked up the request and it's not completed yet, is they changed? I think the system does it automatically. We can test it. The status changes.
+So this new one, nobody's picked it up yet. Nobody's opened it, nobody's touched it, nobody started action yet. So if I click on this right now, it's not automatically going to change the name to me and it shouldn't change it to in progress already. Yeah, I think it's manual. So you have to come in here and you have to change the status. So this is SAA's job. These are the statuses. Oh, okay. Yeah, so SAA comes in here.
+And they're supposed to...
+change the status, and then assign it to themselves. Now, sometimes you can see they're not assigning it to themselves, even though they're working on it.
+Right, because these are in progress, but they haven't changed it to their name. Ideally, that's what they should do, because then they know who's picked it up on their team.
+But.
+After it's completed.
+They do, but 30. What's the SNE per each status? That's an interesting question. I don't know. I think it's supposed to be 48 hours. Per each attribute of status? No, from beginning to end, yeah.
+Because I am going to provide a reporting dashboard on top of that for SA or global admin.
+To show that, how many are pending, probably, yeah, just I say we would love you if you did that, yeah, yeah, it should be. It's not a big deal, it can be on top of that. I don't want to redirect it to another page, it can be here, not.
+Security store cannot see that, only the security store they can see, they will complain, start complaining it, but yeah, that would be nice, yeah, yeah, OK, OK.
+But yeah, I don't know if we've solved your question about the credential delivery back. Yes, it solves, but maybe I should talk with Ed Cohen or who from security team, because I want to solve it real fast. Yeah, and you're doing very well. Trust me, you're doing much. You've done more in one week than really.
+Done in a while, so, because I, if it's blocker, I want to understand sooner than later. This is just the risk team, Ben Cohen, no, it'll be probably Jonathan, but he, like, he's our he's our connection to Jonathan, Jonathan.
+Okay.
+Just keep this between us because it's recording and no, no, just OK. I'll let me. We can go talk to him now if you want, just to help you get in touch. I want to understand if he's been involved before. If not, then you come up with a proposal and we just show him that and say, does this work? Yes, yes, yes. That's if he doesn't have any idea yet, then we can come up with a proposal.
+But before we finish it, I have one more question about this. Just an extension. Sorry. No worries. Take your time.
+May I share my screen? Yah, and...
+So.
+In terms of the...
+Aggregation and user parent.
+I want to just do a final cross-check with you.
+So, harbor front is 7 child.
+ROC.
+As a transfer.
+In parent-child scenario, not so advisor.
+is not going to authorize to get access for another child.
+Again, Rod is a child firm, OK?
+And this, or the other one? See, this is where the concept of parent gets a little confusing, right?
+There's no.
+The security steward that works for Harbor Front.
+If that's what you're asking, I don't know if that's what you're asking. It's a security, you have to get that. It's not mine. It's my mom. Oh.
+Lif.
+If I understand, if I think I understand your question, you want to know, are you asking about...
+Can they have cross access? In again, in parent-child scenario.
+Meaning I, I'm currently have access to Rothenberg. No. I as who?
+Live in Harbor Front, because I live in Roth. OK, which is child firm. Yeah, this is, this is so this is my problem with J.P.'s model of multi-firm. Please think about the business. So, from a business perspective, I don't, I shouldn't live in any of these. I should live in Harbor Front.
+the parent. Then that's fine. In parent, I provide access to all Chase Fare. Okay? Well, no, I live in, I belong to Harborfront. And as somebody who belongs to Harborfront, I can have access to only Roth, I can have access to a little bit of Roth, a little bit of JJ, or I can have...
+Everything. That's totally possible, OK? As someone who lives here in Harbor Front Parent, OK? But again, I live in child firm under ROC, OK?
+Is it eligible to have access to one of the other child in parent child scenario, not self-advisor? No, but that's the exact that that is.
+parent child right where because both of them are child exactly. There's no concept of and this is this is what I was trying to explain to JP but I don't think I got through to him.
+This concept of you being assigned to a child.
+in isolation of being assigned to a parent doesn't make sense to me. Because put aside the user, think of the security steward. There is a security steward.
+Was operating.
+and supporting users across all of these.
+When they come in to set up the access.
+They should set somebody up, assigned to the parent. Yes.
+And I know parent doesn't exist because we don't have...
+concrete data access and all of that, right? You have to still tie it back to a firm. You can't have, it's a fake concept. Yeah. When you set someone up here.
+As a security steward, I shouldn't have to go into a specific child to set someone up.
+I should go into my parent. Yes. From there, I open up Create User. I come here, and I see the list of all the children. And I have to select at least one to get access.
+Not, I'm going to look at this and select Rothenberg, create somebody.
+Under Rothenberg.
+Allow a system to associate that person to the parent. Because from a reporting standpoint, I think we're going to run into a lot of problems if we do it like that. Because then...
+
+
+
+Maybe not, I don't, because in my brain, this is how I saw it working. You no longer, if you have a parent-child relationship, you're no longer, when you click on manage firm,
+You go to the, you have two options, but your primary is step one, I go to the parent. Yes, this is parent. Yeah, I click on parent, and then I can create users. Yes, under parent. Yeah, so I create users under parent, and then I can assign whichever firms they need access to. It shouldn't matter.
+Like, I can.
+I guess I'm getting lost at why somebody...
+why we need to talk about somebody being assigned to Rothenberg and not the other children. Because that's the whole concept of parent is cross access across all of the children. Yes, but.
+When we say the word parent means that there is an upper level, okay, which from top to the bottom can have access, you know. But in terms of the delegation and self-advisory,
+Yes, you're right. You know, I live in a child, I live, let's forget parent or child. I live in a firm, I want to get access to another firm, regardless of the parent child. That's the delegation I need to maintain that relation.
+Okay, anyway, again, forget about the parent chart. But when I come to the parent chart, I need to build the hierarchy. Okay? And in that hierarchy, I should have some rules.
+Is child allow to create a user and gives access to that user to other childs? This is a question: is my parent-child structure allow this relationship? Is it something that the...
+Firms have requested with so far, based on what I have seen in the user interviews, I haven't seen this request, no, but but technically it can be possible. That is to me what you're describing is multi-firm.
+You have a person right now to date.
+who lives in Rothenburg, right? Yeah. This person is saying, I need.
+Access to KJ Harris.
+K.J. Harrison is totally another. It's no, it's under. It's a child of K.J.H.R. K.J. Ohh, here, yeah, yeah. It's a child of her. OK, Rod from Rod needs to get access to K.J. It's not a delegation. It's not a firm.
+this person is employed by a company called Harbor Front. Yeah, but Harbor Front owns the data and accounts belonging to Rothenberg and KJ. Doesn't matter where they, I mean, it's irrespective of where that user belongs. When you, if you were to ask Harbor Front, what is your Org structure?
+They're not going to tell you we have Rothenberg, KJW. That's not their case. They're saying we are one entity. It just so happens that at NBIN.
+Our accounts, our data is split into these different firm IDs. We are not different firms. We are one firm.
+We call it Multi firm because that is our label.
+Multi firm idea, let's call it that.
+That is multi-firm in the parent-child context. It's the ability to assign data access. Not feature access. Well, feature access, yes, but specifically what you're addressing is the data part of it when you're bringing firms into a parent, right?
+You're saying that all this data across all of these different firms actually belongs to this parent. So there are people that are employed by this parent.
+that have accounts across all of these different firm IDs. And I need to be able to give access to a user based on.
+which accounts they manage, irrespective of where their data lives in the IDs, which is the multi-firm universe that's the problem solving.
+So, when you, I get, I get confused when we say...
+We're talking about multi-firm and that there's a there's a user that is assigned to.
+Ross and.
+Because I think we're overlapping what we need to solve technically versus what it actually means for the business. Yeah, for the business, let's talk about this. So for the business.
+You create a user.
+Let's say you create a shell of a user under a parent.
+And that shell is the top half. You've put in their name, their e-mail address, their language. Now you have a shell.
+That shell belongs to harbor friend parent. Yes. From there now we dictate, okay, what data is this person allowed to access?
+
+
+
+Are they allowed to access the data that NBIN has set up under Roth? Is it the data that they've set up under KJ or whatever? Here, like here. Exactly. Okay. Yeah. Now. So in the back end, we can say, yes, this person is associated to Rothenberg, KJ, CWPC, whatever. But from a business perspective, as a...
+security steward. I want to see that.
+I'm requesting for access to somebody who works at Harborfront. And I'm going to tell you what data they need access to.
+I don't care in the back how you're associating that person. No, no, the only time that that matters is on the reporting side, which is at the end of 2027 project, the attestation. Yeah.
+OK.
+Based on what you said for the last one minute, it seems that when I...
+When Harbor Front acquired Rotenberg.
+They need to get access data of the road number.
+Yeah, they acquired the business. Now, I'll give you a little bit of history. In the past, what we've sometimes done is if firm A acquires firm B,
+and say firm A is firm A is the firm ID, firm B is the firm ID. We've taken all of the accounts from here and we've converted them to the account range, the RR range of firm A. So then you only were working within one firm ID. The KJ Harrison, so Harbor Fronts business is so large.
+that the decision was made and they're buying our own, our existing clients. So about a year ago, KJ Harrison was its own firm, Rothenberg was its own firm, Harbor Front was its own. They said, what's the easiest way you guys can bring us together? Well, the easiest way for us to do that is you don't move these guys into Harbor Front's main firm ID.
+You leave all of them separate, but they all belong to you now. Okay.
+So.
+Now, in Harbor Front, people, managers, whoever lived there, head office, whoever, wants to see what's happening in the Rothenburg and KJ Harrison. Okay? And with this, we are providing with this model of the hierarchy and
+What we see here as, you know, create user, we have modeled the firm access hierarchy, OK?
+truly.
+Okay.
+that under Harbor Front, I can access to Cage of Harrison, Waldenberg, and etc. And I can limit or get the full range of the R code. And also I can, you know, here put the features.
+This could this problem statement has been answered.
+With this, the other problem statement still that has not been answered, which I am a user under.
+Rotenberg. I click here. These are the users under Rotenberg.
+Now, on the Rotenberg, I have only locked them to Ken that they can have access to Rotenberg for now.
+And you know, manage their feature access.
+So.
+Does it cover our existing situation? No, because now you've created...
+Or maybe it does because I see something on the screen.
+The purpose? Which one? Which is? I don't think that there would be a purpose.
+to have to drill down.
+By firm.
+Because if you have a user who only has access to Rothenberg.
+Tomorrow, they might need access to KJ.
+To KJ, OKK.
+How does that happen here? You have to open from parent and then do that association? No. You can't do it. You have to create another AD. No, no, no.
+That's the sub-advisor and delegation. No, that's this. So, then in terms of the sub-advisor and delegation, what we are going to do? So, sub-advisor and delegation, I want to understand, you know, the difference. So, sub-advisor and delegation is different because...
+Here, we're still talking in the context of a firm that...
+This is one entity. Let's park subadvisor for a second, so I want to finish the thought on this. Yeah, yeah, yeah, for sure.
+If harbor front parent and we're saying that they own the data across all these seven firm IDs.
+If they have somebody who, you know, let's call it, maybe there's an advisor today who is, has clients with our, with accounts under this range.
+It's Harbor Front's decision. They allow this advisor to use an article that belongs to KJ.
+Do you mean Harborfront Rottenberg or I mean Harborfront parent, right? OK, OK. They can say that I need to assign to this person.
+an Oracle that is under a different harbor front firm ID, which is under the KJ umbrella.
+That's why.
+What you're going to have to do, what this person is going to need is now you need to add KJ. It's not a delegation. KJ belongs to Harpreet Front. It's part of the same parent. How do I add an R code from KJ to this person here?
+How did you turn this into a parent-child, multi-child access?
+Actually, for me, this is sub-advisory delegation. It's not. Sub-advisor means you're getting access to a firm outside of your parent. You know, it doesn't matter whether it's parent or it's not related to parent, because there's a clear.
+So delegation can mean different things from the terminology perspective, but the use cases are very different because for this guy, he's going to have the same feature access between KJ and...
+Rothenberg. A sub-advisor is not going to have that. If this guy is going to start sub-advising to my PC.
+That's a true sub-advisor delegation. So now you have to add him access to that firm that's outside of his parent. But for that parent, he's going to have different data feature access. It's not going to be the same.
+So.
+
+
+
+And I'm telling you from a business perspective, I think from a technical perspective, you can treat this as a delegation, but from a business perspective, it's not a delegation. You're giving me access to RR clothes that belong to the company I work for, which is Harbor Front parent.
+You're not delegating my access. You're giving me access to what I have a right to have access to.
+There's no special contract for that. OK, let me model it quickly.
+I want to just...
+So quickly.
+This is Harbor Front, OK, and this is.
+Falkenberg and.
+BJ House, okay.
+No.
+With this model, we covered this relationship, okay, with this one that I, yeah, yeah, 2 distinct, yeah, yeah, you are saying in this word.
+We have another type of relationship, which is between childs.
+There is a relationship. This is multi-firmed. I'm not... No, no, no, no. I'm sorry, this is multi-firm parent-child. Okay, it's fine. I am saying that...
+These relationships still exist, OK, which means that the child firm.
+A.
+Can have to be accessed to the, but I want to know that what is the access? It is only for R codes.
+Org.
+Feature access is included.
+It's the same feature access.
+So, yeah, one of them can have, you know, no, A&B must have the same feature access.
+Because it's not a delegation type. This is, he's doing the same job. Yeah, but... For both. Yeah, but...
+This firm might have subscribed to 10 features. This one may have to 8 features.
+OK, that's OK, and some some now tell me that, just tell give me an idea that.
+If I am going to get access from Rothenberg to KJ Harrison, I should give access of all these 10 or not? No, but I'll tell you this, that scenario is extremely unlikely to ever happen where you would actually be having different features. Harborfront is much more complicated.
+Generally speaking, all PMs have the same features. So Harborfront has some PMs. All of them will have the same features. And the people that have access to that, you'll never have an IB that has access to the PM. Unless you're a head office user. But as an advisor.
+An office you mean here, which, yeah, is no problem. So, but as an advisor, if I am a portfolio manager, I can only have access to the portfolio manager features. So my package, if I'm a PM, is going to be the same between A&B. So both of them are going to be PM.
+Likely, yes. If they were IBs, OK, there's a small risk where they might have different features. OK.
+But we're trending towards them being the same.
+So if this was IB and IB.
+There's only one area where their feature access might be different, and that's onboarding. It's the only one that is going to mismatch. And this is because we have different onboarding features.
+So I think if you wanted to create the control in the system.
+If you have I.B. one or I.B.A. and I probably mean approve or no, I mean, if you want to apply a condition, I hate that word, yeah, if you want to apply the condition to say, OK.
+I BA uses FBO.
+IBB doesn't use FBN.
+Okay.
+Ben.
+you would have a different feature access for this person.
+It's gonna be union or common.
+No, no need to answer right now. Just, no, I'm just thinking because ultimately, if we haven't set up the feature, it's very, you know, very straightforward. I want you to, it's just...
+One of these, either one of these conditions, that's going to be common or union or no.
+What do you mean by union? Union, for example, if it has two features, if it has three features, okay, two different features, three different features, union means 5 features, okay?
+If these two, from these three, two out of these three are common, then it's going to be two features.
+Union, it's union.
+You mean that?
+You won.
+Both of them can have access to each other.
+With you, and regardless of the...
+So, it here, for example, I don't know. Let's have access to tax and statements. OK, here has access to Netrep.
+Good.
+If you are going to think about union, both of them have access to all these four.
+So, you're unifying what their firm packages essentially contain. Yeah.
+That's what I am, because that can happen then, yeah.
+Then that's the problem.
+Europe's.
+That's what I am trying to, you know, I'm trying to help you to help me.
+To distinguish them.
+Because, but see, this problem exists anyways, right? Because if we put this scenario aside.
+When you open a user from parent.
+and you've assigned them multiple firms, how are we handling it there?
+We are going to, in terms of the firm packages, the feature access, yeah, the feature access is gonna be the the feature access is gonna be the.
+The, the common, the common, you know, this one.
+OK, oh, for the for the for the parent one, for the parent one will be union.
+Would be all of them, because this is because because Harbor Front owns all of them.
+Yeah, but that's this is, this is the issue is unique to IBs and Onboarding, and I think I have to check with Susanne, I don't remember, but in the in the documentations, and I talked with Penny on this specific user, even if I think it's in here, okay, I because the problem is that here.
+That means that, even though...
+One of the Firms.
+They shouldn't be using a feature for specific clients. They're going to be able to.
+Different features per firm, OK?
+Yes.
+
+
+That's right. So. And that concept applies to this other case then too. It would be the same. No, it's for the parent, okay? But in terms of the firm, I don't know the legal contracts and risks. You don't need to have them. We'd manage that when we launch. So if you look at the individual firm packages today.
+If you go to firm settings in Compass, we'll be able to tell Harborfront KJ versus Harborfront Rothenberg. What is their feature access with their firms?
+The parent package is composed of everything that their child has.
+That's how you're able to give that access to the head office users. But for individual...
+Advisors who have access to firm A and firm B.
+For each of the R codes under those, they must only have access to the features that.
+They're allowed to. I don't think the union works, if I'm understanding correctly. So let me give you a real life example. We have some IVs who open their accounts. Let's map it here. Let's map it here.
+As we can, can help each other, and I have, I have a chart here. I'm gonna try to, yeah, yeah, yeah, yeah. Sorry, what time do you have to head home? Maybe 5:30, yeah. I don't have a street train, but I know we have to.
+Ohh, if you should go early, I think the next go is 5:35, so I have two more to 20 more minutes to talk.
+Yep.
+Sure.
+OK, so here's here's the real example for.
+For Harbor Front, so I have all other firm IDs and just...
+So Harbor Front has.
+This might be old data, but they have, at that time, they had three IVs, 2 PMs, and two items. Okay.
+So.
+The most complicated scenario we're going to have is for Onboarding. All of our other features are pretty standard.
+Uh, for the most part, some, so you've got...
+It's here, just or ignore the NA's here, so we're saying that if we just look at their IVs for a second.
+You can see that the way that they open accounts is different. Right now we have, we offer three solutions for our clients. They can send us files to open accounts. They might have their own solution. They send us a file, we dump it in our. Oh, you ever told me about that? Okay. We have paper upload on new Compass, and then we have.
+Broadridge, we have Broadridge, yeah, yeah, is our digital solution, yeah, so we have, I mean, in this case, it's actually pretty straightforward. I think I have other examples of different firms, but it's possible right now, we're seeing that they don't use.
+Form-based Onboarding for any of their I.B.'s, so this, this is probably maybe, maybe Harbor Front doesn't have this problem. Let me see P.M.
+It means.
+Cumberland is technically Harbor Front now.
+So, ohh, really? Yeah, they haven't made it official, official, but they are, this, Omerland was the delegation, you know, use case for, ohh, if you want true sub-advisor delegation cases, I'm gonna be setting up a meeting with you and Susanne for her to explain.
+Oh, sorry, Guardian Capital. Not the, yeah, yeah, Guardian Capital. So, okay.
+See, there isn't a problem. Maybe union will work.
+Union, maybe union work? Yeah, maybe union works. Okay. If I can't find a use case here, then maybe union works. But what I was trying to figure out is, do we have a case where?
+They actually have different feature access.
+And right now, I'm not able to find that through this data. OK, no, no, no rush, you know, but but I am concerned about...
+The union, if...
+Let's pretend that this is the case, right? So I'll put it down here. So pretend that you have KJ.
+And you have.
+And.
+KJ uses Jason and Roth uses form-based Onboarding.
+Okay. Okay. Meaning.
+On Compass, if you were to look at KJ's firm settings, FBO would be turned off.
+But Rothenberg, FBO will return if you do the union.
+Does it mean now K.J. is gets this? Yeah, they can't.
+But this is a case I think we run by Ray.
+Because he knows these products. I need to have this answer. Tomorrow. No, not tomorrow, you know, in this week. Because if it's codeless, it's going to be.
+Change for me, okay?
+And.
+
+
+
+And, to be honest, we can, we can control, we can control the impact, OK, to say.
+From the parent-child, this is what we have implemented so far. If you have other this...
+For example, accessing a child, you know, R code to another child within a parent range or not, for me, it's delegation, it's in design, okay? It can be implemented easily. I'll tell you where how.
+this will actually harm you and I can confirm. So if we just look at the same firm type in isolation, maybe it's a bad way to look at it.
+Um...
+Mm.
+As you said, at the parent level, you're using union, right? Yes. Okay. So based on that. And it has legal implication, okay? It's fine. I mean, in terms of the risk and legal.
+It's fine because it's the parent and can have access because I already checked with Penny. I don't know whether. I don't think it it that's that's I don't because Ed Ed also got involved and we talked about this situation and he was but about the delegation.
+He said you need to pass some of the risk assessments. So the problem that I have with this at the parents level.
+is because now you're going to allow head office users to do things that they're not allowed to do.
+So.
+If I work at...
+Harbor Friends Head Office.
+And I'm in their account opening department.
+I support their IP, PM, IPM, everybody. I don't know if this is true, but it's an extreme case.
+IBs and PMs don't, if you strictly look at Broadridge, right, you can see that this IB doesn't use form base. This PM does, this PM does, this PM does, this IB doesn't. If you do the union, and I work for the head office,
+All of a sudden, now for the IB.
+I can submit form-based onboarding implications. And you have a, you have a, there's a technical limitation to this because you can't just give somebody access to Broadridge on Compass. You have to configure them in Broadridge. You cannot give access to a feature that is inappropriately configured for that firm.
+So.
+They, so who lives in the head office in the Harborfront? So, it's not like that, okay, if the child has access to Broadridge, you know what, that then can have also access to Broadridge. This is turning into a bigger problem.
+The is gonna be a problem for us.
+Let me, I want to think about another example of a feature that's actually built on Compass.
+And.
+An example of that would be CRS fatca.
+ever created a product that is designed for only 143 of our child firms, firm IDs.
+Of those, some are her different IBs.
+They must use that tool.
+only for those IBs. It's a tool designed for an office. Only for IB. So in the context of Harborfront, from this list, the CRS tool that she's built.
+is only the IBs are eligible for it, Harbor Fronts IBs. And it's a tool only designed for their head office.
+If somebody has parent level access, works at the head office, and is supposed to be using the CRS tool only for their IVs.
+If you create a union, they can now use it with PMs.
+This is why I think at one point, Ray had asked a question.
+Can we create a toggle?
+No, no, no, no, I just, just, just hold on, hold on when I say union.
+It means that...
+Union of the features, OK, that those two firms combined have, but it doesn't mean that can use Broadridge.
+for the PM.
+So, let's put broader. OK, CRS specifically. Oh, sorry, oh, CRS character. What prevents them from being...
+Because.
+It's it's that's a good question.
+CRS factor.
+Iis.
+Enable only for, let's change the label to one. OK.
+For a moment.
+Only for one, OK, and now.
+We have K.J. Harrison, which doesn't have...
+
+
+
+CRS factor, it has broad feature, OK?
+Let's just talk about CRS in isolation. What happens? So.
+Someone that lives here in the head office.
+OK, and use CRS factor only for Rottenberg.
+When they open the module.
+They have data access.
+to all R codes between these two firms.
+That module is rendered to them.
+How are you preventing them from using that for the R codes under KJ?
+Mmh.
+I can't.
+Unless...
+We have some kind of blacklisting.
+or deny operations.
+Whatever we call, you know, there's another layer there that says, yes, so these are our codes you cannot use this switch.
+This is.
+Parents child structure, but the concept stays the same. It stays the same. The concept is the same. It doesn't matter whether you're there or whether all of a sudden you have these accesses. That concept is the same.
+It'll solve your broader problem of having firms with different feature access if we have something that controls it.
+Or do we have the option, this might be even more work, but can you toggle between the firms that you are accessing?
+So you can log in with one login.
+but to operate as a ROC user and operate as a KJ user separately. Now, it's not a good user experience because now your dashboards are independent of each other. Your, you know, your account search is going to be independent of each other. We don't want to do that. To have a true multi, nevermind, forget what I'm saying. Yeah, it needs to just be one login, one screen, union, yeah.
+Yeah, but they see all the accounts, all their codes, yeah, yeah, but but they should be, but just to clarify, we're only saying, in this case, we're not saying that that head office user can't access the RR codes of the PM, they can, but for this feature, they can't submit requests related to KJ.
+Today, we don't have this one, yeah, yeah, that.
+Feature.
+Versus Oracle.
+Yah?
+We need to support it.
+And JP didn't cover this in his architecture today.
+We didn't. Because he needs to confirm if he has something in his architecture to support this. No, I didn't see that to be honest. So let's ask him tomorrow, because I think you're right, this is extremely critical. Well, even it wasn't in my requirements so far. It's good that you bring it up. Thank you.
+We didn't talk about it so far.
+And, and we can circle back with Ed, you know, Ed, Ed.
+and would have only answered the questions that he was asked and the scenarios that he was giving. Oh, okay. So he's a conservative. Well, no, just generally speaking, the way that Penny operated is she gave people the information she thought she needed to give them. Oh, okay. And she didn't often give everybody the full context. Okay. So they would give you...
+an opinion for something specific. So if she told you that union and giving access and allowing them to cross contaminate how they use the features, that's a major gap. That can't be the case. Yeah, it's in the PRD as well. It's accessible through the PRD.
+Okay, that's, I'll take a look because that's crazy. The feature isn't even designed for those firms. Like it would, it would, it would be a breach of our operational contract with that division of KJ Harris, right? Because that activity, CRS, happens for all of our clients. But we have an agreement with them.
+We'll take care of it for the PM side, because we are legally obligated to report on your behalf, but you are responsible to report for the accounts you open yourself.
+Okay. Yeah. Tomorrow, if we can't get through everything with them, let's at least surface. Yes, yes, yes, for sure. Okay, let me talk, actually for tomorrow, I will work on the SAA part, okay?
+I want to make sure that those users...
+
+
+
+
+
+
+
+
+
+
+
+
+
+

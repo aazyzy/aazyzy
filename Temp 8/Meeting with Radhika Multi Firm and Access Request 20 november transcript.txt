@@ -1,0 +1,1437 @@
+Azizi, Ali  0:03
+changes that you already mentioned, not yesterday, before that, is that, yeah, we go back to this model, we have this type of showing the firms, but yeah, you mentioned that every parent, all the firms have.
+Parent?
+Now I am showing them as it is with one extra column. And yeah, the other pagination that we have, for example, for...
+For Harbor Front, I.
+Yash.
+Yes, this is Harbor Front and if it's selected on top left corner, here we see this tag that it's been opened now. And yeah, that's one thing that has been changed. Now these type of features have been...
+been added, okay? And also this, this is a kind of, you know, maybe it's not necessary. You show parent and Firms, you know, I don't know why this number is, yeah.
+I need to check that. Anyway. Yeah, I need to remove these two filters, parents and Firms. But yeah, these filters have been added. And yeah, this is this is the one that you asked.
+The other things I didn't change drastically, but based on what you suggested, we can start a scenario. And yeah, we go scenario-based and find.
+any gap that definitely exists and fix that. Anyway, by the way, I just added this here as a side project for myself, you know, leak check.
+But yeah, we will revisit later. And the other thing is this my profile, which I have added more data, but it's not scope of today talks. Just I wanted to say.
+the delta change since yesterday. Okay, let's start a scenario and yeah.
+Okay, do you want me to mention a scenario? Do you have any type of scenario in your mind or I can start by asking?
+
+Sharma, Radhika  3:11
+Ali is currently unavailable. Sorry, give me one second. My laptop.
+
+Azizi, Ali  3:14
+Okay, okay. Yeah, take your time. Take your time.
+
+Sharma, Radhika  3:16
+Weird. My VPN wasn't connecting, so I had to connect from my phone. Let me just join again from my laptop.
+
+Azizi, Ali  3:21
+Oh, for sure, yeah. No worries.
+
+Sharma, Radhika  3:28
+I missed a brief.
+30 seconds.
+
+Azizi, Ali  3:31
+Oh, okay.
+
+Sharma, Radhika  3:32
+It was just when you were showing the deltas in the beginning, but it's okay. We'll catch them as we go. I don't have a scenario off the top of my head, but we can create one. Let's use an example other than Harborfront. Let me find a different parent and let's see how it is.
+
+Azizi, Ali  3:47
+Okay.
+Yeah, let, yeah, let me know.
+
+Sharma, Radhika  3:52
+Yeah.
+
+Azizi, Ali  3:55
+Do you want me to pass the pages or do you have any firm in your mind?
+
+Sharma, Radhika  4:03
+I want to try... Okay, let's do this Appalach, the second last one, PM IFM situation. Let's try that.
+
+Azizi, Ali  4:15
+This one.
+
+Sharma, Radhika  4:15
+You.
+No, go. Yeah, that one's fine too. Anything. PMI. Oh, no, one is inactive.
+
+Azizi, Ali  4:26
+I have found these two, oh, these two seems both of them are active.
+
+Sharma, Radhika  4:33
+Yeah, let's go with that.
+
+Azizi, Ali  4:35
+Okay, now we select alert. Okay. And yeah, again, when we load, when we load again, it will show the whole. So it means that all other Firms is also loading.
+But it means that if I want to select child, so I need to load again. By the way, now I am on parent level, and under parent level, I am seeing...
+Again, all the users, OK?
+all the users. And just let me to remember, I remember the firm ID PRIMM and I see.
+
+Sharma, Radhika  5:40
+Is that that, I don't think that's the same one, is it? No.
+
+Azizi, Ali  5:41
+And.
+Is not.
+
+Sharma, Radhika  5:46
+Because that one has the inactive. You opened a word? Yeah.
+
+Azizi, Ali  5:49
+Oh, oh, yeah, yeah, yeah, yeah, yeah. Okay, this is a UAR issue. I need to fix it. Okay, yeah.
+Inc M and ICPMP.
+Again.
+It seems that my...
+Oh, this is, oh, this is this, oh, sorry. Yeah, yeah. It's the symptoms of early morning.
+
+Sharma, Radhika  6:15
+A large, a large, yeah.
+That's okay. I'm in the same zone as you. Good.
+
+Azizi, Ali  6:30
+Yeah, OK, sorry. And OK, the OK, the firm ID are PMGRN and QCPM.
+Okay, these are the child and...
+For example, Olivia lives in the parent, but Juliet lives only in one of the childs, OK?
+As you see, the...
+Also, I change it instead of the Profile, you know, Firms Rich. OK, based on your suggestion, and now if I click on Olivia.
+
+Sharma, Radhika  7:10
+Yeah.
+
+Azizi, Ali  7:22
+First thing first, if Olivia has a credential, SAA cannot see that. Okay.
+
+Sharma, Radhika  7:28
+Mhm.
+
+Azizi, Ali  7:30
+But firm restore, I will check. Now, here it will show both of the both of the Firms, what are the children. Maybe I need to I need to remove this policy from here. It is extra.
+I don't know. It's up to you. You can help me to...
+Keep it or remove it. And this is the all codes. If we want to have a range, now we are free here to add a range.
+
+Sharma, Radhika  8:06
+Okay.
+
+Azizi, Ali  8:07
+I think yesterday you said something about the range. You said that you have something. Yeah, please.
+
+Sharma, Radhika  8:11
+Yeah.
+So the range today, it doesn't necessarily need to be in sequence, right? Sometimes it can be, it can skip a few in the sequence and then have another couple of our codes. So if you looked at production today, it's actually one input.
+
+Azizi, Ali  8:21
+Mhm.
+Yes.
+
+
+
+Sharma, Radhika  8:33
+box where you can put in all of the R codes, usually separated by a comma.
+
+Azizi, Ali  8:41
+Uh, oh yeah, yeah, yeah, it was on, but yeah, I know, I know what you're seeing here. It's...
+Yes, yes, yes. Yeah, please go ahead. Yeah, I know.
+
+Sharma, Radhika  8:54
+Yeah, so that would be what we would need here, because it's not always a complete range.
+
+Azizi, Ali  8:58
+Aha.
+Mhm, mhm.
+Okay, okay. Did you mean the current view that we have for the range on the bottom of this? It's on the bottom of here. This representation is fine, yeah?
+
+Sharma, Radhika  9:21
+Yeah, one box, because if you took off firm, if you took off firm level access for this person, you would see that that box would open up and you can enter as many individual RR codes as you want. And it should be individual RR codes instead of from and to kind of situation range.
+
+Azizi, Ali  9:22
+One box, okay.
+Ohh, yeah.
+Okay, okay, that's a good point. Okay.
+
+Sharma, Radhika  9:43
+And you can change range to just R codes.
+
+Azizi, Ali  9:47
+Yeah, yeah, yeah, yeah, okay, yeah, that's another thing. Okay, I will change it here, and other other places that have this model. Okay, now, now you know, it's it's just if you see that...
+
+Sharma, Radhika  9:48
+Right.
+
+Azizi, Ali  10:05
+I don't scroll down and instead I have created steps. It's a kind of the best practice. Like you go to, for example, you go to, for example, to Amazon to order something. You see, they have two or three steps to get your detail, to review, and then submit your order.
+Okay. It's just that model. It is suggested. It can be it can be overruled or it can be ignored by you or by Alex. But yeah, I just wanted to.
+make it a bit different to see to get your feedbacks. Anyway, now that I have...
+I know that the scenario is modify user, okay? If I now, if I want to get one of the child accesses, okay, from the parent user, I can untick, okay, now.
+On the next level, is that, OK, do you want to change the policy or or take out any any?
+you know, any permission from the user. If you see in the last step for Olivia Nguyen, we untick this firm and as a result, it doesn't load anything, any permission for this firm. But if I again,
+selected. Here in the access control area, we'll see what is going to be shown for QCPM all or as a child. So both of them are loaded and we have
+V MAP.
+that we can view, manage, access, approve process. So these are going to be loaded based on the policies that each role can give us. And here, if you see, I have, this is a preview.
+Okay, this is a preview that this policy can give to just a preview and
+It is, it is view only. It's a help. It's like the help, so.
+to for someone who is going to assign permissions to understand that what would be the policy in the policy matrix in the full format. And if I am going to change something here, I can have a
+You know, better View.
+By the way, it's, as I said, this is a help. It's not something that can be can be there.
+
+Sharma, Radhika  13:21
+Mhm.
+There's one observation that I have. So if you go to the previous page,
+
+Azizi, Ali  13:29
+Yeah.
+Yeah.
+
+Sharma, Radhika  13:36
+Here, you're selecting individual policies.
+
+
+Azizi, Ali  13:40
+Here, yeah, yeah.
+
+Sharma, Radhika  13:41
+Yeah. So let's change it. Let's make one of them, you know, advisor and let's make the other one head office operations.
+
+Azizi, Ali  13:51
+Head office operations. OK, and let's go to next page.
+
+Sharma, Radhika  13:57
+Yeah.
+Now, under Access Control at the top.
+
+Azizi, Ali  14:04
+It's still, yeah, it's still...
+
+Sharma, Radhika  14:07
+Well, that's fine. That might be like a little buggy, but if in the previous page you're selecting individual policies and you come here and now you're selecting one policy.
+
+Azizi, Ali  14:19
+Yeah.
+I said this, this, this, it should be removed. OK, this, this should be removed. Yeah, yeah, I knew that it should be removed, but yeah, I didn't have time to remove it, but yeah, it should be removed. You're right.
+
+Sharma, Radhika  14:26
+Okay.
+Okay, yeah, because then what we're separating is on this page, you are assigning the data access.
+So no, there's no policies yet. And on the second page, you're going to do the access. Now, one thing to keep in mind, though, as you're working on this is in my head, I see that a policy can actually help you solve for the sub-advisor requirement.
+
+Azizi, Ali  14:45
+Exactly, yes.
+Mhm.
+
+Sharma, Radhika  15:02
+So when we get to sub advisor, if a person has multi-firm access with delegation,
+
+Azizi, Ali  15:10
+Uh-huh.
+
+Sharma, Radhika  15:11
+You could assign a separate policy to their delegation.
+
+Azizi, Ali  15:17
+Mhm.
+
+Sharma, Radhika  15:18
+That would be a quick, in my head, it would be a way, a quick way using this existing model with policies to separate the sub-advisor access from the feature access from the parent. But what would that do to this page then?
+
+Azizi, Ali  15:34
+Mhm.
+
+Sharma, Radhika  15:37
+And I know we're not talking about, like, we don't need to dive into it deeper, but...
+we need to, we do need to prepare ourselves because when you introduce sub advisor, you don't want to make a drastic change to this, right? So if we can use policies to, and I think this might even solve the issue of sub advisors needing more than one ID.
+
+Azizi, Ali  15:51
+Yes.
+Yes.
+
+Sharma, Radhika  16:05
+Because if you remember initially what...
+The way that Owen and Candi and Penny had, like their whole solution was a sub advisor will have their own ID and a parent will have their own ID. Like your parent child, you'll have one ID and as a sub advisor, you'll have another ID.
+
+Azizi, Ali  16:17
+Yeah, I know, I know, yeah.
+The.
+
+Sharma, Radhika  16:33
+But since we're introducing policies now...
+In theory, I think they can have.
+The same are our codes.
+Sorry, the same ID and then different policies and different RR access. So you've almost solved for it already, but it's just at this level, when you're going to the feature access side of it, you need to separate the policy for, like where somebody has more than one policy.
+
+Azizi, Ali  16:49
+Yes, yes, both.
+Mhm.
+
+
+Sharma, Radhika  17:03
+you need to be able to modify those individually here, right?
+
+Azizi, Ali  17:08
+Yes, yes, totally true. Both in theory and in practice now can be possible.
+
+Sharma, Radhika  17:18
+Yeah.
+
+Azizi, Ali  17:20
+Because yesterday JP also mentioned this is one of the disagreements, fundamental disagreements between me and the group, okay, about having two IDs when we go to SOIB advisory. And I said, I'm not.
+
+Sharma, Radhika  17:30
+Mhm.
+
+Azizi, Ali  17:38
+To be honest, I'm not going to do it because it doesn't, yeah, it doesn't add any value to be honest, because if we are going to do something for the firms to get rid of more than one ID, it's the time. If we come back and say,
+
+Sharma, Radhika  17:42
+No, I'm glad I'm with you.
+
+Azizi, Ali  17:58
+Again, for SOIB ID, you need to have another ID. We are disappointing them. We are disappointing them.
+And the other, the other thing you mentioned is about, so I just talk it and then pass it, but again, in sub-advisory.
+Again, still the Oracle Code Access, this page is Oracle Code Access. Policy, I'm not, I'm removing it from here. And the next page, you said that...
+And this is right, that the user can have more than one policy, one policy for one firm and the other policy for the other firm. OK, here is the is the territory that I can I can.
+have multiple policy, okay? And I believe that this is totally possible. It's not going to be a drastic change, okay?
+
+Sharma, Radhika  19:03
+Mmh.
+
+Azizi, Ali  19:05
+But I will let you know, okay? I will let you know that I will introduce it for next for when I say I introduce, I will go to have a different UI, which is probably yes, or...
+I may change my UI today in favor of sub-advisory, okay? But do not introduce sub-advisory. Let me think about it. It was a great feedback because it helps me to prepare for sub-advisory, but yeah.
+
+Sharma, Radhika  19:31
+Yeah.
+
+Azizi, Ali  19:44
+I will let you know, okay?
+
+Sharma, Radhika  19:45
+But I think that the thing is, Ali, if you already incorporate this...
+
+Azizi, Ali  19:50
+Mhm.
+
+Sharma, Radhika  19:51
+Then, in a broad sense.
+You've already solved sub-advisory.
+Right, if, if.
+
+Azizi, Ali  19:59
+In the backend, yes, but in the UIUX, still not yet.
+
+Sharma, Radhika  20:04
+But what I mean is, if it's a small change here...
+
+Azizi, Ali  20:07
+Yes.
+
+Sharma, Radhika  20:09
+then it actually potentially allows us to include subadvisor in version in the MVOE.
+
+Azizi, Ali  20:16
+Ohh yeah.
+
+Sharma, Radhika  20:16
+If the only, if the only thing is that we want, and we don't need to increase that scope, I'm just suggesting that if, you know, yeah, let's not slow ourselves down, like from what we've already agreed, and I'm not going to change the plan when I share it with anybody else. But it could be a, it could be a nice surprise.
+
+Azizi, Ali  20:22
+Yeah, yeah, between you and me, yeah, yeah.
+Yeah.
+Yes.
+
+
+Sharma, Radhika  20:35
+that, hey, you know what? The change is not that drastic. It's just the addition of a policy. But I know that there's other parts of the delegation that you have to solve, right? Like how do you actually connect the firms and all that? So yeah, you can do it on the side. We don't need to include it in the scope. But if we realize that it's not a drastic change, then
+
+Azizi, Ali  20:36
+Yes.
+Mhm.
+Yes.
+Yeah.
+
+Sharma, Radhika  20:55
+Maybe, maybe we consider it.
+
+Azizi, Ali  20:57
+Yes, yes, yes, you're right. You're right. Yeah, yeah, I will I will provide another workup to show the delta change between this and SOIB advisory. OK, and then we understand that.
+
+Sharma, Radhika  21:12
+Mhm.
+Yeah.
+
+Azizi, Ali  21:16
+How we can introduce it, but yeah, that's a good one.
+
+Sharma, Radhika  21:20
+Yeah, but you don't have to, don't feel like you have to prioritize that now. I guess, like, our first priority is still, let's lock this down. And then when you have time, you can, you can work on the other, you can add it.
+
+Azizi, Ali  21:25
+Yes, yes, yes.
+Yep, yeah, for sure. Thank you. Again, if we when we select the when we select the policy, now we have a matrix of for each selected firm in previous step to load.
+the features and modules and granular actions. VMAP actually is an action, okay? View manage access control for individual resources.
+So as I said, we provide a map that how it looks like. As I said, maybe it's extra, no need to show it. And SAA has this freedom, you know, to tick and untick for today. So here you see, I cannot untick it.
+Why?
+Because of View.
+has a lower priority as managed. So if I have managed access in submission, first I need to remove it, and then I can remove the view. This is a kind of validation.
+
+Sharma, Radhika  22:46
+Mm.
+Yeah, no, that's good.
+
+Azizi, Ali  22:51
+Yeah, yeah, again, the same, it cannot. Maybe the message should be changed, because it's a bit slow. Now, yeah, and these are other, do you remember last week, or for this week, I thought that we need to figure it out to make it more.
+better because here we have a very good look and feel in terms of the matrix, but we come down and see a lot of other modules. It's a bit disrupting. I don't know if we can.
+
+Sharma, Radhika  23:26
+But you're gonna have this, you're gonna have the same model, right? So when I complete the spreadsheet that I shared with you.
+
+Azizi, Ali  23:30
+Mhm.
+Okay.
+
+Sharma, Radhika  23:34
+Data export is going to be grouped under reporting.
+
+Azizi, Ali  23:39
+Ha ha.
+
+Sharma, Radhika  23:40
+And data export is View only.
+So that'll be the only box. So it'll still fit in the existing structure that you have.
+
+Azizi, Ali  23:51
+Yeah, yeah, okay, that's great, that's great, and this application, and also you need to help me for the features that are related to platform, for example, View system, you know, all the things, for example, features, you know, system health events, these things also should should be, you know, should...
+
+Sharma, Radhika  24:01
+Mhm.
+
+Azizi, Ali  24:10
+If...
+
+Sharma, Radhika  24:12
+So I think I think there's going to be some things, Ali, that's...
+We don't want SAA or the firm's steward to have to configure.
+The reason we have the control of it on the UI even today is because it helps us control when we're going to launch a feature.
+
+Azizi, Ali  24:33
+Mhm.
+
+Sharma, Radhika  24:34
+So something like system health events, it should always be turned on for every single user.
+
+Azizi, Ali  24:41
+As a default.
+
+Sharma, Radhika  24:43
+Yeah, because it's, it's, you know, it's a, like you said, it's a platform feature. Now, what they'll be able to add on.
+
+Azizi, Ali  24:48
+Yes.
+
+Sharma, Radhika  24:52
+is the subscription to a notification.
+
+Azizi, Ali  24:59
+Mm-hmm.
+
+
+Sharma, Radhika  24:59
+That is not going to show up here, right? So system health events is one thing. It's when there's an outage and there's an incident, the team, whoever that is for now, I will say digital support, will come into Compass, they'll go into their user admin page, they'll go in and post, okay, we have an incident, we have an outage for Servicing.
+
+Azizi, Ali  25:10
+Ohh.
+
+Sharma, Radhika  25:20
+The user shouldn't select if they can see or not see that. I don't think that we need to, it shouldn't be something optional. Let's call it a mandatory platform feature. Where if there's an outage, you're going to see the banner. You don't have a choice.
+
+Azizi, Ali  25:34
+Yeah.
+Yeah.
+
+Sharma, Radhika  25:38
+The only choice you have in this case for this feature is when we deliver notifications to you by e-mail, you can choose to subscribe to those. That's not going to show up on this list either because it is being treated like a platform feature. It's going to be in my profile and I can choose to subscribe. So
+
+Azizi, Ali  25:45
+Mhm.
+Gee.
+
+Sharma, Radhika  25:59
+Maybe for something like system health events, you can show it here to say that it's
+enabled, but it's not modifiable by SA actually.
+
+Azizi, Ali  26:14
+Okay, okay.
+
+Sharma, Radhika  26:15
+You know what? No, we'll keep it, we'll keep it the same, but maybe we'll have a separate section for platform features.
+following the same pattern that you have, right? So maybe instead of like Onboarding, you'll have a section that says platform.
+And then within that, you have system health events.
+
+Azizi, Ali  26:38
+Uh-huh, okay, okay. Sounds good.
+
+Sharma, Radhika  26:40
+We'll try to keep, we'll try to keep it the same all the way through.
+
+Azizi, Ali  26:43
+Okay, sounds good. Sounds good. So, it was this, it wasn't this user, it was another user, if I am, as I...
+I don't know why I...
+Yeah, this was Olivia. Yeah, it was Olivia.
+And head office compliance or head office operations. Now, if I have removed something...
+Okay.
+I will see in the next day that these are the things that you are going to change.
+See?
+
+Sharma, Radhika  27:29
+Mhm.
+
+Azizi, Ali  27:30
+Mm.
+And maybe I need to mix your change and review together. It's a call by Alex and feedback from you guys. And then next step, I can review. Okay. It provides a title that what has been reviewed, what has been changed.
+
+Sharma, Radhika  27:46
+Okay.
+
+Azizi, Ali  27:51
+and still shows that what I have access and what does it mean per each firm.
+And what I have changed since since last time in terms of, you know, and if and also a list of the policies. I think it's going to be, you know, I know that he said that SAA may not need all this detail, but
+You know, it's just it's good to have, but yeah, it can be it can be removed, by the way.
+
+Sharma, Radhika  28:34
+Well, you mentioned something earlier about this four-step process being...
+
+Azizi, Ali  28:38
+Yes, yes, yes.
+
+Sharma, Radhika  28:40
+Kind of the best practice and standard, but is that the standard and best practice looking from a system administration administrator perspective, or is it standard for users of the system who manage Access?
+
+
+
+Azizi, Ali  28:57
+It's a UAR, it's it doesn't it doesn't target the user, okay? It doesn't say that what's kind of user. Let me give you more context. For example, in...
+Systems in a page that you are going to load, for example, this user, okay? The amount of the data that I am showing, okay, I need to scroll, you see, scroll one time, two times, three times, you know.
+and absorbing all these data in one single page without scrolling, okay? Because if I'm scroll, it means that it's a big page and there is a lot of data, okay?
+Now if I want to come back and review, I need to scroll up and down. Okay? Now with the amount of information that we are adding, think about that everything, as I said, let's mix two things together.
+everything in one page, maybe we need to screw a little bit more.
+
+Sharma, Radhika  30:19
+Yeah.
+
+Azizi, Ali  30:19
+So it is going to make it heavy, okay? And a bit confusing. I know that current user are get used to this model, okay? I totally understand, okay? It's just a suggestion.
+How we can transition, okay? And how we can absorb all this data. Because right now I know that I have a lot of garbage data here. Okay, I totally understand. Okay, that they should be removed. But it's just a model.
+If you think that the users have get used to this model and better to have all this information in one page, that's fine. It's up to your feedback and Alex's design principles. I just provided a suggestion.
+
+Sharma, Radhika  31:15
+Yeah, so I'll tell you, I'll tell you where I'm coming from, because...
+Yes, it's true. The existing SAA users, they're familiar with this. And this is consistent from at least the systems I have seen.
+This is fairly consistent. I don't know how they do it on secure zone. Secure zone might actually have multiple pages that you go through. But there's two ways to look at what happens when you click on a user.
+
+Azizi, Ali  31:45
+Mhm.
+
+Sharma, Radhika  31:47
+So, when you click on a user...
+It's not always that you're going in with the intention of doing a modification. You could just be going in to look at the user's access.
+
+Azizi, Ali  32:02
+Yeah.
+
+Sharma, Radhika  32:02
+But with the model that you're showing in your prototype, it's almost assuming that every time you click on a user, you're entering that user's profile to update them.
+
+Azizi, Ali  32:18
+Not necessarily, not necessarily, just when I click on that, okay, I can just, you know, view everything without changing anything, you know, and you know, pass the ball, nothing to change.
+As I said, when I in the view mode, view mode, yeah, these two maybe it's unnecessary, should be merged into one. Yeah, if you see nothing has been changed, so yeah, we're good to go. But you have a valid point, you say that.
+In this model, the user needs to click three times to view everything, and if he just needs to view, for example, the parent access, it's fine with one click possible, but if he wants to...
+see the policies, needs to click another one. You know, it doesn't mean to click only on the on this click. You can select it from here, okay? And then, yeah, they need to see that.
+
+Sharma, Radhika  33:30
+Mmh.
+
+Azizi, Ali  33:36
+Yeah, I don't insist to have this model, to be honest. It's just a representation method, okay?
+
+Sharma, Radhika  33:47
+Let's see, let's see what Alex Alex says.
+It's not even feedback, I'm just providing commentary because, you know, I like the level of organization that you have because it's creating a very clear distinction between the different elements that you're trying to view and to update for a user. So I see the value in what you're saying and.
+
+
+
+Azizi, Ali  33:57
+Yeah.
+
+Sharma, Radhika  34:13
+Maybe it'll even help streamline the process a little bit more. So I'd be interested to know what Alex has to say before.
+you know, claiming what I think should be done. Because like you, like I just wanted to give you my extra perspective that when you're going into view a profile, because if we switch to the firm steward persona,
+
+Azizi, Ali  34:24
+Yeah.
+
+Sharma, Radhika  34:41
+What does it look like for them? It's the it's the same.
+
+Azizi, Ali  34:44
+Yes, it's the same. It's the same. As I said, these two should be merged, but yeah, it's the same. It's not going to change.
+
+Sharma, Radhika  34:48
+Yeah.
+Yeah.
+
+Azizi, Ali  35:01
+Do you think that it should be changed from FSS point of view?
+
+Sharma, Radhika  35:08
+Because at this stage, we're only giving them view only. They shouldn't be able to change anything.
+On this Profile.
+
+Azizi, Ali  35:17
+Mm-hmm.
+
+Sharma, Radhika  35:19
+At most, we give them the ability to maybe change the contact information, right? Like the e-mail and the name and that stuff. But we don't, we're not going to allow the security steward to make any changes directly on a profile.
+
+Azizi, Ali  35:40
+Uh-huh.
+
+Sharma, Radhika  35:41
+they're going to have to come in through the access request if they want to make a change. So a security steward is only going to be coming in to review a profile.
+
+Azizi, Ali  35:44
+Okay.
+Oh, okay, that's not good.
+
+Sharma, Radhika  35:52
+Because otherwise, you're delivering self-serve, and we're not ready to do that yet.
+
+Azizi, Ali  35:58
+Oh, yeah, yeah, you mentioned yesterday, yeah.
+
+Sharma, Radhika  35:59
+All right. Right now what you're, yeah, right now what you're showing me is self-serve and that I think needs a little bit more discovery to make sure we've got it correct. And I think we need to have our MVP plus version two or three before we can do self-serve.
+
+Azizi, Ali  36:09
+That's a good one.
+
+Sharma, Radhika  36:18
+like the entire model needs to be locked down before we do self-serve. So then if I'm a security steward and I'm coming in to consult a profile, I'm just looking at what's been set up. That's all.
+
+Azizi, Ali  36:18
+Yes.
+Okay. Set up and if I want any change, I need to come through access request. Okay. Okay, that's a great hit. So it helps me a lot. But you have in your corner of your mind that for the self-serve,
+
+Sharma, Radhika  36:38
+Yes.
+
+Azizi, Ali  36:49
+we have this, maybe in future we can revisit it and improve it. But that's a good, I can reduce the scope today. I will lock it and no need to, no need to change anything. Okay, I will do it for this afternoon. Okay, that's.
+Great, and...
+Now, now in terms of the create user.
+So, for, for, for modify, is there anything that you need to mention?
+
+Sharma, Radhika  37:28
+Um...
+So at the end of this, after, so this is, right now this is just a modification case, yeah, okay, so no, no, I think what I want to do is I want to be your guinea pig and I want to go in and maybe try the scenarios.
+as somebody who hasn't used this UI as much as you have. Because it might give me, you know, as I'm clicking, it might trigger certain feedback versus watching you do it, right? I can act on behalf of the users. So for modify, like based on what you've shown, I think.
+
+Azizi, Ali  37:58
+Yeah.
+Yeah, yeah.
+
+Sharma, Radhika  38:07
+It all makes sense to me.
+Um...
+
+Azizi, Ali  38:12
+For the first security store, it should be locked, and I will do it. OK.
+
+
+Sharma, Radhika  38:13
+The.
+Yeah, yeah.
+Now, the one thing that I don't know how much it would fundamentally change what this looks like is when we actually start designing the policies.
+
+Azizi, Ali  38:33
+Ohh.
+
+Sharma, Radhika  38:33
+Because...
+I just threw together an example.
+And, in my example, a person can only have one policy.
+But what if when we're diving down into the policies, we realize, you know what, even with parent and child, there might be multiple policies that are necessary.
+
+Azizi, Ali  38:56
+Okay, we step into the SOIB advisory board. Yeah.
+
+Sharma, Radhika  39:00
+No, no, no, no, no. It's not SOIB Advisor full extent, but the portion of multiple policies. And the only reason I'm thinking about that, Ali, is because if you look at some of our firms,
+
+Azizi, Ali  39:09
+Mm.
+
+Sharma, Radhika  39:15
+Um...
+They are.
+They have all different types of firms, right? So they have the Ib firms, the PM firms, the IFM firms. And I want to try to figure out specifically for head office users, can it be one shared policy across all the firm types?
+
+Azizi, Ali  39:33
+Ohh.
+Aha.
+
+Sharma, Radhika  39:39
+Or is it going to need to be individual policies by firm type?
+And I'm not, I'm not saying that you you're gonna do it at this level.
+
+Azizi, Ali  39:46
+Ohh, hey.
+
+Sharma, Radhika  39:51
+I still think you do it at level 2 in what it gives.
+
+Azizi, Ali  39:55
+Yes, yes, yeah, ignore it. We go to the next level here.
+
+Sharma, Radhika  40:01
+Yeah, but um...
+I can't even answer my own question without spending a little bit of time thinking about it. So we can proceed as is, assuming that you're going to have one policy, a person.
+
+Azizi, Ali  40:11
+L.
+No, no, let me help you in in that case, and maybe help you. OK, I'm not sure.
+Uhh.
+Do you remember I showed you something regarding GDP of Microsoft?
+I don't know, let me, let me, let me, because it is an enterprise and standard that is working, okay?
+
+Sharma, Radhika  40:36
+Yes, yeah, thank you.
+
+Azizi, Ali  40:49
+And it might help you.
+So these are all the roles and policies. For example, Sharepoint administrator, teams administrator. And if we expand it, we will see the permissions. The permissions equal or, you know,
+
+Sharma, Radhika  41:09
+Mm-hmm.
+
+Azizi, Ali  41:13
+You know, combination of, yeah, these two, these two together, OK?
+
+Sharma, Radhika  41:13
+And that's him.
+Okay.
+
+Azizi, Ali  41:22
+Maybe if I have from my previous organization, let me see if my account lives there. I will show you in a real environment. It can help you to give you an insight, okay, to understand what they're doing. But yeah, here, consider that I load.
+
+Sharma, Radhika  41:35
+Mhm.
+
+Azizi, Ali  41:42
+All these access control as a selective, OK? Tick on tick, like here, you see, tick and tick on tick.
+Okay.
+And then...
+Populate this metrics per each of these policies, OK?
+And then in that, in that metrics, those policies that have not been subscribed, those permissions that have not been subscribed by each firm also would be disabled.
+I think it provides a kind of freedom that you're looking for. The point that I am making is that if you, again, you want to create two different head office operation package, one for Harborfront, the other one for Alert,
+I think...
+Your team are going to...
+fall into trouble. Because managing them again, gonna be, yeah, yeah. You know, I want to help you, I want to help you to run away from that trap.
+
+Sharma, Radhika  42:51
+It's going to be a lot, yeah.
+But...
+
+Azizi, Ali  43:03
+With having as granular as possible, you know, it's a trade-off. I know, I know that maybe you want to buy this, buy, you know, you want to say that I will sacrifice myself to take, you know.
+Take the ownership of those packages, managing packages for the sake of easiness for the of SAA, but at the same time, maybe you are sacrificing the standard level of the platform. You know, I just want to...
+Help you to know that too, that when you are evaluating, yeah.
+
+Sharma, Radhika  43:47
+Yeah, it's.
+So the policies wouldn't necessarily be, again, I have to, I have to figure out how we're going to construct them.
+And we need to construct them, like in a, they need to be generic enough that they...
+Can satisfy the needs of the different.
+like access that all of our clients need. And we know that our clients today, there's no one standard in how they're structured. For the most part, everyone's only going to have one policy. Like I would say that's 70 to 80% of the population.
+
+
+
+Azizi, Ali  44:30
+Mm-hmm.
+
+Sharma, Radhika  44:31
+But that 20% of the population, that is a little bit more complicated.
+I'm just asking myself the question, are we going to need multiple policies for them? And I don't know the answer to that. I'm with you. I don't want to have that, but I want to make sure that we are aware that we haven't concluded that analysis. We don't even know what the policies are going to look like right now. So
+Let's mentally prepare ourselves that if once we've put together the policies, there could be a new scope that, you know, creeps up into this solution that requires us to have multiple policies. But I totally agree with you. We don't want to go down that path. We want to keep it as simple as we can.
+And maybe, maybe what I'm saying is not even going to be true at the end of the day. So it's more just a call out to say, you know, keep that at the back of your mind, just like sub-advisor, keep it at the back of your mind. Because if we do, once we actually create those policies, we need to determine
+
+Azizi, Ali  45:24
+No.
+
+Sharma, Radhika  45:37
+what they're, if there's going to need to be more than one. And this is the part where I think there's another component to the UI that needs to be built, which is managing the policies. Where do they get managed?
+
+Azizi, Ali  45:54
+Phase 2. No, phase one, I am with you. That tool is not going to be, that tool is not going to be hard for me because the only persona is you and your team.
+Which is great, OK?
+
+Sharma, Radhika  46:16
+Well, yeah, and I need, I need to, I need to consult with J.P. because whatever.
+The construction of a policy needs to follow the data guidelines, right, that that he's established through the architecture, but...
+That is something that we can do later. I just, you know, maybe just make sure Alex is aware that, you know, this is not some, the policies are not inherently there today and we're going to need to have another UI for it to manage the policies. Because I don't want to have to go through the delivery team for that.
+
+Azizi, Ali  46:52
+Yeah, I...
+Yeah, yeah, for sure.
+
+Sharma, Radhika  46:56
+It defeats the whole purpose of having some autonomy, right?
+
+Azizi, Ali  47:00
+Yes, yes, yes. Yeah, I agree with you. I agree with you. And also consider the suggestion I provided yesterday about the rollout plan and managing traffic. Because the days that pass, and let's say that's March.
+I don't want that time you get frustrated with the rollout plan.
+Because all these changes and rolling out for all firms, I think you may, you may be, you may, your team may get stressed. Think about it.
+
+Sharma, Radhika  47:39
+Well, no, so luckily for you, I run the go-to-market strategies too. So, you know, just because we're not going to, we're certainly not going to launch this at once in one shot. We need to have a migration strategy. We need to do a beta and we need to do a pilot.
+
+Azizi, Ali  47:45
+Oh yeah, okay.
+
+Sharma, Radhika  48:00
+For this.
+Right, we're going to have to do some trial runs. But before we go live with all clients, we have to establish all policies.
+
+Azizi, Ali  48:05
+Okay, okay.
+Mhm.
+
+Sharma, Radhika  48:12
+we have to, it's the required configuration to take this product to market.
+
+Azizi, Ali  48:20
+Okay, yeah, yeah. Maybe I design A cockpit for you and your team in terms of managing policies and in terms of the rollout plan. Okay? And then, yeah, you might have a better idea about them, but...
+
+Sharma, Radhika  48:28
+Uh-huh.
+
+Azizi, Ali  48:38
+Yeah, let's park that site. I may revisit it next week or two next two weeks. Okay. Okay, now we are showing again, SAA can review the policies and it's not locked.
+
+Sharma, Radhika  48:46
+Yeah.
+
+Azizi, Ali  48:57
+they can add or remove. Is that right?
+
+Sharma, Radhika  49:01
+Yes.
+
+Azizi, Ali  49:03
+And now, again, this is the policy. Nothing has been changed. Also, the view of the policy. And...
+And if I...
+For example, remove one of them.
+In the next page, it provides a warning and I can review all the things again. And then just a moment to show you something here for credentials.
+Something like that.
+It should show me, but here it doesn't show me. Okay, next, next, and create user. Now I can see create user. If I log into Firms Security Stewart, I can see.
+See this part.
+And.
+Credentials should be there. Unfortunately, there is a bulk here. Sorry.
+
+Sharma, Radhika  50:19
+But this is not user creation, right? This is user modification. So if you go back to the first page, um...
+
+
+
+Azizi, Ali  50:24
+Yeah.
+The kids.
+No, it was user creation. It was user creation. Maybe there are some elements missing. Okay.
+
+Sharma, Radhika  50:36
+Because it should be here, the credentials are here, right at the top. And today we have a copy button. And the copy button masks, like you can't see the password.
+
+Azizi, Ali  50:40
+Yeah, Ia.
+Yeah.
+
+Sharma, Radhika  50:50
+but you can copy it.
+
+Azizi, Ali  50:52
+Yeah, yeah.
+Yeah, yeah, yeah, that's true. I need to fix it. I need to fix it.
+And yeah, in terms of the secure zone and R2 accounts, again, they're the same. If, you know, if I need something like that. Yeah, it's pretty similar, pretty similar.
+And yeah.
+
+Sharma, Radhika  51:21
+But, but there's some, there's some things that we have to consider, right, Ali, and this is why.
+Some information on here. Okay, so this whole page, the user creation page, is fine. When we actually get to user access requests, some of these fields should not show up.
+
+Azizi, Ali  51:47
+Okay, from because access requests start from firm security, so for SA for the firm security store.
+
+Sharma, Radhika  51:53
+No.
+First security story now.
+
+Azizi, Ali  52:01
+Oh, one thing, you know, I have added this validation because already under this parent, I have this user and password. And it, you know, it shows that you already have it, okay, and that it is reached out to these firms.
+
+Sharma, Radhika  52:10
+Nice, Okay.
+
+Azizi, Ali  52:19
+Okay.
+
+Sharma, Radhika  52:20
+Okay, that's awesome. Yeah.
+
+Azizi, Ali  52:22
+Okay, by the way.
+No, I select all of them.
+I select.
+The rules.
+still the same. If I go in, these are the things that inside the package exist. Now I go to next. So what kind of accesses I need to add or remove from here?
+Let me know, because this is Access Circle.
+
+Sharma, Radhika  53:03
+Well, no, you are, you, you already, you already had it removed, so when we go to page one, you didn't have the linked accounts, so that's good.
+
+Azizi, Ali  53:10
+Oh yeah, yeah, yeah, yeah.
+
+Sharma, Radhika  53:11
+You don't have that.
+I think I like the fact that it's similar to what SA has to do because it creates the transition from intake to their workflow. It makes it a little bit easier.
+
+Azizi, Ali  53:32
+Mhm.
+
+Sharma, Radhika  53:38
+We need to look at what the light version of third-party access looks like.
+
+Azizi, Ali  53:47
+Like Netrep and...
+
+Sharma, Radhika  53:50
+Yeah.
+
+Azizi, Ali  53:52
+Okay.
+Do you want to discuss now or let's complete this scenario and do it later?
+
+Sharma, Radhika  54:01
+Yeah, we can complete this scenario and come back to it.
+
+Azizi, Ali  54:05
+Okay, now I can see.
+I can see the policies. So the policies should be also meaningful from FSS point of view as well.
+
+Sharma, Radhika  54:20
+Uh-huh.
+
+Azizi, Ali  54:22
+So maybe if you have any tips or tricks, let me know. Showing this is fine, or we should add any tips or help here, you know, to help them to understand.
+
+Sharma, Radhika  54:29
+Well, the...
+No, because the whole point of how we're going to construct and label the policies, it should be intuitive. And this right now is probably as intuitive as it's going to get.
+
+Azizi, Ali  54:51
+Breeze.
+
+Sharma, Radhika  54:52
+Um...
+So I don't think that there's any...
+further assistance. This would be a rare case where we could have, because we are going to have a user guide at the end of the day. It's not like we're not going to, we will. You can't live without it. Our clients are going to need it. So I don't think there's any extra, like a tool tip or anything that's necessary.
+
+Azizi, Ali  55:05
+And.
+Mhm.
+
+Sharma, Radhika  55:18
+this stage for this one.
+
+Azizi, Ali  55:20
+Okay, wonderful. And when I choose a policy, again, firm, here firm security steward are free to add or remove any permission. Yeah, okay. Then, yeah, then they are free to add or remove.
+
+
+
+Sharma, Radhika  55:31
+Yes, yes.
+
+Azizi, Ali  55:40
+Any feature, untick, or select anything, and then they can review, and we, because we have not changed anything to the policy, now we need to...
+
+Sharma, Radhika  55:56
+But this is a new creation, so you wouldn't have changes, right? You would just have review, yeah.
+
+Azizi, Ali  55:59
+Yes.
+Yes, yes, yeah, as I said, it's, yeah, yeah, and now it is warning me, you haven't selected any Oracle code, okay?
+
+Sharma, Radhika  56:04
+You're gonna merge them. Yeah, yeah, yeah.
+
+Azizi, Ali  56:13
+So, it's a kind of validation, I mean.
+
+Sharma, Radhika  56:16
+Okay, thanks.
+
+Azizi, Ali  56:17
+And yeah, that's going to show the overall of what we are going to delegate or assigning. And yeah, when we submit, again, oh, sorry, let's see, all codes, it's going to change as well.
+Change.
+So this one, a new request under this firm for submitted by someone, owner now has is, maybe this column should be.
+Change that as well, because we are saying S.A.A.D.V. NBIN team. OK, let me remove that. Now, if I go to...
+
+Sharma, Radhika  57:08
+Well, well, what if what if somebody is in the middle of a request? What if they didn't hit the submit button? What if they just started there?
+
+Azizi, Ali  57:15
+Ohh, you mean? No, I haven't, I haven't, I haven't added that because...
+
+Sharma, Radhika  57:16
+Is that, is that a thing?
+We don't need to have that extra scenario because it's just added data for no reason. I think seeing an owner is good, even for the FSS, because sometimes they do call in and they don't know if their ticket has been picked up. And maybe the status is enough.
+
+Azizi, Ali  57:23
+But that's a good feedback here. Yeah.
+Mhm.
+Mhm.
+
+Sharma, Radhika  57:41
+Maybe the status is enough, but...
+I know, for example.
+in my request, remember I was showing you after it's completed, it does show who worked on it. But maybe we want to keep that private. So I suppose as long, you know what, you're right. So for FSS, we shouldn't have owner, but when we look at the SAA view,
+We should see the owner.
+
+Azizi, Ali  58:10
+Yeah, yeah, there we have, but here I, you know, it's say if I, for example, changed, I don't know, for example, if I assign, for example, Maisha as the owner of this ticket, for example, okay, so what you are saying, FSS should not see that.
+
+Sharma, Radhika  58:11
+Yeah, yeah, you're right.
+Mhm.
+
+Azizi, Ali  58:29
+who in our organization is the owner.
+
+Sharma, Radhika  58:29
+Mhm.
+
+Azizi, Ali  58:34
+Okay.
+Okay, now I go to Saa, if I filter based on, you know, based on Neo as this one.
+
+Sharma, Radhika  58:46
+Not, can I, can I throw a scenario at you that exists today?
+
+Azizi, Ali  58:51
+Yeah, yeah, yeah, please share your screen, yeah.
+
+Sharma, Radhika  58:54
+So today, the FSS.
+is the one who can create a user.
+But once the user is created.
+the user is allowed to request for modifications to their profile. And there is a workflow there where it goes to...
+Remember, I was telling you yesterday we have a security steward and we have security signing officers.
+
+Azizi, Ali  59:28
+Yes, yes, yes, CIRO.
+
+Sharma, Radhika  59:30
+So.
+A security signing officer has to approve that request.
+and then it proceeds further. This is not something we're going to do in version one. So I'm just giving this information to you that when we get to self-serve and we look at all the other, like our next version, enhanced version of this, maybe we look at user end user initiated modifications.
+
+Azizi, Ali  59:45
+And.
+Mhm.
+
+Sharma, Radhika  59:59
+But don't worry about it today. I think for now this is, this is good enough.
+
+Azizi, Ali  1:00:05
+Okay, but you said that in my request, it's somehow self-serve because when the user created, when the FSS create a request, the user gets created automatically. Is that right?
+
+
+Sharma, Radhika  1:00:21
+Yeah, so, so creation cannot be done by, like, if if if I'm the security steward and you're the user, you cannot.
+submit a creation request for yourself. You don't even have a profile yet. You can't use the system to do that. But once your profile is established, you could have the ability to submit a modification request.
+
+Azizi, Ali  1:00:34
+Yes, yes, yeah.
+
+Sharma, Radhika  1:00:44
+Now, this requires a little bit more discovery, because I know this at the surface level, but...
+
+Azizi, Ali  1:00:47
+Mhm.
+Yeah.
+
+Sharma, Radhika  1:00:52
+There are different levels at who can submit and who can approve a modification request. Again, Ali, I'm just giving you information because I want you to have enough knowledge about this space, even though we have a very specific scope right now. In our scope right now, we're not including that.
+
+Azizi, Ali  1:01:06
+Yeah.
+Yeah.
+
+Sharma, Radhika  1:01:12
+We're not going to allow a user to initiate their own modification request. But when we get to the later stages and we think about self-serve, there's potential for a more comprehensive workflow. But we'll do that later.
+
+Azizi, Ali  1:01:31
+Yeah, that's a good feedback. That's a good thing. Yeah, it helps me to understand that what are the next phases. Yeah, that's a good thing to know. Yeah, thank you.
+Thank you for sharing that. So now the request has come to SAA. This is the panel of the SAA. And these are some KPIs in terms of what's happening if SAA manager team.
+
+Sharma, Radhika  1:01:50
+Mmh.
+
+Azizi, Ali  1:02:01
+they want to see or even the SA user, whatever. Now we have new, incoming new, we have 9 new requests. This is the one that I already created.
+
+Sharma, Radhika  1:02:01
+Mhm.
+
+Azizi, Ali  1:02:16
+Okay, now I am, uh...
+I am going to, I am going to take the ownership, so as long as soon as I take it, it goes to in progress. So, if you see now, it has changed to in progress.
+And yeah, I can do things, for example, add credential. OK.
+And then save the credentials. As you see, I cannot see that. And later we go to the other user. If I want, if you see...
+So here, security steward, I say, sorry, SAA should be able to modify. Unfortunately, I don't know why this bug has not been.
+has not been fixed to work on that. Anyway, I can modify, okay, modify the existing policy.
+I cannot add a new policy, is that right? I just can modify the policy.
+
+Sharma, Radhika  1:03:47
+Ohh.
+Yeah, because you know what, the way you've done this, Ali, is quite interesting.
+Because today, I'm just going to give you the comparison to today, right? So today, if they get a request for a system, they can't, sorry, if they get a new creation request, they have to have two windows open.
+They have to have the request side open. So this is like, remember the My Request dashboard, right? So they'll have the request side open. And then they need to have another tab or window where they go and modify the profile.
+
+Azizi, Ali  1:04:21
+Mmh.
+Yeah.
+
+Sharma, Radhika  1:04:29
+But I, I like, I like what you're doing here, because...
+For now, what I'm going to say is yes, SA should be able to modify this. But if you think about it in theory...
+They don't.
+Because.
+They're going to be actioning exactly what the security steward has instructed to them. Outside of that.
+
+Azizi, Ali  1:04:52
+We.
+Yeah.
+
+Sharma, Radhika  1:04:54
+There's no other instructions that they have to modify this request unless we tell them and say, okay, SAA, you know, for now, even though a security steward has selected a state submission.
+We need you to remove it. But I don't think that that is ever going to happen, Ali. So this is actually a really, really fantastic improvement because
+
+Azizi, Ali  1:05:16
+This.
+
+Sharma, Radhika  1:05:19
+SAA, like I said, right? They don't have...
+They just action the request that comes in. If the security steward has submitted a request that has the entire setup of the profile how they want it, in theory, there's nothing for SAA to modify.
+
+Azizi, Ali  1:05:26
+Yeah.
+Okay, yeah, yeah.
+
+Sharma, Radhika  1:05:39
+Do you know what I mean? Right? Now, we should still give them the ability to do it. That's fine. But...
+
+Azizi, Ali  1:05:46
+But not here, you're right, because it's this is the access request form. Now, if I...
+Quick, take it, it is because you remember we said that the request side remains that it is in sake of data consistency, OK? So.
+
+Sharma, Radhika  1:06:04
+Right.
+
+Azizi, Ali  1:06:07
+Security Stewart has requested something. SAA needs to action on top of that. How to action? It should go to users and create users. So here, now I can create a user. Now here I have that freedom.
+
+
+
+Sharma, Radhika  1:06:19
+Mhm.
+Okay.
+
+Azizi, Ali  1:06:26
+to change it. So as soon as I create it, okay, I again come back to here, okay?
+
+Sharma, Radhika  1:06:28
+Yes, yes.
+
+Azizi, Ali  1:06:38
+And say I have done something different. Let's say now I have completed, for example, and I should be able to provide a note, okay, which is missing here. I need to provide if, for example, I have changed.
+something from this policy, okay? Because they have requested it, but I have modified and submitted something else. So I need to provide a comment, okay, that this policy has been changed due to, you know, several reasons, whatever.
+
+Sharma, Radhika  1:07:13
+Mhm.
+
+Azizi, Ali  1:07:19
+But access request intake should not be for this metrics. This metrics is view only. It's informational. It's not going to change, to be honest.
+
+Sharma, Radhika  1:07:32
+Yeah, no, this is, this is actually quite good because what was creating a really big, like it was complex for me, was the matrix that we have to create for essay.
+But you've solved a huge portion of that with this.
+
+Azizi, Ali  1:07:49
+Ohh, okay. No need to no need to have another Excel open here. Yeah, you mean?
+
+Sharma, Radhika  1:07:51
+Right.
+Yeah, now they still, they do need to have an Excel open, but much more simplified.
+
+Azizi, Ali  1:08:03
+Okay.
+
+Sharma, Radhika  1:08:03
+So, and it's because of the linked accounts.
+
+Azizi, Ali  1:08:06
+Yeah.
+
+Sharma, Radhika  1:08:07
+So the reason they need that is for linked accounts, this is going to be the instruction, okay? This is the instructions. The Compass profile, the new Compass, the CX profile can be created directly from the instructions from the FSS.
+SAA shouldn't need to change anything.
+
+Azizi, Ali  1:08:26
+Mhm.
+
+Sharma, Radhika  1:08:29
+Provided we have done our job to...
+Make sure the policies and the firm packages are updated correctly.
+
+Azizi, Ali  1:08:38
+Mhm.
+
+Sharma, Radhika  1:08:40
+Whatever the FSS submits for CX, SAA shouldn't need to change. But if the FSS has submitted a request for any of our features that require you to link an account,
+
+Azizi, Ali  1:08:55
+Mhm.
+
+Sharma, Radhika  1:08:57
+then SAA needs to go into those other, those, those other systems like Secure Zone, like Compass Legacy, and they need to go action something there.
+
+Azizi, Ali  1:09:05
+Uh-huh.
+Yes.
+
+Sharma, Radhika  1:09:08
+That is where the Excel matrix is going to come in.
+
+Azizi, Ali  1:09:12
+OK.
+
+Sharma, Radhika  1:09:13
+So, this is wonderful, Ali. I think this works out really, really well and reduces the required additional administration and, you know, all the other support tools that we have to create. No, this is a really, really good job.
+
+Azizi, Ali  1:09:15
+Yeah.
+Always.
+Okay, okay. Thank you. Thank you for your feedbacks. Thank you. And yeah, we can also view the record of actions that different user have taken for this ticket. And as you could see, this is 1 view. I already viewed it. You know, it's no longer can show.
+So, yeah.
+
+Sharma, Radhika  1:09:58
+And I saw that in the credentials to return, you've already accommodated for third-party credentials.
+
+Azizi, Ali  1:10:05
+Yeah, yeah, yeah, and this is, this is, I add this comment here that how long it should stay and viewable, I need to ask it.
+
+Sharma, Radhika  1:10:19
+But if you're if you're masking it.
+And they don't need to see it ever.
+
+Azizi, Ali  1:10:27
+Okay, okay.
+Okay, that's fine. Yeah, makes sense. And I am, I need to talk today with Candi regarding the list of security signing officers and...
+Secretary Stewart from Réseau, because that's one of the things we checked yesterday, and we need to we need to validate as soon as possible because it impacts our design, but yeah, because...
+
+Sharma, Radhika  1:10:54
+Yeah.
+
+Azizi, Ali  1:11:08
+You said that, if, if a user...
+If, for example, for example, I have, I am in parent now, I change to to the, let's say, what was alert? Yes, alert. Now I change to the to the child.
+Now, if I show the users...
+Show the full you are limited to, you know, yeah, that's one of the things we need to fix it, yeah, yeah.
+
+
+Sharma, Radhika  1:11:45
+Yeah.
+Can we can we close the loop on our our test case there though for the creation request? What does the after Saa has completed the request? What does it look like for emphasis?
+
+Azizi, Ali  1:12:02
+For FSS, when they when the it's completed, uh, let me, ohh, I changed.
+I need to change it to, sorry.
+Go to here, all ours.
+So, if I go to other and User Request, now this is...
+The User.
+It can be looked like.
+Do you mean this this what do the yeah?
+
+Sharma, Radhika  1:12:38
+Yeah, yeah, yeah, that's exactly okay. One more thing, as SAA, do they have one dashboard that shows them requests for all firms or do they have to go one by one?
+
+Azizi, Ali  1:12:45
+Okay.
+
+Sharma, Radhika  1:12:53
+So if we go back to the SCA view of Access Request.
+
+Azizi, Ali  1:12:53
+Ohh.
+Okay.
+
+Sharma, Radhika  1:13:00
+Right now.
+
+Azizi, Ali  1:13:00
+Yeah, they should select, they should select, they should select the firm. OK.
+
+Sharma, Radhika  1:13:07
+But this is, but this is their intake.
+this is where they're coming in to pick up requests. They shouldn't have to go through 400 firms to check them every day, right? So when they land on the page,
+
+Azizi, Ali  1:13:13
+Yes.
+Uh huh, okay. Uh huh, okay.
+
+Sharma, Radhika  1:13:22
+It should show them all requests.
+
+Azizi, Ali  1:13:25
+Okay, yes, that's a good point. That's a really good point. Yeah. Oh, yeah, it's already showing. Sorry. Yeah, yeah, because it's coming from Harbor Front. Yeah, it's not selected. Actually, my sample data is limited, but yeah, it's for all the
+
+Sharma, Radhika  1:13:34
+Yeah, yeah.
+
+Azizi, Ali  1:13:44
+all the firms regardless of what firm you have selected. Yeah, it's showing all the firms. Yeah.
+
+Sharma, Radhika  1:13:51
+Okay, because today, and I don't know if you caught on to what Kevin was saying, that drop down on the left, the firm drop down,
+
+Azizi, Ali  1:14:00
+Mhm.
+
+Sharma, Radhika  1:14:03
+It's misleading.
+And fortunately or unfortunately, you've captured that same misleading behavior here, where I'm looking at a lard on my left, but my dashboard is showing me everybody.
+
+Azizi, Ali  1:14:11
+Yeah.
+Yes.
+Yes, yes, yes, yes. So, okay, that's a good point.
+Let me think about it, that if I can do something about it.
+In this.
+by March or I need to revisit it later. Okay? Let me think about it. I will take a note.
+
+Sharma, Radhika  1:14:46
+Yeah, I think for this, yeah, it's more, it's more about SAA, because as a security steward, I won't have that problem, because as a security steward, that's maybe as an FSS, that's important, because this can't wait, this will have to be part of it. As an FSS, my dropdown shouldn't have anything apart from the firm that I work
+For.
+
+
+Azizi, Ali  1:15:08
+Okay, that's wonderful. Yeah.
+
+Sharma, Radhika  1:15:09
+Right, so like an FSS can't see a list of all of our clients.
+An FSS should only be able to see their users at their firm, their parent, and the children in that parent.
+
+Azizi, Ali  1:15:24
+Yeah, I see, I see.
+Um...
+
+Sharma, Radhika  1:15:29
+Because that's not a negotiable, that's a non-negotiable. If you can hold off on the SAA side of it, but for FSS, they cannot see this whole list.
+
+Azizi, Ali  1:15:35
+Mhm.
+Yeah, definitely, definitely they shouldn't be able, yeah, yeah, yeah, yeah, this is mock-up to be honest. It maybe miss something, yeah, but you're right. I think, yeah, this validation already exists in Compass X today, okay?
+
+Sharma, Radhika  1:15:41
+Right, they will just, they will just see their own.
+
+Azizi, Ali  1:15:58
+And you know, I will check it with Esther, but yeah, I will bring it as a as a global rule.
+But yeah, you're absolutely right.
+And now I see, so this view for for the completed, can it reopen?
+
+Sharma, Radhika  1:16:22
+Um...
+
+Azizi, Ali  1:16:25
+Because I think it's an extra user flow I am introducing.
+
+Sharma, Radhika  1:16:30
+I don't, I don't think we should. Maybe we look at that next later, because...
+Yeah, I think it, I don't know if our audit histories, like our audit requirements, audit trail requirements are going to be met if we do that. We don't allow that today.
+
+Azizi, Ali  1:16:51
+Mhm.
+
+Sharma, Radhika  1:16:52
+I would park reopening. If somebody needs to change a request that they've submitted, they should submit a modification.
+
+Azizi, Ali  1:17:04
+Ofeke.
+Then that's again, that's the view if something.
+Then if something has changed from the policy, we will show it here. And yeah, but I need to test it. I have not tested that. If I have changed something from policy, what will be shown in here?
+in the access request when the access request is completed. I need to test it.
+But the purpose is that if something has changed, I will show what has changed in the ticket.
+
+Sharma, Radhika  1:17:48
+Yeah.
+
+Azizi, Ali  1:17:51
+Okay.
+It's all, so overall, seems there is no red flag. Yeah, we need to just adjust the details, yeah?
+
+Sharma, Radhika  1:18:00
+Yeah.
+Yeah, yeah. I mean, I think from from from where you're headed, it all makes it makes a lot of sense. We now have to see what what Alex does with this in her creativity. And we've got to lock down the policy side of it and you're going to get.
+
+Azizi, Ali  1:18:24
+Mhm.
+
+Sharma, Radhika  1:18:24
+get those answers from Candi, right? Or the list. If you need help to review the security signing officer and steward list, let me know once you have it. But yeah, I think you can even ask Candi to do that analysis for you, right? The analysis is that...
+
+Azizi, Ali  1:18:28
+Mmh.
+Yeah, for sure, for sure.
+
+Sharma, Radhika  1:18:43
+we just want to see if within a parent firm are the security stewards the same for all of, like, for all the children.
+
+Azizi, Ali  1:18:54
+Yeah, yeah, yeah. I'll ask her today. Yeah, I'll ask her today. So that's fine. And yeah, okay. We, I will, I will try to improve it for the next week, maybe Monday or Tuesday.
+Tuesday, probably Tuesday, to review again, and probably today afternoon we have a meeting. I will try to share some of it with the team and, yeah, get their insight, and yeah, probably Tuesday, hopefully.
+
+Sharma, Radhika  1:19:13
+Mhm.
+Yeah.
+
+Azizi, Ali  1:19:31
+one day, but if I couldn't pick it Tuesday, I will come up with another version and yeah, make it improve more.
+Yeah, that's all. Thank you. Anything else?
+
+Sharma, Radhika  1:19:46
+No, that's it. Maybe review this with Candi as well. I don't know if we're going to get through all of it today, but I would do a walkthrough with her just to get any inputs that she has.
+
+Azizi, Ali  1:20:05
+For sure, for sure. I can set up a meeting on Monday.
+
+Sharma, Radhika  1:20:10
+Okay.
+
+Azizi, Ali  1:20:11
+Yeah, I can set up a month. Okay. Thank you. Thank you. Yeah, see you. Bye-bye.
+
+Sharma, Radhika  1:20:15
+All right, thank you, Ali. We'll talk to you later. Okay, bye.
+
+
+
+

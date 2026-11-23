@@ -1,0 +1,831 @@
+Pierre, Joseph-Pascal  0:03
+So as if, hold on, if I can, no, let me go and copy again.
+As if. So this is my template.
+
+Sharma, Radhika  0:15
+Alright, you're gonna have to repeat everything, J.P. We just started the recording. No, I'm kidding. I'm gonna try to remember everything that you said.
+
+Pierre, Joseph-Pascal  0:20
+Really?
+Phu.
+
+Oyemade, Obaloluwa  0:22
+I'm so sorry, so, so, so sorry. I mean, I just remembered now, I was like, woo.
+
+Sharma, Radhika  0:24
+No, it's okay, Alva. If anyone could have done it.
+
+Pierre, Joseph-Pascal  0:26
+Yeah.
+Ha ha ha!
+
+Sharma, Radhika  0:29
+But you saved us just in the nick of time.
+
+Oyemade, Obaloluwa  0:32
+Yeah.
+
+Sharma, Radhika  0:33
+Okay.
+
+Pierre, Joseph-Pascal  0:33
+No, but anyway, for sure, we're gonna go over every.
+
+Sharma, Radhika  0:35
+But I guess, I guess, JP, what you described here kind of is the same as today, in a sense, right? Because today I don't manage the packages literally on the UI. It's done through the feature Onboarding process.
+
+Pierre, Joseph-Pascal  0:38
+Mhm.
+
+Sharma, Radhika  0:48
+Right.
+
+Pierre, Joseph-Pascal  0:48
+No, but yeah, but there's one difference. So, in the analysis I had done with Candi and Owen and others before, one challenge we have is today, let's say you have a package which is a template. It's saved as a template, so I think it's a...
+package template or something, okay.
+If you make a change to that.
+Uh, but I, I'm gonna skip the mechanics, OK, but...
+User, let's say a firm get assigned a package.
+And then, so it references, you could say the template.
+But in fact, what it does is it references that for a given firm.
+of the proper type, okay, because each template is for a firm type.
+But then it goes and it looks at the components and assigns each component.
+So far so good, you say, okay, it's fine. Then you want to make a change to the template. You go, you add something or remove something.
+You would think that, okay, there's nothing else that I need to do. But the problem is, because each and every component was added to the different IB firms, let's say,
+I have to go find all of them, although they reference the template.
+But I have to find all of them.
+add everything that was added into the template to each firm, and remove everything that was removed to each firm. The same logic applies for users. So it makes an update very long to do because, yes, I modified the template.
+But I need to go and find everybody and make the changes. And it's done on the database, so the implication is even greater. So it takes time. So I think it's several minutes, or at least anyway, many seconds, but I believe it's several minutes to make a template.
+So, that's an issue.
+Here, I'm separating.
+Maybe I would end up with the same issue in the sense that this is the template, it gets displayed on the admin screen, you make changes for a given firm.
+It basically copies this.
+add whatever you are or apply whatever changes you made against that template and save it as its own file for that specific firm.
+You go and you modify the template.
+That means that we need to go and find.
+You know that copy?
+and make the change. Where if to your idea, instead of doing that, I say...
+I don't know how we do it, but I say...
+I don't know, man. Maybe, yeah.
+
+
+
+Sharma, Radhika  3:59
+So, so, I, it's not even an idea, it was more, it was more just a question, but like I think this model, this model still still works because there's so many variations at the individual firm levels that we have to make, and that level of control that we need at the individual firm level is key for us when we're doing a beta or a pilot.
+
+Pierre, Joseph-Pascal  4:04
+No, no, that's a good question.
+
+Sharma, Radhika  4:18
+Right? So we still have to do that. Now today it takes a long time because we can't do it. Like we don't have a bulk update on that. So that's something we can look at in the future. But we will get, Esther's team will say, okay, for now that you've updated the packages.
+
+Pierre, Joseph-Pascal  4:19
+Yeah.
+Mm.
+
+Sharma, Radhika  4:35
+And we've told you the initial, right now the initial setup for each of the firms is hide. The equivalent in the policy would be deny.
+Now, we want you to go in and allow for a certain number of Firms.
+or show in today's world.
+
+Pierre, Joseph-Pascal  4:56
+Mm.
+
+Sharma, Radhika  4:56
+I think those, I don't see a way out of those two levels, but I'll let you try to think through it and see if there's a way to make it easy.
+
+Pierre, Joseph-Pascal  5:04
+No, as I said, it's a good point.
+I have to think if it's a good idea for me to reference the template and basically the statement having only the delta.
+you know, what differs from the template.
+It may be okay.
+I just have to relook into it. Because then what makes me hesitate is in the policy engine, there's going to be conventions.
+For instance, a deny supersede the allow.
+So if I've allowed this thing, order entry, and then later I have a deny statement.
+is going to be denied.
+You know, so two times the same thing, one is allowing, the other one is denying, denying is always win.
+So, I need to know, okay, if a template, I don't know.
+denied something.
+And then for that given firm, I have a allow statement.
+Which wins? You know, is it the template or this? If you tell me it's the template, then I'll say, yeah, but the template may be denied it afterward.
+So.
+should it, maybe it's okay, but you could say, okay, the template denied it initially.
+But that specific firm wants to allow it. Or maybe you say no, if you're off that template, you cannot on, you know, undeny, you know, something, you know.
+
+Sharma, Radhika  7:09
+Hello.
+The way I see it is that a template is always going to allow.
+
+Pierre, Joseph-Pascal  7:12
+So, yeah.
+Okay, never deny.
+
+Sharma, Radhika  7:18
+and never deny. Because then that's too many, like to your point, right? There's too many levels of, like there's a conflict, something needs to supersede the other. If a template is everything that is allowed, then the only place that you can deny something is at the individual firm policy level.
+
+Pierre, Joseph-Pascal  7:38
+Mm.
+Yeah, but um, I understand.
+
+Sharma, Radhika  7:43
+Because I, I don't think why would we put something in a firm policy, sorry, in the template?
+and set it to deny, what would be the reasoning to do that?
+Ssn.
+
+
+Pierre, Joseph-Pascal  7:59
+No, because sometimes, you know, you don't want to understand also that, okay, let's say you want to skip the packages, you want to discreetly list every feature.
+The packages were kind of, was a lazy way of, lazy not in a bad sense, you know, you wanted to save time. I already done that package. Let me take that package and remove what's unnecessary. So in that case, you would do a deny.
+Where, okay, maybe if you say, you know what, I'm simply not going to use packages anymore, simply using feature, then fine. Whatever you list is consciously, this is it, you know, there's nothing more into it, so I don't need to deny anything. It's whatever is there, this is what you're allowed.
+Right now, obviously, it gives you the opportunity to make customizations and allow more.
+
+Sharma, Radhika  8:56
+Yeah.
+
+Pierre, Joseph-Pascal  8:58
+or deny what has been initially allowed.
+You know, so...
+Maybe to your point, a template doesn't need to have a deny, so I'll just cross it for now.
+But I have to still think about what should be the...
+Conventions, World Convention.
+You know, if ever we have a template, so it can be simply referenced like this, you know, I have, you know, a reference to template ID here and whatever comes here in the statement just is in addition to what has been saved, you know, into the template.
+Could be that, but another thing that we need to think about is the versioning. So, initially I said...
+Without thinking about templates, right? A policy would have different versions.
+And why is because I don't want to necessarily override something that was created before an assign. So if you come back and you make a change, I will increase the version. No, it wasn't for, was it for that?
+I think it was for that or it was for the policy engine. I have to revisit this. But I'll come back to this. Just so I want to make sure because there's a policy engine version. Why a policy engine version is if ever later we improve the statements, we add more stuff.
+You know, here for now, we have a effect, principle, or package features in action. If ever we add a condition, let's say, or a new category, whatever, you know, here, now I added template ID, let's say. My policy engine today, you know, doesn't support that, it doesn't know. It's already cooked, it's already sent to production.
+Tomorrow I say, you know what, I really want that template. So I introduce this. That means.
+There's a new policy engine that needs to be built that supports this new field.
+So here, I believe my initial intent was...
+This references which policy engine supports, or at least this policy works with which policy engine.
+Okay, I think that's the original intent and not necessarily the version of the policy itself. So yes, I could override a policy, make changes, but as soon as I change the structure, introduce something or remove something, I will need to target which policy engine can interpret.
+You know, this thing, uh, ohh no, I actually I have, I have the engine version.
+
+Sharma, Radhika  11:45
+Do you have the engine version at the bottom too? Yeah, on both sides, right?
+
+Pierre, Joseph-Pascal  11:51
+So I have to, okay, so definitely I have to, so what I explained still applies, okay? But I have to, I think this is Copilot that suggested this to me over the weekend.
+I have to cheque this, but...
+What I was thinking is your use case of I have a template.
+I gave out some things, you know, to IB firms and tomorrow I'm making changes to the template.
+Should it be the same template? Should it be an additional version template?
+And, in which case...
+here when I'm referencing a template, because the idea is about this, you know, the type and from type, should it be...
+A.
+Um...
+Sure, let's see.
+Template.
+ID and.
+Version.
+For instance.
+So here is template.
+And then in there, I specify the template ID, which would be this, for instance, type IB.
+Right, and then the version.
+
+Sharma, Radhika  13:19
+Oh.
+
+
+Pierre, Joseph-Pascal  13:19
+And to me, you understand because I don't want to, how can I say it? But this is definitely going to have an impact on you in the sense that I cannot simply...
+apply this on my own. Because if I do that, you go and you make a change to the template, I guess your assumption is that it auto applies to everybody.
+every IB firm. Where here it wouldn't because you will make a change, you add a new feature, whatever, for this IB, but the version increased.
+
+Sharma, Radhika  13:52
+Okay.
+
+Pierre, Joseph-Pascal  13:53
+Everybody currently are referencing the version one of the template. Yet you came up with a new change. It's actually version two, so nobody has it. Now, you could say, okay, it's fine. Anyway, we just bulk update, find all of the IB firms and change their reference here.
+to the version 2.
+So that's the thing that I have to wait and see, okay, should I have a version or not? I think it's more flexible to have it.
+
+Sharma, Radhika  14:28
+Because you can then have some Firms on one template version versus the other.
+
+Pierre, Joseph-Pascal  14:34
+Exactly.
+Yes.
+
+Sharma, Radhika  14:38
+I mean, I think what you have here is gives us a tremendous amount of flexibility. But then I worry, operationally, when you have too much flexibility, then you go rogue and you lose track of what you've done.
+
+Pierre, Joseph-Pascal  14:44
+Yeah.
+That's it.
+Yeah.
+That's why whatever I think of, I need to pass it by you so that you tell me, you know, if operationally it's fine. Or maybe it wouldn't necessarily be fine, but then Ali and Alex make it, you know,
+
+Sharma, Radhika  14:53
+Hi.
+
+Pierre, Joseph-Pascal  15:11
+find, let's say, usable UI-wise, you know, because all of that plumbing is handled behind the scene and it is efficient enough because we had that experience of, as I told you with the package assignments, having to go and find through the database that's long. Maybe here it's going to be more performant, but I just have to make sure.
+
+Sharma, Radhika  15:14
+Okay.
+Yeah.
+
+Pierre, Joseph-Pascal  15:35
+Candi, you had you end up.
+
+Sharma, Radhika  15:38
+Yeah.
+
+So, Candi  15:42
+No, I thought I thought we'd talk about that. So, the reason is, in sometimes we might want to add a pilot feature in a template, but then hire from everyone, so...
+
+Pierre, Joseph-Pascal  15:56
+Mhm.
+
+So, Candi  16:02
+I think that's why we want to bundle it. And also another thing to...
+It's for pricing. So if a firm comes to us, we have some standard package, whether the services they can get or application they can subscribe to. And we do it by bundle. So, but if we don't have the bundle,
+is kind of you have to pick and choose, and then the pricing would be much more difficult to do. I think that's why we have standard firm packages.
+And another thing is, like JP, you said, is for efficiency. If you go in, you know, is an IB firm. So basically they subscribe to the same thing, but maybe a few things they can customise, they can adjust.
+So the keystrokes would be fewer. So you don't have to remember to pick all 26, 25 application, those are the standard and then add on top some variety. So I think that's
+
+Pierre, Joseph-Pascal  17:20
+Mhm.
+
+So, Candi  17:21
+the point of why we want to bundle by the firm.
+And plates.
+
+Pierre, Joseph-Pascal  17:28
+Mhm.
+
+So, Candi  17:29
+Um, yeah, essentially it's...
+Better management, I would say, yeah.
+
+Pierre, Joseph-Pascal  17:39
+Makes sense.
+But then would you have the same for user packages or user policies? You have like here it would be a sub-policy template, but that's on the firm side. Would you have the similar for user?
+Or, not necessary.
+
+So, Candi  18:01
+Yeah, I think that's the point. We also want to set up. So if you see the templates, yeah, literally those are templates. Because most of the time people will say, copy my profile from whom? And then you know that person is an advisor profile.
+So, you know, more or less it would be like that, but then in the in the new feedbacked model, we're not bound by the user packages, so if you have a basically a managed, it's a...
+operation person. So want to have a Servicing profile, but then on top, maybe this person, I also want to provide the security role. So those are some additional feature we can also add to that. So the template could be the baseline. And again, is
+for the for operation ease and then add on top we we can add the features. So I think that's the idea behind. We still want to have provide some templates, but templates are not as rigid as.
+user packages so you can add additional things outside of that. Yeah.
+
+Pierre, Joseph-Pascal  19:26
+Ssn.
+So, you saying for users?
+
+So, Candi  19:27
+Ye.
+
+Pierre, Joseph-Pascal  19:30
+The idea would be against a role, or for firm, it's against a firm type.
+
+So, Candi  19:37
+Is like pack, is like templates. I think at some point we're saying we can build the templates based on need. So maybe it will evolve when we see that whoever requests advisor role.
+more or less, more often, they will also request data export. So let's say data export is not for everyone. So then we can adjust the template. So these are just templates. It's not because we move away from the user group concepts. So you can.
+
+Pierre, Joseph-Pascal  20:06
+Mhm.
+Mhm.
+
+So, Candi  20:15
+You can add the feature, you can just customise your template based on your operation. You see the pattern people are requesting A&B together, so you can create a template that way. So I think that provides more flexibility.
+And if we don't have the group concept, it would be very tedious. You have to pick and choose every single feature. Just like...
+Yeah, just I think similar to the form, to the request form we have previously, you look at the feature, you think about, do I have this feature? And if I do, then is it managed scope? Is it a view scope? So you have to go through that.
+
+
+
+So, Candi  21:06
+process like 30 times per user.
+So, but if you have a template, you know, just like what you did earlier, Radhika, you have a concept, this is an advisor, so more or less, these are the 26 features they would need. And then add on top, maybe they have additional.
+
+Pierre, Joseph-Pascal  21:26
+IN.
+
+So, Candi  21:31
+Role in the firm, there's a curious do it, they they they do user attestation or whatever, then you add on top the features.
+For them.
+
+Pierre, Joseph-Pascal  21:44
+Mm.
+
+Sharma, Radhika  21:45
+Yeah, yeah, I think the way you broke it down, Candi, makes a lot more sense. In my head, there wasn't like the policy, the user policy.
+is what I was thinking about as being the templates, but that's not true. What you guys have now, what you put down JP and how Candi explained it makes more sense. So we have we have templates based on user roles.
+
+Pierre, Joseph-Pascal  22:02
+Mhm.
+
+Sharma, Radhika  22:08
+that allow and deny specific features.
+
+Pierre, Joseph-Pascal  22:09
+Mm.
+Mhm.
+
+Sharma, Radhika  22:13
+And from that, each user...
+has their own policy that's constructed. Is that what the right side reflects?
+
+Pierre, Joseph-Pascal  22:21
+Yeah.
+
+Sharma, Radhika  22:23
+And then we can customise that policy as needed. I just don't know if we have the same level of flexibility as we do with the firm level.
+In the user level.
+
+Pierre, Joseph-Pascal  22:34
+Where here? No, no, it's the same thing, 'cause...
+
+Sharma, Radhika  22:37
+No, I mean, operationally speaking, if I would want that level of flexibility. I mean, it's the tech tech will be there to allow us to do it. But the purpose of having a template for a user role is to create a certain box that you're allowed to play around with your accessor.
+
+Pierre, Joseph-Pascal  22:42
+Okay.
+Mmh.
+
+Sharma, Radhika  22:58
+And there will, there, there's going to, you can only allow and deny within that box.
+You can't have more.
+
+Pierre, Joseph-Pascal  23:07
+Mhm.
+
+Sharma, Radhika  23:08
+than what's defined in the box.
+
+So, Candi  23:13
+Yeah, the template template concept is more flexible now because it's a template is not package because when we in in the current world when you have to modify package, there's a whole lot of.
+more engineering you have to do. The Jason file, the Okta group, but template is purely the Compass concept. You can create, yeah, I'm speaking in advance, but you can have something, just you provide.
+Either the, it's all within Compass. You bundle something together as a template. So then on the UI, you can choose it, you can customise it, you can build a policy that way. It doesn't have anything behind the scene to do with the Oct group.
+Because when you register a feature, you know what is the capability. And then in Okta, as we said, the new world is you will have a one user group per capability group. So then is already factor in when you create that capability or that.
+user group in Okta. So just how you slice it among the users. So I think it could be very agile, depends how you want to support the creation of template. It could be through the ui, it could be something you just upload a file or something. So.
+And because those are going to be translated into policy, yeah.
+I think that's the high-level concept for sure. It doesn't mean it has to be built that way.
+
+Pierre, Joseph-Pascal  25:05
+Ssn.
+
+So, Candi  25:06
+And JP, I want to clarify, like currently we have the firm feature and then the user features. It have to be put together, you know, at the time of assignment or reinforcement. You have to look at the intersection.
+Like that, it has to be both assigned to the firm and assigned to the user, so I have to do that logic, but now does that mean if on the firm level I restricted something, so I I I clone it.
+
+Pierre, Joseph-Pascal  25:32
+Mm-hmm.
+
+So, Candi  25:46
+template, but then something I would declare as declined or denied. And then when I build the user, so when I see those denied feature, or it will be screened out already when I manage the user.
+Cause I think what a yeah.
+
+
+Pierre, Joseph-Pascal  26:07
+It could be.
+It could be, I know today that's what we do, right? It's not after the fact. It's at the time of assignment, we limit, right, today.
+
+So, Candi  26:15
+Mm.
+
+Sharma, Radhika  26:16
+Look.
+
+So, Candi  26:22
+Oh, okay.
+
+Pierre, Joseph-Pascal  26:26
+I think that's what happens today.
+
+So, Candi  26:26
+But on the UI, yeah, but on the UI, it doesn't reflect that. So that's one of the pain points, because you don't know exactly, yeah, what the user has access to until you compare to different assignments. Yeah.
+
+Sharma, Radhika  26:27
+Do, yeah, the ui.
+
+Pierre, Joseph-Pascal  26:28
+Ssn.
+Okay.
+
+Sharma, Radhika  26:43
+But I think that's something we have to give to Ali and Alex.
+
+Pierre, Joseph-Pascal  26:43
+So meet there.
+
+Sharma, Radhika  26:48
+in terms of what they render.
+Or is that?
+This, from what you've shared here, right? The...
+
+Pierre, Joseph-Pascal  26:54
+Mm mm.
+
+Sharma, Radhika  26:58
+The, there's a firm template and then there is a firm policy. The firm policy reads from the firm template.
+When we get to the user, the user has, there's templates that the user can be assigned to, which is one of my questions. How are we reflecting more than one user template on the user policy?
+Within the user policy, it states.
+So, within the template, does it state which?
+firm policy is being assigned to it? Or is it by virtue of the organisation that is tagged within the policy itself that will philtre out anything that is denied at the firm level?
+So, on the bottom right box, right, that's your user policy.
+
+Pierre, Joseph-Pascal  27:54
+Uhh...
+Mhm.
+
+Sharma, Radhika  28:00
+You have Org A, Org D, right?
+Those orgs have a firm template, policy and template.
+
+Pierre, Joseph-Pascal  28:05
+Yeah.
+I see, yeah.
+
+Sharma, Radhika  28:11
+and there's only a certain number of packages or features that are allowed.
+
+Pierre, Joseph-Pascal  28:15
+Yes.
+
+Sharma, Radhika  28:16
+So only those should be selectable and allowed and denied.
+at the user level.
+
+Pierre, Joseph-Pascal  28:25
+So, so here, I'll make a distinction on what will be displayed and allow, you know, like the functionality to the QI or UX, whatever, and what is being saved.
+So what is being, I'll start with what is being saved and how the architecture works. This to me is a file.
+You, you save the policy and you, where you assign things and allow things and deny things to a user.
+Yes, it references a firm.
+But nevertheless, you had saved a policy, you know, for that given user. So architecture wise and security wise, I should not assume.
+that what is in there is 100% correct in the sense that it's not because it's from A that what I have listed here is.
+Whatever firm A is entitled to.
+And, but, but this is specific to the user. I, my assumption is...
+And this is why I told you earlier that the engine expects to have a firm policy along with the user policy.
+Ikuse, because he's not gonna assume that the user policy is properly bounded against, you know, or under the firm.
+You say, okay, I have this. These are the statements. Let me go and cheque the firm policy. Does it have at least the same or more than what is in there? And if it doesn't, then I'm denying whatever it's written in the policy is not in the user policy is not enough. So that's once again back end wise.
+In the policy engine, that would be the rules, you know, one of the rules that would be applied. You always need a firm policy to assess a user right. Okay, now, front-end wise.
+Yes, you could still, you know, when you edit a user access on the screen.
+You would pick and select a firm because you're about to make changes. Let's say, you say, okay, this user, then for this firm, okay, let me assign things. Things should automatically be disabled against, you know, what the firm has registered to.
+But it's just that me in the back end, I will not assume that the front end has done its job properly.
+So, so that's a discussion to handle with me included still, right, but with Ali.
+to make sure that they do it properly.
+But I'll never assume that they will have done it properly.
+Because bugs exist, you know, things change, oops, yeah, deleted a line, whatever, you know, so...
+
+Sharma, Radhika  31:22
+Mhm.
+Yeah.
+Okta.
+Now, in this case, we're assuming that the user policy has one template.
+
+Pierre, Joseph-Pascal  31:35
+Yeah, but yeah, exactly the same way as as as a firm or firm type, so it may you.
+So when we say assuming, it doesn't need a template, but if it wants it can, it can reference a template.
+
+Sharma, Radhika  31:55
+Because the way that I was initially, so what I was interpreting as the policy, like in my spreadsheet, right? I had the different user roles.
+
+Pierre, Joseph-Pascal  31:55
+So here, yeah.
+Mhm.
+Mm.
+Mhm.
+
+Sharma, Radhika  32:06
+Um...
+I was assuming that's the policy. But now the more I think about it, that's actually the template.
+
+
+Pierre, Joseph-Pascal  32:45
+Unless, unless you want me here to set it as an array.
+
+Sharma, Radhika  32:53
+Because I'm trying to think about how we would define the templates for a self-advisor.
+Because we.
+
+Pierre, Joseph-Pascal  33:02
+It could be this, you know, as I said, once again, it's flexible, but it's for me to cook it like at least the first version of it. As I said, you know, we can always improve it. It's just that we're going to have to build another engine version, right, for supporting any change that we would make into that structure.
+
+Sharma, Radhika  33:19
+Mm.
+
+Pierre, Joseph-Pascal  33:23
+But to your point, if you're thinking, you know, I don't want to create a special template once again for some advisors where it's just a combination of things, you could, I could make this additional, you know, that new field as an array. So you have.
+
+Sharma, Radhika  33:42
+But then what I, sorry, what I would want is, say in this example, Org A is their primary firm and Org B is where they're sub-advising. I want that templates.
+
+Pierre, Joseph-Pascal  33:43
+Yeah.
+Each would refer a template different.
+
+Sharma, Radhika  33:57
+Yeah.
+
+Pierre, Joseph-Pascal  33:58
+So that means you would want this thing.
+All that.
+
+Sharma, Radhika  34:04
+I mean, you can tell me what would make more sense from your perspective, but essentially for a sub-advisor, I'm going to deny specific features, or I'm only going to allow specific features. Whereas for your primary firm, you're going to be able to do a lot more.
+
+Pierre, Joseph-Pascal  34:16
+Mm.
+
+Sharma, Radhika  34:24
+So I need somewhere to be able to state that you're playing two roles. You're playing the role of a portfolio manager, and you're also playing the role of a subadvisor.
+And what you can do in both of those is different.
+
+Pierre, Joseph-Pascal  34:42
+Iis.
+I, I can, it's to me, it doesn't matter if the template is at each and every statement.
+Um...
+Maybe, maybe not for a deny statement.
+And.
+
+Sharma, Radhika  35:01
+Did you?
+
+Pierre, Joseph-Pascal  35:02
+But it could be at each and every statement. I should must it be still an array?
+So for a given.
+
+Sharma, Radhika  35:08
+No, not if you do it like this. No, I don't believe so.
+There's only one other scenario that I can think of, but we need to do a little bit more discovery, unless Candi, you're aware. We have, there could be a user role as firm security steward.
+That firm security storage should only be able to manage users for the most part.
+
+Pierre, Joseph-Pascal  35:31
+Huu.
+
+Sharma, Radhika  35:34
+But I think there's very, very few edge cases, if any, where a firm security steward might also need to, I don't know, let's hypothetically say submit a Servicing request.
+Um...
+To me, those are those are two different roles for the same Org.
+
+Pierre, Joseph-Pascal  35:56
+Mhm.
+
+Sharma, Radhika  36:01
+I don't, I don't even know if that case exists, but...
+
+Pierre, Joseph-Pascal  36:01
+Kiril.
+We can start simple once again. The other thing is, I'm...
+
+Sharma, Radhika  36:07
+Yeah, yeah.
+
+Pierre, Joseph-Pascal  36:12
+My objective is that this is readable.
+So I don't want to make it too complex, but flexible enough, you know, for you to satisfy your need, right? I think it works. You know, it doesn't matter if it's up there before the statement or within each statement, it's fine. Yes, it makes sense under allow, but the deny doesn't make sense.
+
+Sharma, Radhika  36:19
+Yeah.
+MM.
+
+
+
+And, oops, sorry, that's not safe.
+I was more of this. I'm going to zoom in a little bit.
+Today, what we're discussing is we would have a file, okay, just a file. It's saved in here in this policy store under the templates folder, and then I have a name template policy that JSON gets. So that's the file name. But here, template is would be a firm type like IB.
+Or, or let's say a role, right? Uh, subadvisor, whatever.
+And then I have in here the statement version and engine version, OK, as a basis, no ID, because in the...
+In the file name.
+I kind of say what it's about, you know, so if I'm doing an IB firm policy.
+I'm going to go and look for the IB policy name file. OK? But it's maybe weaker than this, where the file may still be named the same way, but instead of me relying on a file name, I rather rely on the content.
+And in the content, I have an ID just above, just like above here, right? That actually says, okay, this is for whom? You know, it's for this role or for this firm type, whatever.
+It's actually stronger.
+But it doesn't, but initially what you said, you thought that the policy was a template. I think it was.
+This.
+Okay, because it's just that I would have saved that policy in a template folder where I have a bunch of them and I would name them property. You know, so those would be the ones that would, but I would still have to copy them because in the end...
+
+Sharma, Radhika  39:12
+Mm-hmm.
+
+Pierre, Joseph-Pascal  39:20
+You know, on the same store, it would be saved against, I don't know, users.
+And then I would have a user ID here, you know, or a principal, right? Be it a user, be it a group, be it a firm, whatever. But I would have it, the file would be named after it. But it would come to the same point that in the file, in the policy itself,
+
+Sharma, Radhika  39:32
+Thank you.
+
+Pierre, Joseph-Pascal  39:48
+I would still name the principal, so because the file has been named against the principal that I would, that would, you know, let me not not specify it in the in the content. So, if I take this as an example, then it justifies having...
+Do you know the ID just like we did above? Will we specify what this template for?
+And then, yes, I think, let me complete my analysis today, but I think that maybe the good idea to have it here reference. But what I need to...
+And...
+Wait, wait, N, right? Is this the version?
+and the impact on the operations. You know, if ever you make changes to the template, how heavy is it going to be to apply it across the board?
+
+Sharma, Radhika  40:42
+Mhm.
+
+Pierre, Joseph-Pascal  40:50
+But my feeling is...
+It's better that things don't get applied behind the scene, just because you came and edited this, that everybody else that references it have it applied.
+
+Sharma, Radhika  41:10
+But then, but then...
+Doesn't it create the operational load on the other side? Where?
+
+Pierre, Joseph-Pascal  41:17
+No, no, no, I'm not saying that you shouldn't have some functionality on the screen to do so, but I think if you go, let's say you skip everything.
+
+Sharma, Radhika  41:22
+Okay.
+
+Pierre, Joseph-Pascal  41:28
+Use the screen, whatever, and you go into that policy store, you open it, you open the file, edit, make changes, save it, you skipped, you know, everything.
+
+Sharma, Radhika  41:38
+Mm-hmm.
+
+Pierre, Joseph-Pascal  41:40
+Me referencing that file.
+Can I get the change you made?
+
+Sharma, Radhika  41:45
+Yes.
+
+Pierre, Joseph-Pascal  41:46
+which to me is kind of risky. But anyway, nothing prevents you. It's not because I have a version that it saves me from that same risk, right? Because I'm referencing, you may go directly in there, make changes, forget to increase the version.
+
+
+Yes.
+So it goes along with your will or your need to, not need, but will to explicitly. You know, remember those blue arrows? You wanted them to be explicit. So this is the same. Everything is explicit.
+
+Sharma, Radhika  43:55
+Yeah.
+Mhm.
+Yeah.
+So I think in terms of like our next steps, this actually maybe makes our lives a little bit easier.
+
+Pierre, Joseph-Pascal  44:16
+Mmh.
+Mm.
+
+Sharma, Radhika  44:21
+is we can start mocking up the...
+user templates to see what they would actually start looking like from our perspective.
+
+Pierre, Joseph-Pascal  44:32
+Mhm.
+
+Sharma, Radhika  44:34
+I think we could do the same for the firm. The firm isn't that hard to do. The user one might take a little bit more time. And then once we have a mock-up of based on like what we know today, we can we can review it with you to see if it makes sense.
+
+Pierre, Joseph-Pascal  44:40
+Yeah.
+Yes.
+One thing next, I don't know if we will have another session tomorrow about. I wanted to talk about the naming convention.
+Because I know today in FUN database, the resource table, which contains all the features, right? This, it's all mixed. Some are actually resources, others are actually permissions. These are, I forgot what was the third category, but it's something that...
+with Owen, we did realise when we were doing a UAR, that's actually a mix of so many things. So I said, okay, for a Filion 2.0, and back then, like a year or even over, we said we need to formalise the way it's named. It's gonna facilitate the feature onboarding, let's say.
+when you introduce a new feature, you have to think of, okay, how is it going to be named, but against a naming convention. So I have a proposal, you know, to name it against a domain and then a capability and then you have the feature name. And then a permission would follow also the same convention, just that it would be.
+specific to a feature, then you have the permission. But this is me from over a year ago. So I would like to discuss the naming commission. It doesn't have to be this, it's just that it has to be formalised.
+so that it's cooked into, you know, my access model and the policy and Janet, right, knows how to read it.
+Et.
+Because it's going to be very important because this is what governance will have its importance because those will be saved with names, not IDs like 1, 2, 3, 4, 5. No, it's going to be names. So those names needs to be governed.
+
+Sharma, Radhika  46:29
+Yeah.
+Yeah.
+
+Pierre, Joseph-Pascal  46:48
+So therefore, they cannot be named randomly. They cannot be typos or whatever, you know, there's one formal name and this is what being used to, you know, in the policies to reference them.
+And this to me, okay, maybe you say, ah, it's going to be heavier, but it's still got, when you're going to open up a policy file, actually you're going to understand it. It's going to be random numbers. That doesn't mean anything to you. You'll see, okay, the guy has this feature and this other feature and this other feature.
+Not that you, you, you want to read the files, but if ever, right?
+
+Sharma, Radhika  47:26
+No, no, but it makes it makes troubleshooting, it makes, you know, validations and everything a lot easier, and consistency between business documentation and what the system actually is telling us, and I think it is a little overdue because even our feature registry, Obaloluwa, was one of our takeaways with Penny was to tidy it up a little bit.
+
+Pierre, Joseph-Pascal  47:29
+Ye.
+Ye.
+Yes.
+Yeah.
+
+Oyemade, Obaloluwa  47:49
+Ye.
+
+Sharma, Radhika  47:49
+And I think this is going to help because in our feature registry, we call like four different things product and it doesn't make any sense to us anymore. So yeah, I think that's important and it's actually important for us to have that conversation before we can
+
+
+Pierre, Joseph-Pascal  48:45
+Uhh.
+One to two is better.
+
+Oyemade, Obaloluwa  48:51
+Okay.
+
+Pierre, Joseph-Pascal  48:52
+Yeah.
+
+Oyemade, Obaloluwa  48:54
+Ohh, thank you so much, Radhika. Thank you.
+
+Pierre, Joseph-Pascal  48:54
+OK.
+
+So, Candi  48:56
+I'm not available. So, yeah, I wanted to. So, but you, yeah, feel free to, yeah, go ahead.
+
+Pierre, Joseph-Pascal  48:58
+Oh.
+
+Oyemade, Obaloluwa  48:58
+Ohh.
+
+Sharma, Radhika  48:59
+Ohh no.
+
+Oyemade, Obaloluwa  49:01
+Oh, Candi?
+
+Pierre, Joseph-Pascal  49:02
+It.
+About 4 to 5 then. Are you available 4 to 5?
+
+Sharma, Radhika  49:06
+Let's do four to five.
+
+So, Candi  49:07
+No, no, you can go ahead. No, today, no, one, one to two.
+
+Oyemade, Obaloluwa  49:08
+One to two, your calendar is open, Candi. We need you.
+
+Pierre, Joseph-Pascal  49:15
+Tomorrow.
+
+Oyemade, Obaloluwa  49:16
+Tomorrow.
+
+So, Candi  49:18
+Tomorrow.
+
+Oyemade, Obaloluwa  49:19
+Yes, we can do this with that, you can.
+
+So, Candi  49:20
+Okay.
+You can completely do that without me. So I thought you were talking about today. Sorry. Yep.
+
+Pierre, Joseph-Pascal  49:29
+No, no, no, tomorrow, tomorrow, even I have a, yeah, I need, I need time today, but tomorrow.
+
+Oyemade, Obaloluwa  49:31
+It's tomorrow.
+
+So, Candi  49:32
+Mhm.
+
+Oyemade, Obaloluwa  49:35
+Mhm.
+
+So, Candi  49:37
+Mhm.
+
+Oyemade, Obaloluwa  49:37
+Ssn.
+
+Sharma, Radhika  49:38
+Tomorrow, okay, Candi, one to two.
+
+Pierre, Joseph-Pascal  49:38
+One to two is fine.
+
+So, Candi  49:41
+Yep, my calendar says so.
+
+Sharma, Radhika  49:44
+Okay.
+
+Pierre, Joseph-Pascal  49:44
+Ha ha ha.
+
+So, Candi  49:45
+Yee.
+
+Oyemade, Obaloluwa  49:46
+Do you say so? All right, so Radhika, do you think you will have the user affirmed templates ready just for your show tomorrow? Okay.
+
+So, Candi  49:48
+Huu.
+Yep.
+
+Sharma, Radhika  49:59
+No, because we need to have, let's have the conversation about the naming convention and then we'll base the templates off of what those definitions are.
+
+Oyemade, Obaloluwa  50:03
+Mhm.
+of those ones. Okay, sounds good. So tomorrow is just going to be naming conventions, alignment on naming conventions.
+
+
+
+
+
+
+
+
+
+

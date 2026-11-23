@@ -1,0 +1,36 @@
+Please review the UAR access-request flow and identify opportunities to improve data consolidation, visibility, traceability, and consistency across all request states and personas.
+Please focus on the following areas:
+1. Consolidation of duplicate data in the Review step
+The Review step currently contains duplicate or repeated information.
+How can we consolidate and organize this data so that the reviewer gets one intuitive, clear view of the request without losing important details?
+2. Bug: Policy with Role is missing from a new request
+In a new access request, I do not see a Policy with Role that was provided by the FSS.
+Since the Policy with Role originates from the FSS, the SAA should be able to see it when reviewing the request.
+Please investigate where this information should appear and ensure that it remains visible throughout the appropriate stages of the request.
+3. FSS notes are visible too late in the SAA workflow
+When the FSS creates a UAR, requests additional access, and provides a note explaining the request, the SAA can currently see that note only during the Review step.
+The note should be visible earlier in the SAA workflow, especially when the SAA is:
+•	Reviewing or validating RR codes
+•	Reviewing policies
+•	Using the Magic Button or automated recommendation functionality
+The SAA should have the FSS's context available at the point where decisions are being made, rather than seeing it only during the final review.
+4. Notes are not preserved after request completion
+When the FSS adds a note to a new request and the SAA subsequently completes the request, it is unclear where that note is stored.
+Notes associated with a request should remain available after completion for historical reference, troubleshooting, and audit purposes.
+5. Notes are not consistently visible between FSS and SAA
+Across the different access-request statuses and scenarios, notes entered by either the FSS or SAA are not consistently visible to the other party.
+Please re-evaluate the note experience across the complete request lifecycle.
+The expected behavior should be:
+FSS adds note → SAA can see it → SAA adds/updates context → FSS can see it → Request progresses → Notes remain attached to the request → Notes remain available after completion
+Notes should therefore be:
+•	Associated with the request
+•	Visible to both FSS and SAA where appropriate
+•	Available at the relevant decision points, not only during final Review
+•	Preserved when the request changes status
+•	Available after the request is completed
+•	Traceable for historical and audit purposes
+
+
+Please review the end-to-end UAR access-request flow and identify opportunities to improve data consolidation, information visibility, traceability, and consistency across all request states and personas.
+The goal is to ensure that information provided during the request, including notes, policies, roles, RR codes, requested access, and decision context, follows the request throughout its lifecycle and is presented to FSS and SAA at the right time.
+

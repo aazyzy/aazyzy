@@ -1,0 +1,752 @@
+﻿CompanyId,BrokerCode,CompanyName,ClientCode,CX_USER_ID,R2_User_Id,EmailAddr,LastLoginDate,UserGroupId,GroupName,FirstName,LastName
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Abhijot.Sahni@sunlife.com,Abhijot.Sahni,Abhijot.Sahni@sunlife.com,11/23/2026 10:06,134,Portal/MemberFirm/SecuritySteward,Abhijot,Sahni
+1425,CWPC,HARBOURFRONT WEALTH MANAGEMENT INC.     ,     ,cpx_4908,Aaron.Caughlan,ACaughlan@harbourfrontwealth.com,11/23/2026 9:35,134,Portal/MemberFirm/SecuritySteward,Aaron,Caughlan
+1425,CWPC,HARBOURFRONT WEALTH MANAGEMENT INC.     ,     ,cpx_4908,Aaron.Caughlan,ACaughlan@harbourfrontwealth.com,11/23/2026 9:35,171,Portal/MemberFirm/SecuritySigningOfficer,Aaron,Caughlan
+393,KJHAR,HARBOURFRONT WEALTH MANAGEMENT INC.,KJHAR,cpx_11928,Aaron.CaughlanKJHAR,ACaughlan@harbourfrontwealth.com,11/5/2026 13:13,134,Portal/MemberFirm/SecuritySteward,Aaron,Caughlan
+393,KJHAR,HARBOURFRONT WEALTH MANAGEMENT INC.,KJHAR,cpx_11928,Aaron.CaughlanKJHAR,ACaughlan@harbourfrontwealth.com,11/5/2026 13:13,171,Portal/MemberFirm/SecuritySigningOfficer,Aaron,Caughlan
+291,ROTH,HARBOURFRONT WEALTH MANAGEMENT INC.,     ,cpx_5192,Aaron.Caughlan1,ACaughlan@harbourfrontwealth.com,11/18/2026 13:58,134,Portal/MemberFirm/SecuritySteward,Aaron,Caughlan
+291,ROTH,HARBOURFRONT WEALTH MANAGEMENT INC.,     ,cpx_5192,Aaron.Caughlan1,ACaughlan@harbourfrontwealth.com,11/18/2026 13:58,171,Portal/MemberFirm/SecuritySigningOfficer,Aaron,Caughlan
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8568,FOUA006,achilletchoffo.foudjo@bnc.ca,11/23/2026 9:50,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Achille Tchoffo,Foudjo
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3260,cuadrapr,acuadra@clarussecurities.com,11/19/2026 9:42,134,Portal/MemberFirm/SecuritySteward,April,Cuadra-Dolap
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3260,cuadrapr,acuadra@clarussecurities.com,11/19/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,April,Cuadra-Dolap
+1111,GENOV,GENOVA PRIVATE MGMT INC                 ,GENOV,cpx_3348,dewlinal,adewling@genovaprivate.com,11/19/2026 9:42,134,Portal/MemberFirm/SecuritySteward,Alan,Dewling
+1111,GENOV,GENOVA PRIVATE MGMT INC                 ,GENOV,cpx_3348,dewlinal,adewling@genovaprivate.com,11/19/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,Alan,Dewling
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Adou.SergeStephaneOria,adou.sergestephaneoria@bnc.ca,11/19/2026 14:21,134,Portal/MemberFirm/SecuritySteward,Adou,Serge-Stephane Oria
+1417,PERIM,PERIMETER MARKETS INC.                  ,     ,cpx_4743,adrian.zvaraya,Adrian.Zvaraya@pfin.ca,11/18/2026 16:01,134,Portal/MemberFirm/SecuritySteward,Adrian,Zvaraya
+1417,PERIM,PERIMETER MARKETS INC.                  ,     ,cpx_4743,adrian.zvaraya,Adrian.Zvaraya@pfin.ca,11/18/2026 16:01,171,Portal/MemberFirm/SecuritySigningOfficer,Adrian,Zvaraya
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3392,Anne.Griffith,agriffith@pwlcapital.com,11/20/2026,134,Portal/MemberFirm/SecuritySteward,Anne,Griffith
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3392,Anne.Griffith,agriffith@pwlcapital.com,11/20/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Anne,Griffith
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_13275,Alex.Hantoumakos,ahantoumakos@sightlinewealthmgt.com,11/6/2026 12:50,134,Portal/MemberFirm/SecuritySteward,Alex,Hantoumakos
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_13275,Alex.Hantoumakos,ahantoumakos@sightlinewealthmgt.com,11/6/2026 12:50,171,Portal/MemberFirm/SecuritySigningOfficer,Alex,Hantoumakos
+463,COR,NBIN                                    ,     ,cpx_2677,Airin.JanOkul,airin.jan-okul@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Airin,Jan-Okul
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadif,Ajantan.Yogaratnam,Ajantan.Yogaratnam@iagto.ca,11/20/2026 12:16,134,Portal/MemberFirm/SecuritySteward,Ajantan,Yogaratnam
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadif,Ajantan.Yogaratnam,Ajantan.Yogaratnam@iagto.ca,11/20/2026 12:16,171,Portal/MemberFirm/SecuritySigningOfficer,Ajantan,Yogaratnam
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2jrj,Alberto.Benitez,Alberto.Benitez@ia.ca,9/28/2026 13:50,134,Portal/MemberFirm/SecuritySteward,Alberto,Benitez
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2jrj,Alberto.Benitez,Alberto.Benitez@ia.ca,9/28/2026 13:50,171,Portal/MemberFirm/SecuritySigningOfficer,Alberto,Benitez
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Alejandro.Vidali,Alejandro.Vidali@ia.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Alejandro,Vidali
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_12981,Alexander.Lam,alexander.lam@wellington-altus.ca,11/4/2026 11:44,134,Portal/MemberFirm/SecuritySteward,Alexander,Lam
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadlm,Alexandra.Happy,Alexandra.Happy@iagto.ca,11/10/2026 11:14,134,Portal/MemberFirm/SecuritySteward,Alexandra,Happy
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadiz,Alexandra.SenkiwDueck1,Alexandra.Senkiw-dueck@iagto.ca,11/20/2026 11:12,134,Portal/MemberFirm/SecuritySteward,Alexandra,Senkiw-Dueck
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadiz,Alexandra.SenkiwDueck1,Alexandra.Senkiw-dueck@iagto.ca,11/20/2026 11:12,171,Portal/MemberFirm/SecuritySigningOfficer,Alexandra,Senkiw-Dueck
+463,COR,NBIN                                    ,     ,NULL,KOCA001_R1,alexandre.kochlan@nbc.ca,11/22/2026 23:40,134,Portal/MemberFirm/SecuritySteward,Alexandre,Kochlan
+290,NBCCS,NBIN (Operations)                       ,90,NULL,Alexandre.Kochlan4,alexandre.kochlan@nbc.ca,11/22/2026 23:38,134,Portal/MemberFirm/SecuritySteward,Alexandre,Kochlan4
+290,NBCCS,NBIN (Operations)                       ,90,NULL,Alexandre.Kochlan4,alexandre.kochlan@nbc.ca,11/22/2026 23:38,171,Portal/MemberFirm/SecuritySigningOfficer,Alexandre,Kochlan4
+290,NBCCS,NBIN (Operations)                       ,90,NULL,KOCA001,alexandre.kochlan@nbc.ca,11/18/2026 16:39,134,Portal/MemberFirm/SecuritySteward,Alexandre,Kochlan
+290,NBCCS,NBIN (Operations)                       ,90,NULL,KOCA001,alexandre.kochlan@nbc.ca,11/18/2026 16:39,171,Portal/MemberFirm/SecuritySigningOfficer,Alexandre,Kochlan
+290,NBCCS,NBIN (Operations)                       ,90,NULL,KOCA001,alexandre.kochlan@nbc.ca,11/18/2026 16:39,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Alexandre,Kochlan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaarn,Alexandre.Reed,Alexandre.Reed@iagto.ca,10/9/2026 11:40,134,Portal/MemberFirm/SecuritySteward,Alexandre,Reed
+463,COR,NBIN                                    ,     ,h104jvv,Ali.Azizi,ali.azizi@nbc.ca,11/23/2026 9:45,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Ali,Azizi
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8551,BAMA003,alice.bamurange@bnc.ca,11/18/2026 9:14,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Alice,Bamurange
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapev,Aline.Armenta,Aline.Armenta@iagto.ca,11/3/2026 13:51,134,Portal/MemberFirm/SecuritySteward,Aline,Armenta
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Allan.Chen@sunlife.com,Allan.Chen,allan.chen@sunlife.com,11/23/2026 9:04,134,Portal/MemberFirm/SecuritySteward,Allan,Chen
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Allan.Chen@sunlife.com,Allan.Chen,allan.chen@sunlife.com,11/23/2026 9:04,171,Portal/MemberFirm/SecuritySigningOfficer,Allan,Chen
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapeq,Amanda.Tasch1,Amanda.Tasch@iagto.ca,10/27/2026 14:36,134,Portal/MemberFirm/SecuritySteward,Amanda,Tasch1
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13504,Amanda.TelhuSharma,Amanda.Telhu-Sharma@brookfield.com,NULL,134,Portal/MemberFirm/SecuritySteward,Amanda,Telhu-Sharma
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13504,Amanda.TelhuSharma,Amanda.Telhu-Sharma@brookfield.com,NULL,171,Portal/MemberFirm/SecuritySigningOfficer,Amanda,Telhu-Sharma
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3169,Amanda.Turple,amanda.turple@omg.ca,11/20/2026 12:48,134,Portal/MemberFirm/SecuritySteward,Amanda,Turple
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3169,Amanda.Turple,amanda.turple@omg.ca,11/20/2026 12:48,171,Portal/MemberFirm/SecuritySigningOfficer,Amanda,Turple
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Amandine.AliKaddour,amandine.ali.kaddour@bnc.ca,11/19/2026 11:09,134,Portal/MemberFirm/SecuritySteward,Amandine,Ali Kaddour
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Amandine.AliKaddour,amandine.ali.kaddour@bnc.ca,11/19/2026 11:09,171,Portal/MemberFirm/SecuritySigningOfficer,Amandine,Ali Kaddour
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5065,Amber.Goddard,amber.goddard@wellington-altus.ca,11/23/2026 9:13,134,Portal/MemberFirm/SecuritySteward,Amber,Goddard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_gfacmn,Ambia.Islam,Ambia.Islam@iawealth.com,2/13/2026 11:46,134,Portal/MemberFirm/SecuritySteward,Ambia,Islam
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapgl,Amine.Rachidi,Amine.Rachidi@iagto.ca,11/20/2026 16:55,134,Portal/MemberFirm/SecuritySteward,Amine,Rachidi
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,424,mondiang,amondino@croftgroup.com,11/23/2026 9:53,134,Portal/MemberFirm/SecuritySteward,Angie,Mondino
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,424,mondiang,amondino@croftgroup.com,11/23/2026 9:53,171,Portal/MemberFirm/SecuritySigningOfficer,Angie,Mondino
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Anant.Khanna@sunlife.com,Anant.Khanna,anant.khanna@sunlife.com,11/23/2026 10:06,134,Portal/MemberFirm/SecuritySteward,Anant,Khanna
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Anant.Khanna@sunlife.com,Anant.Khanna,anant.khanna@sunlife.com,11/23/2026 10:06,171,Portal/MemberFirm/SecuritySigningOfficer,Anant,Khanna
+463,COR,NBIN                                    ,     ,cpx_8552,moua020,anas.moufakir@bnc.ca,11/20/2026 14:03,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Anas,Moufakir
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3183,Anderson.Mendonca,anderson.mendonca@wattcarmichael.com,11/23/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Anderson,Mendonca
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3183,Anderson.Mendonca,anderson.mendonca@wattcarmichael.com,11/23/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Anderson,Mendonca
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadnf,Andrea.Looker2,Andrea.Looker2@iawealth.com,11/18/2026 9:50,134,Portal/MemberFirm/SecuritySteward,Andrea,Looker
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10408,Andrea.McLaughlin,andrea.mclaughlin@colliers.com,9/21/2026 12:22,134,Portal/MemberFirm/SecuritySteward,Andrea,McLaughlin
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10408,Andrea.McLaughlin,andrea.mclaughlin@colliers.com,9/21/2026 12:22,171,Portal/MemberFirm/SecuritySigningOfficer,Andrea,McLaughlin
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadgp,Andrew.Boodoo,Andrew.Boodoo@iagto.ca,11/20/2026 16:05,171,Portal/MemberFirm/SecuritySigningOfficer,Andrew,Boodoo
+463,COR,NBIN                                    ,TEST1,465,andrew.halsall2,andrew.halsall@nbc.ca,11/20/2026 13:54,171,Portal/MemberFirm/SecuritySigningOfficer,andrew,halsall2
+463,COR,NBIN                                    ,TEST1,465,andrew.halsall2,andrew.halsall@nbc.ca,11/20/2026 13:54,174,Portal/MemberFirm/SuperSecuritySigningOfficer,andrew,halsall2
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_14433,Andy.Sutherland,andy.sutherland@wellington-altus.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Andy,Sutherland
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_angeyologaza,Ange.Yologaza,Ange.Yologaza@iagto.ca,11/17/2026 14:17,134,Portal/MemberFirm/SecuritySteward,Ange,Yologaza
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_angeyologaza,Ange.Yologaza,Ange.Yologaza@iagto.ca,11/17/2026 14:17,171,Portal/MemberFirm/SecuritySigningOfficer,Ange,Yologaza
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaaj,Angela.Weatherall,Angela.Weatherall@iagto.ca,10/8/2026 9:16,134,Portal/MemberFirm/SecuritySteward,Angela,Weatherall
+463,COR,NBIN                                    ,TEST1,911,moshonaa,angelo.moshonas@nbc.ca,11/20/2026 14:51,134,Portal/MemberFirm/SecuritySteward,Angelo,Moshonas
+463,COR,NBIN                                    ,TEST1,911,moshonaa,angelo.moshonas@nbc.ca,11/20/2026 14:51,171,Portal/MemberFirm/SecuritySigningOfficer,Angelo,Moshonas
+463,COR,NBIN                                    ,TEST1,911,moshonaa,angelo.moshonas@nbc.ca,11/20/2026 14:51,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Angelo,Moshonas
+87,BERKS,MANULIFE SECURITIES INC (FULLY DISCLOS) ,     ,NULL,bonaccoa,angelo_bonaccorso@manulife.com,12/21/2023 9:15,134,Portal/MemberFirm/SecuritySteward,Angelo,Bonaccorso
+87,BERKS,MANULIFE SECURITIES INC (FULLY DISCLOS) ,     ,NULL,bonaccoa,angelo_bonaccorso@manulife.com,12/21/2023 9:15,171,Portal/MemberFirm/SecuritySigningOfficer,Angelo,Bonaccorso
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_12984,Anirudh.Mohan,anirudh.mohan@wellington-altus.ca,10/15/2026 10:26,134,Portal/MemberFirm/SecuritySteward,Anirudh,Mohan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_anna.dipaola,Anna.DiPaola,Anna.DiPaola@iagto.ca,9/23/2024 10:19,134,Portal/MemberFirm/SecuritySteward,Anna,Di Paola
+463,COR,NBIN                                    ,CORNE,irlin_test,irlina4,anna.irlin@nbc.ca,11/23/2026 10:22,134,Portal/MemberFirm/SecuritySteward,Anna (Compass),Irlin
+463,COR,NBIN                                    ,CORNE,irlin_test,irlina4,anna.irlin@nbc.ca,11/23/2026 10:22,171,Portal/MemberFirm/SecuritySigningOfficer,Anna (Compass),Irlin
+463,COR,NBIN                                    ,CORNE,irlin_test,irlina4,anna.irlin@nbc.ca,11/23/2026 10:22,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Anna (Compass),Irlin
+463,COR,NBIN                                    ,QWSTF,NULL,irlinan,anna.irlin@nbc.ca,11/22/2026 23:06,134,Portal/MemberFirm/SecuritySteward,Anna,Irlin
+463,COR,NBIN                                    ,QWSTF,NULL,irlinan,anna.irlin@nbc.ca,11/22/2026 23:06,171,Portal/MemberFirm/SecuritySigningOfficer,Anna,Irlin
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadni,Anna.Marinelli,Anna.Marinelli@iawealth.com,6/23/2025 13:04,134,Portal/MemberFirm/SecuritySteward,Anna,Marinelli
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13503,Anthony.Bavaro,Anthony.Bavaro@brookfield.com,NULL,134,Portal/MemberFirm/SecuritySteward,Anthony,Bavaro
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13503,Anthony.Bavaro,Anthony.Bavaro@brookfield.com,NULL,171,Portal/MemberFirm/SecuritySigningOfficer,Anthony,Bavaro
+39,FA,RICHARDSON GMP LIMITED                  ,     ,NULL,anthony.rodrigues,Anthony.Rodrigues@richardsongmp.com,9/26/2024 8:45,134,Portal/MemberFirm/SecuritySteward,Anthony,Rodrigues
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Antonio.Domdom,antonio.domdom@ia.ca,7/16/2025 14:06,134,Portal/MemberFirm/SecuritySteward,Antonio,Domdom
+290,NBCCS,NBIN (Operations)                       ,LGNDC,NULL,Antonio.Stoyanov,Antonio.Stoyanov@bnc.ca,11/23/2026 9:25,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Antonio,Stoyanov
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4937,Antora.Ahmed,antora@qwealth.com,11/12/2026 10:27,171,Portal/MemberFirm/SecuritySigningOfficer,Antora,Ahmed
+1313,ONECP,"ONE CAPITAL MANAGEMENT, LLC             ",ONECP,cpx_11594,Alejandro.Phillips,aphillips@onecapital.com,NULL,171,Portal/MemberFirm/SecuritySigningOfficer,Alejandro,Phillips
+463,COR,NBIN                                    ,QWSTF,NULL,h031bjf,Aravi.Premachandran@nbc.ca,11/20/2026,134,Portal/MemberFirm/SecuritySteward,Aravi,Premachandran
+463,COR,NBIN                                    ,QWSTF,NULL,h031bjf,Aravi.Premachandran@nbc.ca,11/20/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Aravi,Premachandran
+463,COR,NBIN                                    ,QWSTF,NULL,h031bjf,Aravi.Premachandran@nbc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Aravi,Premachandran
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,argyro.hatzivasiloglou,Argyro.Hatzivasiloglou@ig.ca,10/27/2026 16:12,134,Portal/MemberFirm/SecuritySteward,Argyro,Hatzivasiloglou
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,argyro.hatzivasiloglou,Argyro.Hatzivasiloglou@ig.ca,10/27/2026 16:12,171,Portal/MemberFirm/SecuritySigningOfficer,Argyro,Hatzivasiloglou
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,ArletteClaudia.DjuiadjounToguem,arletteclaudia.djuiadjountoguem@bnc.ca,11/16/2026 12:51,134,Portal/MemberFirm/SecuritySteward,Arlette Claudia,Djuiadjoun Toguem
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,ArletteClaudia.DjuiadjounToguem,arletteclaudia.djuiadjountoguem@bnc.ca,11/16/2026 12:51,171,Portal/MemberFirm/SecuritySigningOfficer,Arlette Claudia,Djuiadjoun Toguem
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Artur.Maximenco@sunlife.com,Artur.Maximenco,artur.maximenco@sunlife.com,9/15/2026 17:36,134,Portal/MemberFirm/SecuritySteward,Artur,Maximenco
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_ashish.a.kumar@sunlife.com,Ashish.Kumar,ashish.a.kumar@sunlife.com,11/23/2026 7:37,134,Portal/MemberFirm/SecuritySteward,Ashish,Kumar
+102,STEPH,STEPHENAVENUE SECURITIES INC            ,CALGA,cpx_3579,Anita.Tyler1,atyler@stephenavenue.com,11/23/2026 8:07,134,Portal/MemberFirm/SecuritySteward,Anita,Tyler1
+102,STEPH,STEPHENAVENUE SECURITIES INC            ,CALGA,cpx_3579,Anita.Tyler1,atyler@stephenavenue.com,11/23/2026 8:07,171,Portal/MemberFirm/SecuritySigningOfficer,Anita,Tyler1
+463,COR,NBIN                                    ,     ,cpx_14017,h521mtb,austin.voss@nbc.ca,11/23/2026 10:28,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Austin,Voss
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_6363,andrea.whitehead,awhitehead@newportprivatewealth.ca,11/20/2026 14:37,134,Portal/MemberFirm/SecuritySteward,Andrea,Whitehead
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_6363,andrea.whitehead,awhitehead@newportprivatewealth.ca,11/20/2026 14:37,171,Portal/MemberFirm/SecuritySigningOfficer,Andrea,Whitehead
+463,COR,NBIN                                    ,     ,360,Babita.Khanna,babita.khanna@nbc.ca,11/23/2026 8:46,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Babita,Khanna
+1316,SCHBN,SCHWABEN CAPITAL GROUP LTD.             ,     ,NULL,albrecht.weller,backoffice@schwaben.ca,9/17/2024 11:26,171,Portal/MemberFirm/SecuritySigningOfficer,Albrecht,Weller
+1165,LRCM,LIONRIDGE CAPITAL MANAGEMENT INC        ,LRCM ,cpx_6144,Brian.Downey,bdowney@lionridgecapital.com,11/23/2026 9:39,134,Portal/MemberFirm/SecuritySteward,Brian,Downey
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Benjamin.Nyiri,benjamin.nyiri@iagto.ca,6/19/2025 10:59,134,Portal/MemberFirm/SecuritySteward,Benjamin,Nyiri
+871,AIMI,AVENUE INVESTMENT MANAGEMENT INC        ,     ,cpx_6150,harrisbi,bharris@avenueinvestment.com,9/23/2026 12:24,134,Portal/MemberFirm/SecuritySteward,Bill,Harris
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_10877,Baljeet.Kaliravna,bkaliravna@sightlinewealthmgt.com,1/6/2026 9:26,134,Portal/MemberFirm/SecuritySteward,Baljeet,Kaliravna
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2814,Brendan.Mikkelson,bmikkelson@acumencapital.com,11/19/2026 14:06,134,Portal/MemberFirm/SecuritySteward,Brendan,Mikkelson
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,cpx_2858,Brie.Mu1,bmu@croftgroup.com,11/20/2026 16:35,134,Portal/MemberFirm/SecuritySteward,Brie,Mu
+1393,INCAP,INFOR FINANCIAL INC.                    ,     ,cpx_4221,Brian.Nguyen,bnguyen@inforfg.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Brian,Nguyen
+1393,INCAP,INFOR FINANCIAL INC.                    ,     ,cpx_4221,Brian.Nguyen,bnguyen@inforfg.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Brian,Nguyen
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4648,brandon.berman,brandon.berman@etfcm.com,11/23/2026 9:53,134,Portal/MemberFirm/SecuritySteward,Brandon,Berman
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10503,Brandon.Sawchuk,Brandon.sawchuk@colliers.com,7/24/2026 9:36,134,Portal/MemberFirm/SecuritySteward,Brandon,Sawchuk
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10503,Brandon.Sawchuk,Brandon.sawchuk@colliers.com,7/24/2026 9:36,171,Portal/MemberFirm/SecuritySigningOfficer,Brandon,Sawchuk
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6e3x,Brenna.BoydDavidson,Brenna.Boyd-Davidson@ia.ca,6/2/2026 14:46,134,Portal/MemberFirm/SecuritySteward,Brenna,Boyd-Davidson
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaafh,Brian.Irwin,brian.irwin@iagto.ca,11/3/2026 10:20,134,Portal/MemberFirm/SecuritySteward,Brian,Irwin
+791,RMB,RMB GESTION DU PATRIMOINE INC           ,RMB  ,cpx_10822,Brian.BalbuenaDiaz1,brian@bloomridge.com,11/23/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Brian,Balbuena-Diaz
+1421,MECKL,MECKELBORG FINANCIAL GROUP              ,MECKL,cpx_3249,Brigitte.Fouillard1,brigitte@mfgltd.com,11/23/2026 9:51,134,Portal/MemberFirm/SecuritySteward,Brigitte,Fouillard
+1134,NBFI,NATIONAL BANK FINANCIAL INC.,     ,cpx_8555,119446,bryan.fernandezlinfa@bnc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Bryan ,Fernandez Linfa
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapgf,Bryana.DiVirgilio,Bryana.DiVirgilio@iagto.ca,11/16/2026 10:03,134,Portal/MemberFirm/SecuritySteward,Bryana,Di Virgilio
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapgf,Bryana.DiVirgilio,Bryana.DiVirgilio@iagto.ca,11/16/2026 10:03,171,Portal/MemberFirm/SecuritySigningOfficer,Bryana,Di Virgilio
+1496,PHY,PORTFOLIO HIWAY INC.                    ,     ,cpx_3175,Bill.Tabin,btabin@portfoliohiway.com,5/21/2026 8:36,134,Portal/MemberFirm/SecuritySteward,Bill,Tabin
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3261,Brent.Walker1,bwalker@omnivitawealth.com,11/23/2026 8:27,134,Portal/MemberFirm/SecuritySteward,Brent,Walker
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3261,Brent.Walker1,bwalker@omnivitawealth.com,11/23/2026 8:27,171,Portal/MemberFirm/SecuritySigningOfficer,Brent,Walker
+290,NBCCS,NBIN (Operations)                       ,     ,10,soca,candi.so@nbc.ca,11/18/2026 16:42,134,Portal/MemberFirm/SecuritySteward,Candi (soca),So
+290,NBCCS,NBIN (Operations)                       ,     ,10,soca,candi.so@nbc.ca,11/18/2026 16:42,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Candi (soca),So
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7880,Carianne.Gonzales,Carianne.Gonzales@md.ca,11/19/2026 9:27,134,Portal/MemberFirm/SecuritySteward,Carianne,Gonzales
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7880,Carianne.Gonzales,Carianne.Gonzales@md.ca,11/19/2026 9:27,171,Portal/MemberFirm/SecuritySigningOfficer,Carianne,Gonzales
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6b0n,Carl.Egalite,Carl.Egalite@ia.ca,8/10/2026 13:53,134,Portal/MemberFirm/SecuritySteward,Carl,Egalite
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6b0n,Carl.Egalite,Carl.Egalite@ia.ca,8/10/2026 13:53,171,Portal/MemberFirm/SecuritySigningOfficer,Carl,Egalite
+463,COR,NBIN                                    ,     ,cpx_8553,Carlos.GalavisNavarro,carlos.galavisnavarro@bnc.ca,11/23/2026 10:04,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Carlos,Galavis-Navarro
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaaaf,Carmen.Chow,Carmen.Chow@iawealth.com,6/4/2026 15:53,134,Portal/MemberFirm/SecuritySteward,Carmen,Chow
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaabl,Carol.Demunnik1,carol.demunnik@iagto.ca,11/22/2026 11:00,134,Portal/MemberFirm/SecuritySteward,Carol,Demunnik
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadkh,Caroline.Rousseau,Caroline.Rousseau@iagto.ca,10/23/2026 15:58,134,Portal/MemberFirm/SecuritySteward,Caroline,Rousseau
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3555,Catherine.Wyman,catherine.lambert@omg.ca,11/17/2026 14:42,171,Portal/MemberFirm/SecuritySigningOfficer,Catherine,Wyman
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,428,Chris.Bayer1,cbayer@acumencapital.com,11/19/2026 11:28,134,Portal/MemberFirm/SecuritySteward,Chris,Bayer
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,cpx_2848,bellecry,cbellefountaine@acumencapital.com,11/19/2026 9:42,134,Portal/MemberFirm/SecuritySteward,Crystal,BelleFountaine
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3577,CANDACE.BRERETON1,cbrereton@fostergroup.ca,11/20/2026 16:01,134,Portal/MemberFirm/SecuritySteward,CANDACE,BRERETON1
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,cpx_2865,chris.croft,ccroft@croftgroup.com,11/20/2026 13:18,134,Portal/MemberFirm/SecuritySteward,Chris,Croft
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,cpx_2865,chris.croft,ccroft@croftgroup.com,11/20/2026 13:18,171,Portal/MemberFirm/SecuritySigningOfficer,Chris,Croft
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3193,Christine.Dolap,cdolap@pwlcapital.com,11/23/2026 8:42,134,Portal/MemberFirm/SecuritySteward,Christine,Dolap
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3193,Christine.Dolap,cdolap@pwlcapital.com,11/23/2026 8:42,171,Portal/MemberFirm/SecuritySigningOfficer,Christine,Dolap
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Cecilia.Penna,cecilia.penna@bnc.ca,11/5/2026 9:33,134,Portal/MemberFirm/SecuritySteward,Cecilia,Penna
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Cecilia.Penna,cecilia.penna@bnc.ca,11/5/2026 9:33,171,Portal/MemberFirm/SecuritySigningOfficer,Cecilia,Penna
+53,CGOV,FIERA CAPITAL CORP.                     ,CGOV ,cpx_5095,Christopher.Farrell1,cfarrell@fieracapital.com,10/26/2026 11:51,171,Portal/MemberFirm/SecuritySigningOfficer,Christopher,Farrell
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3098,christopher.foster,cfoster@fostergroup.ca,1/19/2026 9:05,134,Portal/MemberFirm/SecuritySteward,Christopher,Foster
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_10599,Chelsea.Zhao,chelsea.zhao@aimstar.ca,11/23/2026 10:30,134,Portal/MemberFirm/SecuritySteward,Chelsea,Zhao
+463,COR,NBIN                                    ,TEST1,cpx_2484,lic003,cheng.li@bnc.ca,11/23/2026 9:36,134,Portal/MemberFirm/SecuritySteward,Cheng,Li
+463,COR,NBIN                                    ,TEST1,cpx_2484,lic003,cheng.li@bnc.ca,11/23/2026 9:36,171,Portal/MemberFirm/SecuritySigningOfficer,Cheng,Li
+463,COR,NBIN                                    ,TEST1,cpx_2484,lic003,cheng.li@bnc.ca,11/23/2026 9:36,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Cheng,Li
+463,COR,NBIN                                    ,TEST1,cpx_2486,khoc001,ChiKhoi.Nguyen@bnc.ca,11/23/2026 8:52,134,Portal/MemberFirm/SecuritySteward,Chi Khoi,Nguyen
+463,COR,NBIN                                    ,TEST1,cpx_2486,khoc001,ChiKhoi.Nguyen@bnc.ca,11/23/2026 8:52,171,Portal/MemberFirm/SecuritySigningOfficer,Chi Khoi,Nguyen
+463,COR,NBIN                                    ,TEST1,cpx_2486,khoc001,ChiKhoi.Nguyen@bnc.ca,11/23/2026 8:52,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Chi Khoi,Nguyen
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_12812,Chris.James,Chris.James@md.ca,11/18/2026 10:27,134,Portal/MemberFirm/SecuritySteward,Chris,James
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_12812,Chris.James,Chris.James@md.ca,11/18/2026 10:27,171,Portal/MemberFirm/SecuritySigningOfficer,Chris,James
+463,COR,NBIN                                    ,     ,cpx_8558,Christele.JosephBeaudreuil,christele.joseph-beaudreuil@nbc.ca,11/20/2026 13:19,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Christele,Joseph-Beaudreuil
+274,CEBN,COURTAGE DIRECT BANQUE NATIONALE INC.   ,     ,cpx_8557,VALC001,christian.valencia@nbc.ca,11/20/2026 18:30,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Christian,Valencia
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaej,ChengCh,Christina.Cheng@iawealth.com,11/23/2026 10:10,134,Portal/MemberFirm/SecuritySteward,Christina,Cheng
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaej,ChengCh,Christina.Cheng@iawealth.com,11/23/2026 10:10,171,Portal/MemberFirm/SecuritySigningOfficer,Christina,Cheng
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_checkersley,Christine.Eckersley,christine.eckersley@iagto.ca,11/20/2026 11:33,134,Portal/MemberFirm/SecuritySteward,Christine,Eckersley
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_checkersley,Christine.Eckersley,christine.eckersley@iagto.ca,11/20/2026 11:33,171,Portal/MemberFirm/SecuritySigningOfficer,Christine,Eckersley
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4399,Christopher.Hensley,Christopher.Hensley@wellsfargo.com,8/28/2026 12:10,134,Portal/MemberFirm/SecuritySteward,Christopher,Hensley
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4399,Christopher.Hensley,Christopher.Hensley@wellsfargo.com,8/28/2026 12:10,171,Portal/MemberFirm/SecuritySigningOfficer,Christopher,Hensley
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_7854,Cindy.Shannon1,cindy.shannon@investorsgroup.com,11/19/2026 10:09,134,Portal/MemberFirm/SecuritySteward,Cindy,Shannon
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_7854,Cindy.Shannon1,cindy.shannon@investorsgroup.com,11/19/2026 10:09,171,Portal/MemberFirm/SecuritySigningOfficer,Cindy,Shannon
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,CliveDency1.Nya,CliveDency.Nya@ia.ca,11/11/2026 13:52,134,Portal/MemberFirm/SecuritySteward,Clive Dency1,Nya
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,CliveDency1.Nya,CliveDency.Nya@ia.ca,11/11/2026 13:52,171,Portal/MemberFirm/SecuritySigningOfficer,Clive Dency1,Nya
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3250,Caitlin.McKewan,cmckewan@omnivitawealth.com,11/19/2026 13:16,134,Portal/MemberFirm/SecuritySteward,Caitlin,McKewan
+78,KEARN,PARADIGM CAPITAL INC                    ,     ,cpx_5742,courtney.p,cpeat@paradigmcap.com,11/23/2026 10:13,134,Portal/MemberFirm/SecuritySteward,Courtney,Peat
+78,KEARN,PARADIGM CAPITAL INC                    ,     ,cpx_5742,courtney.p,cpeat@paradigmcap.com,11/23/2026 10:13,171,Portal/MemberFirm/SecuritySigningOfficer,Courtney,Peat
+851,KEARU,PARADIGM CAPITAL US INC                 ,     ,cpx_5757,Courtney.Peat,cpeat@paradigmcap.com,11/10/2026 10:21,134,Portal/MemberFirm/SecuritySteward,Courtney,Peat
+851,KEARU,PARADIGM CAPITAL US INC                 ,     ,cpx_5757,Courtney.Peat,cpeat@paradigmcap.com,11/10/2026 10:21,171,Portal/MemberFirm/SecuritySigningOfficer,Courtney,Peat
+1451,LIQUI,LIQUIDNET CANADA INC.                   ,     ,cpx_9545,Tina.Rosado,crosado@liquidnet.com,NULL,134,Portal/MemberFirm/SecuritySteward,Tina,Rosado
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_9253,crystal.deleon,crystal.deleon@ig.ca,NULL,134,Portal/MemberFirm/SecuritySteward,crystal,deleon
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_9253,crystal.deleon,crystal.deleon@ig.ca,NULL,171,Portal/MemberFirm/SecuritySigningOfficer,crystal,deleon
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3058,cumminc,CSCumming@goodwoodfunds.com,11/19/2026 15:03,134,Portal/MemberFirm/SecuritySteward,Curt,Cumming
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3058,cumminc,CSCumming@goodwoodfunds.com,11/19/2026 15:03,171,Portal/MemberFirm/SecuritySigningOfficer,Curt,Cumming
+1420,ALTA,ATB CAPITAL MARKETS CORP                ,     ,cpx_5777,Craig.Swaby,cswaby@altacorpcapital.com,11/19/2026 10:06,134,Portal/MemberFirm/SecuritySteward,Craig,Swaby
+1420,ALTA,ATB CAPITAL MARKETS CORP                ,     ,cpx_5777,Craig.Swaby,cswaby@altacorpcapital.com,11/19/2026 10:06,171,Portal/MemberFirm/SecuritySigningOfficer,Craig,Swaby
+1105,JENUS,CORMARK SECURITIES (USA) LIMITED        ,     ,cpx_11431,Craig.Swaby1,cswaby@atb.com,6/11/2026 14:26,134,Portal/MemberFirm/SecuritySteward,Craig,Swaby
+1105,JENUS,CORMARK SECURITIES (USA) LIMITED        ,     ,cpx_11431,Craig.Swaby1,cswaby@atb.com,6/11/2026 14:26,171,Portal/MemberFirm/SecuritySigningOfficer,Craig,Swaby
+1224,TFPIC,PARAGON PRIVATE WEALTH INC              ,TFPIC,cpx_8105,carolyn.thoms,cthoms@ppwi.ca,11/20/2026 16:20,171,Portal/MemberFirm/SecuritySigningOfficer,Carolyn,Thoms
+463,COR,NBIN                                    ,TEST1,463,Dan.Hall,dan.hall@nbc.ca,11/19/2026 16:31,171,Portal/MemberFirm/SecuritySigningOfficer,Dan,Hall
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Daniel.Bensimon,Daniel.Bensimon@iawealth.com,NULL,134,Portal/MemberFirm/SecuritySteward,Daniel,Bensimon
+463,COR,NBIN                                    ,     ,cpx_6846,Danielle.Richardson,danielle.richardson@nbc.ca,10/29/2026 11:10,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Danielle,Richardson
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_12983,Danish.Siraj,danish.siraj@wellington-altus.ca,11/19/2026 14:44,134,Portal/MemberFirm/SecuritySteward,Danish,Siraj
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7706,David.Proulx,david.proulx@md.ca,11/18/2026 10:58,134,Portal/MemberFirm/SecuritySteward,David,Proulx
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7706,David.Proulx,david.proulx@md.ca,11/18/2026 10:58,171,Portal/MemberFirm/SecuritySigningOfficer,David,Proulx
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,     ,cpx_10420,David.Rebelo1,david.rebelo@optimize.ca,11/23/2026 9:59,134,Portal/MemberFirm/SecuritySteward,David,Rebelo
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,     ,cpx_10420,David.Rebelo1,david.rebelo@optimize.ca,11/23/2026 9:59,171,Portal/MemberFirm/SecuritySigningOfficer,David,Rebelo
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadkc,David.Cornejo,DavidAntonio.Cornejo@iagto.ca,11/23/2026 9:13,134,Portal/MemberFirm/SecuritySteward,David,Cornejo
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadkc,David.Cornejo,DavidAntonio.Cornejo@iagto.ca,11/23/2026 9:13,171,Portal/MemberFirm/SecuritySigningOfficer,David,Cornejo
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,423,bodedia,dbode@croftgroup.com,11/23/2026 9:15,134,Portal/MemberFirm/SecuritySteward,Diane,Bode
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,423,bodedia,dbode@croftgroup.com,11/23/2026 9:15,171,Portal/MemberFirm/SecuritySigningOfficer,Diane,Bode
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_11218,Darrielle.Browne,dbrowne@fostergroup.ca,11/23/2026 9:29,134,Portal/MemberFirm/SecuritySteward,Darrielle,Browne
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10411,Deb.Hale,deb.hable@colliers.com,9/21/2026 12:08,134,Portal/MemberFirm/SecuritySteward,Deb,Hale
+1503,COLLI,COLLIERS SECURITIES (CANADA) INC.       ,     ,cpx_10411,Deb.Hale,deb.hable@colliers.com,9/21/2026 12:08,171,Portal/MemberFirm/SecuritySigningOfficer,Deb,Hale
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_debbie.mendelson,Debbie.Mendelson1,Debbie.Mendelson@iaprivatewealth.ca,11/20/2026 9:19,134,Portal/MemberFirm/SecuritySteward,Debbie,Mendelson
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_9564,Dekunle.Enigbokan1,denigbokan@newportprivatewealth.ca,11/19/2026 8:42,134,Portal/MemberFirm/SecuritySteward,Dekunle,Enigbokan
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_9564,Dekunle.Enigbokan1,denigbokan@newportprivatewealth.ca,11/19/2026 8:42,171,Portal/MemberFirm/SecuritySigningOfficer,Dekunle,Enigbokan
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_7262,Desire.Mafubo,desire.mafubo@wellington-altus.ca,11/12/2026 15:29,134,Portal/MemberFirm/SecuritySteward,Desire,Mafubo
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_7262,Desire.Mafubo,desire.mafubo@wellington-altus.ca,11/12/2026 15:29,171,Portal/MemberFirm/SecuritySigningOfficer,Desire,Mafubo
+1269,EJMAP,EDWARD JONES                            ,     ,NULL,Dina.Bartle,dina.bartle@edwardjones.com,9/12/2024 14:08,134,Portal/MemberFirm/SecuritySteward,Dina,Bartle
+1269,EJMAP,EDWARD JONES                            ,     ,NULL,Dina.Bartle,dina.bartle@edwardjones.com,9/12/2024 14:08,171,Portal/MemberFirm/SecuritySigningOfficer,Dina,Bartle
+1403,POLLT,POLLITT & CO. INC.                      ,     ,cpx_4744,doug.jennett,djennett@pollitt.com,11/19/2026 9:18,134,Portal/MemberFirm/SecuritySteward,Doug,Jennett
+1403,POLLT,POLLITT & CO. INC.                      ,     ,cpx_4744,doug.jennett,djennett@pollitt.com,11/19/2026 9:18,171,Portal/MemberFirm/SecuritySigningOfficer,Doug,Jennett
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Doris.Li@sunlife.com,Doris.Li,doris.li@sunlife.com,11/19/2026 14:32,134,Portal/MemberFirm/SecuritySteward,Doris,Li
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Doris.Li@sunlife.com,Doris.Li,doris.li@sunlife.com,11/19/2026 14:32,171,Portal/MemberFirm/SecuritySigningOfficer,Doris,Li
+1313,ONECP,"ONE CAPITAL MANAGEMENT, LLC             ",ONECP,cpx_4729,Danielle.Spencer,dspencer@onecapital.com,11/13/2026 9:55,171,Portal/MemberFirm/SecuritySigningOfficer,Danielle,Spencer
+1313,ONECP,"ONE CAPITAL MANAGEMENT, LLC             ",ONECP,cpx_4418,dan.stridsberg,dstridsberg@onecapital.com,11/23/2026 9:50,171,Portal/MemberFirm/SecuritySigningOfficer,Dan,Stridsberg
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3701,Divina.Ty,dty@fostergroup.ca,11/20/2026 9:27,134,Portal/MemberFirm/SecuritySteward,Divina,Ty
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadja,Dustin.Alexander,Dustin.Alexander@iagto.ca,10/16/2026 9:57,134,Portal/MemberFirm/SecuritySteward,Dustin,Alexander
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,     ,cpx_3547,Don.Vukson1,dvukson@friedberg.ca,3/9/2026 11:34,134,Portal/MemberFirm/SecuritySteward,Don,Vukson
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,     ,cpx_3547,Don.Vukson1,dvukson@friedberg.ca,3/9/2026 11:34,171,Portal/MemberFirm/SecuritySigningOfficer,Don,Vukson
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8565,DEAE001,eduardojorgegomes.dearaujo@nbc.ca,11/23/2026 8:33,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Eduardo Jorge Gomes,De Araujo
+463,COR,NBIN                                    ,     ,cpx_5161,Edward.Clinton,edward.clinton@nbc.ca,11/23/2026,134,Portal/MemberFirm/SecuritySteward,Edward,Clinton
+463,COR,NBIN                                    ,     ,cpx_5161,Edward.Clinton,edward.clinton@nbc.ca,11/23/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Edward,Clinton
+1434,ATBS,ATB SECURITIES INC.                     ,     ,cpx_12085,Eddie.Hadi,ehadi@atb.com,11/19/2026 10:39,134,Portal/MemberFirm/SecuritySteward,Eddie,Hadi
+1434,ATBS,ATB SECURITIES INC.                     ,     ,cpx_12085,Eddie.Hadi,ehadi@atb.com,11/19/2026 10:39,171,Portal/MemberFirm/SecuritySigningOfficer,Eddie,Hadi
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Eloi.Ndayizeye,eloib.ndayizeye@bnc.ca,11/23/2026 10:25,134,Portal/MemberFirm/SecuritySteward,Eloi,Ndayizeye
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Elvin.Pynadath@sunlife.com,Elvin.Pynadath,elvin.pynadath@sunlife.com,11/23/2026 10:16,134,Portal/MemberFirm/SecuritySteward,Elvin,Pynadath
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Elvin.Pynadath@sunlife.com,Elvin.Pynadath,elvin.pynadath@sunlife.com,11/23/2026 10:16,171,Portal/MemberFirm/SecuritySigningOfficer,Elvin,Pynadath
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Emily.Lindstrom1,Emily.Lindstrom@iagto.ca,7/7/2025 15:29,134,Portal/MemberFirm/SecuritySteward,Emily,Lindstrom
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Emmanuel.Posner,Emmanuel.Posner@iagto.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Emmanuel,Posner
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_6549,Enesi.Jatto,enesi.jatto@wellington-altus.ca,11/18/2026 15:52,134,Portal/MemberFirm/SecuritySteward,Enesi,Jatto
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_6549,Enesi.Jatto,enesi.jatto@wellington-altus.ca,11/18/2026 15:52,171,Portal/MemberFirm/SecuritySigningOfficer,Enesi,Jatto
+463,COR,NBIN                                    ,     ,cpx_2480,feze001,eric.fezeu@bnc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Eric ,Fezeu
+1459,MCLEA,CWB WEALTH PARTNERS LTD.                ,     ,cpx_5761,Eric.pro,eric.prouteau@cwbwp.com,10/10/2025 10:29,134,Portal/MemberFirm/SecuritySteward,Eric,Prouteau
+1459,MCLEA,CWB WEALTH PARTNERS LTD.                ,     ,cpx_5761,Eric.pro,eric.prouteau@cwbwp.com,10/10/2025 10:29,171,Portal/MemberFirm/SecuritySigningOfficer,Eric,Prouteau
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Ericka.Lajoie,Ericka.Lajoie@iagto.ca,10/30/2026 16:59,134,Portal/MemberFirm/SecuritySteward,Ericka,Lajoie
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Ericka.Lajoie,Ericka.Lajoie@iagto.ca,10/30/2026 16:59,171,Portal/MemberFirm/SecuritySigningOfficer,Ericka,Lajoie
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadfk,Ericka.Lajoie2,Ericka.Lajoie@iagto.ca,11/18/2026 16:06,134,Portal/MemberFirm/SecuritySteward,Ericka,Lajoie2
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadfk,Ericka.Lajoie2,Ericka.Lajoie@iagto.ca,11/18/2026 16:06,171,Portal/MemberFirm/SecuritySigningOfficer,Ericka,Lajoie2
+1451,LIQUI,LIQUIDNET CANADA INC.                   ,     ,cpx_14049,Evan.Gattoni,Evan.Gattoni@liquidnet.com,11/17/2026 16:40,134,Portal/MemberFirm/SecuritySteward,Evan,Gattoni
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmaalv,everton.daye,Everton.Daye@iagto.ca,8/26/2026 13:46,134,Portal/MemberFirm/SecuritySteward,Everton,Daye
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmaalv,everton.daye,Everton.Daye@iagto.ca,8/26/2026 13:46,171,Portal/MemberFirm/SecuritySigningOfficer,Everton,Daye
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_dayanf,DayanFr,F.Dayan@iaprivatewealth.ca,11/5/2026 8:32,134,Portal/MemberFirm/SecuritySteward,Frederic,Dayan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_dayanf,DayanFr,F.Dayan@iaprivatewealth.ca,11/5/2026 8:32,171,Portal/MemberFirm/SecuritySigningOfficer,Frederic,Dayan
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4135,fabien.ouellette,fabien.ouellette@etfcm.com,11/2/2026 16:55,134,Portal/MemberFirm/SecuritySteward,fabien,ouellette
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4135,fabien.ouellette,fabien.ouellette@etfcm.com,11/2/2026 16:55,171,Portal/MemberFirm/SecuritySigningOfficer,fabien,ouellette
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_12607,Fatima.JohnNyitse,fatima.john-nyitse@omg.ca,11/23/2026 8:25,134,Portal/MemberFirm/SecuritySteward,Fatima,John-Nyitse
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3188,Francesca.Fraga,ffraga@PWLCapital.com,11/23/2026 10:08,134,Portal/MemberFirm/SecuritySteward,Francesca,Fraga
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3188,Francesca.Fraga,ffraga@PWLCapital.com,11/23/2026 10:08,171,Portal/MemberFirm/SecuritySigningOfficer,Francesca,Fraga
+463,COR,NBIN                                    ,     ,cpx_14015,h444ucn,firi.adeniyi@nbc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Firi,Adeniyi
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_12071,France.Kingsbury,fkingsbury@pwlcapital.com,11/9/2026 10:19,134,Portal/MemberFirm/SecuritySteward,France,Kingsbury
+1058,IHRIC,LISSOM INVESTMENT MANAGEMENT INC.       ,IHRIC,cpx_4220,Frances.Lee,flee@lissom.ca,7/8/2024 10:28,171,Portal/MemberFirm/SecuritySigningOfficer,Frances,Lee
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4400,Fong.Phommavongsay,fong.phommavongsay3@wellsfargo.com,1/30/2025 9:33,134,Portal/MemberFirm/SecuritySteward,Fong,Phommavongsay
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4400,Fong.Phommavongsay,fong.phommavongsay3@wellsfargo.com,1/30/2025 9:33,171,Portal/MemberFirm/SecuritySigningOfficer,Fong,Phommavongsay
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,France.Villeneuve,france.villeneuve@iagto.ca,11/19/2026 9:49,171,Portal/MemberFirm/SecuritySigningOfficer,France,Villeneuve
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8566,rivf003,francoise.rivard@bnc.ca,11/19/2026 15:11,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Françoise,Rivard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Genevieve.Begin1,genevieve.begin@iagto.ca,8/18/2026 15:02,134,Portal/MemberFirm/SecuritySteward,Genevieve,Begin
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_gbegin,Genevieve.Begin,Genevieve.Begin@iagto.ca,9/2/2026 10:45,134,Portal/MemberFirm/SecuritySteward,Genevieve,Begin
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_gbegin,Genevieve.Begin,Genevieve.Begin@iagto.ca,9/2/2026 10:45,171,Portal/MemberFirm/SecuritySigningOfficer,Genevieve,Begin
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_8335,Genevive.Cantin,genevieve.cantin@investorsgroup.com,11/23/2026 10:18,134,Portal/MemberFirm/SecuritySteward,Genevive,Cantin
+1482,IGMF,IGM FINANCIAL INC                       ,     ,cpx_8335,Genevive.Cantin,genevieve.cantin@investorsgroup.com,11/23/2026 10:18,171,Portal/MemberFirm/SecuritySigningOfficer,Genevive,Cantin
+463,COR,NBIN                                    ,     ,cpx_8570,Gentil.Ntuyenabo,gentil.ntuyenabo@bnc.ca,11/20/2026 10:32,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Gentil,Ntuyenabo
+1146,BHCI,PGM GLOBAL INC.                         ,     ,cpx_4005,giancarlo.farinacci,GFarinacci@paviliongm.com,10/9/2026 10:00,134,Portal/MemberFirm/SecuritySteward,Giancarlo,Farinacci
+1146,BHCI,PGM GLOBAL INC.                         ,     ,cpx_4005,giancarlo.farinacci,GFarinacci@paviliongm.com,10/9/2026 10:00,171,Portal/MemberFirm/SecuritySigningOfficer,Giancarlo,Farinacci
+463,COR,NBIN                                    ,     ,466,Seyedehghazal.Sadattehrani,ghazal.tehrani@nbc.ca,11/18/2026 13:36,171,Portal/MemberFirm/SecuritySigningOfficer,Ghazal,Tehrani
+463,COR,NBIN                                    ,     ,466,Seyedehghazal.Sadattehrani,ghazal.tehrani@nbc.ca,11/18/2026 13:36,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Ghazal,Tehrani
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadoq,Giuliana.Mascitti,Giuliana.Mascitti2@iawealth.com,NULL,134,Portal/MemberFirm/SecuritySteward,Giuliana,Mascitti
+1340,SECUT,SECUTOR CAPITAL MANAGEMENT CORP.        ,     ,cpx_3086,graham.kendall,gkendall@secutor.ca,11/23/2026 9:24,134,Portal/MemberFirm/SecuritySteward,Graham,Kendall
+1340,SECUT,SECUTOR CAPITAL MANAGEMENT CORP.        ,     ,cpx_3086,graham.kendall,gkendall@secutor.ca,11/23/2026 9:24,171,Portal/MemberFirm/SecuritySigningOfficer,Graham,Kendall
+463,COR,NBIN                                    ,     ,205,GlennMark.Malayao,glennmark.malayao@nbc.ca,11/19/2026,134,Portal/MemberFirm/SecuritySteward,Glenn Mark,Malayao
+463,COR,NBIN                                    ,     ,205,GlennMark.Malayao,glennmark.malayao@nbc.ca,11/19/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Glenn Mark,Malayao
+463,COR,NBIN                                    ,     ,205,GlennMark.Malayao,glennmark.malayao@nbc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Glenn Mark,Malayao
+1420,ALTA,ATB CAPITAL MARKETS CORP                ,     ,cpx_5774,Gail.OConnor,goconnor@atb.com,11/23/2026 9:15,134,Portal/MemberFirm/SecuritySteward,Gail,O'Connor
+1420,ALTA,ATB CAPITAL MARKETS CORP                ,     ,cpx_5774,Gail.OConnor,goconnor@atb.com,11/23/2026 9:15,171,Portal/MemberFirm/SecuritySigningOfficer,Gail,O'Connor
+1434,ATBS,ATB SECURITIES INC.                     ,     ,cpx_5775,Gail.OConnorATBS,goconnor@atb.com,6/3/2026 10:41,171,Portal/MemberFirm/SecuritySigningOfficer,Gail,O'Connor
+1105,JENUS,CORMARK SECURITIES (USA) LIMITED        ,     ,cpx_11433,Gail.OConnor1,goconnor@atb.com,6/4/2026 15:11,134,Portal/MemberFirm/SecuritySteward,Gail,O'Connor
+1105,JENUS,CORMARK SECURITIES (USA) LIMITED        ,     ,cpx_11433,Gail.OConnor1,goconnor@atb.com,6/4/2026 15:11,171,Portal/MemberFirm/SecuritySigningOfficer,Gail,O'Connor
+1483,KRNPT,KERNAGHAN & PARTNERS LTD.               ,KRNPT,cpx_4239,gord.baker,gord@kernaghanpartners.com,11/20/2026 16:17,134,Portal/MemberFirm/SecuritySteward,Gord,Baker
+290,NBCCS,NBIN (Operations)                       ,LGNDC,178,Gordon.Raic,gordon.raic@nbc.ca,11/20/2026 13:57,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Gordon,Raic
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,cpx_2849,govind.achyuthan1,govind@acumencapital.com,11/23/2026 7:58,134,Portal/MemberFirm/SecuritySteward,Govind,Achyuthan
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,cpx_2849,govind.achyuthan1,govind@acumencapital.com,11/23/2026 7:58,171,Portal/MemberFirm/SecuritySigningOfficer,Govind,Achyuthan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6e1s,Grace.Newland,grace.newland@ia.ca,10/22/2026 9:54,134,Portal/MemberFirm/SecuritySteward,Grace,Newland
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Graham.Musselman@sunlife.com,Graham.Musselman,graham.musselman@sunlife.com,11/23/2026 10:08,134,Portal/MemberFirm/SecuritySteward,Graham,Musselman
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Graham.Musselman@sunlife.com,Graham.Musselman,graham.musselman@sunlife.com,11/23/2026 10:08,171,Portal/MemberFirm/SecuritySigningOfficer,Graham,Musselman
+1416,SPROT,SCP RESOURCE FINANCE LP                 ,     ,cpx_4844,Gurjinder.Singh,gsingh@scp-rf.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Gurjinder,Singh
+1416,SPROT,SCP RESOURCE FINANCE LP                 ,     ,cpx_4844,Gurjinder.Singh,gsingh@scp-rf.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Gurjinder,Singh
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8571,bedg006,Guillaume.Bedard@bnc.ca,10/30/2026 16:15,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Guillaume,Bedard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Guillaume.ForestPoitras,Guillaume.ForestPoitras@ia.ca,11/10/2026 10:06,134,Portal/MemberFirm/SecuritySteward,Guillaume,Forest Poitras
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Guillaume.ForestPoitras,Guillaume.ForestPoitras@ia.ca,11/10/2026 10:06,171,Portal/MemberFirm/SecuritySigningOfficer,Guillaume,Forest Poitras
+1465,DBEAU,DUBEAU CAPITAL & CIE LTEE               ,     ,cpx_4586,Hughes.Dubeau,h.dubeau@dubeaucapital.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Hughes,Dubeau
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadlr,Hannah.Kohut,hannah.kohut@iagto.ca,5/31/2024 10:00,134,Portal/MemberFirm/SecuritySteward,Hannah,Kohut
+1269,EJMAP,EDWARD JONES                            ,     ,cpx_9836,Heidi.Harris,heidi.harris@edwardjones.com,11/23/2026 9:59,134,Portal/MemberFirm/SecuritySteward,Heidi,Harris
+1269,EJMAP,EDWARD JONES                            ,     ,cpx_9836,Heidi.Harris,heidi.harris@edwardjones.com,11/23/2026 9:59,171,Portal/MemberFirm/SecuritySigningOfficer,Heidi,Harris
+290,NBCCS,NBIN (Operations)                       ,TEST1,471,HeinMyat.Phone,hein.myat.phone@nbc.ca,11/20/2026 6:03,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Hein Myat,Phone
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaafj,SongHe1,Helen.Song@iagto.ca,11/10/2026 16:35,134,Portal/MemberFirm/SecuritySteward,Helen,Song
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaafj,SongHe1,Helen.Song@iagto.ca,11/10/2026 16:35,171,Portal/MemberFirm/SecuritySigningOfficer,Helen,Song
+1455,MORGN,MORGAN STANLEY CANADA LIMITED           ,     ,cpx_4413,helen.williams,helen.williams@morganstanley.com,7/16/2025 11:24,134,Portal/MemberFirm/SecuritySteward,Helen,Williams
+1455,MORGN,MORGAN STANLEY CANADA LIMITED           ,     ,cpx_4413,helen.williams,helen.williams@morganstanley.com,7/16/2025 11:24,171,Portal/MemberFirm/SecuritySigningOfficer,Helen,Williams
+463,COR,NBIN                                    ,     ,cpx_13839,Ilnaz.Safaeikashani,ilnaz.safaeikashani@nbc.ca,11/23/2026 9:27,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Ilnaz,Safaeikashani
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5054,Inthirai.Subramaniam,inthirai.subramaniam@wellington-altus.ca,11/20/2026 11:52,134,Portal/MemberFirm/SecuritySteward,Inthirai,Subramaniam
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5054,Inthirai.Subramaniam,inthirai.subramaniam@wellington-altus.ca,11/20/2026 11:52,171,Portal/MemberFirm/SecuritySigningOfficer,Inthirai,Subramaniam
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,CALGA,NULL,Irene.Cameron1,irene.cameron@optimize.ca,11/23/2026 8:36,134,Portal/MemberFirm/SecuritySteward,Irene,Cameron
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadnm,Isaiah.Cabaluna,Isaiah.Cabaluna@iagto.ca,11/6/2026 14:50,134,Portal/MemberFirm/SecuritySteward,Isaiah,Cabaluna
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3380,JAMIE.CASE,jamie.case@wattcarmichael.com,11/19/2026 11:26,134,Portal/MemberFirm/SecuritySteward,JAMIE,CASE
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3380,JAMIE.CASE,jamie.case@wattcarmichael.com,11/19/2026 11:26,171,Portal/MemberFirm/SecuritySigningOfficer,JAMIE,CASE
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaads,BurtonJa,jan.burton@iagto.ca,9/18/2026 13:25,134,Portal/MemberFirm/SecuritySteward,Jan,Burton
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Jan.Burton,jan.burton@iagto.ca,11/6/2026 8:29,134,Portal/MemberFirm/SecuritySteward,Jan,Burton
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Jay.Angeles1,jangeles@iagto.ca,11/17/2026 16:24,134,Portal/MemberFirm/SecuritySteward,Jay,Angeles
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_jayangeles,Jay.Angeles,jangeles@iagto.ca,11/20/2026 10:59,134,Portal/MemberFirm/SecuritySteward,Jay,Angeles
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_jayangeles,Jay.Angeles,jangeles@iagto.ca,11/20/2026 10:59,171,Portal/MemberFirm/SecuritySigningOfficer,Jay,Angeles
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_7568,Jason.Chen,jason.chen@aimstar.ca,11/23/2026 10:19,134,Portal/MemberFirm/SecuritySteward,Jason,Chen
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_8336,Jason.Groves,Jason.Groves@md.ca,5/28/2024 13:40,134,Portal/MemberFirm/SecuritySteward,Jay,Groves
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_8336,Jason.Groves,Jason.Groves@md.ca,5/28/2024 13:40,171,Portal/MemberFirm/SecuritySigningOfficer,Jay,Groves
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_nvaaqk,MacnevJa,jason.macnevin@iagto.ca,1/7/2026 14:38,134,Portal/MemberFirm/SecuritySteward,Jason,Macnevin
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_12982,Jay.Bondoc,jay.bondoc@wellington-altus.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Jay,Bondoc
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_6987,jay.yim,jay.yim@ipcc.ca,11/23/2026 10:02,134,Portal/MemberFirm/SecuritySteward,Jay,Yim
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_6987,jay.yim,jay.yim@ipcc.ca,11/23/2026 10:02,171,Portal/MemberFirm/SecuritySigningOfficer,Jay,Yim
+1191,BULL,BULL WEALTH MANAGEMENT GROUP INC.       ,BULL ,cpx_4010,jo.chan,jchan@bullwealth.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Jo,Chan
+1191,BULL,BULL WEALTH MANAGEMENT GROUP INC.       ,BULL ,cpx_4010,jo.chan,jchan@bullwealth.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Jo,Chan
+1496,PHY,PORTFOLIO HIWAY INC.                    ,     ,cpx_3398,Jason.Cho,jcho@portfoliohiway.com,9/23/2026 15:22,134,Portal/MemberFirm/SecuritySteward,Jason,Cho
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4599,jared.rabi,jcrabin@etfcm.com,4/21/2024 10:36,134,Portal/MemberFirm/SecuritySteward,Jared,Rabinowitz
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4599,jared.rabi,jcrabin@etfcm.com,4/21/2024 10:36,171,Portal/MemberFirm/SecuritySigningOfficer,Jared,Rabinowitz
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_gfaafl,JeanPhilippe.Joubert,jean-philippe.joubert@iaclarington.com,1/15/2024 17:17,134,Portal/MemberFirm/SecuritySteward,Jean-Philippe,Joubert
+1490,ETFOB,NBIN ETF/MFDA OMNIBUS                   ,MICA ,cpx_7587,JeanPhillipe.Page,jeanphilippepage@micasf.com,11/2/2026 9:22,134,Portal/MemberFirm/SecuritySteward,Jean-Phillipe,Page
+1490,ETFOB,NBIN ETF/MFDA OMNIBUS                   ,MICA ,cpx_7587,JeanPhillipe.Page,jeanphilippepage@micasf.com,11/2/2026 9:22,171,Portal/MemberFirm/SecuritySigningOfficer,Jean-Phillipe,Page
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_7023,Jeff.Tran,jeff.tran@ipcc.ca,11/23/2026 10:21,134,Portal/MemberFirm/SecuritySteward,Jeff,Tran
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_7023,Jeff.Tran,jeff.tran@ipcc.ca,11/23/2026 10:21,171,Portal/MemberFirm/SecuritySigningOfficer,Jeff,Tran
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,CALGA,cpx_13003,Jeffrey.Huang1,jeffrey.huang@ofg.com,11/23/2026 9:32,134,Portal/MemberFirm/SecuritySteward,Jeffrey,Huang
+337,JCC,JC CLARK LTD                            ,JCCL ,cpx_4222,dohertyj,jend@jcclark.com,11/19/2026 9:42,134,Portal/MemberFirm/SecuritySteward,Jennifer,Doherty
+337,JCC,JC CLARK LTD                            ,JCCL ,cpx_4222,dohertyj,jend@jcclark.com,11/19/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,Jennifer,Doherty
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13580,Jennie.Lac,jennie.lac@brookfield.com,11/4/2026 9:45,134,Portal/MemberFirm/SecuritySteward,Jennie,Lac
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13580,Jennie.Lac,jennie.lac@brookfield.com,11/4/2026 9:45,171,Portal/MemberFirm/SecuritySigningOfficer,Jennie,Lac
+1111,GENOV,GENOVA PRIVATE MGMT INC                 ,GENOV,cpx_3135,jennifera.dewling,Jennifer.dewling@genovaprivate.com,11/20/2026 9:38,134,Portal/MemberFirm/SecuritySteward,Jennifer A.,Dewling
+1111,GENOV,GENOVA PRIVATE MGMT INC                 ,GENOV,cpx_3135,jennifera.dewling,Jennifer.dewling@genovaprivate.com,11/20/2026 9:38,171,Portal/MemberFirm/SecuritySigningOfficer,Jennifer A.,Dewling
+463,COR,NBIN                                    ,TEST1,cpx_2724,jennifer.george,Jennifer.George@nbc.ca,11/23/2026 9:53,134,Portal/MemberFirm/SecuritySteward,Jennifer,George
+463,COR,NBIN                                    ,TEST1,cpx_2724,jennifer.george,Jennifer.George@nbc.ca,11/23/2026 9:53,171,Portal/MemberFirm/SecuritySigningOfficer,Jennifer,George
+463,COR,NBIN                                    ,TEST1,cpx_2724,jennifer.george,Jennifer.George@nbc.ca,11/23/2026 9:53,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jennifer,George
+463,COR,NBIN                                    ,     ,170,101086,jenny.zhang@bnc.ca,11/20/2026,134,Portal/MemberFirm/SecuritySteward,Jenny,Zhang
+463,COR,NBIN                                    ,     ,170,101086,jenny.zhang@bnc.ca,11/20/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Jenny,Zhang
+463,COR,NBIN                                    ,     ,170,101086,jenny.zhang@bnc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jenny,Zhang
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Jesamine.Petsopoulos@sunlife.com,Jesamine.Petsopoulos,jesamine.petsopoulos@sunlife.com,11/20/2026 13:11,134,Portal/MemberFirm/SecuritySteward,Jesamine,Petsopoulos
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Jesamine.Petsopoulos@sunlife.com,Jesamine.Petsopoulos,jesamine.petsopoulos@sunlife.com,11/20/2026 13:11,171,Portal/MemberFirm/SecuritySigningOfficer,Jesamine,Petsopoulos
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7871,Jessica.BoudreauWeirmeir,Jessica.Boudreau-Weirmeir@md.ca,11/20/2026 10:55,134,Portal/MemberFirm/SecuritySteward,Jessica,Boudreau-Weirmeir
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7871,Jessica.BoudreauWeirmeir,Jessica.Boudreau-Weirmeir@md.ca,11/20/2026 10:55,171,Portal/MemberFirm/SecuritySigningOfficer,Jessica,Boudreau-Weirmeir
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Jian.Lei,jianxiong.lei@ia.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Jian,Lei
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_14152,Jieno.Lagac,jieno.lagac@wellington-altus.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Jieno,Lagac
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Jill.Dutkowsky,Jill.Dutkowsky@iagto.ca,1/8/2026 14:50,134,Portal/MemberFirm/SecuritySteward,Jill,Dutkowsky
+463,COR,NBIN                                    ,     ,NULL,h754rel,jin.zhang@nbc.ca,10/7/2026 14:46,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jin,Zhang
+290,NBCCS,NBIN (Operations)                       ,90,NULL,jirapat.suwanjunee,jirapat.suwanjunee@nbc.ca,11/19/2026 4:12,134,Portal/MemberFirm/SecuritySteward,Jirapat,Suwanjunee
+290,NBCCS,NBIN (Operations)                       ,90,NULL,jirapat.suwanjunee,jirapat.suwanjunee@nbc.ca,11/19/2026 4:12,171,Portal/MemberFirm/SecuritySigningOfficer,Jirapat,Suwanjunee
+290,NBCCS,NBIN (Operations)                       ,90,NULL,jirapat.suwanjunee,jirapat.suwanjunee@nbc.ca,11/19/2026 4:12,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jirapat,Suwanjunee
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3207,JOE.LADEIRA,jladeira@clarussecurities.com,11/17/2026 12:13,134,Portal/MemberFirm/SecuritySteward,JOE,LADEIRA
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3207,JOE.LADEIRA,jladeira@clarussecurities.com,11/17/2026 12:13,171,Portal/MemberFirm/SecuritySigningOfficer,JOE,LADEIRA
+342,FOYST,"FOYSTON, GORDON & PAYNE                 ",FOYST,cpx_12433,John.Lozanovski,Jlozanovski@foyston.com,11/18/2026 16:01,171,Portal/MemberFirm/SecuritySigningOfficer,John,Lozanovski
+1416,SPROT,SCP RESOURCE FINANCE LP                 ,     ,cpx_4843,Janarthen.Makalinkam,jmakalinkam@scp-rf.com,11/23/2026 10:08,134,Portal/MemberFirm/SecuritySteward,Janarthen,Makalinkam
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,408,JANE.McKenna,jmckenna@acumencapital.com,11/20/2026 16:27,134,Portal/MemberFirm/SecuritySteward,Jane,McKenna
+290,NBCCS,NBIN (Operations)                       ,TEST1,473,John.Bautista,john.bautista@bnc.ca,11/13/2026,171,Portal/MemberFirm/SecuritySigningOfficer,John,Bautista
+463,COR,NBIN                                    ,TEST1,352,palamijo,John.Palamiotis@nbc.ca,11/20/2026 17:05,134,Portal/MemberFirm/SecuritySteward,John,Palamiotis
+463,COR,NBIN                                    ,TEST1,352,palamijo,John.Palamiotis@nbc.ca,11/20/2026 17:05,171,Portal/MemberFirm/SecuritySigningOfficer,John,Palamiotis
+463,COR,NBIN                                    ,TEST1,352,palamijo,John.Palamiotis@nbc.ca,11/20/2026 17:05,174,Portal/MemberFirm/SuperSecuritySigningOfficer,John,Palamiotis
+463,COR,NBIN                                    ,     ,cpx_8556,Jonathan.Guay,jonathan.guay@bnc.ca,11/23/2026 9:53,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jonathan,Guay
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_11190,Jordan.Marasigan,jordan.marasigan@wellington-altus.ca,11/23/2026 10:30,134,Portal/MemberFirm/SecuritySteward,Jordan,Marasigan
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_11190,Jordan.Marasigan,jordan.marasigan@wellington-altus.ca,11/23/2026 10:30,171,Portal/MemberFirm/SecuritySigningOfficer,Jordan,Marasigan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaft,ValleeJo,Jordan.Vallee@iagto.ca,11/16/2026 9:08,134,Portal/MemberFirm/SecuritySteward,Jordan,Vallee
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaft,ValleeJo,Jordan.Vallee@iagto.ca,11/16/2026 9:08,171,Portal/MemberFirm/SecuritySigningOfficer,Jordan,Vallee
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Josee.Paquet,Josee.Paquet@iagto.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Josee,Paquet
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Josee.Paquet1,Josee.Paquet@iawealth.com,NULL,134,Portal/MemberFirm/SecuritySteward,Josee,Paquet
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_6634,Josh.Wong,josh.wong@wellington-altus.ca,11/18/2026 13:36,134,Portal/MemberFirm/SecuritySteward,Josh,Wong
+463,COR,NBIN                                    ,TEST1,cpx_2716,Joshua.Lisboa,joshua.lisboa@bnc.ca,11/19/2026 14:54,134,Portal/MemberFirm/SecuritySteward,Joshua,Lisboa
+463,COR,NBIN                                    ,TEST1,cpx_2716,Joshua.Lisboa,joshua.lisboa@bnc.ca,11/19/2026 14:54,171,Portal/MemberFirm/SecuritySigningOfficer,Joshua,Lisboa
+463,COR,NBIN                                    ,TEST1,cpx_2716,Joshua.Lisboa,joshua.lisboa@bnc.ca,11/19/2026 14:54,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Joshua,Lisboa
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_joshuawon,Joshua.Won,joshua.won@iagto.ca,11/23/2026 9:15,134,Portal/MemberFirm/SecuritySteward,Joshua,Won
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_joshuawon,Joshua.Won,joshua.won@iagto.ca,11/23/2026 9:15,171,Portal/MemberFirm/SecuritySigningOfficer,Joshua,Won
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8572,herj004,juan.hernandezvillafuerte@bnc.ca,11/23/2026 10:30,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Juan,Hernandez Villafuerte
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapdn,Juliana.Lomova,Juliana.Lomova@iagto.ca,11/19/2026 14:59,134,Portal/MemberFirm/SecuritySteward,Juliana,Lomova
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapdn,Juliana.Lomova,Juliana.Lomova@iagto.ca,11/19/2026 14:59,171,Portal/MemberFirm/SecuritySigningOfficer,Juliana,Lomova
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,JulieMoon.Tremblay,Juliemoon.Tremblay@bnc.ca,11/20/2026 14:43,134,Portal/MemberFirm/SecuritySteward,Julie-Moon,Tremblay
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,JulieMoon.Tremblay,Juliemoon.Tremblay@bnc.ca,11/20/2026 14:43,171,Portal/MemberFirm/SecuritySigningOfficer,Julie-Moon,Tremblay
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadid,Justin.Kim,Justin.Kim@iagto.ca,10/23/2026 16:33,134,Portal/MemberFirm/SecuritySteward,Justin,Kim
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_li6e63,Justus.Alleyn,Justus.Alleyn@ia.ca,11/17/2026 14:23,134,Portal/MemberFirm/SecuritySteward,Justus,Alleyn
+463,COR,NBIN                                    ,     ,NULL,Jutamas.Chanprachak,jutamas.chanprachak@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Jutamas,Chanprachak
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_6377,jacky.yu,jyu@newportprivatewealth.ca,10/30/2026 13:59,134,Portal/MemberFirm/SecuritySteward,Jacky,Yu
+1465,DBEAU,DUBEAU CAPITAL & CIE LTEE               ,     ,cpx_4589,Karo.Gagnon,k.gagnon@dubeaucapital.com,11/20/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Karo,Gagnon
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_7038,Kamrul.Hassan,kamrul.hassan@ipcc.ca,11/19/2026 14:31,134,Portal/MemberFirm/SecuritySteward,Kamrul,Hassan
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_7038,Kamrul.Hassan,kamrul.hassan@ipcc.ca,11/19/2026 14:31,171,Portal/MemberFirm/SecuritySigningOfficer,Kamrul,Hassan
+463,COR,NBIN                                    ,TEST1,179,SANK002,karamveer.sangha@nbc.ca,9/4/2026 10:04,171,Portal/MemberFirm/SecuritySigningOfficer,Karamveer,Sangha
+463,COR,NBIN                                    ,TEST1,179,SANK002,karamveer.sangha@nbc.ca,9/4/2026 10:04,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Karamveer,Sangha
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadfj,Kareem.Darwiche,Kareem.Darwiche@iagto.ca,11/17/2026 8:42,134,Portal/MemberFirm/SecuritySteward,Kareem,Darwiche
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadfj,Kareem.Darwiche,Kareem.Darwiche@iagto.ca,11/17/2026 8:42,171,Portal/MemberFirm/SecuritySigningOfficer,Kareem,Darwiche
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3140,Karen.Campbell,karen.campbell@omg.ca,11/23/2026 8:02,134,Portal/MemberFirm/SecuritySteward,Karen,Campbell
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3140,Karen.Campbell,karen.campbell@omg.ca,11/23/2026 8:02,171,Portal/MemberFirm/SecuritySigningOfficer,Karen,Campbell
+463,COR,NBIN                                    ,TEST1,cpx_8573,SEMA001,karim.semmar@bnc.ca,11/23/2026 9:29,134,Portal/MemberFirm/SecuritySteward,Karim,Semmar
+463,COR,NBIN                                    ,TEST1,cpx_8573,SEMA001,karim.semmar@bnc.ca,11/23/2026 9:29,171,Portal/MemberFirm/SecuritySigningOfficer,Karim,Semmar
+463,COR,NBIN                                    ,TEST1,cpx_8573,SEMA001,karim.semmar@bnc.ca,11/23/2026 9:29,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Karim,Semmar
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadon,Kate.Greenwood1,Kate.Greenwood@iawealth.com,11/20/2026 14:14,134,Portal/MemberFirm/SecuritySteward,Kate,Greenwood
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5039,Katerina.Seremetidou,katerina.seremetidou@wellington-altus.ca,11/19/2026 15:07,134,Portal/MemberFirm/SecuritySteward,Katerina,Seremetidou
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3376,Kathy.Gaworecka,kathy.gaworecka@wattcarmichael.com,11/23/2026,134,Portal/MemberFirm/SecuritySteward,Kathy,Gaworecka
+1457,WATTC,WATT CARMICHAEL INC.,     ,cpx_3376,Kathy.Gaworecka,kathy.gaworecka@wattcarmichael.com,11/23/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Kathy,Gaworecka
+463,COR,NBIN                                    ,TEST1,25,ASTK001,katrina.astrologo@nbc.ca,11/23/2026 10:25,134,Portal/MemberFirm/SecuritySteward,Katrina,Astrologo
+463,COR,NBIN                                    ,TEST1,25,ASTK001,katrina.astrologo@nbc.ca,11/23/2026 10:25,171,Portal/MemberFirm/SecuritySigningOfficer,Katrina,Astrologo
+463,COR,NBIN                                    ,TEST1,25,ASTK001,katrina.astrologo@nbc.ca,11/23/2026 10:25,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Katrina,Astrologo
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,Test.IGSI,katrina.astrologo@nbc.ca,8/15/2025 16:47,134,Portal/MemberFirm/SecuritySteward,Test,IGSI
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,Test.IGSI,katrina.astrologo@nbc.ca,8/15/2025 16:47,171,Portal/MemberFirm/SecuritySigningOfficer,Test,IGSI
+463,COR,NBIN                                    ,TEST1,cpx_9714,Kayla.RodriguesGoncalves,kayla.rodriguesgoncalves@nbc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Kayla,Rodrigues Goncalves
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3184,Karine.Deslandes,kdeslandes@pwlcapital.com,11/23/2026 9:21,134,Portal/MemberFirm/SecuritySteward,Karine,Deslandes
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3184,Karine.Deslandes,kdeslandes@pwlcapital.com,11/23/2026 9:21,171,Portal/MemberFirm/SecuritySigningOfficer,Karine,Deslandes
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_kdingwall2,kathryn.dingwall,kdingwall@iagto.ca,11/19/2026 18:31,134,Portal/MemberFirm/SecuritySteward,Kathryn,Dingwall
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_kdingwall2,kathryn.dingwall,kdingwall@iagto.ca,11/19/2026 18:31,171,Portal/MemberFirm/SecuritySigningOfficer,Kathryn,Dingwall
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_4924,Kelly.Seabrook1,kelly.seabrook@wellington-altus.ca,11/16/2026 16:43,171,Portal/MemberFirm/SecuritySigningOfficer,Kelly,Seabrook
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Kelvin.Ng@sunlife.com,Kelvin.Ng,kelvin.ng@sunlife.com,11/13/2026 13:20,134,Portal/MemberFirm/SecuritySteward,Kelvin,Ng
+1461,PERRY,PERRY SECURITIES LTD.                   ,     ,cpx_3222,Ken.Perry,kenperry@telusplanet.net,11/23/2026 10:37,171,Portal/MemberFirm/SecuritySigningOfficer,Ken,Perry
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Kent.Crawford,kent.crawford@ia.ca,7/16/2025 13:06,134,Portal/MemberFirm/SecuritySteward,Kent,Crawford
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,belankev,kevin.belanger@ig.ca,11/18/2026 11:18,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Kevin,Belanger
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5062,Kevin.Komlenovich,kevin.komlenovich@wellington-altus.ca,11/17/2026 12:50,134,Portal/MemberFirm/SecuritySteward,Kevin,Komlenovich
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5062,Kevin.Komlenovich,kevin.komlenovich@wellington-altus.ca,11/17/2026 12:50,171,Portal/MemberFirm/SecuritySigningOfficer,Kevin,Komlenovich
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3101,Kelly.Fernandes,kfernandes@fostergroup.ca,11/19/2026 15:46,134,Portal/MemberFirm/SecuritySteward,Kelly,Fernandes
+463,COR,NBIN                                    ,     ,cpx_11346,KhushbooShiv.Ahuja,khushboo.ahuja@nbc.ca,11/18/2026 14:14,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Khushboo Shiv,Ahuja
+1151,ETFCM,QUINTESSENCE WEALTH                     ,ETFCM,cpx_4947,Kim.Town1,kim@qwealth.com,11/23/2026 9:13,171,Portal/MemberFirm/SecuritySigningOfficer,Kim,Town
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3223,Kendall.Lewis,klewis@omnivitawealth.com,11/17/2026 13:38,134,Portal/MemberFirm/SecuritySteward,Kendall,Lewis
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4849,KIRSTIN.MCTAGGART1,kmctaggart@sightlinewealthmgt.com,7/7/2026 9:43,134,Portal/MemberFirm/SecuritySteward,KIRSTIN,MCTAGGART
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4849,KIRSTIN.MCTAGGART1,kmctaggart@sightlinewealthmgt.com,7/7/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,KIRSTIN,MCTAGGART
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3177,parentekr,kparente@fostergroup.ca,11/20/2026 16:50,134,Portal/MemberFirm/SecuritySteward,Karen,Parente
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3177,parentekr,kparente@fostergroup.ca,11/20/2026 16:50,171,Portal/MemberFirm/SecuritySigningOfficer,Karen,Parente
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3202,sherkeka,KSherkey@goodwoodfunds.com,11/5/2026 15:49,134,Portal/MemberFirm/SecuritySteward,Katie,Sherkey
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3202,sherkeka,KSherkey@goodwoodfunds.com,11/5/2026 15:49,171,Portal/MemberFirm/SecuritySigningOfficer,Katie,Sherkey
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,427,katherine.Wright,kwright@croftgroup.com,11/3/2026 9:00,134,Portal/MemberFirm/SecuritySteward,katherine,Wright
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2mqh,Kyren.Gumbs,Kyren.Gumbs@ia.ca,9/29/2026 8:54,134,Portal/MemberFirm/SecuritySteward,Kyren,Gumbs
+463,COR,NBIN                                    ,     ,cpx_8574,Lakhami.Fissuru,lakhami.fissuru@bnc.ca,11/23/2026 9:12,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Lakhami,Fissuru
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,409,loredana.alaia,lalaia@acumencapital.com,11/23/2026 10:06,134,Portal/MemberFirm/SecuritySteward,Loredana,Alaia
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6evw,Laura.Cirlincione,laura.cirlincione@ia.ca,11/20/2026 10:18,134,Portal/MemberFirm/SecuritySteward,Laura,Cirlincione
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadfd,Laurie.Gerrard,laurie.gerrard@iagto.ca,8/25/2025 12:22,134,Portal/MemberFirm/SecuritySteward,Laurie,Gerrard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadfd,Laurie.Gerrard,laurie.gerrard@iagto.ca,8/25/2025 12:22,171,Portal/MemberFirm/SecuritySigningOfficer,Laurie,Gerrard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadiw,Lavan.Anpalahan,Lavan.Anpalahan@iagto.ca,6/18/2024 11:05,171,Portal/MemberFirm/SecuritySigningOfficer,Lavan,Anpalahan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Lavan.Anpalahan1,Lavan.Anpalahan@iawealth.com,NULL,134,Portal/MemberFirm/SecuritySteward,Lavan,Anpalahan1
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadns,Lavania.Atputharajah,Lavania.Atputharajah@iagto.ca,11/19/2026 9:19,134,Portal/MemberFirm/SecuritySteward,Lavania,Atputharajah
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadns,Lavania.Atputharajah,Lavania.Atputharajah@iagto.ca,11/19/2026 9:19,171,Portal/MemberFirm/SecuritySigningOfficer,Lavania,Atputharajah
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2791,Leanne.Bectold,lbectold@acumencapital.com,11/23/2026 8:24,134,Portal/MemberFirm/SecuritySteward,Leanne,Bectold
+463,COR,NBIN                                    ,     ,cpx_8575,H280UEN,leonid.tarasov@nbc.ca,11/23/2026 9:45,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Leonid,Tarasov
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Levi.Kovacs,Levi.Kovacs@ia.ca,7/6/2026,134,Portal/MemberFirm/SecuritySteward,Levi,Kovacs
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Levi.Kovacs,Levi.Kovacs@ia.ca,7/6/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Levi,Kovacs
+463,COR,NBIN                                    ,     ,NULL,Lindsay.Pierce,lindsay.pierce@nbc.ca,8/20/2026 9:28,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Lindsay,Pierce
+314,EQUIS,IPC SECURITIES CORP                     ,     ,cpx_8752,Lisa.Popowich,lisa.popowich@ipcsecurities.com,10/30/2026 13:34,134,Portal/MemberFirm/SecuritySteward,Lisa,Popowich
+463,COR,NBIN                                    ,     ,NULL,thol004,lisa.thomas@nbc.ca,11/22/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Lisa,Thomas
+463,COR,NBIN                                    ,     ,NULL,thol004,lisa.thomas@nbc.ca,11/22/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Lisa,Thomas
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_12834,Louis.Letellier1,lletellier@pwlcapital.com,11/9/2026 10:19,134,Portal/MemberFirm/SecuritySteward,Louis,Letellier
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4845,Lily.Liu1,lliu@sightlinewealthmgt.com,11/23/2026 10:30,134,Portal/MemberFirm/SecuritySteward,Lily,Liu
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4845,Lily.Liu1,lliu@sightlinewealthmgt.com,11/23/2026 10:30,171,Portal/MemberFirm/SecuritySigningOfficer,Lily,Liu
+1454,KINGW,KINGWEST & COMPANY                      ,KNGWS,cpx_4224,Laurinda.Martins,lmartins@kingwest.com,11/19/2026 13:39,134,Portal/MemberFirm/SecuritySteward,Laurinda,Martins
+1454,KINGW,KINGWEST & COMPANY                      ,KNGWS,cpx_4224,Laurinda.Martins,lmartins@kingwest.com,11/19/2026 13:39,171,Portal/MemberFirm/SecuritySigningOfficer,Laurinda,Martins
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7883,Loon.Luu,Loon.Luu@md.ca,11/19/2026 9:16,134,Portal/MemberFirm/SecuritySteward,Loon,Luu
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7883,Loon.Luu,Loon.Luu@md.ca,11/19/2026 9:16,171,Portal/MemberFirm/SecuritySigningOfficer,Loon,Luu
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,louisphilippe.lemay,louis-philippe.lemay@ig.ca,2/20/2026 12:24,134,Portal/MemberFirm/SecuritySteward,Louis-Philippe,Lemay
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,louisphilippe.lemay,louis-philippe.lemay@ig.ca,2/20/2026 12:24,171,Portal/MemberFirm/SecuritySigningOfficer,Louis-Philippe,Lemay
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Luciana.Chiocca,luciana.chiocca@iagto.ca,8/10/2026 16:33,134,Portal/MemberFirm/SecuritySteward,Luciana,Chiocca
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaaah,ChioccLu,Luciana.Chiocca@iagto.ca,5/12/2026 18:07,134,Portal/MemberFirm/SecuritySteward,Luciana,Chiocca
+463,COR,NBIN                                    ,     ,NULL,Luck.Perez,luck.perez@nbc.ca,11/12/2026 8:39,134,Portal/MemberFirm/SecuritySteward,Luck,Perez
+463,COR,NBIN                                    ,     ,NULL,Luck.Perez,luck.perez@nbc.ca,11/12/2026 8:39,171,Portal/MemberFirm/SecuritySigningOfficer,Luck,Perez
+463,COR,NBIN                                    ,     ,NULL,Luck.Perez,luck.perez@nbc.ca,11/12/2026 8:39,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Luck,Perez
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_6395,Liz.Zhang,lzhang@newportprivatewealth.ca,11/18/2026 11:47,134,Portal/MemberFirm/SecuritySteward,Liz,Zhang
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_6395,Liz.Zhang,lzhang@newportprivatewealth.ca,11/18/2026 11:47,171,Portal/MemberFirm/SecuritySigningOfficer,Liz,Zhang
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadnw,Maddalena.Triassi,Maddalena.Triassi@iagto.ca,3/21/2024 16:23,134,Portal/MemberFirm/SecuritySteward,Maddalena,Triassi
+463,COR,NBIN                                    ,TEST1,cpx_13332,z78878,maisha.wahab@bnc.ca,11/23/2026 6:06,134,Portal/MemberFirm/SecuritySteward,Maisha S,Wahab
+463,COR,NBIN                                    ,TEST1,cpx_13332,z78878,maisha.wahab@bnc.ca,11/23/2026 6:06,171,Portal/MemberFirm/SecuritySigningOfficer,Maisha S,Wahab
+463,COR,NBIN                                    ,TEST1,cpx_13332,z78878,maisha.wahab@bnc.ca,11/23/2026 6:06,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Maisha S,Wahab
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_11491,Michelle.Ali,mali@newportprivatewealth.ca,1/30/2026 13:40,134,Portal/MemberFirm/SecuritySteward,Michelle,Ali
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_11491,Michelle.Ali,mali@newportprivatewealth.ca,1/30/2026 13:40,171,Portal/MemberFirm/SecuritySigningOfficer,Michelle,Ali
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3360,Mallory.Kroll,mallory.kroll@omg.ca,11/23/2026 10:04,134,Portal/MemberFirm/SecuritySteward,Mallory,Kroll
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3360,Mallory.Kroll,mallory.kroll@omg.ca,11/23/2026 10:04,171,Portal/MemberFirm/SecuritySigningOfficer,Mallory,Kroll
+1429,PERON,CUMBERLAND PRIVATE WEALTH MANAGEMENT INC,     ,cpx_5786,malou.casuga,malouc@cpwm.ca,11/23/2026 9:18,134,Portal/MemberFirm/SecuritySteward,Malou,Casuga
+1429,PERON,CUMBERLAND PRIVATE WEALTH MANAGEMENT INC,     ,cpx_5786,malou.casuga,malouc@cpwm.ca,11/23/2026 9:18,171,Portal/MemberFirm/SecuritySigningOfficer,Malou,Casuga
+463,COR,NBIN                                    ,     ,cpx_14016,h477okc,mandeep.maan@nbc.ca,11/20/2026 15:14,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Mandeep,Maan
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaapu,Maneesh.Kapil,maneesh.kapil@iawealth.com,10/30/2025 10:52,134,Portal/MemberFirm/SecuritySteward,Maneesh,Kapil
+1504,IBNBA,BROOKFIELD SECURITIES CANADA LP         ,     ,cpx_13499,Manny.Borbor,manny.borbor@brookfield.com,NULL,134,Portal/MemberFirm/SecuritySteward,Manny,Borbor
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,MarcAndré.Liard,Marc-Andre.Liard@iagto.ca,2/26/2026 11:16,134,Portal/MemberFirm/SecuritySteward,Marc-André,Liard
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,MarcAndré.Liard,Marc-Andre.Liard@iagto.ca,2/26/2026 11:16,171,Portal/MemberFirm/SecuritySigningOfficer,Marc-André,Liard
+1482,IGMF,IGM FINANCIAL INC                       ,     ,NULL,marcelo.wilk,marcelo.wilk@ig.ca,9/28/2026 10:42,134,Portal/MemberFirm/SecuritySteward,marcelo,wilk
+1482,IGMF,IGM FINANCIAL INC                       ,     ,NULL,marcelo.wilk,marcelo.wilk@ig.ca,9/28/2026 10:42,171,Portal/MemberFirm/SecuritySigningOfficer,marcelo,wilk
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadey,Mario.Djokich,mario.djokich@ia.ca,10/30/2026 16:51,134,Portal/MemberFirm/SecuritySteward,Mario,Djokich
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadey,Mario.Djokich,mario.djokich@ia.ca,10/30/2026 16:51,171,Portal/MemberFirm/SecuritySigningOfficer,Mario,Djokich
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaacr,Marjan.SabetKassouf,Marjan.Sabet-Kassouf@iagto.ca,5/8/2026 15:26,134,Portal/MemberFirm/SecuritySteward,Marjan,Sabet-Kassouf
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaacr,Marjan.SabetKassouf,Marjan.Sabet-Kassouf@iagto.ca,5/8/2026 15:26,171,Portal/MemberFirm/SecuritySigningOfficer,Marjan,Sabet-Kassouf
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4396,mark.censale,mark.censale@wellsfargo.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Mark,Censale
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_4396,mark.censale,mark.censale@wellsfargo.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Mark,Censale
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_mmhakala,HakalaMa,Mark.Hakala@iagto.ca,11/20/2026 9:06,134,Portal/MemberFirm/SecuritySteward,Mark,Hakala
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_mmhakala,HakalaMa,Mark.Hakala@iagto.ca,11/20/2026 9:06,171,Portal/MemberFirm/SecuritySigningOfficer,Mark,Hakala
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmadin,Marlene.Braganza,Marlene.Braganza@iagto.ca,6/6/2024 14:44,134,Portal/MemberFirm/SecuritySteward,Marlene,Braganza
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmaaio,Marvyn.Persaud,Marvyn.Persaud@iagto.ca,2/20/2026 17:28,134,Portal/MemberFirm/SecuritySteward,Marvyn,Persaud
+463,COR,NBIN                                    ,     ,NULL,Matana.Eaujit,matana.eaujit@nbc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Matana,Eaujit
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Mathieu.Roy,Mathieu.Roy4@ia.ca,NULL,171,Portal/MemberFirm/SecuritySigningOfficer,Mathieu,Roy
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,     ,NULL,Matthew.Tomasic1,matthew.tomasic@optimizewealth.com.ca,11/23/2026 9:02,134,Portal/MemberFirm/SecuritySteward,Matthew,Tomasic
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,     ,NULL,Matthew.Tomasic1,matthew.tomasic@optimizewealth.com.ca,11/23/2026 9:02,171,Portal/MemberFirm/SecuritySigningOfficer,Matthew,Tomasic
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapeh,Matthieu.Desjardins,matthieu.desjardins@iagto.ca,11/20/2026 11:01,134,Portal/MemberFirm/SecuritySteward,Matthieu,Desjardins
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapeh,Matthieu.Desjardins,matthieu.desjardins@iagto.ca,11/20/2026 11:01,171,Portal/MemberFirm/SecuritySigningOfficer,Matthieu,Desjardins
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Mayra.Carrillo,mayra.carrillo@bnc.ca,11/20/2026 13:33,134,Portal/MemberFirm/SecuritySteward,Mayra,Carrillo
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Mayra.Carrillo,mayra.carrillo@bnc.ca,11/20/2026 13:33,171,Portal/MemberFirm/SecuritySigningOfficer,Mayra,Carrillo
+1455,MORGN,MORGAN STANLEY CANADA LIMITED           ,     ,cpx_4411,mazen.ghanem,mazen.ghanem@morganstanley.com,11/11/2026 12:36,134,Portal/MemberFirm/SecuritySteward,Mazen,Ghanem
+1455,MORGN,MORGAN STANLEY CANADA LIMITED           ,     ,cpx_4411,mazen.ghanem,mazen.ghanem@morganstanley.com,11/11/2026 12:36,171,Portal/MemberFirm/SecuritySigningOfficer,Mazen,Ghanem
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,cpx_2790,Myles.Bayer1,mbayer@acumencapital.com,11/17/2026 13:21,134,Portal/MemberFirm/SecuritySteward,Myles,Bayer
+1466,ACKER,ACKER FINLEY INC.                       ,     ,cpx_3769,MARIAN.BUKLIS,mbuklis@ackerfinley.com,10/1/2026 18:48,134,Portal/MemberFirm/SecuritySteward,MARIAN,BUKLIS
+1466,ACKER,ACKER FINLEY INC.                       ,     ,cpx_3769,MARIAN.BUKLIS,mbuklis@ackerfinley.com,10/1/2026 18:48,171,Portal/MemberFirm/SecuritySigningOfficer,MARIAN,BUKLIS
+102,STEPH,STEPHENAVENUE SECURITIES INC            ,CALGA,cpx_3161,Michael.Cappuccitti,mcappuccitti@stephenavenue.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Michael,Cappuccitti
+102,STEPH,STEPHENAVENUE SECURITIES INC            ,CALGA,cpx_3161,Michael.Cappuccitti,mcappuccitti@stephenavenue.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Michael,Cappuccitti
+1429,PERON,CUMBERLAND PRIVATE WEALTH MANAGEMENT INC,     ,cpx_10136,megan.bergen,meganb@cpwm.ca,11/17/2026,134,Portal/MemberFirm/SecuritySteward,megan,bergen
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapdt,Meghann.Gregoire2,Meghann.Gregoire@iagto.ca,11/23/2026 10:04,134,Portal/MemberFirm/SecuritySteward,Meghann,Gregoire
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapdt,Meghann.Gregoire2,Meghann.Gregoire@iagto.ca,11/23/2026 10:04,171,Portal/MemberFirm/SecuritySigningOfficer,Meghann,Gregoire
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2kwb,Mehrnaz.Khedri,Mehrnaz.Khedri@ia.ca,3/13/2024 15:59,134,Portal/MemberFirm/SecuritySteward,Mehrnaz,Khedri
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2kwb,Mehrnaz.Khedri,Mehrnaz.Khedri@ia.ca,3/13/2024 15:59,171,Portal/MemberFirm/SecuritySigningOfficer,Mehrnaz,Khedri
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_12810,Mark.Goodman,mgoodman@sightlinewealthmgt.com,NULL,134,Portal/MemberFirm/SecuritySteward,Mark,Goodman
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_14374,Michael.Kiazadeh,michael.kiazadeh@wellington-altus.ca,11/17/2026 13:50,134,Portal/MemberFirm/SecuritySteward,Michael,Kiazadeh
+1464,CUMBE,CUMBERLAND PRIVATE WEALTH MGMT INC      ,     ,cpx_5099,MICHELLE.HENRIQUES,michelleh@cpwm.ca,11/17/2026 15:43,171,Portal/MemberFirm/SecuritySigningOfficer,Michelle,Henriques
+1421,MECKL,MECKELBORG FINANCIAL GROUP              ,MECKL,cpx_3248,mindy.meckelborg,mindy@mfgltd.com,11/20/2026 14:42,134,Portal/MemberFirm/SecuritySteward,Mindy,Meckelborg
+463,COR,NBIN                                    ,     ,cpx_7113,liumi,minsheng.liu@bnc.ca,11/23/2026 10:35,134,Portal/MemberFirm/SecuritySteward,Minsheng MIL WAS Testing,Liu
+463,COR,NBIN                                    ,     ,cpx_7113,liumi,minsheng.liu@bnc.ca,11/23/2026 10:35,171,Portal/MemberFirm/SecuritySigningOfficer,Minsheng MIL WAS Testing,Liu
+463,COR,NBIN                                    ,     ,cpx_7113,liumi,minsheng.liu@bnc.ca,11/23/2026 10:35,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Minsheng MIL WAS Testing,Liu
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3083,Matthew.Laffrade,mlaffrade@fostergroup.ca,9/28/2026 11:26,134,Portal/MemberFirm/SecuritySteward,Matthew,Laffrade
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3083,Matthew.Laffrade,mlaffrade@fostergroup.ca,9/28/2026 11:26,171,Portal/MemberFirm/SecuritySigningOfficer,Matthew,Laffrade
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,402,millemyj,mmiller@acumencapital.com,11/23/2026 10:22,134,Portal/MemberFirm/SecuritySteward,Myja,Miller
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,CALGA,402,millemyj,mmiller@acumencapital.com,11/23/2026 10:22,171,Portal/MemberFirm/SecuritySigningOfficer,Myja,Miller
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3247,Mishaela.Molby,mmolby@omnivitawealth.com,11/23/2026 10:24,134,Portal/MemberFirm/SecuritySteward,Mishaela,Molby
+1489,OMNI,OMNIVITA CUSTOM WEALTH MANAGEMENT INC.  ,     ,cpx_3247,Mishaela.Molby,mmolby@omnivitawealth.com,11/23/2026 10:24,171,Portal/MemberFirm/SecuritySigningOfficer,Mishaela,Molby
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,     ,cpx_3155,ngmic,mng@friedberg.ca,2/10/2025 12:23,134,Portal/MemberFirm/SecuritySteward,Michael,Ng
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8584,boum079,mohamed.bouelfaiz@nbc.ca,11/20/2026 16:13,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Mohamed,Bouelfaiz
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8582,ALAM017,mohamedal.alami@bnc.ca,11/23/2026 9:46,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Mohamed,Alami
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_vmapdl,Monika.Joshi,Monika.Joshi@iagto.ca,11/23/2026 8:08,134,Portal/MemberFirm/SecuritySteward,Monika,Joshi
+102,STEPH,STEPHENAVENUE SECURITIES INC            ,CALGA,cpx_3153,MONA.SINGH,MSINGH@STEPHENAVENUE.COM,11/23/2026 7:28,134,Portal/MemberFirm/SecuritySteward,MONA,SINGH
+1077,SPRNG,SPRUNG INVESTMENT MANAGEMENT INC.       ,     ,NULL,sprunmih,msprung@sprunginvestment.com,9/17/2024 11:25,171,Portal/MemberFirm/SecuritySigningOfficer,Michael,Sprung
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Muhammad.Joomratee,muhammad.joomratee@ia.ca,10/8/2024 15:16,134,Portal/MemberFirm/SecuritySteward,Muhammad,Joomratee
+2,LOR,CI PRIVATE COUNSEL LP                   ,LOR  ,cpx_4385,Michael.Wong,mwong@ci.com,7/17/2026 9:18,171,Portal/MemberFirm/SecuritySigningOfficer,Michael,Wong
+78,KEARN,PARADIGM CAPITAL INC                    ,TORON,cpx_5745,Mohsen.Yamani,myamani@paradigmcap.com,11/16/2026 16:35,134,Portal/MemberFirm/SecuritySteward,Mohsen,Yamani
+851,KEARU,PARADIGM CAPITAL US INC                 ,     ,cpx_5710,Mohsen.Yamani1,myamani@paradigmcap.com,5/15/2025 9:10,134,Portal/MemberFirm/SecuritySteward,Mohsen,Yamani
+463,COR,NBIN                                    ,     ,NULL,h081vvo,natalee.trangsakulamporn@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Natalee,Trangsakulamporn
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaade,BernarNa,natasha.bernard@iagto.ca,7/28/2026 10:36,134,Portal/MemberFirm/SecuritySteward,Natasha,Bernard
+1455,MORGN,MORGAN STANLEY CANADA LIMITED           ,     ,cpx_4412,Navdeep.Kaur,Navdeep.Kaur@morganstanley.com,5/13/2026 15:20,134,Portal/MemberFirm/SecuritySteward,Navdeep,Kaur
+463,COR,NBIN                                    ,     ,h210jzy,h210jzy,neha.ashishkumar.dadarwala@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Neha Ashishkumar,Dadarwala
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6e0t,Neil.Greenbaum,neil.greenbaum@ia.ca,11/13/2026 14:52,134,Portal/MemberFirm/SecuritySteward,Neil,Greenbaum
+463,COR,NBIN                                    ,TEST1,355,leitene,nelli.leite@nbc.ca,11/20/2026 16:38,134,Portal/MemberFirm/SecuritySteward,Nelia,Leite
+463,COR,NBIN                                    ,TEST1,355,leitene,nelli.leite@nbc.ca,11/20/2026 16:38,171,Portal/MemberFirm/SecuritySigningOfficer,Nelia,Leite
+463,COR,NBIN                                    ,TEST1,355,leitene,nelli.leite@nbc.ca,11/20/2026 16:38,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Nelia,Leite
+1483,KRNPT,KERNAGHAN & PARTNERS LTD.               ,KRNPT,cpx_4237,nerissa.legara,nerissa@kernaghanpartners.com,11/23/2026 9:55,134,Portal/MemberFirm/SecuritySteward,Nerissa,Legara
+1483,KRNPT,KERNAGHAN & PARTNERS LTD.               ,KRNPT,cpx_4237,nerissa.legara,nerissa@kernaghanpartners.com,11/23/2026 9:55,171,Portal/MemberFirm/SecuritySigningOfficer,Nerissa,Legara
+1434,ATBS,ATB SECURITIES INC.                     ,     ,cpx_5769,Nicholas.Hui,nhui@atb.com,8/27/2026 15:53,134,Portal/MemberFirm/SecuritySteward,Nicholas,Hui
+1434,ATBS,ATB SECURITIES INC.                     ,     ,cpx_5769,Nicholas.Hui,nhui@atb.com,8/27/2026 15:53,171,Portal/MemberFirm/SecuritySigningOfficer,Nicholas,Hui
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapgh,Nicholas.Cattapan1,Nicholas.Cattapan@iagto.ca,11/9/2026 9:54,134,Portal/MemberFirm/SecuritySteward,Nicholas,Cattapan1
+1134,NBFI,NATIONAL BANK FINANCIAL INC.,IFMG8,NULL,WATN002,nicholas.watson@nbc.ca,11/20/2026 16:23,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Nicholas,Watson
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3362,Nicole.Goguen,nicole.goguen@omg.ca,11/18/2026 9:07,134,Portal/MemberFirm/SecuritySteward,Nicole,Goguen
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,cpx_3362,Nicole.Goguen,nicole.goguen@omg.ca,11/18/2026 9:07,171,Portal/MemberFirm/SecuritySigningOfficer,Nicole,Goguen
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Nicole.Naumovski@sunlife.com,Nicole.Naumovski,Nicole.Naumovski@sunlife.com,11/12/2026 14:48,134,Portal/MemberFirm/SecuritySteward,Nicole,Naumovski
+463,COR,NBIN                                    ,     ,cpx_8581,Nisrine.Elbeyrouth,nisrine.elbeyrouthy@bnc.ca,11/23/2026 10:07,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Nisrine,Elbeyrouth
+1451,LIQUI,LIQUIDNET CANADA INC.                   ,     ,cpx_4916,nmanocchio@liquidnet.com,nmanocchio@liquidnet.com,11/17/2026 13:05,134,Portal/MemberFirm/SecuritySteward,Nancy,Manocchio
+1451,LIQUI,LIQUIDNET CANADA INC.                   ,     ,cpx_4916,nmanocchio@liquidnet.com,nmanocchio@liquidnet.com,11/17/2026 13:05,171,Portal/MemberFirm/SecuritySigningOfficer,Nancy,Manocchio
+53,CGOV,FIERA CAPITAL CORP.                     ,CGOV ,cpx_5096,midanina,nmidanik@fieracapital.com,11/20/2026 9:42,134,Portal/MemberFirm/SecuritySteward,Nadra,Midanik
+53,CGOV,FIERA CAPITAL CORP.                     ,CGOV ,cpx_5096,midanina,nmidanik@fieracapital.com,11/20/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,Nadra,Midanik
+1134,NBFI,NATIONAL BANK FINANCIAL INC.,     ,NULL,nontanan.sirirattananon,nontanan.sirirattananon@nbc.ca,11/19/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Nontanan (Marc),Sirirattananon
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_3154,nishant.patil,npatil@fostergroup.ca,10/30/2026 16:26,134,Portal/MemberFirm/SecuritySteward,Nishant,Patil
+1420,ALTA,ATB CAPITAL MARKETS CORP                ,     ,cpx_5704,nancy.peck,npeck@altacorpcapital.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Nancy,Peck
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_2686,walkenat,nwalker@newportprivatewealth.ca,11/20/2026 11:53,134,Portal/MemberFirm/SecuritySteward,Natalie,Walker
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_2686,walkenat,nwalker@newportprivatewealth.ca,11/20/2026 11:53,171,Portal/MemberFirm/SecuritySigningOfficer,Natalie,Walker
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Océane.Chen,Oceane.Chen@iawealth.com,1/21/2025 14:16,134,Portal/MemberFirm/SecuritySteward,Océane,Chen
+463,COR,NBIN                                    ,TEST1,cpx_2477,vato001,odner.vatelia@bnc.ca,11/6/2026,134,Portal/MemberFirm/SecuritySteward,Odner,Vatelia
+463,COR,NBIN                                    ,TEST1,cpx_2477,vato001,odner.vatelia@bnc.ca,11/6/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Odner,Vatelia
+463,COR,NBIN                                    ,TEST1,cpx_2477,vato001,odner.vatelia@bnc.ca,11/6/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Odner,Vatelia
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2mpr,Olivier.Paquette,Olivier.Paquette@ia.ca,10/15/2026 9:48,134,Portal/MemberFirm/SecuritySteward,Olivier,Paquette
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_12809,Oded.Orgil,oorgil@sightlineweatlhmgt.com,NULL,134,Portal/MemberFirm/SecuritySteward,Oded,Orgil
+463,COR,NBIN                                    ,TEST1,206,Pannin.Sukkre,pannin.sukkre@nbc.ca,11/23/2026,134,Portal/MemberFirm/SecuritySteward,Pannin,Sukkre
+463,COR,NBIN                                    ,TEST1,206,Pannin.Sukkre,pannin.sukkre@nbc.ca,11/23/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Pannin,Sukkre
+463,COR,NBIN                                    ,TEST1,206,Pannin.Sukkre,pannin.sukkre@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Pannin,Sukkre
+463,COR,NBIN                                    ,     ,cpx_8619,Passakorn.Pratumpol,passakorn.pratumpol@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Passakorn,Pratumpol
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_4925,Patricia.Patenaude,patricia.patenaude@wellington-altus.ca,11/23/2026 10:04,134,Portal/MemberFirm/SecuritySteward,Patricia,Patenaude
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_4925,Patricia.Patenaude,patricia.patenaude@wellington-altus.ca,11/23/2026 10:04,171,Portal/MemberFirm/SecuritySigningOfficer,Patricia,Patenaude
+274,CEBN,COURTAGE DIRECT BANQUE NATIONALE INC.   ,     ,cpx_8578,BOUP008,patrick.boutin@bnc.ca,11/23/2026 9:18,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Patrick,Boutin
+1459,MCLEA,CWB WEALTH PARTNERS LTD.                ,     ,cpx_5760,Pauline.Davison,pauline.davison@cwbwp.com,10/30/2026 15:13,134,Portal/MemberFirm/SecuritySteward,Pauline,Davison
+1459,MCLEA,CWB WEALTH PARTNERS LTD.                ,     ,cpx_5760,Pauline.Davison,pauline.davison@cwbwp.com,10/30/2026 15:13,171,Portal/MemberFirm/SecuritySigningOfficer,Pauline,Davison
+274,CEBN,COURTAGE DIRECT BANQUE NATIONALE INC.   ,     ,cpx_8577,BROP003,paulstanley.brouard@bnc.ca,11/19/2026 13:14,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Paul Stanley,Brouard
+920,FRASR,FRASER MACKENZIE LTD                    ,     ,NULL,paul.bradl,pbradley@frasermackenzie.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Paul,Bradley
+920,FRASR,FRASER MACKENZIE LTD                    ,     ,NULL,paul.bradl,pbradley@frasermackenzie.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Paul,Bradley
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3185,Phil.Casarotto,pcasarotto@pwlcapital.com,10/5/2026 11:45,134,Portal/MemberFirm/SecuritySteward,Phil,Casarotto
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_3185,Phil.Casarotto,pcasarotto@pwlcapital.com,10/5/2026 11:45,171,Portal/MemberFirm/SecuritySigningOfficer,Phil,Casarotto
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_pbesler,peter.besler,Peter.Besler@iaprivatewealth.ca,11/20/2026 13:40,171,Portal/MemberFirm/SecuritySigningOfficer,Peter,Besler
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5045,peter.gray,peter.gray@wellington-altus.ca,11/19/2026 16:58,134,Portal/MemberFirm/SecuritySteward,Peter,Gray
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_5045,peter.gray,peter.gray@wellington-altus.ca,11/19/2026 16:58,171,Portal/MemberFirm/SecuritySigningOfficer,Peter,Gray
+871,AIMI,AVENUE INVESTMENT MANAGEMENT INC        ,AIMI ,cpx_6392,gardnpau,pgardner@avenueinvestment.com,11/19/2026 9:42,134,Portal/MemberFirm/SecuritySteward,Paul,Gardner
+871,AIMI,AVENUE INVESTMENT MANAGEMENT INC        ,AIMI ,cpx_6392,gardnpau,pgardner@avenueinvestment.com,11/19/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,Paul,Gardner
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Philip.Papadatos@sunlife.com,Philip.Papadatos,philip.papadatos@sunlife.com,11/17/2026 9:07,134,Portal/MemberFirm/SecuritySteward,Philip,Papadatos
+274,CEBN,COURTAGE DIRECT BANQUE NATIONALE INC.   ,     ,cpx_8576,betp002,phillip.betournay@bnc.ca,11/20/2026 10:53,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Phillip,Betournay
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,TORON,cpx_3158,hirstp,PHirst@friedberg.ca,11/23/2026 10:08,134,Portal/MemberFirm/SecuritySteward,Paul,Hirst
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,TORON,cpx_3158,hirstp,PHirst@friedberg.ca,11/23/2026 10:08,171,Portal/MemberFirm/SecuritySigningOfficer,Paul,Hirst
+1269,EJMAP,EDWARD JONES                            ,     ,cpx_11322,Prashanth.Basavarajappa,Prashanth.Basavarajappa@edwardjones.com,NULL,134,Portal/MemberFirm/SecuritySteward,Prashanth,Basavarajappa
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_12985,Preetinder.Gill,preetinder.gill@wellington-altus.ca,11/12/2026 3:23,134,Portal/MemberFirm/SecuritySteward,Preetinder,Gill
+120,TE,T.E INVESTMENT COUNSEL                  ,TE   ,cpx_6347,pascal.thompson,pthompson@tewealth.com,2/20/2026 11:18,171,Portal/MemberFirm/SecuritySigningOfficer,Pascal,Thompson
+1425,CWPC,HARBOURFRONT WEALTH MANAGEMENT INC.     ,     ,cpx_12972,Pritesh.Vaid,PVaid@harbourfrontwealth.com,11/10/2026 12:41,134,Portal/MemberFirm/SecuritySteward,Pritesh,Vaid
+1425,CWPC,HARBOURFRONT WEALTH MANAGEMENT INC.     ,     ,cpx_12972,Pritesh.Vaid,PVaid@harbourfrontwealth.com,11/10/2026 12:41,171,Portal/MemberFirm/SecuritySigningOfficer,Pritesh,Vaid
+393,KJHAR,HARBOURFRONT WEALTH MANAGEMENT INC.,KJHAR,cpx_12975,Pritesh.Vaid2,PVaid@harbourfrontwealth.com,8/31/2026 13:37,134,Portal/MemberFirm/SecuritySteward,Pritesh,Vaid
+393,KJHAR,HARBOURFRONT WEALTH MANAGEMENT INC.,KJHAR,cpx_12975,Pritesh.Vaid2,PVaid@harbourfrontwealth.com,8/31/2026 13:37,171,Portal/MemberFirm/SecuritySigningOfficer,Pritesh,Vaid
+291,ROTH,HARBOURFRONT WEALTH MANAGEMENT INC.,     ,cpx_12973,Pritesh.Vaid1,PVaid@harbourfrontwealth.com,11/17/2026 11:34,134,Portal/MemberFirm/SecuritySteward,Pritesh,Vaid
+291,ROTH,HARBOURFRONT WEALTH MANAGEMENT INC.,     ,cpx_12973,Pritesh.Vaid1,PVaid@harbourfrontwealth.com,11/17/2026 11:34,171,Portal/MemberFirm/SecuritySigningOfficer,Pritesh,Vaid
+60,FRIED,FRIEDBERG MERCANTILE GROUP              ,     ,cpx_3164,Paige.Vukson,pvukson@friedberg.ca,9/22/2026 12:21,134,Portal/MemberFirm/SecuritySteward,Paige,Vukson
+1460,NICOL,NICOLA WEALTH MANAGEMENT LTD.           ,NICOL,cpx_5971,QUAN.ADDINK,qaddink@nicolawealth.com,11/20/2026 16:03,171,Portal/MemberFirm/SecuritySigningOfficer,QUAN,ADDINK
+463,COR,NBIN                                    ,     ,5,Radhika.Sharma,radhika.sharma@nbc.ca,11/19/2026 11:03,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Radhika,Sharma
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Radovan.Bosnic,Radovan.Bosnic@ia.ca,11/10/2026 12:43,134,Portal/MemberFirm/SecuritySteward,Radovan,Bosnic
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Radovan.Bosnic,Radovan.Bosnic@ia.ca,11/10/2026 12:43,171,Portal/MemberFirm/SecuritySigningOfficer,Radovan,Bosnic
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmaajr,Rainbow.Feng,Rainbow.Feng@iawealth.com,2/24/2026 11:09,134,Portal/MemberFirm/SecuritySteward,Rainbow,Feng
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_li6ej3,Raphael.Song,raphael.song@ia.ca,9/1/2026 13:18,134,Portal/MemberFirm/SecuritySteward,Raphael,Song
+463,COR,NBIN                                    ,TEST1,64,norrisra,ray.norris@nbc.ca,11/17/2026 12:37,134,Portal/MemberFirm/SecuritySteward,Ray,Norris
+463,COR,NBIN                                    ,TEST1,64,norrisra,ray.norris@nbc.ca,11/17/2026 12:37,171,Portal/MemberFirm/SecuritySigningOfficer,Ray,Norris
+463,COR,NBIN                                    ,TEST1,64,norrisra,ray.norris@nbc.ca,11/17/2026 12:37,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Ray,Norris
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8569,108223,raymond.bertrand@bnc.ca,11/20/2026 11:47,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Raymond,Bertrand
+120,TE,T.E INVESTMENT COUNSEL                  ,TE   ,cpx_5626,broadrob,rbroad@teic.com,11/19/2026 15:03,171,Portal/MemberFirm/SecuritySigningOfficer,Robert,Broad
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,cpx_2943,croftr,rcroft@croftgroup.com,11/19/2026 9:42,171,Portal/MemberFirm/SecuritySigningOfficer,Richard,Croft
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,reanna.ramkalawan,Reanna.Ramkalawan@ig.ca,11/13/2026 11:20,134,Portal/MemberFirm/SecuritySteward,Reanna,Ramkalawan
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,reanna.ramkalawan,Reanna.Ramkalawan@ig.ca,11/13/2026 11:20,171,Portal/MemberFirm/SecuritySigningOfficer,Reanna,Ramkalawan
+268,FLOYD,BIRCHLEAF INVESTMENTS INC.              ,FLOYD,cpx_5316,Bob.Floyd,rfloyd@birchleafinv.com,10/9/2026 9:09,171,Portal/MemberFirm/SecuritySigningOfficer,Bob,Floyd
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Rivka.Elfaks@sunlife.com,Rivka.Elfaks,rivka.elfaks@sunlife.com,11/19/2026 9:43,134,Portal/MemberFirm/SecuritySteward,Rivka,Elfaks
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Rivka.Elfaks@sunlife.com,Rivka.Elfaks,rivka.elfaks@sunlife.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,Rivka,Elfaks
+791,RMB,RMB GESTION DU PATRIMOINE INC           ,RMB  ,cpx_8094,bastarar,robertbastarache@rmbgp.ca,11/23/2026 10:06,171,Portal/MemberFirm/SecuritySigningOfficer,Robert,Bastarache
+463,COR,NBIN                                    ,     ,cpx_2654,Roland.Nathaniel,roland.nathaniel@nbc.ca,11/22/2026 11:07,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Roland,Nathaniel
+463,COR,NBIN                                    ,TEST1,905,dasilvaro,ron.dasilva@nbc.ca,11/23/2026 9:01,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Ron,DaSilva
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Rose.DeRosa,Rose.DeRosa@iagto.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Rose,DeRosa
+463,COR,NBIN                                    ,     ,cpx_8564,RosePaula.Matereza,rosepaula.matereza@bnc.ca,11/23/2026 9:16,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Rose-Paula,Matereza
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadmr,Roxana.SanchezVelazquez2,Roxana.Sanchez@iawealth.com,NULL,134,Portal/MemberFirm/SecuritySteward,Roxana,Sanchez Velazquez2
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_13030,Ralph.Santoli,rsantoli@sightlinewealthmgt.com,11/16/2026,134,Portal/MemberFirm/SecuritySteward,Ralph,Santoli
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_13030,Ralph.Santoli,rsantoli@sightlinewealthmgt.com,11/16/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Ralph,Santoli
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_rvickery,rayleen.vickery,RVickery@IAGTO.CA,11/10/2026 15:49,134,Portal/MemberFirm/SecuritySteward,Rayleen,Vickery
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_rvickery,rayleen.vickery,RVickery@IAGTO.CA,11/10/2026 15:49,171,Portal/MemberFirm/SecuritySigningOfficer,Rayleen,Vickery
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8563,kohs002,saboor.kohnaward@bnc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Saboor,Kohnaward
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,CALGA,cpx_11575,Sagar.Parmar1,sagar.parmar@ofg.com,11/20/2026 14:47,134,Portal/MemberFirm/SecuritySteward,Sagar,Parmar
+93,EMERG,OPTIMIZE WEALTH MANAGEMENT              ,CALGA,cpx_11575,Sagar.Parmar1,sagar.parmar@ofg.com,11/20/2026 14:47,171,Portal/MemberFirm/SecuritySigningOfficer,Sagar,Parmar
+1354,MERLN,"WELLS FARGO SECURITIES CANADA, LTD.     ",     ,cpx_12449,Noel.Sai,sainoel@wellsfargo.com,11/17/2026 15:24,134,Portal/MemberFirm/SecuritySteward,Noel,Sai
+1417,PERIM,PERIMETER MARKETS INC.                  ,     ,cpx_4741,Samaneh.Momeni,samaneh.momeni@pfin.ca,3/13/2025 9:31,134,Portal/MemberFirm/SecuritySteward,Samaneh,Momeni
+1417,PERIM,PERIMETER MARKETS INC.                  ,     ,cpx_4741,Samaneh.Momeni,samaneh.momeni@pfin.ca,3/13/2025 9:31,171,Portal/MemberFirm/SecuritySigningOfficer,Samaneh,Momeni
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadko,Samantha.Robinson,Samantha.Robinson@iagto.ca,11/20/2026 11:53,134,Portal/MemberFirm/SecuritySteward,Samantha,Robinson
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadko,Samantha.Robinson,Samantha.Robinson@iagto.ca,11/20/2026 11:53,171,Portal/MemberFirm/SecuritySigningOfficer,Samantha,Robinson
+1269,EJMAP,EDWARD JONES                            ,     ,NULL,Sam.Merekar,sameer.merekar@edwardjones.com,NULL,134,Portal/MemberFirm/SecuritySteward,Sam,Merekar
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapgj,Samia.Guessous,Samia.Guessous@iagto.ca,11/19/2026 10:57,134,Portal/MemberFirm/SecuritySteward,Samia,Guessous
+463,COR,NBIN                                    ,QWSTF,h560rio,h560rio,samridhi.manchanda@nbc.ca,11/20/2026,134,Portal/MemberFirm/SecuritySteward,Samridhi,Manchanda
+463,COR,NBIN                                    ,QWSTF,h560rio,h560rio,samridhi.manchanda@nbc.ca,11/20/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Samridhi,Manchanda
+463,COR,NBIN                                    ,QWSTF,h560rio,h560rio,samridhi.manchanda@nbc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Samridhi,Manchanda
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8562,AVRS001,samuel.avril@bnc.ca,11/20/2026 12:26,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Samuel,Avril
+463,COR,NBIN                                    ,     ,cpx_2485,gahs001,SAMUEL.GAHOMERA@BNC.CA,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Samuel,Gahomera
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,sandra.brown,sandra.brown@ig.ca,2/20/2023 8:40,134,Portal/MemberFirm/SecuritySteward,Sandra,Brown
+61,IGSI,INVESTORS GROUP SECURITIES INC          ,     ,NULL,sandra.brown,sandra.brown@ig.ca,2/20/2023 8:40,171,Portal/MemberFirm/SecuritySigningOfficer,Sandra,Brown
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Sandy.Lucien,Sandy.Lucien@ia.ca,10/23/2025 12:59,134,Portal/MemberFirm/SecuritySteward,Sandy,Lucien
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,NULL,Sandy.Lucien,Sandy.Lucien@ia.ca,10/23/2025 12:59,171,Portal/MemberFirm/SecuritySigningOfficer,Sandy,Lucien
+463,COR,NBIN                                    ,TEST1,357,Sarah.Cabott,sarah.cabott@nbc.ca,11/19/2026 16:33,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Sarah,Cabott
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_slaprade,sarah.laprade,sarah.laprade@iagto.ca,11/10/2026 13:53,134,Portal/MemberFirm/SecuritySteward,Sarah,Laprade
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_slaprade,sarah.laprade,sarah.laprade@iagto.ca,11/10/2026 13:53,171,Portal/MemberFirm/SecuritySigningOfficer,Sarah,Laprade
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_9471,Sarah.San,sarah.san@aimstar.ca,11/23/2026 10:24,134,Portal/MemberFirm/SecuritySteward,Sarah,San
+463,COR,NBIN                                    ,     ,cpx_13926,Sarah.Shahnavaz,sarah.shahnavaz@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Sarah,Shahnavaz
+1269,EJMAP,EDWARD JONES                            ,     ,NULL,Sarah.Speno,Sarah.Speno@edwardjones.com,9/3/2024 13:39,134,Portal/MemberFirm/SecuritySteward,Sarah,Speno
+337,JCC,JC CLARK LTD                            ,JCCL ,cpx_4223,SARAH.NOBLE,sarah@jcclark.com,11/23/2026 9:14,134,Portal/MemberFirm/SecuritySteward,SARAH,NOBLE---
+337,JCC,JC CLARK LTD                            ,JCCL ,cpx_4223,SARAH.NOBLE,sarah@jcclark.com,11/23/2026 9:14,171,Portal/MemberFirm/SecuritySigningOfficer,SARAH,NOBLE---
+463,COR,NBIN                                    ,     ,96,chawlasa,sarina.chawla@nbc.ca,11/19/2026,134,Portal/MemberFirm/SecuritySteward,Sarina,Chawla
+463,COR,NBIN                                    ,     ,96,chawlasa,sarina.chawla@nbc.ca,11/19/2026,171,Portal/MemberFirm/SecuritySigningOfficer,Sarina,Chawla
+463,COR,NBIN                                    ,     ,96,chawlasa,sarina.chawla@nbc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Sarina,Chawla
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2850,Stephanie.Bayer,sbayer@acumencapital.com,11/23/2026 9:45,134,Portal/MemberFirm/SecuritySteward,Stephanie,Bayer
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2850,Stephanie.Bayer,sbayer@acumencapital.com,11/23/2026 9:45,171,Portal/MemberFirm/SecuritySigningOfficer,Stephanie,Bayer
+230,CTIC,CTI CAPITAL SECURITIES INC.             ,     ,cpx_3110,stephan.buu,sbuu@cticap.com,11/3/2026 15:23,134,Portal/MemberFirm/SecuritySteward,Stephan,Buu
+230,CTIC,CTI CAPITAL SECURITIES INC.             ,     ,cpx_3110,stephan.buu,sbuu@cticap.com,11/3/2026 15:23,171,Portal/MemberFirm/SecuritySigningOfficer,Stephan,Buu
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,425,Shilei.Chen,schen@croftgroup.com,10/2/2026 16:59,134,Portal/MemberFirm/SecuritySteward,Shilei,Chen
+82,CROFT,R. N. CROFT FINANCIAL INC               ,CROFT,425,Shilei.Chen,schen@croftgroup.com,10/2/2026 16:59,171,Portal/MemberFirm/SecuritySigningOfficer,Shilei,Chen
+1463,SHERB,SHERBROOKE STREET CAPITAL INC.          ,     ,cpx_3216,scott.wilson12,scott@shercap.com,11/23/2026 9:11,134,Portal/MemberFirm/SecuritySteward,Scott,Wilson
+1463,SHERB,SHERBROOKE STREET CAPITAL INC.          ,     ,cpx_3216,scott.wilson12,scott@shercap.com,11/23/2026 9:11,171,Portal/MemberFirm/SecuritySigningOfficer,Scott,Wilson
+430,PODOL,LAKESHORE SECURITIES INC.               ,OAKVI,cpx_3168,gonnesha,sdg@lakeshoresecurities.ca,11/17/2026 17:10,134,Portal/MemberFirm/SecuritySteward,Shawn,Gonneau
+430,PODOL,LAKESHORE SECURITIES INC.               ,OAKVI,cpx_3168,gonnesha,sdg@lakeshoresecurities.ca,11/17/2026 17:10,171,Portal/MemberFirm/SecuritySigningOfficer,Shawn,Gonneau
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadoc,Sean.Kelleway,Sean.Kelleway@iagto.ca,11/11/2026 14:28,134,Portal/MemberFirm/SecuritySteward,Sean,Kelleway
+463,COR,NBIN                                    ,     ,cpx_8605,Serge.Girard,sergeb.girard@bnc.ca,11/23/2026 9:13,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Serge,Girard
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_7569,Olena.Li,service@aimstar.ca,4/29/2025 15:19,134,Portal/MemberFirm/SecuritySteward,Mark,Ma
+430,PODOL,LAKESHORE SECURITIES INC.               ,     ,cpx_3686,Stephanie.Fournier,sfournier@lakeshoresecurities.ca,11/2/2026 9:05,134,Portal/MemberFirm/SecuritySteward,Stephanie,Fournier
+213,RABIN,GOODWOOD INC                            ,     ,cpx_13633,Sarah.Guina,sguina@npw.ca,11/16/2026 11:49,171,Portal/MemberFirm/SecuritySigningOfficer,Sarah,Guina
+1099,OMGWM,OMG WEALTH MANAGEMENT INC.              ,     ,412,Shawn.Kodejs,shawn.kodejs@omg.ca,11/6/2026 11:03,134,Portal/MemberFirm/SecuritySteward,Shawn,Kodejs
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2bjc,Shikhar.Sethi,shikhar.sethi@ia.ca,1/23/2026 14:44,134,Portal/MemberFirm/SecuritySteward,Shikhar,Sethi
+463,COR,NBIN                                    ,TEST1,MEHS007,Shivani.Mehrotra,shivani.mehrotra@nbc.ca,11/19/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Shivani,Mehrotra
+738,MIRAB,MIRABAUD CANADA INC                     ,     ,cpx_4407,Simon.Riat,Simon.Riat@mirabaud.ca,7/24/2026 8:15,134,Portal/MemberFirm/SecuritySteward,Simon,Riat
+738,MIRAB,MIRABAUD CANADA INC                     ,     ,cpx_4407,Simon.Riat,Simon.Riat@mirabaud.ca,7/24/2026 8:15,171,Portal/MemberFirm/SecuritySigningOfficer,Simon,Riat
+1058,IHRIC,LISSOM INVESTMENT MANAGEMENT INC.       ,IHRIC,cpx_4219,khokhasa,skhokhar@lissom.ca,11/20/2026 11:11,171,Portal/MemberFirm/SecuritySigningOfficer,Samira,Khokhar
+19,FOST,FOSTER & ASSOCIATES FINANCIAL SERVICES I,TORON,cpx_9171,Shirley.Lake,slake@fostergroup.ca,11/23/2026 9:46,134,Portal/MemberFirm/SecuritySteward,Shirley,Lake
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li2mpt,Spencer.Way,Spencer.Way@ia.ca,11/13/2026 13:07,134,Portal/MemberFirm/SecuritySteward,Spencer,Way
+1340,SECUT,SECUTOR CAPITAL MANAGEMENT CORP.        ,     ,cpx_3387,sam.pozner,spozner@secutor.ca,11/23/2026 10:01,134,Portal/MemberFirm/SecuritySteward,Sam,Pozner
+463,COR,NBIN                                    ,     ,NULL,Srasvorlak.Phourng,srasvorlak.phourng@nbc.ca,6/23/2026 9:39,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Srasvorlak,Phourng
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_stephane.morghese,Stephane.Morghese,stephane.morghese@iaprivatewealth.ca,11/16/2026 10:56,134,Portal/MemberFirm/SecuritySteward,Stephane,Morghese
+1429,PERON,CUMBERLAND PRIVATE WEALTH MANAGEMENT INC,     ,cpx_5731,STEPHANIE.Makrugin,STEPHANIEM@CPWM.CA,11/23/2026 0:19,134,Portal/MemberFirm/SecuritySteward,STEPHANIE,Makrugin
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Supar.Hassan@sunlife.com,Supar.Hassan,Supar.Hassan@sunlife.com,11/23/2026 9:00,134,Portal/MemberFirm/SecuritySteward,Supar,Hassan
+463,COR,NBIN                                    ,TEST1,cpx_2483,ADAS002,suresh.adapa@nbc.ca,11/23/2026 7:12,134,Portal/MemberFirm/SecuritySteward,Suresh,Adapa
+463,COR,NBIN                                    ,TEST1,cpx_2483,ADAS002,suresh.adapa@nbc.ca,11/23/2026 7:12,171,Portal/MemberFirm/SecuritySigningOfficer,Suresh,Adapa
+463,COR,NBIN                                    ,TEST1,cpx_2483,ADAS002,suresh.adapa@nbc.ca,11/23/2026 7:12,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Suresh,Adapa
+463,COR,NBIN                                    ,TEST1,8,susanne.clifford,susanne.clifford@nbc.ca,11/18/2026 9:33,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Susanne,Clifford
+463,COR,NBIN                                    ,     ,NULL,SutimaMild.Koedsamut,sutima.koedsamut@nbc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Sutima (Mild),Koedsamut
+463,COR,NBIN                                    ,TEST1,NULL,SuwareePrim.Wongwachira,suwaree.wongwachira@nbc.ca,11/23/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Suwaree (Prim),Wongwachira
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3582,Sarah.VanAakan,svanaaken@goodwoodfunds.com,11/18/2026 16:01,134,Portal/MemberFirm/SecuritySteward,Sarah,Van Aakan
+213,RABIN,GOODWOOD INC                            ,     ,cpx_3582,Sarah.VanAakan,svanaaken@goodwoodfunds.com,11/18/2026 16:01,171,Portal/MemberFirm/SecuritySigningOfficer,Sarah,Van Aakan
+463,COR,NBIN                                    ,     ,cpx_8560,Tairy.DayArchambault,tairy.dayarchambault@bnc.ca,11/23/2026 9:46,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Tairy,Day Archambault
+463,COR,NBIN                                    ,     ,cpx_11405,Taksh.Shah,taksh.shah@nbc.ca,11/20/2026,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Taksh,Shah
+1421,MECKL,MECKELBORG FINANCIAL GROUP              ,MECKL,cpx_3402,tammy.moynham,tammy@mfgltd.com,11/18/2026 14:59,134,Portal/MemberFirm/SecuritySteward,Tammy,Moynham
+1496,PHY,PORTFOLIO HIWAY INC.                    ,     ,cpx_3182,Teddy.Cha2,tcha@portfoliohiway.com,11/21/2026 11:44,134,Portal/MemberFirm/SecuritySteward,Teddy,Cha
+1496,PHY,PORTFOLIO HIWAY INC.                    ,     ,cpx_3182,Teddy.Cha2,tcha@portfoliohiway.com,11/21/2026 11:44,171,Portal/MemberFirm/SecuritySigningOfficer,Teddy,Cha
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_tcolosimo,Teresa.Colosimo,TColosimo@iagto.ca,11/14/2023 14:07,134,Portal/MemberFirm/SecuritySteward,Teresa,Colosimo
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_tserban,Teodora.Serban,teodora.serban@iagto.ca,5/28/2026 12:03,134,Portal/MemberFirm/SecuritySteward,Teodora,Serban
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7882,Terrence.Johnstone,Terrence.Johnstone@md.ca,11/19/2026 9:26,134,Portal/MemberFirm/SecuritySteward,Terrence,Johnstone
+1175,MDSUB,MD SUBLEDGER                            ,     ,cpx_7882,Terrence.Johnstone,Terrence.Johnstone@md.ca,11/19/2026 9:26,171,Portal/MemberFirm/SecuritySigningOfficer,Terrence,Johnstone
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,NULL,ACUMEN.TEST,test@ols.ca,5/8/2026 15:31,171,Portal/MemberFirm/SecuritySigningOfficer,ACUMEN,TEST
+1466,ACKER,ACKER FINLEY INC.                       ,     ,cpx_3999,Thanh.Giang,tgiang@ackerfinley.com,4/29/2026 10:35,134,Portal/MemberFirm/SecuritySteward,Thanh,Giang
+1466,ACKER,ACKER FINLEY INC.                       ,     ,cpx_3999,Thanh.Giang,tgiang@ackerfinley.com,4/29/2026 10:35,171,Portal/MemberFirm/SecuritySigningOfficer,Thanh,Giang
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmapeo,Thomas.Levy,Thomas.Levy@iawealth.com,3/30/2026 14:46,134,Portal/MemberFirm/SecuritySteward,Thomas,Levy
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmadcr,ThuyLoan.Le,ThuyLoan.Le@iawealth.com,11/20/2026 16:06,134,Portal/MemberFirm/SecuritySteward,Thuy Loan,Le
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmadcr,ThuyLoan.Le,ThuyLoan.Le@iawealth.com,11/20/2026 16:06,171,Portal/MemberFirm/SecuritySigningOfficer,Thuy Loan,Le
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Tia.Lee@sunlife.com,Tia.Lee,Tia.Lee@sunlife.com,11/20/2026 10:16,134,Portal/MemberFirm/SecuritySteward,Tia,Lee
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Tia.Lee@sunlife.com,Tia.Lee,Tia.Lee@sunlife.com,11/20/2026 10:16,171,Portal/MemberFirm/SecuritySigningOfficer,Tia,Lee
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_10786,Turk.Jabbar1,tjabbar@newportprivatewealth.ca,11/20/2026 11:49,134,Portal/MemberFirm/SecuritySteward,Turk,Jabbar
+327,MERCH,NEWPORT PRIVATE WEALTH INC.             ,MERCH,cpx_10786,Turk.Jabbar1,tjabbar@newportprivatewealth.ca,11/20/2026 11:49,171,Portal/MemberFirm/SecuritySigningOfficer,Turk,Jabbar
+1451,LIQUI,LIQUIDNET CANADA INC.                   ,     ,cpx_4245,Telisha.Longmore,tlongmore@liquidnet.com,10/2/2026 8:06,134,Portal/MemberFirm/SecuritySteward,Telisha,Longmore
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3257,monahtom,tmonahas@clarussecurities.com,11/6/2026 9:39,134,Portal/MemberFirm/SecuritySteward,Tom,Monahas
+989,CLRUS,CLARUS SECURITIES INC                   ,     ,cpx_3257,monahtom,tmonahas@clarussecurities.com,11/6/2026 9:39,171,Portal/MemberFirm/SecuritySigningOfficer,Tom,Monahas
+1456,PWLCP,PWL CAPITAL INC.                        ,PWL  ,cpx_13768,Tinashe.Murwisi,tmurwisi@pwlcapital.com,11/17/2026 8:42,134,Portal/MemberFirm/SecuritySteward,Tinashe,Murwisi
+1269,EJMAP,EDWARD JONES                            ,     ,cpx_11413,Toni.McMillion,toni.mcmillion@edwardjones.com,8/17/2026 10:08,134,Portal/MemberFirm/SecuritySteward,Toni,McMillion
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_7570,Tony.Yuan,tony.yuan@aimstar.ca,11/23/2026 10:23,134,Portal/MemberFirm/SecuritySteward,Tony,Yuan
+1502,AIMS,AIMSTAR CAPITAL GROUP INC.              ,     ,cpx_7570,Tony.Yuan,tony.yuan@aimstar.ca,11/23/2026 10:23,171,Portal/MemberFirm/SecuritySigningOfficer,Tony,Yuan
+430,PODOL,LAKESHORE SECURITIES INC.               ,     ,cpx_3166,rohneto,trohne@lakeshoresecurities.ca,11/19/2026 15:03,134,Portal/MemberFirm/SecuritySteward,Todd,Rohne
+430,PODOL,LAKESHORE SECURITIES INC.               ,     ,cpx_3166,rohneto,trohne@lakeshoresecurities.ca,11/19/2026 15:03,171,Portal/MemberFirm/SecuritySigningOfficer,Todd,Rohne
+53,CGOV,FIERA CAPITAL CORP.                     ,CGOV ,cpx_6672,tanya.yang,tyang@fieracapital.com,11/18/2026 11:18,134,Portal/MemberFirm/SecuritySteward,Tanya,Yang
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmadmm,Vassy.Kazarina,Vassy.Kazarina@iagto.ca,7/21/2026 9:19,134,Portal/MemberFirm/SecuritySteward,Vassy,Kazarina
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2851,Violet.Grekova,vgrekova@acumencapital.com,11/23/2026 10:05,134,Portal/MemberFirm/SecuritySteward,Violette,Grekova
+92,ACUME,ACUMEN CAPITAL FINANCE PARTNERS LIMITED ,     ,cpx_2851,Violet.Grekova,vgrekova@acumencapital.com,11/23/2026 10:05,171,Portal/MemberFirm/SecuritySigningOfficer,Violette,Grekova
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Vicky.Edmond,vicky.edmond@bnc.ca,11/20/2026 13:27,134,Portal/MemberFirm/SecuritySteward,Vicky,Edmond
+1494,NTRST,NATIONAL BANK TRUST,     ,NULL,Vicky.Edmond,vicky.edmond@bnc.ca,11/20/2026 13:27,171,Portal/MemberFirm/SecuritySigningOfficer,Vicky,Edmond
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmadjt,Violette.Moussouni,Violette.Moussouni@iagto.ca,10/21/2026 14:27,134,Portal/MemberFirm/SecuritySteward,Violette,Moussouni
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,     ,indall_vmadjt,Violette.Moussouni,Violette.Moussouni@iagto.ca,10/21/2026 14:27,171,Portal/MemberFirm/SecuritySigningOfficer,Violette,Moussouni
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmbaah,Vladimir.Shabalin,Vladimir.Shabalin@iagto.ca,11/20/2026 17:55,134,Portal/MemberFirm/SecuritySteward,Vladimir,Shabalin
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_vmbaah,Vladimir.Shabalin,Vladimir.Shabalin@iagto.ca,11/20/2026 17:55,171,Portal/MemberFirm/SecuritySigningOfficer,Vladimir,Shabalin
+342,FOYST,"FOYSTON, GORDON & PAYNE                 ",FOYST,cpx_5010,william.cunningham,WCunningham@foyston.com,11/19/2026 9:43,171,Portal/MemberFirm/SecuritySigningOfficer,William,Cunningham
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Wendy.Wu@sunlife.com,Wendy.Wu,wendy.wu@sunlife.com,11/20/2026 15:49,134,Portal/MemberFirm/SecuritySteward,Wendy,Wu
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Wendy.Wu@sunlife.com,Wendy.Wu,wendy.wu@sunlife.com,11/20/2026 15:49,171,Portal/MemberFirm/SecuritySigningOfficer,Wendy,Wu
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4847,Winnie.Mak,wmak@sightlinewealthmgt.com,11/23/2026 8:48,134,Portal/MemberFirm/SecuritySteward,Winnie,Mak
+1491,SPRTT,SIGHTLINE WEALTH MANAGMENT LP.          ,     ,cpx_4847,Winnie.Mak,wmak@sightlinewealthmgt.com,11/23/2026 8:48,171,Portal/MemberFirm/SecuritySigningOfficer,Winnie,Mak
+693,GLOBE,DAVIS-REA LTD                           ,GLOBE,cpx_7598,sanitawe,wsanita@davisrea.com,11/19/2026 15:03,134,Portal/MemberFirm/SecuritySteward,Wendy,Sanita
+693,GLOBE,DAVIS-REA LTD                           ,GLOBE,cpx_7598,sanitawe,wsanita@davisrea.com,11/19/2026 15:03,171,Portal/MemberFirm/SecuritySigningOfficer,Wendy,Sanita
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,NULL,Yashnee.Jayram2,Yashnee.Jayram@iagto.ca,8/20/2025,171,Portal/MemberFirm/SecuritySigningOfficer,Yashnee,Jayram2
+29,KIZEM,WELLINGTON-ALTUS PRIVATE WEALTH INC.    ,WAPW ,cpx_14435,Yasir.Ahmed,yasir.zaidi@wellington-altus.ca,NULL,134,Portal/MemberFirm/SecuritySteward,Yasir,Ahmed
+463,COR,NBIN                                    ,TEST1,358,yassimina.liamidi1,yassimina.liamidi@bnc.ca,11/20/2026 16:28,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Yassimina,Liamidi
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6ark,Yun.Li1,yun.li@ia.ca,11/18/2026 13:37,134,Portal/MemberFirm/SecuritySteward,Yun,Li1
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,IAS  ,indall_li6ark,Yun.Li1,yun.li@ia.ca,11/18/2026 13:37,171,Portal/MemberFirm/SecuritySigningOfficer,Yun,Li1
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Zachary.Majumdar@sunlife.com,Zachary.Majumdar2,Zachary.Majumdar@sunlife.com,11/20/2026 14:37,134,Portal/MemberFirm/SecuritySteward,Zachary,Majumdar
+1500,SUNL,SUN LIFE CANADA SECURITIES INC.         ,     ,sunlif_Zachary.Majumdar@sunlife.com,Zachary.Majumdar2,Zachary.Majumdar@sunlife.com,11/20/2026 14:37,171,Portal/MemberFirm/SecuritySigningOfficer,Zachary,Majumdar
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_li6esi,Zackary.Sajous,zackary.sajous@ia.ca,9/9/2026 11:19,134,Portal/MemberFirm/SecuritySteward,Zackary,Sajous
+1337,IAVM,IA PRIVATE WEALTH INC.                  ,HOLIS,indall_li6esi,Zackary.Sajous,zackary.sajous@ia.ca,9/9/2026 11:19,171,Portal/MemberFirm/SecuritySigningOfficer,Zackary,Sajous
+1,NBFI,NATIONAL BANK FINANCIAL INC.            ,     ,cpx_8554,h557aew,zinelaabidine.soufi@nbc.ca,11/20/2026 15:38,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Zinelaabidine ,Soufi
+1501,,Test INVESTORS GROUP,     ,NULL,irlina6,,10/13/2021 16:00,134,Portal/MemberFirm/SecuritySteward,Anna GIC Issuer,Irlin
+1501,,Test INVESTORS GROUP,     ,NULL,irlina6,,10/13/2021 16:00,171,Portal/MemberFirm/SecuritySigningOfficer,Anna GIC Issuer,Irlin
+463,COR,NBIN                                    ,QWSTF,NULL,h560rio- R1,,9/24/2025 11:49,134,Portal/MemberFirm/SecuritySteward,Samridhi,Manchanda
+463,COR,NBIN                                    ,QWSTF,NULL,h560rio- R1,,9/24/2025 11:49,171,Portal/MemberFirm/SecuritySigningOfficer,Samridhi,Manchanda
+463,COR,NBIN                                    ,QWSTF,NULL,h560rio- R1,,9/24/2025 11:49,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Samridhi,Manchanda
+314,EQUIS,IPC SECURITIES CORP                     ,     ,NULL,ltest3,,9/30/2026 21:13,174,Portal/MemberFirm/SuperSecuritySigningOfficer,FirstName,LastName
+290,NBCCS,NBIN (Operations)                       ,     ,KALA007,kala007,,11/20/2026 13:24,134,Portal/MemberFirm/SecuritySteward,Aradhya,Kalva
+290,NBCCS,NBIN (Operations)                       ,     ,KALA007,kala007,,11/20/2026 13:24,171,Portal/MemberFirm/SecuritySigningOfficer,Aradhya,Kalva
+290,NBCCS,NBIN (Operations)                       ,     ,KALA007,kala007,,11/20/2026 13:24,174,Portal/MemberFirm/SuperSecuritySigningOfficer,Aradhya,Kalva
+290,NBCCS,NBIN (Operations)                       ,TEST1,464,JohnCarlo.Malibiran,,8/18/2026 19:46,171,Portal/MemberFirm/SecuritySigningOfficer,John Carlo,Malibiran
+1221,TRMNG,Managed Account                         ,     ,NULL,nbcnemailcontentprofile,,11/23/2026 10:02,134,Portal/MemberFirm/SecuritySteward,Email Content Account,NBCN
+1221,TRMNG,Managed Account                         ,     ,NULL,nbcnemailcontentprofile,,11/23/2026 10:02,171,Portal/MemberFirm/SecuritySigningOfficer,Email Content Account,NBCN
